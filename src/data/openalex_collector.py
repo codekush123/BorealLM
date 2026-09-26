@@ -56,9 +56,82 @@ def main():
 
     print("Total matching works: ", data["meta"]["count"])
     print("Works returned: ", len(data["results"]))
-    first_work = data["results"][1]
-    inspect_work(first_work)
+    first_work = data["results"][0]
 
+    normalized_work = normalize_work(first_work)
+
+    print(
+        json.dumps(
+            normalized_work,
+            indent=2,
+            ensure_ascii=False,
+        )
+    )
+
+def normalize_work(work):
+    best_oa = work.get("best_oa_location") or {}
+    source = best_oa.get("source") or {}
+    topic = work.get("primary_topic") or {}
+
+    has_content = work.get("has_content") or {}
+    content_urls = work.get("content_urls") or {}
+
+    authors = []
+
+    for authorship in work.get("authorships", []):
+        author = authorship.get("author") or {}
+        name = author.get("display_name")
+
+        if name:
+            authors.append(name)
+
+    abstract = reconstruct_abstract(
+        work.get("abstract_inverted_index")
+    )
+
+    return {
+        "openalex_id": work.get("id"),
+        "doi": work.get("doi"),
+        "title": work.get("title"),
+        "abstract": abstract,
+        "year": work.get("publication_year"),
+        "citations": work.get("cited_by_count"),
+
+        "authors": authors,
+
+        "license": best_oa.get("license"),
+        "version": best_oa.get("version"),
+        "pdf_url": best_oa.get("pdf_url"),
+        "landing_page_url": best_oa.get("landing_page_url"),
+
+        "journal": source.get("display_name"),
+        "primary_topic": topic.get("display_name"),
+
+        "has_pdf": has_content.get("pdf"),
+        "has_grobid_xml": has_content.get("grobid_xml"),
+
+        "openalex_pdf_url": content_urls.get("pdf"),
+        "grobid_xml_url": content_urls.get("grobid_xml"),
+    }
+
+def reconstruct_abstract(inverted_index):
+    if not inverted_index:
+        return None
+
+    words_by_position = {}
+
+    for word, positions in inverted_index.items():
+        for position in positions:
+            words_by_position[position] = word
+
+    ordered_positions = sorted(words_by_position)
+
+    abstract = " ".join(
+        words_by_position[position]
+        for position in ordered_positions
+    )
+
+    return abstract
 
 def inspect_work(work):
     print("=" * 80)
