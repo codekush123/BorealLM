@@ -16,16 +16,17 @@ works where best OA license is (cc-by)
   and retracted is (false)
 """
 
-def fetch_works(api_key, per_page=5):
+def fetch_works(api_key, cursor="*", per_page=100):
     """
     This function will fetch all the requested parameters like which 
     paper , how many should return and who is making the request.
     Date: 22/09/2026
-    Updated: 22/09/2026
+    Updated: 03/10/2026
     """
     params = {
     "oql": OQL_QUERY,
-    "per_page": per_page,
+    "per-page": per_page,
+    "cursor": cursor,
     }
 
     headers = {
@@ -39,9 +40,46 @@ def fetch_works(api_key, per_page=5):
         timeout=30,
     )
 
+    if not response.ok:
+        print("Status code: ", response.status_code)
+        print("OpenAlex response:")
+        print(response.text)
+
     response.raise_for_status()
 
     return response.json()
+
+def fetch_all_works(api_key):
+    all_works = []
+    cursor = "*"
+    page_number = 1
+
+    while cursor:
+        print(f"Fetching page {page_number}...")
+
+        data = fetch_works(
+            api_key=api_key,
+            cursor=cursor,
+            per_page=100,
+        )
+
+        works = data["results"]
+
+        if not works:
+            break
+        
+        all_works.extend(works)
+
+        print(
+            f"Received {len(works)} works"
+            f"| Total collected: {len(all_works)}"
+        )
+
+        cursor = data["meta"]["next_cursor"]
+
+        page_number += 1
+
+    return all_works
 
 def main():
     api_key = os.getenv("OPENALEX_API_KEY")
@@ -51,22 +89,13 @@ def main():
             "OPENALEX_API_KEY is not set."
         )
 
-    data = fetch_works(api_key)
+    all_works = fetch_all_works(api_key)
+    print()
+    print("=" * 80)
+    print("COLLECTION COMPLETE")
+    print("=" * 80)
 
-
-    print("Total matching works: ", data["meta"]["count"])
-    print("Works returned: ", len(data["results"]))
-    first_work = data["results"][0]
-
-    normalized_work = normalize_work(first_work)
-
-    print(
-        json.dumps(
-            normalized_work,
-            indent=2,
-            ensure_ascii=False,
-        )
-    )
+    print("Total works collected:", len(all_works))
 
 def normalize_work(work):
     best_oa = work.get("best_oa_location") or {}
