@@ -50,6 +50,11 @@ def fetch_works(api_key, cursor="*", per_page=100):
     return response.json()
 
 def fetch_all_works(api_key):
+    """
+    This function will fetct all the mentioned pages and return the result
+    Created: 27/09/2026
+    Updated: 06/10/2026
+    """
     all_works = []
     cursor = "*"
     page_number = 1
