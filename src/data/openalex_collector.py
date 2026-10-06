@@ -4,6 +4,8 @@ import json
 
 OPENALEX_URL = "https://api.openalex.org/"
 
+OUTPUT_PATH = "src/data/manifests/lpbf_candidates.jsonl"
+
 OQL_QUERY = """
 works where best OA license is (cc-by)
   and language is (en)
@@ -86,23 +88,14 @@ def fetch_all_works(api_key):
 
     return all_works
 
-def main():
-    api_key = os.getenv("OPENALEX_API_KEY")
-
-    if not api_key:
-        raise RuntimeError(
-            "OPENALEX_API_KEY is not set."
-        )
-
-    all_works = fetch_all_works(api_key)
-    print()
-    print("=" * 80)
-    print("COLLECTION COMPLETE")
-    print("=" * 80)
-
-    print("Total works collected:", len(all_works))
 
 def normalize_work(work):
+    """
+    This function normalize the work by different parameters such as doi, title,
+    author, license and many more.
+    Created: 25/09/2026
+    Updated: 03/10/2026
+    """
     best_oa = work.get("best_oa_location") or {}
     source = best_oa.get("source") or {}
     topic = work.get("primary_topic") or {}
@@ -206,7 +199,49 @@ def inspect_work(work):
     print("\nPrimary topic:")
     print(topic.get("display_name"))
         
+def save_jsonl(records, output_path):
+    """
+    This function will save all the normalized output in a locally as a jsonl file,
+    so that it can be append later for more data. because earlier, the normalized record is a Python dictionary.
+    Created: 06/10/2026
+    Updated: 06/10/2026
+    """
+    with open(output_path, "w", encoding="utf-8") as file:
+        for record in records:
+            line = json.dumps(
+                record,
+                ensure_ascii=False,
+            )
 
+            file.write(line + "\n")
+
+def main():
+    api_key = os.getenv("OPENALEX_API_KEY")
+
+    if not api_key:
+        raise RuntimeError(
+            "OPENALEX_API_KEY is not set."
+        )
+
+    all_works = fetch_all_works(api_key)
+    print()
+    print("Raw works:", len(all_works))
+
+    normalized_works = []
+
+    for work in all_works:
+        normalized_work = normalize_work(work)
+        normalized_works.append(normalized_work)
+    print()
+
+    print("Normalized works:", len(normalized_works))
+
+    save_jsonl(
+        normalized_works,
+        OUTPUT_PATH,
+    )
+
+    print(f"Saved manifest to: {OUTPUT_PATH}")
 
 if __name__ == "__main__":
     main()
