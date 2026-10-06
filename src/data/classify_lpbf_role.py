@@ -40,7 +40,6 @@ CORE_PROCESS_PATTERNS = [
     r"keyhole",
     r"lack of fusion",
     r"powder spreading",
-    r"powder bed",
     r"in[- ]situ monitoring",
     r"process monitoring",
     r"thermal history",
