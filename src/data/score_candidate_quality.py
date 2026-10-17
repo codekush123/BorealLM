@@ -4,12 +4,12 @@ from statistics import mean, median
 
 
 INPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_included.jsonl"
 )
 
 OUTPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_included_quality_scored.jsonl"
 )
 

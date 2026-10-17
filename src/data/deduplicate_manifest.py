@@ -1,8 +1,8 @@
 import json
 
 
-INPUT_PATH = "src/data/manifests/lpbf_candidates.jsonl"
-OUTPUT_PATH = "src/data/manifests/lpbf_candidates_dedup_exact.jsonl"
+INPUT_PATH = "data/manifests/lpbf_candidates.jsonl"
+OUTPUT_PATH = "data/manifests/lpbf_candidates_dedup_exact.jsonl"
 
 
 def load_records(path):

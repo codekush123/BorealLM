@@ -15,12 +15,12 @@ CANONICAL_MAP = {
 }
 
 INPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_candidates_dedup_exact.jsonl"
 )
 
 OUTPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_candidates_canonical.jsonl"
 )
 

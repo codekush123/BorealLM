@@ -8,7 +8,7 @@ import random
 
 
 INPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_candidates_scored.jsonl"
 )
 

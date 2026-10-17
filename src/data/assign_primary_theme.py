@@ -2,12 +2,12 @@ import json
 from collections import Counter
 
 INPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_included_quality_scored.jsonl"
 )
 
 OUTPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_included_themed.jsonl"
 )
 

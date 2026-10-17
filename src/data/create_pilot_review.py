@@ -4,11 +4,11 @@ from pathlib import Path
 
 
 INPUT_PATH = Path(
-    "src/data/manifests/borealam_micro_pilot_v1.jsonl"
+    "data/manifests/borealam_micro_pilot_v1.jsonl"
 )
 
 OUTPUT_PATH = Path(
-    "src/data/reviews/borealam_micro_review_v1.csv"
+    "data/reviews/borealam_micro_review_v1.csv"
 )
 
 def load_records(path):

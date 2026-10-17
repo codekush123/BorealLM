@@ -3,7 +3,7 @@ from collections import Counter
 from inspect_other_theme import load_records
 
 INPUT_PATH = (
-    "src/data/manifests/lpbf_included_themed.jsonl"
+    "data/manifests/lpbf_included_themed.jsonl"
 )
 
 def get_year_group(year):

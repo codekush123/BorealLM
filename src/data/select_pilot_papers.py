@@ -2,11 +2,11 @@ import json
 from collections import defaultdict, Counter
 
 INPUT_PATH = (
-    "src/data/manifests/lpbf_included_themed.jsonl"
+    "data/manifests/lpbf_included_themed.jsonl"
 )
 
 OUTPUT_PATH = (
-    "src/data/manifests/borealam_micro_pilot_v1.jsonl"
+    "data/manifests/borealam_micro_pilot_v1.jsonl"
 )
 
 PAPERS_PER_THEME = 3

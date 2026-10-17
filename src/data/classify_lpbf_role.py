@@ -4,12 +4,12 @@ from collections import Counter
 
 
 INPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_candidates_classified.jsonl"
 )
 
 OUTPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_candidates_role_classified.jsonl"
 )
 

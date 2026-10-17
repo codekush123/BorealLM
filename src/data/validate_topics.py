@@ -6,7 +6,7 @@ Updated:06/10/2026
 import json
 import random
 
-INPUT_PATH = "src/data/manifests/lpbf_candidates_classified.jsonl"
+INPUT_PATH = "data/manifests/lpbf_candidates_classified.jsonl"
 
 
 SAMPLES_PER_TOPICS = 5

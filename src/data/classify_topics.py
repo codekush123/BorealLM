@@ -1,10 +1,10 @@
 import json
 from collections import Counter
 
-INPUT_PATH = "src/data/manifests/lpbf_candidates_canonical.jsonl"
+INPUT_PATH = "data/manifests/lpbf_candidates_canonical.jsonl"
 
 OUTPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_candidates_classified.jsonl"
 )
 

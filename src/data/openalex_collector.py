@@ -4,7 +4,7 @@ import json
 
 OPENALEX_URL = "https://api.openalex.org/"
 
-OUTPUT_PATH = "src/data/manifests/lpbf_candidates.jsonl"
+OUTPUT_PATH = "data/manifests/lpbf_candidates.jsonl"
 
 OQL_QUERY = """
 works where best OA license is (cc-by)

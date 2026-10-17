@@ -5,19 +5,19 @@ from collections import Counter
 
 
 PILOT_PATH = Path(
-    "src/data/manifests/borealam_micro_pilot_v1.jsonl"
+    "data/manifests/borealam_micro_pilot_v1.jsonl"
 )
 
 CANDIDATE_PATH = Path(
-    "src/data/manifests/lpbf_included_themed.jsonl"
+    "data/manifests/lpbf_included_themed.jsonl"
 )
 
 REVIEW_PATH = Path(
-    "src/data/reviews/borealam_micro_review_v1.csv"
+    "data/reviews/borealam_micro_review_v1.csv"
 )
 
 OUTPUT_PATH = Path(
-    "src/data/reviews/borealam_micro_replacements_v1.csv"
+    "data/reviews/borealam_micro_replacements_v1.csv"
 )
 
 def load_jsonl(path):

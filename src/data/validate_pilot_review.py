@@ -4,11 +4,11 @@ from collections import Counter
 
 
 PILOT_PATH = (
-    "src/data/manifests/borealam_micro_pilot_v1.jsonl"
+    "data/manifests/borealam_micro_pilot_v1.jsonl"
 )
 
 REVIEW_PATH = (
-    "src/data/reviews/borealam_micro_review_v1.csv"
+    "data/reviews/borealam_micro_review_v1.csv"
 )
 
 VALID_DECISIONS = {

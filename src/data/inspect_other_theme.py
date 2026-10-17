@@ -3,7 +3,7 @@ import random
 
 
 INPUT_PATH = (
-    "src/data/manifests/"
+    "data/manifests/"
     "lpbf_included_themed.jsonl"
 )
 
