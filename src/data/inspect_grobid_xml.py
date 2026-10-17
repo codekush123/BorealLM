@@ -69,6 +69,137 @@ def inspect_body_headings(root):
     print("Figure elements in body:", figure_count)
 
 
+def inspect_abstract_fragments(root):
+
+    namespace = {
+        "tei": "http://www.tei-c.org/ns/1.0"
+    }
+
+    abstract = root.find(
+        ".//tei:abstract",
+        namespace,
+    )
+
+    if abstract is None:
+        print("No abstract found.")
+        return
+
+    fragments = list(abstract.itertext())
+
+    print("\nABSTRACT TEXT FRAGMENTS")
+    print("=" * 60)
+    print("Total fragments:", len(fragments))
+
+    targets = (
+        "components.",
+        "Widespread",
+        "liquid",
+        "solid",
+    )
+
+    for index, fragment in enumerate(fragments):
+
+        if not any(
+            target.lower() in fragment.lower()
+            for target in targets
+        ):
+            continue
+
+        print(f"\nFragment {index} and its neighbors:")
+
+        start = max(0, index - 1)
+        end = min(len(fragments), index + 2)
+
+        for position in range(start, end):
+            print(
+                position,
+                repr(fragments[position])
+            )
+def inspect_body_fragments(root):
+
+    namespace = {
+        "tei": "http://www.tei-c.org/ns/1.0"
+    }
+
+    body = root.find(
+        ".//tei:body",
+        namespace,
+    )
+
+    if body is None:
+        raise ValueError("No body found.")
+
+    paragraphs = body.findall(
+        ".//tei:p",
+        namespace,
+    )
+
+    print("\nBODY TEXT FRAGMENT INSPECTION")
+    print("=" * 60)
+
+    for paragraph_number, paragraph in enumerate(
+        paragraphs[:2],
+        start=1,
+    ):
+
+        fragments = list(paragraph.itertext())
+
+        print(f"\nPARAGRAPH {paragraph_number}")
+        print("Number of fragments:", len(fragments))
+
+        for index, fragment in enumerate(
+            fragments[:20]
+        ):
+
+            print(
+                f"Fragment {index}: "
+                f"{repr(fragment[:150])}"
+            )
+
+def inspect_inline_markup(root):
+
+    namespace = {
+        "tei": "http://www.tei-c.org/ns/1.0"
+    }
+
+    body = root.find(".//tei:body", namespace)
+
+    if body is None:
+        raise ValueError("No body found.")
+
+    first_paragraph = body.find(
+        ".//tei:p",
+        namespace,
+    )
+
+    if first_paragraph is None:
+        raise ValueError("No paragraph found.")
+
+    print("\nINLINE XML MARKUP INSPECTION")
+    print("=" * 60)
+
+    children = list(first_paragraph)
+
+    print("Direct child elements:", len(children))
+
+    for index, child in enumerate(children[:10], start=1):
+
+        tag = child.tag.split("}")[-1]
+
+        print(f"\nChild {index}")
+        print("Tag:", tag)
+        print("Attributes:", child.attrib)
+
+        print(
+            "Element text:",
+            repr("".join(child.itertext())[:100])
+        )
+
+        print(
+            "Following text:",
+            repr((child.tail or "")[:100])
+        )
+
 def main():
     if OUTPUT_PATH.is_file():
 
@@ -78,6 +209,10 @@ def main():
         root = tree.getroot()
 
         inspect_body_headings(root)
+        inspect_abstract_fragments(root)
+        inspect_body_fragments(root)
+        inspect_inline_markup(root)
+
 
         return
 

@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Elucidation of dross formation in laser powder bed fusion at down-facing surfaces: Phenomenon-oriented multiphysics simulation and experimental validation</title>
+				<funder ref="#_zf6J82b #_jgzFasG #_23skzXm">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_sSQCgyA">
+					<orgName type="full">EU Framework Programme for Research and</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Karlsruhe Nano Micro Facility (KNMIf</orgName>
+				</funder>
+				<funder ref="#_pdS96rF">
+					<orgName type="full">Independent Research Fund Denmark</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>11 December 2021 2214</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Amal</forename><surname>Charles</surname></persName>
+							<email>amal.charles@kit.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Institute for Automation and Applied Informatics (IAI) , Karlsruhe Institute of Technology (KIT) , 76344 Eggenstein-Leopoldshafen , Germany</note>
+								<orgName type="department">Institute for Automation and Applied Informatics (IAI)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein-Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohamad</forename><surname>Bayat</surname></persName>
+							<email>mbayat@mek.dtu.dk</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Department of Mechanical Engineering , Technical University of Denmark , building 425 , Lyngby , Denmark</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Technical University of Denmark</orgName>
+								<address>
+									<addrLine>building 425</addrLine>
+									<settlement>Lyngby</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ahmed</forename><surname>Elkaseer</surname></persName>
+							<email>ahmed.elkaseer@kit.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Institute for Automation and Applied Informatics (IAI) , Karlsruhe Institute of Technology (KIT) , 76344 Eggenstein-Leopoldshafen , Germany</note>
+								<orgName type="department">Institute for Automation and Applied Informatics (IAI)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein-Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Department of Production Engineering and Mechanical Design , Port Said University , Port Fuad 42526 , Egypt</note>
+								<orgName type="department">Department of Production Engineering and Mechanical Design</orgName>
+								<orgName type="institution">Port Said University</orgName>
+								<address>
+									<postCode>42526</postCode>
+									<settlement>Port Fuad</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lore</forename><surname>Thijs</surname></persName>
+							<email>lore.thijs@3dsystems.com</email>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> Direct Metal Printing Engineering , 3D Systems , 3001 Leuven , Belgium</note>
+								<orgName type="department">Direct Metal Printing Engineering</orgName>
+								<address>
+									<addrLine>3D Systems</addrLine>
+									<postCode>3001</postCode>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jesper</forename><forename type="middle">Henri</forename><surname>Hattel</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Department of Mechanical Engineering , Technical University of Denmark , building 425 , Lyngby , Denmark</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Technical University of Denmark</orgName>
+								<address>
+									<addrLine>building 425</addrLine>
+									<settlement>Lyngby</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Steffen</forename><surname>Scholz</surname></persName>
+							<email>steffen.scholz@kit.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Institute for Automation and Applied Informatics (IAI) , Karlsruhe Institute of Technology (KIT) , 76344 Eggenstein-Leopoldshafen , Germany</note>
+								<orgName type="department">Institute for Automation and Applied Informatics (IAI)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein-Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>e</label> Karlsruhe Nano Micro Facility , Hermann-von-Helmholtz-Platz 1 , 76344 Eggenstein-Leopoldshafen , Germany</note>
+								<orgName type="institution">Karlsruhe Nano Micro Facility</orgName>
+								<address>
+									<addrLine>Hermann-von-Helmholtz-Platz 1</addrLine>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein-Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<note type="raw_affiliation"><label>f</label> Future Manufacturing Research Institute , College of Engineering , Swansea University , Swansea SA1 8EN , UK</note>
+								<orgName type="department" key="dep1">Future Manufacturing Research Institute</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">Swansea University</orgName>
+								<address>
+									<postCode>SA1 8EN</postCode>
+									<settlement>Swansea</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Elucidation of dross formation in laser powder bed fusion at down-facing surfaces: Phenomenon-oriented multiphysics simulation and experimental validation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">11 December 2021 2214</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">21800CA4E4DB0A6D84D9F332DEF9F068</idno>
+					<idno type="DOI">10.1016/j.addma.2021.102551</idno>
+					<note type="submission">Received 23 July 2021; Received in revised form 18 November 2021; Accepted 5 December 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-21T19:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Laser Powder bed Fusion Down-facing surfaces Dross Formation Finite Volume Simulation Ti6Al4V</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Dross formation is a phenomenon that is observed while printing metallic components using Laser Powder Bed Fusion (L-PBF) and occurring primarily at down-facing surfaces that are unsupported and suffer inadequate heat removal.</s><s>Naturally, dross formation causes dimensional inaccuracy, high surface roughness and also adversely affects the mechanical properties of printed components.</s><s>Through simulation and experimentation, this study fundamentally elucidates the driving phenomenon behind dross formation.</s><s>The simulation results, in terms of the degree of generated dross domain, well agree with the ones observed in the printed samples and the behaviour of the melt pool while moving from bulk material to the powder domain is clearly depicted in this study.</s><s>The simulations show that due to the low thermal conductivity of loose powder and the inability to conduct heat away, the quasi steady state melt pool collapses while entering the powder domain and transitions to a keyholelike melt mode which causes a pronounced drilling effect.</s><s>This causes excessive melting known as dross that is seen both in the simulation and the experimental parts.</s><s>This work also shows through simulation and experimentation the reasoning behind the production of larger and smaller dross domains while printing with high and low laser energy densities respectively.</s><s>Additionally, through SEM imagery this study also explains the observed deep internal grooves and near-surface porosity that are present within this dross domain which can further affect mechanical properties such as density, fatigue strength etc.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>The laser powder bed fusion (L-PBF) process is one of the most popular AM processes and uses a high power laser beam to selectively melt layers of metal powder <ref type="bibr" target="#b0">[1]</ref>.</s><s>Upon solidification of the layer, the printing platform is moved down the distance of approximately the thickness one layer, and a new layer of powder is applied on top of the previous layer <ref type="bibr" target="#b1">[2]</ref>.</s><s>This process is then repeated until the final desired component has been produced.</s><s>Due to the benefits offered, L-PBF has seen successful applications in various industries such as aerospace, automotive and bio-medical.</s><s>Especially since AM allows for the manufacturing of components which have high strength and light weight, and are hard to process, using conventional manufacturing processes, such as Titanium and Nickel based alloys <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>.</s><s>The L-PBF process is also considered one of the most promising AM techniques and its impact is expected to grow in the future with even a wider application and adoption <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</s></p><p><s>Nevertheless, L-PBF still faces some issues in terms of precision that affect its larger scale adoption <ref type="bibr" target="#b10">[11]</ref>.</s><s>These include aspects of predictability of the quality as well as the robustness and repeatability of the process that slow down efforts for achieving standardisation and qualification in the process which are necessary for wide-spread adoption, especially for aerospace, automotive and other mainstream industries <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>.</s><s>This is the reason why efforts to improve understanding of the process are underway, especially through creation of process models that intend to improve the predictability of the process <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref>.</s><s>One region where process understanding is quite minimal is within down-facing regions.</s><s>Research efforts on these problematic regions have only gained prominence recently <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref>.</s><s>The issue here is that, unlike bulk or up-facing surfaces, down-facing surfaces are printed on top of lose powder.</s><s>This affects the nature of the overall behaviour of the melt pool, as loose powder has a very low thermal conductivity when compared to the solid material <ref type="bibr" target="#b20">[21]</ref>.</s><s>The melt pool characteristics, which are a function of the process parameters, play a major role in dictating the final surface finish, dimensional accuracy and mechanical properties of the down-facing surface <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>.</s><s>It is therefore of utmost importance to understand the heat and fluid conditions of the melt pool over the down-facing regions, in order to predict and improve the quality of as-built surfaces of L-PBF parts.</s></p><p><s>It has been proved that the main factor that contributes to poor dimensional accuracy and surface finish is the dross formation that occurs within down-facing surfaces <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>.</s><s>The formation of residual stresses is also one of the main issues faced while printing with the L-PBF process.</s><s>The mechanism for residual stress formation and its effects on surface quality have been discussed by a number of research works, notable of which is the work by Mercelis and Kruth <ref type="bibr" target="#b26">[27]</ref>.</s><s>The issue of residual stress is also relevant within the down-facing region and is a cause for defects since the regions are unsupported and are not physically connected to the base plate.</s></p><p><s>It has been identified that due to the poor thermal conductivity of loose powder, excessively large melt pools are formed.</s><s>In addition, the melt flows into the powder due to gravity, capillarity and low viscosity of the liquid metal <ref type="bibr" target="#b27">[28]</ref>.</s><s>This is the theoretical basis for dross formation.</s></p><p><s>In order to tackle this issue of dross formation, a number of various approaches have been followed to investigate and understand this phenomenon.</s><s>Wang et al. <ref type="bibr" target="#b28">[29]</ref> studied the resultant surface quality of curved overhang structures of 316-L stainless steel parts, and concluded that the warpage and dross levels grew with an increase in energy input and with a decrease in angle.</s><s>Previous works of the authors have experimentally investigated the effect of different process parameters on the resulting dimensional accuracy and surface topography of down-facing regions <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b29">30]</ref>.</s><s>In these research studies, the application of special down-facing area process parameters has been utilized to control dross formation and this allowed building of regression-based process models that were able to predict dimensional accuracy and surface roughness due to dross formation.</s></p><p><s>Various approaches have also been suggested to manage the issue of dross formation.</s><s>Naturally, the simplest solution is the usage of support structures that promote the heat transfer away from the down-facing region.</s><s>Mertens et al. <ref type="bibr" target="#b30">[31]</ref> suggested an optimization of scan strategy for improving down-facing area quality.</s><s>Calignano et al. <ref type="bibr" target="#b27">[28]</ref> suggest incorporating self-supporting structures into the design of part in order to minimise building support structures.</s><s>Jhabvala et al. <ref type="bibr" target="#b31">[32]</ref> developed a method to build support structures using a pulsed laser which produced build time improvements.</s><s>However, the overall belief is still that building support structures is undesirable in the first place as it necessitates further support removal as well as extra finishing operations which cost further time, energy and resources.</s><s>It is therefore important to understand in depth, the physical basis for dross formation in order to facilitate further optimisation.</s></p><p><s>Simulation-based research of the L-PBF process is a research area of high interest within the field of AM.</s><s>A well-calibrated numerical model can be used as a means of optimization of the part quality as well.</s><s>A number of different models have been built for the L-PBF process, ranging from part-scale thermo-mechanical models to meso-scale thermo-fluid and micro-scale microstructural models <ref type="bibr" target="#b32">[33]</ref>.</s><s>Bayat et al. <ref type="bibr" target="#b33">[34]</ref> developed a multiphysics model of the L-PBF process of Ti6Al4V and predicted the formation of keyhole-induced porosities.</s><s>King et al. <ref type="bibr" target="#b34">[35]</ref> described a mesoscopic simulation that detailed the dominant physics that cause pores, spatter etc and methods to avoid them.</s><s>However, a deep elucidation of dross formation while simulating this through a Multiphysics L-PBF process model is so far unexplored.</s><s>That is what this work unravels, by simulating the thermo-fluid conditions of the melt pool on the overhang surfaces, to explain the mechanism of the dross formation phenomenon.</s><s>The simulations are compared with experimental observations in Section three to lend credence to the discussion and observed phenomena.</s></p><p><s>This study utilizes a finite volume method (FVM)-based 3D multiphysics model of the L-PBF process of Ti6Al4V aiming to understand the mechanisms of dross formation at the overhanging surfaces of components made with L-PBF.</s><s>In particular, the transition of the melt pool from solid to unsupported region are observed and insight is given onto the governing principles behind dross formation.</s><s>Furthermore, insight is provided on the effect of dross formation on mechanical properties by observing SEM micrographs and near surface porosities.</s><s>The manuscript is arranged such that, following the introduction the Section two describes the methodology used for the modelling and simulation, as well as the manufacturing of test pieces and characterisation.</s><s>The results are discussed in the third section and the conclusions are then drawn in the final section of the manuscript.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Model description</head><p><s>A multiphysics numerical model is developed based on FVM in the commercial software package Flow-3D.</s><s>The model is a computational fluid dynamics (CFD) solver which is adjusted in such a way that it can show how the melt pool morphology changes when the laser beam starts scanning the overhang regions during L-PBF.</s><s>The model geometry for the scanning of the first track is shown in Fig. <ref type="figure" target="#fig_0">1</ref>.</s><s>The length, width and height of the computational domain are 1000 µm, 200 µm and 450 µm, respectively, see Fig. <ref type="figure" target="#fig_0">1</ref>.</s></p><p><s>A y-symmetry boundary condition is used on the right wall (xz plane) of the computational domain, see Fig. <ref type="figure" target="#fig_0">1(b</ref>).</s><s>The dense or bulk region is assumed to be the pre-processed zone and has a length of 600 µm.</s><s>On the right side of the dense region, a thick powder region is located and has a length of 400 µm.</s><s>The laser starts scanning the top surface of the domain at x = 100 µm, along the yellow arrow, traversing 100 µm into the thick powder zone, as shown in Fig. <ref type="figure" target="#fig_0">1(a)</ref>.</s></p><p><s>After the scanning of the first track in the model shown in Fig. <ref type="figure" target="#fig_0">1</ref>, which is labelled the CFD-01 model in this work, an STL file is extracted that represents the free surface of the first scanned track and the neighbouring material.</s><s>Then according to Fig. <ref type="figure" target="#fig_1">2</ref>, the extracted STL file from the CFD-01 model is fed to a Discrete Element Model (DEM) for simulating the addition of the second layer of powder.</s></p><p><s>After the second layer is added, an STL file is extracted which is then fed to the next CFD model, for modelling the scanning of the next track in CFD-02.</s><s>The same procedure is also carried out for running the CFD-03 model, see Fig. <ref type="figure" target="#fig_1">2(d)-(f</ref>).</s><s>This is carried out in a similar manner as in a previous study of the author group <ref type="bibr" target="#b35">[36]</ref>.</s></p><p><s>Fig. <ref type="figure" target="#fig_2">3</ref> is schematically showing the regions which are scanned by the laser beam.</s><s>The powder layer thickness is around 70 µm and at the end of each layer, the laser scans a length of 100 µm of the powder layer along the x-direction on the top of the thick powder domain, according to Fig. <ref type="figure" target="#fig_2">3</ref>.</s><s>This eventually leads to an overhang structure with an angle of about 35º, which is representative of the group of experiments as well.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Governing equations</head><p><s>The equations of incompressible continuity and transient Navier-Stokes are solved to obtain the velocity of the liquid metal along with the pressure field,</s></p><formula xml:id="formula_0">∇•u = 0,<label>(1)</label></formula><formula xml:id="formula_1">ρ [ ∂ ∂t + u•∇ ] u = -∇p + μ∇ 2 u - K c (1 -f) 3 C k + f 2 u + F′′′ interface (<label>2</label></formula><formula xml:id="formula_2">)</formula><p><s>In this work it is assumed that the liquid flow is Newtonian.</s><s>In Eqs.</s><s>(1) and (2), u (m.s -1 ) is the velocity vector field and p (Pa) stands for pressure and µ (Pa.s) and ρ (kg.m -3 ) are viscosity and density, respectively.</s><s>The third term on the right hand side of Eq. ( <ref type="formula" target="#formula_1">2</ref>) is related to the solidification drag forces that slow down the motion of liquid upon the onset of solidification and f (-) is the liquid phase indicator.</s><s>Details of these fluid dynamics forces are given in the previous works of the author group <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37]</ref>.</s><s>The last term in Eq. ( <ref type="formula" target="#formula_1">2</ref>) is related to interfacial forces that form on the surface of the melt pool during fusion processes.</s><s>This term can be expanded as follows</s></p><formula xml:id="formula_3">F′′′ interface = [ A p exp [ B p ( 1 - T b T ) ] + σκ ] n + γ[∇T -n(∇T•n)]<label>(3)</label></formula><p><s>The first two terms in Eq. ( <ref type="formula" target="#formula_3">3</ref>) are normal forces that act perpendicularly to the free surface of the melt pool, when it is in liquid state.</s><s>The first term is the recoil pressure which is given by an exponential function and the second term is related to the surface tension.</s><s>σ (N.m -1 ) and κ (m -1 ) are the surface tension and the curvature of the exposed surface.</s><s>A p (Pa) and B p (-) are the two constants that describe the magnitude of the recoil pressure <ref type="bibr" target="#b37">[38]</ref>.</s><s>The last term in Eq. ( <ref type="formula" target="#formula_3">3</ref>) is the shear stress caused by the Marangoni effect and accordingly, it acts tangentially to the free surface of the liquid.</s><s>γ (N.m -1 .</s><s>K -1 ) is the sensitivity of surface tension with respect to temperature.</s><s>A positive and negative value of this parameter can lead to an inward and outward flow inside the melt pool <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b38">39]</ref>.</s></p><p><s>The free surface of the melt pool is tracked via implementing the VOF method.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>∂F ∂t</head><formula xml:id="formula_4">+ (u•∇)F = 0.<label>(4)</label></formula><p><s>In Eq. ( <ref type="formula" target="#formula_4">4</ref>) u (m.s -1 ) is the velocity vector field and F (-) is the phase indicator and can vary between zero and unity, denoting the air and metal, respectively.</s></p><p><s>The heat transfer equation is solved for obtaining the temperature field inside the melt pool,</s></p><formula xml:id="formula_5">ρ [ ∂h ∂t + (u•∇)h ] = ∇•(k∇T),<label>(5)</label></formula><formula xml:id="formula_6">h = h ref + c p,bulk ( T -T ref ) + f l ΔH sl , (<label>6</label></formula><formula xml:id="formula_7">)</formula><formula xml:id="formula_8">f l = ⎧ ⎪ ⎪ ⎪ ⎨ ⎪ ⎪ ⎪ ⎩ 0 T -T s T l -T s 1 , T &lt; T s T s ≤ T ≤ T l T l &lt; T ⎫ ⎪ ⎪ ⎪ ⎬ ⎪ ⎪ ⎪ ⎭ (<label>7</label></formula><formula xml:id="formula_9">)</formula><p><s>where h (J.kg -1 ) is the enthalpy and ρ (kg.m -3 ) and k (W.m -1 .</s><s>K -1 ) are density and thermal conductivity of the fluid (metal).</s><s>In Eqs.</s><s>(6) and ( <ref type="formula" target="#formula_8">7</ref>), c p (J.kg -1 .</s><s>K -1 ), ΔH sl (J.kg -1 ) and f l (-) are specific heat capacity, latent heat of fusion and liquid fraction function.</s><s>The latter, as described in Eq. ( <ref type="formula" target="#formula_8">7</ref>), is set to be a linear function of temperature in the solidification interval.</s></p><formula xml:id="formula_10">-k ∂T ∂n = q ′′ rad + q ′′ amb + q ′′ evap + q ′′ laser (<label>8</label></formula><formula xml:id="formula_11">)</formula><formula xml:id="formula_12">q ′′ rad = εη ( T 4 -T 4 surr ) (<label>9</label></formula><formula xml:id="formula_13">)</formula><formula xml:id="formula_14">q ′′ conv = h(T -T surr ) (<label>10</label></formula><formula xml:id="formula_15">)</formula><formula xml:id="formula_16">q ′′ evap = ΔH lv •A accom ̅̅̅̅̅̅̅̅̅̅̅̅̅ 2πR v T √ [ p atm exp ( ΔH lv R v T boil [ 1 - T boil T ] ) ]<label>(11)</label></formula><formula xml:id="formula_17">q ′′ laser = q max exp ( -2• r 2 r 2 b ) , (<label>12</label></formula><formula xml:id="formula_18">)</formula><p><s>The imposed thermal boundary conditions are given in Eqs. ( <ref type="formula" target="#formula_10">8</ref>)-( <ref type="formula" target="#formula_17">12</ref>) and all modes of heat transfer mechanisms of convection, radiation and evaporation are considered in this work.</s><s>ΔH lv (J.kg -1 ), T boil (K) and R v (J.kg -1 .</s><s>K -1 ) are latent heat of evaporation, boiling temperature at atmospheric pressure and finally gas constant of the vaporized metal, respectively.</s><s>ε (-) and η (W.m -2 .</s><s>K -4 ) are emissivity and Stefan-Boltzmann constants, respectively.</s><s>Moreover, A Accom (-) is the accommodation coefficient in Eq. <ref type="bibr" target="#b10">(11)</ref>.</s><s>R b (m) in Eq. ( <ref type="formula" target="#formula_17">12</ref>) is the effective beam radius describing the Gaussian distribution of the heat source.</s><s>Furthermore, the laser-material interaction is modelled with multiple reflection using Fresnel absorption function.</s><s>The implemented thermo-physical properties are given in Table <ref type="table" target="#tab_0">1</ref>.</s></p><formula xml:id="formula_19">ρ = f s ρ s + f l ρ l , (<label>13</label></formula><formula xml:id="formula_20">)</formula><formula xml:id="formula_21">k bulk = f s k s + f l k l , (<label>14</label></formula><formula xml:id="formula_22">)</formula><formula xml:id="formula_23">C p,bulk = f s ρ s C p,s + f l ρ l C p,l f s ρ s + f l ρ l . (<label>15</label></formula><formula xml:id="formula_24">)</formula><formula xml:id="formula_25">c p (J.kg -1 . K -1 )</formula><p><s>, ρ (kg.m -3 ) and k (W.m -1 .</s><s>K -1 ) are specific heat capacity, density and thermal conductivity, respectively.</s><s>Details of the model are given in the previous works of the author group <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b39">40]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Test Piece design</head><p><s>A test piece with an overhang angle of 35 • with respect to the build Note a linear interpolation is used for finding the material properties in the solidification and melting zone, for instance density, thermal conductivity and specific heat capacity in the mushy zone are approximated as follows, where () s and () l stand for the solid and liquid states.</s></p><p><s>platform is printed to compare the printing with the simulations.</s><s>Dimensions of the experimental sample are given in Fig. <ref type="figure" target="#fig_3">4</ref>. The test piece was built with a solid support structure in order to ease the removal of the part from the build platform and the down-facing surface had a total area of 20 × 10 mm.</s><s>The test piece underwent heat treatment before removal from the build platform, as is the norm in L-PBF processing of Titanium alloy parts, in order to prevent any warping and deformation.</s><s>A number of heat treatment cycles can be used for Titanium alloy parts based on the extent of stress relief required and as well as required mechanical properties <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b41">42]</ref>.</s><s>No sort of support structure was used to support the down-facing surface.</s><s>The test piece was printed with three repetitions for each tested processing condition.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">L-PBF system and processing</head><p><s>The test pieces were built using the material Ti-6Al-4V produced using the LaserForm® Ti Gr23 (A) version of the Titanium alloy.</s><s>This alloy is especially popular for aerospace and bio-medical applications due to its high strength, low weight and bio-compatibility.</s><s>The chemical composition of the material can be seen in Table <ref type="table" target="#tab_1">2</ref>.</s></p><p><s>The test pieces were designed using CAD software (Solid Edge ST 9, Siemens) and were pre-processed using 3DXpert® (3D Systems).</s><s>The 3DXpert software was also used for placing the test pieces on the build platform, orienting the samples and for conducting the slicing of the layers, after which the sliced file was transferred to the ProX® DMP 320   system for printing.</s><s>In order to ensure printability, standard recommended printing parameters were utilised for the bulk of the part and in order to ensure that the dross phenomenon can be observed, adjacent to the down-facing surface, special down-facing parameters were set in 3DXpert with a laser power of 175 W and scan speed of 390 mm/s.</s><s>This parameter which is the high energy density condition, was chosen based on previous experimental trials and represents an operational window where the energy density is high enough wherein the process is driven to produce dross.</s><s>A parameter combination of laser power 90 W and scan speed 1235 mm/s was also used secondarily to provide a lower energy density condition for the simulation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Characterisation</head><p><s>Experimental images of the overhang surfaces were made using a Keyence VHX 9000 optical microscope.</s><s>All parts were cleaned using ultrasonic cleaning technique and the front view of the samples were lightly grinded with sand paper in order to remove any remaining surface powder particles and the complete front view was stitched with a magnification of 20X to obtain the image of the part.</s></p><p><s>Additionally, Scanning Electron Microscopy (SEM) (Phenom Desktop) was used to observe the deep grooves and notches formed as a result of dross formation.</s><s>Some parts were also cut and polished and then observed under optical microscopy for observing near-surface defects such as porosity within the down-facing region affected by dross.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Melt pools evolution in overhang area</head><p><s>Fig. <ref type="figure" target="#fig_4">5</ref> shows the side view of the temperature field during the scanning of the first track.</s><s>At 110 µs, the melt pool starts forming and at the same time, due to the high local temperature, a depression zone is formed, see Fig. <ref type="figure" target="#fig_4">5(a</ref>).</s><s>As the laser moves along the scanning direction, the melt pool shape evolves and the depression zone becomes deeper, see Fig. <ref type="figure" target="#fig_4">5(b</ref>).</s><s>At around 400 µs, the melt pool reaches its quasi-steady state condition, meaning that it will retain its shape and size in the bulk domain.</s><s>Up until this point in time, the input energy from the laser can be conducted from all 5 possible directions to the surrounding solid bulk material.</s><s>Nevertheless, when the melt pool reaches the powder domain in Fig. <ref type="figure" target="#fig_4">5(d</ref>), heat cannot be as easily transferred to the front and bottom powder areas.</s><s>This is largely due to the low thermal conductivity of the powder domain, caused by improper contact between powder particles.</s><s>In this way, the melt pool becomes overheated, leading to more pronounced recoil pressures, as expected.</s><s>This causes deeper depression zones in the melt pool as well, as the recoil pressure increases exponentially with temperature.</s><s>Furthermore, the depression zone can drill much faster in the powder domain than in the bulk domain, as the apparent mass of powder is lower than bulk material and thus has lower resistance against the recoil pressure.</s></p><p><s>At around 640 µs, the laser turns off and as a result, the temperature of the melt pool drops rapidly.</s><s>This leads to a sharp decrease in the recoil pressure and at the same time, an increase in the surface tension that overcomes the recoil pressure upon solidification, see Fig. <ref type="figure" target="#fig_4">5(e</ref>).</s><s>At the end of the scanning of the first track, a dross defect is formed which according to Fig. <ref type="figure" target="#fig_4">5(f</ref>), is about 160 µm lower than the top surface of the bulk material.</s><s>A General simulation which includes a contour scan track in the 'y′ direction is also provided in the Fig. <ref type="figure">A</ref>.1 in the appendix.</s><s>It is noticeable that the mechanism of dross formation is the same in this case as well and follows the same propagation mechanism as just described.</s><s>Fig. <ref type="figure" target="#fig_5">6</ref> shows a broader picture of how dross forms during the manufacturing of subsequent tracks.</s><s>Fig. <ref type="figure" target="#fig_5">6(a</ref>) and (b) show the temperature evolution during the scanning of the second track and from the side view.</s><s>It is observed that the melt pool is in its quasi-steady state in Fig. <ref type="figure" target="#fig_5">6</ref>(a) and when it reaches the end of the track, the melt pool depth significantly increases and this leads to the so-called drilling effect mentioned earlier, see Fig. <ref type="figure" target="#fig_5">6(b</ref>).</s><s>Fig. <ref type="figure" target="#fig_5">6(c)</ref> and <ref type="figure">(d</ref>) also show the same phenomenon during manufacturing of the third track.</s><s>Interestingly and in the same manner as in the two previous tracks, the melt pool shape transitions from a stable quasi-steady condition over the bulk domain, into an unstable drilling mode at the vicinity of the powder domain, see Fig. <ref type="figure" target="#fig_5">6(d</ref>).</s></p><p><s>Fig. <ref type="figure" target="#fig_5">6</ref>(e) shows the side view of the predicted tracks' morphology and at the end of the manufacturing of the third track.</s><s>One can clearly see the formation of dross at the right edge where the tracks end.</s><s>Fig. <ref type="figure" target="#fig_5">6</ref> (f)-(i) show the light optical microscopic images taken from the front view of a 35 ˚angle overhang structure.</s><s>According to Fig. <ref type="figure" target="#fig_5">6</ref>(i), in zone C, it is found that the tracks follow a relatively straight line, all the way and up until the end of the scan tracks.</s><s>However, at the very end of these scan tracks, where they reach the powder domain, they start diverging from their initial path and are instead guided downward and towards the adjacent powder domain.</s><s>This is caused by a less pronounced drilling effect.</s><s>In zone C shown in Fig. <ref type="figure" target="#fig_5">6(f</ref>), the laser scans and melts a track of powder layer in which at its bottom side there is a dense and at the same time, a highly-conductive and already-scanned bulk material.</s><s>In this respect, the melt pool regime will conserve its quasi-steady state all the way to the end of the tracks and only a small deviation is formed at the very ends, see Fig. <ref type="figure" target="#fig_5">6(i</ref>).</s><s>On the other hand, the deviation of the scan tracks from their initial path is significantly bigger in zone B, over the down-facing surfaces, than the ones noted in zone C, see Fig. <ref type="figure" target="#fig_5">6(h</ref>).</s><s>At the overhang structures shown in Fig. <ref type="figure" target="#fig_5">6</ref>(h), one can clearly see these noticeable track divergences, which are formed due to a more pronounced drilling effect, due the sudden transition of the melt pool regime to the drilling mode shown in Fig. <ref type="figure" target="#fig_5">6(b)</ref> and <ref type="figure">(d</ref>).</s></p><p><s>The main reason for the formation of such noticeable dross defects at the overhang structures as seen in Fig. <ref type="figure" target="#fig_5">6</ref>, is that the energy input from  the laser is high enough to lead to a keyhole mode melt pool in the powder domain.</s><s>Laser power and scan speed are in essence the two most significant process parameters affecting dross.</s><s>The linear energy density which is the ratio of the input power to the scanning speed, is used as a variable to study the impact of the laser parameters on the dross formation.</s><s>Fig. <ref type="figure" target="#fig_6">7</ref>(a)-(d) depict the simulation results of a low energy density process parameters combination (laser power -90 W, scan speed -1235 mm/s).</s><s>Fig. <ref type="figure" target="#fig_6">7</ref>(e) depicts the corresponding experimental test piece and Fig. <ref type="figure" target="#fig_6">7</ref>(f) depicts a sample printed with higher energy density to illustrate the contrast.</s><s>One can clearly observe in Fig. <ref type="figure" target="#fig_6">7</ref>(a)-(d) that the drilling effect on the verge of the overhang structures is avoided.</s><s>This is essentially due to lower overall melt pool temperature that leads to higher magnitudes of capillary forces and at the same time, lower recoil pressures.</s><s>Therefore, the overall size of the dross domain is significantly reduced and the final overhang dimensions are closer to design values.</s><s>In this respect, one can use lower linear energy density to avoid formation of noticeable dross formation.</s></p><p><s>Furthermore it must be underlined that even though in Fig. <ref type="figure" target="#fig_6">7</ref> it is shown that a reduction in the linear energy density leads do a substantial change in the melt pool depth and overall improvement of the overhang quality, it is mainly the interplay between surface tension (capillarity), the Marangoni effect and the recoil pressure that mainly decides the melt pool depth and its morphology.</s><s>For instance in the first case with higher linear energy density shown in Figs. <ref type="figure" target="#fig_4">5</ref> and <ref type="figure" target="#fig_5">6</ref>, the melt pool is in the keyhole regime which means that the recoil pressure is dominant over capillarity and the Marangoni effect does not play a significant role in influencing the melt pool shape.</s><s>One the other hand, in the second case (with lower linear energy density) shown in Fig. <ref type="figure" target="#fig_6">7</ref>, the melt pool is in a conduction-transition regime which means that the melt pool shape is highly affected by capillarity and the Marangoni effect, while the recoil pressure is not significant due to lower melt pool temperatures.</s><s>This means that the melt pool shape (its width-to-depth ratio) is highly governed by the Marangoni effect which itself is controlled by the coefficient of surface tension γ (N.m -1 .</s><s>K -1 ) given in Eq. ( <ref type="formula" target="#formula_3">3</ref>).</s><s>For instance, a higher value of γ in the negative direction leads to bigger width-todepth ratio for the melt pool whereas a higher magnitude of γ with positive sign leads to lower width-to-depth ratio and thus better penetration <ref type="bibr" target="#b36">[37]</ref>.</s><s>It is worth to mention that under some certain circumstances such as addition of surface active elements like sulphur to metals, this coefficient of surface tension changes sign and leads to a case which is called the inverse Marangoni effect, based on the Heiple-Roper theory <ref type="bibr" target="#b42">[43]</ref>.</s></p><p><s>Generally, dross is also largely caused by the fact that the process parameters are kept constant over both the bulk and the powder domains.</s><s>Whereas, as a way to mitigate this issue, one could modify the process parameters at the end of the scan tracks where they reach the overhang surfaces.</s><s>The solution to circumvent this defect would be to reduce the linear energy density in the vicinity of the overhang structures.</s><s>This can be done in several different ways, most typically via reducing the input laser power or increasing the laser beam's travelling velocity, but other ways are also possible.</s><s>For example, depending on the degree of which the L-PBF machine can be controlled, one could also benefit from power-modulation <ref type="bibr" target="#b43">[44]</ref> and reduce the life cycle of the laser beam to 90% or 80% instead of the standard 100% that corresponds to a continuous wave laser.</s><s>Another possibility that would definitely require a higher degree of control over the process, would be via in-situ beam-shaping or beam-widening at the end of these scan tracks.</s><s>Additionally, novel scan strategies that might transfer heat away from the powder domain and towards the bulk domain could help mitigate or minimise dross formation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Effect of dross formation on part properties</head><p><s>As discussed in the previous section, dross formation is caused due to the divergence of the melt pool from its specified track and into the powder bed that lies below the overhang structures.</s><s>Apart from creating large penetrating solid masses of material in undesired locations, dross formation introduces further problems within the dross domain that will affect the overall strength, quality and eventually the performance of parts.</s></p><p><s>Fig. <ref type="figure" target="#fig_7">8</ref> depicts the SEM micrograph at the region where the downfacing region begins.</s><s>The SEM image is taken at the same location as zone B in Fig. <ref type="figure" target="#fig_5">6(f</ref>).</s><s>The red line in Fig. <ref type="figure" target="#fig_7">8</ref> depicts the nominal CAD design of the part and therefore all the material to the left of the red line represents the dross domain that consists of excessive and unwanted material formed due to the divergence of the melt pool and additional sintering, as depicted by the yellow lines.</s><s>However, from Fig. <ref type="figure" target="#fig_7">8</ref>, it is understood that the dross formation also results in deep grooves (approx.</s><s>500 µm deep) being present within the dross domain.</s><s>This is likely caused in-between adjacent layers.</s><s>These grooves are crowded with trapped powder particles and partially melted powder that are resulting in large voids within the printed component.</s><s>These internal grooves and enhanced surface roughness within the dross domain will adversely affect the performance of the part, especially with properties such as fatigue strength <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>.</s></p><p><s>Geometric imperfections in various features and surfaces of additively manufactured L-PBF parts such as lattices or cooling channels, that inherently possess inclined surfaces have been known to cause failure mode transitions and directly affect fatigue life <ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref>.</s><s>A cross sectional image of the internal volume depicting the dross domain and the bulk domain is demonstrated in Fig. <ref type="figure" target="#fig_8">9</ref>.</s><s>It can be observed that there is an abundance of near-surface porosity up to 1 mm below the surface within the dross domain.</s><s>Research has shown that the presence of porosity and lack of fusion defects, caused due to entrapped gases and improper/incomplete melting of the powder particles are a primary cause of failure initiation among L-PBF parts <ref type="bibr" target="#b49">[50]</ref>.</s><s>In down-facing surfaces the seen the porosity is caused mainly due to the formation of keyhole-induced porosities as a result of the collapse of a keyhole melt pool.</s><s>Process induced imperfections such as keyhole pores are known to behave as stress builders within the part and are known to lead to part failure under fatigue loading conditions <ref type="bibr" target="#b50">[51]</ref> caused due to reduced static and dynamic strength in the z direction (build direction) <ref type="bibr" target="#b51">[52]</ref>.</s><s>It is also seen that powder particles are trapped and/or are partially melted in the voids present in between adjacent melt from successive layers (as seen in Fig. <ref type="figure" target="#fig_7">8</ref>).</s><s>Partially melted/unmelted powder particles that are present in the voids are also problematic as they might contribute towards increased density in a density measurement, but they do not contribute towards increased strength <ref type="bibr" target="#b52">[53]</ref>.</s><s>Additionally, these powder particles trap air in the space between them causing pores as seen in Fig. <ref type="figure" target="#fig_8">9</ref>.</s><s>As a result, large spherical pores (diameter 200-300 µm) are also seen, which can be attributed to the merging of smaller pores within the liquid melt.</s></p><p><s>From Fig. <ref type="figure" target="#fig_8">9</ref> it is also seen that the bulk domain displays an increased presence of porosity when an extended dross domain is present, and this can be attributed to spatter and melt pool splashing <ref type="bibr" target="#b53">[54]</ref> that can occur while printing in the down-facing area.</s><s>Accordingly, it is clear that the melt evolution within down-facing surfaces plays a role not only on aspects such as dimensional inaccuracy and surface roughness due to large excessive dross formations.</s><s>It will have an adverse effect on various properties that contribute to the final performance of the whole component, namely part density, fatigue strength, hardness, tensile strength etc <ref type="bibr" target="#b54">[55]</ref>.</s><s>However, overcoming the issues posed by down-facing surfaces and achieving good part quality without the need for support structures can offer major benefits such as improved build times, reduced material usage, higher throughput, reduced process steps etc.</s><s>This is also the reason why a large number of metal AM-based original equipment manufacturers (OEMs) are conducting research and development efforts that offer support-free manufacturing through establishing design and/or processing methods that minimise dross formation in down-facing surfaces.</s></p><p><s>Additionally, other research efforts have also shown that laser deceleration at the end of scan vectors is a key contributor to increased porosity, which further complements the increased porosity due to keyhole-induced porosities seen in down-facing surfaces.</s><s>In fact, some studies have also shown that at turn points in continuous serpentine scan patterns, the melt mode transitions to a keyhole mode which by itself induces more porosity <ref type="bibr" target="#b55">[56,</ref><ref type="bibr" target="#b56">57]</ref>.</s><s>For this purpose, a scan strategy where the laser power is kept off while moving between adjacent laser scans, a so-called sky-writing laser path mode is preferable for reduced dross formation and increased density <ref type="bibr" target="#b57">[58]</ref>.</s><s>This is the mode also used in the study.</s><s>Therefore, further research on parameter optimisation and development of novel scanning strategies for the down-facing region is required.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>This paper has elucidated the mechanism of formation of dross at the down-facing overhang surfaces made with the L-PBF process.</s><s>A multiphysics FVM-based model has been developed in the commercial software Flow-3D to simulate the melt pool's heat and fluid flow and hydrodynamics conditions at the down-facing overhang regions.</s><s>The model has been then applied for predicting the melt pool behaviour while manufacturing subsequent layers, using a CFD-DEM approach.</s><s>The main takeaways from the work can be summarised as follows:</s></p><p><s>1.</s><s>The melt pool regime changes when entering the overhang regions, where a pronounced drilling effect is observed that results in downwards movement and divergence of the melt pool towards the build platform, resulting in the so-called 'dross formation' 2. Dross formation is primarily caused by the drilling effect which in turn is further exacerbated due to lower overall mechanical resistance of the underlying powder domain.</s></p><p><s>3. Methods to control the dross formation is through reducing the linear energy density while approaching the overhang regions could be confirmed by the simulations.</s><s>4. Apart from the dimensional inaccuracy caused by dross formation, the dross domain shows abundance of near-surface porosity and deep grooves with trapped powder particles that will adversely affect mechanical properties of components such as fatigue strength, density etc.</s></p><p><s>This work has elucidated through simulation and experimentation, the mechanism of printing using L-PBF in the down-facing region and provides explanations as well as guidelines for attaining the best quality parts based on the discussed phenomena.</s><s>It should be emphasized, that the explained phenomena hold true for parts produced of Ti6Al4V and other Titanium based alloys, however the behaviour of the melt for other popular L-PBF materials such as 316 L SS or other Ni based alloys requires further investigation.</s><s>This study has shown the mechanism of dross formation when scanning in successive layers has happened without rotating the scan direction, that is implemented in some systems.</s><s>It is expected that the rotation of scan vectors typically by 67 • will result in the dross formation also propagating in different directions along the direction of the scan.</s><s>This is one limitation seen in the current version of this simulation and future research efforts will further depict the process when scan vectors are rotated in successive layers.</s><s>Planned future work will involve the development of exact process parameters for optimised printing in both down-facing areas and investigation of angles less than 25 • and for simulating the performance of different materials.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig. A1.</head><p><s>A general simulation showing a contour scan track made in the 'y′ direction, shows that during successive scanning in the down-facing region the dross formation takes place with the same mechanism as described in the Fig. <ref type="figure" target="#fig_4">5</ref>.</s><s>The computational domain is double in width (400 µm) compared to the simulation in the manuscript and the contour scan is 100 µm away from the bulk region shown with the black arrow.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>The FAVORized view of the computational domain of the model and relevant dimensions (x) x-z and (b) 3D view.</s></p></div></figDesc><graphic coords="2,81.64,55.44,432.00,178.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. The methodology used for simulating the multi-layer LPBF process.</s></p></div></figDesc><graphic coords="3,81.64,55.40,432.00,283.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. Schematic representing the modelling of a 35º overhang structure.</s><s>The laser beam further scans 100 µm along the x axis and at the end of the manufacturing of each layer.</s></p></div></figDesc><graphic coords="3,43.14,377.26,240.05,126.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. CAD file of the experimental sample: Front and 3D views.</s></p></div></figDesc><graphic coords="5,135.67,55.44,324.00,122.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. Temperature contour along with the melt pool morphology from the side view during the scanning of the first track at: (a) 110 µs, (b) 290 µs, (c) 440 µs, (d) 630 µs, (e) 640 µs and (f) 1.27 µs.</s></p></div></figDesc><graphic coords="5,45.64,286.57,504.00,252.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6. (a), (b) Temperature contour from the side view during the scanning of the second track.</s><s>(c), (d) Temperature contours from the same location and during the scanning of the third track.</s><s>(e) Side view of the predicted track morphology at the end of the manufacturing of third track.</s><s>(f) Front view of the overhang structure with 35 ˚angle using 3D light optical microscopy.</s><s>(g) -(i) Show magnified views of the three zones of A -C identified in (f).</s></p></div></figDesc><graphic coords="6,45.64,55.43,504.00,312.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. Simulation results for the case with low energy density within the down-facing area shows (a) the quasi-steady state melt pool (b) absence of a pronounced drilling effect and reduced dross formation over time in (c) and (d).</s><s>The printed sample in (e) showing reduced dross formation while printing with low energy density as compared to (f) larger dross formations when printing with a higher linear energy density.</s></p></div></figDesc><graphic coords="7,45.64,55.44,504.00,263.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. SEM Micrograph depicting the down-facing area and dross domain.</s><s>The red line marks the boundary of the CAD design, where all material to the left of the line is excess material.</s><s>The yellow lines show the direction of melt flow.</s></p></div></figDesc><graphic coords="7,43.14,510.20,240.05,186.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig. 9. Cross sectional image of internal volume adjacent to the down-facing surface showing abundance of near-surface porosity.</s></p></div></figDesc><graphic coords="8,43.14,55.41,240.05,146.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><graphic coords="10,45.64,105.59,504.00,188.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Implemented thermo-physical properties for Ti6Al4V.</s></p></div></figDesc><table><row><cell>Property</cell><cell>Value</cell><cell>Property</cell><cell>Value</cell></row><row><cell>T s</cell><cell>1878 K</cell><cell>C p,l</cell><cell>750 J/kg/K</cell></row><row><cell>T l</cell><cell>1928 K</cell><cell>k s</cell><cell>13 W/m/K</cell></row><row><cell>C p,s</cell><cell>573 J/kg/K</cell><cell>k l</cell><cell>33 W/m/K</cell></row><row><cell>σ 0</cell><cell>1.5 N/m</cell><cell>T boil</cell><cell>3315 K</cell></row><row><cell>γ</cell><cell>-0.00026 N/m/K</cell><cell>µ</cell><cell>0.005 Pa.s</cell></row><row><cell>ΔH sl</cell><cell>286 kJ/kg</cell><cell>ε</cell><cell>0.2</cell></row><row><cell>ΔH lv ρ h</cell><cell>9.7 MJ/kg 4400 kg/m 3 25 W/m 2 /K</cell><cell>β T surr</cell><cell>0.000025 1/K 300 K</cell></row><row><cell>R v</cell><cell>195 J/kg/K</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc><div><p><s>Chemical composition of LaserForm Ti Gr23 (A) Ti-6Al-4V alloy.</s></p></div></figDesc><table><row><cell>Element</cell><cell>Ti</cell><cell>N</cell><cell>C</cell><cell>H</cell><cell>Fe</cell><cell>O</cell><cell>Al</cell><cell>V</cell><cell>Y</cell><cell>Rest</cell></row><row><cell>% of Weight</cell><cell>Balance</cell><cell>≤ 0.03</cell><cell>≤ 0.08</cell><cell>≤ 0.012</cell><cell>≤ 0.25</cell><cell>≤ 0.13</cell><cell>5.5-6.5</cell><cell>3.5-4.5</cell><cell>≤ 0.005</cell><cell>≤ 0.4</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>This work was conducted as part of the <rs type="grantNumber">H2020</rs>-<rs type="grantNumber">MSCA-ITN-2016</rs> project PAM 2 , <rs type="projectName">Precision Additive Metal Manufacturing</rs>, which is funded by The <rs type="funder">EU Framework Programme for Research and</rs> <rs type="grantName">Innovation-Grant</rs> Agreement No. <rs type="grantNumber">721383</rs>.</s></p><p><s>This work has received funding from <rs type="funder">Independent Research Fund Denmark</rs>, <rs type="programName">DIGI-</rs><rs type="grantNumber">3D</rs> project [<rs type="grantNumber">0136-0210B</rs>].</s></p><p><s>The authors acknowledge the support provided by the <rs type="funder">Karlsruhe Nano Micro Facility (KNMIf</rs>, <ref type="url" target="http://www.knmf.kit.edu/">http://www.knmf.kit.edu/</ref>), a <rs type="institution">Helmholtz research infrastructure</rs> at KIT.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_zf6J82b">
+					<idno type="grant-number">H2020</idno>
+				</org>
+				<org type="funded-project" xml:id="_sSQCgyA">
+					<idno type="grant-number">MSCA-ITN-2016</idno>
+					<orgName type="grant-name">Innovation-Grant</orgName>
+					<orgName type="project" subtype="full">Precision Additive Metal Manufacturing</orgName>
+				</org>
+				<org type="funding" xml:id="_jgzFasG">
+					<idno type="grant-number">721383</idno>
+				</org>
+				<org type="funding" xml:id="_pdS96rF">
+					<idno type="grant-number">3D</idno>
+					<orgName type="program" subtype="full">DIGI-</orgName>
+				</org>
+				<org type="funding" xml:id="_23skzXm">
+					<idno type="grant-number">0136-0210B</idno>
+				</org>
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>CRediT authorship contribution statement Amal Charles: Conceptualization; Data curation; Formal analysis; Investigation; Methodology; Validation; Visualization; Roles/Writingoriginal draft; Mohamad Bayat: Conceptualization; Formal analysis; Software; Investigation; Methodology; Validation; Visualization; Roles/ Writingoriginal draft; Ahmed Elkaseer: Conceptualization; Validation, Writingreview &amp; editing, Lore Thijs: Investigation, Resources, Writingreview &amp; editing, Supervision, Project administration, Funding acquisition, Jesper Henri Hattel: Investigation, Resources, Writing review &amp; editing, Supervision, Project administration, Funding acquisition, Steffen Scholz: Methodology, Formal analysis, Resources, Writingreview &amp; editing, Supervision, Project administration, Funding acquisition.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" /><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>AppendixFig</head></figure>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A study of the microstructural evolution during selective laser melting of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verhaeghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AcMat</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3303" to="3312" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Thijs, F. Verhaeghe, T. Craeghs, J.V. Humbeeck, J.-P. Kruth, A study of the microstructural evolution during selective laser melting of Ti-6Al-4V, AcMat 58 (9) (2010) 3303-3312.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">3 -A step-by-step guide to the L-PBF process</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fundamentals of Laser Powder Bed Fusion of Metals</title>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Du Plessis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Macdonald</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="39" to="77" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Yadroitsev, I. Yadroitsava, 3 -A step-by-step guide to the L-PBF process, in: I. Yadroitsev, I. Yadroitsava, A. du Plessis, E. MacDonald (Eds.), Fundamentals of Laser Powder Bed Fusion of Metals, Elsevier, 2021, pp. 39-77.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Review of selective laser melting: materials and applications</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Loh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">41101</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.Y. Yap, C.K. Chua, Z.L. Dong, Z.H. Liu, D.Q. Zhang, L.E. Loh, S.L. Sing, Review of selective laser melting: materials and applications, Appl. Phys. Rev. 2 (4) (2015), 041101.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">New applications of rapid prototyping and rapid manufacturing (RP/RM) technologies for space instrumentation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rochus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Plesseria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Elsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carrus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AcAau</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">1-6</biblScope>
+			<biblScope unit="page" from="352" to="359" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Rochus, J.Y. Plesseria, M. Van Elsen, J.P. Kruth, R. Carrus, T. Dormal, New applications of rapid prototyping and rapid manufacturing (RP/RM) technologies for space instrumentation, AcAau 61 (1-6) (2007) 352-359.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Review of additive manufacturing technologies and applications in the aerospace industry</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Najmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Raeisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tovar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Additive Manufacturing for the Aerospace Industry</title>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Froes</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Boyer</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="7" to="31" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.C. Najmon, S. Raeisi, A. Tovar, Review of additive manufacturing technologies and applications in the aerospace industry, in: F. Froes, R. Boyer (Eds.), Additive Manufacturing for the Aerospace Industry, Elsevier, 2019, pp. 7-31.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The effect of additive manufacturing adoption on supply chain flexibility and performance: an empirical analysis from the automotive industry</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Eyers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Prod. Econ</title>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="page">107689</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Delic, D.R. Eyers, The effect of additive manufacturing adoption on supply chain flexibility and performance: an empirical analysis from the automotive industry, Int. J. Prod. Econ. 228 (2020), 107689.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The status, challenges, and future of additive manufacturing in engineering</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ramanujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Zavattieri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Aided Des</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="65" to="89" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Gao, Y.B. Zhang, D. Ramanujan, K. Ramani, Y. Chen, C.B. Williams, C.C. L. Wang, Y.C. Shin, S. Zhang, P.D. Zavattieri, The status, challenges, and future of additive manufacturing in engineering, Comput. Aided Des. 69 (2015) 65-89.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Predicting the future of additive manufacturing: a Delphi study on economic and societal implications of 3D printing for 2030</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kleer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Piller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Technol. Forecast. Soc. Change</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="84" to="97" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Jiang, R. Kleer, F.T. Piller, Predicting the future of additive manufacturing: a Delphi study on economic and societal implications of 3D printing for 2030, Technol. Forecast. Soc. Change 117 (2017) 84-97.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Development trends in additive manufacturing and 3D printing</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Engineering</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="85" to="89" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B.H. Lu, D.C. Li, X.Y. Tian, Development trends in additive manufacturing and 3D printing, Engineering 1 (1) (2015) 85-89.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">21 -Industrial applications</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brueckner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gruber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fundamentals of Laser Powder Bed Fusion of Metals</title>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Du Plessis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Macdonald</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="583" to="595" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Lopez, F. Brueckner, S. Gruber, 21 -Industrial applications, in: I. Yadroitsev, I. Yadroitsava, A. du Plessis, E. MacDonald (Eds.), Fundamentals of Laser Powder Bed Fusion of Metals, Elsevier, 2021, pp. 583-595.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Development of precision additive manufacturing processes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elkaseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scholz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Precision Metal Additive Manufacturing</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Leach</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Carmignato</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Boca Raton</addrLine></address></meeting>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Elkaseer, A. Charles, S. Scholz, Development of precision additive manufacturing processes, in: R.K. Leach, S. Carmignato (Eds.), Precision Metal Additive Manufacturing, CRC Press, Boca Raton, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Qualification and control of metal laser powder bed fusion systems for aerospace</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Der Merwe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">RAPDASA 2019 Conference Proceedings</title>
+		<meeting><address><addrLine>South Africa</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gibbons, A. Van der Merwe, Qualification and control of metal laser powder bed fusion systems for aerospace, RAPDASA 2019 Conference Proceedings, South Africa, (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Characterization and qualification of LPBF additively manufactured AISI-316L stainless steel brackets for aerospace application</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sriranganath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sahu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Narayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arumugam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Indian Natl. Acad. Eng</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="603" to="616" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P.I. Pradeep, V.A. Kumar, A. Sriranganath, S.K. Singh, A. Sahu, T.S. Kumar, P. R. Narayanan, M. Arumugam, M. Mohan, Characterization and qualification of LPBF additively manufactured AISI-316L stainless steel brackets for aerospace application, Trans. Indian Natl. Acad. Eng. 5 (3) (2020) 603-616.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Toward a common laser powder bed fusion qualification test artifact</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Garibay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Wicker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">101803</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.C. Taylor, E.A. Garibay, R.B. Wicker, Toward a common laser powder bed fusion qualification test artifact, Addit. Manuf. 39 (2021), 101803.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Multiphysics modeling of single/multiple-track defect mechanisms in electron beam selective melting</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AcMat</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="324" to="333" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W.T. Yan, W.J. Ge, Y. Qian, S. Lin, B. Zhou, W.K. Liu, F. Lin, G.J. Wagner, Multi- physics modeling of single/multiple-track defect mechanisms in electron beam selective melting, AcMat 134 (2017) 324-333.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Meso-scale modeling of multiple-layer fabrication process in Selective Electron Beam Melting: inter-layer/track voids formation</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="210" to="219" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W.T. Yan, Y. Qian, W.J. Ge, S. Lin, W.K. Liu, F. Lin, G.J. Wagner, Meso-scale modeling of multiple-layer fabrication process in Selective Electron Beam Melting: inter-layer/track voids formation, Mater. Des. 141 (2018) 210-219.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Dimensional errors due to overhanging features in laser powder bed fusion parts made of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elkaseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Scholz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Sci. Basel</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">2416</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Charles, A. Elkaseer, L. Thijs, S.G. Scholz, Dimensional errors due to overhanging features in laser powder bed fusion parts made of Ti-6Al-4V, Appl. Sci. Basel 10 (7) (2020) 2416.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Roughness and near-surface porosity of unsupported overhangs produced by high-speed laser powder bed fusion, 3D print</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Du Plessis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">3d Print Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Shange, I. Yadroitsava, A. du Plessis, I. Yadroitsev, Roughness and near-surface porosity of unsupported overhangs produced by high-speed laser powder bed fusion, 3D print, 3d Print Addit Manuf 0 (0) (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Improving additive manufacturing processability of hard-to-process overhanging structure by selective laser melting</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page" from="99" to="108" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>Supplement C</note>
+	<note type="raw_reference">H.Y. Chen, D.D. Gu, J.P. Xiong, M.J. Xia, Improving additive manufacturing processability of hard-to-process overhanging structure by selective laser melting, J. Mater. Process. Technol. 250 (Supplement C) (2017) 99-108.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">On utilizing topology optimization to design support structure to prevent residual stress induced build failure in laser powder bed metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">X</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lemon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>To</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="290" to="304" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Cheng, X. Liang, J.X. Bai, Q. Chen, J. Lemon, A. To, On utilizing topology optimization to design support structure to prevent residual stress induced build failure in laser powder bed metal additive manufacturing, Addit. Manuf. 27 (2019) 290-304.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Understanding the effect of laser scan strategy on residual stress in selective laser melting through thermo-mechanical simulation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Parry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Wildman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Parry, I.A. Ashcroft, R.D. Wildman, Understanding the effect of laser scan strategy on residual stress in selective laser melting through thermo-mechanical simulation, Addit. Manuf. 12 (2016) 1-15.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mesoscopic simulation model of selective laser melting of stainless steel powder</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2627" to="2636" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A. Khairallah, A. Anderson, Mesoscopic simulation model of selective laser melting of stainless steel powder, J. Mater. Process. Technol. 214 (11) (2014) 2627-2636.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Surface morphology evolution during pulsed selective laser melting: numerical and experimental investigations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ApSS</title>
+		<imprint>
+			<biblScope unit="volume">496</biblScope>
+			<biblScope unit="page">143649</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Zheng, L. Wei, J. Chen, Q. Zhang, J.Q. Li, S. Sui, G. Wang, W.D. Huang, Surface morphology evolution during pulsed selective laser melting: numerical and experimental investigations, ApSS 496 (2019), 143649.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effect of process parameters on the generated surface roughness of down-facing surfaces in selective laser melting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elkaseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hagenmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scholz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Sci. Basel</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">1256</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Charles, A. Elkaseer, L. Thijs, V. Hagenmeyer, S. Scholz, Effect of process parameters on the generated surface roughness of down-facing surfaces in selective laser melting, Appl. Sci. Basel 9 (6) (2019) 1256.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effect of process parameters on the surface roughness of overhanging structures in laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Moylan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Lane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="131" to="134" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Supplement C</note>
+	<note type="raw_reference">J.C. Fox, S.P. Moylan, B.M. Lane, Effect of process parameters on the surface roughness of overhanging structures in laser powder bed fusion additive manufacturing, Procedia CIRP 45 (Supplement C) (2016) 131-134.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Overhanging features and the SLM/ DMLS residual stresses problem: review and future research need</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Messimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Farrington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Technologies</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.E. Patterson, S.L. Messimer, P.A. Farrington, Overhanging features and the SLM/ DMLS residual stresses problem: review and future research need, Technologies 5 (2) (2017) 15.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Residual stresses in selective laser sintering and selective laser melting</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mercelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp. J</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="254" to="265" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Mercelis, J.P. Kruth, Residual stresses in selective laser sintering and selective laser melting, Rapid Prototyp. J. 12 (5) (2006) 254-265.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Design optimization of supports for overhanging structures in aluminum and titanium alloys by selective laser melting</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="203" to="213" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Calignano, Design optimization of supports for overhanging structures in aluminum and titanium alloys by selective laser melting, Mater. Des. 64 (2014) 203-213.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Surface quality of the curved overhanging structure manufactured from 316-L stainless steel by SLM</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Mai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="781" to="792" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Wang, S.Z. Mai, D.M. Xiao, Y.Q. Yang, Surface quality of the curved overhanging structure manufactured from 316-L stainless steel by SLM, Int. J. Adv. Manuf. Technol. 86 (1-4) (2016) 781-792.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Down-facing surfaces in laser powder bed fusion of Ti6Al4V: effect of dross formation on dimensional accuracy and surface texture</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elkaseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Paggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hagenmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scholz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">102148</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Charles, A. Elkaseer, U. Paggi, L. Thijs, V. Hagenmeyer, S. Scholz, Down-facing surfaces in laser powder bed fusion of Ti6Al4V: effect of dross formation on dimensional accuracy and surface texture, Addit. Manuf. 46 (2021), 102148.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Optimization of scan strategies in selective laser melting of aluminum parts with downfacing areas</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Clijsters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Sci. Eng. Trans. ASME</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">61012</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Mertens, S. Clijsters, K. Kempen, J.P. Kruth, Optimization of scan strategies in selective laser melting of aluminum parts with downfacing areas, J. Manuf. Sci. Eng. Trans. ASME 136 (6) (2014), 061012.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">An innovative method to build support structures with a pulsed laser in the selective laser melting process</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jhabvala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Boillat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Andre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glardon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="137" to="142" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Jhabvala, E. Boillat, C. Andre, R. Glardon, An innovative method to build support structures with a pulsed laser in the selective laser melting process, Int. J. Adv. Manuf. Technol. 59 (1-4) (2012) 137-142.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Multiscale modeling of powder bed-based additive manufacturing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Markl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Korner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="93" to="123" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Markl, C. Korner, Multiscale modeling of powder bed-based additive manufacturing, Annu. Rev. Mater. Res. 46 (1) (2016) 93-123.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Keyhole-induced porosities in Laser-based Powder Bed Fusion (L-PBF) of Ti6Al4V: high-fidelity modelling and experimental validation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thanki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Witvrouw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thorborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Tiedje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hattel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">100835</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Bayat, A. Thanki, S. Mohanty, A. Witvrouw, S.F. Yang, J. Thorborg, N.S. Tiedje, J.H. Hattel, Keyhole-induced porosities in Laser-based Powder Bed Fusion (L-PBF) of Ti6Al4V: high-fidelity modelling and experimental validation, Addit. Manuf. 30 (2019), 100835.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Observation of keyhole-mode laser melting in laser powder-bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Gallegos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kamath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2915" to="2925" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W.E. King, H.D. Barth, V.M. Castillo, G.F. Gallegos, J.W. Gibbs, D.E. Hahn, C. Kamath, A.M. Rubenchik, Observation of keyhole-mode laser melting in laser powder-bed fusion additive manufacturing, J. Mater. Process. Technol. 214 (12) (2014) 2915-2925.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Multiphysics modelling of lack-of-fusion voids formation and evolution in IN718 made by multi-track/multi-layer L-PBF</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hattel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat. Mass Transf</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="95" to="114" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Bayat, S. Mohanty, J.H. Hattel, Multiphysics modelling of lack-of-fusion voids formation and evolution in IN718 made by multi-track/multi-layer L-PBF, Int. J. Heat. Mass Transf. 139 (2019) 95-114.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A fundamental investigation of thermo-capillarity in laser powder bed fusion of metals and alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Nadimpalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hattel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat. Mass Transf</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page">120766</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Bayat, V.K. Nadimpalli, D.B. Pedersen, J.H. Hattel, A fundamental investigation of thermo-capillarity in laser powder bed fusion of metals and alloys, Int. J. Heat. Mass Transf. 166 (2021), 120766.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Modeling of heat transfer, fluid flow and solidification microstructure of nickel-base superalloy fabricated by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="178" to="188" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y.S. Lee, W. Zhang, Modeling of heat transfer, fluid flow and solidification microstructure of nickel-base superalloy fabricated by laser powder bed fusion, Addit. Manuf. 12 (2016) 178-188.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Surface-active element transport and its effect on liquid metal flow in laser-assisted additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">T</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ICHMT</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="206" to="214" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z.T. Gan, G. Yu, X.L. He, S.X. Li, Surface-active element transport and its effect on liquid metal flow in laser-assisted additive manufacturing, ICHMT 86 (2017) 206-214.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Resolving the effects of local convective heat transfer via adjustment of thermo-physical properties in pure heat conduction simulation of Laser Powder Bed Fusion (L-PBF)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Nadimpalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hattel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Mater. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">861</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">12006</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Bayat, V.K. Nadimpalli, S. Mohanty, J.H. Hattel, Resolving the effects of local convective heat transfer via adjustment of thermo-physical properties in pure heat conduction simulation of Laser Powder Bed Fusion (L-PBF), IOP Conf. Ser. Mater. Sci. Eng. 861 (1) (2020), 012006.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A review of heat treatments on improving the quality and residual stresses of the Ti-6Al-4V parts produced by additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Ó</forename><surname>Teixeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J G</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Atzeni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metals</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">1006</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ó. Teixeira, F.J.G. Silva, L.P. Ferreira, E. Atzeni, A review of heat treatments on improving the quality and residual stresses of the Ti-6Al-4V parts produced by additive manufacturing, Metals 10 (8) (2020) 1006.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Heat treatment of Ti6Al4V produced by Selective Laser Melting: Microstructure and mechanical properties</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vrancken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">541</biblScope>
+			<biblScope unit="page" from="177" to="185" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Vrancken, L. Thijs, J.-P. Kruth, J. Van Humbeeck, Heat treatment of Ti6Al4V produced by Selective Laser Melting: Microstructure and mechanical properties, J. Alloy. Compd. 541 (2012) 177-185.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Marangoni effects in welding</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Hondros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Keene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shirali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc. Lond. Ser. A Math., Phys. Eng. Sci</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="911" to="925" />
+			<date type="published" when="1739">1998. 1739</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E.D. Hondros, M. McLean, K.C. Mills, K.C. Mills, B.J. Keene, R.F. Brooks, A. Shirali, Marangoni effects in welding, Philos. Trans. R. Soc. Lond. Ser. A Math., Phys. Eng. Sci. 356 (1998) (1739) 911-925.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Considerations for interpreting in-situ photodiode sensor data in pulsed mode laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Karthik Nadimpalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joint Special Interest Group Meeting between Euspen and ASPE Advancing Precision in Additive Manufacturing</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Bernard</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Leach</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Pedersen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Taylor</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Nantes, France</addrLine></address></meeting>
+		<imprint>
+			<publisher>The European Society for Precision Engineering and Nanotechnology</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="66" to="69" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Karthik Nadimpalli, S.A. Andersen, J.S. Nielsen, D.B. Pedersen, Considerations for interpreting in-situ photodiode sensor data in pulsed mode laser powder bed fusion, in: A. Bernard, R.K. Leach, D.B. Pedersen, J.S. Taylor (Eds.), Joint Special Interest Group Meeting between Euspen and ASPE Advancing Precision in Additive Manufacturing, The European Society for Precision Engineering and Nanotechnology, Nantes, France, 2019, pp. 66-69.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Killer notches: the effect of as-built surface roughness on fatigue failure in AlSi10Mg produced by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Du Plessis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Beretta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">101424</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. du Plessis, S. Beretta, Killer notches: the effect of as-built surface roughness on fatigue failure in AlSi10Mg produced by laser powder bed fusion, Addit. Manuf. 35 (2020), 101424.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Surface post-treatments for metal additive manufacturing: progress, challenges, and opportunities</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maleki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bagherifard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bandini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guagliano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">101619</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Maleki, S. Bagherifard, M. Bandini, M. Guagliano, Surface post-treatments for metal additive manufacturing: progress, challenges, and opportunities, Addit. Manuf. 37 (2021), 101619.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Elastic and failure response of imperfect three-dimensional metallic lattices: the role of geometric defects induced by Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kamm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>García-Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pasini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Phys. Solids</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="160" to="184" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Liu, P. Kamm, F. García-Moreno, J. Banhart, D. Pasini, Elastic and failure response of imperfect three-dimensional metallic lattices: the role of geometric defects induced by Selective Laser Melting, J. Mech. Phys. Solids 107 (2017) 160-184.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The effect of build direction and geometric optimization in laser powder bed fusion of Inconel 718 structures with internal channels</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kasperovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Artzt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barriobero-Vila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Requena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Haubrich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page">109858</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Kasperovich, R. Becker, K. Artzt, P. Barriobero-Vila, G. Requena, J. Haubrich, The effect of build direction and geometric optimization in laser powder bed fusion of Inconel 718 structures with internal channels, Mater. Des. 207 (2021), 109858.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Image-based numerical characterization and experimental validation of tensile behavior of octet-truss lattice structures</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Korshunova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alaimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Hosseini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carraturo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niiranen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Auricchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kollmannsberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">101949</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Korshunova, G. Alaimo, S.B. Hosseini, M. Carraturo, A. Reali, J. Niiranen, F. Auricchio, E. Rank, S. Kollmannsberger, Image-based numerical characterization and experimental validation of tensile behavior of octet-truss lattice structures, Addit. Manuf. 41 (2021), 101949.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Fatigue life of additively manufactured Ti-6Al-4V in the very high cycle fatigue regime</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Günther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Krewerth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lippmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Leuders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tröster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weidner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Biermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niendorf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Fatigue</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="236" to="245" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Günther, D. Krewerth, T. Lippmann, S. Leuders, T. Tröster, A. Weidner, H. Biermann, T. Niendorf, Fatigue life of additively manufactured Ti-6Al-4V in the very high cycle fatigue regime, Int. J. Fatigue 94 (2017) 236-245.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">On the mechanical behaviour of titanium alloy TiAl6V4 manufactured by selective laser melting: Fatigue resistance and crack growth performance</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Leuders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thöne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Riemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tröster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Maier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Fatigue</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="300" to="307" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Leuders, M. Thöne, A. Riemer, T. Niendorf, T. Tröster, H.A. Richard, H.J. Maier, On the mechanical behaviour of titanium alloy TiAl6V4 manufactured by selective laser melting: Fatigue resistance and crack growth performance, Int. J. Fatigue 48 (2013) 300-307.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Additive manufactured AlSi10Mg samples using Selective Laser Melting (SLM): microstructure, high cycle fatigue, and fracture behavior</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Heckenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Holzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Buchbinder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="159" to="169" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Brandl, U. Heckenberger, V. Holzinger, D. Buchbinder, Additive manufactured AlSi10Mg samples using Selective Laser Melting (SLM): microstructure, high cycle fatigue, and fracture behavior, Mater. Des. 34 (2012) 159-169.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Influence of defects on mechanical properties of Ti-6Al-4V components produced by selective laser melting and electron beam melting</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Janaki Ram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="545" to="554" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Gong, K. Rafi, H. Gu, G.D. Janaki Ram, T. Starr, B. Stucker, Influence of defects on mechanical properties of Ti-6Al-4V components produced by selective laser melting and electron beam melting, Mater. Des. 86 (2015) 545-554.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">On the role of melt flow into the surface structure and porosity development during selective laser melting</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Panwisawas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Basoalto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AcMat</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="72" to="79" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Qiu, C. Panwisawas, M. Ward, H.C. Basoalto, J.W. Brooks, M.M. Attallah, On the role of melt flow into the surface structure and porosity development during selective laser melting, AcMat 96 (2015) 72-79.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Surface roughness effects on the fatigue strength of additively manufactured Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pegues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shamsaei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Fatigue</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="543" to="552" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Pegues, M. Roach, R.S. Williamson, N. Shamsaei, Surface roughness effects on the fatigue strength of additively manufactured Ti-6Al-4V, Int. J. Fatigue 116 (2018) 543-552.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Application of characterization, modelling, and analytics towards understanding process-structure linkages in metallic 3D printing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Groeber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schwalbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Donegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Mater. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page">12002</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.A. Groeber, E. Schwalbach, S. Donegan, K. Chaput, T. Butler, J. Miller, Application of characterization, modelling, and analytics towards understanding process-structure linkages in metallic 3D printing, IOP Conf. Ser. Mater. Sci. Eng. 219 (2017), 012002.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Dynamics of pore formation during laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Calta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Depond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Fong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Thampy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tassone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nelson Weker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Toney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Buuren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1987</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.A. Martin, N.P. Calta, S.A. Khairallah, J. Wang, P.J. Depond, A.Y. Fong, V. Thampy, G.M. Guss, A.M. Kiss, K.H. Stone, C.J. Tassone, J. Nelson Weker, M. F. Toney, T. van Buuren, M.J. Matthews, Dynamics of pore formation during laser powder bed fusion additive manufacturing, Nat. Commun. 10 (1) (2019) 1987.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Reduction of the residual porosity in parts manufactured by Selective Laser Melting using skywriting and high focus offset strategies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mancisidor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Garciandia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sebastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Álvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Díaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Unanue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Procedia</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="864" to="873" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.M. Mancisidor, F. Garciandia, M.S. Sebastian, P. Álvarez, J. Díaz, I. Unanue, Reduction of the residual porosity in parts manufactured by Selective Laser Melting using skywriting and high focus offset strategies, Phys. Procedia 83 (2016) 864-873.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

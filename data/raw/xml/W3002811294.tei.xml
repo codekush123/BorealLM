@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On the Relevance of Volumetric Energy Density in the Investigation of Inconel 718 Laser Powder Bed Fusion</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-01-23">23 January 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Fabrizia</forename><surname>Caiazzo</surname></persName>
+							<email>f.caiazzo@unisa.it</email>
+							<idno type="ORCID">0000-0001-7021-6745</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Industrial Engineering , University of Salerno , Via Giovanni Paolo II 132 , 84084 Fisciano ( SA) , Italy;</note>
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">University of Salerno</orgName>
+								<address>
+									<addrLine>Via Giovanni Paolo II 132</addrLine>
+									<postCode>84084</postCode>
+									<settlement>Fisciano</settlement>
+									<region>SA</region>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vittorio</forename><surname>Alfieri</surname></persName>
+							<email>valfieri@unisa.it</email>
+							<idno type="ORCID">0000-0001-5868-6859</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Industrial Engineering , University of Salerno , Via Giovanni Paolo II 132 , 84084 Fisciano ( SA) , Italy;</note>
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">University of Salerno</orgName>
+								<address>
+									<addrLine>Via Giovanni Paolo II 132</addrLine>
+									<postCode>84084</postCode>
+									<settlement>Fisciano</settlement>
+									<region>SA</region>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giuseppe</forename><surname>Casalino</surname></persName>
+							<email>giuseppe.casalino@poliba.it</email>
+							<idno type="ORCID">0000-0003-1774-4631</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Dipartimento di Meccanica , Matematica e Management , Politecnico di Bari , Viale Japigia 182 , 70126 Bari (BA) , Italy;</note>
+								<orgName type="department" key="dep1">Dipartimento di Meccanica</orgName>
+								<orgName type="department" key="dep2">Matematica e Management</orgName>
+								<orgName type="institution">Politecnico di Bari</orgName>
+								<address>
+									<addrLine>Viale Japigia 182</addrLine>
+									<postCode>70126</postCode>
+									<settlement>Bari (BA</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On the Relevance of Volumetric Energy Density in the Investigation of Inconel 718 Laser Powder Bed Fusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-01-23">23 January 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CCDB26DD208D4865A08F0F8E2E2AAEFC</idno>
+					<idno type="DOI">10.3390/ma13030538</idno>
+					<note type="submission">Received: 26 October 2019; Accepted: 21 January 2020;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T15:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>additive manufacturing</term>
+					<term>surface roughness</term>
+					<term>laser powder bed fusion</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Laser powder bed fusion (LPBF) can fabricate products with tailored mechanical and surface properties.</s><s>In fact, surface texture, roughness, pore size, the resulting fractional density, and microhardness highly depend on the processing conditions, which are very difficult to deal with.</s><s>Therefore, this paper aims at investigating the relevance of the volumetric energy density (VED) that is a concise index of some governing factors with a potential operational use.</s><s>This paper proves the fact that the observed experimental variation in the surface roughness, number and size of pores, the fractional density, and Vickers hardness can be explained in terms of VED that can help the investigator in dealing with several process parameters at once.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>New methods of manufacturing are receiving special interest to pursue specific advantages in comparison with conventional technologies.</s><s>Specifically, Additive Manufacturing (AM) by means of laser irradiation of powder bed (i.e., Laser Powder Bed Fusion, LPBF) is being evaluated in many industrial fields, including medicine, aerospace, and automotive <ref type="bibr" target="#b0">[1]</ref>, thanks to the opportunity of producing custom, complex, accurate components with optimized physical and mechanical features <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>.</s></p><p><s>As for any other technology in the field of AM, the process is conducted layer by layer: powder is laid over a plate, then the laser beam provides selective irradiation to the cross-section at each slice of the part.</s><s>Based on the levels of the governing factors, the process can be conducted either in Selective Laser Sintering (SLS) or Melting (SLM) mode <ref type="bibr" target="#b3">[4]</ref>.</s><s>Since many concurrent phenomena are in place and since LPBF is primarily aimed at industries with stringent standards, different methods of in-line monitoring are required and are currently under development <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>.</s></p><p><s>At first, one may expect any outcome in LPBF to depend on the leading factors such as laser power, scanning speed, layer thickness and hatch distance <ref type="bibr" target="#b6">[7]</ref>, the exposure strategies, as well as the build orientations of the parts <ref type="bibr" target="#b7">[8]</ref> and the required supports <ref type="bibr" target="#b8">[9]</ref>.</s><s>Other factors, such as the inert gas selection <ref type="bibr" target="#b9">[10]</ref>, are deemed to have minor impact, although these have been addressed only recently in the literature.</s><s>As regarding the output of the process, the resulting mechanical properties and the surface quality are of main concern.</s><s>Indeed, it has been shown that the porosity, in terms of both amount <ref type="bibr" target="#b10">[11]</ref> and size <ref type="bibr" target="#b11">[12]</ref> of pores, is crucial for any process involving the laser beam <ref type="bibr" target="#b12">[13]</ref>, since an effect is played on the ultimate tensile strength and the overall hardness <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>; interestingly, a proper selection Materials 2020, 13, 538; doi<ref type="url" target="http://dx.doi.org/10.3390/ma13030538">:10.3390/ma13030538</ref></s><s><ref type="url" target="http://www.mdpi.com/journal/materials">www.mdpi.com/journal/materials</ref> of the levels of the governing factors is the key to prevent possible anisotropy of the mechanical properties <ref type="bibr" target="#b13">[14]</ref>.</s></p><p><s>On the other hand, proper surface quality is crucial for shape tolerances, process accuracy and fatigue life <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>; indeed, surface roughness is a limiting factor in LPBF even when manufacturing components with internal channels, because the thermal exchange is affected <ref type="bibr" target="#b16">[17]</ref>.</s><s>Although extensive experimental trials are continuously conducted, improper surface features may still limit the application of the component if compared with its machined or casted counterpart <ref type="bibr" target="#b9">[10]</ref>; as a consequence, long and demanding post processing methods are required <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b18">19]</ref> and may represent a challenge in case of complex parts <ref type="bibr" target="#b19">[20]</ref>.</s><s>Nevertheless, specific surface patterns are valuable to the purpose of specific applications, e.g., to promote or hinder adhesion and friction.</s></p><p><s>Undoubtedly, both the mechanical and the surface properties must be taken into account when performing a proper optimization.</s><s>At present, although the optimum processing setting for each base metal is often suggested by the machine manufacturer or found via preliminary trials, interest is growing to investigate possible deviations from the target, to improve a specific requirement depending on the final application: in this sense, the optimum solution must be intended as a compromise.</s><s>For example, although the residual porosity is unwanted in general, a reduced fractional density may be required to some custom-oriented applications as medical metal implants <ref type="bibr" target="#b20">[21]</ref>, to adjust the stiffness of the final part depending on the loads and promoting regeneration and better apposition of the bone tissue <ref type="bibr" target="#b21">[22]</ref>; conversely, low porosity is mandatory to improve both the mechanical properties and the surface quality.</s><s>In general, this approach is potentially successful, provided that a complete map is available to assess the measure in which endorsing a response results into the detriment of another.</s><s>Therefore, ongoing works are reported in the literature and are aimed to full understanding the effects of the governing factors in a wide perspective, on mechanical properties, defect, surface texture and microstructure <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref>.</s></p><p><s>In this frame, the paper investigates the surface texture, the porosity, the fractional density and the microhardness as a function of the governing factors, in order to provide a comprehensive study for selecting the proper processing conditions depending on the application.</s><s>In agreement with the literature, the main factors involved in LPBF have been combined into the Volumetric Energy Density (VED), a synthetic index with physical meaning.</s><s>Several authors have investigated the process in SLM mode using different definitions of VED <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref> to prove that the fractional density <ref type="bibr" target="#b29">[30]</ref> and other responses effectively depend on VED which has been already validated <ref type="bibr" target="#b30">[31]</ref> as a design parameter for LPBF of stainless steel.</s><s>Nevertheless, VED is not effective to the purpose of a complete description as it fails to model the physics of the melting pool.</s><s>In this paper, the definition <ref type="bibr" target="#b28">[29]</ref> involving laser power P, scanning speed s, hatch distance h (i.e., the overlapping distance between consecutive traces on the same layer) and thickness t of the layer has been considered:</s></p><formula xml:id="formula_0">VED = P h•s•t<label>(1)</label></formula><p><s>Advantages and limits concerning the investigation of the process have been discussed aiming to validate the effectiveness of VED as a design parameter.</s><s>The investigation has been supported by test of normality for each feature and the analysis of variance to assess the statistical significance of VED.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head><p><s>In this work, the levels of the processing factors (Table <ref type="table" target="#tab_0">1</ref>) have been selected in a mixed experimental plan, for a given constant layer thickness of 20 µm, in order to investigate the outcome of LPBF as a consequence of different values of VED.</s><s>The thickness of the layer has been taken as a constant, although affecting the VED and the response, since it has been set to match the average size of the particles, to the purpose of uniform layering, based on preliminary trials.</s></p><p><s>Table 1.</s><s>Processing conditions of LPBF for given layer thickness of 20 µm.</s><s>Power (W) Speed (mm•s -1 ) Hatch distance (mm) VED (J•mm -3 ) 100 2400 0.09 23 155 2400 0.09 36 100 1200 0.09 46 155 1200 0.11 60 100 1200 0.05 83 195 1200 0.09 90 155 1200 0.05 130 195 400 0.05 480</s></p><p><s>An EOSINT M270 commercial laser sintering system (EOS, Krailling, Germany), operating in full-melting mode, has been used to manufacture cylinder specimens, 40 mm diameter, 20 mm height; the direction of building is the direction of the longitudinal axis of the cylinder, therefore the need for supports <ref type="bibr" target="#b8">[9]</ref> has been prevented.</s><s>As common practice in LPBF <ref type="bibr" target="#b0">[1]</ref>, the exposure strategy is based on splitting the cross-section into parallel sectors, 5 mm wide; each sector is scanned by the laser with multiple, overlapping, traces (Figure <ref type="figure" target="#fig_0">1</ref>).</s><s>Moreover, double exposure with the parameters of each processing condition is provided at the contour of the cross-section to the purpose of increasing the accuracy.</s><s>Layer by layer, the scan direction is rotated by 67 • to promote full adhesion of the material and reduce the mechanical anisotropy.</s><s>It is worth noting that although the manufacturing process is generally based on remelting of the last layer in order to improve the features of the top surface, the common approach has been changed to the purpose of this paper: i.e., the exposed surface has been scanned with the same strategy of any other layer, therefore it is fully representative of the conditions of building.</s><s>Power (W) Speed (mm•s -1 ) Hatch distance (mm) VED (J•mm -3 ) 100 2400 0.09 23 155 2400 0.09 36 100 1200 0.09 46 155 1200 0.11 60 100 1200 0.05 83 195 1200 0.09 90 155 1200 0.05 130 195 400 0.05 480</s></p><p><s>An EOSINT M270 commercial laser sintering system (EOS, Krailling, Germany), operating in full-melting mode, has been used to manufacture cylinder specimens, 40 mm diameter, 20 mm height; the direction of building is the direction of the longitudinal axis of the cylinder, therefore the need for supports <ref type="bibr" target="#b8">[9]</ref> has been prevented.</s><s>As common practice in LPBF <ref type="bibr" target="#b0">[1]</ref>, the exposure strategy is based on splitting the cross-section into parallel sectors, 5 mm wide; each sector is scanned by the laser with multiple, overlapping, traces (Figure <ref type="figure" target="#fig_0">1</ref>).</s><s>Moreover, double exposure with the parameters of each processing condition is provided at the contour of the cross-section to the purpose of increasing the accuracy.</s><s>Layer by layer, the scan direction is rotated by 67° to promote full adhesion of the material and reduce the mechanical anisotropy.</s><s>It is worth noting that although the manufacturing process is generally based on remelting of the last layer in order to improve the features of the top surface, the common approach has been changed to the purpose of this paper: i.e., the exposed surface has been scanned with the same strategy of any other layer, therefore it is fully representative of the conditions of building.</s><s>Pre-alloyed, virgin, commercial argon gas atomized EOS NickelAlloy IN718 powder of 20 μm mean size, as reported by the manufacturer (EOS, Krailling, Germany), matching to the standard nominal composition of Inconel 718 <ref type="bibr" target="#b31">[32]</ref> has been used and laid by a brush recoater, in inert argon atmosphere to prevent oxidation.</s><s>The temperature of the plate has been set to 80 °C to improve adhesion of the first layer, as well as preventing cracking.</s></p><p><s>Visual inspections via stereoscopic microscopy have been conducted.</s><s>To characterize the surface topography, a contact-type roughness tester has been used; specifically, in compliance with ISO standard <ref type="bibr" target="#b32">[33]</ref>, the sample length and the cut-off wavelength in the Gaussian filter to separate roughness and waviness components of the parts have been set.</s><s>Moreover, the surface roughness at the top of each sample has been measured along three directions of probe, i.e., the direction of scan (1), the direction of hatch (2) and a 45°-tilted direction (3) with respect to these; three replications have been made for each acquisition.</s></p><p><s>Then, the specimens have been cut, mounted, polished and etched with conventional procedures for metallographic preparation of samples <ref type="bibr" target="#b31">[32]</ref>, to the purpose of further investigation in terms of residual porosity and Vickers microhardness, since a dependence of the mechanical properties as a function of the processing conditions must be assumed.</s><s>Pre-alloyed, virgin, commercial argon gas atomized EOS NickelAlloy IN718 powder of 20 µm mean size, as reported by the manufacturer (EOS, Krailling, Germany), matching to the standard nominal composition of Inconel 718 <ref type="bibr" target="#b31">[32]</ref> has been used and laid by a brush recoater, in inert argon atmosphere to prevent oxidation.</s><s>The temperature of the plate has been set to 80 • C to improve adhesion of the first layer, as well as preventing cracking.</s></p><p><s>Visual inspections via stereoscopic microscopy have been conducted.</s><s>To characterize the surface topography, a contact-type roughness tester has been used; specifically, in compliance with ISO standard <ref type="bibr" target="#b32">[33]</ref>, the sample length and the cut-off wavelength in the Gaussian filter to separate roughness and waviness components of the parts have been set.</s><s>Moreover, the surface roughness at the top of each sample has been measured along three directions of probe, i.e., the direction of scan (1), the direction of hatch (2) and a 45 • -tilted direction (3) with respect to these; three replications have been made for each acquisition.</s></p><p><s>Then, the specimens have been cut, mounted, polished and etched with conventional procedures for metallographic preparation of samples <ref type="bibr" target="#b31">[32]</ref>, to the purpose of further investigation in terms of residual porosity and Vickers microhardness, since a dependence of the mechanical properties as a function of the processing conditions must be assumed.</s></p><p><s>Porosity has been evaluated in size and amount by an image processing approach: i.e., ten micrographs of 1.20 mm × 0.90 mm size of random sections, orthogonal to the building direction, have been acquired and an algorithm has been implemented to automatically detect the pores as dark spots over a bright surface, based on image segmentation.</s><s>The number of pores, the corresponding average size, and the residual areal porosity have been computed.</s></p><p><s>To investigate the effect on the mechanical properties, Vickers testing has been conducted on transverse section, orthogonal to the building direction again; an indenting load of 300 gf has been used for a dwell period of 10 s; specifically, five random cross-sections have been considered, an indentation pattern of 16 tests in a 4 × 4 indentation matrix has been set, a 0.5 mm step has been allowed between adjacent indentations, in compliance with ISO standard <ref type="bibr" target="#b33">[34]</ref> for hardness testing on metals.</s><s>Special care has been taken for the position of indentation in case of significant pore amount, to skip the voids and effectively test the metal.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Surface Roughness and Texture</head><p><s>The mean values of roughness and peak-to-valley height, mean R a and R z respectively, have been referred to characterize the surface topography for each processing condition.</s><s>At first, no densification occurred with the lowest level of VED of the plan; the powder was sintered but not fully melted, resulting in the highest roughness.</s></p><p><s>As regarding the other conditions, effective densification was obtained; interestingly, for each given condition, any dependence of the mean roughness on the direction of probe can be discarded and ascribed to the experimental error; therefore, one may assume that the surface pattern is uniform and the lay resulting from manufacturing is negligible over a surface parallel to the building plate.</s><s>This is crucial to the purpose of considering a single, average value for the surface roughness (Table <ref type="table">2</ref>).</s><s>Two main findings are displayed.</s><s>The first one, as-built roughness in LPBF is lower compared to polishing and surface finishing <ref type="bibr" target="#b34">[35]</ref> for a given expected dimensional accuracy of 0.01 mm.</s><s>The second one, any increase of VED yields a reduction of roughness (Figure <ref type="figure" target="#fig_2">2</ref>).</s></p><p><s>Table 2. Mean values of roughness with corresponding dispersion for each processing condition.</s><s>VED (J•mm -3 ) Mean roughness R a (µm) Peak-to-valley height R z (µm) Average Std.</s><s>Deviation Average Std.</s><s>Deviation 23 45.12 2.78 285.96 29.89 36 15.82 0.97 114.56 5.75 46 15.77 1.92 117.65 13.57</s><s>60 8.92 1.37 60.57</s><s>13.80 83 9.08 0.21 62.38 7.04 90 6.84 0.12 43.04 0.42 130 6.22 0.83 47.17 8.10 480 6.99 0.56 34.62 3.79 Nevertheless, exceeding VED over a threshold of approximately 90 J•mm -3 provided no gain.</s><s>Indeed, based on the visual inspections on the exposed surface, additional findings must be reported.</s><s>For example, ridges and dimples result at contour when improper processing conditions are set, i.e., as a consequence of high VED (Figure <ref type="figure" target="#fig_3">3</ref>); these are prevented in a condition of balanced heat input of 90 J•mm -3 (Figure <ref type="figure" target="#fig_4">4</ref>), instead.</s><s>Contour ridges are thought to be a major source of imperfections as they may lead to failure of the building process due to delamination of the part or improper layering of the powder; moreover, balling may even occur in condition of low energy per unit volume, due to surface tension hindering proper wetting <ref type="bibr" target="#b35">[36]</ref>, thus producing unwanted inhomogeneities such as agglomerated particles and dimples <ref type="bibr" target="#b4">[5]</ref>.</s><s>During building, these defects may easily degenerate in porosity, as discussed in the following.</s><s>Nevertheless, exceeding VED over a threshold of approximately 90 J•mm -3 provided no gain.</s><s>Indeed, based on the visual inspections on the exposed surface, additional findings must be reported.</s><s>For example, ridges and dimples result at contour when improper processing conditions are set, i.e., as a consequence of high VED (Figure <ref type="figure" target="#fig_3">3</ref>); these are prevented in a condition of balanced heat input of 90 J•mm -3 (Figure <ref type="figure" target="#fig_4">4</ref>), instead.</s></p><p><s>Materials 2020, 13, 538 5 of 12 Nevertheless, exceeding VED over a threshold of approximately 90 J•mm -3 provided no gain.</s><s>Indeed, based on the visual inspections on the exposed surface, additional findings must be reported.</s><s>For example, ridges and dimples result at contour when improper processing conditions are set, i.e., as a consequence of high VED (Figure <ref type="figure" target="#fig_3">3</ref>); these are prevented in a condition of balanced heat input of 90 J•mm -3 (Figure <ref type="figure" target="#fig_4">4</ref>), instead.</s><s>Contour ridges are thought to be a major source of imperfections as they may lead to failure of the building process due to delamination of the part or improper layering of the powder; moreover, balling may even occur in condition of low energy per unit volume, due to surface tension hindering proper wetting <ref type="bibr" target="#b35">[36]</ref>, thus producing unwanted inhomogeneities such as agglomerated particles and dimples <ref type="bibr" target="#b4">[5]</ref>.</s><s>During building, these defects may easily degenerate in porosity, as discussed in the following.</s><s>Materials 2020, 13, 538 5 of 12 Nevertheless, exceeding VED over a threshold of approximately 90 J•mm -3 provided no gain.</s><s>Indeed, based on the visual inspections on the exposed surface, additional findings must be reported.</s><s>For example, ridges and dimples result at contour when improper processing conditions are set, i.e., as a consequence of high VED (Figure <ref type="figure" target="#fig_3">3</ref>); these are prevented in a condition of balanced heat input of 90 J•mm -3 (Figure <ref type="figure" target="#fig_4">4</ref>), instead.</s><s>Contour ridges are thought to be a major source of imperfections as they may lead to failure of the building process due to delamination of the part or improper layering of the powder; moreover, balling may even occur in condition of low energy per unit volume, due to surface tension hindering proper wetting <ref type="bibr" target="#b35">[36]</ref>, thus producing unwanted inhomogeneities such as agglomerated particles and dimples <ref type="bibr" target="#b4">[5]</ref>.</s><s>During building, these defects may easily degenerate in porosity, as discussed in the following.</s><s>Contour ridges are thought to be a major source of imperfections as they may lead to failure of the building process due to delamination of the part or improper layering of the powder; moreover, balling may even occur in condition of low energy per unit volume, due to surface tension hindering proper wetting <ref type="bibr" target="#b35">[36]</ref>, thus producing unwanted inhomogeneities such as agglomerated particles and dimples <ref type="bibr" target="#b4">[5]</ref>.</s><s>During building, these defects may easily degenerate in porosity, as discussed in the following.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Fractional Density</head><p><s>VED relates to fractional density.</s><s>Indeed, the total number of pores, their shape and average size are affected (Figure <ref type="figure" target="#fig_15">5</ref>).</s><s>An extreme condition of low heat input resulted in larger, irregular pores where even bits of loose powder locate inside, due to reduced densification rates; conversely, increasing VED was favorable to decrease the average number of pores, their average size and the overall void fraction (Table <ref type="table">3</ref>).</s></p><p><s>Materials 2020, 13, 538 6 of 12</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Fractional Density</head><p><s>VED relates to fractional density.</s><s>Indeed, the total number of pores, their shape and average size are affected (Figure <ref type="figure" target="#fig_15">5</ref>).</s><s>An extreme condition of low heat input resulted in larger, irregular pores where even bits of loose powder locate inside, due to reduced densification rates; conversely, increasing VED was favorable to decrease the average number of pores, their average size and the overall void fraction (Table <ref type="table">3</ref>).</s><s>Table 3.</s><s>Average number of pores, size, and void fraction with corresponding dispersion.</s><s>VED (J•mm -3 ) Number of Pores Size of Pores (μm) Void Fraction (%) Average Std.</s><s>Deviation Average Std.</s><s>Deviation Average Std.</s><s>Deviation 36 180 22 5.02 0.45 4.88 0.57 46 57 21 3.20 0.93 0.69 0.40 60 46 51 1.63 0.95 0.11 0.10 83 41 42 1.65 1.21 0.12 0.07 90 14 2 1.73 0.49 0.05 0.03 130 4 4 2.19 1.80 0.03 0.04 480 33 8 4.35 0.32 1.07 0.35</s></p><p><s>The same trend was found for these responses (Figures <ref type="figure" target="#fig_17">6</ref><ref type="figure" target="#fig_18">7</ref><ref type="figure" target="#fig_19">8</ref>): in fact, a 86% reduction of the void fraction, due to both reduced number of pores and decreased pore size, was observed as a consequence of a 67% increase of VED; the trend is taken until a critical threshold yielding a slower rate of densification.</s><s>Indeed, energy input ranging from 60 to 130 J•mm -3 resulted in additional improvements in a measure of 72%; nevertheless, further increase of VED may be detrimental: interestingly, an increase of the void fraction is found for VED of 480 J•mm -3 and must be ascribed to specific defects of layer inhomogeneities, as discussed via visual inspections of the contour of the cross-section.</s><s>Table 3.</s><s>Average number of pores, size, and void fraction with corresponding dispersion.</s><s>VED (J•mm -3 ) Number of Pores Size of Pores (µm) Void Fraction (%) Average Std.</s><s>Deviation Average Std.</s><s>Deviation Average Std.</s><s>Deviation 36 180 22 5.02 0.45 4.88 0.57 46 57 21 3.20 0.93 0.69 0.40 60 46 51 1.63 0.95 0.11 0.10 83 41 42 1.65 1.21 0.12 0.07 90 14 2 1.73 0.49 0.05 0.03 130 4 4 2.19 1.80 0.03 0.04 480 33 8 4.35 0.32 1.07 0.35</s></p><p><s>The same trend was found for these responses (Figures <ref type="figure" target="#fig_17">6</ref><ref type="figure" target="#fig_18">7</ref><ref type="figure" target="#fig_19">8</ref>): in fact, a 86% reduction of the void fraction, due to both reduced number of pores and decreased pore size, was observed as a consequence of a 67% increase of VED; the trend is taken until a critical threshold yielding a slower rate of densification.</s><s>Indeed, energy input ranging from 60 to 130 J•mm -3 resulted in additional improvements in a measure of 72%; nevertheless, further increase of VED may be detrimental: interestingly, an increase of the void fraction is found for VED of 480 J•mm -3 and must be ascribed to specific defects of layer inhomogeneities, as discussed via visual inspections of the contour of the cross-section.</s><s>In agreement with similar findings in the literature <ref type="bibr" target="#b29">[30]</ref>, an exponential law can be assumed for the fractional density ρ intended as the complement of the residual porosity to 100%:</s></p><formula xml:id="formula_1">𝜌 𝑎 𝑏 exp 𝑐 • 𝐸<label>(2)</label></formula><p><s>The calibration parameters a, b, and c mainly depend on the particle-size distribution of the powder, although an additional effect could be expected depending on the layering tool.</s><s>Specifically, Materials 2020, 13, 538 7 of 12 Figure 6.</s><s>Number of pores as a function of VED.</s><s>In agreement with similar findings in the literature <ref type="bibr" target="#b29">[30]</ref>, an exponential law can be assumed for the fractional density ρ intended as the complement of the residual porosity to 100%:</s></p><formula xml:id="formula_2">𝜌 𝑎 𝑏 exp 𝑐 • 𝐸<label>(2)</label></formula><p><s>The calibration parameters a, b, and c mainly depend on the particle-size distribution of the powder, although an additional effect could be expected depending on the layering tool.</s><s>Specifically, Materials 2020, 13, 538 7 of 12 Figure 6.</s><s>Number of pores as a function of VED.</s><s>In agreement with similar findings in the literature <ref type="bibr" target="#b29">[30]</ref>, an exponential law can be assumed for the fractional density ρ intended as the complement of the residual porosity to 100%:</s></p><formula xml:id="formula_3">𝜌 𝑎 𝑏 exp 𝑐 • 𝐸<label>(2)</label></formula><p><s>The calibration parameters a, b, and c mainly depend on the particle-size distribution of the powder, although an additional effect could be expected depending on the layering tool.</s><s>Specifically, In agreement with similar findings in the literature <ref type="bibr" target="#b29">[30]</ref>, an exponential law can be assumed for the fractional density ρ intended as the complement of the residual porosity to 100%:</s></p><formula xml:id="formula_4">ρ = a -b exp(-c•E v )<label>(2)</label></formula><p><s>The calibration parameters a, b, and c mainly depend on the particle-size distribution of the powder, although an additional effect could be expected depending on the layering tool.</s><s>Specifically, a denotes the maximum possible theoretical fractional density, whereas b and c directly depend on the densification rate; all of them must be evaluated on a case-by-case basis.</s><s>In this case-study, for VED in joule per cubic millimeters, the model yields: a = 99.97%</s></p><formula xml:id="formula_5">b = 15.20%<label>(3)</label></formula><formula xml:id="formula_6">c = 0.05 mm 3 J (<label>(4)</label></formula><formula xml:id="formula_7">)<label>5</label></formula><p><s>A 0.7% absolute error is offered by the model in predicting the actual fractional density (Figure <ref type="figure" target="#fig_27">9</ref>); the value of the tap density of the powder is approached for null VED; the reliability of the model is lost when failures or balling are produced.</s><s>Materials 2020, 13, 538 8 of 12 a denotes the maximum possible theoretical fractional density, whereas b and c directly depend on the densification rate; all of them must be evaluated on a case-by-case basis.</s><s>In this case-study, for VED in joule per cubic millimeters, the model yields:</s></p><formula xml:id="formula_8">𝑎 99.97%<label>(3)</label></formula><formula xml:id="formula_9">𝑏 15.20% (<label>4</label></formula><formula xml:id="formula_10">) 𝑐 0.05 𝑚𝑚 𝐽 (<label>5</label></formula><formula xml:id="formula_11">)</formula><p><s>A 0.7% absolute error is offered by the model in predicting the actual fractional density (Figure <ref type="figure" target="#fig_27">9</ref>); the value of the tap density of the powder is approached for null VED; the reliability of the model is lost when failures or balling are produced.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Microhardness</head><p><s>The mechanical properties are expected to be directly dependent on the processing conditions.</s><s>At first, the formation of pores reduced the overall strength of the part; secondly, different microstructures are formed.</s><s>Although each given processing condition yields uniform microhardness over random cross-sections, orthogonal to the building plate, a clear dependence on VED is in place (Table <ref type="table" target="#tab_1">4</ref>, Figure <ref type="figure" target="#fig_29">10</ref>).</s></p><p><s>High frequency of pores for low VED (i.e., 36 J•mm -3 ), prevented proper testing of the base metal; indeed, the average size of the indentation is larger than the average distance between adjacent pores, therefore lower hardness resulted here.</s><s>As regarding the other conditions, each indentation is made on full metal, therefore one may assume the values are not affected by the occurrence of porosity, but only by the microstructure which depends on the cooling rate in different processing conditions.</s><s>Specifically, lower cooling rates due to increased level of energy per unit volume resulted in coarser grains.</s><s>Otherwise, fine grains were obtained when lower energy was applied.</s><s>In the range from 50 to 100 J•mm -3 , considering the extent of the error bars, one may assume that microhardness is not affected by VED.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Microhardness</head><p><s>The mechanical properties are expected to be directly dependent on the processing conditions.</s><s>At first, the formation of pores reduced the overall strength of the part; secondly, different microstructures are formed.</s><s>Although each given processing condition yields uniform microhardness over random cross-sections, orthogonal to the building plate, a clear dependence on VED is in place (Table <ref type="table" target="#tab_1">4</ref>, Figure <ref type="figure" target="#fig_29">10</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Statistical Analysis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Assessment of Normality Assumption</head><p><s>Many statistical procedures rely on population normality of the experimental data.</s><s>Therefore, using a normality test to determine whether to reject this assumption can be an important step in the data analysis.</s><s>In this paper, the assumption of normality was tested with the Anderson-Darling and the Ryan-Joiner methods.</s><s>The former compares the empirical cumulative distribution function of the sample data with the expected distribution if the data were normal; the latter assesses the normality by calculating the correlation between the data and the normal scores of the data.</s><s>If the correlation coefficient is near 1, the population is likely to be normal.</s><s>The approach is similar to the Shapiro-Wilk normality test <ref type="bibr" target="#b36">[37]</ref>.</s><s>The assumption of normality of data was verified for surface roughness, porosity, fractional density, and microhardness.</s></p><p><s>The best p-value out of the two tests and the range of VED for the data used in the test are given (Table <ref type="table" target="#tab_2">5</ref>): the lower the p-value, the less the probability that data come from a normal population; i.e., the tests reject the hypothesis of normality when the p-value is less than or equal to a cut-off value which has been set to 0.05, as common practice among researchers.</s></p><p><s>Table 5. Results of normality test and related range of VED.</s><s>Response p-Value VED Range (J•mm -3 ) Mean roughness Ra 0.53 60-480 Peak-to-valley height Rz 0.05 60-480 Number of pores 0.10 60-480 Size of pores 0.01 60-480 Microhardness 0.36 60-480 High frequency of pores for low VED (i.e., 36 J•mm -3 ), prevented proper testing of the base metal; indeed, the average size of the indentation is larger than the average distance between adjacent pores, therefore lower hardness resulted here.</s><s>As regarding the other conditions, each indentation is made on full metal, therefore one may assume the values are not affected by the occurrence of porosity, but only by the microstructure which depends on the cooling rate in different processing conditions.</s><s>Specifically, lower cooling rates due to increased level of energy per unit volume resulted in coarser grains.</s><s>Otherwise, fine grains were obtained when lower energy was applied.</s><s>In the range from 50 to 100 J•mm -3 , considering the extent of the error bars, one may assume that microhardness is not affected by VED.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Statistical Analysis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Assessment of Normality Assumption</head><p><s>Many statistical procedures rely on population normality of the experimental data.</s><s>Therefore, using a normality test to determine whether to reject this assumption can be an important step in the data analysis.</s><s>In this paper, the assumption of normality was tested with the Anderson-Darling and the Ryan-Joiner methods.</s><s>The former compares the empirical cumulative distribution function of the sample data with the expected distribution if the data were normal; the latter assesses the normality by calculating the correlation between the data and the normal scores of the data.</s><s>If the correlation coefficient is near 1, the population is likely to be normal.</s><s>The approach is similar to the Shapiro-Wilk normality test <ref type="bibr" target="#b36">[37]</ref>.</s><s>The assumption of normality of data was verified for surface roughness, porosity, fractional density, and microhardness.</s></p><p><s>The best p-value out of the two tests and the range of VED for the data used in the test are given (Table <ref type="table" target="#tab_2">5</ref>): the lower the p-value, the less the probability that data come from a normal population; i.e., the tests reject the hypothesis of normality when the p-value is less than or equal to a cut-off value which has been set to 0.05, as common practice among researchers.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Scheme of the directions of the laser beam in scanning and hatching over a surface.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Scheme of the directions of the laser beam in scanning and hatching over a surface.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Surface roughness as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Ridges and dimples at the contour of the cross-section, for VED of 480 J•mm -3 .</s></p></div></figDesc><graphic coords="5,207.77,373.63,178.68,121.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Contour of the cross-section for VED of 90 J•mm -3 .</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Surface roughness as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Surface roughness as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Ridges and dimples at the contour of the cross-section, for VED of 480 J•mm -3 .</s></p></div></figDesc><graphic coords="5,207.77,532.67,178.68,121.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Contour of the cross-section for VED of 90 J•mm -3 .</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Ridges and dimples at the contour of the cross-section, for VED of 480 J•mm -3 .</s></p></div></figDesc><graphic coords="5,208.63,375.83,178.68,121.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Surface roughness as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Ridges and dimples at the contour of the cross-section, for VED of 480 J•mm -3 .</s></p></div></figDesc><graphic coords="5,207.77,371.27,178.68,121.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Contour of the cross-section for VED of 90 J•mm -3 .</s></p></div></figDesc><graphic coords="5,208.63,537.23,178.68,121.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Contour of the cross-section for VED of 90 J•mm -3 .</s></p></div></figDesc><graphic coords="5,207.77,535.03,178.68,121.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><figDesc><div><p><s>mm -336 J•mm -3 46 J•mm -3 60 J•mm -383 J•mm -3 90 J•mm -3 130 J•mm -3 480 J•mm -3</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Micrographs of random cross-sections for each condition of VED.</s></p></div></figDesc><graphic coords="6,298.35,281.25,104.06,78.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Micrographs of random cross-sections for each condition of VED.</s></p></div></figDesc><graphic coords="6,406.89,281.66,103.65,77.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Number of pores as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. Size of pores as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Void fraction as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 6 . 12 Figure 6 .</head><label>6126</label><figDesc><div><p><s>Figure 6.</s><s>Number of pores as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. Size of pores as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Void fraction as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 7 . 12 Figure 6 .</head><label>7126</label><figDesc><div><p><s>Figure 7. Size of pores as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. Size of pores as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Void fraction as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Void fraction as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_27"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Actual vs predicted fractional density as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_28"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Actual vs predicted fractional density as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_29"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Vickers microhardness as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_30"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Vickers microhardness as a function of VED.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Processing conditions of LPBF for given layer thickness of 20 μm.</s></p></div></figDesc><table><row><cell>Materials 2020, 13, 538</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 4 .</head><label>4</label><figDesc><div><p><s>Average size of indentation and microhardness with corresponding dispersion.</s></p></div></figDesc><table><row><cell>VED (J•mm -3 )</cell><cell cols="2">Size of the Indentation (µm) Average Std. Deviation</cell><cell cols="2">Vickers Microhardness HV 0.3 Average Std. Deviation</cell></row><row><cell>36</cell><cell>41.8</cell><cell>1.0</cell><cell>319</cell><cell>9.9</cell></row><row><cell>46</cell><cell>40.4</cell><cell>0.5</cell><cell>341</cell><cell>8.5</cell></row><row><cell>60</cell><cell>40.7</cell><cell>0.5</cell><cell>336</cell><cell>12.3</cell></row><row><cell>83</cell><cell>40.1</cell><cell>0.7</cell><cell>346</cell><cell>10.5</cell></row><row><cell>90</cell><cell>40.2</cell><cell>0.6</cell><cell>345</cell><cell>10.7</cell></row><row><cell>130</cell><cell>41.9</cell><cell>1.0</cell><cell>316</cell><cell>11.5</cell></row><row><cell>480</cell><cell>43.9</cell><cell>1.1</cell><cell>290</cell><cell>15.6</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 5 .</head><label>5</label><figDesc><div><p><s>Results of normality test and related range of VED.</s></p></div></figDesc><table><row><cell>Response</cell><cell>p-Value</cell><cell>VED Range (J•mm -3 )</cell></row><row><cell>Mean roughness R a</cell><cell>0.53</cell><cell>60-480</cell></row><row><cell>Peak-to-valley height R z</cell><cell>0.05</cell><cell>60-480</cell></row><row><cell>Number of pores</cell><cell>0.10</cell><cell>60-480</cell></row><row><cell>Size of pores</cell><cell>0.01</cell><cell>60-480</cell></row><row><cell>Microhardness</cell><cell>0.36</cell><cell>60-480</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p><s>The Authors gratefully acknowledge <rs type="person">Paolo Argenio</rs> for his valuable contribution in technical operations for characterization of the samples.</s></p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Funding: This research received no external funding.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p><s>The authors declare no conflict of interest.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Author Contributions: Conceptualization, methodology, resources, writing-review and editing, supervision, and project administration.</s><s>F.C.; software and writing-original draft preparation V.A.; investigation and visualization, F.C., V.A.; formal analysis, data curation, and validation, G.C.</s><s>All authors have read and agreed to the published version of the manuscript.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Apart from the size of pores, the hypothesis of normality was verified positively in the range of VED between 60 and 480 J•mm -3 .</s><s>In this range, the properties of the parts made by Inconel 718 laser powder bed fusion can be predicted using a gaussian distribution of given population parameters (Table <ref type="table" target="#tab_3">6</ref>).</s><s>As regarding the range between 36 and 60 J•mm -3 , the process is hindered by imperfect adhesion of the particles, therefore the adaptation to normality is affected.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Analysis of Variance</head><p><s>Based on the results, a dependence on the VED is inferred for each of the responses.</s><s>The analysis of variance (ANOVA) can be used as a definitive exploratory tool to explain the differences in the experimental results.</s><s>In fact, these can depend either on the experimental error or the explored variable.</s><s>In the latter case, it is said that the experimental variable has statistical significance, which means that the observed variation is not incidental <ref type="bibr" target="#b36">[37]</ref>.</s><s>The p-value of the investigated responses versus VED has been evaluated (Table <ref type="table" target="#tab_4">7</ref>); since the p-value is a measure of the level to reject the significance of the variable in the explanations of the results, the conclusion is that VED is significant for LPBF of Inconel 718, in a range where normality is matched for the responses.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>In this paper, the volumetric energy density relevance to the laser powder bed fusion process was studied.</s><s>The main findings are listed as follows.</s></p><p><s>•</s></p><p><s>The increase of the volumetric energy density up to a threshold of approximately 90 J•mm -3 results in improved surface features with reduced roughness below 1 µm and fractional density up to 99.97%, with negligible effect on the overall microhardness.</s></p><p><s>• A critical threshold yielded a slower rate of densification and may degenerate in collapse or delamination of the part, due to ridges and dimples in the cross-section.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>Although it may fail in representing the physics of the process, the volumetric energy density has statistical significance in explaining the variation in the observed experimental results.</s></p><p><s>•</s></p><p><s>If the VED has statistical significance, it can be used confidently for the process design and optimization, at least in the range of normality for part-quality parameters.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 6 .</head><label>6</label><figDesc><div><p><s>Mean and standard deviation of each response for VED in the range 60-480 J•mm -3 .</s></p></div></figDesc><table><row><cell>Response</cell><cell>Mean</cell><cell>Standard Deviation</cell></row><row><cell>Mean roughness R a (µm)</cell><cell>7.65</cell><cell>1.57</cell></row><row><cell>Peak-to-valley height R z (µm)</cell><cell>49.40</cell><cell>14.79</cell></row><row><cell>Number of pores</cell><cell>34.87</cell><cell>25.30</cell></row><row><cell>Microhardness (HV)</cell><cell>328.21</cell><cell>3.43</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 7 .</head><label>7</label><figDesc><div><p><s>Results for the ANOVA to test the significance of VED in the range 60-480 J•mm -3 .</s></p></div></figDesc><table><row><cell>Response</cell><cell>p-Value</cell></row><row><cell>Mean roughness R a</cell><cell>0.000</cell></row><row><cell>Peak-to-valley height R z</cell><cell>0.028</cell></row><row><cell>Number of pores</cell><cell>0.000</cell></row><row><cell>Microhardness</cell><cell>0.000</cell></row></table></figure>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Additive Manufacturing Technologies: 3D Printing, Rapid Prototyping, and Direct Digital Manufacturing</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York; New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibson, I.; Rosen, D.; Stucker, B. Additive Manufacturing Technologies: 3D Printing, Rapid Prototyping, and Direct Digital Manufacturing; Springer-Verlag New York: New York, NY, USA, 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Experimental analysis of selective laser melting process for Ti-6Al-4V turbine blade manufacturing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caiazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cardaropoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sergi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cuccaro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the XIX International Symposium on High-Power Laser Systems and Applications</title>
+		<meeting>the XIX International Symposium on High-Power Laser Systems and Applications<address><addrLine>Istanbul, Turkey</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-09">September 2012</date>
+			<biblScope unit="page" from="10" to="14" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caiazzo, F.; Cardaropoli, F.; Alfieri, V.; Sergi, V.; Cuccaro, L. Experimental analysis of selective laser melting process for Ti-6Al-4V turbine blade manufacturing. In Proceedings of the XIX International Symposium on High-Power Laser Systems and Applications, Istanbul, Turkey, 10-14 September 2012.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Redesign and manufacturing of a metal towing hook via laser additive manufacturing with powder bed</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Usera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caiazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Argenio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ares</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.promfg.2017.09.129</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Manuf</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="825" to="832" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Usera, D.; Alfieri, V.; Caiazzo, F.; Argenio, P.; Corrado, G.; Ares, E. Redesign and manufacturing of a metal towing hook via laser additive manufacturing with powder bed. Procedia Manuf. 2017, 13, 825-832. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Selective Laser Sintering/Melting</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Compr. Mater. Process</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="93" to="134" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar, S. Selective Laser Sintering/Melting. Compr. Mater. Process. 2014, 10, 93-134.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">In situ measurements of layer roughness during laser powder bed fusion additive manufacturing using low coherence scanning interferometry</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Depond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Calta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2018.05.050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="347" to="359" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Depond, P.J.; Guss, G.; Ly, S.; Calta, N.P.; Deane, D.; Khairallah, S.; Matthews, M.J. In situ measurements of layer roughness during laser powder bed fusion additive manufacturing using low coherence scanning interferometry. Mater. Des. 2018, 154, 347-359. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Machine learning-based image processing for on-line defect recognition in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caggiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caiazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Teti</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cirp.2019.03.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Ann</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="451" to="454" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caggiano, A.; Zhang, J.; Alfieri, V.; Caiazzo, F.; Gao, R.; Teti, R. Machine learning-based image processing for on-line defect recognition in additive manufacturing. CIRP Ann. 2019, 68, 451-454. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Influence of Exposure Energy Density on Porosity and Microhardness of the SLM Additive Manufactured Elements</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kluczy Ński</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Śnie Żek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grzelak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mierzy Ński</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2304</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kluczy ński, J.; Śnie żek, L.; Grzelak, K.; Mierzy ński, J. The Influence of Exposure Energy Density on Porosity and Microhardness of the SLM Additive Manufactured Elements. Materials 2018, 11, 2304.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The effect of SLM process parameters on density, hardness, tensile strength and surface quality of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Khorasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Awan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghaderi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="176" to="186" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khorasani, A.M.; Gibson, I.; Awan, U.S.; Ghaderi, A. The effect of SLM process parameters on density, hardness, tensile strength and surface quality of Ti-6Al-4V. Addit. Manuf. 2019, 25, 176-186. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Design optimization of supports for overhanging structures in aluminum and titanium alloys by selective laser melting</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2014.07.043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="203" to="213" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calignano, F. Design optimization of supports for overhanging structures in aluminum and titanium alloys by selective laser melting. Mater. Des. 2014, 64, 203-213. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effect of gas shield on surface finish of laser powder bed produced parts</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Farnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mellos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pacheco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carpenter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 29th Annual International Solid Freeform Fabrication Symposium</title>
+		<meeting>the 29th Annual International Solid Freeform Fabrication Symposium<address><addrLine>Austin, TX, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-08">August 2018</date>
+			<biblScope unit="page" from="13" to="15" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montgomery, C.; Farnin, C.; Mellos, G.; Brand, M.; Pacheco, R.; Carpenter, J. Effect of gas shield on surface finish of laser powder bed produced parts. In Proceedings of the 29th Annual International Solid Freeform Fabrication Symposium, Austin, TX, USA, 13-15 August 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Reducing porosity in AlSi10Mg parts processed by selective laser melting</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Aboulkhair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Everitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tuck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2014.08.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="77" to="86" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aboulkhair, N.T.; Everitt, N.M.; Ashcroft, I.; Tuck, C.; Tuck, C. Reducing porosity in AlSi10Mg parts processed by selective laser melting. Addit. Manuf. 2014, 1, 77-86. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Influences of Energy Density on Porosity and Microstructure of Selective Laser Melted 17-4PH Stainless Steel</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khalid Rafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 24th Annual International Solid Freeform Fabrication Symposium</title>
+		<meeting>the 24th Annual International Solid Freeform Fabrication Symposium<address><addrLine>Austin, TX, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013-08">August 2013</date>
+			<biblScope unit="page" from="12" to="14" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gu, H.; Gong, H.; Pal, D.; Khalid Rafi, H.; Starr, T.; Stucker, B. Influences of Energy Density on Porosity and Microstructure of Selective Laser Melted 17-4PH Stainless Steel. In Proceedings of the 24th Annual International Solid Freeform Fabrication Symposium, Austin, TX, USA, 12-14 August 2013.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Investigation on porosity content in 2024 aluminum alloy welding by Yb:YAG disk laser</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cardaropoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caiazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sergi</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/AMR.383-390.6265</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mat. Res</title>
+		<imprint>
+			<biblScope unit="page" from="6265" to="6269" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alfieri, V.; Cardaropoli, F.; Caiazzo, F.; Sergi, V. Investigation on porosity content in 2024 aluminum alloy welding by Yb:YAG disk laser. Adv. Mat. Res. 2012, 383-390, 6265-6269. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Laser powder-bed fusion of Inconel 718 to manufacture turbine blades</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caiazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Argenio</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-017-0839-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="4023" to="4031" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caiazzo, F.; Alfieri, V.; Corrado, G.; Argenio, P. Laser powder-bed fusion of Inconel 718 to manufacture turbine blades. Int. J. Adv. Manuf. Technol. 2017, 93, 4023-4031. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Influence of Inherent Surface and Internal Defects on Mechanical Properties of Additively Manufactured Ti6Al4V Alloy: Comparison between Selective Laser Melting and Electron Beam Melting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fousova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vojtěch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Doubrava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-F</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma11040537</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">537</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fousova, M.; Vojtěch, D.; Doubrava, K.; Daniel, M.; Lin, C.-F. Influence of Inherent Surface and Internal Defects on Mechanical Properties of Additively Manufactured Ti6Al4V Alloy: Comparison between Selective Laser Melting and Electron Beam Melting. Materials 2018, 11, 537. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Texture, anisotropy in microstructure and mechanical properties on IN738LC alloy processed by selective laser melting (SLM)</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kunze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grasslin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Shklover</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2014.10.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">620</biblScope>
+			<biblScope unit="page" from="213" to="222" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kunze, K.; Etter, T.; Grasslin, J.; Shklover, V. Texture, anisotropy in microstructure and mechanical properties on IN738LC alloy processed by selective laser melting (SLM). Mater. Sci. Eng. A 2014, 620, 213-222. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Investigation of the accuracy and roughness in the laser powder bed fusion process</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17452759.2018.1426368</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="97" to="104" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calignano, F. Investigation of the accuracy and roughness in the laser powder bed fusion process. Virtual Phys. Prototyp. 2018, 13, 97-104. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Reduction of Surface Roughness by Means of Laser Processing over Additive Manufacturing Metal Parts</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Argenio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caiazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sergi</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma10010030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alfieri, V.; Argenio, P.; Caiazzo, F.; Sergi, V. Reduction of Surface Roughness by Means of Laser Processing over Additive Manufacturing Metal Parts. Materials 2017, 10, 30. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Study of selective laser melting (SLM) Inconel 718 part surface improvement by electrochemical polishing</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Baicheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiaohua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jiaming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Muiling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Guojun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen-Nan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Junfeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2016.11.103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="531" to="537" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baicheng, Z.; Xiaohua, L.; Jiaming, B.; Muiling, N.; Guojun, Q.; Chen-Nan, S.; Junfeng, G.; Pan, W.; Jun, W. Study of selective laser melting (SLM) Inconel 718 part surface improvement by electrochemical polishing. Mater. Des. 2017, 116, 531-537. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of Process Parameters on the Surface Roughness of Overhanging Structures in Laser Powder Bed Fusion Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Moylan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Lane</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procir.2016.02.347</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="131" to="134" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fox, J.C.; Moylan, S.P.; Lane, B.M. Effect of Process Parameters on the Surface Roughness of Overhanging Structures in Laser Powder Bed Fusion Additive Manufacturing. Procedia CIRP 2016, 45, 131-134. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Laser and electron-beam powder-bed additive manufacturing of metallic implants: A review on processes, materials and designs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wiria</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jor.23075</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Orthop. Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="369" to="385" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sing, S.; An, J.; Yeong, W.; Wiria, F. Laser and electron-beam powder-bed additive manufacturing of metallic implants: A review on processes, materials and designs. J. Orthop. Res. 2016, 34, 369-385. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Direct laser metal sintering as a new approach to fabrication of an isoelastic functionally graded material for manufacture of porous titanium dental implants</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Traini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mangano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sammons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mangano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Macchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Piattelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dental.2008.03.029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dent. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1525" to="1533" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Traini, T.; Mangano, C.; Sammons, R.; Mangano, F.; Macchi, A.; Piattelli, A. Direct laser metal sintering as a new approach to fabrication of an isoelastic functionally graded material for manufacture of porous titanium dental implants. Dent. Mater. 2008, 24, 1525-1533. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of selective laser melting (SLM) process parameters on microstructure and mechanical properties of 316L austenitic stainless steel</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Liverani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Toschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ceschini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fortunato</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2017.05.042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">249</biblScope>
+			<biblScope unit="page" from="255" to="263" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liverani, E.; Toschi, S.; Ceschini, L.; Fortunato, A. Effect of selective laser melting (SLM) process parameters on microstructure and mechanical properties of 316L austenitic stainless steel. J. Mater. Process. Technol. 2017, 249, 255-263. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effect of laser power on defect, texture, and microstructure of a laser powder bed fusion processed 316L stainless steel</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Choo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-L</forename><surname>Sham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bohling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Depond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Garlea</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2018.12.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page">107534</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Choo, H.; Sham, K.-L.; Bohling, J.; Ngo, A.; Xiao, X.; Ren, Y.; Depond, P.J.; Matthews, M.J.; Garlea, E. Effect of laser power on defect, texture, and microstructure of a laser powder bed fusion processed 316L stainless steel. Mater. Des. 2019, 164, 107534. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Surface Quality, Microhardness and Microstructure of Selective Laser Melted 316L Stainless Steel Resulting from Finish Machining</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kaynak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kitay</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Porosity</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/jmmp2020036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Mater. Process</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaynak, Y.; Kitay, O. Porosity, Surface Quality, Microhardness and Microstructure of Selective Laser Melted 316L Stainless Steel Resulting from Finish Machining. J. Manuf. Mater. Process. 2018, 2, 36. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Analysis of the molten/solidified zone in selective laser melted parts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Campanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Casalino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Contuzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ludovico</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SPIE-The International Society for Optical Engineering</title>
+		<meeting>the SPIE-The International Society for Optical Engineering<address><addrLine>San Francisco, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014-02-06">1-6 February 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Campanelli, S.; Casalino, G.; Contuzzi, N.; Ludovico, A. Analysis of the molten/solidified zone in selective laser melted parts. In Proceedings of the SPIE-The International Society for Optical Engineering, San Francisco, CA, USA, 1-6 February 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Investigation into the effect of process parameters on microstructural and physical properties of 316L stainless steel parts by selective laser melting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cherry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehmood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sienz</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-014-6297-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="869" to="879" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cherry, J.; Davies, H.; Mehmood, S.; Lavery, N.; Brown, S.; Sienz, J. Investigation into the effect of process parameters on microstructural and physical properties of 316L stainless steel parts by selective laser melting. Int. J. Adv. Manuf. Technol. 2015, 76, 869-879. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Energy density analysis on single tracks formed by selective laser melting with CoCrMo powder material</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ciurana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Delgado</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-013-4902-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1103" to="1110" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ciurana, J.; Hernandez, L.; Delgado, J. Energy density analysis on single tracks formed by selective laser melting with CoCrMo powder material. Int. J. Adv. Manuf. Technol. 2013, 68, 1103-1110. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Spatter formation in selective laser melting process using multi-laser technology</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Andani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dehghani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Karamooz-Ravari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mirzaeifar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ni</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2017.06.040</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="460" to="469" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andani, M.T.; Dehghani, R.; Karamooz-Ravari, M.R.; Mirzaeifar, R.; Ni, J. Spatter formation in selective laser melting process using multi-laser technology. Mater. Des. 2017, 131, 460-469. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effects of laser sintering processing parameters on the microstructure and densification of iron powder</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Simchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pohl</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0921-5093(03)00341-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="119" to="128" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simchi, A.; Pohl, H. Effects of laser sintering processing parameters on the microstructure and densification of iron powder. Mater. Sci. Eng. A 2003, 359, 119-128. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">On the limitations of Volumetric Energy Density as a design parameter for Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Bertoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wolfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><forename type="middle">R</forename><surname>Delplanque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schoenung</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2016.10.037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="331" to="340" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bertoli, U.S.; Wolfer, A.J.; Matthews, M.J.; Delplanque, J.-P.R.; Schoenung, J.M. On the limitations of Volumetric Energy Density as a design parameter for Selective Laser Melting. Mater. Des. 2017, 113, 331-340. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reed</surname></persName>
+		</author>
+		<title level="m">The Superalloys, Fundamentals and Applications</title>
+		<meeting><address><addrLine>Cambridge, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reed, R. The Superalloys, Fundamentals and Applications; Cambridge University Press: Cambridge, UK, 2006.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Geometrical Product Specifications (GPS)-Surface texture: Profile Method-Terms, Definitions and Surface Texture Parameters</title>
+		<idno>ISO 4287</idno>
+	</analytic>
+	<monogr>
+		<title level="m">International Organization for Standardization</title>
+		<meeting><address><addrLine>Geneva, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997-04-01">1997. 1 April 1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Geometrical Product Specifications (GPS)-Surface texture: Profile Method-Terms, Definitions and Surface Texture Parameters; ISO 4287:1997; International Organization for Standardization: Geneva, Switzerland, 1 April 1997.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<monogr>
+		<idno>EN ISO 6507-1</idno>
+		<title level="m">Metallic Materials-Vickers Hardness Test-Part 1-Test Method</title>
+		<meeting><address><addrLine>Geneva, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005-12-15">15 December 2005</date>
+		</imprint>
+		<respStmt>
+			<orgName>International Organization for Standardization</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Metallic Materials-Vickers Hardness Test-Part 1-Test Method; EN ISO 6507-1; International Organization for Standardization: Geneva, Switzerland, 15 December 2005.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schey</surname></persName>
+		</author>
+		<title level="m">Tribology in Metalworking: Friction, Lubricating and Wear</title>
+		<meeting><address><addrLine>Park, OH, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Materials</publisher>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schey, J. Tribology in Metalworking: Friction, Lubricating and Wear; ASM International: Materials Park, OH, USA, 1983.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effect of Selective Laser Melting Process Parameters on the Quality of Al Alloy Parts: Powder Characterization, Density, Surface Roughness, and Dimensional Accuracy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Maamoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Elbestawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Veldhuis</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma11122343</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="page">2343</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maamoun, A.H.; Xue, Y.F.; Elbestawi, M.A.; Veldhuis, S.C. Effect of Selective Laser Melting Process Parameters on the Quality of Al Alloy Parts: Powder Characterization, Density, Surface Roughness, and Dimensional Accuracy. Materials 2018, 11, 2343. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Runger</surname></persName>
+		</author>
+		<title level="m">Applied Statistics and Probability for Engineers</title>
+		<meeting><address><addrLine>Danvers, MA, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley &amp; Sons, Inc</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montgomery, D.; Runger, G. Applied Statistics and Probability for Engineers; John Wiley &amp; Sons, Inc.: Danvers, MA, USA, 2014.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

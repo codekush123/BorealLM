@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DEEP NEURAL OPERATOR ENABLED DIGITAL TWIN MODELING FOR ADDITIVE MANUFACTURING</title>
+				<funder ref="#_6autY8h #_JG6PXcA">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_TnS73xq #_DYHZmm6 #_ps4djWv #_BACuZx2 #_fpSvHUW #_jVHqFB5 #_UPn3j3Q">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_djEsrKy">
+					<orgName type="full">AFOSR</orgName>
+				</funder>
+				<funder ref="#_kt5Dpk3">
+					<orgName type="full">U.S. Naval Air Systems Command (NAVAIR)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-05-13">13 May 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Ning</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Global Engineering and Materials , Inc. , Princeton , NJ 08540 , USA</note>
+								<orgName type="department">Global Engineering and Materials</orgName>
+								<orgName type="institution">Inc</orgName>
+								<address>
+									<postCode>08540</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xuxiao</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Global Engineering and Materials , Inc. , Princeton , NJ 08540 , USA</note>
+								<orgName type="department">Global Engineering and Materials</orgName>
+								<orgName type="institution">Inc</orgName>
+								<address>
+									<postCode>08540</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Manoj</forename><forename type="middle">R</forename><surname>Rajanna</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Global Engineering and Materials , Inc. , Princeton , NJ 08540 , USA</note>
+								<orgName type="department">Global Engineering and Materials</orgName>
+								<orgName type="institution">Inc</orgName>
+								<address>
+									<postCode>08540</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Edward</forename><forename type="middle">W</forename><surname>Reutzel</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Applied Research Laboratory , The Pennsylvania State University , University Park , PA 16802 , USA</note>
+								<orgName type="laboratory">Applied Research Laboratory</orgName>
+								<orgName type="institution">The Pennsylvania State University</orgName>
+								<address>
+									<postCode>16802</postCode>
+									<settlement>University Park</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Brady</forename><surname>Sawyer</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Applied Research Laboratory , The Pennsylvania State University , University Park , PA 16802 , USA</note>
+								<orgName type="laboratory">Applied Research Laboratory</orgName>
+								<orgName type="institution">The Pennsylvania State University</orgName>
+								<address>
+									<postCode>16802</postCode>
+									<settlement>University Park</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Prahalada</forename><surname>Rao</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Grado Department of Industrial and Systems Engineering , Virginia Tech , Blacksburg , VA 24061 , USA</note>
+								<orgName type="department">Grado Department of Industrial and Systems Engineering</orgName>
+								<orgName type="institution">Virginia Tech</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jim</forename><surname>Lua</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Global Engineering and Materials , Inc. , Princeton , NJ 08540 , USA</note>
+								<orgName type="department">Global Engineering and Materials</orgName>
+								<orgName type="institution">Inc</orgName>
+								<address>
+									<postCode>08540</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nam</forename><surname>Phan</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Structures Division , Naval Air Systems Command (NAVAIR) , Patuxent River , MD 20670 , USA</note>
+								<orgName type="department">Structures Division</orgName>
+								<orgName type="institution">Naval Air Systems Command (NAVAIR)</orgName>
+								<address>
+									<postCode>20670</postCode>
+									<settlement>Patuxent River</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yue</forename><surname>Yu</surname></persName>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>5</label> Department of Mathematics , Lehigh University , Bethlehem , PA 18015 , USA</note>
+								<orgName type="department">Department of Mathematics</orgName>
+								<orgName type="institution">Lehigh University</orgName>
+								<address>
+									<postCode>18015</postCode>
+									<settlement>Bethlehem</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DEEP NEURAL OPERATOR ENABLED DIGITAL TWIN MODELING FOR ADDITIVE MANUFACTURING</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-05-13">13 May 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C162C917331A66755865525994009203</idno>
+					<idno type="arXiv">arXiv:2405.09572v1[eess.SP]</idno>
+					<note type="submission">Received xxxx 20xx; revised xxxx 20xx; early access xxxx 20xx.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-19T18:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>2020 Mathematics Subject Classification. Primary: 68T07</term>
+					<term>93E35</term>
+					<term>74M05; Secondary: 35S30</term>
+					<term>41A35 Digital Twin</term>
+					<term>Neural Operators</term>
+					<term>Closed-Loop Feedback Control</term>
+					<term>Laser Powder Bed Fusion</term>
+					<term>Physics-Informed Modeling</term>
+					<term>Defect Characterization</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>A digital twin (DT), with the components of a physics-based model, a data-driven model, and a machine learning (ML) enabled efficient surrogate, behaves as a virtual twin of the real-world physical process.</s><s>In terms of Laser Powder Bed Fusion (L-PBF) based additive manufacturing (AM), a DT can predict the current and future states of the melt pool and the resulting defects corresponding to the input laser parameters, evolve itself by assimilating in-situ sensor data, and optimize the laser parameters to mitigate defect formation.</s><s>In this paper, we present a deep neural operator enabled computational framework of the DT for closed-loop feedback control of the L-PBF process.</s><s>This is accomplished by building a high-fidelity computational model to accurately represent the melt pool states, an efficient surrogate model to approximate the melt pool solution field, followed by an physics-based procedure to extract information from the computed melt pool simulation that can further be correlated to the defect quantities of interest (e.g., surface roughness).</s><s>In particular, we leverage the data generated from the high-fidelity physics-based model and train a series of Fourier neural operator (FNO) based ML models to effectively learn the relation between the input laser parameters and the corresponding full temperature field of the melt pool.</s><s>The learned FNO models are able to make fast inference to assist in real-time monitoring and control.</s><s>Subsequently, a set of physics-informed variables such as the melt pool dimensions and the peak temperature can be extracted to compute the resulting defects.</s><s>An optimization algorithm is then exercised to control laser input and minimize defects.</s><s>On the other hand, the constructed DT can also evolve with the physical twin via offline finetuning and online material calibration.</s><s>For instance, the probabilistic distribution of laser absorptivity can be updated to match the real-time captured thermal image data.</s><s>Finally, a probabilistic framework is adopted for uncertainty quantification.</s><s>The developed DT is envisioned to guide the AM process and facilitate high-quality manufacturing in L-PBF-based metal AM.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction.</head><p><s>Recent advances in additive manufacturing (AM) technologies <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3]</ref> have received considerable attention from both the academic and industrial communities.</s><s>In particular, the Laser Powder Bed Fusion (L-PBF) in AM <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref> offers a wide variety of advantages, including reduced material waste, improved turnaround time, enhanced flexibility in quickly iterating on a design perspective, and high-quality printing applicable to a large amount of materials.</s><s>However, the quality of the printed parts in L-PBF is highly reliant on the prescribed process parameters that control the microstructure formation.</s><s>Poor process conditions can lead to undesired formation of defects such as lack-of-fusion porosity <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>, surface roughness <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>, and keyhole <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>, which are often attributed to irregular formations of the melt pool.</s><s>Although high-fidelity physics-based simulations can provide insights into the root cause of such unwanted phenomena, it is computationally prohibitive to provide real-time advice for one thing and, for another, they cannot closely capture the evolution of the printing process.</s><s>The demand for printing high-quality parts calls for an intelligent agent with which one can actively monitor and control the printing process.</s><s>To this end, digital twins <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14]</ref> are invented to bridge the divide between the physical experiments and computational modeling and closely steer the manufacturing process.</s></p><p><s>A digital twin (DT) <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b14">15]</ref>, with the components of a physics-based model, a data-driven model, and a machine learning (ML) enabled surrogate model, behaves as a virtual twin of the physical AM process.</s><s>The general concept of the DT is demonstrated in Figure <ref type="figure" target="#fig_0">1</ref>.</s><s>A simple way to construct an initial DT is to train an offline ML model using a robust database established by a combination of the physics-based modeling results and available experimental data, such that the DT closely mimics the behavior of the physical twin (PT).</s><s>The DT takes as input the intrinsic parameters such as material properties and controllable parameters such as the laser power and scan speed, and outputs user-cared information such as the full-scale temperature field of the melt pool, defects, and microstructure parameters.</s><s>During experiment, the state of the PT changes over time, which is captured by in-situ monitored observational data such as thermal images.</s><s>The DT can then assimilate the real-time data, self-evolve to improve prediction accuracy, predict the next state(s) of the evolution, and intelligently control the process parameters to achieve a desired setpoint, such as a preferred microstructure or reduced defects.</s><s>As one of the essential building blocks, high-fidelity physics-based models serve as the foundation towards constructing a DT.</s><s>In the literature, there exist a wide variety of physics-based process models with various fidelities, resolutions, and computation cost <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20]</ref>.</s><s>For example, the most complex computational model can resolve keyhole, melt pool, vapor plume, and spatter <ref type="bibr" target="#b20">[21]</ref>, while a simplified model only considers heat conduction and captures melt pool formation <ref type="bibr" target="#b21">[22]</ref>.</s><s>Although high-fidelity computational models are effective in capturing the melt pool geometries and accurately predicting both the thermal and velocity fields, the associated high computational cost <ref type="bibr" target="#b22">[23]</ref> hinders their application for massive data generation in a data-driven analysis setting.</s><s>In the current work, we choose to employ a relatively simplified model for efficient parametric sweeping of process parameters for ML data generation.</s></p><p><s>On the other hand, several ML algorithms have been utilized towards defect mitigation <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29]</ref>.</s><s>In <ref type="bibr" target="#b29">[30]</ref>, a semi-supervised variational recurrent neural network (VRNN) is proposed to model the offset between the predicted and observed states and detect anomaly directly from high-speed image data.</s><s>This method takes into account the time-series effect between images and explores the correlation between observational data and laser input to reduce false detections.</s><s>The work of Jin et al. <ref type="bibr" target="#b30">[31]</ref> reports an unsupervised encoder-decoder approach to detect anomaly and predict the next step of the printing process.</s><s>Worth noting is the work done by Li et al. <ref type="bibr" target="#b31">[32]</ref>, where a statistical parameterized physics-based DT is built for closed-loop control of L-PBF.</s><s>This work introduces a reducedorder stochastic calibration process to enable the statistical prediction of the melt pool status and the resulting defects.</s><s>Nevertheless, their employed autoregressive network only aims to predict the width and depth of the melt pool and cannot be used as a high-fidelity solution surrogate.</s><s>As a result, the generalizability of the model is questionable.</s><s>The current study takes a different approach and investigates learning a high-fidelity physics surrogate of the L-PBF process with neural operators <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37]</ref> as the backbone, which aim to learn the hidden physics of the underlying process and feature resolution-independence and robust generalizability to unseen input instances <ref type="bibr" target="#b37">[38]</ref>.</s></p><p><s>In this context, we propose an integrated DT framework for closed-loop feedback control of the L-PBF process.</s><s>An overview of the proposal DT framework is illustrated in Figure <ref type="figure" target="#fig_1">2</ref>. We start the DT construction process by establishing a high-fidelity database from physics-based simulations.</s><s>A series of FNOs are then trained offline to accurately approximate the physics-based solution field.</s><s>Next, an effective correlation between the melt pool states and the resulting defects of interest is established, with which the process parameter optimization is made possible via designing an objective function to minimize defects and arrive at the optimal process parameters leveraging automatic differentiation in ML.</s><s>The DT then informs the PT of the computed optimal conditions while in the same time assimilates the in-situ monitored data and evolves itself to closely represent the current state of the PT.</s><s>The DT is also finetuned using newly collected data after the experiment is finished.</s></p><p><s>This paper is organized as follows.</s><s>In Section 2, a physics-based modeling approach of the L-PBF process is introduced, along with a data-driven method for defect characterization.</s><s>The main concept of neural operator enabled physics surrogate modeling is presented in Section 3, where an optimization algorithm is designed to compute optimal process parameters and minimize defects.</s><s>We present in Section 4 the integrated probabilistic DT framework with uncertainty quantification, followed by a virtual demonstration of the proposed DT in reducing surface roughness as an example in Section 5.</s><s>The obtained results comparing defects with and without DT control are discussed thoroughly in Section 6 and conclusions are drawn in Section 7. To provide a condensed overview of the proposed algorithm, a summary of the key ingredients and steps can be found in Algorithm 1.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Physics-Based Modeling.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Physics-Based Process Simulation.</head><p><s>We aim to employ a proper physicsbased model to simulate the critical field functions such as the 3D temperature field associated with defects formation.</s><s>The physics-based model is used to create a database, based on which the ML models can be trained to rapidly predict field functions and defects.</s><s>In the literature, there exist a large variety of process models with different fidelities, resolutions, and computation cost.</s><s>For example, the most complex model can resolve keyhole, melt pool, vapor plume, and spatter <ref type="bibr" target="#b20">[21]</ref>, while a simplified model only considers heat conduction and captures melt pool formation <ref type="bibr" target="#b21">[22]</ref>.</s><s>Here, we adopt a simplified model for sake of computational time, where the governing physics is heat conduction and the effects of fluid flow, keyhole, and vapor plume are neglected for now.</s><s>We aim to build a general workflow and the synergy between physics-based and ML models for creation of a DT.</s><s>In particular, considering a three dimensional computational domain Ω := [0, 10000]×[-1000, 1000]×[0, 1000] (µm 3 ), the governing equation of temperature T can be written as: ∂ (ρh (T (x, y, z, t))) ∂t = k∇ 2 T (x, y, z, t) + Ṡ(x, y, z, t), for (x, y, z, t) ∈ Ω × [0, T ],</s></p><p><s>T (x, y, z, 0) = T sub , for (x, y, z) ∈ Ω,</s></p><p><s>∂T (x, y, z, t) ∂n = 0, if (x, y, z) ∈ ∂Ω and z ̸ = 1000,</s></p><p><s>-k ∂T (x, y, z, t) ∂z = h 0 (T ∞ -T (x, y, z, t)), if z = 1000,</s></p><p><s>where ρ represents density, h is the specific enthalpy, k denotes thermal conductivity which is taken as the solid thermal conductivity k s or the liquid thermal conductivity k l , and T sub is the substrate temperature which is also set as the initial condition.</s></p><p><s>The top surface has a convective heat transfer coefficieint of h 0 = 1W/(m 2 • K), and the ambient temperature is set to T ∞ = 300K.</s><s>Ṡ describes the heat source term due to laser heating, which can be further expanded as:</s></p><formula xml:id="formula_4">Ṡ(x, y, z) = αP πr 2 b t h exp - 2r 2 (x, y, z) r 2 b , (<label>5</label></formula><formula xml:id="formula_5">)</formula><p><s>where P is the laser power, t h is layer thickness, α denotes absorptivity, and r b is the laser radius.</s><s>r(x, y, z) := (x -x l ) 2 + (y -y l ) 2 + (z -z l ) 2 is the radial distance of each spatial point, (x, y, z), to the laser center, (x l , y l , z l ).</s><s>In this work, we assume that the laser center moves under a fixed scan speed, V , along the direction of x.</s></p><p><s>Note that Ṡ is only in the powder layer and is deactivated elsewhere.</s><s>That means, we have Ṡ(x, y, z) = 0 for z &lt; 1000.</s><s>The enthalpy formulation in (1) is used to consider melting and solidification.</s><s>To eliminate non-physical large temperature, the vaporization is considered by formulating an enthalpy jump at the boiling temperature, as shown in Figure <ref type="figure" target="#fig_2">3</ref>.</s><s>The material properties used in the simulation for AlSi10Mg are listed in Table <ref type="table" target="#tab_0">1</ref>.</s><s>All physics-based simulations are conducted using an adaptive finite element analysis model based on STAR-CCM+ <ref type="bibr" target="#b38">[39]</ref>.</s><s>For each input combination ξ := (P, V, T sub , α), we numerically solve (1) until its solution, T , arrives at a steady state.</s><s>With a slight Algorithm 1 Key steps for deep FNO enabled DT.</s></p><p><s>1: Offline training phase: 2: Read in input parameter sets ξ := (P, V, T sub , α) and the corresponding temperature fields T (x, y, z): D tr := {ξ i , T i (x, y, z)} Ntr i=1 for training, D val := {ξ val i , T val i (x, y, z)} N val i=1 for validation.</s><s>3: Interpolate the simulated temperature fields with spline functions, to the two predefined grids for the x -y and x -z planes and form the datasets for two FNOs: D x-y,tr := {ξ i , T i,x-y (x, y)| (x,y)∈χx-y } Ntr i=1 , D x-y,val := {ξ val i , T val i,x-y (x, y)| (x,y)∈χx-y } N val i=1 , D x-z,tr := {ξ i , T i,x-z (x, z)| (x,z)∈χx-z } Ntr i=1 , D x-z,val := {ξ val i , T val i,x-z (x, z)| (x,z)∈χx-z } N val i=1 .</s><s>4: Construct the FNO models, Ĝ1 [ξ; θ 1 ] and Ĝ2 [ξ; θ 2 ], to match the temperature field on the x -y and x -z planes, respectively:</s></p><formula xml:id="formula_6">θ 1 = argmin θ1∈Θ Ntr i=1 xj ∈χx-y Ĝ1 [ξ i ; θ 1 ](x j ) -T i (x j ) 2 , θ 2 = argmin θ2∈Θ Ntr i=1 xj ∈χx-z Ĝ2 [ξ i ; θ 1 ](x j ) -T i (x j ) 2 .</formula><p><s>5: Online data assimilation phase: 6: Extract melt pool dimensions from real-time captured thermal image data and compute their distributions.</s><s>7: Initialize the estimated mean µ α and standard deviation σ α for the laser absorptivity α, which is taken as the quantity with uncertainty in this work.</s><s>8: for ep = 1 : epoch max do</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>9:</head><p><s>Sample α ∼ N [µ α , σ 2  α ] for S times.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>10:</head><p><s>for s = 1 : S do 11:</s></p><p><s>Run a forward pass of the two FNO models based on the s-th sample: ξ s = [P, V, T sub , α s ], so as to estimate the corresponding temperature field T .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>12:</head><p><s>Estimate the melt pool length following (21).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>13:</head><p><s>Estimate the mean and standard deviation of melt pool length following ( <ref type="formula" target="#formula_39">27</ref>)-( <ref type="formula" target="#formula_40">28</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>14:</head><p><s>Calculate the Kullback-Leibler divergence (see <ref type="bibr" target="#b28">(29)</ref>) between observed and predicted distributions of melt pool dimensions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>15:</head><p><s>Update µ α , σ α to minimize <ref type="bibr" target="#b28">(29)</ref>, with the Adam optimizer.</s></p><p><s>16: With the inferred distribution of laser absorptivity, estimate statistical moments of the corresponding solutions and other quantities of interests.</s><s>17: Feedback control phase: 18: Initialize the estimated laser power P and scan speed V , which are taken as the controllable quantities in this work.</s><s>19: for ep = 1 : epoch max do</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>20:</head><p><s>Run a forward pass of the two FNO models, so as to estimate the corresponding temperature field T .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>21:</head><p><s>Extract melt pool dimensions and peak temperature and compute the surface roughness index (SRI), following (20)-(24).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>22:</head><p><s>Estimate the corresponding surface roughness following (14).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>23:</head><p><s>Update P , V to minimize <ref type="bibr" target="#b24">(25)</ref>, with the Adam optimizer.</s><s>abuse of notation, in the following we refer to this steady-state solution as T (x, y, z).</s><s>The most refined mesh has a size of 3.125 µm near the molten pool region, and the mesh size is coarsened to 12.5 µm gradually.</s><s>With this meshing scheme, it takes approximately 20 min to finish one simulation using 48 CPU cores (average clock speed is 1.4GHz), which is non-feasible for the real-time monitoring and parameter calibration.</s><s>Therefore, ML models are imperative to enable rapid prediction and two-way interaction between physical and digital twins, as will be elaborated in Section 3.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Data-Driven Defect Characterization.</head><p><s>The surface roughness model is based on the Buckingham Pi theorem <ref type="bibr" target="#b39">[40]</ref>.</s><s>Specifically, the surface roughness index (SRI) is calculated based on the estimated temperature field T , and it is then used to indicate the surface roughness (Ra).</s><s>The calculation of SRI from T can be written in the following form:</s></p><formula xml:id="formula_7">SRI[T ] = E L2 ϵ[T ] 0.25 β ĤF [T ] , (<label>6</label></formula><formula xml:id="formula_8">)</formula><p><s>where E is the letant heat of melting, L is a characteristic length scale taken to be 50 µm, ϵ[T ] is the ratio between melt pool length L[T ] and width W [T ], β is the contact angle which is taken to be 1.1, Ĥ is a characteristic energy density taken to be 150 J/m 2 , and F is the Marangoni force which is dependent on T :</s></p><formula xml:id="formula_9">F [T ] = γ T (T peak [T ] -T s ) × πL[T ] 2 . (<label>7</label></formula><formula xml:id="formula_10">)</formula><p><s>Here, γ T is the temperature derivative of surface tension (taken to be 0.00035 N/(m • K)), T peak [T ] is the peak temperature in the melt pool, and T s is the solidus temperature.</s><s>With a given temperature field, T (x, y, z), we can calculate the peak temperature T peak [T ], the melt pool length L[T ], the melt pool width W [T ], and their ratio ϵ[T ] via:</s></p><formula xml:id="formula_11">T peak [T ] = max x,y,z T (x, y, z),<label>(8)</label></formula><formula xml:id="formula_12">L[T ] = max y,z 5000 x=-5000 1(T (x, y, z) -T s )dx,<label>(9)</label></formula><formula xml:id="formula_13">W [T ] = max x,z 1000 y=-1000 1(T (x, y, z) -T s )dy,<label>(10)</label></formula><formula xml:id="formula_14">ϵ[T ] = L[T ]/W [T ].<label>(11)</label></formula><p><s>Here, 1 is a characteristic function taken as:</s></p><formula xml:id="formula_15">1(f (x, y, z)) := 1, if f (x, y, z) &gt; 0; 0, else . (<label>12</label></formula><formula xml:id="formula_16">)</formula><p><s>As such, the SRI can be readily computed based on the temperature field prediction from the physics-based models as exemplified by Figure <ref type="figure" target="#fig_5">6</ref>.</s><s>To calculate the surface roughness with the SRI index, we conduct a literature survey on the surface roughness under various process conditions for AlSi10Mg, as listed in Table <ref type="table" target="#tab_1">2</ref>.</s><s>There are a total of 23 process conditions from 4 references, with different power P , scan velocity V , layer thickness t h , and preheating temperature <ref type="foot" target="#foot_0">1</ref> .</s><s>Then, we perform 23 simulations with the same process conditions as in Table <ref type="table" target="#tab_1">2</ref> to obtain the corresponding temperature field.</s><s>Subsequently, we compute the SRI based on ( <ref type="formula" target="#formula_7">6</ref>) and ( <ref type="formula" target="#formula_9">7</ref>) for each case.</s><s>The relationship between SRI and the measured surface roughness is shown in Figure <ref type="figure" target="#fig_3">4</ref>.</s><s>It can be verified that the SRI is an effective indicator for the surface roughness as the data from independent sources <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b43">44]</ref> collapses on the same trend.</s></p><p><s>To estimate and control the surface roughness in the later experiments, we calculate the SRI based on the simulated temperature field, T (x, y, z), under each process condition input combination ξ := (P, V, T sub , α), and then use this index to estimate the corresponding surface roughness with a heuristic model  Here, f R is constructed using a bi-linear fit to the relationship between SRI and surface roughness: f R (s) = 234.456s</s><s>-25.123, if s &lt; 0.168; 18.477s + 10.925, if s ≥ 0.168.</s></p><formula xml:id="formula_17">Ra = f R (SRI[T ]). (<label>13</label></formula><formula xml:id="formula_18">)</formula><p><s>In particular, the R 2 value for the low SRI fit (gray data points) and the high SRI fit (orange data points) are 0.61 and 0.62, respectively, indicating a reasonable linear relation (as shown in Figure <ref type="figure" target="#fig_4">5</ref>).</s><s>As a consequence, we have established the mapping between process conditions and surface roughness defects using the physics-based model described in Section 2.1 and the aforementioned surface roughness model.</s></p><p><s>3. Neural Operator Enabled Physics Surrogates.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.1.</head><p><s>Base Model: Fourier Neural Operators.</s><s>The physics-based process simulation is computationally slow, and therefore it calls for a high-fidelity machinelearning-based surrogate to facilitate online monitoring and real-time control.</s><s>To this end, we employ Fourier Neural Operators (FNOs) <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36]</ref> to construct the relationship between process parameters and the resulting full-scale temperature field.</s><s>FNOs adopt a convolution-based integral kernel that learns efficient solution surrogates and serves as a powerful data-driven paradigm to accelerate the PDE-solving process in scientific computing problems.</s><s>The general architecture of a neural operator is comprised of a lifting layer P that maps the low-dimensional input function f (x) into a high-dimensional latent representation h(x) ∈ R d h , a cascade of integral operator blocks J in the form of the sum of a local linear operator, a nonlocal integral kernel operator, and a bias function, followed by a projection layer Q that projects the last hidden-layer representation to the space of the target output function.</s><s>In particular, an L-layer neural operator can be expressed in the following form:</s></p><formula xml:id="formula_20">Ĝ[f ; θ](x) := Q • J L • • • • • J 1 • P[f ](x) ≈ u(x) , (<label>15</label></formula><formula xml:id="formula_21">)</formula><p><s>where G is the neural operator parameterized by θ, acting as an efficient surrogate of the true (physical) operator G that maps the input function f (x) to the output function u(x).</s><s>When employed on structured domains and uniform grids, FNO further expedites the learning process by parameterizing the integral kernel operator in the Fourier space:</s></p><formula xml:id="formula_22">J l [h](x) = σ W l h(x) + c l + F -1 [F[κ(•; v l )] • F[h(•)]](x) , (<label>16</label></formula><formula xml:id="formula_23">)</formula><p><s>where W l ∈ R d h ×d h and c l ∈ R d h are learnable tensors at the l-th layer, κ ∈ R d h ×d h is a tensor kernel function parameterized by parameters v l , F and F -1 denote the Fourier transform and its inverse, respectively, which apply the FFT algorithm to each component of h separately.</s><s>The training process of neural operators works as the follows.</s><s>Let {f j , u j } N j=1 be a set of observations where the input {f j } is a sequence of independent and identically distributed random fields from a known probability distribution µ, and G † [f j ](x) = u j (x) is the ground-truth output of the map G † : f → u.</s><s>The goal is to build an approximation of G † using the architecture of (15), by optimizing its parameter θ in some finite-dimensional parameter space Θ.</s><s>In particular, θ is inferred by solving the following minimization problem</s></p><formula xml:id="formula_24">min θ∈Θ E f ∼µ [C( Ĝ[f ; θ], G † [f ])] ≈ min θ∈Θ N i=1 [C(G[f i ; θ], u i )],<label>(17)</label></formula><p><s>where C denotes a properly defined cost functional C : U × U → R.</s><s>Although f i and u i are (vector) functions defined on a continuum, with the purpose of doing numerical simulations, we evaluate them on a uniform discretization of the domain defined as χ = {x 1 , • • • , x M } ⊂ Ω.</s><s>With such a discretization to establish learning governing laws, a popular choice of the cost functional C is the mean square error:</s></p><formula xml:id="formula_25">C( Ĝ[f i ; θ], u i ) := xj ∈χ ||G[f i ; θ](x j ) -u i (x j )|| 2 .</formula><p><s>Compared with the classical NNs, the most notable advantages of neural operators <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b46">47]</ref> are their resolution independence and generalizability to different input instances.</s><s>Thanks to the integral architecture of ( <ref type="formula" target="#formula_22">16</ref>), the accuracy of the prediction is invariant with respect to the resolution of input parameters such as initial conditions and grids.</s><s>This fact is in contrast with the classical finite-dimensional NN approaches that parameterize the mapping between finitedimensional Euclidean spaces and hence their accuracy is tied to the resolution of the input <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52]</ref>.</s><s>Furthermore, once trained, a neural operator is generalizable with respect to different input parameter instances; in other words, solving for a new instance of the input condition only requires a forward pass of the network.</s><s>This unique property is in contrast with traditional PDE-constrained optimization techniques <ref type="bibr" target="#b52">[53]</ref> and some other NN models that directly parameterize the solution <ref type="bibr" target="#b53">[54,</ref><ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b55">56,</ref><ref type="bibr" target="#b56">57,</ref><ref type="bibr" target="#b57">58]</ref>.</s><s>In <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b58">59,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b37">38]</ref>, neural operators are employed as an efficient solution surrogate for porous and/or heterogeneous materials.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Deep Neural Operator Modeling of Melt Pool States.</head><p><s>The end goal of this section is to build an efficient FNO surrogate to model the melt pool states.</s><s>From the formulations of FNOs, we notice that the total number of grids, |χ|, as well as the size of trainable parameter θ, grows exponentially with the problem dimension.</s><s>Denoting M as the total number of grids in χ, we have M = O(∆x -Dim ), where Dim denotes the dimension of the physical domain Ω, and ∆x is the grid size.</s><s>Then, as discussed in <ref type="bibr" target="#b35">[36]</ref>, the number of trainable parameters in the integral operator of FNOs grows as O(d 2 h mode Dim ), where d h is the dimension of layer feature at each point, h(•), and mode is the number of Fourier modes.</s><s>Therefore, for the sake of computational and memory efficiency, it is desired to reduce the dimension of FNO models.</s></p><p><s>Herein, we develop a strategy to decompose the 3D temperature field in melt pool simulations to a series of 2D ones.</s><s>In particular, from the generated temperature field data (see Figures <ref type="figure" target="#fig_5">6</ref><ref type="figure" target="#fig_6">7</ref><ref type="figure" target="#fig_7">8</ref>), we notice that the contours of T (x, y, z) are fairly smooth and almost symmetric with respect to the center line of the melt pool along the scanning direction.</s><s>That means, with the 2D section cuts from the center of the melt pool in the in-plane direction (along the x -y plane) and along the thickness and scanning directions (along the x -z plane), one can reconstruct the full-scale temperature field.</s><s>Hence, in this work we construct two 2D neural operators, to learn the temperature solution mapping of the 2D section cuts along the x -y plane and the x -z plane, respectively:</s></p><formula xml:id="formula_26">Ĝ1 [ξ; θ 1 ](x, y) ≈ T x-y (x, y) := T (x, y, z)| z=1000 , (<label>18</label></formula><formula xml:id="formula_27">) Ĝ2 [ξ; θ 2 ](x, z) ≈ T x-z (x, z) := T (x, y, z)| y=0 .<label>(19)</label></formula><p><s>Then, the melt pool states of ( <ref type="formula" target="#formula_7">6</ref>)-( <ref type="formula" target="#formula_9">7</ref>) can be calculated from the 2D solution surrogates:</s></p><p><s>T peak [T ] = T peak [ Ĝ1 , Ĝ2 ] = max max</s></p><p><s>x,y T x-y (x, y), max</s></p><p><s>x,z</s></p><formula xml:id="formula_28">T x-z (x, z) ,<label>(20)</label></formula><formula xml:id="formula_29">L[T ] = L[ Ĝ1 , Ĝ2 ] = max   max y (x,y)∈χx-y ∆x1(T x-y (x, y) -T s ), max z (x,z)∈χx-z ∆x1(T x-z (x, z) -T s )   ,<label>(21)</label></formula><formula xml:id="formula_30">W [T ] = W [ Ĝ1 , Ĝ2 ] = max x (x,y)∈χx-y ∆y1(T x-y (x, y) -T s ),<label>(22)</label></formula><formula xml:id="formula_31">ϵ[T ] = L[T ]/W [T ], (<label>23</label></formula><formula xml:id="formula_32">)</formula><formula xml:id="formula_33">SRI[T ] = SRI[ Ĝ1 , Ĝ2 ] = E L2 ϵ[T ] 0.25 2β Ĥγ T πL[T ](T peak [T ] -T s ) .<label>(24)</label></formula><p><s>Here, χ x-y and χ y-z denotes the uniform discretization of the x -y and y -z planes, respectively.</s><s>In this work, we take χ x-y := {-1375, 1347.5, • • • , 1375} × {-220, -211.4,</s><s>• • • , 220} and χ x-z := {-1375, 1347.5, • • • , 1375}×{750, 760, • • • , 1000}, with values of T on these sets by interpolating the solution of the physics-based model in Section 2.</s></p><p><s>In this context, we take laser power, scan speed, substrate temperature, and laser absorptivity as input and train two FNOs to learn the corresponding steadystate 2D temperature fields of the representative sections.</s><s>With the physics-based process simulation described in Section 2, a total of 750 simulations are conducted, with 5 laser powers [100, 200, 300, 400, 500] W, 5 scan speeds [0.5, 1.0, 1.5, 2.0, 2.5] m/s, 5 substrate temperatures [300, 360, 420, 480, 54] K, and 6 laser absorptivity [0.1, 0.2, 0.3, 0.4, 0.5, 0.6], respectively.</s><s>A schematic of the data generation process is shown in Figure <ref type="figure" target="#fig_5">6</ref>.</s><s>Subsequently, the entire dataset, D := {ξ i , T i (x, y, z)} N i=1 , is split into N tr = 700 for training and N val = 50 for testing.</s><s>Then, each 3D field T is interpolated onto the uniform grid sets χ x-y and χ x-z , forming the datasets for two FNOs: D x-y := {ξ i , T i,x-y (x, y)| (x,y)∈χx-y } N i=1 , D x-z := {ξ i , T i,x-z (x, z)| (x,z)∈χx-z } N i=1 .</s><s>D x-y and D x-z are used to construct Ĝ1 and Ĝ2 , respectively.</s><s>In particular, two 4-layer FNOs are adopted with a latent dimension of 20 and 12 truncated modes.</s><s>The initial learning rate is set to 0.01 that decays with a factor of 0.7 every 50 epochs.</s><s>The FNOs are trained for a total of 1,000 epochs using the Adam optimizer with L2 regularization of 10 -4 to avoid overfitting.</s><s>The relative L2-norm error is monitored and used to select the best models.</s><s>The training on the in-plane section resulted in an FNO model with 0.63% training error and 0.82% test error, whereas the training on the section along the scan direction resulted in an FNO model with 0.66% training error and 0.96% test error.</s><s>Examples of the trained FNO predictions are showcased in Figures <ref type="figure" target="#fig_6">7</ref> and <ref type="figure" target="#fig_7">8</ref>.</s><s>All training and test are performed on a machine with a single NVIDIA A6000 GPU.</s></p><p><s>Thanks to the efficiency and generalizability of FNOs, the trained models are capable of rapidly generating the process windows under different substrate temperatures.</s><s>That means, given a new and unseen process condition ξ test = (P test , V test , T test sub , α test ), the corresponding surface roughness can be evaluated via an efficient forward pass of Ĝ1 [ξ test ] and Ĝ2 [ξ test ], and then the numerical evaluations of ( <ref type="formula" target="#formula_7">6</ref>) and ( <ref type="formula" target="#formula_28">20</ref>)-( <ref type="formula" target="#formula_33">24</ref>).</s><s>As such, we create estimations from 1000 different combinations, and display the exemplar contour maps of the surface roughness as a function of the laser power and scan speed in Figure <ref type="figure" target="#fig_8">9</ref>.</s><s>Note that these simulations only take 20 seconds in total on a single GPU machine, while the full physical simulations would take 14 days on the same machine with 48 CPU cores.</s><s>Taking a closer look at the 1st contour map, the blue dot on the map assumes the initial condition that one starts  the simulation or the manufacturing process with.</s><s>If one is intended to reduce the surface roughness, according to the contour map, one will need to increase the laser power and reduce the scan speed, moving to the upper left corner of the map in the direction of the black arrow.</s><s>An interesting question these contour maps can answer is: with the increase of the substrate temperature as the printing goes on, if one is satisfied with the current surface roughness and would like to keep it constant as a nominal condition, is there a way it can be achieved?</s><s>The answer is positive.</s><s>According to the process window, if the scan speed is kept the same, one simply needs to reduce the laser power accordingly.</s><s>On the other hand, it is obvious from the physics standpoint that if one keeps increasing the laser power and decreasing the scan speed, it will ultimately lead to keyholes.</s><s>Although the current simplified physics simulation does not consider that, proper treatment is needed to avoid keyholing in the feedback control.</s><s>This will be taken care of in Section 4.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Process Parameter Optimization.</head><p><s>With a set of properly trained FNO solution surrogates at hand, we can efficiently predict the melt pool states given input scan parameters and compute the resulting defects of interest based on the relations introduced in Section 2.2.</s><s>Recall that the simplified simulation model does not take into account the keyholing effect.</s><s>With this caveat in mind, we design an objective function that minimizes surface roughness while in the meantime regularizing the peak temperature, via penalizing the loss function when the peak temperature enters the penalization regime [T t1 , T t2 ].</s><s>In particular, with fixed T sub and α, the power P and scan speed V are optimized via: P * , V * =argmin P,V f R (SRI[ Ĝ1 [P, V, T sub , α; θ 1 ], Ĝ2 [P, V, T sub , α; θ 2 ]]) + φΦ(T peak [ Ĝ1 [P, V, T sub , α; θ 1 ], Ĝ2 [P, V, T sub , α; θ 2 ]], T t1 , T t2 ).</s><s>(</s></p><formula xml:id="formula_34">)<label>25</label></formula><p><s>Here, Φ denotes a piecewise function:</s></p><formula xml:id="formula_35">Φ(T peak , T t1 , T t2 ) :=    0, for T peak ≤ T t1 ; 1, for T peak ≥ T t2 ; 1 2 + 1 2 sin(π • T peak -Tt1</formula><p><s>Tt2-Tt1 -π 2 ), otherwise.</s></p><p><s>To optimize (25), we freeze the trained FNOs parameters θ 1 and θ 2 and calculate the approximated gradient of this loss function with respect to P and V with the automatic differentiation engine in Pytorch.</s><s>As such, we can backpropagate the loss to the input parameters and iteratively search for the optimal ones for feedback control.</s><s>An illustration of this optimization workflow is displayed in Figure <ref type="figure" target="#fig_9">10</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Integrated Digital Twin Framework.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Dynamic Digital Twin.</head><p><s>Leveraging on the fast inference capability of the trained FNOs, the DT is able to optimize input process parameters and realize real-time closed-loop feedback control.</s><s>However, the predictions thus far are still deterministic.</s><s>In a real-world process, the printing quality is subject to many statistical disturbance, such as laser parameters, material properties, and machine disturbance.</s><s>Therefore, the DT should be able to self-evolve based on the in-situ monitoring data, quantify the uncertain parameters, and update its prediction.</s></p><p><s>Here, we present a case study of implementing such uncertainty quantification capability.</s><s>We assume there is a major uncertainty in the laser absorptivity as one of the influential model parameters.</s><s>To quantify the uncertainty, we collect the in-situ monitoring data of the melt pool length, which follows a probabilistic distribution, based on which we can backtrack the distribution of the input laser absorptivity.</s></p><p><s>As a consequence, we can further propagate the uncertainty and predict the distribution of surface roughness.</s></p><p><s>To model the distribution of melt pool characteristics, we perform image segmentation to obtain the melt pool lengths from 3,000 images collected from in-situ monitoring <ref type="bibr" target="#b60">[61]</ref>, the distribution of which is plotted in Figure <ref type="figure" target="#fig_0">11</ref>.</s><s>We observe that the melt pool length ranges from 150 micro-meters to 400 micro-meters.</s><s>While the distribution does not follow a perfect Gaussian one, a bi-modal distribution is identified as two peaks are observed at around 240 micro-meters and 310 micro-meters.</s><s>For sake of simplicity, we employed a simple normal distribution to approximate the bi-modal distribution:</s></p><formula xml:id="formula_36">L true ∼ N [µ true L , (σ true L ) 2 ],</formula><p><s>The resulting approximation is shown in Figure <ref type="figure" target="#fig_0">11</ref>.</s><s>Then, we infer the laser absorptivity distribution from the melt pool image degmentation data, by matching the posterior melt pool length distribution with <ref type="bibr" target="#b25">(26)</ref>.</s><s>Without loss of generality, we assume that the laser absorptivity follows a Gaussian distribution with a mean of e α and a standard deviation of σ α , i.e., α ∼ N [µ α , σ 2  α ].</s><s>The overall goal is then to estimate the values of µ α and σ α by matching the posterior melt pool distribution with the observed values.</s><s>In particular, we choose the Kullback-Leibler divergence (KL divergence) as the loss function, which measures how one probability distribution is different from a second probability distribution.</s><s>When both probability distributions are univariate normal distributions, the KL divergence writes:</s></p><formula xml:id="formula_38">D KL (P ||Q) = log σ q σ p + σ 2 p -σ 2 q + (µ p -µ q ) 2 2 .</formula><p><s>To estimate the KL divergence between the estimated melt pool length and the ground truth, we sample α ∼ N [µ α , σ 2  α ] by S = 100 times, and then feed the resulting sample set of laser absorptivity, {α s }, to the trained FNO models to estimate the mean and standard deviation of L[T ]:</s></p><formula xml:id="formula_39">µ L[T ] = 1 S S s=1 L[ Ĝ1 [P, V, T sub , α s ; θ 1 ], Ĝ2 [P, V, T sub , α s ; θ 2 ]],<label>(27)</label></formula><formula xml:id="formula_40">σ 2 L[T ] = 1 S S s=1 L[ Ĝ1 [P, V, T sub , α s ; θ 1 ], Ĝ2 [P, V, T sub , α s ; θ 2 ]] -µ L[T ] 2 .<label>(28)</label></formula><p><s>In the following, we neglect the fixed parameters P , V , T sub , θ 1 and θ 2 , for notational simplicity.</s><s>Substituting the above equations into the formulation for KL divergence, we estimate the µ α and σ α by solving the following optimization problem:</s></p><formula xml:id="formula_41">D KL (L[T ]||L true ) = 1 2S S s=1 L[ Ĝ1 [α s ], Ĝ2 [α s ]] - 1 S S r=1 L[ Ĝ1 [α r ], Ĝ2 [α r ]] 2 -(σ true L ) 2 + 1 S S s=1 L[ Ĝ1 [α s ], Ĝ2 [α s ]] -µ true L Figure 11.</formula><p><s>In-situ monitoring data processing to extract melt pool statistics.</s></p><formula xml:id="formula_42">+ 1 2 log 1 S S s=1 L[ Ĝ1 [α s ], Ĝ2 [α s ]] - 1 S S r=1 L[ Ĝ1 [α r ], Ĝ2 [α r ]] 2 (σ true L ) 2 .<label>(29)</label></formula><p><s>The inferred distribution parameters of laser absorptivity are µ α = 0.239 and σ α = 0.021.</s><s>This constitutes the posterior estimation by assimilating experimental sensor data.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Uncertainty Quantification.</head><p><s>With the corrected posterior laser absorptivity from in-situ data assimilation, here we further propagate the computed uncertainty in laser absorptivity to the melt pool related quantities.</s><s>As of now, the FNO predicted melt pool states (e.g., the melt pool dimension, the peak temperature) are expressed as probabilistic variables.</s><s>We can ultimately quantify the uncertainty in defects following the correlation in Section 2.2.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Virtual Demonstration.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Experimental Motivation.</head><p><s>The effect of L-PBF process parameters on surface roughness has been widely investigated in additive manufacturing research.</s><s>In many of these studies, the surface roughness is evaluated based on energy density <ref type="bibr" target="#b61">[62,</ref><ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b63">64,</ref><ref type="bibr" target="#b64">65]</ref>.</s><s>More specifically, process parameters (laser power and scan speed) are varied and correlations are drawn between energy density and surface roughness <ref type="bibr" target="#b61">[62]</ref>.</s><s>In the work by Yang et al. <ref type="bibr" target="#b61">[62]</ref>, linear energy density is studied; however, total energy input is not evaluated (i.e heat buildup in the part during processing).</s><s>It has been shown that thermal buildup during the L-PBF process influences part distortion <ref type="bibr" target="#b62">[63]</ref> and optimal process parameters are only valid for a range of interlayer temperatures <ref type="bibr" target="#b63">[64]</ref>.</s><s>The objective of this experiment is to evaluate the effect of increasing interlayer temperature on surface roughness in AlSi10Mg components fabricated via L-PBF.</s></p><p><s>To investigate the impact of thermal buildup during the L-PBF process, cone shaped specimens with heat shunts were designed, adapted from prior work by Yavari et al. <ref type="bibr" target="#b65">[66]</ref>.</s><s>Three different height specimens (20 mm, 30 mm, and 40 mm) were designed to evaluate three initial substrate temperatures.</s><s>Here, initial substrate temperature refers to the temperature of the specimen after laser scanning and powder recoating.</s><s>Each specimen has a 10 mm tall heat shunt at the base to restrict heat flow to the build plate and amplify thermal build-up during the L-PBF process.</s><s>Figure <ref type="figure" target="#fig_11">12</ref> shows the three specimen geometries printed.</s><s>Specimens are manufactured using an EOS M280 L-PBF system with EOS AlSi10Mg powder.</s></p><p><s>The specimens were grouped into three subsets, each containing a 20 mm, 30 mm and 40 mm tall specimen.</s><s>Each of these subsets is assigned a different parameter set, with laser power and scan speed being identical within a subset.</s><s>By creating 3 subsets of specimens, the initial substrate temperate can be measured at three build heights, on specimens with the same process parameters.</s><s>Specimens in Subset 1 were processed with a laser power of 370 W and a scan speed of 1300 mm/s, Subset 2 specimens were processed with a laser power of 296 W and a scan speed of 1300 mm/s, and Subset 3 specimens were processed with a laser power of 370 W and a scan speed of 1560 mm/s.</s><s>The build layout is shown in Figure <ref type="figure" target="#fig_12">13</ref>.</s></p><p><s>To evaluate the effect of substrate temperature on surface roughness, single-pass tracks and standard hatches are deposited on the top layer of each specimen.</s><s>The configuration of the singles-pass depositions and standard hatches on the top layer of each cone are illustrated in Figure <ref type="figure" target="#fig_13">14</ref>.</s><s>Varying laser power and scan speed are selected for each of the single-pass depositions.</s><s>The laser power ranges from 148 W to 370 W and the scan speed ranges from 1000 mm/s to 2080 mm/s.</s><s>The laser power and scan speed parameter combinations create single pass depositions with linear energy densities ranging from 0.071 to 0.370 J/mm (cf.</s><s>Table <ref type="table" target="#tab_2">3</ref>).</s></p><p><s>The manufactured specimens are shown in Figure <ref type="figure" target="#fig_14">15</ref>.</s><s>Of the nine specimens printed, one failed during the build.</s><s>This specimen, 1T, broke off in the heat shunt region during the build.</s><s>Due to the location of the 1T specimen, the build was not paused, and the remainder of the specimens were completed without interrupting the build.</s></p><p><s>Specimens were sectioned, mounted in resin, and polished to reveal melt pool geometry and microstructure.</s><s>Figure <ref type="figure" target="#fig_5">16</ref> shows specimen 3M after being imaged using a Keyence optical microscope, and highlights the single track depositions on the top layer.</s><s>From these micrographs, melt pool width, depth, and height can be measured for each single-pass deposition and the surface roughness can be evaluated on the top layer.</s><s>To monitor the L-PBF process, multispectral and thermal data were collected.</s><s>Multispectral data was collected using custom Penn State Applied Research Laboratory sensors and was acquired at 50 kHz.</s><s>Additionally, thermal data was collected using a FLIR X6801sc mid-wave infrared camera at 100 frames per second.</s><s>The temperature measured by the thermal camera is emissivity and surface roughness dependent; therefore, to accurately measure interlayer temperature during the build, the thermal camera was calibrated using "Method A" from Wang, et al. <ref type="bibr" target="#b62">[63]</ref>.</s><s>Shown in Figure <ref type="figure" target="#fig_6">17</ref> are the thermal images acquired for the top layer on specimen 3S, 3M, and 3T, with average surface temperatures of 142 °C, 235 °C, and 289 °C, respectively.</s><s>The corresponding cross sections are displayed underneath the thermal images, indicating that hotter substrate results in smoother surface.</s><s>A more quantitative analysis on the surface profiles can be found in Figure <ref type="figure" target="#fig_16">18</ref>, where the average deviations from the average of the surface profile are 12.716, 11.309 and 9.278 for short, medium and tall specimens, respectively.</s><s>Note that these measurements do not comply with ISO standard roughness measurements and are only used for relative comparisons.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">DT Modeling.</head><p><s>As demonstrated in Figure <ref type="figure" target="#fig_6">17</ref>, a key observation from the experiment is that hotter substrate results in smoother surface, provided that keyhole is not a concern.</s><s>This naturally leads to the question of whether or not one can Tall Short Medium Thermal Imaging Top Surface Substrate Temperature Surface Roughness Figure 17.</s><s>Thermal data collected with a FLIR X6801sc camera, showing the top layer of specimen numbers 3S, 3M, and 3T (from left to right).</s><s>These images were acquired after powder recoating and before the laser scanned the top layer of the cone.</s><s>Here, the color bar displays calibrated temperature in degrees Celsius.</s><s>The corresponding cross sections are displayed below.</s></p><p><s>dynamically adjust the laser power and scan speed to minimize surface roughness.</s><s>In this context, we apply the developed DT framework to a part-scale cone-shaped model following the experimental setup as a virtual DT demonstration, where the heat source is homogenized and distributed to the entire layer, and 10 layers are  added at a time.</s><s>The initial laser power and scan speed are set to the nominal values of 300 W and 1.65 m/s, respectively.</s><s>An illustrative figure is provided in Figure 19, along with the time history of the substrate temperature.</s><s>We run two simulations of the printing process of the cone-shaped part, one without DT control and the other with DT control.</s><s>The results are compared in the next section.</s></p><p><s>6. Results and Discussion.</s><s>The comparisons between the original and DToptimized results in terms of laser power and scan speed, substrate and melt pool peak temperatures, and the resulting surface roughness are plotted in Figures <ref type="figure" target="#fig_18">20</ref><ref type="figure" target="#fig_1">21</ref><ref type="figure" target="#fig_1">22</ref>, respectively.</s><s>We observe that the DT dynamically increases the laser power and decreases the scan speed to slow down the scanning process.</s><s>The direct consequence of this adjustment is the increase in substrate temperature, which further results in a notable decrease in surface roughness.</s><s>This phenomenon is consistent with the findings in the experiment.</s><s>Additionally, by looking into the peak temperature time  history in Figures 21 right, we observe that the DT maintains the peak temperature to be around 3,200 K, which proves the effectiveness of the peak temperature regularization scheme for keyhole mitigation.</s><s>The uncertainty quantified results in terms of peak temperature and surface roughness are plotted in Figure 23. the extracted melt pool characteristics to the resulting defects of interest.</s><s>An optimization algorithm is then designed to guide the optimal process conditions, by leveraging automatic differentiation in ML.</s><s>In addition to the closed-loop feedback control, the developed DT can also assimilate in-situ monitoring data and evolve itself to closely represent the current state of the melt pool that governs the defect formation.</s><s>The DT framework is also equipped with uncertainty quantification from input parameters to the final user-cared defects.</s></p><p><s>Although the current DT control demonstration is based on synthetic data, it is envisioned that the developed DT framework can significantly improve the printing process and mitigate defects in real-world L-PBF-based metal AM processes.</s><s>As a natural extension, we plan to consider the combination of synthetic data and experimental measurements, and apply our DT framework in real-time experimental designs.</s><s>We also plan to explore the DT framework in other applications.</s><s>Examples include experimental design of material mechanical testing <ref type="bibr" target="#b66">[67]</ref>, the non-destructive evaluation and monitoring of composites <ref type="bibr" target="#b67">[68]</ref>, and so on.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Demonstration of the digital twin concept in additive manufacturing.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2.</s><s>An overview of the proposed DT framework.</s></p></div></figDesc><graphic coords="4,126.67,120.82,360.00,181.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Enthalpy formulation for melting and vaporization.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Surface roughness (Ra) as a function of surface roughness index (SRI).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Bi-linear fit of surface roughness model.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>A schematic of the data generation process.</s></p></div></figDesc><graphic coords="12,126.67,120.82,360.00,166.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7.</s><s>An example of the FNO prediction of the in-plane section.</s></p></div></figDesc><graphic coords="13,168.21,120.82,273.60,150.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8.</s><s>An example of the FNO prediction of the section along the through-thickness and scanning directions.</s></p></div></figDesc><graphic coords="14,170.01,120.82,270.00,116.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. FNO generated process windows under different substrate temperatures.</s></p></div></figDesc><graphic coords="14,126.67,284.25,360.00,119.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>An illustration of the optimization workflow to search for optimal process parameters for feedback control: optimization process (left) and additional loss term for peak temperature regularization (right).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><figDesc><div><p><s>where µ true L = 263.30</s><s>µm, σ true L = 36.69</s><s>µm.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 12 .</head><label>12</label><figDesc><div><p><s>Figure 12.</s><s>CAD model cross sections of the cone shaped specimens, designed to restrict heat flow to the build plate.</s></p></div></figDesc><graphic coords="18,126.67,120.82,360.02,129.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 13 .</head><label>13</label><figDesc><div><p><s>Figure 13.</s><s>Specimen layout on the EOS M280 build plate.</s><s>Here, the gray lines represent the thermal camera field of view.</s></p></div></figDesc><graphic coords="19,197.01,437.85,216.01,142.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 14 .</head><label>14</label><figDesc><div><p><s>Figure 14.</s><s>Single-pass depositions and standard hatches shown on the top layer of a cone specimen.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 15 .</head><label>15</label><figDesc><div><p><s>Figure 15.</s><s>Top layer of the cone specimens from the completed build.</s></p></div></figDesc><graphic coords="20,197.01,338.39,216.01,177.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 16 .Figure 17 .</head><label>1617</label><figDesc><div><p><s>Figure 16.</s><s>Cross section of specimen 3M.</s><s>The highlighted section shows the 15 single tracks deposited on the top layer.</s></p></div></figDesc><graphic coords="21,170.01,120.82,270.00,226.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 18 .</head><label>18</label><figDesc><div><p><s>Figure 18.</s><s>Illustrations of surface profiles.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 19 .</head><label>19</label><figDesc><div><p><s>Figure 19.</s><s>Part-scale virtual demonstration of DT.</s></p></div></figDesc><graphic coords="22,126.67,380.55,360.01,118.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 20 .</head><label>20</label><figDesc><div><p><s>Figure 20.</s><s>Comparison of process parameters with and without DT control: laser power (left) and scan speed (right).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 21 . 7 .Figure 22 .Figure 23 .</head><label>2172223</label><figDesc><div><p><s>Figure 21.</s><s>Comparison of substrate temperatures (left) and peak temperatures (right) with and without DT control.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Material properties for AlSi10Mg.</s></p></div></figDesc><table><row><cell>Density ρ</cell><cell>2670 kg/m 3</cell></row><row><cell>Solid specific heat</cell><cell>546 J/(kg • K)</cell></row><row><cell>Liquid specific heat</cell><cell>632 J/(kg • K)</cell></row><row><cell>Latent heat of melting</cell><cell>4.23 × 10 5 J/kg</cell></row><row><cell>Latent heat of vaporization</cell><cell>1.14 × 10 7 J/kg</cell></row><row><cell>Solid thermal conductivity ks</cell><cell>113 W/(m • K)</cell></row><row><cell cols="2">Liquid thermal conductivity k l 133 W/(m • K)</cell></row><row><cell>Solidus temperature Ts</cell><cell>831 K</cell></row><row><cell>Liquidus temperature T l</cell><cell>867 K</cell></row><row><cell>Boiling temperature T b</cell><cell>2740 K</cell></row><row><cell>Absorptivity α</cell><cell>0.3</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Literature data collection for surface roughness modeling.</s></p></div></figDesc><table><row><cell cols="5">Laser power Scan vel. Nominal layer</cell><cell cols="2">Preheating</cell><cell cols="2">Surface rough. Vendor</cell><cell>Ref.</cell></row><row><cell>P (W )</cell><cell cols="8">V (m/s) thickness t h (µm) temp. T sub (K) Ra (µm)</cell></row><row><cell>120</cell><cell>0.8</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>17.61</cell></row><row><cell>190</cell><cell>0.8</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>14.35</cell></row><row><cell>120</cell><cell>0.85</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>17.11</cell></row><row><cell>120</cell><cell>0.9</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>16.01</cell></row><row><cell>155</cell><cell>0.9</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>16.57</cell></row><row><cell>190</cell><cell>0.9</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>15.11</cell><cell>EOS M270 [41]</cell></row><row><cell>120</cell><cell>0.95</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>17.62</cell></row><row><cell>155</cell><cell>0.95</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>15.57</cell></row><row><cell>190</cell><cell>0.95</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>17.50</cell></row><row><cell>120</cell><cell>1.0</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>19.59</cell></row><row><cell>120</cell><cell>1.25</cell><cell>30</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>18.14</cell></row><row><cell>370</cell><cell>1.0</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>5.21</cell></row><row><cell>370</cell><cell>1.3</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>8.55</cell></row><row><cell>350</cell><cell>1.3</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>8.76</cell><cell>EOS M290 [42]</cell></row><row><cell>370</cell><cell>1.5</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>10.38</cell></row><row><cell>300</cell><cell>1.3</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>9.91</cell></row><row><cell>200</cell><cell>1.3</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>13.81</cell></row><row><cell>335</cell><cell>0.8</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>3.75</cell></row><row><cell>335</cell><cell>1.05</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>4.59</cell><cell>EOS M290 [43]</cell></row><row><cell>335</cell><cell>1.3</cell><cell>30</cell><cell></cell><cell></cell><cell>473</cell><cell></cell><cell>7.25</cell></row><row><cell>350</cell><cell>0.921</cell><cell>50</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>14.17</cell></row><row><cell>420</cell><cell>0.921</cell><cell>50</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>10.45</cell><cell>SLM500</cell><cell>[44]</cell></row><row><cell>490</cell><cell>0.921</cell><cell>50</cell><cell></cell><cell></cell><cell>300</cell><cell></cell><cell>10.57</cell></row><row><cell></cell><cell>25</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>20</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(um) Ra</cell><cell>10 15</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Calignano-2012 Maamoun-2018</cell></row><row><cell></cell><cell>5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Balbaa-2021</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Taute-2021</cell></row><row><cell></cell><cell>0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>0.10</cell><cell>0.15</cell><cell>0.20</cell><cell>0.25</cell><cell>0.30</cell><cell>0.35</cell><cell>0.40</cell><cell>0.45</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="4">Surface Roughness Index</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc><div><p><s>Process parameters used for the single-pass depositions on the top layer of each specimen.</s></p></div></figDesc><table><row><cell cols="4">Track # Laser Power (W) Scan Speed (mm/s) Linear Heat Input (J/mm)</cell></row><row><cell>1</cell><cell>370</cell><cell>1300</cell><cell>0.285</cell></row><row><cell>2</cell><cell>296</cell><cell>1300</cell><cell>0.228</cell></row><row><cell>3</cell><cell>370</cell><cell>1560</cell><cell>0.237</cell></row><row><cell>4</cell><cell>370</cell><cell>1300</cell><cell>0.285</cell></row><row><cell>5</cell><cell>370</cell><cell>2080</cell><cell>0.178</cell></row><row><cell>6</cell><cell>296</cell><cell>1300</cell><cell>0.228</cell></row><row><cell>7</cell><cell>222</cell><cell>1300</cell><cell>0.171</cell></row><row><cell>8</cell><cell>370</cell><cell>1820</cell><cell>0.203</cell></row><row><cell>9</cell><cell>370</cell><cell>1560</cell><cell>0.237</cell></row><row><cell>10</cell><cell>370</cell><cell>1000</cell><cell>0.370</cell></row><row><cell>11</cell><cell>148</cell><cell>1300</cell><cell>0.114</cell></row><row><cell>12</cell><cell>370</cell><cell>1040</cell><cell>0.356</cell></row><row><cell>13</cell><cell>370</cell><cell>1040</cell><cell>0.356</cell></row><row><cell>14</cell><cell>148</cell><cell>2080</cell><cell>0.071</cell></row><row><cell>15</cell><cell>296</cell><cell>1560</cell><cell>0.190</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p><s>We neglect the effects of hatch spacing as we only consider the single track simulations in the current setting.</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p><s>Acknowledgments.</s><s>This work is supported by the <rs type="funder">U.S. Naval Air Systems Command (NAVAIR)</rs> Funding Contract No. <rs type="grantNumber">N68335-23-C-0440</rs>.</s><s>This support is gratefully acknowledged.</s><s><rs type="person">Prahalada Rao</rs> acknowledges funding from the <rs type="funder">National Science Foundation (NSF)</rs> via Grant numbers: <rs type="grantNumber">CMMI-2309483/1752069</rs>, <rs type="grantNumber">OIA-1929172</rs>, <rs type="grantNumber">PFI-TT 2322322/2044710</rs>, <rs type="grantNumber">CMMI-1920245</rs>, <rs type="grantNumber">ECCS-2020246</rs>, <rs type="grantNumber">CMMI-1739696</rs>, and <rs type="grantNumber">CMMI-1719388</rs> for funding his research program.</s><s>Understanding the causal <rs type="projectName">influence of process parameters, melt pool dynamics, and thermal history on part quality</rs> was the major aspect of <rs type="grantNumber">CMMI-2309483/1752069 CAREER</rs> award (Program Officer: <rs type="person">Andrew Wells</rs>).</s><s><rs type="person">Yue Yu</rs> would like to acknowledge support by the <rs type="funder">National Science Foundation</rs> under award <rs type="grantNumber">DMS-1753031</rs> and the <rs type="funder">AFOSR</rs> grant <rs type="grantNumber">FA9550-22-1-0197</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_kt5Dpk3">
+					<idno type="grant-number">N68335-23-C-0440</idno>
+				</org>
+				<org type="funding" xml:id="_6autY8h">
+					<idno type="grant-number">CMMI-2309483/1752069</idno>
+				</org>
+				<org type="funding" xml:id="_TnS73xq">
+					<idno type="grant-number">OIA-1929172</idno>
+				</org>
+				<org type="funding" xml:id="_DYHZmm6">
+					<idno type="grant-number">PFI-TT 2322322/2044710</idno>
+				</org>
+				<org type="funding" xml:id="_ps4djWv">
+					<idno type="grant-number">CMMI-1920245</idno>
+				</org>
+				<org type="funding" xml:id="_BACuZx2">
+					<idno type="grant-number">ECCS-2020246</idno>
+				</org>
+				<org type="funding" xml:id="_fpSvHUW">
+					<idno type="grant-number">CMMI-1739696</idno>
+				</org>
+				<org type="funded-project" xml:id="_jVHqFB5">
+					<idno type="grant-number">CMMI-1719388</idno>
+					<orgName type="project" subtype="full">influence of process parameters, melt pool dynamics, and thermal history on part quality</orgName>
+				</org>
+				<org type="funding" xml:id="_JG6PXcA">
+					<idno type="grant-number">CMMI-2309483/1752069 CAREER</idno>
+				</org>
+				<org type="funding" xml:id="_djEsrKy">
+					<idno type="grant-number">DMS-1753031</idno>
+				</org>
+				<org type="funding" xml:id="_UPn3j3Q">
+					<idno type="grant-number">FA9550-22-1-0197</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Metal additive manufacturing: a review</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Frazier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Engineering and performance</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1917" to="1928" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. E. Frazier, Metal additive manufacturing: a review, Journal of Materials Engineering and performance 23 (2014) 1917-1928.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khorasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khorasani</surname></persName>
+		</author>
+		<title level="m">Additive manufacturing technologies</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">17</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Gibson, D. W. Rosen, B. Stucker, M. Khorasani, D. Rosen, B. Stucker, M. Khorasani, Additive manufacturing technologies, Vol. 17, Springer, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing: Challenges, trends, and applications</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Abdulhameed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al-Ahmari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ameen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Mian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Mechanical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">1687814018822880</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Abdulhameed, A. Al-Ahmari, W. Ameen, S. H. Mian, Additive manufacturing: Chal- lenges, trends, and applications, Advances in Mechanical Engineering 11 (2) (2019) 1687814018822880.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Laser powder bed fusion additive manufacturing of metals; physics, computational, and materials challenges</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ferencz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Hodge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kamath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Reviews</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. E. King, A. T. Anderson, R. M. Ferencz, N. E. Hodge, C. Kamath, S. A. Khairallah, A. M. Rubenchik, Laser powder bed fusion additive manufacturing of metals; physics, com- putational, and materials challenges, Applied Physics Reviews 2 (4).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Du Plessis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Macdonald</surname></persName>
+		</author>
+		<title level="m">Fundamentals of laser powder bed fusion of metals</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Yadroitsev, I. Yadroitsava, A. Du Plessis, E. MacDonald, Fundamentals of laser powder bed fusion of metals, Elsevier, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Prediction of lack-of-fusion porosity for powder bed fusion</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pistorius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Beuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="39" to="48" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Tang, P. C. Pistorius, J. L. Beuth, Prediction of lack-of-fusion porosity for powder bed fusion, Additive Manufacturing 14 (2017) 39-48.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Quantification and prediction of lack-of-fusion porosity in the high porosity regime during laser powder bed fusion of ti-6al-4v</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Promoppatum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Quek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Msolli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shukla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Johan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Der Veen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Jhon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page">117426</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Promoppatum, R. Srinivasan, S. S. Quek, S. Msolli, S. Shukla, N. S. Johan, S. van der Veen, M. H. Jhon, Quantification and prediction of lack-of-fusion porosity in the high porosity regime during laser powder bed fusion of ti-6al-4v, Journal of Materials Processing Technology 300 (2022) 117426.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Understanding laser powder bed fusion surface roughness</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Thole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Manufacturing Science and Engineering</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">71003</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. C. Snyder, K. A. Thole, Understanding laser powder bed fusion surface roughness, Journal of Manufacturing Science and Engineering 142 (7) (2020) 071003.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effect of process parameters on the surface roughness of overhanging structures in laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Moylan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Lane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Cirp</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="131" to="134" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. C. Fox, S. P. Moylan, B. M. Lane, Effect of process parameters on the surface roughness of overhanging structures in laser powder bed fusion additive manufacturing, Procedia Cirp 45 (2016) 131-134.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Critical instability at moving keyhole tip generates porosity in laser melting</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Parab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="issue">6520</biblScope>
+			<biblScope unit="page" from="1080" to="1086" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Zhao, N. D. Parab, X. Li, K. Fezzaa, W. Tan, A. D. Rollett, T. Sun, Critical instability at moving keyhole tip generates porosity in laser melting, Science 370 (6520) (2020) 1080-1086.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of laser-matter interaction on molten pool flow and keyhole dynamics</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kouraytem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Parab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Spear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Applied</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">64054</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Kouraytem, X. Li, R. Cunningham, C. Zhao, N. Parab, T. Sun, A. D. Rollett, A. D. Spear, W. Tan, Effect of laser-matter interaction on molten pool flow and keyhole dynamics, Physical Review Applied 11 (6) (2019) 064054.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A probabilistic graphical model foundation for enabling predictive digital twins at scale</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kapteyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Pretorius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Willcox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Computational Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="337" to="347" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. G. Kapteyn, J. V. Pretorius, K. E. Willcox, A probabilistic graphical model foundation for enabling predictive digital twins at scale, Nature Computational Science 1 (5) (2021) 337-347.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Towards developing multiscale-multiphysics models and their surrogates for digital twins of metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Gunasegaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barnard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ladani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">102089</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. R. Gunasegaram, A. Murphy, A. Barnard, T. DebRoy, M. Matthews, L. Ladani, D. Gu, Towards developing multiscale-multiphysics models and their surrogates for digital twins of metal additive manufacturing, Additive Manufacturing 46 (2021) 102089.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A digital twin for rapid qualification of 3d printed metallic components</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Materials Today</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="59" to="65" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Mukherjee, T. DebRoy, A digital twin for rapid qualification of 3d printed metallic com- ponents, Applied Materials Today 14 (2019) 59-65.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">From data to assessment models, demonstrated through a digital twin of marine risers</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kharazmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rudy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sapsis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Triantafyllou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Karniadakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Offshore Technology Conference</title>
+		<imprint>
+			<publisher>OTC</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="031S" to="35R" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Kharazmi, Z. Wang, D. Fan, S. Rudy, T. Sapsis, M. S. Triantafyllou, G. E. Karniadakis, From data to assessment models, demonstrated through a digital twin of marine risers, in: Offshore Technology Conference, OTC, 2021, p. D031S035R003.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A three-phase model for simulation of heat transfer and melt pool behaviour in laser powder bed fusion process</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder technology</title>
+		<imprint>
+			<biblScope unit="volume">381</biblScope>
+			<biblScope unit="page" from="298" to="312" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Li, L. Wang, A. Yu, Z. Zhou, A three-phase model for simulation of heat transfer and melt pool behaviour in laser powder bed fusion process, Powder technology 381 (2021) 298-312.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Hybrid modeling approach for melt-pool prediction in laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Witherell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computing and Information Science in Engineering</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">50902</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Moges, Z. Yang, K. Jones, S. Feng, P. Witherell, Y. Lu, Hybrid modeling approach for melt-pool prediction in laser powder bed fusion additive manufacturing, Journal of Computing and Information Science in Engineering 21 (5) (2021) 050902.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Numerical study of the impact of vaporisation on melt pool dynamics in laser powder bed fusion-application to in718 and ti-6al-4v</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Queva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guillemot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moriconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Metton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bellet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">101249</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Queva, G. Guillemot, C. Moriconi, C. Metton, M. Bellet, Numerical study of the impact of vaporisation on melt pool dynamics in laser powder bed fusion-application to in718 and ti-6al-4v, Additive Manufacturing 35 (2020) 101249.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A comprehensive study on meltpool depth in laser-based powder bed fusion of inconel 718</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khorasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghasemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cordova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sharabian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Farabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rolfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The International Journal of Advanced Manufacturing Technology</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2345" to="2362" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Khorasani, A. Ghasemi, M. Leary, L. Cordova, E. Sharabian, E. Farabi, I. Gibson, M. Brandt, B. Rolfe, A comprehensive study on meltpool depth in laser-based powder bed fu- sion of inconel 718, The International Journal of Advanced Manufacturing Technology 120 (3) (2022) 2345-2362.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A meltpool prediction based scan strategy for powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yeung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">101383</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Yeung, Z. Yang, L. Yan, A meltpool prediction based scan strategy for powder bed fusion additive manufacturing, Additive Manufacturing 35 (2020) 101383.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Quantitative investigation of gas flow, powder-gas interaction, and powder behavior under different ambient pressure levels in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Machine Tools and Manufacture</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page">103797</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Li, Q. Guo, L. Chen, W. Tan, Quantitative investigation of gas flow, powder-gas interac- tion, and powder behavior under different ambient pressure levels in laser powder bed fusion, International Journal of Machine Tools and Manufacture 170 (2021) 103797.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Thermo-mechanical model development and validation of directed energy deposition additive manufacturing of ti-6al-4v</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heigel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Michaleris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Reutzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="9" to="19" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Heigel, P. Michaleris, E. W. Reutzel, Thermo-mechanical model development and validation of directed energy deposition additive manufacturing of ti-6al-4v, Additive manufacturing 5 (2015) 9-19.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Surface roughness analysis, modelling and prediction in selective laser melting</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Strano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Everson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="589" to="597" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Strano, L. Hao, R. M. Everson, K. E. Evans, Surface roughness analysis, modelling and prediction in selective laser melting, Journal of Materials Processing Technology 213 (4) (2013) 589-597.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A review of machine learning techniques for process and performance optimization in laser beam powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Silva Izquierdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vinel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shamsaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Intelligent Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3249" to="3275" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Liu, J. Ye, D. Silva Izquierdo, A. Vinel, N. Shamsaei, S. Shao, A review of machine learning techniques for process and performance optimization in laser beam powder bed fusion additive manufacturing, Journal of Intelligent Manufacturing 34 (8) (2023) 3249-3275.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Perspectives of using machine learning in laser powder bed fusion for metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual and Physical Prototyping</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="372" to="386" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. L. Sing, C. Kuo, C. Shih, C. Ho, C. K. Chua, Perspectives of using machine learning in laser powder bed fusion for metal additive manufacturing, Virtual and Physical Prototyping 16 (3) (2021) 372-386.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Automatic fault detection for laser powder-bed fusion using semi-supervised machine learning</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Okaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jayasinghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paoletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="42" to="53" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. A. Okaro, S. Jayasinghe, C. Sutcliffe, K. Black, P. Paoletti, P. L. Green, Automatic fault detection for laser powder-bed fusion using semi-supervised machine learning, Additive Man- ufacturing 27 (2019) 42-53.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Physics-informed machine learning and mechanistic modeling of additive manufacturing to reduce defects</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Materials Today</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">101123</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Du, T. Mukherjee, T. DebRoy, Physics-informed machine learning and mechanistic mod- eling of additive manufacturing to reduce defects, Applied Materials Today 24 (2021) 101123.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Process modeling in laser powder bed fusion towards defect detection and quality control via machine learning: The state-of-the-art and research challenges</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Moghaddam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Manufacturing Processes</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="961" to="984" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Wang, Y. Yang, N. S. Moghaddam, Process modeling in laser powder bed fusion towards defect detection and quality control via machine learning: The state-of-the-art and research challenges, Journal of Manufacturing Processes 73 (2022) 961-984.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Deep learning based reconstruction of transient 3d melt pool geometries in laser powder bed fusion from coaxial melt pool images</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manufacturing Letters</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">S. Liao, T. Xue, J. Cao, Deep learning based reconstruction of transient 3d melt pool geome- tries in laser powder bed fusion from coaxial melt pool images, Manufacturing Letters.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Deep semi-supervised learning of dynamics for anomaly detection in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Intelligent Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="457" to="471" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Larsen, P. A. Hooper, Deep semi-supervised learning of dynamics for anomaly detection in laser powder bed fusion, Journal of Intelligent Manufacturing 33 (2) (2022) 457-471.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">An encoder-decoder based approach for anomaly detection with application in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nettekoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Topcu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sangiovanni-Vincentelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">18th IEEE international conference on machine learning and applications (ICMLA)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2019">2019. 2019</date>
+			<biblScope unit="page" from="1008" to="1015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Tan, B. Jin, A. Nettekoven, Y. Chen, Y. Yue, U. Topcu, A. Sangiovanni-Vincentelli, An encoder-decoder based approach for anomaly detection with application in additive manu- facturing, in: 2019 18th IEEE international conference on machine learning and applications (ICMLA), IEEE, 2019, pp. 1008-1015.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Statistical parameterized physics-based machine learning digital twin models for laser powder bed fusion process</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mojumder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2311.07821</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Y. Li, S. Mojumder, Y. Lu, A. A. Amin, J. Guo, X. Xie, W. Chen, G. J. Wagner, J. Cao, W. K. Liu, Statistical parameterized physics-based machine learning digital twin models for laser powder bed fusion process, arXiv preprint arXiv:2311.07821.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2203.08205</idno>
+		<title level="m">Learning Deep Implicit Fourier Neural Operators (IFNOs) with Applications to Heterogeneous Material Modeling</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">H. You, Q. Zhang, C. J. Ross, C.-H. Lee, Y. Yu, Learning Deep Implicit Fourier Neural Operators (IFNOs) with Applications to Heterogeneous Material Modeling, arXiv preprint arXiv:2203.08205.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Fourier neural operator for parametric partial differential equations</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Kovachki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Azizzadenesheli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anandkumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Learning Representations</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Li, N. B. Kovachki, K. Azizzadenesheli, K. Bhattacharya, A. Stuart, A. Anandkumar, et al., Fourier neural operator for parametric partial differential equations, in: International Conference on Learning Representations, 2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jafarzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2305.00478</idno>
+		<title level="m">Domain agnostic fourier neural operators</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">N. Liu, S. Jafarzadeh, Y. Yu, Domain agnostic fourier neural operators, arXiv preprint arXiv:2305.00478.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klöwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2312.11176</idno>
+		<title level="m">Harnessing the power of neural operators with automatically encoded conservation laws</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">N. Liu, Y. Fan, X. Zeng, M. Klöwer, Y. Yu, Harnessing the power of neural operators with automatically encoded conservation laws, arXiv preprint arXiv:2312.11176.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Peridynamic neural operators: A data-driven nonlocal constitutive model for complex material responses</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jafarzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Silling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2401.06070</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">S. Jafarzadeh, S. Silling, N. Liu, Z. Zhang, Y. Yu, Peridynamic neural operators: A data-driven nonlocal constitutive model for complex material responses, arXiv preprint arXiv:2401.06070.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ino: Invariant neural operators for learning complex physical systems with momentum conservation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tatikola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Artificial Intelligence and Statistics</title>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="page" from="6822" to="6838" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Liu, Y. Yu, H. You, N. Tatikola, Ino: Invariant neural operators for learning complex physical systems with momentum conservation, in: International Conference on Artificial Intelligence and Statistics, PMLR, 2023, pp. 6822-6838.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Experimental study and cfd modeling of fluid flow and heat transfer characteristics in a mini-channel heat sink using simcenter star-ccm+ software</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piasecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Piasecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dadas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energies</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">536</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Piasecka, A. Piasecki, N. Dadas, Experimental study and cfd modeling of fluid flow and heat transfer characteristics in a mini-channel heat sink using simcenter star-ccm+ software, Energies 15 (2) (2022) 536.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">High-throughput screening of surface roughness during additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Finch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Manufacturing Processes</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="65" to="77" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Du, T. Mukherjee, N. Finch, A. De, T. DebRoy, High-throughput screening of surface roughness during additive manufacturing, Journal of Manufacturing Processes 81 (2022) 65- 77.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Influence of process parameters on surface roughness of aluminum parts produced by dmls</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Iuliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The International Journal of Advanced Manufacturing Technology</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2743" to="2751" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Calignano, D. Manfredi, E. Ambrosio, L. Iuliano, P. Fino, Influence of process parameters on surface roughness of aluminum parts produced by dmls, The International Journal of Advanced Manufacturing Technology 67 (2013) 2743-2751.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Effect of selective laser melting process parameters on the quality of al alloy parts: Powder characterization, density, surface roughness, and dimensional accuracy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Maamoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Elbestawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Veldhuis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">2343</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. H. Maamoun, Y. F. Xue, M. A. Elbestawi, S. C. Veldhuis, Effect of selective laser melting process parameters on the quality of al alloy parts: Powder characterization, density, surface roughness, and dimensional accuracy, Materials 11 (12) (2018) 2343.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Role of powder particle size on laser powder bed fusion processability of alsi10mg alloy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balbaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghasemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fereiduni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elbestawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jadhav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">101630</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Balbaa, A. Ghasemi, E. Fereiduni, M. Elbestawi, S. Jadhav, J.-P. Kruth, Role of powder particle size on laser powder bed fusion processability of alsi10mg alloy, Additive manufac- turing 37 (2021) 101630.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Characterization of additively manufactured alsilomg cubes with different porosities</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Taute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Möller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Du Plessis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tshibalanganda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Southern African Institute of Mining and Metallurgy</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="143" to="150" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Taute, H. Möller, A. Du Plessis, M. Tshibalanganda, M. Leary, Characterization of addi- tively manufactured alsilomg cubes with different porosities, Journal of the Southern African Institute of Mining and Metallurgy 121 (4) (2021) 143-150.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Deeponet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Karniadakis</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1910.03193</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">L. Lu, P. Jin, G. E. Karniadakis, Deeponet: Learning nonlinear operators for identifying dif- ferential equations based on the universal approximation theorem of operators, arXiv preprint arXiv:1910.03193.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Anandkumar</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kovachki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Azizzadenesheli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="arXiv">arXiv:2003.03485</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Neural operator: Graph kernel network for partial differential equations</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Z. Li, N. Kovachki, K. Azizzadenesheli, B. Liu, K. Bhattacharya, A. Stuart, A. Anandku- mar, Neural operator: Graph kernel network for partial differential equations, arXiv preprint arXiv:2003.03485.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>D'elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Silling</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2201.02217</idno>
+		<title level="m">Nonlocal kernel network (NKN): a stable and resolution-independent deep neural network</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">H. You, Y. Yu, M. D&apos;Elia, T. Gao, S. Silling, Nonlocal kernel network (NKN): a stable and resolution-independent deep neural network, arXiv preprint arXiv:2201.02217.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Convolutional neural networks for steady flow approximation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Iorio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining</title>
+		<meeting>the 22nd ACM SIGKDD international conference on knowledge discovery and data mining</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="481" to="490" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Guo, W. Li, F. Iorio, Convolutional neural networks for steady flow approximation, in: Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining, 2016, pp. 481-490.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Bayesian deep convolutional encoder-decoder networks for surrogate modeling and uncertainty quantification</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zabaras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational Physics</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="415" to="447" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Zhu, N. Zabaras, Bayesian deep convolutional encoder-decoder networks for surrogate modeling and uncertainty quantification, Journal of Computational Physics 366 (2018) 415- 447.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Solving ill-posed inverse problems using iterative deep neural networks</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Öktem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inverse Problems</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">124007</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Adler, O. Öktem, Solving ill-posed inverse problems using iterative deep neural networks, Inverse Problems 33 (12) (2017) 124007.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Prediction of aerodynamic flow fields using convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhatnagar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Afshar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Duraisamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaushik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Mechanics</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="525" to="545" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Bhatnagar, Y. Afshar, S. Pan, K. Duraisamy, S. Kaushik, Prediction of aerodynamic flow fields using convolutional neural networks, Computational Mechanics 64 (2) (2019) 525-545.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Solving parametric pde problems with artificial neural networks</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Khoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ying</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="421" to="435" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Khoo, J. Lu, L. Ying, Solving parametric pde problems with artificial neural networks, European Journal of Applied Mathematics 32 (3) (2021) 421-435.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reyes</forename></persName>
+		</author>
+		<title level="m">Numerical PDE-constrained optimization</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. C. De los Reyes, Numerical PDE-constrained optimization, Springer, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perdikaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Karniadakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational Physics</title>
+		<imprint>
+			<biblScope unit="volume">378</biblScope>
+			<biblScope unit="page" from="686" to="707" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Raissi, P. Perdikaris, G. E. Karniadakis, Physics-informed neural networks: A deep learn- ing framework for solving forward and inverse problems involving nonlinear partial differential equations, Journal of Computational Physics 378 (2019) 686-707.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The deep ritz method: A deep learning-based numerical algorithm for solving variational problems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Weinan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications in Mathematics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Weinan, B. Yu, The deep ritz method: A deep learning-based numerical algorithm for solving variational problems, Communications in Mathematics and Statistics 6 (1).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Unsupervised deep learning algorithm for pde-based forward and inverse problems</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sochen</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1904.05417</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">L. Bar, N. Sochen, Unsupervised deep learning algorithm for pde-based forward and inverse problems, arXiv preprint arXiv:1904.05417.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Eikonet: Solving the eikonal equation with deep neural networks</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Azizzadenesheli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Geoscience and Remote Sensing</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">J. D. Smith, K. Azizzadenesheli, Z. E. Ross, Eikonet: Solving the eikonal equation with deep neural networks, IEEE Transactions on Geoscience and Remote Sensing.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Physics-informed probabilistic learning of linear embeddings of nonlinear dynamics with guaranteed stability</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Duraisamy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Journal on Applied Dynamical Systems</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="480" to="509" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Pan, K. Duraisamy, Physics-informed probabilistic learning of linear embeddings of nonlin- ear dynamics with guaranteed stability, SIAM Journal on Applied Dynamical Systems 19 (1) (2020) 480-509.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Multipole graph neural operator for parametric partial differential equations</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kovachki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Azizzadenesheli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anandkumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Li, N. Kovachki, K. Azizzadenesheli, B. Liu, A. Stuart, K. Bhattacharya, A. Anandkumar, Multipole graph neural operator for parametric partial differential equations, Advances in Neural Information Processing Systems 33.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<monogr>
+		<title level="m" type="main">A comprehensive and fair comparison of two neural operators (with practical extensions) based on fair data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goswami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Karniadakis</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2111.05512</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">L. Lu, X. Meng, S. Cai, Z. Mao, S. Goswami, Z. Zhang, G. E. Karniadakis, A comprehensive and fair comparison of two neural operators (with practical extensions) based on fair data, arXiv preprint arXiv:2111.05512.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Monitoring and prediction of porosity in laser powder bed fusion using physics-informed meltpool signatures and machine learning</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Smoqi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gaikwad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bevans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kobir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abul-Haj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peralta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="page">117550</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Smoqi, A. Gaikwad, B. Bevans, M. H. Kobir, J. Craig, A. Abul-Haj, A. Peralta, P. Rao, Monitoring and prediction of porosity in laser powder bed fusion using physics-informed meltpool signatures and machine learning, Journal of Materials Processing Technology 304 (2022) 117550.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">The influence of process parameters on vertical surface roughness of the alsi10mg parts fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="26" to="36" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Yang, T. Liu, W. Liao, E. MacDonald, H. Wei, X. Chen, L. Jiang, The influence of process parameters on vertical surface roughness of the alsi10mg parts fabricated by selective laser melting, Journal of Materials Processing Technology 266 (2019) 26-36.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Part-scale thermal evolution and post-process distortion of inconel-718 builds fabricated by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Michaleris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pantano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Nassar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Manufacturing Processes</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="865" to="880" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Q. Wang, P. Michaleris, M. Pantano, C. Li, Y. Ren, A. R. Nassar, Part-scale thermal evolu- tion and post-process distortion of inconel-718 builds fabricated by laser powder bed fusion, Journal of Manufacturing Processes 81 (2022) 865-880.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Multi-scale simulation approach for identifying optimal parameters for fabrication ofhigh-density inconel 718 parts using selective laser melting</title>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-N</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-T</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-Y</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyping Journal</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="109" to="125" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.-C. Tran, Y.-L. Lo, T.-N. Le, A. K.-T. Lau, H.-Y. Lin, Multi-scale simulation approach for identifying optimal parameters for fabrication ofhigh-density inconel 718 parts using selective laser melting, Rapid Prototyping Journal 28 (1) (2022) 109-125.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Effects of the energy density on pores, hardness, surface roughness, and tensile characteristics of deposited astm 316l specimens with powder-bed fusion process</title>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">6672</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.-J. Lee, Effects of the energy density on pores, hardness, surface roughness, and tensile characteristics of deposited astm 316l specimens with powder-bed fusion process, Materials 15 (19) (2022) 6672.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Part-scale thermal simulation of laser powder bed fusion using graph theory: Effect of thermal history on porosity, microstructure evolution, and recoater crash</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yavari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Smoqi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Riensche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bevans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kobir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mendoza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials &amp; Design</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page">109685</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Yavari, Z. Smoqi, A. Riensche, B. Bevans, H. Kobir, H. Mendoza, H. Song, K. Cole, P. Rao, Part-scale thermal simulation of laser powder bed fusion using graph theory: Effect of thermal history on porosity, microstructure evolution, and recoater crash, Materials &amp; Design 204 (2021) 109685.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">A physics-guided neural operator learning approach to model biological tissues from digital image correlation measurements</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">121012</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. You, Q. Zhang, C. J. Ross, C.-H. Lee, M.-C. Hsu, Y. Yu, A physics-guided neural operator learning approach to model biological tissues from digital image correlation measurements, Journal of Biomechanical Engineering 144 (12) (2022) 121012.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Multi-level damage diagnosis on stiffened composite panels based on a damage-uninformative digital twin</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Milanoski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Galanopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zarouchas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Loutas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Structural Health Monitoring</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1437" to="1459" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Milanoski, G. Galanopoulos, D. Zarouchas, T. Loutas, Multi-level damage diagnosis on stiffened composite panels based on a damage-uninformative digital twin, Structural Health Monitoring 22 (2) (2023) 1437-1459.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

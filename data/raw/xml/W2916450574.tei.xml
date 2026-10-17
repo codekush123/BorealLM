@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Properties of soft magnetic Fe-Co-V alloy produced by laser powder bed fusion</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Tuomas</forename><surname>Riipinen</surname></persName>
+							<email>tuomas.riipinen@vtt.fi</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sini</forename><surname>Metsä-Kortelainen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tomi</forename><surname>Lindroos</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Janne</forename><forename type="middle">Sami</forename><surname>Keränen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aino</forename><surname>Manninen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jenni</forename><surname>Pippuri-Mäkeläinen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tomi</forename><surname>-Kortelainen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Janne</forename><forename type="middle">Sami</forename><surname>Lindroos</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aino</forename><surname>Keränen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Properties of soft magnetic Fe-Co-V alloy produced by laser powder bed fusion</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">1355-2546] [</idno>
+					</monogr>
+					<idno type="MD5">DFB35CD0414EA2AF54B42995BAF57923</idno>
+					<idno type="DOI">10.1108/RPJ-06-2018-0136</idno>
+					<note type="submission">Received 5 June 2018 Revised 7 September 2018 24 October 2018 Accepted 7 November 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-05T17:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Mechanical properties</term>
+					<term>Additive manufacturing</term>
+					<term>Magnetic properties</term>
+					<term>Soft magnetic material</term>
+					<term>L-PBF</term>
+					<term>Fe-Co-V</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Purpose -The purpose of this paper is to report on the developments in manufacturing soft magnetic materials using laser powder bed fusion (L-PBF).</s><s>Design/methodology/approach -Ternary soft magnetic Fe-49Co-2V powder was produced by gas atomization and used in an L-PBF machine to produce samples for material characterization.</s><s>The L-PBF process parameters were optimized for the material, using a design of experiments approach.</s><s>The printed samples were exposed to different heat treatment cycles to improve the magnetic properties.</s><s>The magnetic properties were measured with quasi-static direct current and alternating current measurements at different frequencies and magnetic flux densities.</s><s>The mechanical properties were characterized with tensile tests.</s><s>Electrical resistivity of the material was measured.</s></p><p><s>Findings -The optimized L-PBF process parameters resulted in very low porosity.</s><s>The magnetic properties improved greatly after the heat treatments because of changes in microstructure.</s><s>Based on the quasi-static DC measurement results, one of the heat treatment cycles led to magnetic saturation, permeability and coercivity values comparable to a commercial Fe-Co-V alloy.</s><s>The other heat treatments resulted in abnormal grain growth and poor magnetic performance.</s><s>The AC measurement results showed that the magnetic losses were relatively high in the samples owing to formation of eddy currents.</s></p><p><s>Research limitations/implications -The influence of L-PBF process parameters on the microstructure was not investigated; hence, understanding the relationship between process parameters, heat treatments and magnetic properties would require more research.</s><s>Originality/value -The relationship between microstructure, chemical composition, heat treatments, resistivity and magnetic/mechanical properties of L-PBF processed Fe-Co-V alloy has not been reported previously.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Soft magnetic Fe-Co-V alloys are used in applications where a combination of excellent magnetic properties and good mechanical strength are required, such as aircraft motors, generators and transformers.</s><s>Binary Fe-Co alloys have the highest known saturation magnetization of any known material, as well as high permeability, low magnetic coercivity and high Curie temperature.</s><s>They are, however, not very commercially viable materials because of high electrical conductivity and inherent brittleness, making the processing into thin sheets difficult.</s><s>Processing the material into thin sheets is essential for reducing electromagnetic losses caused by eddy currents.</s><s>For that reason, a small amount of vanadium (&lt;3 wt%) is typically added as an alloying element to improve the ductility of the alloy while still retaining good magnetic properties.</s><s>The traditional manufacturing method of stacking insulated sheets to build up a component includes many processing steps, such as casting, rolling and heat treatment, which increase the manufacturing cost <ref type="bibr" target="#b2">(Chen et al., 2015)</ref>.</s><s>Soft magnetic components are also manufactured by compacting the alloy powder into a tool cavity, followed by a sintering step, resulting in homogenous high-precision components.</s><s>Powders can be coated with an insulating layer to increase the electrical resistivity that helps to decrease the eddy current losses <ref type="bibr" target="#b9">(Höganäs, 2013)</ref>.</s><s>The downside with this approach is the necessity of having the tools for the compacting phase, which can be costly to manufacture for small series.</s></p><p><s>Laser-based additive manufacturing technologies such as L-PBF provide new, interesting possibilities for the optimization of the shapes, materials, volume and mass of the magnetic cores, e.g. the use of magnetic material where it is really needed.</s><s>Having the possibility to realize topologically optimized geometries with few restrictions opens new possibilities and challenges in guiding the magnetic flux for improved performance.</s><s>Ultimately, our goal is to achieve improved torque density that is especially beneficial in aerospace applications.</s><s>For this purpose, the combination of the L-PBF process and the Fe-Co-based materials offer great potential.</s><s>The are some publications on the research of magnetic materials produced via additive methods other than L-PBF <ref type="bibr" target="#b3">(Conteri et al., 2017;</ref><ref type="bibr" target="#b12">Li et al., 2017;</ref><ref type="bibr">Mikler et al., 2017a</ref><ref type="bibr">Mikler et al., , 2017b;;</ref><ref type="bibr" target="#b20">Sung and Rudowicz, 2003)</ref>, but for the Fe-Co-V alloy, the amount of published research is very limited.</s><s><ref type="bibr" target="#b11">Kustas et al. (2018)</ref> produced ring-shaped samples for material characterization from commercial gas atomized Fe-Co-1.5V</s><s>powder using laser engineered net shaping (LENS) technology.</s><s>The printed and annealed material exhibited harder magnetic properties compared to an annealed wrought material, mainly because of the presence of heterogeneous bimodal grain size.</s><s>The as-built microstructure consisted of fine equiaxed grains, not very typical for materials processed using LENS and other welding based processes for which columnar grains and epitaxial growth is more common.</s><s>Materials investigated in association with L-PBF include Ni-Fe14-Cu5-Mo4 <ref type="bibr" target="#b1">(Bauer et al., 2016)</ref>, Fe-Ni <ref type="bibr">(Zhang et al., 2013a</ref><ref type="bibr">(Zhang et al., , 2013b) )</ref> and Fe-6.9 wt% Si steel <ref type="bibr" target="#b4">(Garibaldi et al., 2016</ref><ref type="bibr">(Garibaldi et al., , 2018a</ref><ref type="bibr">(Garibaldi et al., , 2018b))</ref>, where the latter has been studied most extensively.</s><s><ref type="bibr" target="#b1">Bauer et al. (2016)</ref> used a re-melt scanning strategy and observed that it resulted in a more homogeneous microstructure compared to single scan strategy and increased porosity as well as grain size.</s><s><ref type="bibr">Zhang et al. (2013a</ref><ref type="bibr">Zhang et al. ( , 2013b) )</ref> found that the grain size could be coarsened by using higher laser scanning speeds, and it was proposed that the nucleation rate decreases with higher scanning speed as a result of a decrease in Marangoni flow.</s><s><ref type="bibr" target="#b4">Garibaldi et al. (2016)</ref> found that the grain morphology of printed parts was affected by the laser energy input, where a shallower melt pool shape led to coarser and more homogeneous grain morphology in Fe-6.9 wt % Si steel.</s><s>The printed samples had a &lt;001&gt; type fiber texture, and the intensity of the texture increased with higher laser energy input.</s><s>The best magnetic properties, i.e. lowest coercivity, power loss and highest permeability and flux density, were obtained with the 1,150°C anneal.</s><s>Lower annealing temperatures did not result in a homogenous microstructure.</s><s>This suggested that the growth of grains with &lt;001&gt; orientation was more likely to grow during annealing owing to their larger size compared to grains with other orientations.</s><s>Annealing at 700°C is enough to relieve internal stresses but not enough to induce grain growth.</s></p><p><s>Based on earlier studies of binary Fe-Co alloys manufactured by L-PBF, a need for a mechanically stronger alloy was recognized <ref type="bibr" target="#b13">(Lindroos et al., 2017)</ref>.</s><s>This led to the research reported here on L-PBF manufactured Fe-49Co-2V alloy.</s><s>First, the process parameters were optimized with the goal of minimizing porosity in printed samples, followed by printing of test samples for material characterization, the results of which are reported and discussed in this paper.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head><p><s>A small batch ($5 kg) of Fe-49Co-2V powder was produced at VTT, using a Hermiga Gas Atomizing unit.</s><s>The powder was sieved using a 63 mm mesh and air-classified to remove the smallest particles.</s><s>The morphology of the powder was analyzed using a scanning electron microscope (SEM), and the particle size distribution was measured using a Malvern laser diffraction analyzer (Figure <ref type="figure" target="#fig_0">1</ref>).</s><s>The particle size distribution is presented using D v (x) values that indicate the volume fraction percentage (x) below particle size (D v ).</s><s>The D v (10), D v (50) and D v (90) values were measured as 18.6 mm, 37.1 mm and 62.7 m m, respectively.</s><s>The powder had good flowability based on tests done using a Hall Flowmeter.</s></p><p><s>The samples were built using an SLM Solutions GmbH 125HL machine, which has a fiber laser with a maximum power output of 400 W. The build chamber was purged with argon gas (purity level 99.996 per cent) before the operation, and a constant gas flow was maintained during the experiment.</s><s>Oxygen content in the build chamber was maintained below 0.1 vol% during the process.</s><s>The samples were built directly onto a 1.4841 (AISI 314) austenitic stainless steel substrate, which was heated and kept at 200°C during the process to reduce the thermal gradients in the material.</s><s>Before processing with the SLM 125HL, the powder was dried in a vacuum furnace at 50°C for approximately 12 h.</s></p><p><s>Prior to printing the samples for material characterization, a set of L-PBF process parameters resulting in dense parts needed to be determined experimentally.</s><s>A parameter space was studied where the laser power, scanning speed and hatch distance were limited to 150-225 W, 575-975 mm/s and 80-120 mm, respectively.</s><s>The parameter space was narrowed down by limiting the volumetric energy density to 70-130 J/mm 3 , and the final design consisted of 27 Soft magnetic Fe-Co-V alloy Tuomas Riipinen et al.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rapid Prototyping Journal</head><p><s>Volume 25 • Number 4 • 2019 • 699-707 different parameter combinations.</s><s>The printed samples were prepared for optical microscopy analysis using standard metallographic practices.</s><s>The porosity of the samples was measured using image analysis based on thresholded binary images.</s><s>The optimal process parameter set used for manufacturing the characterization samples was power = 200W, scanning speed = 775 mm/s and hatch spacing = 80 m m.</s><s>The different sample types printed for material characterization were the following: 10 Â 10 Â 10 mm 3 cubes for microstructural analysis, 90 Â 10 Â 10 mm 3 bars and ring samples (outer diameter = 60 mm, inner diameter = 50 mm, height = 5 mm) for magnetic measurements and flat tensile test specimens (30 mm gage length, 5 mm thickness, 99.6 mm overall length) for mechanical testing.</s><s>All of the samples were oriented horizontally on the build platform.</s><s>The samples were cut from the platform using electrical discharge machining.</s></p><p><s>Desirable magnetic properties for Fe-Co alloys are achieved with suitable heat treatments, where the optimal heat treatment procedure depends on the alloy composition as well as the initial microstructure.</s><s>The different heat treatment procedures done in this study are presented in Table <ref type="table">I</ref>.</s><s>The samples were placed inside a pipe furnace (Ar-4 per cent H 2 atmosphere), which was then heated to the target temperature at a rate of 200°C/h.</s><s>In the pre-anneal and normalizing heat treatments, the samples were allowed to cool down within the furnace.</s><s>For the primary anneal, a cooling rate of 100°C/h was used until reaching 500°C, after which the samples were let to cool down to room temperature in the furnace.</s></p><p><s>The 10 Â 10 Â 10 mm 3 samples were cut, polished and etched prior to analysis of the microstructure and chemical composition.</s><s>The chemical composition of the gas atomized powder and a printed sample were measured using a panalytical axios max Xray fluorescence (XRF) spectrometer equipped with Rh anode.</s><s>The microstructure was analyzed using optical microscopy (OM) and an SEM equipped with electron diffraction spectrometer (EDS).</s><s>The resistivity measurements were done as follows: a current (2 A) was directed to the 90 Â 10 Â 10 mm 3 bar samples, which were placed between copper plates, and the conductivity was measured between two pins that were placed on the sample surface and separated by a distance of 4.7 mm.</s><s>Each sample was measured four times for a total duration of 15 min, and the polarization of the current was alternated during measurements.</s><s>Measurements of the magnetic properties were outsourced from a third party where AC measurements with sinusoidal supply and quasi-static DC measurements were carried out.</s><s>The bar samples were used only for the quasi-static DC measurements to analyze the properties at high excitation, i.e. with high external magnetic field strength up to 50 kA/m.</s><s>The ring samples were then used for quasi-static characterization of the samples at lower excitation, maximum 10 kA/m as well as for the AC measurements at 10 and 50 Hz and with different magnetic flux densities.</s><s>The purpose of these AC measurements was to study the losses of the 3D printed samples.</s><s>The tensile tests were carried out at room temperature using an Instron universal testing machine (model 1185), where three samples were tested in as-built condition and three for each of the heat treatments (Table <ref type="table">I</ref>).</s><s>The tensile tests were carried out in accordance to the ISO 6892-1 2016 standard.</s><s>The elongation after fracture was measured by placing the two pieces of a fractured test specimen together, and measuring the new length as compared to markings with a 25 mm spacing made on the samples prior to testing.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Porosity analysis</head><p><s>The 3D printed samples attached to the build platform and one of the polished cross-sections used for porosity analysis are shown in Figure <ref type="figure" target="#fig_1">2</ref>. The measured average porosity for four samples was 0.07 per cent (Table <ref type="table">II</ref>).</s><s>The optimized process parameters led to high density, which is important in highperformance components because defects such as pores can hinder the movement of magnetic domains, thus weakening the magnetic properties.</s><s>Most of the pores are small, with a diameter of 10-20 mm, and are likely induced by gas trapped inside the molten powder <ref type="bibr" target="#b22">(Zhang et al., 2017)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Chemical composition</head><p><s>The chemical composition of the gas-atomized powder and a printed sample in as-built condition were measured using semiquantitative XRF analysis (Table <ref type="table">III</ref>), which has a detection limit of 0.01 per cent for elements from fluorine to uranium.</s><s>Carbon and oxygen contents were not measured for the samples.</s><s>The measured composition of the powder is close to the nominal composition, except for cobalt, which is below 49 wt%.</s><s>The printed sample shows a higher vanadium and lower cobalt content compared to the powder.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Resistivity</head><p><s>The measured resistivities of the 3D printed samples were 49.4 and 48.8 mOhm Â cm (Table <ref type="table">IV</ref>).</s><s>The resistivities of</s></p><p><s>Table I Fe-49Co-2V heat treatment procedures heat treatment Pre-anneal Normalizing Primary anneal Heat treatment 1 (HT1) --820°C/4 h Heat treatment 2 (HT2) 700°C/2 h -820°C/10 h Heat treatment 3 (HT3) -950°C/0.5</s><s>h 820°C/10 h Table II Measured porosities of 3D printed samples Measurement As-built HT1 HT2 HT3 Average Measurement area (mm 2 ) 98 97 97 97 97 Porosity (%) 0.07 0.06 0.05 0.07 0.07 Soft magnetic Fe-Co-V alloy Tuomas Riipinen et al.</s><s>Rapid Prototyping Journal Volume 25 • Number 4 • 2019 • 699-707</s></p><p><s>commercial Fe-49Co-2V alloy strips were measured as 44.6 and 46.0 mOhmÂcm.</s><s>The resistivity of Fe-Co-V alloys is considerably higher compared to binary Fe-Co ( 7 mOhm Â cm) <ref type="bibr" target="#b19">(Sundar and Deevi, 2005)</ref>, which is beneficial in reducing eddy current losses.</s><s>The resistivity of the material printed in this study was approximately 10 per cent higher compared to the commercial alloy, which is mainly a result of the difference in chemical compositions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Microstructure</head><p><s>The microstructure and grain morphology were studied using OM and SEM.</s><s>OM images of the etched sample cross-sections (Figure <ref type="figure" target="#fig_2">3</ref>) revealed that microstructure varies greatly between heat treatments.</s><s>The sample in as-built condition [Figure <ref type="figure" target="#fig_2">3(a)</ref>] has a fine grain structure, where the solidified grains are oriented toward the center of the solidified melt track.</s><s>Heat treatment, HT1, at 820°C for 4 h <ref type="bibr">[Figure 3(b)</ref>] led to a bimodal grain structure consisting of very small and large grains, indicating that abnormal grain growth took place during the heat treatment.</s><s>The small grains have a diameter of only a few micrometers, whereas the largest grains have a diameter of over 200 mm.</s><s>HT2, which consisted of a pre-anneal at 700°C followed by 10 h anneal at 820°C [Figure <ref type="figure" target="#fig_2">3</ref>(c)], resulted in an equiaxed grain structure with relatively large grain size.</s><s>A normalizing heat treatment was done in HT3 to homogenize the microstructure prior to the primary heat treatment at 820°C for 10 h.</s><s>This heat treatment resulted in a similar bimodal grain structure as HT1 <ref type="bibr">[Figure 3(d)</ref>] except for a smaller fraction of large grains.</s><s>The bimodal grain structure observed in HT1 and HT3 samples indicate that part of the grain boundaries became pinned, inhibiting the grain growth, whereas some grain boundaries were able to grow significantly.</s><s>Different phenomena can cause abnormal grain growth, one being grain boundary pinning caused by the presence of second phase particles <ref type="bibr" target="#b10">(Holm et al., 2015)</ref>.</s><s>Bimodal grain size distribution was also observed in heat-treated Fe-Co-V sample produced by additive manufacturing process previously <ref type="bibr" target="#b11">(Kustas et al., 2018)</ref>, where second phase particle pinning was named as a likely cause.</s><s>The temperature of the normalizing heat treatment is high enough to relieve the internal stresses but possibly not high enough for full homogenization to take place.</s><s>Compared to the HT2 samples that were pre-annealed at lower 700°C temperature, only partial grain growth took place in the HT3 samples despite being exposed to identical heat treatment at 820°C.</s><s>This implies that some of the grain boundaries were pinned by second phase particles during the anneal.</s><s>The printed alloy contains 0.06 wt% niobium as an alloying element, which is used in commercial alloys to suppress grain growth to improve mechanical properties <ref type="bibr" target="#b19">(Sundar and Deevi, 2005)</ref>.</s><s>Niobium acts as a carbide former in steels, but it has been shown to form carbonitrides with 0.06 wt% Nb additions and intermetallic Laves phase with 0.3 wt% Nb additions in Fe-Co alloys <ref type="bibr" target="#b17">(Shang et al., 2000)</ref>.</s><s>The Laves phase forms along grain boundaries, restricting grain growth <ref type="bibr" target="#b0">(Ackermann et al., 1970)</ref>.</s><s>The printed samples were analyzed with SEM/EDS to study the precipitates in more detail.</s><s>Most of the second phase g 2 precipitates have a diameter of approximately 100 nm and are distributed relatively homogeneously in the as-built samples, as shown in Figure <ref type="figure">4</ref>.</s><s>In the heat treated sample (HT1), niobium-rich precipitates were observed in the matrix as well as at the grain boundaries.</s><s>The reason behind the abnormal grain growth could be that the second phase particles precipitate unevenly in the grain boundaries, pinning their movement during heat treatment.</s><s>A comprehensive explanation of the effect of heat treatment temperature on the grain structure evolution would require more extensive studies and is considered an important topic for future research.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Magnetic properties</head><p><s>The measured quasi-static DC magnetic properties are presented in Table <ref type="table">V</ref>.</s><s>The samples in as-built condition have relatively low saturation magnetization (B max ) and magnetic permeability (m max ) but high coercivity (H cJ ).</s><s>The poor magnetic performance of the as-built sample results from the presence of internal stresses, small grain size and presumably low degree of order resulting from the high cooling rates, characteristic of the L-PBF process.</s><s>Heat treatments improved the magnetic properties of all samples, and the improvement was most significant for HT2.</s><s>The very low coercivity and high permeability show that the HT2 led to magnetic saturation at very low external field strength.</s><s>The large grain size of the HT2 sample means that there are fewer boundaries inhibiting the</s></p><p><s>Table III Chemical composition of gas atomized powder and 3D printed Fe-Co-V sample, measured using X-Ray fluorescence spectrometer.</s><s>Values in wt% Sample Si V Mn Fe Co Ni Ga Nb Powder 0.04 2.2 0.07 49.1 48.4 0.08 0.02 0.06 Printed, as-built Ã -2.6 0.12 49.4 47.8 --0.06 Note: Ã The sample was measured using a 6 mm mask, increasing the measurement uncertainty Table IV Measured electrical resistivities of 3D printed and laminated Fe-Co-V samples Sample Sample condition Test current (A) Area (mm 2 ) Resistivity (m Ohm Â cm) Estimated uncertainty (%) Electrical conductivity IACS a % Temperature (°C) Humidity (%) 3D printed Fe-49Co-2V HT1 2 100.35 49.4 2 3.5 23.62 37.3 HT2 2 100.40 48.8 2 3.5 23.62 37.4 Commercial As-built 0.1 3.66 44.6 3 3.9 23.1 36.1 Fe-49Co-2V b Commercial HT1 0.1 3.65 46.0 3 3.7 23.1 36.1 Fe-49Co-2V b Notes: a International Annealed Copper Standard (resistivity of commercially available copper = 0.15328 OhmÂm at 20°C); b standardized commercial Fe-49Co-2V alloy (ASTM A801-09 Alloy type 1)</s></p><p><s>movement of magnetic domains.</s><s>A homogenous microstructure with large grain size reduces the magnetic coercivity and improves permeability <ref type="bibr" target="#b18">(Sourmail, 2005)</ref>.</s><s>The J-H curves that represent the intrinsic demagnetization, i.e. magnetic polarization of the samples, are presented in Figure <ref type="figure" target="#fig_3">5</ref>.</s><s>The quasi-static and low-frequency B-H hysteresis loops from the AC measurements at 10 and 50 Hz, where B max =1.5T, are shown for all of the samples in Figure <ref type="figure">6</ref>.</s><s>The 3D printed samples have higher losses compared to the laminated sample, as was expected for solid material.</s><s>The laminated samples were heat-treated according to the supplier recommendation (HT1), and it is obvious that the magnetic properties for the 3D printed Figure 4 SEM images of 3d printed Fe-Co-V samples showing the solidified structure in the as-built sample (left) and the grain boundary precipitates in the heat treated sample containing Niobium Soft magnetic Fe-Co-V alloy Tuomas Riipinen et al.</s><s>Rapid Prototyping Journal Volume 25 • Number 4 • 2019 • 699-707</s></p><p><s>samples with the same heat treatment differ greatly.</s><s>The alloy compositions were not identical, which affects the optimal heat treatment procedure.</s><s>It is however not clear why the HT2 heat treatment led to a vastly different microstructure compared to HT3.</s><s>Due to the relatively high magnetic losses in the 3Dprinted material, it would be very important to increase the resistivity of the material for increased commercial viability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">Mechanical properties</head><p><s>The mechanical properties of the Fe-Co-V tensile test specimens, including the 0.2 per cent yield strength (Rp0.2),</s><s>tensile strength (Rm) and elongation after fracture (A) are presented in Figure <ref type="figure">7(a</ref>) and the stress-strain curves, in Figure <ref type="figure">7(b)</ref>.</s><s>Some of the samples fractured outside of the constant cross-section area and for those cases, the result is omitted.</s><s>The stress-strain curves show the strain from the extensometer and do not represent the actual elongation of the tensile test specimen.</s><s>The actual elongation was measured from the fractured samples as described earlier, resulting in a relatively high uncertainty in the results.</s><s>The as-built samples have a fine grain structure inhibiting the mobility of dislocations, and presumably, they predominantly consist the disordered phase structure that results in high strength.</s><s>After heat treatment, the strength of the samples decreases significantly and the elongation after fracture drops from 4 per cent to approximately 2 per cent.</s><s>Despite the low elongation, the vanadium addition improves ductility, compared to the binary Fe-Co alloys manufactured by L-PBF that were extremely brittle, with heat-treated samples fracturing before the 0.2 offset yield point <ref type="bibr" target="#b13">(Lindroos et al., 2017)</ref>.</s><s>The mechanical properties of the printed samples are slightly better compared to the heat-treated standard commercial Fe-Co-V alloy with a similar composition that was used as a reference in Figure <ref type="figure">7</ref>(a) <ref type="bibr" target="#b21">(VACUUMSCHMELZE, 2016)</ref>.</s><s>The advantage of the L-PBF process is that there is no need for cold work after printing, meaning that the ductility is not as critical as with traditional manufacturing of thin sheets.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">General remarks on the results</head><p><s>Grain growth and the subsequent grain size coarsening significantly affect magnetic domain mobility and is, therefore, a key factor in obtaining good magnetic properties for the soft magnetic Fe-Co-V alloy in this study.</s><s>The structure-sensitive magnetic properties, e.g.</s><s>coercivity and permeability, however, also depend on precipitate distribution and size, internal stresses, state of order, texture, imposed external stress and test temperature <ref type="bibr" target="#b19">(Sundar and Deevi, 2005)</ref>.</s><s>During SEM analysis, precipitates containing Niobium were observed at the grain boundaries.</s><s>These precipitates could have acted as pinning sites for grain</s></p><p><s>Table V Magnetic properties of Fe-Co-V samples from quasi-static DC measurements Sample type Heat treatment B r (T) H cB (A/m) H cJ (A/m) m max (À) H(m max ) (A/m) H max (kA/m) J max (T) B max (T) Bar As-built 0.90 1344 1345 307 1930 55.20 2.10 2.17 Ring 0.88 1287 1288 322 1754 9.30 1.56 1.57</s><s>Bar HT1 1.59 73 73 9156 72 56.00 2.22 2.29 Ring 1.56 493 493 1922 125 9.38 2.16 2.18 Bar HT2 1.51 52 52 17000 47 55.80 2.21 2.28 Ring 1.31 47 47 13000 60 9.09 2.22 2.23 Bar HT3 1.36 527 527 1421 737 56.80 2.23 2.30 Ring 1.43 144 144 4463 99 10.10 2.14 2.16 Commercial Fe-Co-V (bar) Ã As-built 0.39 85 85 2204 170 57.10 2.15 2.23 Commercial Fe-Co-V (ring) Ã 0.39 104 104 1811 152 9.78 2.17 2.18 Commercial Fe-Co-V (bar) Ã HT1 0.51 59 59 4300 272 57.10 2.16 2.24 Commercial Fe-Co-V (ring) Ã 1.26 40 40 12000 53 9.75 2.22 2.23 Note: Ã Laminated samples made from commercial Fe-Co-V sheet material (ASTM A801-09 Alloy type 1) Soft magnetic Fe-Co-V alloy Tuomas Riipinen et al.</s><s>Rapid Prototyping Journal Volume 25 • Number 4 • 2019 • 699-707</s></p><p><s>boundaries during heat treatment resulting in bimodal grain structure.</s><s>Some of the grain boundaries had greater mobility and were able to grow during heat treatment.</s><s>The second phase g 2 precipitates do not directly contribute to the strength of the material but increase ductility as well as the strength indirectly by inhibiting grain growth during annealing <ref type="bibr" target="#b18">(Sourmail, 2005)</ref>.</s><s>The g 2 precipitates act as a pinning site for magnetic domains, which is important to consider when choosing the heat treatment, as obtaining good magnetic properties is a balance between grain size, number and size of precipitates and the order parameter.</s><s>The state of order has an effect on the yield stress of Fe-Co-V, which is higher in the disordered state, but a high state of order is still preferred as it decreases the coercivity <ref type="bibr" target="#b19">(Sundar and Deevi, 2005)</ref>.</s><s>The ordering parameter was not studied in this paper.</s><s>841 836 840 275 323 311 266 262 270 465 0 447 250 958 967 978 363 357 368 280 307 330 466 431 471 350 0 200 400 600 800 1,000 Rp0.2 Rm A Stress (MPa) 0 2 4 6 8 10 Ref.</s><s>A (%) As-built HT 1 HT 2 HT 3 0 1 2 3 0 200 400 600 800 1,000 NHT HT1 HT2 HT3 Stress (MPa) Strain (%) Notes: (a) 0.2 yield strength (Rp0.2),</s><s>tensile strength (Rm) and elongation after fracture (A); (b) stress-strain curves (NHT = As-built) (a) (b) Figure 6 DC quasi static and low frequency AC magnetic hysteresis loops for 3D printed and laminated Fe-Co-V samples</s></p><p><s>As is evident from the AC magnetic hysteresis loops, the losses are substantial for the printed samples.</s><s>The electrical resistivity of the material should be increased considerably to make the 3D printed components practical in commercial applications.</s><s>The electrical resistivity can be increased by modifying the alloy composition, but this has some obvious drawbacks, such as diminishing magnetic properties.</s><s>Increase in electrical resistivity could also be achieved by modifying the component geometry and microstructure by taking advantage of the layer-by-layer nature of the L-PBF process and the ability to control the movement of the heat source.</s><s>Controlling the microstructure by changing the process parameters is a challenging task, as the main laser parameters, i.e. power, scanning speed and hatch distance, directly influence the geometry and heat-flow properties of the moving melt pool <ref type="bibr" target="#b7">(Gong et al., 2014;</ref><ref type="bibr" target="#b8">Gunenthiram et al., 2017)</ref>.</s><s>Scanning pattern determines how the heat is distributed during the build, which in turn affects the thermal history and solidification kinetics of previous layers <ref type="bibr" target="#b16">(Sames et al., 2016)</ref>.</s><s>During the build process, the consecutive heating and cooling cycles result in segregation of alloying elements and formation of precipitates.</s><s>These in turn have can an effect on the recrystallization and grain growth kinetics during heat treatments.</s><s>Exploration of the full potential of the L-PBF technology for manufacturing soft magnetic components would require extensive studies on the microstructure evolution with different process parameters such as scanning pattern, laser parameters and heat treatments.</s><s>In this study, the laser parameters were optimized with the goal of minimizing the porosity in printed samples, and thus the effect of process parameters on the microstructure formation was out of the scope of this study.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>The parts printed in this study varied greatly in microstructure and magnetic properties.</s><s>The HT2 heat treatment with lowtemperature pre-anneal done prior to the final anneal at 820°C for 10 h led to the best magnetic performance and a uniform distribution of relatively large grains.</s><s>A normalizing heat treatment done prior to the final anneal (HT3) led to a bimodal grain size distribution and hence suboptimal magnetic properties.</s><s>Similar results were obtained with 4 h annealing at 820°C.</s><s>The grain growth and subsequent grain size significantly affect magnetic domain mobility and are therefore of key importance in obtaining good magnetic properties for soft magnetic alloys.</s><s>The heat treatments are crucial in changing the microstructure and hence the magnetic properties of the 3D printed alloys.</s><s>Based on the results of this study, more experimental work is required for gaining a better understanding of the phenomena behind the microstructure evolution.</s><s>The L-PBF technology shows promise as a manufacturing technology for small-series production of components with high geometrical complexity.</s><s>This, combined with the possibility to influence the microstructure by altering the L-PBF process parameters and the use of proper heat treatments, could enable manufacturing of components with superior magnetic performance.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc><div><p><s>Figure 1 Particle morphology of the gas atomized and sieved Fe-Co-V powder (left) and the measured particle size distribution (right)</s></p></div></figDesc><graphic coords="2,114.18,585.41,380.64,146.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc><div><p><s>Figure 2 3D printed Fe-Co-V samples (left), a cross-section image used for porosity analysis (right)</s></p></div></figDesc><graphic coords="3,319.29,521.97,236.35,127.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc><div><p><s>Figure 3 OM images of polished and etched Fe-Co-V samples</s></p></div></figDesc><graphic coords="5,108.79,91.05,391.41,270.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5</head><label>5</label><figDesc><div><p><s>Figure 5 J-H curves of the Fe-Co-V samples obtained from DC-measurements</s></p></div></figDesc><graphic coords="6,83.68,294.97,441.58,131.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 7 Figure 6</head><label>76</label><figDesc><div><p><s>Figure 7 Mechanical properties of Fe-Co-V tensile test specimens</s></p></div></figDesc><graphic coords="7,90.88,91.05,427.18,288.68" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Magnetic alloy</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Ackermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Casani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Klawitter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Heydt</surname></persName>
+		</author>
+		<idno>US Patent 3634072</idno>
+		<imprint>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ackermann, F.W., Casani, R.T., Klawitter, W.A. and Heydt, G.B. (1970), &quot;Magnetic alloy&quot;, US Patent 3634072.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microstructure and electro-magnetic properties of a nickelbased anti-magnetic shielding alloy</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Spierings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wegener</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 27th Annual International Solid Freeform Fabrication Symposium</title>
+		<meeting>the 27th Annual International Solid Freeform Fabrication Symposium</meeting>
+		<imprint>
+			<date type="published" when="2016">2016. 2016</date>
+			<biblScope unit="page" from="1856" to="1867" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bauer, T., Spierings, A.B. and Wegener, K. (2016), &quot;Microstructure and electro-magnetic properties of a nickel- based anti-magnetic shielding alloy&quot;, Proceedings of the 27th Annual International Solid Freeform Fabrication Symposium 2016, pp. 1856-1867.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Influence of manufacture process on magnetic property of FeCoV alloy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">17th International Conference on Electrical Machines and Systems</title>
+		<meeting><address><addrLine>ICEMS</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2015. 2014</date>
+			<biblScope unit="page" from="3054" to="3059" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, J., Wang, D., Cheng, S. and Wang, J. (2015), &quot;Influence of manufacture process on magnetic property of FeCoV alloy&quot;, 17th International Conference on Electrical Machines and Systems, ICEMS 2014, pp. 3054-3059.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Laser additive processing of Fe-Si-B-Cu-Nb magnetic alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Conteri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Borkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jaeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Ramanujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Manufacturing Processes, the Society of Manufacturing Engineers</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="175" to="181" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Conteri, R., Borkar, T., Nag, S., Jaeger, D., Chen, X., Ramanujan, R.V. and Banerjee, R. (2017), &quot;Laser additive processing of Fe-Si-B-Cu-Nb magnetic alloys&quot;, Journal of Manufacturing Processes, the Society of Manufacturing Engineers, Vol. 29, pp. 175-181.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Metallurgy of high-silicon steel parts produced using selective laser melting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garibaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simonelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hague</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="207" to="216" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garibaldi, M., Ashcroft, I., Simonelli, M. and Hague, R. (2016), &quot;Metallurgy of high-silicon steel parts produced using selective laser melting&quot;, Acta Materialia, Vol. 110, pp. 207-216.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Relationship between laser energy input, microstructures and magnetic properties of selective laser melted Fe-6.9%wt Si soft magnets</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garibaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hillier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A C</forename><surname>Harmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hague</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Materials Characterization</title>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garibaldi, M., Ashcroft, I., Hillier, N., Harmon, S.A.C. and Hague, R. (2018a), &quot;Relationship between laser energy input, microstructures and magnetic properties of selective laser melted Fe-6.9%wt Si soft magnets&quot;, Materials Characterization, Elsevier, Amsterdam, p.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of annealing on the microstructure and magnetic properties of soft magnetic Fe-Si produced via laser additive manufacturing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garibaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Lemke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simonelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hague</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="121" to="125" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garibaldi, M., Ashcroft, I., Lemke, J.N., Simonelli, M. and Hague, R. (2018b), &quot;Effect of annealing on the microstructure and magnetic properties of soft magnetic Fe- Si produced via laser additive manufacturing&quot;, Scripta Materialia, Vol. 142, pp. 121-125.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Melt pool characterization for selective laser melting of Ti-6Al-4V pre-alloyed powder</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Christiansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lewandowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Solid Freeform Fabrication Symposium</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="256" to="267" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gong, H., Christiansen, D., Beuth, J. and Lewandowski, J.J. (2014), &quot;Melt pool characterization for selective laser melting of Ti-6Al-4V pre-alloyed powder&quot;, Solid Freeform Fabrication Symposium, pp. 256-267.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Analysis of laser-melt pool-powder bed interaction during the selective laser melting of a stainless steel</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gunenthiram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Coste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fabbro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Laser Applications</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">22303</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gunenthiram, V., Peyre, P., Schneider, M., Dal, M., Coste, F. and Fabbro, R. (2017), &quot;Analysis of laser-melt pool-powder bed interaction during the selective laser melting of a stainless steel&quot;, Journal of Laser Applications, Vol. 29 No. 2, p. 022303.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Somaloy ® technology</title>
+		<author>
+			<persName><surname>Höganäs</surname></persName>
+		</author>
+		<ptr target="www.hoganas.com/globalassets/media/sharepoint-documents/BrochuresanddatasheetsAllDocuments/Somaloy_Technology.pdf" />
+		<imprint>
+			<date type="published" when="2013-05-23">2013. 23 May 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Höganäs (2013), &quot;Somaloy ® technology&quot;, available at: www.hoganas.com/globalassets/media/sharepoint-documents/ BrochuresanddatasheetsAllDocuments/Somaloy_Technology. pdf (accessed 23 May 2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Particle-assisted abnormal grain growth</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Holm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Roberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1757-899X/89/1/012005</idno>
+		<ptr target="https://doi.org/10.1088/1757-899X/89/1/012005" />
+	</analytic>
+	<monogr>
+		<title level="s">IOP Conference Series: Materials Science and Engineering</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holm, E.A., Hoffmann, T.D., Rollett, A.D. and Roberts, C.G. (2015), &quot;Particle-assisted abnormal grain growth&quot;, IOP Conference Series: Materials Science and Engineering, Vol. 89 No. 1, available at: https://doi.org/10.1088/1757-899X/89/1/ 012005</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Characterization of the Fe-Co-1.5V soft ferromagnetic alloy processed by laser engineered net shaping (LENS)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Kustas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Susan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Whetten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Dagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Keicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Argibay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="41" to="52" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kustas, A.B., Susan, D.F., Johnson, K.L., Whetten, S.R., Rodriguez, M.A., Dagel, D.J., Michael, J.R., Keicher, D.M. and Argibay, N. (2018), &quot;Characterization of the Fe-Co-1.5V soft ferromagnetic alloy processed by laser engineered net shaping (LENS)&quot;, Additive Manufacturing, Vol. 21, pp. 41-52.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Fabrication of highly dense isotropic Nd-Fe-B bonded magnets via extrusion-based additive manufacturing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Pries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Nlebedim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Post</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kesler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kunc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Additive Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, L., Jones, K., Sales, B., Pries, J.L., Nlebedim, I.C., Jin, K., Bei, H., Post, B.K., Kesler, M.S., Rios, O. and Kunc, V. (2017), &quot;Fabrication of highly dense isotropic Nd-Fe-B bonded magnets via extrusion-based additive manufacturing&quot;, Additive Manufacturing, Vol. 21, pp. 1-21.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Soft magnetic alloys for selective laser melting</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lindroos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riipinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Metsä-Kortelainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pippuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lagerbom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Revuelta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Metsäjoki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euro PM2017 Proceedings</title>
+		<imprint>
+			<publisher>EPMA</publisher>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lindroos, T., Riipinen, T., Metsä-Kortelainen, S., Pippuri, J., Lagerbom, J., Revuelta, A. and Metsäjoki, J. (2017), &quot;Soft magnetic alloys for selective laser melting&quot;, Euro PM2017 Proceedings, EPMA.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Tuning the phase stability and magnetic properties of laser additively processed Fe-30at%Ni soft magnetic alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Mikler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Ramanujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Letters</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="88" to="92" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mikler, C.V., Chaudhary, V., Soni, V., Gwalani, B., Ramanujan, R.V. and Banerjee, R. (2017a), &quot;Tuning the phase stability and magnetic properties of laser additively processed Fe-30at%Ni soft magnetic alloys&quot;, Materials Letters, Vol. 199, pp. 88-92.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Laser additive manufacturing of magnetic materials</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Mikler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Borkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jaeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Contieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Ramanujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="532" to="543" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mikler, C.V., Chaudhary, V., Borkar, T., Soni, V., Jaeger, D., Chen, X., Contieri, R., Ramanujan, R.V. and Banerjee, R. (2017b), &quot;Laser additive manufacturing of magnetic materials&quot;, JOM, Vol. 69 No. 3, pp. 532-543.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The metallurgy and processing science of metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Sames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>List</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pannala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Dehoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Babu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Materials Reviews</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="315" to="360" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sames, W.J., List, F.A., Pannala, S., Dehoff, R.R. and Babu, S. S. (2016), &quot;The metallurgy and processing science of metal additive manufacturing&quot;, International Materials Reviews, Vol. 61 No. 5, pp. 315-360.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microstructure and hall-petch behavior of Fe-Cobased hiperco© alloys</title>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Cammarata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Weihs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Research</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="835" to="837" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shang, C.-H., Cammarata, R.C., Weihs, T.P. and Chien, C.L. (2000), &quot;Microstructure and hall-petch behavior of Fe-Co- based hiperco© alloys&quot;, Journal of Materials Research, Vol. 15 No. 4, pp. 835-837.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Near equiatomic FeCo alloys: constitution, mechanical and magnetic properties</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sourmail</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="816" to="880" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sourmail, T. (2005), &quot;Near equiatomic FeCo alloys: constitution, mechanical and magnetic properties&quot;, Progress in Materials Science, Vol. 50 No. 7, pp. 816-880.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Soft magnetic FeCo alloys: alloy development</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Sundar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Deevi</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/174328005X14339</idno>
+		<ptr target="https://doi.org/10.1179/174328005X14339" />
+	</analytic>
+	<monogr>
+		<title level="j">Processing, and Properties, International Materials Reviews</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sundar, R.S. and Deevi, S.C. (2005), &quot;Soft magnetic FeCo alloys: alloy development&quot;, Processing, and Properties, International Materials Reviews, Vol. 50, available at: https:// doi.org/10.1179/174328005X14339</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Physics behind the magnetic hysteresis loopa survey of misconceptions in magnetism literature</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W F</forename><surname>Sung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudowicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Magnetism and Magnetic Materials</title>
+		<imprint>
+			<biblScope unit="volume">260</biblScope>
+			<biblScope unit="issue">1/2</biblScope>
+			<biblScope unit="page" from="250" to="260" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sung, H.W.F. and Rudowicz, C. (2003), &quot;Physics behind the magnetic hysteresis loop -a survey of misconceptions in magnetism literature&quot;, Journal of Magnetism and Magnetic Materials, Vol. 260 Nos 1/2, pp. 250-260.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Soft magnetic cobalt-iron alloys</title>
+		<author>
+			<persName><surname>Vacuumschmelze</surname></persName>
+		</author>
+		<ptr target="www.vacuumschmelze.de/fileadmin/Medienbiliothek_2010/Downloads/HT/Soft_Magnetic_CoFe_Alloys_05_2016.pdf" />
+		<imprint>
+			<date type="published" when="2016-05-23">2016. 23 May 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">VACUUMSCHMELZE (2016), &quot;Soft magnetic cobalt-iron alloys&quot;, available at: www.vacuumschmelze.de/fileadmin/ Medienbiliothek_2010/Downloads/HT/Soft_Magnetic_CoFe_ Alloys_05_2016.pdf (accessed 23 May 2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Defect formation mechanisms in selective laser melting: a review</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Bai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chinese Journal of Mechanical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="515" to="527" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, B., Li, Y. and Bai, Q. (2017), &quot;Defect formation mechanisms in selective laser melting: a review&quot;, Chinese Journal of Mechanical Engineering, Vol. 30 No. 3, pp. 515-527.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Magnetic properties of in-situ synthesized FeNi3 by selective laser melting Fe-80%Ni powders</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Fenineche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Coddet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Magnetism and Magnetic Materials</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="49" to="54" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, B., Fenineche, N.E., Liao, H. and Coddet, C. (2013a), &quot;Magnetic properties of in-situ synthesized FeNi3 by selective laser melting Fe-80%Ni powders&quot;, Journal of Magnetism and Magnetic Materials, Vol. 336, pp. 49-54.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Microstructure and magnetic properties of Fe-Ni alloy fabricated by selective laser melting Fe/Ni mixed powders</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Fenineche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Coddet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="757" to="760" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, B., Fenineche, N.E., Liao, H. and Coddet, C. (2013b), &quot;Microstructure and magnetic properties of Fe-Ni alloy fabricated by selective laser melting Fe/Ni mixed powders&quot;, Journal of Materials Science and Technology, Vol. 29 No. 8, pp. 757-760.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Monitoring of Laser Powder Bed Fusion process by bridging dissimilar process maps using deep learning-based domain adaptation on acoustic emissions</title>
+				<funder ref="#_YtbfFs6">
+					<orgName type="full">Swiss National Science Foundation</orgName>
+					<orgName type="abbreviated">SNSF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>11 January 2024 2214</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Vigneashwara</forename><forename type="middle">;</forename><surname>Pandiyan</surname></persName>
+							<email>vigneashwara.solairajapandiyan@empa.ch</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Empa , Swiss Federal Laboratories for Materials Science and Technology , Ueberlandstrasse 129 , 8600 Dübendorf , Switzerland</note>
+								<orgName type="institution" key="instit1">Empa</orgName>
+								<orgName type="institution" key="instit2">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<address>
+									<addrLine>Ueberlandstrasse 129</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> Additive Manufacturing Group , Advanced Materials Research Center , Technology Innovation Institute (TII) , Masdar City , Abu Dhabi , United Arab Emirates</note>
+								<orgName type="department" key="dep1">Advanced Materials Research Center</orgName>
+								<orgName type="department" key="dep2">Technology Innovation Institute (TII)</orgName>
+								<orgName type="laboratory">Additive Manufacturing Group</orgName>
+								<address>
+									<settlement>Masdar City Abu Dhabi</settlement>
+									<country key="AE">United Arab Emirates</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rafał</forename><forename type="middle">;</forename><surname>Wróbel</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Empa , Swiss Federal Laboratories for Materials Science and Technology , Ueberlandstrasse 129 , 8600 Dübendorf , Switzerland</note>
+								<orgName type="institution" key="instit1">Empa</orgName>
+								<orgName type="institution" key="instit2">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<address>
+									<addrLine>Ueberlandstrasse 129</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> ETH Zürich , Department of Materials , Laboratory for Nanometallurgy , Vladimir-Prelog-Weg 1-5/10 , Zürich 8093 , Switzerland</note>
+								<orgName type="department">Department of Materials</orgName>
+								<orgName type="institution" key="instit1">ETH Zürich</orgName>
+								<orgName type="institution" key="instit2">Laboratory for Nanometallurgy</orgName>
+								<address>
+									<addrLine>Vladimir-Prelog-Weg 1-5/10</addrLine>
+									<postCode>8093</postCode>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roland</forename><forename type="middle">Axel</forename><surname>Richter</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Empa , Swiss Federal Laboratories for Materials Science and Technology , Ueberlandstrasse 129 , 8600 Dübendorf , Switzerland</note>
+								<orgName type="institution" key="instit1">Empa</orgName>
+								<orgName type="institution" key="instit2">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<address>
+									<addrLine>Ueberlandstrasse 129</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Axel</surname></persName>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">Empa , Swiss Federal Laboratories for Materials Science and Technology , Ueberlandstrasse 129 , 8600 Dübendorf , Switzerland.</note>
+								<orgName type="institution" key="instit1">Empa</orgName>
+								<orgName type="institution" key="instit2">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<address>
+									<addrLine>Ueberlandstrasse 129</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><forename type="middle">;</forename><surname>Leparoux</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Empa , Swiss Federal Laboratories for Materials Science and Technology , Ueberlandstrasse 129 , 8600 Dübendorf , Switzerland</note>
+								<orgName type="institution" key="instit1">Empa</orgName>
+								<orgName type="institution" key="instit2">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<address>
+									<addrLine>Ueberlandstrasse 129</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christian</forename><forename type="middle">;</forename><surname>Leinenbach</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Empa , Swiss Federal Laboratories for Materials Science and Technology , Ueberlandstrasse 129 , 8600 Dübendorf , Switzerland</note>
+								<orgName type="institution" key="instit1">Empa</orgName>
+								<orgName type="institution" key="instit2">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<address>
+									<addrLine>Ueberlandstrasse 129</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Laboratory for Photonic Materials and Characterization , École Polytechnique Fédérale de Lausanne , 1015 Lausanne , Switzerland</note>
+								<orgName type="laboratory">Laboratory for Photonic Materials and Characterization</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Sergey</roleName><surname>Shevchik</surname></persName>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">Empa , Swiss Federal Laboratories for Materials Science and Technology , Ueberlandstrasse 129 , 8600 Dübendorf , Switzerland.</note>
+								<orgName type="institution" key="instit1">Empa</orgName>
+								<orgName type="institution" key="instit2">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<address>
+									<addrLine>Ueberlandstrasse 129</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergey</forename><surname>Shevchik</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Empa , Swiss Federal Laboratories for Materials Science and Technology , Ueberlandstrasse 129 , 8600 Dübendorf , Switzerland</note>
+								<orgName type="institution" key="instit1">Empa</orgName>
+								<orgName type="institution" key="instit2">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<address>
+									<addrLine>Ueberlandstrasse 129</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Monitoring of Laser Powder Bed Fusion process by bridging dissimilar process maps using deep learning-based domain adaptation on acoustic emissions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">11 January 2024 2214</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E118696B011C3C1DCFA61F76DF0A4E00</idno>
+					<idno type="DOI">10.3929/ethz-b-000654818</idno>
+					<note type="submission">Received 16 February 2023; Received in revised form 10 November 2023; Accepted 7 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-05T20:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Laser Powder Bed Fusion Process monitoring Acoustic emission Machine learning Domain adaptation</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Advances in sensorization and identification of information embedded inside sensor signatures during manufacturing processes using Machine Learning (ML) algorithms for better decision-making have become critical enablers in building data-driven monitoring systems.</s><s>In the Laser Powder Bed Fusion (LPBF) process, data-driven-based process monitoring is gaining popularity since it allows for real-time component quality verification.</s><s>Real-time qualification of the additively manufactured parts has a significant advantage as the cost of conventional post-manufacturing inspection methods can be reduced.</s><s>Also, corrective actions or build termination could be done to save machine time and resources.</s><s>However, despite the successful development in addressing monitoring needs in LPBF processes, less research has been paid to the ML model's robustness in decision-making when dealing with variations in data distribution from the laser-material interaction owing to different process spaces.</s><s>Inspired by the idea of domain adaptation in ML, in this work, we propose a deep learning-based unsupervised domain adaptation technique to tackle shifts in data distribution owing to different process parameter spaces.</s><s>The temporal waveforms of acoustic emissions from the LPBF process zone corresponding to three regimes, namely Lack of Fusion, conduction, and keyhole, were acquired on two different 316 L stainless steel powder distributions (&gt; 45 µm and &lt; 45 µm) with two different parameter sets.</s><s>Temporal and spectral analysis of the acoustic waveforms corresponding to the powder distributions treated with different laser parameters showed the presence of offset in the data distribution, which was subsequently treated with the proposed unsupervised domain adaptation technique to have an ML model that could be generalized.</s><s>Furthermore, the prediction accuracy of the proposed methodology between the two distributions showed the feasibility of adapting to the newer environment unsupervisedly and improving the ML model's generalizability.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>The Laser Powder Bed Fusion (LPBF) process allows the direct fabrication of complex geometries and near-net-shaped metal parts with high densities from a three-dimensional Computer-Aided Design (CAD) design <ref type="bibr" target="#b0">[1]</ref>.</s><s>The metal-based LPBF also facilitates melting and solidifying different alloy compositions repeatedly layer by layer using a replenishing powder bed and defined scanning of a laser heat source <ref type="bibr" target="#b0">[1]</ref>.</s><s>Compared to alternative metal additive manufacturing (AM) approaches, LPBF allows for the fabrication of parts with improved feature resolution and accuracy at the expense of build rates and maximum build dimensions.</s><s><ref type="bibr" target="#b1">[2]</ref>.</s><s>The part fabrication using the LPBF process involves three steps <ref type="bibr" target="#b2">[3]</ref>.</s><s>The first step includes layering the metal powder of desired chemical composition to a certain thickness of around ~50 μm on a baseplate using a coating mechanism <ref type="bibr" target="#b3">[4]</ref>.</s><s>In the second step, a focused laser source is irradiated on the powder bed as per the sliced CAD cross-section.</s><s>Interaction of the laser and the powder bed causes the metal powder particles to fuse with adjacent particles as they are rapidly melted and cooled.</s><s>The previously deposited 2D cross sections become fused with the new layer, forming a 3D shape.</s><s>The third and final step involves gradually lowering the baseplate and replenishing the top layer with powder particles.</s><s>The cycle of the three steps prolongs until the part is completely fabricated and generally takes a few hours for simple geometries and longer time for complex ones.</s></p><p><s>Although the process appears theoretically straightforward, the underlying dynamics in the melt pool due to rapid melting and cooling, properties of the powder stock material, surrounding environments, and complex thermal history over time make it complicated to produce fully dense parts with desired properties.</s><s>The difficulty in process reproducibility and the ensuing discrepancies in workpiece quality limit the technology from being adopted easily by industries <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>.</s><s>The LPBF process parameters, such as laser power, powder composition, scan speed, layer thickness, scanning strategy, and chamber environment, particle size distribution, directly correlate with the quality of the fabricated part <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>.</s><s>Processing metallic powder particles at sub-optimal laser parameters in the LPBF process results in defects such as balling, cracks, delamination, Lack of Fusion (LoF) and keyhole porosity.</s><s>Such defects decrease the density of the part, which is unfavourable to the mechanical properties of the fabricated workpiece.</s><s>During the LPBF process, high scanning speed causes high capillary instability of the melt pool, making them spheroid to minimize free energy, giving rise to the first type of balling phenomenon <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>.</s><s>Also, the reduction in the thermal energy density imparted into the powder bed by insufficient laser power causes poor wettability and molten pool fluidity leading to another type of balling phenomenon <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>.</s><s>Balling tends to increase surface roughness and aggravate pore formation during subsequent melting.</s><s>Similar to balling, the LoF defects appear as an incomplete overlap between adjacent laser tracks or layers due to insufficient energy input <ref type="bibr" target="#b15">[16]</ref>.</s><s>Consequently, incomplete overlaps trap unmelted powders, forming irregular pores that remain permanently in the fabricated part <ref type="bibr" target="#b16">[17]</ref>.</s><s>Unlike balling and LoF, keyhole porosity is caused when the high thermal energy density is imparted <ref type="bibr" target="#b17">[18]</ref>.</s><s>The rapid increase in thermal density creates deeper melt pools and vapour channels.</s><s>As the vapour cavity collapses, some metal vapor and shielding gas get trapped as they cannot exit the molten surface in time, resulting in pores with spherical morphologies <ref type="bibr" target="#b18">[19]</ref>.</s><s>Thus, searching for optimized process parameters for each new alloy combination with minimum defects or full density is time-consuming <ref type="bibr" target="#b19">[20]</ref>.</s><s>Fabrication of the part in a predefined favorable parameter window also does not guarantee that the produced part is defect-free due to the non-linear thermal dynamic of the previous layers, which can result in defect formation <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>.</s><s>The parts fabricated by the LPBF process tend to have a complex thermal history as the heat source moves rapidly <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>.</s><s>In addition, thermally induced cracks and delamination tend to initiate when the thermal gradients result in the build-up of residual stresses <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref>.</s><s>The thermal conductivity and thermal expansion coefficient heavily influence heat transfers with the environment in the melt pool's vicinity <ref type="bibr" target="#b27">[28]</ref>.</s><s>In addition to sub-optimal parameter selection, improper thermal cycle optimization yields process anomalies due to unfavourable melt pool temperature profile and morphology <ref type="bibr" target="#b16">[17]</ref>.</s></p><p><s>The addition of sensors around the laser-material interaction zone and decoding the patterns in the sensor signatures corresponding to secondary emissions from the process zone will enable us to monitor and know the current status of the process, thereby ensuring targeted quality.</s><s>Real-time sensing systems can replace time-and money-consuming offline postmortem techniques for defect diagnosis like Computed Tomography (CT) and ultrasonic scanning.</s><s>For defect monitoring during the LPBF process, a wide variety of sensors have been used that can capture the process zone's thermal, optical, and acoustic emissions <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30]</ref>.</s><s>Pyrometers have been applied for a very long time to measure and monitor the temperature field surrounding the process zone <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref>.</s><s>The significant advantage of pyrometers is that the amount of light striking the detector surface can be correlated to a temperature distribution to understand the process zone.</s><s>The sensor's disadvantage is that it lacks spatial resolution because melt pools are typically in the range of 10 to 250 µm <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>.</s><s>To counteract this, more works have recently been performed in imaging radiations at the Infra-Red (IR) regime and using high-speed imaging systems in the visible spectrum <ref type="bibr" target="#b34">[35]</ref>.</s><s>Although incorporating suitable optics with the IR and high-speed imaging techniques has also enabled the retrieval of high-resolution spatial information from the melt pool surface, there are issues with emissivity calibration <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref>.</s><s>Additionally, it should be emphasized that they are not economical for managing the hardware, data management, and its treatment.</s><s>Moreover, the optics have to be mounted co-axially with the laser head for better visualization of the melt pool, which requires alteration to the existing industrial machines.</s><s>Acoustic emission (AE)-based sensors are an alternative for more efficient data processing and cost-effective sensing methods <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>.</s><s>They can monitor melt pool dynamics on time scales of about 10 to 100 μs as they have great temporal resolution <ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref>.</s><s>However, the correct location, distance and orientation of AE sensors need comparable attention as pyrometers and are definitely more complicated as compared to imaging sensors.</s></p><p><s>It is challenging for human operators to comprehend the highly nonlinear temporal and spatial information captured by the sensors due to the transitory nature of the laser-material interaction from the LPBF process zone <ref type="bibr" target="#b44">[45]</ref>.</s><s>Using signal processing methods on the temporal waveform data, sparse lower-dimensional statistical features can be extracted in the time, frequency, and time-frequency domains.</s><s>The distribution of these statistical features throughout the different LPBF regimes allows correlation <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b46">47]</ref>.</s><s>Additionally, for decision-making, these are integrated with appropriate standard ML algorithms.</s><s>To evaluate the part quality, traditional ML models such as K-Nearest Neighbor (KNN) and Decision Tree (DT) have been trained on data from optical and thermal sensors <ref type="bibr" target="#b47">[48]</ref>.</s><s>Khanzadeh et al. <ref type="bibr" target="#b48">[49]</ref> proposed monitoring the AM process using a multilinear principal component analysis (MPCA) method computed on the thermal maps.</s><s>Gobert et al. <ref type="bibr" target="#b49">[50]</ref> trained a linear support vector machine (SVM) on multidimensional visual features extracted from the digital images of each build layer to assess its quality.</s><s>Additionally, it has been claimed that randomized singular value decomposition (SVD) features obtained from a photodiode sensor can be used to determine the build quality using the Gaussian mixture model (GMM) <ref type="bibr" target="#b50">[51]</ref>.</s><s>Utilizing statistical data calculated from acoustic signals, the classifiers based on linear SVM, Random Forest (RF), and logistic regression have successfully identified various processing regimes in LPBF <ref type="bibr" target="#b46">[47,</ref><ref type="bibr" target="#b51">52]</ref>.</s><s>However, the robustness of the ML model trained on manual feature extraction techniques depends on the choice of the features, which is directly dependent on human intelligence, which is a downside in such approaches.</s><s>Unlike conventional ML algorithms that require preprocessing of the data streams to obtain a sparse representation based on human knowledge before training, ML techniques based on deep learning (DL) that can work on raw sensor data with minimum preprocessing are of interest to the research community to monitor the LPBF process <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref>.</s><s>The DL techniques based on convolutional neural networks (CNNs) trained on images of the powder bed before laser scanning have been proposed as a machine vision strategy to predict anomalies caused by the recoater blade on the LPBF process <ref type="bibr" target="#b54">[55,</ref><ref type="bibr" target="#b55">56]</ref>.</s><s>Anomalies due to irregularities in the powder bed, such as warpage, part shifting, and short feed, have been detected based on training the digital images using deep residual and region proposal neural networks supervisedly <ref type="bibr" target="#b56">[57]</ref>.</s><s>The CNNs have also been trained on two-dimensional spectrograms obtained from raw acoustic emission signatures captured from the process zone for the classification of the quality of the process, such as porosity and density levels <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref>.</s><s>Similar to this, CNNs have been trained on melt pool images corresponding to various laser regimes to spot variations in the melt pool characteristics.</s><s><ref type="bibr" target="#b60">[61,</ref><ref type="bibr" target="#b61">62]</ref>.</s><s>CNN's have been reported to detect defects such as delamination based on the images of the process zone acquired at the infrared wavelength <ref type="bibr" target="#b62">[63]</ref>.</s><s>Deep belief networks (DBN) have been supervisedly trained on microphone data to categorize balling and other mechanisms <ref type="bibr" target="#b63">[64]</ref>.</s><s>In order to monitor anomalies in the LPBF process, Alessandra Caggiano et al. <ref type="bibr" target="#b64">[65]</ref> combined the data streams from the powder bed and process zone to take a decision using a Bi-stream CNN.</s><s>Additionally, CNNs have been supervisedly trained on heterogeneous data streams such as optical, thermal and acoustics acquired from the process zone to predict the printed part's quality in real-time <ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref>.</s><s>Semi-supervised training of CNNs has been proposed as a monitoring strategy with minimum effort in data collection to identify and categorize abnormalities in the LPBF process <ref type="bibr" target="#b68">[69,</ref><ref type="bibr" target="#b69">70]</ref>.</s></p><p><s>A comprehensive examination of Machine Learning (ML) algorithms trained in supervised, semi-supervised, and unsupervised ways on different sensors has given confidence in real-time monitoring of the AM processes <ref type="bibr" target="#b70">[71]</ref>.</s><s>However, a downside of such trained ML models is generalization, where their performance depends on the distribution of the information embedded inside the data streams.</s><s>Owing to the significant differences in the chamber design across machines, laser parameters, powder particle size distribution, and the alloy composition of powders across vendors, it is always difficult to attain a similar distribution in the information that is collected by sensors compared to trained ML models.</s><s>Furthermore, the offsets in sensor making, orientation, and location across machines contribute to these offsets in the sensor distribution.</s><s>The variation in the distribution of the sensor signatures can be explained from a physical point of view as the optical, acoustic, and thermal emissions correlate directly with the material and machine parameters.</s><s>As a result of this shift in sensor signature distribution, the DL algorithms created for in-situ monitoring of a specific process space inside the process map are undeployable for another space.</s><s>Machine learning models usually perform well when processing samples from the same distribution as the training data; however, when processing samples from different distributions is involved, they meet a phenomenon known as "domain shift," which lowers their performance.</s><s>Training individual models for each scenario inside LPBF process maps adds cost and time, which is not a viable solution.</s><s>The authors of this work have already tackled this domain shift problem between two process map spaces using transfer learning on two CNN architectures <ref type="bibr" target="#b58">[59]</ref>.</s><s>Transfer learning allows the retraining of certain network layers, thereby allowing knowledge augmentation after network retraining.</s><s>The downside of the approach was that new data spaces had to be labelled, which added to the cost and time.</s><s>In this work, we attempt to narrow this gap by proposing a deep learning-based unsupervised domain adaptation technique to tackle shifts in data distribution without the knowledge of ground truths owing to different process parameter spaces for classification.</s><s>The LPBF regimes, such as LoF pores, conduction mode and keyhole pores, are inferred from known process space to unknown process spaces based on AE signatures.</s><s>The temporal waveforms of acoustic emissions from the LPBF process zone were recorded on two different 316 L stainless steel powder distributions (&gt; 45 µm and &lt; 45 µm), with two different parameter sets corresponding to three regimes LoF, conduction, and keyhole pores.</s><s>The presence of offset in the data distribution was discovered through a temporal and spectral analysis of the acoustic waveforms corresponding to the powder distributions treated with various laser parameters.</s><s>This data was then processed using the unsupervised domain adaptation technique that was suggested to create a generalizable ML model.</s></p><p><s>This paper is divided into six sections.</s><s>Section 1 concisely overviews the LPBF process and defines the problem statement.</s><s>Section 2 provides in-depth information on the LPBF experimental setup, sensor configuration and presents findings from powder characterization.</s><s>Section 3 is dedicated to analysing AE signals' spectrum and temporal feature distributions during laser-material interaction across various process spaces.</s><s>This section also briefly introduces the domain adaptation learning technique.</s><s>Section 4 showcases the predictions made by the CNN, both with and without the incorporation of domain adaptation, using AE data from two distributions.</s><s>Finally, Sections 5 and 6 summarize the paper's findings, discuss limitations in the proposed methodology pipeline, and outline future directions for in-situ monitoring in the LPBF process.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Experimental setup</head><p><s>The experiments in this work were performed using a commercial LPBF machine SISMA MySint 100 (SISMA, Italy).</s><s>It is equipped with a fiber laser of 1070 nm wavelength and a Gaussian laser spot with a 1/e 2 of 55 µm.</s><s>The laser can operate with a power of up to 200 W in a continuous mode.</s><s>In addition, an in-situ AE sensing system was installed in the processing chamber, as shown in Fig. <ref type="figure" target="#fig_0">1</ref>.</s></p><p><s>The in-situ sensing system comprises a photodiode trigger coupled with a collimator using a fiber patch cable with a core diameter of 550 µm and an airborne acoustic emission sensor.</s><s>The collimator (F220SMA-980, Thorlabs) of fixed focus type is installed in an off-axial configuration to collect optical signals from the full zone of interaction between the laser and material.</s><s>These signals are guided to the photodiode (PDA20CS2, 800-1700 nm; Thorlabs) and converted to an analogue voltage signal proportional to the detector's absorbed intensity.</s><s>The acoustic emission sensor used in this work is from Avisoft Bioacoustics (CM16/CMPA), which has a flat frequency response of 0-150 kHz.</s><s>The AE sensor was fixed near the built plate facing the built plate at 45 degrees with a suitable fixture (see Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>The sensor signatures from the two sensors were extracted outside the processing chamber using suitable feed-throughs.</s><s>They were captured with a dynamic range of ± 5 V using a PCIe data acquisition card (Advantech 1840) at a sampling rate of 400 kHz using custom-coded software based on the C# framework.</s><s>The signals from both channels are acquired automatically based on the preset thresholding value in the channel corresponding to the photodiode.</s><s>As the laser interacts initially with the powder in every new layer, the optical intensity recorded by the photodiode exceeds 0.5 V, resulting in automatic data recording.</s><s>The Nyquist-Shannon theorem <ref type="bibr" target="#b71">[72]</ref> was ensured by selecting a data acquisition rate of 400 kHz to satisfy the frequency response of the AE sensor.</s><s>It should also be noted that both the channels that record the optical and acoustic emissions are synchronized, as shown in Fig. <ref type="figure" target="#fig_1">2</ref>. As seen in Fig. <ref type="figure" target="#fig_1">2</ref>, every time the laser irradiates the powder bed (here every 50 ms), the photodiode gain is preset so that the recorded intensity hits the upper saturation limit of 5 V, and corresponding AE signatures in this window correspond to each scan track, which can be processed afterwards.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Materials</head><p><s>In this work, the material feedstock was a gas-atomized 316 L stainless steel powder with a mostly spherical shape from Oerlikon Metco in Switzerland.</s><s>The original particle size distribution ranged from 15 μm to 60 μm.</s><s>The powder was sieved using a mesh 325 vibrating siever (45 μm distance between the wires) to obtain two distributions, D1 (upper range of the sieved distribution) and D2 (powder sieved &lt; 45 μm diameter).</s><s>The aim of generating two powder size distributions was also to understand how the powder particle size distribution change affects the acoustic spectra characteristics as they interact with a laser source.</s></p><p><s>Fig. <ref type="figure" target="#fig_2">3</ref> shows the density distribution of the 316 L powder particles corresponding to the two distributions, D1 and D2, measured using the Mastersizer 3000® (Malvern, UK) particle size analyzer based on the laser diffraction technique.</s><s>Comparing the two distributions from Fig. <ref type="figure" target="#fig_2">3</ref>, it can be seen that nearly ≈ 75% of the particle sizes overlap.</s><s>However, in the case of D1, most particle sizes are centered around 40 μm with only a small fraction of particles &lt; 20 μm.</s><s>On the other hand, D2 exhibits a significant amount of finer particles less than 20 μm.</s><s>Table <ref type="table">1</ref> represents the statistical particle size distribution in three metrics, namely D10, D50, and D90.</s><s>All three metrics for the two distributions are quite different from each other.</s><s>The characterization of the two distributions suggests that any deviation in the acoustic signatures from the process zone can be directly related to the different particle size distributions.</s></p><p><s>In addition to the particle size characterization, the rheological properties, such as the flowability and cohesion within the particles of the two distributions, D1 and D2, were analyzed using GranuDrum (GranuTools, Belgium).</s><s>Therefore, the flow characteristics of the powder particles in the drum can be directly correlated with the spreading behaviour of the powder particles using the recoating mechanism in commercially available LPBF printers.</s><s>Powders from the two batches, D1 and D2, were progressively rotated at five RPMs, namely 2, 4, 6, 8 and 10, to determine the dynamic flowability properties.</s><s>Table <ref type="table" target="#tab_0">2</ref> shows</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1</head><p><s>Statistics of cumulative particle size distribution in terms of D10, D50 and D90.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Category D10 D50 D90</head><p><s>Particle distribution above 45 µm [D1]</s></p><p><s>30.9 μm 42.3 μm 57.9 μm Particle distribution below 45 µm [D2] 19.1 μm 29.6 μm 45.3 μm the obtained avalanche angles and cohesive indeces for the two distributions.</s><s>The value obtained with D2 from Table <ref type="table" target="#tab_0">2</ref> shows that the powder's flowability is reduced with smaller particle sizes, resulting in higher angles and a higher cohesive index.</s><s>The rheological characterization of the two distributions also suggests that any deviation in the acoustic signatures from the process zone results from the differences in the flowability of the powders, which indirectly affects their packing density after recoating.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Process parameters</head><p><s>The primary goal of this work is to map dissimilar process parameter spaces that produce the same LPBF process regimes -LoF, conduction mode and keyhole poresusing the corresponding acoustic signature without supervision.</s><s>Therefore, two cuboid samples (width: 20 mm, length: 20 mm) were fabricated from the two powder batches, D1 and D2.</s><s>The three different processing regimes were realized using different combinations of laser power and scanning speed, as listed in Table <ref type="table" target="#tab_1">3</ref>. Apart from particle size distribution change, the laser power parameters were also slightly offset across each regime between the two cubes to introduce the shift in the distribution of the acoustic signature datasets.</s><s>A bidirectional scanning strategy with 90º rotation between the layers was used.</s><s>The layer thickness was empirically set to 30 μm and a hatch distance of 0.1 mm for all three processing regimes of both powder fractions.</s><s>Prior to laser irradiation, the powder layer typically has a greater thickness than the powder particles that melt to form a dense layer due to cavity filling.</s><s>As a result, once the powder bed is renovated, the cavity of the new layer thickness is more than the maintained layer thickness <ref type="bibr" target="#b72">[73]</ref>.</s><s>Therefore, though a layer thickness of 30 μm is maintained, the powder particles above 45 μm from the distribution D1 and D2 could be accommodated.</s></p><p><s>The experiments were conducted in argon gas containing &lt; 0.1% oxygen.</s><s>Samples were fabricated with the different regimes in the following order (from the bottom to the top): keyhole pores, conduction mode, and LoF regimes in each cube after the preliminary "build-up" stage.</s><s>This order was selected to ensure that artifacts of the previous regimes do not affect the acoustic signature from the current regime.</s></p><p><s>The occurrence of the three regimes was confirmed by inspecting the workpiece cross-sections via optical microscopy that were cut perpendicular to the scan tracks and further ground and polished according to metallographic preparation standards.</s><s>The different levels of build density, porosities and voids across each regime, as shown in Fig. <ref type="figure" target="#fig_3">4</ref>, confirmed that the selected laser powers and scanning speeds resulted in the desired regimes for the two cubes printed using different particle size distributions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Dataset preparation</head><p><s>As the laser interacts with the powder bed while fabricating the cube, the optical intensity crosses the threshold of 0.5 V for every scan length, which triggers data acquisition from the AE sensor.</s><s>As the gain of the photodiode trigger is adjusted to saturate at 5 V, the corresponding continuous-time window where the optical signal remains at 5 V for 12.5 ms is computed and chopped to form the dataset.</s><s>Irrespective of the regime and the cube, the signals are chopped into the window of 12.5 ms (5000 data points), and a low-pass Butterworth filter is applied offline with a cut-off frequency of 150 kHz and stored for further processing.</s></p><p><s>The choice of 150 kHz for the frequency cut-off was based on the frequency response specification of the AE sensor.</s><s>A detailed description of the AE dataset used in this work is shown in Table <ref type="table" target="#tab_2">4</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Proposed methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">AE signal analysis</head><p><s>To initially confirm that changes in the distribution of the powder particles and offset in laser power parameters have influenced the acoustic signature distribution from the process zone, the windows corresponding to each regime across regimes were resolved in the time domain and frequency domain for analysis.</s><s>First, the Root Mean Square (RMS) was computed across all the windows for individual regimes in the time domain analysis.</s><s>The comparison of the RMS distribution across the distributions within the regimes, as shown in Fig. <ref type="figure" target="#fig_5">5</ref>, shows that there are areas with significant overlap and with unique distribution.</s><s>The AE RMS for the keyhole regime was more or less the same as for other regimes.</s></p><p><s>The energies corresponding to the fifteen frequency bands (0-10 kHz, 10-20 kHz, 20-30 kHz, 30-40 kHz, 40-50 kHz, 50-60 kHz, 60-70 kHz, 70-80 kHz, 80-90 kHz, 90-100 kHz, 100-110 kHz, 110-120 kHz, 120-130 kHz, 130-140 kHz, and 140-150 kHz) were   computed by the periodogram method for all the windows in the dataset to analyze the AE waveform signal in the frequency domain.</s><s>Fig. <ref type="figure" target="#fig_6">6</ref> shows the cumulative energy values for the regimes corresponding to the two distributions across the fifteen frequency bands.</s><s>Fig. <ref type="figure" target="#fig_6">6</ref> also reveals that most of the energy components for the regimes are concentrated in the frequency range below 100 kHz for both powder distributions.</s><s>The peak energy of AE waves' for the keyhole regime was between 0 to 60 kHz.</s><s>For the LoF regime, the dominant frequencies were between 10 and 90 kHz, and the dominant frequencies for the conduction mode were between 10 and 90 kHz.</s><s>The comparison of cumulative energy distribution across the fifteen frequency bands confirms deviations in the AE waves' energy content due to the powder particle distribution and the laser power parameter.</s></p><p><s>Owing to the differences in the feature space, a model trained on either distribution cannot have a robust prediction of the other resulting in having separate models of each distribution and parameter space which would be cumbersome.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Domain adaptation and proposed methodology</head><p><s>The likelihood of the trained deep learning model performing well on the training data (Source domain) on the test data set drawn from the different data distribution (Target domain) is very low, as shown in Fig.   adaptation <ref type="bibr" target="#b73">[74]</ref>, as shown in Fig. <ref type="figure" target="#fig_8">7(c</ref>).</s><s>Transfer learning and domain adaptation are not the same concepts while being closely linked.</s><s>For example, the input distribution p(X) is mapped to the labels p(Y|X) in a standard classification setup.</s><s>In transfer learning, the input distribution remains the same while the labels change, and for domain adaptation, the input distribution changes while the labels stay the same.</s></p><p><s>Finding the shared latent characteristics between the source and target domains and adapting them to lessen the marginal and conditional mismatch in terms of the feature space between domains is the mechanism of domain adaptation <ref type="bibr" target="#b74">[75]</ref>.</s><s>The domain adaptation paradigm has also been used to diagnose bearing faults <ref type="bibr" target="#b75">[76]</ref> and anticipate tool wear in manufacturing processes like milling <ref type="bibr" target="#b76">[77]</ref>, in addition to image recognition and segmentation applications <ref type="bibr" target="#b77">[78,</ref><ref type="bibr" target="#b78">79]</ref>.</s><s>These applications inspired us to use this technique for AM.</s><s>It is difficult to get a discrete statistical distribution in the sensor information against a built quality since the LPBF process map has a large parameter space.</s><s>Since the parameter spaces in LPBF are continuous, there is a noticeable shift in the sensor signature as it changes.</s><s>Domain adaption techniques are essential to handle these shifts.</s><s>In this study, we propose a method in unsupervised domain adaptation exploiting CNNs to infer class labels from an unlabeled data space using statistical characteristics from a data space that is labelled and verified with ground truth based on metallurgical characterization.</s></p><p><s>The work of Philip et al. <ref type="bibr" target="#b79">[80]</ref> is the motivation for the unsupervised domain adaptation described in this paper.</s><s>The CNN training is based on the idea that while reducing the classification error on the known data space, the network must also learn statistically domain-invariant embedding to efficiently infer equivalent class labels from the unknown data space, as shown in Fig. <ref type="figure" target="#fig_9">8</ref>.</s><s>This is achieved by directly imposing relationships between the known and unknown data in the latent embedding space.</s></p><p><s>The following Eq.</s><s>( <ref type="formula" target="#formula_0">1</ref>) gives the back-propagated overall loss for the network during training.</s></p><formula xml:id="formula_0">L = L classification + L asscociative (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>With just the classification loss (L classification ) we may have a neural network trained for classification on the known data space.</s><s>However, the addition of association loss (L associative )during training incorporates knowledge about known data space on the unknown data space to model the shift in distribution, thus improving the effectiveness of embeddings   that are simple to associate, which leads to a poor generalization of the unknown space.</s><s>To counteract and to ensure the visit of each unknown sample with an equal probability, a regularizer loss ( L regularizer ) is added.</s><s>These two loss terms combine to create association loss (L asscociative ) that forces linkages between embeddings in similar domains and is given by the following Eq.</s><s>( <ref type="formula" target="#formula_2">2</ref>).</s></p><formula xml:id="formula_2">L asscociative = β 1 L similarity + β 2 L regularizer (<label>2</label></formula><formula xml:id="formula_3">)</formula><p><s>where β 1 and β 2 are the weight factors.</s><s>The goal is to perform transformations on the embedding (ϕ) between the known (A i = ϕ(x known i )) and unknown (B j = ϕ(x unknown j )) data spaces and bring similar data spaces closer.</s><s>Eventually, a classifier trained on the known space will also perform better on the unknown space since both the data spaces are now similar.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Domain shift</head><p><s>To demonstrate the complexity in generalization of the ML models on the distribution shift due to parameter space drift in LPBF, a CNN (CNN-1) is trained on AE signatures collected during the processing of powders above 45 µm (D1) and evaluated on AE signatures below 45 µm (D2) from Table <ref type="table" target="#tab_2">4</ref>. Fig. <ref type="figure" target="#fig_10">9</ref> depicts the architecture of the CNN that was trained on the window sizes of 12.5 ms to classify the three processing regimes from D1. Five convolutional layers, one fully connected layer (Fc-1), and a classifier layer make up the CNN-1 architecture used in this study.</s><s>1D convolutions were performed on each of the five convolutional layers with a kernel size of size 16.</s></p><p><s>Prior to using the Rectified Linear Unit (ReLU) activation function, batch normalization was performed across each layer.</s><s>In order to reduce overfitting, a dropout of 5% was also applied to all the layers.</s><s>Finally, the output of the five convolution layers was flattened and passed to the fully connected layer and a classification layer.</s><s>The output of the two fully connected layers was also used for visualization, as it can be treated as a lower-dimensional representation of the trained network.</s><s>The CNN-1 had 46455 trainable nodes, and the training parameters used for the training are listed in Table <ref type="table" target="#tab_3">5</ref>.</s><s>The choice of this network configuration was based on the previous work from the authors <ref type="bibr" target="#b46">[47,</ref><ref type="bibr" target="#b66">67,</ref><ref type="bibr" target="#b69">70]</ref>.</s><s>The whole network and training were performed using the PyTorch library.</s></p><p><s>As previously mentioned, the raw AE time-series signal with a window size of 12.5 ms corresponding to three regimes acquired during the processing of powder with Distribution D1 was used to train the CNN-1 model.</s><s>The overall AE data set collected with known labels was stochastically split into 70% for training and 30% for testing.</s><s>Cross-entropy loss was used to penalize the network for miss classification during the network training.</s><s>The weight during the training of CNN-1 was updated using back-propagation based on the magnitude of the cross-entropy loss.</s><s>With a batch size of 500 and a learning rate of 0.001, the network training was performed for 100 epochs with the help of the Nvidia Titan RTX GPU.</s><s>A cosine annealing-based learning rate scheduler was used to find the optimal learning rate across each epoch.</s><s>The visualization of the training loss values for the CNN-1 model throughout 100 training epochs is shown in Fig. <ref type="figure" target="#fig_11">10 (a</ref>).</s><s>The decrease in loss values with epochs indicates that the CNN-1 model has learnt the mapping   embedded inside the AE signals to classify among the three LPBF regimes.</s><s>Table <ref type="table" target="#tab_4">6</ref> displays the confusion matrix results computed using the trained CNN-1 network on the test dataset.</s><s>The classification accuracy is computed by dividing the total number of tests by the true positives.</s><s>On the test dataset, CNN-1's average classification accuracy was 98.1%.</s><s>The classification accuracy results in Table <ref type="table" target="#tab_4">6</ref> reveal that CNN-1 has learnt the differences and similarities between the LPBF regimes.</s><s>However, the predictive performance of the trained CNN-1 was significantly lower, with an accuracy of 77.4% on classifying the AE signature corresponding to the three regimes from the D2 dataset.</s><s>This indicates the importance of augmenting generalization capability in the ML models.</s><s>Most of the misclassification originated between LoF pores and conduction mode, as they had shifted, as indicated in Figs. <ref type="figure" target="#fig_5">5</ref> and <ref type="figure" target="#fig_6">6</ref>.</s></p><p><s>To verify the trained CNN-1 model's effectiveness and its generalization property, the lower-dimensional representation (batch size x 832) computed using t-distributed stochastic neighbor embedding (t-SNE) on the feature maps extracted from the last fully connected layer (Fc-1) was visualized.</s><s>Fig. <ref type="figure" target="#fig_12">11</ref> shows a 2D visualization of the lowerdimensional representation of the three LPBF regimes on the twopowder distribution.</s><s>This diagram shows distinct clusters corresponding to the three LPBF regimes on the dataset corresponding to D1.</s><s>However, though the dataset D2 are clustered, there is a significant overlap across LoF pores from D2 on the conduction mode regime of D1, indicating the reason for the poor classification of the CNN-1 model towards D2 distribution.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Unsupervised domain adaptation</head><p><s>The task for correctly inferring class labels on LPBF regimes for an unlabeled AE data distribution (D2) based on the statistical properties of a labelled data distribution (D1) is proposed using associative domain adaptation.</s><s>This training methodology helps to establish generalization in the ML model on the two distributions with shifts inside the LPBF process maps.</s><s>The network architecture discussed in the previous section was trained with two significant changes to achieve domain adaptation.</s><s>The first change was that the data corresponding to the D2 distribution was also introduced as a part of the training but without labels.</s><s>In other words, for training the CNN with domain adaptation (CNN-2), the dataset consisted of the AE signature corresponding to three regimes from D1 along with the ground truth labels and only the AE signature corresponding to three regimes from D2.</s><s>The second change was with respect to the loss.</s><s>Instead of using only the crossentropy loss, an associative loss was also appended to the loss function to find the association between the labelled and unlabeled distributions in the embedding space.</s><s>The parameters used for the CNN-2 training are listed in Table <ref type="table" target="#tab_5">7</ref>.</s></p><p><s>During network training, the overall loss, which combines crossentropy loss and associative loss, was employed to penalize the network for inaccurate classification.</s><s>Based on the magnitude of the overall loss, CNN-2's weights were updated using back-propagation.</s><s>However, it should be emphasized that the cross-entropy loss term was initially utilized to stabilize the network for classification on the labelled dataset.</s><s>The associative loss term was augmented to the loss term after 15 epochs.</s><s>The associative loss term had two weights β 1 and β 2 that could also be tuned for stabilizing the network.</s><s>After an exhaustive search, they were set to 0.5 and 0.3 for this work.</s><s>With a batch size of 500 and a learning rate of 0.001, the network training was performed for 100 epochs with the help of the Nvidia Titan RTX GPU.</s><s>The visualization of the training curves for the CNN-2 model throughout 100 training epochs for the two distributions is shown in Fig. <ref type="figure" target="#fig_13">12(a)</ref>, <ref type="figure">(b)</ref> and <ref type="figure">(c</ref>).</s><s>The decrease in loss and increase in prediction accuracies with epochs indicates that the CNN-2 model has learnt the mapping embedded inside the AE signals to classify among the three LPBF regimes in D1.</s><s>The same trend on the D2 distribution confirms that generalization in the ML model on the two distributions with a shift inside the LPBF process maps is achieved.</s></p><p><s>Table <ref type="table" target="#tab_6">8</ref> displays the confusion matrix results computed using the domain-adapted CNN-2 network on the test dataset from the distributions D1 and D2.</s><s>On both the test datasets D1 and D2, CNN-2's average classification accuracy was 98.3% and 94.8%.</s><s>The classification accuracy results in Table <ref type="table" target="#tab_6">8</ref> reveal that CNN-2 has learnt the differences and similarities between the LPBF regimes in both distributions.</s><s>Unlike the CNN-1 results discussed, the performance of the domain-adapted CNN-2 was significantly higher on the three regimes from the D2 distribution, confirming the generalization capability of the ML models from a known to unknown space inside the LPBF process map.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p><s>The dimensionality reduction computation performed using t-SNE on the feature maps extracted from the last fully connected layer of the CNN-2 on the datasets corresponding to D1 and D2 are shown in Fig. <ref type="figure" target="#fig_14">13</ref>.</s><s>The 2D visualization shows distinct clusters corresponding to the three LPBF regimes on both datasets.</s><s>Unlike traditional CNN results discussed in the previous section, there is significant overlap across the same regime between the two distributions, indicating the reason for the higher classification of the CNN-2 model towards the D2 distribution.</s></p><p><s>The accuracy of the proposed unsupervised domain adaptation approach gives the confidence to tackle shifts in data distribution owing to changes in process parameters within the process map.</s><s>Furthermore, the time and cost associated with labelling signatures corresponding to new data spaces could be significantly minimized with this methodology.</s><s>This work used two powder fractions from the same batch with different size distributions.</s><s>The proposed approach to handle shifts on powders from different batches or suppliers would significantly increase its applicability.</s><s>Additionally, offsets in sensor placement across LPBF machines of the same type could be handled much more efficiently using a similar domain adaptation strategy.</s><s>Apart from identifying ground truths for downstream tasks, such as in-situ monitoring based on the classification of new parameter spaces, the proposed methodology could also be used to identify boundaries between regimes, significantly reducing the time and effort for parameter optimization.</s></p><p><s>While it's unusual to utilize suboptimal parameters for AM in practical applications, the ML model needs to have exposure to these anomaly regimes to learn from them.</s><s>Furthermore, incorporating information from these regimes can enhance our understanding of transition zones.</s><s>In cases where LPBF parameters are in transition regimes, it's crucial to acknowledge that straightforward classification into classes LoF, conduction mode, and keyhole may not be effective.</s><s>Instead, a more suitable approach could employ a distance metric from clusters calculated using the lower-dimensional representation from the final fully connected layer.</s><s>This distance from individual clusters can indicate the effectiveness of the techniques in transition zones.</s><s>The use of binary classifiers or distance scores from the proximity of conduction clusters is recommended to address specific scenarios like splatter and short vectors during the conduction mode.</s><s>Shifts in distances from clusters related to conduction, which may occur due to factors like splatter or short vectors, can be employed as anomaly detectors in these situations.</s></p><p><s>The main objective of this study was to establish a scenario where changes in the data distribution of the AE signal could be identified and to implement domain adaptation.</s><s>This experimental approach included introducing offsets in the D1 and D2 distributions and adjusting processing parameters, as previously detailed.</s><s>This experimental design allowed us to explore the implications of domain adaptation.</s><s>It's crucial to emphasize that the disparities between two data distributions can be quite distinct in specific cases, making domain adaptation unsuitable.</s><s>This underscores the significance of employing methods like transfer learning <ref type="bibr" target="#b80">[81,</ref><ref type="bibr" target="#b81">82]</ref>, especially in a supervised context.</s><s>It's worth mentioning that additional datasets were created by intentionally altering the process parameters.</s><s>However, the CNN model trained using cross-entropy loss on the known dataset still exhibited the ability to classify other datasets with high confidence.</s><s>Therefore, the decision to apply domain adaptation should depend on assessing whether the CNN model, initially trained on the known dataset, displayed significant misclassification when applied to the unseen dataset.</s><s>While we had comprehensive datasets, the data under study (D1 and D2) was the only one that exhibited significant domain shifts.</s><s>However, in real-world scenarios where prior knowledge of domain shifts may not be available, a practical solution is to use the model's accuracy prediction as a trigger to introduce the associative loss, as depicted in Fig. <ref type="figure" target="#fig_15">14</ref>.</s><s>As previously described in Section 4.2, during network training, the initial phase exclusively employed the cross-entropy loss term to establish network stability for classification on the labelled dataset.</s><s>After assessing the model's performance on the unknown dataset, the associative loss term for domain adaptation could be incorporated into the loss function after a few epochs.</s><s>However, if the CNN model confidently    predicts the other dataset, introducing the associative loss for network training might not be required.</s></p><p><s>Drawing attention to the inference time of the CNN-1 and CNN-2 models on the test dataset is crucial for achieving our nearly real-time system.</s><s>While a 12.5 ms window length was used for each window, the decision-making process with the current hardware configuration and data pipeline actually averaged around 22 ms.</s><s>This time difference highlights the presence of latency, which may necessitate hardware upgrades to accommodate higher acquisition rates.</s><s>Addressing this latency is particularly important when considering the utilization of the CNN-1 and CNN-2 decision-making outputs for process controls.</s><s>Furthermore, it's essential to recognize that non-uniform scan vector lengths may occur in scenarios involving the fabrication of intricate shapes, as observed in the authors' previous work <ref type="bibr" target="#b66">[67]</ref>.</s><s>Achieving this would necessitate substantial modifications to CNN's architectural design and rigorous testing of its robustness and predictability.</s><s>Additionally, hardware improvements would be essential for effectively managing such situations.</s><s>In addition to the domain adaptation perspective discussed in this work, it's crucial to highlight another significant point regarding acoustic monitoring in LPBF machines equipped with multiple lasers.</s><s>Relying on a single AE detector for LPBF is impractical due to the complexities of processing with multiple lasers parallelly.</s><s>These lasers create distinct sources of acoustic signals, and the potential for noise interference from various process zones makes it highly challenging to implement effective acoustic monitoring with just one AE detector.</s><s>Moreover, including multiple AE sensors can further complicate the monitoring strategy, as it requires intricate source separation, which becomes increasingly challenging when multiple lasers operate simultaneously.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p><s>In this contribution, we have proposed a methodology using an unsupervised domain adaptation technique for inferring LPBF regimes such as LoF pores, conduction mode and keyhole pores from unknown process spaces using AE signatures from known process spaces.</s><s>The two process spaces were deliberately induced by having two 316 L stainless steel powder distributions (&gt; 45 µm and &lt; 45 µm) and then processing them with two sets of laser parameters.</s><s>For the experiments in this paper, a Sisma MYSINT 100 commercial LPBF printer was used, as well as an airborne AE sensor system with a flat frequency response ranging from 0-150 kHz.</s><s>The ground truths for the three laser regimes across two process spaces were confirmed using cross-sectional images.</s><s>However, ground truth corresponding to only one process space was used for  model training on AE waveform data, and the prediction was performed on the data from the second process space.</s><s>The following generalized conclusions are drawn from the experimental results:</s></p><p><s>• Comparing AE energy captured in the frequency bands (0-150 kHz) using two process spaces across the three regimes inside the LPBF process map confirms the shifting or presence of offset in the AE signatures between them.</s></p><p><s>• The prediction results of the CNN-1 trained using cross-entropy loss on the labelled data space over the unlabelled data space reveal that the model lacks generalization.</s><s>The CNN-1 had a prediction accuracy of 98.1% on D1 and a much lower prediction accuracy of 77.4% on D2.</s></p><p><s>• The proposed associative domain adaptation-based training on CNN-2 was able to correctly infer class labels on LPBF regimes for the unlabeled AE data distribution (D2) based on the knowledge of a labelled data distribution (D1).</s><s>It is also to be noted that with an addition of computational overhead based on associative loss, the same CNN-1 architecture that failed to generalize was improvised to CNN-2, which could tackle domain shifts in the LPBF process.</s><s>As a result, the prediction accuracy of CNN-2 on both D1 and D2 was high at 98.3% and 94.8%.</s></p><p><s>With parameter identification in LPBF based on trial and error, the suggested methodology can be used to investigate novel parameter spaces that substantially reduce the time and effort and is one of the upcoming research focuses.</s><s>More research must be done to determine the methodology's viability in a more complex scenario with very soft and hard boundaries throughout LPBF regimes.</s><s>As a last note, future work will also focus on improving and fine-tuning network weights in the CNN architecture and finding appropriate weights for the parameters in the loss function to optimize training further.</s><s>The following repositories include the data and code used in this work: (<ref type="url" target="https://c4science.ch/diffusion/12676/">https://c4sci  ence.ch/diffusion/12676/</ref>).</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>Sisma MYSINT 100 coupled with airborne acoustic sensor and photodiode trigger for LPBF process.</s></p></div></figDesc><graphic coords="5,105.62,55.44,384.05,189.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. a) Time-synced photodiode trigger and corresponding acoustic emission for each scanning length.</s><s>b) Frequency spectrum computed over acoustic signals.</s></p></div></figDesc><graphic coords="5,57.66,283.60,479.95,186.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. Particle size distribution in the two 316 L powders D1 and D2 used in the study.</s></p></div></figDesc><graphic coords="5,43.14,507.80,240.05,138.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Optical micrograph for each regime across two 316 L powder distributions D1 and D2.</s></p></div></figDesc><graphic coords="6,312.09,55.42,240.05,228.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc><div><p><s>7 (a) and (b).</s><s>Building a generalizable model trained on a single source dataset and applying it to another target dataset with variations to generate accurate classifications and judgments is the aim of domain</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. Distribution of AE RMS feature for the three regimes across two 316 L powder distributions, D1 and D2.</s></p></div></figDesc><graphic coords="7,81.64,55.44,432.00,205.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig.6.</s><s>Comparison of AE energy contents between fifteen frequency bands across three regimes from two 316 L powder distributions, D1 and D2.</s></p></div></figDesc><graphic coords="7,81.64,450.48,432.00,275.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><figDesc><div><p><s>. The association loss (L associative )imposes similarity in the embedding (ϕ) between the known (A i = ϕ(x known i )) and unknown (B j = ϕ(x unknown j )) data space.</s><s>Dot product (M ij = A i .B j ) is used to compute the similarity between the embeddings and transition probabilities (Р ( B j ⃒ ⃒ A i )) from A i to B j is calculated by applying softmax on rows or columns of the ij )serves as the foundation for associative similarity.</s><s>The probability of starting from a known embedding space (A i ) and returning to another known embedding space (A j ) via the unknown embedding's (B) is denoted as similarity loss (L similarity ).</s><s>The associative loss tends to decrease on its own when only visiting unknown samples</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. Illustration of domain adaptation.</s></p></div></figDesc><graphic coords="8,81.64,55.40,432.00,162.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. Illustration of the proposed methodology for unsupervised domain adaptation.</s></p></div></figDesc><graphic coords="8,81.64,536.59,432.00,189.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig. 9. CNN architecture proposed in this work.</s></p></div></figDesc><graphic coords="9,81.64,557.12,432.00,169.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 10 .</head><label>10</label><figDesc><div><p><s>Fig. 10.</s><s>Training loss of the CNN network trained on AE signature acquired during the processing of distribution (D1).</s></p></div></figDesc><graphic coords="9,312.09,316.14,240.05,193.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig. 11.</s><s>Lower-dimensional representations computed from the CNN-1 model on distribution (D1) and distribution (D2).</s></p></div></figDesc><graphic coords="11,135.67,55.41,324.00,169.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 12 .</head><label>12</label><figDesc><div><p><s>Fig. 12. Learning curves of the CNN model.</s><s>a) Cross-entropy loss, b) Associative loss c) Network prediction accuracy.</s></p></div></figDesc><graphic coords="11,39.69,576.76,515.95,149.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 13 .</head><label>13</label><figDesc><div><p><s>Fig. 13.</s><s>Lower-dimensional representation of the domain adapted CNN network on distribution (D1) and distribution (D2).</s></p></div></figDesc><graphic coords="12,135.67,55.42,324.00,174.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 14 .</head><label>14</label><figDesc><div><p><s>Fig. 14.</s><s>Proposed training schema to address domain shift based on CNN model accuracy.</s></p></div></figDesc><graphic coords="12,105.62,267.63,384.05,215.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2</head><label>2</label><figDesc><div><p><s>Flowability and cohesive index of the two different 316 L powder distributions, D1 and D2.</s></p></div></figDesc><table><row><cell>Cohesive Index</cell></row></table><note><p>Sequence velocity</p><p><s>Particle distribution above 45 µm [D1] Particle distribution below 45 µm [D2] Speed [rpm] Angle [ • ] Cohesive Index Angle [ • ]</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3</head><label>3</label><figDesc><div><p><s>LPBF process parameters on the two different powder distributions.</s></p></div></figDesc><table><row><cell>Class labels</cell><cell cols="2">Particle distribution above 45 µm [D1]</cell><cell></cell><cell cols="2">Particle distribution below 45 µm [D2]</cell><cell></cell></row><row><cell></cell><cell>Lack of Fusion (LoF)</cell><cell>Conduction mode</cell><cell>Keyhole pores</cell><cell>Lack of Fusion (LoF)</cell><cell>Conduction mode</cell><cell>Keyhole pores</cell></row><row><cell>Laser Power (W)</cell><cell>110</cell><cell>160</cell><cell>160</cell><cell>90</cell><cell>140</cell><cell>180</cell></row><row><cell>Scan speed (mm/s)</cell><cell>800</cell><cell>400</cell><cell>75</cell><cell>800</cell><cell>400</cell><cell>75</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4</head><label>4</label><figDesc><div><p><s>Total number of AE windows of 12.5 ms (5000 data points) extracted for building the two cubes from to the particle distribution D1 and D2.</s></p></div></figDesc><table><row><cell>Particle distribution</cell><cell>LoF</cell><cell>Conduction mode</cell><cell>Keyhole</cell></row><row><cell>Above 45 µm [D1]</cell><cell>10450</cell><cell>9576</cell><cell>10082</cell></row><row><cell>Below 45 µm [D2]</cell><cell>9875</cell><cell>8977</cell><cell>11750</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 5</head><label>5</label><figDesc><div><p><s>Parameters used for the training CNN-1 with cross-entropy loss.</s></p></div></figDesc><table><row><cell>Training parameters</cell><cell>CNN-1</cell></row><row><cell>Training objective</cell><cell>Classification</cell></row><row><cell>Optimizer used</cell><cell>'adam'</cell></row><row><cell>Rate of learning</cell><cell>0.001</cell></row><row><cell>Total epochs</cell><cell>100</cell></row><row><cell>Training batch size</cell><cell>500</cell></row><row><cell>Dropout across epochs</cell><cell>0.05%</cell></row><row><cell>Loss</cell><cell>Cross-entropy loss</cell></row><row><cell>Shuffle</cell><cell>Every-epoch</cell></row><row><cell>Training dataset</cell><cell>70%</cell></row><row><cell>Testing dataset</cell><cell>30%</cell></row><row><cell>Tunable parameters</cell><cell>46,455 weights</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 6</head><label>6</label><figDesc><div><p><s>Classification scores of the trained CNN-1 model on the AE signatures from the distributions D1 and D2.Each cell's classification outcomes are arranged in the descending order listed</s></p></div></figDesc><table><row><cell>True class</cell><cell>LoF</cell><cell>Conduction</cell><cell>Keyhole</cell></row><row><cell>Predicted class [%]</cell><cell></cell><cell></cell><cell></cell></row><row><cell>LoF</cell><cell>98.3</cell><cell>1.7</cell><cell>0.0</cell></row><row><cell></cell><cell>56.9</cell><cell>43.1</cell><cell>0.0</cell></row><row><cell>Conduction</cell><cell>2.2</cell><cell>97.1</cell><cell>0.7</cell></row><row><cell></cell><cell>16.5</cell><cell>76.8</cell><cell>6.7</cell></row><row><cell>Keyhole</cell><cell>0.2</cell><cell>0.7</cell><cell>99.1</cell></row><row><cell></cell><cell>0.8</cell><cell>0.5</cell><cell>98.7</cell></row></table><note><p><s>below: D1 (Bold) and D2 (Italics).</s><s>All values are in %.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 7</head><label>7</label><figDesc><div><p><s>Parameters used for the training CNN-2 with domain adaptation.</s></p></div></figDesc><table><row><cell>Training parameters</cell><cell>CNN-2</cell></row><row><cell>Training objective</cell><cell>Classification</cell></row><row><cell>Optimizer used</cell><cell>'adam'</cell></row><row><cell>Rate of learning</cell><cell>0.001</cell></row><row><cell>Total epochs</cell><cell>100</cell></row><row><cell>Training batch size</cell><cell>500</cell></row><row><cell>Dropout across epochs</cell><cell>0.05%</cell></row><row><cell>Loss</cell><cell>Cross-entropy and Associative loss</cell></row><row><cell>Shuffle</cell><cell>Every-epoch</cell></row><row><cell>Training dataset</cell><cell>70%</cell></row><row><cell>Testing dataset</cell><cell>30%</cell></row><row><cell>Tunable parameters</cell><cell>46,455 weights</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 8</head><label>8</label><figDesc><div><p><s>Classification scores of the CNN-2 model trained with domain adaptation on the AE signatures from the two distributions, D1 and D2.</s><s>Each cell's classification outcomes are arranged in the descending order listed below: D1 (Bold) and D2 (Italics).</s><s>All values are in %.</s></p></div></figDesc><table><row><cell>True class</cell><cell>LoF</cell><cell>Conduction</cell><cell>Keyhole</cell></row><row><cell>Predicted class [%]</cell><cell></cell><cell></cell><cell></cell></row><row><cell>LoF</cell><cell>99.3</cell><cell>0.7</cell><cell>0.0</cell></row><row><cell></cell><cell>93.9</cell><cell>6.1</cell><cell>0.0</cell></row><row><cell>Conduction</cell><cell>2.0</cell><cell>97.9</cell><cell>0.1</cell></row><row><cell></cell><cell>2.9</cell><cell>91.5</cell><cell>5.6</cell></row><row><cell>Keyhole</cell><cell>0.3</cell><cell>0.5</cell><cell>99.3</cell></row><row><cell></cell><cell>0.4</cell><cell>0.3</cell><cell>99.2</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>V.P. would like to recognize the financial assistance of the project "<rs type="grantNumber">CRSII5_193799 / 1</rs>" entitled "<rs type="projectName">In situ monitoring in additive manufacturing of metals and alloys based on artificial intelligence</rs>" from the program of the <rs type="funder">Swiss National Science Foundation (SNSF)</rs>.</s><s>Furthermore, the authors also acknowledge <rs type="person">Dr Patrik Hoffmann</rs> for his significant input to the manuscript's initial draft.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_YtbfFs6">
+					<idno type="grant-number">CRSII5_193799 / 1</idno>
+					<orgName type="project" subtype="full">In situ monitoring in additive manufacturing of metals and alloys based on artificial intelligence</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability</head><p><s>The data and code sharing policy is open.</s><s>We will be sharing all of it for reproducability once the publication is accepted.</s><s>The link to the repositories are indicated in the original draft.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>CRediT authorship contribution statement Richter Roland Axel: Writingreview &amp; editing, Software, Formal analysis.</s><s>Leparoux Marc: Writingreview &amp; editing, Software, Resources, Methodology, Formal analysis.</s><s>Leinenbach Christian: Writing review &amp; editing, Supervision, Resources, Project administration, Funding acquisition.</s><s>pandiyan vigneashwara: Writingoriginal draft, Software, Methodology, Formal analysis, Data curation, Conceptualization.</s><s>Wróbel Rafał: Writingoriginal draft, Methodology, Investigation, Formal analysis, Data curation.</s><s>Shevchik Sergey: Writingreview &amp; editing, Validation, Supervision.</s></p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Laser powder bed fusion additive manufacturing of metals; physics, computational, and materials challenges</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">41304</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W.E. King, et al., Laser powder bed fusion additive manufacturing of metals; physics, computational, and materials challenges, Appl. Phys. Rev. vol. 2 (4) (2015) 041304.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<title level="m">Additive manufacturing technologies</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Gibson, et al., Additive manufacturing technologies, Springer,, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Automatic quality assessments of laser powder bed fusion builds from photodiode sensor measurements</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jayasinghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paoletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dardis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Jayasinghe, P. Paoletti, C. Sutcliffe, J. Dardis, N. Jones, P.L. Green, Automatic quality assessments of laser powder bed fusion builds from photodiode sensor measurements, Prog. Addit. Manuf. (2021) 1-18.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">High temperature material properties of IN738LC processed by selective laser melting (SLM) technology</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rickenbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hövel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wegener</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp. J</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Rickenbacher, T. Etter, S. Hövel, K. Wegener, High temperature material properties of IN738LC processed by selective laser melting (SLM) technology, Rapid Prototyp. J. (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A study of the microstructural evolution during selective laser melting of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verhaeghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3303" to="3312" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Thijs, F. Verhaeghe, T. Craeghs, J. Van Humbeeck, J.-P. Kruth, A study of the microstructural evolution during selective laser melting of Ti-6Al-4V, Acta Mater. vol. 58 (9) (2010) 3303-3312.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Graded microstructure and mechanical properties of additive manufactured Ti-6Al-4V via electron beam melting</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Tan, et al., Graded microstructure and mechanical properties of additive manufactured Ti-6Al-4V via electron beam melting, Acta Mater. vol. 97 (2015) 1-16.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Process monitoring and inspection systems in metal additive manufacturing: Status and applications</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Moon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Precis. Eng. Manuf. -Green. Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="235" to="245" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z.Y. Chua, I.H. Ahn, S.K. Moon, Process monitoring and inspection systems in metal additive manufacturing: Status and applications, Int. J. Precis. Eng. Manuf. -Green. Technol. vol. 4 (2) (2017) 235-245.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Complexity of Selective Laser Melting: a new optimisation approach</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Elsen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.Van Elsen, Complexity of Selective Laser Melting: a new optimisation approach, 2007.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">In-process sensing in selective laser melting (SLM) additive manufacturing</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Spears</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Gold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr. Mater. Manuf. Innov</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="16" to="40" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T.G. Spears, S.A. Gold, In-process sensing in selective laser melting (SLM) additive manufacturing, Integr. Mater. Manuf. Innov. vol. 5 (1) (2016) 16-40.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of processing parameters on direct laser sintering of multicomponent Cu based metal powder</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1449" to="1455" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gu, Y. Shen, J. Yang, Y. Wang, Effects of processing parameters on direct laser sintering of multicomponent Cu based metal powder, Mater. Sci. Technol. vol. 22 (12) (2006) 1449-1455.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Parameters in selective laser melting for processing metallic powders</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kurzynowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chlebus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kuźnicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">High Power Laser Materials Processing: Lasers, Beam Delivery, Diagnostics, and Applications</title>
+		<imprint>
+			<publisher>International Society for Optics and Photonics</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">8239</biblScope>
+			<biblScope unit="page">823914</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Kurzynowski, E. Chlebus, B. Kuźnicka, J. Reiner, Parameters in selective laser melting for processing metallic powders, in: High Power Laser Materials Processing: Lasers, Beam Delivery, Diagnostics, and Applications, vol. 8239, International Society for Optics and Photonics, 2012 823914.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Analysis of laser-melt pool-powder bed interaction during the selective laser melting of a stainless steel</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gunenthiram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Coste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fabbro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">22303</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Gunenthiram, P. Peyre, M. Schneider, M. Dal, F. Coste, R. Fabbro, Analysis of laser-melt pool-powder bed interaction during the selective laser melting of a stainless steel, J. Laser Appl. vol. 29 (2) (2017) 022303.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Balling phenomena in direct laser sintering of stainless steel powder: metallurgical mechanisms and control methods</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2903" to="2910" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gu, Y. Shen, Balling phenomena in direct laser sintering of stainless steel powder: metallurgical mechanisms and control methods, Mater. Des. vol. 30 (8) (2009) 2903-2910.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Balling phenomena during direct laser sintering of multicomponent Cu-based metal powder</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">432</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="163" to="166" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gu, Y. Shen, Balling phenomena during direct laser sintering of multi- component Cu-based metal powder, J. Alloy. Compd. vol. 432 (1-2) (2007) 163-166.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Balling behavior of stainless steel and nickel powder during selective laser melting process</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1025" to="1035" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Li, J. Liu, Y. Shi, L. Wang, W. Jiang, Balling behavior of stainless steel and nickel powder during selective laser melting process, Int. J. Adv. Manuf. Technol. vol. 59 (9) (2012) 1025-1035.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Analysis of defect generation in Ti-6Al-4V parts made using powder bed fusion additive manufacturing processes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="87" to="98" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Gong, K. Rafi, H. Gu, T. Starr, B. Stucker, Analysis of defect generation in Ti-6Al-4V parts made using powder bed fusion additive manufacturing processes, Addit. Manuf. vol. 1 (2014) 87-98.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Defect formation mechanisms in selective laser melting: a review</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Bai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chin. J. Mech. Eng</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="515" to="527" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Zhang, Y. Li, Q. Bai, Defect formation mechanisms in selective laser melting: a review, Chin. J. Mech. Eng. vol. 30 (3) (2017) 515-527.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Study of keyhole-porosities in selective laser melting using X-ray computed tomography</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thanki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. iCT</title>
+		<meeting>iCT</meeting>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Thanki, et al., Study of keyhole-porosities in selective laser melting using X-ray computed tomography, Proc. iCT 2019 (2019) 1-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Observation of keyhole-mode laser melting in laser powder-bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2915" to="2925" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W.E. King, et al., Observation of keyhole-mode laser melting in laser powder-bed fusion additive manufacturing, J. Mater. Process. Technol. vol. 214 (12) (2014) 2915-2925.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of manufacturing parameters on mechanical properties of 316L stainless steel parts fabricated by selective laser melting: a computational framework</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mirzaeifar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Turabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="328" to="338" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Ahmadi, R. Mirzaeifar, N.S. Moghaddam, A.S. Turabi, H.E. Karaca, M. Elahinia, Effect of manufacturing parameters on mechanical properties of 316L stainless steel parts fabricated by selective laser melting: a computational framework, Mater. Des. vol. 112 (2016) 328-338.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Review of in-situ process monitoring and in-situ metrology for metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Everton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stravroulakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Leach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Clare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="431" to="445" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.K. Everton, M. Hirsch, P. Stravroulakis, R.K. Leach, A.T. Clare, Review of in-situ process monitoring and in-situ metrology for metal additive manufacturing, Mater. Des. vol. 95 (2016) 431-445.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A review on process monitoring and control in metal-based additive manufacturing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tapia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elwany</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Tapia, A. Elwany, A review on process monitoring and control in metal-based additive manufacturing, J. Manuf. Sci. Eng. vol. 136 (6) (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Densification behavior, microstructure evolution, and wear performance of selective laser melting processed commercially pure titanium</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3849" to="3860" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gu, et al., Densification behavior, microstructure evolution, and wear performance of selective laser melting processed commercially pure titanium, Acta Mater. vol. 60 (9) (2012) 3849-3860.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">An improved prediction of residual stresses and distortion in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="360" to="372" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Mukherjee, W. Zhang, T. DebRoy, An improved prediction of residual stresses and distortion in additive manufacturing, Comput. Mater. Sci. vol. 126 (2017) 360-372.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The influence of the laser scan strategy on grain structure and cracking behaviour in SLM powder-bed fabricated nickel superalloy</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">615</biblScope>
+			<biblScope unit="page" from="338" to="347" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.N. Carter, C. Martin, P.J. Withers, M.M. Attallah, The influence of the laser scan strategy on grain structure and cracking behaviour in SLM powder-bed fabricated nickel superalloy, J. Alloy. Compd. vol. 615 (2014) 338-347.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">On the delamination and crack formation in a thin wall fabricated using laser solid freeform fabrication process: An experimental-numerical investigation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alimardani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Toyserkani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Huissoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lasers Eng</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1160" to="1168" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Alimardani, E. Toyserkani, J.P. Huissoon, C.P. Paul, On the delamination and crack formation in a thin wall fabricated using laser solid freeform fabrication process: An experimental-numerical investigation, Opt. Lasers Eng. vol. 47 (11) (2009) 1160-1168.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Understanding the effect of laser scan strategy on residual stress in selective laser melting through thermo-mechanical simulation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Parry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Wildman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Parry, I. Ashcroft, R.D. Wildman, Understanding the effect of laser scan strategy on residual stress in selective laser melting through thermo-mechanical simulation, Addit. Manuf. vol. 12 (2016) 1-15.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Processing optimisation, mechanical properties and microstructural evolution during selective laser melting of Cu-15Sn high-tin bronze</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng.: A</title>
+		<imprint>
+			<biblScope unit="volume">721</biblScope>
+			<biblScope unit="page" from="125" to="134" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Mao, D.Z. Zhang, J. Jiang, G. Fu, P. Zhang, Processing optimisation, mechanical properties and microstructural evolution during selective laser melting of Cu-15Sn high-tin bronze, Mater. Sci. Eng.: A vol. 721 (2018) 125-134.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">In situ monitoring of selective laser melting of zinc powder via infrared imaging of the process plume</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Demir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Previtali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Colosimo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Robot. Comput. -Integr. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="229" to="239" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Grasso, A. Demir, B. Previtali, B. Colosimo, In situ monitoring of selective laser melting of zinc powder via infrared imaging of the process plume, Robot. Comput. -Integr. Manuf. vol. 49 (2018) 229-239.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Review on thermal analysis in laser-based additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Laser Technol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="427" to="441" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Yan, et al., Review on thermal analysis in laser-based additive manufacturing, Opt. Laser Technol. vol. 106 (2018) 427-441.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Pyrometric analysis of thermal processes in SLM technology</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pavlov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doubenskaia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smurov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Procedia</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="523" to="531" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Pavlov, M. Doubenskaia, I. Smurov, Pyrometric analysis of thermal processes in SLM technology, Phys. Procedia vol. 5 (2010) 523-531.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Investigation of laser consolidation process for metal powder by two-color pyrometer and high-speed video camera</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Alkahari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hosokawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Ann</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="223" to="226" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Furumoto, T. Ueda, M.R. Alkahari, A. Hosokawa, Investigation of laser consolidation process for metal powder by two-color pyrometer and high-speed video camera, CIRP Ann. vol. 62 (1) (2013) 223-226.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Melt Pool Dimension Measurement In Selective Laser Melting Using Thermal Imaging Bo Cheng</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lydon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Northrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">James Lydon</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2017">2017</date>
+			<pubPlace>Vernon Cole3</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Paul Northrop3, Kevin Chou1</note>
+	<note type="raw_reference">B. Cheng, J. Lydon, K. Cooper, V. Cole, P. Northrop, and K. Chou, Melt Pool Dimension Measurement In Selective Laser Melting Using Thermal Imaging Bo Cheng1, James Lydon2, Kenneth Cooper2, Vernon Cole3, Paul Northrop3, Kevin Chou1, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Melt pool characterization for selective laser melting of Ti-6Al-4V pre-alloyed powder</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Solid freeform fabrication symposium</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="256" to="267" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Gong et al., Melt pool characterization for selective laser melting of Ti-6Al-4V pre-alloyed powder, in Solid freeform fabrication symposium, 2014, pp. 256-267.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Melt pool feature analysis using a high-speed coaxial monitoring system for laser powder bed fusion of Ti-6Al-4 V grade 23</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thanki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="6497" to="6514" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Thanki, et al., Melt pool feature analysis using a high-speed coaxial monitoring system for laser powder bed fusion of Ti-6Al-4 V grade 23, Int. J. Adv. Manuf. Technol. vol. 120 (9) (2022) 6497-6514.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Mechanisms and characteristics of spatter generation in SLM processing and its effect on the properties</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="121" to="130" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Wang, et al., Mechanisms and characteristics of spatter generation in SLM processing and its effect on the properties, Mater. Des. vol. 117 (2017) 121-130.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Selective laser melting process monitoring with high speed infra-red camera and pyrometer</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bayle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doubenskaia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fundamentals of laser assisted microand nanotechnologies</title>
+		<imprint>
+			<publisher>International Society for Optics and Photonics</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="volume">6985</biblScope>
+			<biblScope unit="page">698505</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Bayle, M. Doubenskaia, Selective laser melting process monitoring with high speed infra-red camera and pyrometer, in: Fundamentals of laser assisted micro- and nanotechnologies, vol. 6985, International Society for Optics and Photonics, 2008 698505.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Extraction and evaluation of melt pool, plume and spatter information for powder-bed fusion AM process monitoring</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Fuh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="458" to="469" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Zhang, G.S. Hong, D. Ye, K. Zhu, J.Y. Fuh, Extraction and evaluation of melt pool, plume and spatter information for powder-bed fusion AM process monitoring, Mater. Des. vol. 156 (2018) 458-469.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">In situ quality control of the selective laser melting process using a high-speed, real-time melt pool monitoring system</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Clijsters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">5-8</biblScope>
+			<biblScope unit="page" from="1089" to="1101" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Clijsters, T. Craeghs, S. Buls, K. Kempen, J.-P. Kruth, In situ quality control of the selective laser melting process using a high-speed, real-time melt pool monitoring system, Int. J. Adv. Manuf. Technol. vol. 75 (5-8) (2014) 1089-1101.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Acoustic emission for in situ quality monitoring in additive manufacturing using spectral convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shevchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kenel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leinenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="598" to="604" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A. Shevchik, C. Kenel, C. Leinenbach, K. Wasmer, Acoustic emission for in situ quality monitoring in additive manufacturing using spectral convolutional neural networks, Addit. Manuf. vol. 21 (2018) 598-604.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence for monitoring and control of metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Masinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shevchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandiyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Quang-Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Additive Manufacturing in Products and Applications</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="205" to="220" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Masinelli, S.A. Shevchik, V. Pandiyan, T. Quang-Le, K. Wasmer, Artificial intelligence for monitoring and control of metal additive manufacturing. International Conference on Additive Manufacturing in Products and Applications, Springer, 2020, pp. 205-220.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Laser powder-bed fusion additive manufacturing: physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="36" to="45" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A. Khairallah, A.T. Anderson, A. Rubenchik, W.E. King, Laser powder-bed fusion additive manufacturing: physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones, Acta Mater. vol. 108 (2016) 36-45.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Toward determining melt pool quality metrics via coaxial monitoring in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yeung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manuf. Lett</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="119" to="121" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B.A. Fisher, B. Lane, H. Yeung, J. Beuth, Toward determining melt pool quality metrics via coaxial monitoring in laser powder bed fusion, Manuf. Lett. vol. 15 (2018) 119-121.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Real-time monitoring of laser powder bed fusion process using highspeed X-ray imaging and diffraction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Zhao, et al., Real-time monitoring of laser powder bed fusion process using high- speed X-ray imaging and diffraction, Sci. Rep. vol. 7 (1) (2017) 1-11.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Modelling and monitoring of abrasive finishing processes using artificial intelligence techniques: A review</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandiyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shevchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Castagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tjahjowidodo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="114" to="135" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Pandiyan, S. Shevchik, K. Wasmer, S. Castagne, T. Tjahjowidodo, Modelling and monitoring of abrasive finishing processes using artificial intelligence techniques: A review, J. Manuf. Process. vol. 57 (2020) 114-135.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Analysis of time, frequency and time-frequency domain features from acoustic emissions during Laser Powder-Bed fusion process</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandiyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Drissi-Daoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shevchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Masinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Logé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="392" to="397" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Pandiyan, R. Drissi-Daoudi, S. Shevchik, G. Masinelli, R. Logé, K. Wasmer, Analysis of time, frequency and time-frequency domain features from acoustic emissions during Laser Powder-Bed fusion process, Procedia CIRP vol. 94 (2020) 392-397.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Differentiation of materials and laser powder bed fusion processing regimes from airborne acoustic emission combined with machine learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Drissi-Daoudi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="204" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Drissi-Daoudi, et al., Differentiation of materials and laser powder bed fusion processing regimes from airborne acoustic emission combined with machine learning, Virtual Phys. Prototyp. vol. 17 (2) (2022) 181-204.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Porosity prediction: supervised-learning of thermal history for direct laser deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khanzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marufuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tschopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="69" to="82" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Khanzadeh, S. Chowdhury, M. Marufuzzaman, M.A. Tschopp, L. Bian, Porosity prediction: supervised-learning of thermal history for direct laser deposition, J. Manuf. Syst. vol. 47 (2018) 69-82.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Dual process monitoring of metal-based additive manufacturing using tensor decomposition of thermal image streams</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khanzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yadollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Doude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tschopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="443" to="456" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Khanzadeh, W. Tian, A. Yadollahi, H.R. Doude, M.A. Tschopp, L. Bian, Dual process monitoring of metal-based additive manufacturing using tensor decomposition of thermal image streams, Addit. Manuf. vol. 23 (2018) 443-456.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Application of supervised machine learning for defect detection during metallic powder bed fusion additive manufacturing using high resolution imaging</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Reutzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Petrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Nassar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Phoha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="517" to="528" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Gobert, E.W. Reutzel, J. Petrich, A.R. Nassar, S. Phoha, Application of supervised machine learning for defect detection during metallic powder bed fusion additive manufacturing using high resolution imaging, Addit. Manuf. vol. 21 (2018) 517-528.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Automatic Fault Detection for Selective Laser Melting using Semi-Supervised Machine Learning</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Okaroa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jayasingheb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutcliffeb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blackb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paolettia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Greena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I.A. Okaroa, S. Jayasingheb, C. Sutcliffeb, K. Blackb, P. Paolettia, and P.L. Greena, Automatic Fault Detection for Selective Laser Melting using Semi-Supervised Machine Learning, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Defects recognition in selective laser melting with acoustic signals by SVM based on feature reduction</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MS&amp;E</title>
+		<imprint>
+			<biblScope unit="volume">436</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">12020</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Ye, Y. Fuh, Y. Zhang, G. Hong, K. Zhu, Defects recognition in selective laser melting with acoustic signals by SVM based on feature reduction, MS&amp;E vol. 436 (1) (2018) 012020.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Perspectives of using machine learning in laser powder bed fusion for metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="372" to="386" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Sing, C. Kuo, C. Shih, C. Ho, C. Chua, Perspectives of using machine learning in laser powder bed fusion for metal additive manufacturing, Virtual Phys. Prototyp. vol. 16 (3) (2021) 372-386.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Applications of machine learning in process monitoring and controls of L-PBF additive manufacturing: a review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mahmoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magolon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elbestawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Mohammadi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">11910</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Mahmoud, M. Magolon, J. Boer, M. Elbestawi, M.G. Mohammadi, Applications of machine learning in process monitoring and controls of L-PBF additive manufacturing: a review, Appl. Sci. vol. 11 (24) (2021) 11910.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A multi-scale convolutional neural network for autonomous anomaly detection and classification in a laser powder bed fusion additive manufacturing process</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Scime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="273" to="286" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Scime, J. Beuth, A multi-scale convolutional neural network for autonomous anomaly detection and classification in a laser powder bed fusion additive manufacturing process, Addit. Manuf. vol. 24 (2018) 273-286.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Anomaly detection and classification in a laser powder bed additive manufacturing process using a trained computer vision algorithm</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Scime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="114" to="126" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Scime, J. Beuth, Anomaly detection and classification in a laser powder bed additive manufacturing process using a trained computer vision algorithm, Addit. Manuf. vol. 19 (2018) 114-126.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Detection of powder bed defects in selective laser sintering using convolutional neural network</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Xiao, M. Lu, H. Huang, Detection of powder bed defects in selective laser sintering using convolutional neural network, Int. J. Adv. Manuf. Technol. (2020) 1-12.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Porosity Detection in Powder Bed Fusion Additive Manufacturing with Convolutional Neural Networks</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rönnau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dillmann</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">P. Becker, C. Roth, A. Rönnau, and R. Dillmann, Porosity Detection in Powder Bed Fusion Additive Manufacturing with Convolutional Neural Networks.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Deep transfer learning of additive manufacturing mechanisms across materials in metal-based laser powder bed fusion process</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandiyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">303</biblScope>
+			<biblScope unit="page">117531</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Pandiyan, et al., Deep transfer learning of additive manufacturing mechanisms across materials in metal-based laser powder bed fusion process, J. Mater. Process. Technol. vol. 303 (2022) 117531.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Deep learning for in situ and real-time quality monitoring in additive manufacturing using acoustic emission</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shevchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Masinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kenel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leinenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Ind. Inform</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="5194" to="5203" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A. Shevchik, G. Masinelli, C. Kenel, C. Leinenbach, K. Wasmer, Deep learning for in situ and real-time quality monitoring in additive manufacturing using acoustic emission, IEEE Trans. Ind. Inform. vol. 15 (9) (2019) 5194-5203.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Using convolutional neural networks to classify melt pools in a pulsed selective laser melting process</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="486" to="499" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Xing, X. Chu, T. Lyu, C.-G. Lee, Y. Zou, Y. Rong, Using convolutional neural networks to classify melt pools in a pulsed selective laser melting process, J. Manuf. Process. vol. 74 (2022) 486-499.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">A deep neural network for classification of melt-pool images in metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kwon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Intell. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="375" to="386" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Kwon, et al., A deep neural network for classification of melt-pool images in metal additive manufacturing, J. Intell. Manuf. vol. 31 (2) (2020) 375-386.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">A deep learning-based model for defect detection in laser-powder bed fusion using in-situ thermographic monitoring</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Baumgartl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Merkel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Baumgartl, J. Tomas, R. Buettner, M. Merkel, A deep learning-based model for defect detection in laser-powder bed fusion using in-situ thermographic monitoring, Prog. Addit. Manuf. (2020) 1-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Defect detection in selective laser melting technology by acoustic signals with deep belief networks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y H</forename><surname>Fuh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The, Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">5-8</biblScope>
+			<biblScope unit="page" from="2791" to="2801" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Ye, G.S. Hong, Y. Zhang, K. Zhu, J.Y.H. Fuh, Defect detection in selective laser melting technology by acoustic signals with deep belief networks, The, Int. J. Adv. Manuf. Technol. vol. 96 (5-8) (2018) 2791-2801.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Machine learningbased image processing for on-line defect recognition in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caggiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caiazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Teti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Ann</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="451" to="454" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Caggiano, J. Zhang, V. Alfieri, F. Caiazzo, R. Gao, R. Teti, Machine learning- based image processing for on-line defect recognition in additive manufacturing, CIRP Ann. vol. 68 (1) (2019) 451-454.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">A convolutional neural network-based multisensor fusion approach for in-situ quality monitoring of selective laser melting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="429" to="442" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Li, Q. Zhou, L. Cao, Y. Wang, J. Hu, A convolutional neural network-based multi- sensor fusion approach for in-situ quality monitoring of selective laser melting, J. Manuf. Syst. vol. 64 (2022) 429-442.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Deep learning-based monitoring of laser powder bed fusion process on variable time-scales using heterogeneous sensing and operando X-ray radiography guidance</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandiyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">103007</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Pandiyan, et al., Deep learning-based monitoring of laser powder bed fusion process on variable time-scales using heterogeneous sensing and operando X-ray radiography guidance, Addit. Manuf. vol. 58 (2022) 103007.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Heterogeneous sensing and scientific machine learning for quality assurance in laser powder bed fusion-a single-track study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gaikwad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Giera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Forien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">101659</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Gaikwad, B. Giera, G.M. Guss, J.-B. Forien, M.J. Matthews, P. Rao, Heterogeneous sensing and scientific machine learning for quality assurance in laser powder bed fusion-a single-track study, Addit. Manuf. vol. 36 (2020) 101659.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Semi-Supervised Learning for Selective Laser Melting Monitoring via In-Situ Videos</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Giera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mcmains</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Livermore, CA (United States</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Lawrence Livermore National Lab ; LLNL)</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">B. Yuan, B. Giera, G. Guss, S. McMains, Semi-Supervised Learning for Selective Laser Melting Monitoring via In-Situ Videos, Lawrence Livermore National Lab. (LLNL),, Livermore, CA (United States), 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Semi-supervised Monitoring of Laser powder bed fusion process based on acoustic emissions</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandiyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="481" to="497" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Pandiyan, et al., Semi-supervised Monitoring of Laser powder bed fusion process based on acoustic emissions, Virtual Phys. Prototyp. vol. 16 (4) (2021) 481-497.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">A review on machine learning in 3D printing: applications, potential, and challenges</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yeong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell. Rev</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="94" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Goh, S. Sing, W. Yeong, A review on machine learning in 3D printing: applications, potential, and challenges, Artif. Intell. Rev. vol. 54 (1) (2021) 63-94.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">The Shannon sampling theorem-Its various extensions and applications: a tutorial review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Jerri</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/PROC.1977.10771</idno>
+		<ptr target="https://doi.org/10.1109/PROC.1977.10771" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE</title>
+		<meeting>IEEE</meeting>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1565" to="1596" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.J. Jerri, The Shannon sampling theorem-Its various extensions and applications: a tutorial review, Proc. IEEE vol. 65 (11) (1977) 1565-1596, https:// doi.org/10.1109/PROC.1977.10771.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Measurement of actual powder layer height and packing density in a single layer in selective laser melting</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Wischeropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Emmelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pateras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="176" to="183" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T.M. Wischeropp, C. Emmelmann, M. Brandt, A. Pateras, Measurement of actual powder layer height and packing density in a single layer in selective laser melting, Addit. Manuf. vol. 28 (2019) 176-183.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Deep visual domain adaptation: A survey</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Deng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page" from="135" to="153" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Wang, W. Deng, Deep visual domain adaptation: A survey, Neurocomputing vol. 312 (2018) 135-153.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Deep coral: Correlation alignment for deep domain adaptation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">European conference on computer vision</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="443" to="450" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Sun, K. Saenko, Deep coral: Correlation alignment for deep domain adaptation. European conference on computer vision, Springer,, 2016, pp. 443-450.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Integrating expert knowledge with domain adaptation for unsupervised fault diagnosis</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Taal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Fink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Instrum. Meas</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Q. Wang, C. Taal, O. Fink, Integrating expert knowledge with domain adaptation for unsupervised fault diagnosis, IEEE Trans. Instrum. Meas. vol. 71 (2021) 1-12.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Cross-domain adaptation network based on attention mechanism for tool wear prediction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Intell. Manuf</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. He, Y. Sun, C. Yin, Y. He, Y. Wang, Cross-domain adaptation network based on attention mechanism for tool wear prediction, J. Intell. Manuf. (2022) 1-23.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Transfer joint matching for unsupervised domain adaptation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Conf. Comput. Vis. Pattern Recognit</title>
+		<meeting>IEEE Conf. Comput. Vis. Pattern Recognit</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="1410" to="1417" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Long, J. Wang, G. Ding, J. Sun, P.S. Yu, Transfer joint matching for unsupervised domain adaptation, Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (2014) 1410-1417.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">A brief review of domain adaptation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Farahani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Voghoei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rasheed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Arabnia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Data Sci. Inf. Eng</title>
+		<imprint>
+			<biblScope unit="page" from="877" to="894" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Farahani, S. Voghoei, K. Rasheed, H.R. Arabnia, A brief review of domain adaptation, Adv. Data Sci. Inf. Eng. (2021) 877-894.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Associative domain adaptation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haeusser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Frerix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mordvintsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cremers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. Comput. Vis</title>
+		<meeting>IEEE Int. Conf. Comput. Vis</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="2765" to="2773" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Haeusser, T. Frerix, A. Mordvintsev, D. Cremers, Associative domain adaptation, Proc. IEEE Int. Conf. Comput. Vis. (2017) 2765-2773.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Deep transfer learning of additive manufacturing mechanisms across materials in metal-based laser powder bed fusion process</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandiyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">303</biblScope>
+			<biblScope unit="page">117531</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Pandiyan, et al., Deep transfer learning of additive manufacturing mechanisms across materials in metal-based laser powder bed fusion process, J. Mater. Process. Technol. vol. 303 (2022) 117531.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Self-Supervised Bayesian representation learning of acoustic emissions from laser powder bed Fusion process for in-situ monitoring</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandiyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wróbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leparoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leinenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shevchik</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2023.112458</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2023.112458" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">235</biblScope>
+			<biblScope unit="page">112458</biblScope>
+			<date type="published" when="2023">2023. 2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Pandiyan, R. Wróbel, R. Axel Richter, M. Leparoux, C. Leinenbach, S. Shevchik, Self-Supervised Bayesian representation learning of acoustic emissions from laser powder bed Fusion process for in-situ monitoring, 2023/11/01/, Mater. Des. vol. 235 (2023) 112458, https://doi.org/10.1016/j.matdes.2023.112458.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

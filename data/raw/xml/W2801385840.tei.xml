@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An instrument for in situ time-resolved X-ray imaging and diffraction of laser powder bed fusion additive manufacturing processes</title>
+				<funder ref="#_pTXqthB #_RKYPEmD #_nhMZrgH">
+					<orgName type="full">Advanced Manufacturing Office</orgName>
+				</funder>
+				<funder ref="#_Tyhx5a3">
+					<orgName type="full">U.S. Department of Energy, National Nuclear Security Administration</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Lawrence Livermore National Security, LLC</orgName>
+				</funder>
+				<funder ref="#_dykj4zS">
+					<orgName type="full">U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences</orgName>
+				</funder>
+				<funder ref="#_C58JZQB">
+					<orgName type="full">Office of Energy Efficiency and Renewable Energy</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">U.S. Department of Energy&apos;s Office of Energy Efficiency and Renewable Energy</orgName>
+					<orgName type="abbreviated">EERE</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-05-01">1 May 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Nicholas</forename><forename type="middle">P</forename><surname>Calta</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Physical and Life Sciences Directorate , Lawrence Livermore National Laboratory , Livermore , California 94550 , USA</note>
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jenny</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Physical and Life Sciences Directorate , Lawrence Livermore National Laboratory , Livermore , California 94550 , USA</note>
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">M</forename><surname>Kiss</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Stanford Synchrotron Radiation Lightsource , SLAC National Accelerator Laboratory , Menlo Park , California 94025 , USA</note>
+								<orgName type="laboratory">Stanford Synchrotron Radiation Lightsource</orgName>
+								<orgName type="institution">SLAC National Accelerator Laboratory</orgName>
+								<address>
+									<postCode>94025</postCode>
+									<settlement>Menlo Park</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aiden</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+							<idno type="ORCID">0000-0003-2362-5524</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Physical and Life Sciences Directorate , Lawrence Livermore National Laboratory , Livermore , California 94550 , USA</note>
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philip</forename><forename type="middle">J</forename><surname>Depond</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Physical and Life Sciences Directorate , Lawrence Livermore National Laboratory , Livermore , California 94550 , USA</note>
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gabriel</forename><forename type="middle">M</forename><surname>Guss</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Engineering Directorate , Lawrence Livermore National Laboratory , Livermore , California 94550 , USA</note>
+								<orgName type="department">Engineering Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vivek</forename><surname>Thampy</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Stanford Synchrotron Radiation Lightsource , SLAC National Accelerator Laboratory , Menlo Park , California 94025 , USA</note>
+								<orgName type="laboratory">Stanford Synchrotron Radiation Lightsource</orgName>
+								<orgName type="institution">SLAC National Accelerator Laboratory</orgName>
+								<address>
+									<postCode>94025</postCode>
+									<settlement>Menlo Park</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><forename type="middle">Y</forename><surname>Fong</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Stanford Synchrotron Radiation Lightsource , SLAC National Accelerator Laboratory , Menlo Park , California 94025 , USA</note>
+								<orgName type="laboratory">Stanford Synchrotron Radiation Lightsource</orgName>
+								<orgName type="institution">SLAC National Accelerator Laboratory</orgName>
+								<address>
+									<postCode>94025</postCode>
+									<settlement>Menlo Park</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Johanna</forename><surname>Nelson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><forename type="middle">H</forename><surname>Stone</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Stanford Synchrotron Radiation Lightsource , SLAC National Accelerator Laboratory , Menlo Park , California 94025 , USA</note>
+								<orgName type="laboratory">Stanford Synchrotron Radiation Lightsource</orgName>
+								<orgName type="institution">SLAC National Accelerator Laboratory</orgName>
+								<address>
+									<postCode>94025</postCode>
+									<settlement>Menlo Park</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">J</forename><surname>Tassone</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Stanford Synchrotron Radiation Lightsource , SLAC National Accelerator Laboratory , Menlo Park , California 94025 , USA</note>
+								<orgName type="laboratory">Stanford Synchrotron Radiation Lightsource</orgName>
+								<orgName type="institution">SLAC National Accelerator Laboratory</orgName>
+								<address>
+									<postCode>94025</postCode>
+									<settlement>Menlo Park</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">J</forename><surname>Kramer</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Division of Materials Science and Engineering , Ames Laboratory , Iowa State University , Ames , Iowa 50011 , USA</note>
+								<orgName type="department">Division of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Ames Laboratory</orgName>
+								<orgName type="institution">Iowa State University</orgName>
+								<address>
+									<postCode>50011</postCode>
+									<settlement>Ames</settlement>
+									<region>Iowa</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">F</forename><surname>Toney</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Stanford Synchrotron Radiation Lightsource , SLAC National Accelerator Laboratory , Menlo Park , California 94025 , USA</note>
+								<orgName type="laboratory">Stanford Synchrotron Radiation Lightsource</orgName>
+								<orgName type="institution">SLAC National Accelerator Laboratory</orgName>
+								<address>
+									<postCode>94025</postCode>
+									<settlement>Menlo Park</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><surname>Van Buuren</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Physical and Life Sciences Directorate , Lawrence Livermore National Laboratory , Livermore , California 94550 , USA</note>
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Manyalibo</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Physical and Life Sciences Directorate , Lawrence Livermore National Laboratory , Livermore , California 94550 , USA</note>
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Johanna</forename><forename type="middle">Nelson</forename><surname>Weker</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Stanford Synchrotron Radiation Lightsource , SLAC National Accelerator Laboratory , Menlo Park , California 94025 , USA</note>
+								<orgName type="laboratory">Stanford Synchrotron Radiation Lightsource</orgName>
+								<orgName type="institution">SLAC National Accelerator Laboratory</orgName>
+								<address>
+									<postCode>94025</postCode>
+									<settlement>Menlo Park</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An instrument for in situ time-resolved X-ray imaging and diffraction of laser powder bed fusion additive manufacturing processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-05-01">1 May 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CC6A1CD392C1E2C68CF21B3CE7BF1A5F</idno>
+					<idno type="DOI">10.1063/1.5017236</idno>
+					<note type="submission">Received 26 November 2017; accepted 9 April 2018;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T13:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s><ref type="url" target="https://pubs.aip.org/lia/jla/article/29/2/022303/97091/Analysis-of-laser-melt-pool-powder-bed-interaction">Analysis of laser-melt pool-powder bed interaction during the selective laser melting of a stainless steel</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Laser Applications (May 2017)</head><p><s><ref type="url" target="https://pubs.aip.org/lia/jla/article/34/4/042036/2844125/Electrochemical-behavior-of-laser-powder-bed">Electrochemical behavior of laser powder bed fusion fabricated 316L stainless steel in a nitric acid solution</ref> Journal of Laser Applications (November 2022)</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p><s>Laser Powder Bed Fusion (LPBF), also known as Selective Laser Melting or Laser Beam Melting, is a rapidly developing additive manufacturing technology that provides significant design flexibility relative to conventional manufacturing techniques and enables the production of highly complex parts at minimal added cost for low-volume production. <ref type="bibr" target="#b0">1</ref> In a LPBF process, a high power (∼100's of W) continuous wave (CW) laser selectively scans over a thin metal powder layer, generating a melt pool that rapidly solidifies to create a two-dimensional solid layer adhered to the substrate or part beneath it.</s><s>After each solid, patterned layer is created, the part is lowered, and a new powder layer is spread over the part.</s><s>The process is then repeated to build a fully three-dimensional part in a layer-by-layer fashion.</s><s>The significant differences between this process and more established manufacturing techniques, such as casting and forging, lead to different mechanical properties for parts built with LPBF when compared with wrought or cast material.</s><s><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> One approach to understanding and predicting these differences is to carry out time-resolved in situ experiments at the melt pool scale (∼10's of µm) to improve understanding of the fundamental mechanisms that govern the LPBF process.</s><s>Information gleaned from in situ experiments coupled with ex situ part inspection can inform process models, reduce process development time and costs, and improve part quality by identifying laser scan parameters optimized to minimize defect formation or produce a desired microstructure.</s></p><p><s>A large body of literature exists, which has focused on in situ process monitoring of LPBF to improve process outcomes in an attempt to understand the process and validate models.</s><s><ref type="bibr" target="#b3">4</ref> Recently, high-speed visible imaging has been used to elucidate the evolution of melt pool morphology and powder movement in and around the melt pool during a build.</s><s><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> For example, Ly et al. resolved the origins of hot droplet ejection or spatter emanating from the melt pool region during LPBF.</s><s><ref type="bibr" target="#b5">6</ref> Bidare et al. used Schlieren imaging to understand the interaction of the laser plume with process gas in the build chamber.</s><s><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> In addition to visible light-illuminated imaging, thermal emission imaging has been used to measure the surface temperature of the melt pool <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> or the entire build.</s><s><ref type="bibr" target="#b14">15</ref> Melt pool morphology has also been investigated via in situ measurements of the pool depth using inline coherent imaging, an interferometry-based technique.</s><s><ref type="bibr" target="#b15">16</ref> While these approaches based on optical methods provide important information about the dynamics of the LPBF process, they are limited to surface imaging only and cannot provide information about bulk material behavior.</s><s>In contrast, X-raybased probes are highly penetrating and can non-destructively</s></p><p><s>0034-6748/2018/89(5)/055101/8 89, 055101-1 © Author(s) 2018</s></p><p><s>capture melt pool dynamics in the bulk as well as provide structural information through diffraction.</s><s>Taken together, highspeed optical, thermal, and X-ray diagnostics can provide highly complementary information about process dynamics during LPBF.</s><s>Many of the rapid solidification phenomena relevant to LPBF are quite similar to those present in welding.</s><s>Elmer and co-workers carried out numerous X-ray diffraction experiments during welding and quantified the dynamics of solidification and solid-state phase transitions on cooling for Ti alloys <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> and stainless steels.</s><s><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref> Yonemura et al. also used time-resolved synchrotron X-ray diffraction to study the dynamics of solidification during welding of stainless steel.</s><s><ref type="bibr" target="#b22">23</ref> While this prior work provides important context for understanding solidification and phase transitions in LPBF, the time scales relevant for welding are much longer than the dynamics of LPBF.</s><s>Time resolution of 100 ms is sufficient to resolve cooling dynamics in diffraction experiments of Ti-6Al-4V (Ti-64) welding, <ref type="bibr" target="#b16">17</ref> while cooling in LPBF is expected to occur on time scales of a few milliseconds.</s><s><ref type="bibr" target="#b23">24</ref> Therefore, higher sampling rates are required to completely elucidate the dynamics of the laser-material interaction in LPBF.</s><s>Zhao et al. have reported high-speed X-ray imaging and diffraction of the interaction between a laser and Ti-64 powder under conditions similar to LPBF. <ref type="bibr" target="#b24">25</ref> Although their report achieved high temporal resolution (20 µs), which provides valuable insight into the dynamics of the laser-powder interaction, Zhao et al. used a stationary laser spot and so were unable to probe dynamics related to laser scanning present in LPBF.</s><s>Kenel et al. performed in situ X-ray microdiffraction of rapid solidification in Ti-64 under well-defined cooling conditions with 1 ms time resolution, providing additional insight into the fundamental solidification behavior of this alloy under LPBF-like conditions.</s><s><ref type="bibr" target="#b25">26</ref> They performed cyclic heating and cooling to elucidate microstructural evolution induced by thermal behavior similar to what occurs in a multi-layer build, though the thermal boundary conditions in their experiment represent a somewhat different case than what is present in an LPBF build.</s><s>In this article, we report a laser melting system designed and built to simulate LPBF conditions of a commercial machine while also accommodating instrumentation to enable high temporal and spatial resolution in situ X-ray probes.</s><s>We also report initial X-ray imaging and diffraction experiments using this instrument at the Stanford Synchrotron Radiation Lightsource (SSRL).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INSTRUMENT DESIGN</head><p><s>Figure <ref type="figure" target="#fig_0">1</ref> summarizes the experimental approach used for in situ X-ray imaging and diffraction during LPBF.</s><s>LPBF is a complex process that is not perfectly reproducible in its details, and the stochastic nature of the powder and melt dynamics do not allow for the exact stitching of sequential experiments.</s><s>Therefore, continuous data collection of a single event is required to gain insight into the process.</s><s>This precludes most averaging approaches, and the ultimate temporal resolution is limited by the brilliance of the X-ray source.</s></p><p><s>Figure <ref type="figure" target="#fig_1">2</ref> shows the detailed design and photographs of the LPBF system.</s><s>The system design mimics the conditions present in a typical LPBF build while still permitting sufficient X-ray transmission to probe the area in and around the melt pool at high sampling rates.</s><s>A single-mode, 1070 nm, 500 W, continuous wave (CW) fiber laser (IPG Photonics, Oxford, MA, USA, YLR-500-WC-Y14) is coupled directly to a 3-axis galvanometer scanning mirror system (Nutfield Technology, Hudson, NH, USA, 3XB 3-Axis Scan Head).</s><s>The scan head focuses the process laser onto the substrate surface and steers the laser across the substrate to create the moving melt pool required for the LPBF process.</s><s>The output from the scan head is directed through an anti-reflective coated window affixed to a 2.75 ConFlat (CF) port into a 168.9 mm internal diameter, 60.96-mm-wide spherical octagon vacuum chamber with eight equally spaced radial 2.75 CF ports between two larger parallel 8 CF ports (Kimball Physics, Wilton, NH, USA, MCF800-SphOct-G2C8). Unused ports around the chamber sides allow for future incorporation of secondary probes to monitor the process with more traditional optical techniques simultaneously with X-ray probes.</s><s>The two large vacuum ports are sealed with 500-µm-thick, 142.2 mm diameter Be apertures to allow X-ray transmission.</s><s>The narrow chamber width minimizes the X-ray path length inside the Ar-filled chamber to reduce background signal due to scattering.</s><s>The process laser is focused to ∼50 µm diameter (D4σ) circular Gaussian beam shape at the sample surface [Fig.</s><s><ref type="figure" target="#fig_1">2(c)</ref>].</s><s>The vacuum chamber is evacuated by a diaphragm/turbo molecular pump system (Pfeiffer Vacuum, Nashua, NH, USA, HiCube 80), and Ar gas is admitted by a flow control valve (MKS Instruments, Andover, MA, USA, 248A) to allow for control over the atmosphere of the experiments.</s><s>An Ar gas environment is used as a non-reactive environment for all the experiments described here.</s><s>A gasspecies-independent pressure transducer (MKS Instruments, 910 DualTrans) is used for pressure monitoring.</s><s>The system is a light-tight, portable, Class 1 enclosed laser system, permitting convenient transportation to various beamlines at SSRL optimized for either X-ray imaging or diffraction.</s><s>In a typical experiment, the laser power can be set between 20 and 500 W nominal power and scanned over the substrate surface at any scanning rate between 0 and ∼2000 mm/s.</s></p><p><s>The sample substrate and holder are shown in Fig. <ref type="figure" target="#fig_2">3</ref>. Sample design must satisfy two competing constraints: it must be thin enough to permit sufficient X-ray transmission for adequate signal to noise for both imaging and diffraction in transmission geometry while also being thick enough to reasonably mimic the thermal boundary conditions experienced in a true LPBF environment.</s><s>A suitable compromise geometry to satisfy these two requirements is a thin substrate plate sandwiched between two 1-mm-thick glassy carbon windows (Alfa Aesar, Tewksbury, MA, USA).</s><s>In this geometry, the laser scans parallel to the windows while the X-ray beam is perpendicular to the substrate.</s><s>Thick substrates provide insufficient transmission for imaging and diffraction at the kHz rates required to resolve process dynamics.</s><s>However, a thin substrate enforces thermal boundary conditions that differ from the bulk conditions present in a normal LPBF build.</s><s>The substrate width chosen to balance these competing requirements in the experiments described here is 500 µm, although the sample holder allows for an adjustable substrate width between 0 and 2 mm.</s><s>To investigate the effect of thermal boundary conditions on the temperature profiles present in these experiments, we used both an analytical estimate of the thermal diffusion length as well as more comprehensive finite element calculations of thermal transport.</s><s>The thermal diffusion length in a material being heated by a Gaussian heat source can be written as L = √ 4Dτ, where L represents thermal diffusion length, D is thermal diffusivity, and τ is thermal diffusion time.</s><s><ref type="bibr" target="#b26">27</ref> For a scanning laser beam, which we treat as a scanning Gaussian heat source, the steady-state thermal diffusion length during the interaction time can be written as L = 2D a u , where a represents the 1/e 2 diameter of the laser beam and u represents scanning velocity.</s><s><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> For this estimate, we use a = 50 µm, the measured beam diameter in our system; u = 144 mm s 1 , the scan speed used for the imaging data reported here; and D = 5.6 × 10 6 m 2 s 1 , the reported value for Ti-64 at 1500 K. <ref type="bibr" target="#b29">30</ref> Based on these estimates, L = ∼62 µm, significantly smaller than 250 µm, the distance between the heat source and the glassy carbon thermal boundary condition.</s><s>The primary limitation of this estimate is that it uses a single value for D, which varies as a function of temperature.</s><s>To understand the influence of thermal boundary conditions beyond the simple estimate presented above, a finite element model implemented in COMSOL calculated the thermal transport resulting from the above laser scan parameters in a 500-µm-thick Ti-64 bare substrate.</s><s>Two systems were compared: a case in which the substrate was supported between two glassy carbon windows, as in the experiments described here, and a case where the two windows were composed of Ti-64 to mimic a bulk LPBF case.</s><s>Both cases used radiative boundary conditions with ε = 0.6.</s><s>The geometry of the model is shown in Fig. <ref type="figure" target="#fig_4">4(a</ref>).</s><s>The measured intensity of the laser spot is shown in Fig. <ref type="figure" target="#fig_3">4</ref>(b) on the same scale.</s><s>The model used temperature-dependent properties of Ti-64 obtained from Boivineau et al. <ref type="bibr" target="#b29">30</ref> and room temperature density and thermal conductivity for glassy carbon provided by Alfa Aesar, with glassy carbon heat capacity obtained from two literature sources.</s><s><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> Optical constants for Ti metal were taken from Johnson and Christy.</s><s><ref type="bibr" target="#b32">33</ref> In addition to heat transfer in the liquid and solid, the model includes evaporative and radiative losses based on kinetic theory accounting for latent heat of vaporization and heat flux.</s><s>Temperature-dependent vapor pressure <ref type="bibr" target="#b33">34</ref> and heat of vaporization <ref type="bibr" target="#b34">35</ref> values for elemental Ti were used as an approximation of the value for the Ti-64 alloy.</s><s>It neglects Marangoni flow in the melt pool, so thermal gradients within the melt pool will not be accurately calculated, but this should not affect the accuracy of cooling in the solid, far from the melt pool.</s><s>A two-dimensional thermal profile within the Ti-64 substrate at the laser location is shown in Fig. <ref type="figure" target="#fig_4">4(c</ref>).</s><s>This thermal profile was extracted from the case using glassy carbon windows.</s><s>The temperature at the glassy carbon windows is below 300 K, suggesting no effect of boundary conditions on melt pool dynamics.</s><s>Compared thermal profiles of the two cases are shown in Figs.</s><s><ref type="figure" target="#fig_4">4(d</ref>) and 4(e).</s><s>The difference between the thermal profiles in the two cases is negligibly small, and we therefore conclude that the thermal boundary conditions of the glassy carbon windows do not substantially affect the melt pool dynamics under these conditions for the case of a bare plate.</s><s>Heat conduction through the metal plate is at least 1 order of magnitude larger than conduction through the powder layer; <ref type="bibr" target="#b35">36</ref> so conduction through the plate should dominate in the powder case as well.</s><s>We further note that for a laser spot size of ∼50 µm, a melt pool width of ∼150 µm is expected for scan speeds and laser powers typical of the LPBF process, <ref type="bibr" target="#b23">24</ref> which leaves &gt;150 µm of unmelted material between the melt pool and the glassy carbon windows.</s></p><p><s>As the solidified material approaches room temperature during cooling, for example, in the heat-affected zone (HAZ) probed during diffraction experiments, the effect of thermal boundary conditions imposed by glassy carbon windows will become more pronounced.</s><s>Therefore, any analysis of lattice dynamics during cooling using diffraction must include thorough modeling to understand the influence of thermal boundary conditions on the measured diffraction patterns.</s><s>The glassy carbon windows are supported independent of the substrate plate, allowing an adjustable height differential between the glassy carbon windows and the substrate.</s><s>The height of the glassy carbon window above the substrate determines the thickness of the powder layer, which was nominally set to 60 ± 20 µm.</s><s>The 500-µm-thick Ti-64 substrates were machined from sheet (TMS Titanium, Poway, CA, USA).</s><s>The Ti-64 powder (Additive Metal Alloys, Maumee, OH, USA) used had a particle diameter of 30 ± 10 µm.</s><s>This powder layer was manually applied, but an automated spreader is being developed to improve layer uniformity and reduce spreading time.</s><s>The entire sample holder assembly is supported by three encoded piezoelectric stages (Attocube Systems AG, Munich, Germany), providing motion in the two directions normal to the X-ray beam (vertically and horizontally) as well as one tilt axis.</s></p><p><s>The practical limit on temporal resolution at the two beamlines used in this manuscript is overall X-ray flux.</s><s>With the imaging detection scheme described here, signal-to-noise ratios dropped to unacceptable levels at exposure times shorter than ∼250 µs, corresponding to 4 kHz imaging.</s><s>During normal user operations, X-ray pulses at SSRL arrive in bunches of 4 spaced 30 ns apart.</s><s><ref type="bibr" target="#b36">37</ref> Since the time scale of the pulse bunches is 4 orders of magnitude smaller than the shortest exposure time we use in this report, we treat the X-ray source as continuous for the purpose of timing and synchronization.</s><s>In a typical experiment, the sample is continuously illuminated by the X-ray beam, and a control computer sends a trigger to a delay generator (DG645, Stanford Research Systems, Sunnyvale, CA, USA), which sends a trigger to the scan head controller followed by a trigger to the camera to initiate data recording at a variable delay time after the mirrors begin to scan.</s><s>The scan head controller then triggers the laser to turn on a time delay empirically optimized to account for finite mirror acceleration.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>X-RAY IMAGING</head><p><s>X-ray imaging experiments were carried out at SSRL beamline 2-2.</s><s>The X-rays available at this beamline are generated by a 1.25 T bend magnet with a critical energy of 7.4 keV. Figure <ref type="figure" target="#fig_5">5(a)</ref> shows the calculated X-ray spectrum produced by this bend magnet.</s><s>A 6.35-mm-thick Al plate was used as an X-ray filter upstream from the sample to remove low-energy X-rays and protect the detection system from damage by the full emission of the bend magnet source.</s><s>The in situ imaging experiments were conducted using this filtered X-ray spectrum to maximize high-energy X-ray flux.</s></p><p><s>X-rays transmitted through the sample and chamber are recorded using a high-speed imaging setup.</s><s>The transmitted X-rays first hit a Tl-doped NaI scintillator crystal positioned directly behind the exit Be window of the chamber, which converts the X-ray photons to visible light.</s><s>This visible light is then collected by a Nikon CFI Plan Super Fluor 10×/NA0.5 microscope objective (Nikon Corporation, Tokyo, Japan) positioned 1.2 mm behind the scintillator crystal.</s><s>The image is then redirected by a silver-coated mirror at 45 • and collected by an infinity-corrected tube lens (Thorlabs, Inc., Newton, NJ, USA) coupled to a pco.dimax</s><s>S4 CMOS recording camera (PCO AG, Kelheim, Germany).</s><s>The recording camera features a 12-bit, 2016 × 2016 sensor with 11 µm square pixels.</s><s>It stores images locally during data collection, permitting a maximum frame rate of 1.2 kHz at full resolution and up to 27 kHz with a 480 × 240 region of interest.</s><s>Each image is flat-field referencecorrected and converted from transmission to absorption using Beer's law.</s><s>This detection scheme yields an effective pixel size of 1.1 µm and a 2.2 × 2.2 mm field of view when using the full sensor.</s></p><p><s>Vapor depression depth and shape are very difficult to measure with surface-sensitive optical techniques but are relatively straightforward to determine using X-ray imaging because of the significant density contrast between the solid/liquid Ti-64 and Ar gas present in the vapor depression.</s><s>Furthermore, the perspective of a 2D projection perpendicular to both the laser beam and its path is an extremely useful one for measuring depression depth and shape.</s><s>These measurements are therefore of high value for model validation.</s><s>Melt pool depth information can be readily extracted from ex situ sectioning and metallography, <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b37">38</ref> but such experiments provide information only about the total depth of the melt, not the dynamic depth or shape of the depression induced by the recoil pressure from the metal vapor plume.</s><s><ref type="bibr" target="#b23">24</ref> Similarly, X-ray imaging is uniquely suited to observing the dynamics of pore formation during LPBF because it can directly detect pore formation and motion.</s></p><p><s>A montage of frames from a typical video is shown in Fig. <ref type="figure" target="#fig_5">5(b</ref>).</s><s>These images show the change in X-ray absorption relative to the start of the video to the current frame; i.e.</s><s>A(t) A(t 0 ), where A(t) is the measured absorption in the frame collected at time t and A(t 0 ) is the absorption measured in the first frame of the video, time t 0 .</s><s>Therefore, dark regions represent a loss of material density, grey regions represent no change, and lighter regions represent an increase in material density.</s><s>For this scan, the laser power and scan speed are set to 100 W and 144 mm/s, respectively.</s><s>These settings supply a higher energy density than is desired for a typical build.</s><s>Due to the high energy density, the melt pool is relatively wide and the thermal boundary conditions imposed by the glassy carbon windows may influence melt pool behavior.</s><s>In this montage, the laser scans from right to left across the substrate.</s><s>The laser scan causes four major features in the images.</s><s>First, a significant amount of material is lost in the powder layer, a result of powder movement, which causes the well-known denudation effect during LPBF.</s><s><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b38">39</ref> This appears as a large dark region above the substrate.</s><s>Second, a track of deposited material is evident behind the laser, which appears as a small light region above the original powder-substrate interface.</s><s>Third, a narrow dark region protruding into the substrate follows the laser scan, representing a lack of material caused by the depression of the melt pool surface due to recoil pressure.</s><s>The density change in this region is near the noise level of the measurement and therefore is difficult to resolve, but it is a consistent feature of the data and we therefore conclude that it is not an artifact.</s><s>Fourth, a small, oval-shaped region of decreased density appears starting at 1 ms due to the formation of a keyhole pore, in which the deep melt depression collapses and traps a void deep in the substrate.</s><s>The pore is ellipsoidal with major and minor axes of 38 ± 3 µm and 25 ± 3 µm, respectively, and forms 136 ± 10 µm underneath the initial powder-substrate interface and 188 ± 10 µm below the surface of the newly deposited track.</s><s>The major source of uncertainty in these position values arises from ambiguity in defining the exact location of the interface between the substrate and the powder.</s><s>These dimensions are consistent with other observations of keyholetype porosity in LPBF parts.</s><s><ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b39">40</ref> Such pores are an undesirable feature that is often present in LPBF builds and significantly reduce the fatigue lifetime of as-built LPBF parts relative to wrought material.</s><s><ref type="bibr" target="#b40">41</ref> Observing pore formation in situ provides valuable data for simulating the melt pool behavior that causes them.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>X-RAY DIFFRACTION</head><p><s>X-ray diffraction experiments were performed at SSRL beamline 10-2.</s><s>The X-rays at this beamline are generated by a 33 pole, 1.27 T wiggler source.</s><s>The X-ray beam is passed through a double crystal Si monochromator to select the photon energy and focused to a ∼160 × 600 µm spot using Rhcoated bent cylinder mirrors.</s><s>These experiments used 20 keV (λ = 0.6199 Å) X-rays, the highest energy at which the mirrors can effectively focus the beam without a significant loss in flux.</s><s>For the in situ diffraction experiments, slits were used to further reduce the beam size to 50 µm (vertical) by 100 µm (horizontal), which provides an approximate flux of 10 11 photons s 1 over the beam area.</s><s>The horizontal spot size is also related to the ultimate temporal resolution available.</s><s>The laser scans through the horizontal beam size over a finite amount of time dictated by the scan speed, so if the horizontal beam size is large relative to the distance traveled in the exposure time, the diffraction pattern obtained will probe regions of the sample in different states, complicating the interpretation of the lattice dynamics.</s><s>The diameter of the Be window on the back side of the chamber allows for 2θ max = ∼41 • if the sample is placed in the middle of the chamber, which corresponds to Q max = ∼7 Å 1 for 20 keV X-rays.</s></p><p><s>An Eiger 1M area detector (Dectris Ltd., Switzerland) with a total detection area of 77 × 79.9 mm 2 and pixel pitch of 75 × 75 µm 2 was used to record the diffracted X-rays.</s><s>It was positioned approximately 128 mm behind the sample to provide full azimuthal coverage for data with Q max = ∼2.98</s><s>Å 1 with a Q resolution ∆Q/Q ∼ 0.005 Å 1 .</s><s>This Q range captures the full powder diffraction ring of the (100), (002), and (101) reflections from hexagonal close-packed (hcp, P6 3 /mmc) α-Ti and the (110) reflection from body-centered cubic (bcc, Im 3m) β-Ti.</s><s>A movable diode beam stop wrapped in Pb foil was used to monitor the intensity of the transmitted X-ray beam and shield the detector from damage caused by the direct X-ray beam.</s><s>Detector distance and tilt were calibrated with a LaB 6 standard spread as a powder layer on top of a Ti-64 substrate.</s><s>The X-ray beam only sampled the LaB 6 powder, not the metal substrate.</s><s>Data integration and calibration of detector distance and tilt were performed with the GSAS-II software package.</s><s><ref type="bibr" target="#b41">42</ref> Figure <ref type="figure">6</ref> shows typical diffraction data collected from a 500-µm-thick Ti-64 substrate with a ∼60-µm-thick powder layer.</s><s>Data were collected at a sampling rate of 1 kHz, and the laser was set to a power of 400 W with a scan speed of 576 mm/s.</s><s>The X-ray beam was positioned with the beam center ∼25 µm below the top of the substrate, as illustrated in Fig. <ref type="figure">6(a)</ref>.</s><s>In this geometry, the entire sampled volume is within the substrate, with minimal contributions from the powder layer.</s><s>Figure <ref type="figure">6(b)</ref> shows the sum of 1500 diffraction patterns collected at 1 kHz, the equivalent of a 1.5 s collection.</s><s>The (100), (002), and (101) α-Ti reflections are noted with arrows.</s><s>Figure <ref type="figure">6(c</ref>) shows a two-dimensional diffraction pattern collected at 1 kHz prior to laser melting.</s><s>A time series of integrated one-dimensional diffraction patterns collected at 1 kHz is shown in Fig. <ref type="figure">6(d</ref>).</s><s>Prior to laser exposure, the three α-Ti peaks are present in addition to a very small (110) β-Ti peak between the (002) and (101) α-Ti reflections [Fig.</s><s><ref type="figure">6(e)</ref>].</s><s>Immediately after laser melting at t = 0 ms, the sampled volume includes contributions from the re-solidified zone and the heat-affected zone (HAZ) on either side of the track.</s><s>All the peaks are shifted to lower Q due to thermal expansion.</s><s>Furthermore, the three α-Ti peaks are lower in intensity and the (110) β-Ti peak is much more intense, indicating that the solidified material is cooling in the cubic β-Ti structure and comprises a large fraction of the sampled volume while the HAZ has warmed significantly from room temperature but FIG. <ref type="figure">6</ref>. Diffraction patterns collected at SSRL beamline 10-2.</s><s>(a) A cartoon illustrating the beam location relative to the substrate-powder interface for the powder patterns shown here.</s><s>The beam center is positioned ∼25 µm below the interface (b) The sum of many frames from an in situ diffraction experiment on a Ti-64 substrate with powder on top.</s><s>The three labelled rings correspond to peaks from α-Ti, and the scattered spots are background scatter from the Be windows of the chamber.</s><s>(c) A single diffraction frame collected at 1 kHz.</s><s>The most intense pixel is ∼10 counts, but the color scale is set lower for clarity.</s><s>(d) Time series of 1 kHz patterns during a laser melting experiment with a laser power of 400 W and scan speed of 576 mm/s, where time t = 0 corresponds to when the laser passes through the X-ray beam.</s><s>Immediately upon laser melting, all three α-Ti peaks abruptly shift to lower Q due to thermal expansion and an intense (110) β-Ti peak (red arrow) appears at Q = ∼2.68</s><s>Å 1 .</s><s>This peak quickly shifts to higher Q due to contraction upon cooling and intensity abruptly drops after ∼8 ms during the β-α phase transition.</s><s>(e) Integrated X-ray diffraction pattern at t = 5, shortly before laser melting.</s></p><p><s>remains in the α-Ti structure.</s><s>After t = 10 ms, the (110) β-Ti peak has disappeared and once again the diffraction pattern reflects a sample composed primarily of α-Ti with a small β-Ti contribution.</s><s>Diffraction patterns collected before and after laser melting show differences in the peak shape and position of the three α-Ti peaks, indicating a change in macroand micro-strain states.</s><s>These observations of rapid crystallographic changes during cooling provide insight into the unique microstructural features of LPBF-made materials.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p><s>We report the design and implementation of a laboratoryscale LPBF instrument optimized to enable in situ X-ray experiments at a synchrotron radiation source while providing an environment that is representative of a full-scale LPBF machine.</s><s>Experiments performed at SSRL produced 4 kHz imaging data with an effective pixel size of 1.1 µm and 1 kHz diffraction data from a 50 × 100 µm region.</s><s>Initial inspection of the data reveals pore formation, melt depression dynamics, temperature-dependent lattice dynamics, and the β-Ti-α-Ti phase transition upon cooling in Ti-64.</s><s>Ongoing upgrades to the detection scheme and sample holder will enable multi-layer experiments, faster sample preparation for higher throughput, and improved signal-to-noise ratios to increase maximum achievable sampling rates.</s><s>Future experiments will include integration with optical process monitors to facilitate correlation between sub-surface defect formation and surfacesensitive optical detection approaches.</s><s>Such correlations will provide direct insight into defect detection by online process monitoring during LPBF, a significant challenge for qualifying and certifying LPBF parts.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1 .</head><label>1</label><figDesc><div><p><s>FIG. 1. Schematic diagram of the experimental geometry.</s><s>(a) Schematic diagram of the imaging setup.</s><s>A large, unfocused, polychromatic X-ray beam impinges on the sample normal to the process laser beam, and the transmitted signal is converted from X-rays (purple) to visible light (blue).</s><s>The visible light is collected by imaging optics and recorded by a high-speed CMOS camera.</s><s>(b) Schematic diagram of the diffraction setup.</s><s>In this setup, a monochromatic, focused X-ray beam impinges on the sample in a similar geometry to the imaging setup, and the diffracted X-rays are directly detected by a hybrid photon counting detector positioned behind the sample.</s></p></div></figDesc><graphic coords="3,326.92,60.52,204.48,100.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG. 2 .</head><label>2</label><figDesc><div><p><s>FIG. 2. LPBF chamber design details.</s><s>(a) A computer-aided design (CAD) rendering of the chamber.</s><s>(b) A CAD rendering of the laser beam path inside the scan head, illustrating the focusing optics and scan mirrors.</s><s>L1 is the expander lens group, ∼f /4, and L2 is the objective lens group, ∼f /3.1.</s><s>(c) The profile of the laser beam spot at focus.</s><s>(d) A photograph of the system assembled at beamline 2-2 of SSRL.</s><s>(e) A cross-section view of the interior of the chamber from a perspective parallel to the X-ray beam, with each chamber port labelled with its use.</s><s>The laser beam is shown in red and the X-ray spot in purple.</s><s>(f) Photograph of the sample holder installed inside the LPBF chamber.</s><s>The holder sits on positioning motors, and a Kapton film behind the motor and sample serves as a sacrificial screen to protect the Be window from damage by spatter particles.</s></p></div></figDesc><graphic coords="4,118.97,60.52,354.00,186.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 3 .</head><label>3</label><figDesc><div><p><s>FIG.3.</s><s>Sample holder design.</s><s>(a) CAD rendering of the sample holder geometry in imaging mode, with a large, polychromatic X-ray beam illuminating most of the track.</s><s>(b) Similar CAD rendering of the sample holder in diffraction mode, with a smaller, monochromatic X-ray beam spot to limit the sampling volume and extract location-specific information.</s><s>Note that (a) and (b) are schematic illustrations and are not drawn to scale.</s><s>In reality, both the laser beam and powder particles are significantly smaller relative to the substrate width.</s><s>[(c) and (d)] Photographs of the sample holder with glassy carbon windows and a substrate, but without powder.</s><s>(e) Ex situ image of a typical single weld track in the sample holder, viewed from above, prior to powder removal.</s><s>Edges of the glassy carbon windows are highlighted with a dashed orange line.</s><s>A significant amount of powder remains on the glassy carbon windows due to spills during powder spreading and powder redistribution during the weld itself.</s><s>Note the significant gap between the track and the glassy carbon windows.</s></p></div></figDesc><graphic coords="4,47.97,415.30,234.48,195.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>055101- 4 Calta</head><label>4</label><figDesc><div><p><s>et al.Rev.</s><s>Sci.</s><s>Instrum.</s><s>89, 055101 (2018)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIG. 4 .</head><label>4</label><figDesc><div><p><s>FIG. 4. Effect of thermal boundary conditions on heat transport in a thin substrate.</s><s>(a) Geometry of the 3D finite element model, with Ti-64 substrate positioned in between glassy carbon or Ti-64 "windows."</s><s>The scanning laser is represented as a heat flux source on the top surface, z = 0. (b) Measured Gaussian intensity profile of the laser beam.</s><s>(c) Simulated temperature distribution perpendicular to the scan direction at the laser location when the laser reaches the midpoint of the track (t = 0.1725 ms).</s><s>The edge of the plot corresponds to the substrate-window boundary, which is glassy carbon in this case.</s><s>(d) Comparison of temperature evolution as a function of time in the middle of the laser scan track.</s><s>Curves correspond to the top of the sample and 50 µm deep in the substrate.</s><s>Note the negligible difference between the glassy carbon case and the Ti-64 case.</s><s>(e) Thermal profile comparison in the Ti-64 substrate perpendicular to the laser scan direction at the laser location at the same time as (c).</s></p></div></figDesc><graphic coords="5,43.11,422.91,354.00,337.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FIG. 5 .</head><label>5</label><figDesc><div><p><s>FIG. 5. X-ray imaging of a typical melt pool region.</s><s>(a) Simulated X-ray spectra produced at SSRL beamline 2-2, used for imaging.</s><s>Both the full emission from the bend magnet and the attenuated spectrum experienced at the sample are shown.</s><s>(b) A series of frames collected at 4 kHz during a scan.</s><s>Each frame shows the absorption difference A(t) A(t 0 ) such that darker regions represent decreases in absorption (or material) and lighter regions represent increases in absorption (or material).</s><s>The t 0 frame was collected before +0.00 ms and is not shown.</s><s>The laser moves from right to left, and the approximate location (within ∼50 µm) is marked with a red line.</s><s>A void, circled in orange, forms beginning in the +1.00 ms frame.</s></p></div></figDesc><graphic coords="6,57.46,527.28,479.52,176.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><graphic coords="1,0.00,0.00,116.21,852.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><graphic coords="1,130.00,645.29,435.00,116.71" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p><s>September</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2023" xml:id="foot_1"><p><s>21:21:04</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p><s>This material is based upon work supported by the <rs type="funder">U.S. Department of Energy's Office of Energy Efficiency and Renewable Energy (EERE)</rs> under the <rs type="funder">Advanced Manufacturing Office</rs>, CPA Agreement Nos.</s><s><rs type="grantNumber">32035</rs>, <rs type="grantNumber">32037</rs>, and <rs type="grantNumber">32038</rs>.</s><s><rs type="institution">Lawrence Livermore National Laboratory</rs> is operated by <rs type="funder">Lawrence Livermore National Security, LLC</rs>, for the <rs type="funder">U.S. Department of Energy, National Nuclear Security Administration</rs> under Contract No. <rs type="grantNumber">DE-AC52-07NA27344</rs>.</s><s>Use of the <rs type="institution" subtype="infrastructure">Stanford Synchrotron Radiation Lightsource</rs>, <rs type="institution" subtype="infrastructure">SLAC National Accelerator Laboratory</rs>, is supported by the <rs type="funder">U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences</rs> under Contract No. <rs type="grantNumber">DE-AC02-76SF00515</rs>.</s><s>Work at the <rs type="institution">Ames Laboratory</rs> was supported by the <rs type="funder">Office of Energy Efficiency and Renewable Energy</rs> under Contract No. <rs type="grantNumber">DE-AC02-07CH11358</rs>.</s><s>The authors acknowledge experimental assistance from <rs type="person">Doug Van Campen</rs>, <rs type="person">Matthew Latimer</rs>, and <rs type="person">Ron Marks</rs> as well as helpful discussions with <rs type="person">Peter Collins</rs> and <rs type="person">Ryan Ott</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_pTXqthB">
+					<idno type="grant-number">32035</idno>
+				</org>
+				<org type="funding" xml:id="_RKYPEmD">
+					<idno type="grant-number">32037</idno>
+				</org>
+				<org type="funding" xml:id="_nhMZrgH">
+					<idno type="grant-number">32038</idno>
+				</org>
+				<org type="funding" xml:id="_Tyhx5a3">
+					<idno type="grant-number">DE-AC52-07NA27344</idno>
+				</org>
+				<org type="funding" xml:id="_dykj4zS">
+					<idno type="grant-number">DE-AC02-76SF00515</idno>
+				</org>
+				<org type="funding" xml:id="_C58JZQB">
+					<idno type="grant-number">DE-AC02-07CH11358</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Stanford Synchrotron Radiation Lightsource</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">SLAC National Accelerator Laboratory</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ferencz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Hodge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kamath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4937809</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">41304</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. E. King, A. T. Anderson, R. M. Ferencz, N. E. Hodge, C. Kamath, S. A. Khairallah, and A. M. Rubenchik, Appl. Phys. Rev. 2, 041304 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vrancken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2012.07.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">541</biblScope>
+			<biblScope unit="page">177</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Vrancken, L. Thijs, J.-P. Kruth, and J. Van Humbeeck, J. Alloys Compd. 541, 177 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Mulay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Florando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Barton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2016.04.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">666</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. P. Mulay, J. A. Moore, J. N. Florando, N. R. Barton, and M. Kumar, Mater. Sci. Eng. A 666, 43 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Everton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stravroulakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Leach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Clare</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2016.01.099</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">431</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. K. Everton, M. Hirsch, P. Stravroulakis, R. K. Leach, and A. T. Clare, Mater. Des. 95, 431 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Depond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.05.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. Matthews, G. Guss, S. A. Khairallah, A. M. Rubenchik, P. J. Depond, and W. E. King, Acta Mater. 114, 33 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-04237-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">4085</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ly, A. M. Rubenchik, S. A. Khairallah, G. Guss, and M. J. Matthews, Sci. Rep. 7, 4085 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><surname>Scipioni Bertoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schoenung</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2017.09.044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page">385</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. Scipioni Bertoli, G. Guss, S. Wu, M. J. Matthews, and J. M. Schoenung, Mater. Des. 135, 385 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmt.2017.08.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Mater. Today</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">341</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Trapp, A. M. Rubenchik, G. Guss, and M. J. Matthews, Appl. Mater. Today 9, 341 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bidare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R J</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Shephard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2017.06.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">177</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Bidare, R. R. J. Maier, R. J. Beck, J. D. Shephard, and A. J. Moore, Addit. Manuf. 16, 177 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bidare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bitharas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2017.09.051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page">107</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Bidare, I. Bitharas, R. M. Ward, M. M. Attallah, and A. J. Moore, Acta Mater. 142, 107 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pavlov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doubenskaia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smurov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phpro.2010.08.080</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Procedia</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">523</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Pavlov, M. Doubenskaia, and I. Smurov, Phys. Procedia 5, 523 (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moylan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Whitenton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/rpj-11-2015-0161</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyping J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">778</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Lane, S. Moylan, E. P. Whitenton, and L. Ma, Rapid Prototyping J. 22, 778 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yeung</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.2263863</idno>
+		<title level="m">Proc. SPIE</title>
+		<meeting>SPIE</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">10214</biblScope>
+			<biblScope unit="page">1021407</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. C. Fox, B. M. Lane, and H. Yeung, Proc. SPIE 10214, 1021407 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Alkahari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cirp.2013.03.032</idno>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Ann</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page">223</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Furumoto, T. Ueda, M. R. Alkahari, and A. Hosokawa, CIRP Ann. 62, 223 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mireles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Terrazas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Espalin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Wicker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2014.12.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Rodriguez, J. Mireles, C. A. Terrazas, D. Espalin, M. A. Perez, and R. B. Wicker, Addit. Manuf. 5, 31 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kanko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Sibley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2015.12.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="page">488</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. A. Kanko, A. P. Sibley, and J. M. Fraser, J. Mater. Process. Technol. 231, 488 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1737476</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">8327</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. W. Elmer, T. A. Palmer, S. S. Babu, W. Zhang, and T. DebRoy, J. Appl. Phys. 95, 8327 (2004).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1537464</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">1941</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. W. Elmer, T. A. Palmer, and J. Wong, J. Appl. Phys. 93, 1941 (2003).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ressler</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-998-0317-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">2761</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. W. Elmer, J. Wong, and T. Ressler, Metall. Mater. Trans. A 29, 2761 (1998).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vitek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>David</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1359-6454(02)00317-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">4763</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Babu, J. Elmer, J. Vitek, and S. David, Acta Mater. 50, 4763 (2002).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/136217102225004194</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Technol. Weld. Joining</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">159</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. A. Palmer, J. W. Elmer, and J. Wong, Sci. Technol. Weld. Joining 7, 159 (2002).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ressler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049502020289</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Synchrotron Radiat</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">154</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wong, T. Ressler, and J. W. Elmer, J. Synchrotron Radiat. 10, 154 (2003).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yonemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Osuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Terasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Komizo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kitano</surname></persName>
+		</author>
+		<idno type="DOI">10.2320/matertrans.47.310</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">310</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Yonemura, T. Osuki, H. Terasaki, Y. Komizo, M. Sato, and A. Kitano, Mater. Trans. 47, 310 (2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.02.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. A. Khairallah, A. T. Anderson, A. Rubenchik, and W. E. King, Acta Mater. 108, 36 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Carlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-03761-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">3602</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Zhao, K. Fezzaa, R. W. Cunningham, H. Wen, F. De Carlo, L. Chen, A. D. Rollett, and T. Sun, Sci. Rep. 7, 3602 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kenel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grolimund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Panepucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Samson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leinenbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-16760-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">16358</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Kenel, D. Grolimund, X. Li, E. Panepucci, V. A. Samson, D. F. Sanchez, F. Marone, and C. Leinenbach, Sci. Rep. 7, 16358 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Von Allmen</surname></persName>
+		</author>
+		<title level="m">Laser-Beam Interactions with Materials</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlang</publisher>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. B. von Allmen, Laser-Beam Interactions with Materials (Springer- Verlang, New York, 1995).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Hann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Iammi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Folkes</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/44/44/445401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. D: Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">445401</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. B. Hann, J. Iammi, and J. Folkes, J. Phys. D: Appl. Phys. 44, 445401 (2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Gallegos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kamath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2014.06.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page">2915</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. E. King, H. D. Barth, V. M. Castillo, G. F. Gallegos, J. W. Gibbs, D. E. Hahn, C. Kamath, and A. M. Rubenchik, J. Mater. Process. Technol. 214, 2915 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boivineau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cagran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Doytier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Eyraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Nadal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wilthan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pottlacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/pl00021868</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Thermophys</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">507</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Boivineau, C. Cagran, D. Doytier, V. Eyraud, M.-H. Nadal, B. Wilthan, and G. Pottlacher, Int. J. Thermophys. 27, 507 (2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shinzato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baba</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1011594609521</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Therm. Anal. Calorim</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page">413</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Shinzato and T. Baba, J. Therm. Anal. Calorim. 64, 413 (2001).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Westrum</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0021-9614(70)90028-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Thermodyn</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">847</biblScope>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Takahashi and E. F. Westrum, J. Chem. Thermodyn. 2, 847 (1970).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Christy</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.9.5056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">5056</biblScope>
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Johnson and R. Christy, Phys. Rev. B 9, 5056 (1974).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Alcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Itkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Horrigan</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/000844384795483058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Can. Metall. Q</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">309</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. B. Alcock, V. P. Itkin, and M. K. Horrigan, Can. Metall. Q. 23, 309 (1984).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Thermodynamic properties</title>
+	</analytic>
+	<monogr>
+		<title level="m">Lange&apos;s Handbook of Chemistry</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dean</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">15</biblScope>
+		</imprint>
+	</monogr>
+	<note>th ed Sec. 6</note>
+	<note type="raw_reference">&quot;Thermodynamic properties,&quot; in Lange&apos;s Handbook of Chemistry, 15th ed., edited by J. A. Dean (McGraw-Hill, 1999), Sec. 6.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rombouts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Froyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Gusarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Bentefour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Glorieux</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1832740</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">24905</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Rombouts, L. Froyen, A. V. Gusarov, E. H. Bentefour, and C. Glorieux, J. Appl. Phys. 97, 024905 (2005).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Corbett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zavala</surname></persName>
+		</author>
+		<title level="m">Proceedings of International Beam Instrumentation Conference</title>
+		<meeting>International Beam Instrumentation Conference<address><addrLine>Monterey, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Corbett, P. Leong, and L. Zavala, in Proceedings of International Beam Instrumentation Conference, Monterey, CA, USA, 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Roehling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Roehling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Soezeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Crumb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2017.02.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page">197</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. T. Roehling, S. S. Q. Wu, S. A. Khairallah, J. D. Roehling, S. S. Soezeri, M. F. Crumb, and M. J. Matthews, Acta Mater. 128, 197 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gusarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smurov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2010.05.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page">1624</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Yadroitsev, A. Gusarov, I. Yadroitsava, and I. Smurov, J. Mater. Process. Technol. 210, 1624 (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Narra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-016-2234-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page">479</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Cunningham, S. P. Narra, C. Montgomery, J. Beuth, and A. D. Rollett, JOM 69, 479 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Leuders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thöne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Riemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tröster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Maier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijfatigue.2012.11.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Fatigue</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">300</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Leuders, M. Thöne, A. Riemer, T. Niendorf, T. Tröster, H. A. Richard, and H. J. Maier, Int. J. Fatigue 48, 300 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Toby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Von Dreele</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889813003531</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">544</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. H. Toby and R. B. Von Dreele, J. Appl. Crystallogr. 46, 544 (2013).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

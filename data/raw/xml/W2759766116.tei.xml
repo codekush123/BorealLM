@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fluid and particle dynamics in laser powder bed fusion</title>
+				<funder ref="#_kdPjXMs">
+					<orgName type="full">Engineering and Physical Sciences Research Council</orgName>
+				</funder>
+				<funder ref="#_pKX7zNe">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2017-09-22">22 September 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><roleName>Prveen, BITHARAS, I, WARD, RM, ATTALLAH, MM</roleName><surname>Bidare</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Available from Sheffield Hallam University Research Archive (SHURA</note>
+								<orgName type="institution">Sheffield Hallam University Research Archive (SHURA</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>AJ</roleName><surname>Moore</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Available from Sheffield Hallam University Research Archive (SHURA</note>
+								<orgName type="institution">Sheffield Hallam University Research Archive (SHURA</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sheffield</forename><surname>Hallam</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">University Research Archive</note>
+								<orgName type="institution">University Research Archive</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Bidare</surname></persName>
+							<email>p.bidare@hw.ac.uk</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>a</label> Institute of Photonics and Quantum Sciences , Heriot-Watt University , Edinburgh EH14 4AS , UK</note>
+								<orgName type="department">Institute of Photonics and Quantum Sciences</orgName>
+								<orgName type="institution">Heriot-Watt University</orgName>
+								<address>
+									<postCode>EH14 4AS</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">I</forename><surname>Bitharas</surname></persName>
+							<email>i.bitharas@hw.ac.uk</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>a</label> Institute of Photonics and Quantum Sciences , Heriot-Watt University , Edinburgh EH14 4AS , UK</note>
+								<orgName type="department">Institute of Photonics and Quantum Sciences</orgName>
+								<orgName type="institution">Heriot-Watt University</orgName>
+								<address>
+									<postCode>EH14 4AS</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>b</label> School of Metallurgy and Materials , University of Birmingham , Birmingham B15 2TT , UK</note>
+								<orgName type="department">School of Metallurgy and Materials</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>b</label> School of Metallurgy and Materials , University of Birmingham , Birmingham B15 2TT , UK</note>
+								<orgName type="department">School of Metallurgy and Materials</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+							<email>a.moore@hw.ac.uk</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>a</label> Institute of Photonics and Quantum Sciences , Heriot-Watt University , Edinburgh EH14 4AS , UK</note>
+								<orgName type="department">Institute of Photonics and Quantum Sciences</orgName>
+								<orgName type="institution">Heriot-Watt University</orgName>
+								<address>
+									<postCode>EH14 4AS</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fluid and particle dynamics in laser powder bed fusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-09-22">22 September 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8A03249DB120DB02C7322BC55B222F70</idno>
+					<idno type="DOI">10.1016/j.actamat.2017.09.051</idno>
+					<note type="submission">Received 19 July 2017 Received in revised form 5 September 2017 Accepted 21 September 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T14:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>High-speed imaging In situ Powder consolidation Finite</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>element modelling (FEM) Theory and modelling (kinetics, transport, diffusion) a b s t r a c t In this work, we employ a combination of high-speed imaging and schlieren imaging, as well as multiphysics modelling, to elucidate the effects of the interaction between the laser beam and the powder bed.</s><s>The formation of denuded areas where the powder was removed during single line and island scans over several layers were imaged for the first time.</s><s>The inclination of the laser plume was shifted from forwards to backwards by changing power and scan speed, resulting in different denudation regimes with implications to the heat, mass and momentum transfer of the process.</s><s>As the build progressed, denudation became less severe than for a single powder layer, but the occurrence of sintered and fused powder agglomerates, which were affected by the plume, increased.</s><s>Schlieren imaging enabled the visualisation of the Ar gas flow, which takes place in the atmosphere above the bed due to the plume, in addition to its interaction with affected particles.</s><s>Numerical modelling was used to understand and quantify the observed flow behaviour, through the hydrodynamic treatment of the laser plume as a multi-component Ar-Fe plasma.</s><s>These results promote the characterisation of fluid dynamic phenomena during the laser powder-bed fusion (LPBF) process, which constitutes a key factor in the prevention of defects in additively manufactured parts.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Detailed imaging of the interaction between the laser beam and the powder bed whilst building multiple layer islands with metal powder bed fusion (PBF) has not been reported previously.</s><s>It is extremely challenging to record images through the viewing window of commercial PBF systems with sufficient magnification or contrast to see individual powder particles in the powder bed.</s><s>Higher magnification images have so far focussed on the melt pool whilst scanning a single laser track in a representative powder layer.</s><s>In this paper, we report detailed, in-process imaging of the interaction of the laser beam with the powder bed during the PBF build of fully dense parts.</s><s>We demonstrate that the PBF process is more dynamic than is generally appreciated and involves considerable motion of the powder particles and agglomerates in and above the powder bed.</s><s>This motion is driven by the laser-induced plume of metal vapour and plasma above the melt pool.</s><s>We therefore develop the first finite element model for PBF that incorporates the laser plume and inert atmosphere in order to explain the observed motion of the fluids and powder particles in and above the powder bed.</s></p><p><s>Metal powder bed fusion (PBF) is a category of additive manufacture (AM) process in which thermal energy selectively fuses regions of a powder bed <ref type="bibr" target="#b0">[1]</ref>.</s><s>Commercial PBF systems are already used to manufacture production components; but these components generally require intensive, part-specific process setting refinement to reduce distortions caused by residual stresses, to determine process settings that reduce defects and to determine acceptable positions for support structures.</s><s>In the future, software will simulate a full-build and reduce the time required to determine process settings, but that approach still requires better process understanding so that residual stresses, porosity and surface finish are predicted reliably for different process regimes.</s></p><p><s>Imaging of the PBF process is one approach being used to achieve this improved understanding.</s><s>Qiu et al. <ref type="bibr" target="#b1">[2]</ref> undertook a systematic study of the effect of laser scan speed and powder layer thickness on porosity using a commercial Concept Laser M2 system.</s><s>SEM images of sample surfaces revealed an increase in surface roughness and weld track irregularity when either the scan speed or powder layer thickness were increased above certain (processspecific) thresholds.</s><s>Increases in surface roughness were correlated with an increase in internal porosity.</s><s>High-speed videos were recorded at 10,000 frames per second (fps) through the system viewing window.</s><s>The optical resolution of ~150 mm per pixel was insufficient to resolve individual powder particles and their interaction with the laser, although the number of incandescent powder particles ejected backwards from the melt pool was observed to increase with increased thickness of the powder layer.</s><s>Grasso et al. <ref type="bibr" target="#b2">[3]</ref> recorded images with a similar magnification at 300 fps through the viewing window of a Renishaw AM250 system.</s><s>Again, the interaction of the laser with the powder particles could not be resolved.</s><s>However, the intensity evolution through time at each pixel from an image sequence was successfully used to identify areas of the powder layer that experienced overheating and therefore the location of potential defects.</s></p><p><s>Higher magnification imaging of the melt pool in a representative powder layer was reported by Matthews et al. <ref type="bibr" target="#b3">[4]</ref>, who investigated the depletion of metal powder particles in the zone immediately surrounding the solidified track (denudation), which can affect porosity and surface roughness.</s><s>It was proposed that denudation at ambient pressure is caused by the intense evaporation of metal vapour from the melt pool, which produces an inward flow of the ambient gas towards the melt track due to the Bernoulli effect.</s><s>The inward flow of the ambient gas is sufficient to entrain powder particles, which can become incorporated into the melt pool or ejected with the metal vapour.</s><s>Imaging of the melt pool with an optical resolution of ~5 mm per pixel enabled this particle motion to be observed, with particles ejected backwards with respect to the scan direction <ref type="bibr" target="#b3">[4]</ref> or vertically upwards <ref type="bibr" target="#b4">[5]</ref>, depending on the process setting.</s><s>The experimental system for imaging comprised scanning a single laser track in a powder layer that had been spread manually on to a metal substrate, protected with an inert gas from a localized jet.</s><s>Gunenthiram et al. <ref type="bibr" target="#b5">[6]</ref> noted the complexity of performing diagnostics during the PBF build process and so recorded single track images in a similar system to <ref type="bibr" target="#b3">[4]</ref> but with a powder layer that moved on a translation stage below the laser.</s><s>Motion of powder particles towards the melt pool due to the metal vapour was again observed, but again high magnification on the melt pool prevented the formation of the denuded region from being imaged.</s><s>Zhao et al. <ref type="bibr" target="#b6">[7]</ref> used synchrotron radiation to image the interaction of 1 ms laser pulses with a powder layer at 50,000 fps.</s><s>Vapour-driven particle motion was observed and, additionally, the dynamic keyhole development beneath the powder bed could be seen.</s><s>In this case, the powder bed was only 450 mm wide to enable transmission of the x-rays and a single laser spot was illuminated.</s></p><p><s>These single track and single spot measurements should prove useful for informing powder-level numerical models but are not part of a characterised build process.</s><s>To date, the behaviour of the powder bed away from the melt pool has not been imaged, nor have the effects of scanning adjacent tracks and multiple layers during a full build been investigated.</s></p><p><s>Despite the direct impact of the ambient gas on the process, state of the art powder-scale models <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref> do not yet include any interaction between the melt flow and atmosphere.</s><s>In such models, the recoil pressure generated by the evaporated gas is calculated by the Clausius-Clapeyron equation <ref type="bibr" target="#b9">[10]</ref> and used as a contribution to the momentum in the melt pool; however, transport phenomena in the gas or plasma phase above the powder bed based on the evaporated mass are not modelled.</s><s>Approximate calculations in Ref. <ref type="bibr" target="#b4">[5]</ref> based on the model in Ref. <ref type="bibr" target="#b7">[8]</ref> estimated the vapour ejection velocity at ~700 m/s.</s><s>Heat transfer calculations suggest that temperatures during PBF sufficiently high to form metal vapour and plasma <ref type="bibr" target="#b10">[11]</ref>, which is supported by the physical observation of light emission from the laser plume, but the associated phase change dynamics from liquid to vapour and plasma have not been modelled to date.</s><s>Masmoudi et al. <ref type="bibr" target="#b11">[12]</ref> did model the diffusion of iron vapour into the argon atmosphere above the powder bed using a meso-scale finite volume model.</s><s>However, the laser plume was not modelled: instead an assumed mass fraction from elements that exceeded the vaporization temperature of the metal was used as vapour input to the gas phase.</s><s>As a consequence, the estimated maximum vapour flow velocity was &lt;50 m/s at atmospheric pressure, which is insufficient to account for the particle motion observed experimentally.</s><s>Furthermore, convective and diffusive species transport incorporating the physical properties for a multicomponent Ar/Fe mixture were not included.</s></p><p><s>In the work presented here, detailed high-speed imaging of the interaction of the laser with the powder bed is shown at a range of laser powers and scan speeds.</s><s>We observed that powder particles entrained in the atmospheric gas flow were drawn in towards the melt pool and ejected backwards with respect to the scan direction or vertically upwards at different process settings, as reported previously.</s><s>But by imaging the wider powder bed, we could image the denudation produced by these effects for the first time.</s><s>We also observed effects that have not been reported previously at other process settings, including the forwards ejection of entrained particles and denudation arising due to their interaction with the laser plume, and particles being driven away from the melt track at atmospheric pressure.</s><s>More importantly, the imaging has been extended from single tracks to multilayer builds, in order to observe for the first time how these effects manifest in the powder bed during a full build.</s></p><p><s>Having noted the impact of the ambient gas on the PBF process, we develop a pragmatic finite element (FE) model for the powder bed and fluid dynamics observed, including a hydrodynamic treatment of the laser-induced plume and atmospheric flow for the first time in PBF.</s><s>We draw on the literature concerning evaporative and plasma phenomena occurring in arc welding, laser welding and laser ablation studies as a basis for the analysis in the context of PBF.</s><s>We use high-speed schlieren imaging for gas flow visualisation of the density gradients in the gas flow, not attempted for PBF previously, both to elucidate aspects of the physical phenomena involved and also to validate the FE model.</s><s>The modelling and schlieren imaging support our direct, high-speed imaging observations of gas flow-induced powder particle motion in the PBF process.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental system</head><p><s>We have previously reported the design and characterisation of an open architecture PBF system for in-situ measurements during PBF <ref type="bibr" target="#b12">[13]</ref>, which is shown schematically in Fig. <ref type="figure" target="#fig_0">1</ref>.</s><s>A key feature of the system is computer control for the automated build of fully dense components.</s><s>The computer controls the vertical movement of the build plate between layers, the movement of the silicon cord powder spreader and the laser illumination and scanning.</s><s>The system has complete flexibility for laser power and speed, and scan geometry including hatching.</s><s>Hence it is possible to achieve high resolution imaging not only whilst melting single tracks in the powder bed, but also during multiple layer builds under conditions known to produce parts with &gt;99% density.</s><s>Minor modifications were made to the top and end faces of the Perspex shielding chamber to incorporate viewing windows.</s><s>For top views of the powder bed, a window of diameter 50 mm made from infra-red absorbing KG glass was added, Fig. <ref type="figure" target="#fig_0">1</ref>.</s><s>Side viewing windows were added, made from Zerodur glass flats of diameter 75 mm, polished to l/4 on both surfaces.</s></p><p><s>All the experiments reported here were undertaken with gasatomized stainless steel 316 L powder (Renishaw PLC) with particle diameters in the range 15e45 mm and a mean diameter of 30 mm <ref type="bibr" target="#b13">[14]</ref>.</s><s>Powder layers were melted on to 80 Â 40 mm 2 stainless steel 304 L build plates (coupons) of thickness 2 mm, using a single mode fibre laser (SPI 400 W continuous wave, 1070 nm) which was scanned over the powder surface (Raylase MS-II-14 scanner with 163 mm focal length f-theta lens).</s><s>The coupon surfaces were roughened by manual, circular rubbing with P400 sandpaper.</s><s>The powder layer thickness for particular experiments is noted in the relevant sections below.</s><s>Light from the laser was focussed to a spot with a Gaussian beam profile and 4Ds diameter of 50 mm in both the x-and y-directions, measured with an Ophir Spiricon SP928 beam profiling camera.</s><s>The shielding chamber was purged with argon until the measured oxygen concentration was &lt;0.1%.</s><s>The experiments were performed with an exchange of clean argon into the chamber between experiments, exhausted through a water bath to remove potentially harmful nanoparticles produced by the process.</s><s>The pressure in the chamber remained at 1 atm.</s></p><p><s>A Photron Fastcam Mini UX100 monochrome camera was used for high-speed imaging.</s><s>The full resolution for this camera is 1280 Â 1024 pixels up to 4000 fps.</s><s>The direct imaging experiments reported here were recorded at 8000 fps and 1280 Â 616 pixels.</s><s>The camera was fitted with a C-mount QiOptiq Optem Fusion lens, configured to provide a zoom of 7:1 and a working distance of 135 mm.</s><s>At this working distance, the region of interest could be varied between approximately 14 Â 11 mm 2 (depth of field 2 mm) and 2 Â 1.5 mm 2 (0.2 mm).</s></p><p><s>The top viewing window was used for direct imaging from above the powder bed with the camera angled at ~20 to the vertical.</s><s>One side window was used for direct imaging from the side of the powder bed, with the camera positioned at approximately 10 to the horizontal.</s><s>For the side views, an infra-red absorbing filter was placed in front of the camera lens.</s><s>The camera was mounted on a tilt stage to change the area of the powder bed that was imaged, which enabled multiple areas to be scanned and imaged on the same coupon.</s><s>This feature was particularly useful for side imaging with high magnification and a small depth of field: the tilt stage was used to select the build region on the powder bed followed by a fine adjustment of the lens focus as necessary.</s><s>Illumination was provided by a 300 W tungsten filament lamp that was focussed through the top of the Perspex shielding chamber on to the powder bed in a rectangle of approximately 15 Â 5 mm 2 .</s><s>The illumination was switched on for a few seconds during imaging and produced negligible heating of the powder bed.</s></p><p><s>We have previously reported schlieren imaging to view and optimize shielding gas coverage during welding applications <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>.</s><s>Schlieren imaging enables refractive index gradients due to temperature, pressure and concentration gradients to be visualized.</s><s>The portable z-type schlieren system was incorporated into the metal PBF system with minimum modifications and so it will not be described in detail here.</s><s>The key components of the schlieren illumination were a 300 W tungsten lamp that was focussed on to a 2 Â 5 mm 2 rectangular source slit with its long edge vertical.</s><s>The slit was placed at the focus of the first schlieren mirror (focal length 1.27 m) to produce a collimated beam that passed across the powder bed via the windows in the side of the Perspex shielding chamber, Fig. <ref type="figure" target="#fig_0">1</ref>.</s><s>A second, identical schlieren mirror focussed the collimated beam to produce an image of the source slit on a vertical, knife-edge filter.</s><s>The knife-edge filter was positioned with a micrometer to block 50% of the image of the source slit in the horizontal (x) direction, producing images with a uniform measurement range in which the intensity was proportional to the gradient of the refractive index vn/vx.</s><s>Schlieren images were recorded with the high-speed camera using a variable focus telephoto lens (focal length 75e300 mm) at 16,000 fps and 1280 Â 312 pixels.</s><s>An additional infra-red absorbing filter, and a polariser to remove glare, were placed in front of the camera lens.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Multiphysics model including laser plume and inert atmosphere</head><p><s>We have used the scientific literature concerning evaporative and plasma phenomena that occur in laser welding and laser ablation studies to establish a basis for such analyses in the context of laser PBF.</s><s>Hydrodynamic modelling of the lased-induced plume, comprised of metal vapour and plasma was presented in Refs.</s><s><ref type="bibr">[17e20]</ref>.</s><s>In such models, the Knudsen layer approach is commonly used to model the plume (combined vapour and plasma) flow into the atmosphere through a contact discontinuity at the substrate-gas interface.</s><s>The plume velocity is represented as some fraction of the speed of sound in the gas at its elevated temperature.</s><s>Modelling of the laser plume for a powder bed or in the context of PBF has not previously been taken into consideration.</s></p><p><s>To simulate the dynamics of the gas and plasma phases that occur due to the thermal effects during PBF, an FE analysis was carried out using COMSOL multiphysics software.</s><s>A 2D axisymmetric geometry including the substrate, powder layer and adjacent atmosphere was generated.</s><s>The mesh was locally refined at the innermost edge of the powder bed so that at least 30 nodes were created through its depth, resulting in minimum element sizes of ~1.5 mm for a 70 mm layer under the laser beam.</s><s>Standard Lagrangian triangles were used across all domains, with a 2.5% growth rate in element size from the centre of the laser beam up to a maximum of 12 mm in the powder layer and 0.25 mm in the substrate and atmosphere.</s></p><p><s>For the substrate and powder layer, the thermophysical properties of grade 304 and 316 stainless steel respectively were input as a function of temperature <ref type="bibr" target="#b20">[21]</ref>.</s><s>In modelling the powder layer, a volume-averaged approach was used for temperatures below melting, after <ref type="bibr" target="#b11">[12]</ref>.</s><s>For an average packing density f ¼ 0.6 in the powder layer, the equivalent thermophysical properties were written as:</s></p><formula xml:id="formula_0">x powder ¼ fx steel þ ð1 À fÞx Argon (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>Although the thermal conductivity of the powder might be exaggerated in this manner at relatively low temperatures, the fluid dynamic phenomena of interest to this study occur at much higher temperatures, where the liquid and gas phase material properties are used.</s><s>Therefore, the use of volume averaged properties does not undermine the accuracy of the prediction for evaporation phenomena.</s><s>Using actual powder thermophysical properties is however essential for simulations investigating the melt pool size or residual stress development.</s><s>The properties used in the fluid domain above the powder bed were those of an Ar-Fe gas/plasma mixture in local thermodynamic equilibrium (LTE).</s><s>The values were therefore input as a function of temperature and Fe mass fraction, taken from Ref. <ref type="bibr" target="#b21">[22]</ref>.</s></p><p><s>The partial differential equations (PDEs) used in the model are given below using vector notation.</s><s>Vectors are represented in bold, while constitutive properties used as a function of temperature and Fe mass fraction are in italics.</s><s>For fluid flow, the compressible Navier-Stokes equations for momentum (2) and mass (3) conservation were used:</s></p><formula xml:id="formula_2">rðu$VuÞ ¼ V$ h À p þ m</formula><p><s>Vu þ ðVuÞ</s></p><formula xml:id="formula_3">T i þ rg (2) V$ðruÞ ¼ 0 (<label>3</label></formula><formula xml:id="formula_4">)</formula><p><s>where r is the density, u the flow velocity, p the pressure, m the dynamic viscosity and g the acceleration due to gravity.</s><s>In order to better capture the turbulence due to the laser plume, but also to expand the stable solution space of the model, the RANS SST turbulence model was used.</s><s>The Knudsen layer approach gives the velocity magnitude of the laser plume normal to the powder bed surface based on the local sound speed:</s></p><formula xml:id="formula_5">juj ¼ M ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi gKT u 1 m Ar þ u 2 m Fe s (<label>4</label></formula><formula xml:id="formula_6">)</formula><p><s>where M is the Mach number, g ¼ 5/3 is the heat capacity ratio for a monoatomic gas, K is the Boltzmann constant and m Ar ; m Fe are the atomic masses and u 1 ; u 2 the mass fractions of Ar and Fe, respectively.</s><s>The Mach number was assumed to vary linearly based on the incident laser radiation, from M ¼ 0.01 at an intensity of 10 5 W/cm 2 , to M ¼ 1 for a flux of 10 7 W/cm 2 <ref type="bibr" target="#b22">[23]</ref>.</s><s>On the outer flow boundaries, an outflow condition was specified by setting the normal diffusive flux equal to 0 at atmospheric pressure.</s></p><p><s>Extending an approach employed in state-of-the-art arc welding simulations <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b23">24]</ref>, an additional set of conservation equations were added to model the convective and diffusive modes of transport of the vaporized gas.</s><s>The mass fraction of the i-th con-</s></p><formula xml:id="formula_7">stituent u i is given by: ÀV$ rD o i Vu i þ ru i D o i VM n M n þ D T i VT T þ rðu$VÞu i ¼ 0 (<label>5</label></formula><formula xml:id="formula_8">)</formula><p><s>where D o i is the ordinary diffusion coefficient and D T i is the thermal diffusion coefficient while M n is the sum of the molar masses of all the constituents.</s><s>Equation ( <ref type="formula" target="#formula_7">5</ref>) was solved for species u 2 (Fe) and the remaining mass was assigned to species u 1 (Ar).</s><s>An additional contribution D iT ¼ m T =Sc T to the diffusion coefficient of each species was added to account for turbulent mixing of small eddies, where m T is the Reynolds-averaged turbulent kinematic viscosity and Sc T ¼ 0.7 is the turbulent Schmidt number.</s><s>The Fe mass fraction at the powder surface was defined based on the vapour pressure and molar masses of Ar and Fe as <ref type="bibr" target="#b23">[24]</ref>:</s></p><formula xml:id="formula_9">u 2 ¼ P vap M Fe P vap M Fe þ À P atm À P vap Á M Ar (<label>6</label></formula><formula xml:id="formula_10">)</formula><p><s>For the process thermodynamics, an energy balance was used to account for conductive, convective and radiative heat transfer.</s></p><formula xml:id="formula_11">rc p ðu$VTÞ ¼ V$ðkVTÞ À 4pε N (<label>7</label></formula><formula xml:id="formula_12">)</formula><p><s>The last term of equation ( <ref type="formula" target="#formula_11">7</ref>) is solved only within the gas/ plasma domain, and accounts for the total radiative loss from the Ar-Fe plasma across all wavelengths.</s><s>The plasma was assumed to be optically thin, and the net radiative emission coefficient ε N was taken as a function of both temperature and mass fraction from Ref. <ref type="bibr" target="#b24">[25]</ref>.</s><s>Based on the literature <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b25">26]</ref>, as well as in-house numerical solutions of the Saha equation and calculation of the relevant absorption coefficients, inverse bremsstrahlung absorption of the incident laser beam at 1070 nm for temperatures &lt; 10,000 K is negligible and therefore was not included in the model.</s><s>For the substrate and powder layer, no convection term was used as the melt pool motion was omitted for this study and translational motion cannot be conveyed in axisymmetric models.</s></p><p><s>The laser radiation reaching the powder layer was modelled as a Gaussian heat source with intensity:</s></p><formula xml:id="formula_13">I ¼ 2AP pR 2 exp À2r 2 R 2 (<label>8</label></formula><formula xml:id="formula_14">)</formula><p><s>where A ¼ 0.6 is the absorption of the powder layer <ref type="bibr" target="#b32">[33]</ref>, P is the laser power and R is the beam radius.</s><s>The heat lost from the metal surface due to evaporation is given by q ¼ À _ m vap L vap , where L vap is the heat of vaporization and _ m vap is the Fe vapour mass flowrate, based on the vapour pressure P vap and temperature, written as <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b26">27]</ref>:</s></p><formula xml:id="formula_15">log À _ m vap Á ¼ 2:52 þ log À P vap Á À 0:5logðTÞ (<label>9</label></formula><formula xml:id="formula_16">) log À P vap Á ¼ 6:121 þ 18836 T (<label>10</label></formula><formula xml:id="formula_17">)</formula><p><s>Gray-body radiative energy losses were prescribed for all solid surfaces, including the powder-substrate boundary, given by q ¼ ÀεsðT 4  amb À T 4 Þ, where ε ¼ 0.4 is the emissivity of stainless steel and s is the Stefan-Boltzmann constant.</s><s>The temperature at the outer boundaries of the powder and substrate was set at 300 K. To account for ambient convection, the total losses at the gas/ plasma outer boundaries were prescribed as q ¼ ÀhðT amb À TÞ.</s><s>A convective heat transfer coefficient of h ¼ 50 W/m 2 was used.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head><p><s>The high-speed direct imaging results are divided into single track and multilayer builds in the following sections.</s><s>These are followed by sections for the results of high-speed schlieren imaging and finite element modelling.</s><s>All the results in this section were recorded without a flow of shielding gas across the powder bed in order to focus attention on the gas movement due to the laser's interaction with the powder bed.</s><s>The effect of an additional flow of shielding gas across the powder bed is introduced in the Discussion section.</s><s>separate experiments.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">High-speed imaging: single tracks</head><p><s>Supplementary video related to this article can be found at <ref type="url" target="https://doi.org/10.1016/j.actamat.2017.09.051">https://doi.org/10.1016/j.actamat.2017.09.051</ref>.</s></p><p><s>The results show that the direction of spatter ejection with respect to the laser scan direction and the denudation mechanism both change with process parameters.</s><s>At the 50 W condition, the plasma jet is established forwards with respect to the laser scan direction.</s><s>The induced flow of the ambient gas entrains powder particles in towards the melt pool from all directions on the powder bed.</s><s>Entrained powder particles are either consolidated into the track or ejected forwards, due to the inclination of the plasma jet and induced gas flow as seen in the side view Fig. <ref type="figure" target="#fig_2">2(a)</ref>.</s><s>At the 100 W condition, the plasma plume and spatter are directed predominantly vertically upwards, resulting in less momentum in the shield gas flow at the powder level and consequently less denudation.</s><s>At the 200 W condition, the plasma and spatter are directed backwards with respect to the scan direction.</s><s>The plume is at a sufficiently low angle that it impinges directly on the powder bed and causes denudation by blowing particles away from the track.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">High-speed imaging: multiple layer builds</head><p><s>Multiple layer builds were undertaken at laser power and scan speed of 100 W and 0.5 m/s, respectively.</s><s>Fig. <ref type="figure" target="#fig_3">3</ref> and Videos Fig. <ref type="figure" target="#fig_3">3</ref>(a)-3(b) show high-speed imaging for side views of the first and second layers of a rectangular island of approximately 2.6 Â 1.8 mm 2 .</s><s>The powder layer thickness for the first layer was again t sp ¼ 50 mm, which was determined by the height of the powder spreader above the coupon surface.</s><s>The z-stage was lowered by z l ¼ 40 mm between layers from which the powder layer thickness for each layer is calculated <ref type="bibr" target="#b12">[13]</ref> and given in the caption for Fig. <ref type="figure" target="#fig_3">3</ref>.</s><s>The scan spacing was s ¼ 60 mm between adjacent tracks, corresponding to a scan spacing factor s/2 d of 0.6, where d is the laser spot diameter.</s></p><p><s>The laser was switched off for ~500 ms at the end of each line before returning in the opposite direction; a rectangular outline to the island was not scanned at the start.</s></p><p><s>Supplementary video related to this article can be found at <ref type="url" target="https://doi.org/10.1016/j.actamat.2017.09.051">https://doi.org/10.1016/j.actamat.2017.09.051</ref>.</s></p><p><s>For the first track of layer 1, Fig. <ref type="figure" target="#fig_3">3(a)</ref> shows vertical ejection from the melt pool as expected.</s><s>From the second track onwards the laser plume and entrained particles are angled away from the previously melted track.</s><s>Powder particles and agglomerates alike are entrained by the shield gas flow induced by the laser plume: their exact motion on and above the powder bed is determined by the specific scan strategy of the laser.</s><s>The videos show instances where these agglomerates are melted directly into the track or melted into larger spherical beads in the atmosphere.</s><s>Both views emphasize the dynamic nature of the powder bed when moving from single track to island scanning and the importance of the laser plume in driving that process.</s></p><p><s>Fig. <ref type="figure" target="#fig_4">4</ref> and Videos Fig. <ref type="figure" target="#fig_4">4</ref>(a)-4(d) show top views whilst building the rectangular island through multiple layers using the same laser scan parameters.</s><s>The same region of the powder bed was imaged as the layers were built and the scan direction was rotated by 90 between successive layers.</s><s>For the first layer, Fig. <ref type="figure" target="#fig_4">4(a)</ref>, the first scan line shows relatively little denudation and the laser plasma is vertical as observed in Fig. <ref type="figure" target="#fig_2">2(b)</ref> and (e).</s><s>From the second scan lines  onwards, the laser plume points away from the previously built, adjacent track as observed in Fig. <ref type="figure" target="#fig_3">3(a)</ref>.</s><s>As the first layer progresses, the video shows an increase in temperature around the melt pool, through increased emission of light from plasma in the laser plume, and the denudation increases.</s><s>For subsequent layers in the build, Fig. <ref type="figure" target="#fig_4">4</ref>(b) and 4(d), the denudation is less severe as the layer number increases, both between adjacent tracks in a layer and around the edges of the island.</s><s>This decrease in denudation is in part due to the increase in powder layer thickness between layers as it evolves towards the steady state thickness.</s><s>By the sixth layer, Fig. <ref type="figure" target="#fig_4">4(d)</ref>, the powder layer thickness is already 89.5% of the steady state value of ~130 mm <ref type="bibr" target="#b12">[13]</ref>.</s><s>Additional images sequences recorded for layers seven through ten showed no significant change in behaviour from that of layer six.</s><s>At the steady state powder layer thickness, it appears that there is sufficient powder adjacent to the track for it to roll towards the track without leaving a completely denuded region.</s><s>However, the rough surface of the previously built layer also seems to contribute towards decreasing denudation compared to the first layer, which is discussed later.</s></p><p><s>Supplementary video related to this article can be found at <ref type="url" target="https://doi.org/10.1016/j.actamat.2017.09.051">https://doi.org/10.1016/j.actamat.2017.09.051</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Schlieren high-speed imaging</head><p><s>Schlieren imaging was conducted for the first layer only.</s><s>This was because the powder reservoir and the spreader block obstructed the collimated schlieren illumination passing across the powder bed.</s><s>Hence, for the schlieren experiments only, the spreader block assembly was used to spread a powder layer on the coupon and was then carefully removed.</s><s>The Perspex shielding chamber was fitted and purged with argon.</s></p><p><s>Fig. <ref type="figure" target="#fig_5">5</ref> and Videos Fig. <ref type="figure" target="#fig_5">5</ref>(a)-5(c) show high-speed schlieren imaging for single track laser scans across the powder bed at the three laser power and scan speed combinations used in Fig. <ref type="figure" target="#fig_1">2</ref>. The images were recorded at 16,000 fps, but the video playback speed has been doubled to produce the same apparent time dilation as for Videos Fig. <ref type="figure" target="#fig_1">2</ref>. The telephoto lens gave a lower magnification than for direct imaging of the powder bed in order to capture the gas motion above it.</s><s>Therefore, individual cold powder particles cannot be resolved but the refractive index gradient around hot particles expelled by the laser plume can be seen.</s><s>The direction of the laser plume and ejection of entrained particles with respect to the laser scan direction for the three process conditions is consistent with Fig. <ref type="figure" target="#fig_1">2</ref>. At the 50 W condition, the low scan speed combined with the forward plasma ejection causes the laser beam to traverse a considerable distance of heated gas, metal vapour and plasma before it reaches the powder bed surface.</s><s>It is not possible to separate the relative contribution due to temperature, pressure and metal vapour concentration on the measured refractive index gradient from the images.</s><s>However, these refractive index gradients are undesirable as they can contribute to process instability through defocus and lateral wander of the laser spot.</s><s>At the 100 W condition, the laser beam is apparently just in front of the region of high refractive index gradients once the large convection plume from the initial laser incidence on the powder bed has been cleared.</s><s>Circular plumes of vapour can be seen when vertically ejected particles are vaporized by the laser beam.</s><s>For the 200 W condition, interaction between the laser beam and the heated gas, metal vapour and plasma is not an issue due to the high laser scan speed, although these conditions were previously seen to produce a balled track.</s><s>Supplementary video related to this article can be found at <ref type="url" target="https://doi.org/10.1016/j.actamat.2017.09.051">https://doi.org/10.1016/j.actamat.2017.09.051</ref>.</s></p><p><s>Fig. <ref type="figure" target="#fig_6">6</ref> shows a composite schlieren image sequence at the times indicated after initial illumination of the powder by the laser for a single track laser scan across the powder bed towards the camera, taken from Video Fig. <ref type="figure" target="#fig_6">6</ref>.</s><s>Upwards momentum carried by the plume is imparted to the surroundings, as indicated by the observed convection front while radial gas motion is induced by the eddies trailing it.</s><s>Dark lines in the initial convection front are particularly clear, and are due to entrained iron vapour.</s><s>They are also visible in the Video Fig. <ref type="figure" target="#fig_5">5(a</ref>).</s><s>The plume of heated gas continues to be fed by the laser plume: intermittent bursts of gas and vapour could be caused by laser-supported absorption waves (LSAW) although the spatial and temporal resolution of these measurements is insufficient to resolve directly the shock front or light emission associated with those events.</s><s>Supplementary video related to this article can be found at <ref type="url" target="https://doi.org/10.1016/j.actamat.2017.09.051">https://doi.org/10.1016/j.actamat.2017.09.051</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Laser plume and inert atmosphere modelling</head><p><s>The top row of Fig. <ref type="figure" target="#fig_7">7</ref> shows temperature distributions for the laser-induced plumes at three laser powers.</s><s>The maximum predicted temperature, located at the plume's centre, ranges from ~5000 K at 50 W to ~7000 K at 200 W.</s><s>In the vertical direction of the fluid domain, the temperature decreases to under 500 K after 3, 8 and 16 mm for 50, 100 and 200 W respectively.</s><s>This rapid decrease is a consequence of the high upwards convective heat transfer in the laser plume which increases with power and results  in a characteristic oval-shaped distribution of the temperature profile.</s><s>In the powder layer and substrate, the high temperatures at the boundary drop sharply and the computed field is similar to FE results in the literature.</s><s>However, due to the lack of convective motion in the powder and substrate, the lack of free surface deformation and keyhole formation, and an effective radiative absorption coefficient in the z-direction in the powder layer <ref type="bibr" target="#b27">[28]</ref>, the penetration into the substrate is underestimated.</s></p><p><s>The bottom row of Fig. <ref type="figure" target="#fig_7">7</ref> shows velocities in the fluid domain.</s><s>The colour distribution shows the high velocities associated with the laser plume due to the evaporation in the Knudsen layer.</s><s>The magnitude of the plume's velocity scales linearly with power, ranging from approximately 300 m/s at 50 W to 1200 m/s at 200 W.</s><s>However, the jet velocity decelerates exponentially in the z direction, reaching ~100 m/s over an upwards distance of 0.15 mm for 50 W, 1.1 mm for 100 W and 2.2 mm for the 200 W case.</s><s>The arrows in each case indicate the much lower velocities of the Ar atmosphere that are induced by the laser plume.</s><s>As dictated by momentum conservation, a radial flow field is generated in the Ar atmosphere.</s><s>Upwards momentum carried by the plume is imparted to the surroundings, while radial gas motion is induced via momentum conservation, consistently with the mechanism observed in the schlieren images, Fig. <ref type="figure" target="#fig_6">6</ref>.</s><s>The radial flow exerts drag forces on particles in the powder layer, resulting in a net particle motion towards the laser and denudation observed experimentally.</s><s>Fig. <ref type="figure" target="#fig_8">8</ref>(a) shows a plot of this radial component of the flow of the Ar atmosphere at 100 W and at different z heights above the top of the powder layer.</s><s>The velocity is highest closer to the bed and decreases with height, due to the maximum momentum being located at the Knudsen layer.</s><s>The variation of the velocity with height suggests that a swirl is imparted in the particles, which is consistent with the observed spinning motion of particle agglomerates.</s><s>At all z heights, the radial plume-induced flow of the Ar gas is mainly inwards towards the laser, i.e. negative values.</s><s>Its effect extends to ~0.2 mm from the centre of the laser beam, which is consistent with the extent of the denudation observed experimentally.</s><s>A short region of flow reversal is predicted between approximately 25e50 mm from the centre of the laser beam, i.e. approximately between the edge of the laser spot and the edge of the melt pool.</s><s>The flow reversal is mainly due to a pressure gradient which develops at the edges of the fast laser plume, caused by flow stagnation and associated with the jet's wake.</s><s>Additionally, the change in density from a Fe rich mixture to mostly Ar in this region accentuates this effect, Fig. <ref type="figure" target="#fig_8">8(b</ref>).</s><s>This suggests that a radial deceleration is experienced by entrained particles approaching the melt pool, promoting upwards ejection.</s><s>Additionally, particles caught in the wake with no prior momentum are ejected upwards and outwards.</s></p><p><s>Fig. <ref type="figure" target="#fig_8">8</ref>(b) plots the Fe concentration at the powder bed surface against radial distance from the centre of the laser spot.</s><s>Vapour generation scales almost linearly with laser power in the range simulated, and is concentrated almost entirely within the laser spot radius where temperatures exceed the vaporization point.</s><s>Due to the centralised maximum of the temperature distribution, the maximum Fe concentration (16,000 ppm) is located at the axis centre.</s><s>Fig. <ref type="figure" target="#fig_12">10</ref>(a) shows the upwards transport of the vaporized Fe stream.</s><s>It has a steep concentration gradient, reducing to &lt;1000 ppm within 1 mm in the z-direction, suggesting that despite the high velocity ejection, the majority of vaporized Fe remains close to the powder bed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p><s>This research shows the importance of including the laser plume and ambient atmosphere for a full understanding of the PBF process, and in the numerical models used to describe it, because of the influence on denudation but also on the production and subsequent transport of debris.</s><s>The plume includes Fe vapour and an optically thin plasma of metal ions (~2% degree of ionization at 200 W).</s><s>The plume velocity is of the order of several hundred m/s and scales with laser power.</s><s>The laser plume induces an inwards flow in the surrounding atmosphere that reaches velocities of the order of tens of m/s.</s><s>This flow exerts a significant drag on powder particles and agglomerates in the proximity of the melt pool, altering the local particle distribution and powder availability.</s><s>When scanning islands, the temperature build-up increases the density of the plasma and the number of powder agglomerates that form.</s><s>Agglomerates can also be affected by the laser plumeinduced flow: they can be drawn back into the melted track, presumably with an increased likelihood of producing porosity, or ejected into the atmosphere and produce large molten beads if they interact sufficiently with the laser beam, hot gas, or a combination of both.</s><s>Particles that are "heat-treated" and ejected act as an inclusion if reincorporated into the build at a later time, due to microstructure mismatch and oxide layer formation, as shown by previous studies for maraging steels in Ref. <ref type="bibr" target="#b28">[29]</ref>, stainless steel, Al-Si10-Mg, and Ti-6Al-4V in Ref. <ref type="bibr" target="#b29">[30]</ref> and Ni-based superalloys in Ref. <ref type="bibr" target="#b30">[31]</ref>.</s><s>These entrained powder particles, agglomerates and larger solidified beads are also routinely found in the filters of commercial PBF systems, which is explained by these results.</s><s>When building multiple layers, the denudation caused by the plumeinduced flow of the atmosphere becomes less significant as the powder layer thickness increases towards its steady state value.</s></p><p><s>The motion of particles entrained in the flow of the inert atmosphere immediately around the melt pool produced by the highspeed vapour jet has been observed previously <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7]</ref>.</s><s>Our description of the jet as a laser plume recognizes that it contains plasma in addition to metal vapour, which is consistent with our introduction of hydrodynamic modelling of the fluids above the powder bed.</s><s>Entrained particle motion has been proposed as a mechanism for denudation <ref type="bibr" target="#b3">[4]</ref> but the results presented here are the first direct observation of this denudation process.</s><s>Entrained particles are generally drawn towards the melt pool, Fig. <ref type="figure" target="#fig_2">2(b)</ref> and <ref type="figure">(d</ref>), but we also observed denudation arising due to particles being blown away from the melt pool, Fig. <ref type="figure" target="#fig_2">2(f</ref>).</s><s>The diameter of the induced flow increases with distance from the melt pool, and for the laser scan conditions in Fig. <ref type="figure" target="#fig_1">2</ref>(f), it was angled backwards sufficiently to impinge directly on the powder bed and blow particles away from the scan track.</s><s>It is perhaps worth emphasizing that denudation due to particle motion away from the melt track was inferred in Ref. <ref type="bibr" target="#b3">[4]</ref>, but that was only at very low ambient pressures and was therefore due to uniform expansion of the Fe vapour and not due to the angle of the plume.</s></p><p><s>The evolution of vertical to backwards ejection of material from the melt pool as the laser scan speed increases has been observed in laser welding <ref type="bibr" target="#b31">[32]</ref> and PBF <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>: the ejection direction is taken to be normal to the surface of the melt pool under the laser spot which varies due to a complex interaction of the laser plume recoil pressure and the liquid metal, as indicated by the schematics in Fig. <ref type="figure" target="#fig_2">2(d)</ref> and <ref type="figure">(d</ref>).</s><s>We also observed the laser plume directed forwards from the melt pool for the first time, Fig. <ref type="figure" target="#fig_2">2(b)</ref>.</s><s>Previous studies have reported particle ejection from the melt pool in the forward direction, due to interfacial surface tension forces resulting in droplet detachment, rather than the laser plume directed in the forward direction.</s><s>We believe a forward direction of the laser plume is specific to PBF and is not seen in welding.</s><s>The presence of additional material (i.e.</s><s>powder) in PBF enables a build-up of molten material in a bead at the back of melt pool, as indicated by the schematic in Fig. <ref type="figure" target="#fig_2">2(b</ref>).</s><s>We speculate that there is a gradual transition between these regimes, and hence in the direction of the laser plume, in particular from vertically upwards to backwards.</s><s>Hence the denudation caused by particles entrained in the gas flow could transition from an upwards plume pulling inwards towards the track, observed in Fig. <ref type="figure" target="#fig_2">2(d)</ref>, through an intermediate stage of a backwards tilted plume still pulling inwards (not observed), to a plume tilted sufficiently far backwards that the flow impinges on the bed and blows away from the track, Fig. <ref type="figure" target="#fig_2">2(f</ref>).</s><s>The onset of Plateau-Rayleigh instability (balling) may be enhanced by the drag forces exerted by the plume on the liquid surface, but the characterisation of this interaction would require a unified model of the melt pool and plume.</s></p><p><s>The vertical plume could be investigated further as a favourable process setting, both with respect to reduced denudation and uniform direction of spatter within the build chamber.</s><s>However, the detailed imaging of rectangular islands at 100 W showed that the laser plume tilts away from the adjacent track, which we again attribute to the modified shape of the melt pool.</s><s>Hence spatter, entrained particles and agglomerates are ejected away from the build towards fresh powder in the bed.</s><s>The interaction of particles and agglomerates above the powder bed is entirely dependent on the scan pattern of the laser within the island.</s><s>Particles carried by the flow can be dragged towards the scan line without being sintered or ejected upwards by the flow and can interact with the beam at a later time.</s><s>This effect becomes more prevalent as the layer number increases and more powder is available in the build area.</s><s>We have not undertaken a detailed analysis of the particle velocities because only its component in the image plane is available; furthermore, the particles are of different diameters and the force acting on them varies with distance from the melt pool making any inferences rather speculative.</s><s>Nevertheless, cold particles raised off powder bed typically move at ~2 m/s, and the maximum length of image streaks from the ejection of hot particles corresponds to ~6 m/s.</s><s>These speeds are in agreement with the simulated velocity of the induced flow.</s></p><p><s>The extent of denudation in the first layer can be significant as the powder bed temperature increases and the effects of many adjacent tracks accumulate, Fig. <ref type="figure" target="#fig_4">4(a)</ref>.</s><s>Whilst this observation can be taken into account in process planning, its effect should not be over-exaggerated.</s><s>Firstly, a commercial PBF build typically has ~100 sacrificial layers for support structures before layers of the actual component are deposited.</s><s>Hence relatively small areas in the first layer are actually scanned and the powder can be pulled in from surrounding regions.</s><s>Secondly, the first layer is relatively thin and is spread directly on to the coupon.</s><s>The powder layer thickness for the first layer was t sp ¼ 50 mm, which is determined by the height of the powder spreader above the coupon surface and the z-stage was lowered by z l ¼ 40 mm between layers.</s><s>A geometric series describes the evolution of the powder layer thickness between layers <ref type="bibr" target="#b12">[13]</ref>.</s><s>In the steady state, the melted layer thickness is z l and the powder layer thickness from which it was produced is z l /c, where c is the consolidation ratio (equal to the thickness of a melted layer divided by the thickness of the powder layer that produced it).</s><s>For c ¼ 0.3 measured in our system, the steady state powder layer thickness of ~130 mm and the denudation is less severe as observed in the results.</s><s>However, it appears the surface roughness of previously built layers also contribute to the reduced denudation in later layers.</s><s>In a separate experiment, we spread a thicker first layer of 130 mm directly on to the roughened coupon surface.</s><s>The denudation was less than for the 50 mm first layer but larger than for layer 6, because the particles could move more freely on the plane coupon surface compared to a built layer.</s><s>It highlights that caution is required if trying to extract general conclusions from single track and single layer observations, which are not typical of the conditions observed in building a complete, fully dense part.</s></p><p><s>Schlieren imaging enabled the effect of refractive index gradients, associated with the laser plume (metal vapour and plasma) and the heated atmosphere, above the melt pool to be visualized.</s><s>These gradients are undesirable and can cause variations in the laser position and focus.</s><s>In a commercial system, these hot fluids should be cleared by a flow of shield gas across the powder bed during the process, which can also serve to extract 'airborne' particles and prevent them from landing back on the powder bed.</s><s>All the results presented so far have excluded this cross-flow, in order to focus on the effects of the plume-induced flow.</s><s>Indeed, these cross-flows are typically of the order of a few m/s, and so will not interfere with the plasma flow directly.</s><s>It is instructive to observe the interaction of the laser-plume induced flow with a laminar cross-flow of 10 l/min across the powder bed from the flowstraightener, Fig. <ref type="figure" target="#fig_0">1</ref>.</s><s>Due to the relatively low velocities in the decelerated flow a few mm above the powder bed, a lower frame rate is more suitable for this application.</s><s>Fig. <ref type="figure" target="#fig_10">9</ref> and Videos Fig. <ref type="figure" target="#fig_10">9</ref> show schlieren imaging with the high-speed camera replaced with a standard CMOS camera operating at 150 fps.</s><s>An additional 633 nm ± 1 nm full width at half maximum band-pass filter was included to eliminate incandescence from the melt pool and plasma light.</s><s>Fig. <ref type="figure" target="#fig_10">9</ref>(a) shows the plume with no cross draft.</s><s>Fig. <ref type="figure" target="#fig_10">9(b</ref>) and (c) show the introduction of a cross draft for laser powers of 100 and 200 W respectively, which indicate the need to match the cross draft to process setting if the plume and particles are to be removed effectively.</s><s>Another interesting observation is that ejected particles carry enough upwards momentum so as not to be affected by the cross-flow initially, but are swept to the side upon re-entry to the stream after free-falling.</s><s>It is difficult to separate the relative contribution due to temperature, pressure and metal vapour concentration on the measured refractive index gradient from these images.</s><s>However, Fig. <ref type="figure" target="#fig_10">9(d)</ref> shows the effect of introducing a helium inert atmosphere.</s><s>The refractive index sensitivity to temperature and pressure gradients is lower in helium than argon due to its lower density, and as a consequence the metal vapour can be distinguished.</s><s>A full study of the effect of cross drafts and of the He atmosphere are beyond the scope of this paper, and will form part of future publications.</s><s>However, this discussion highlights the importance of fluid and particle dynamics on the cross-draft requirements in commercial systems and in the usefulness of schlieren imaging to determine the effectiveness of the extraction system during builds.</s></p><p><s>Supplementary video related to this article can be found at <ref type="url" target="https://doi.org/10.1016/j.actamat.2017.09.051">https://doi.org/10.1016/j.actamat.2017.09.051</ref>.</s></p><p><s>The FE model provided a pragmatic first introduction of laser plume hydrodynamics and the atmosphere to the PBF process.</s><s>Clearly it will be possible to extend this approach in the future, to a time-dependent model incorporating the melt pool.</s><s>In a similar fashion, existing particle level models could be extended to include the laser plume hydrodynamics.</s><s>The considerable powder movement we observed in the powder bed can be interpreted as a dynamic powder packing density, which could be incorporated into other common modelling approaches.</s><s>These include optical raytracing for laser energy coupling into the powder bed, the measurement or calculation of the thermal conductivity of a static powder bed and discrete element modelling (DEM) of the particle distribution in a spread powder layer which will be disturbed as the laser spot reaches it.</s></p><p><s>The time-independent, axisymmetric model already provides realistic plume and induced flow velocities that are consistent with observed particle motion and the extent of denudation observed.</s><s>Further, calculated fields from the model can be compared with the experimental observations to validate the approach.</s><s>Fig. <ref type="figure" target="#fig_12">10(a)</ref> shows the upwards transport of the vaporized Fe stream which is similar to that observed experimentally, Fig. <ref type="figure" target="#fig_10">9(d</ref>).</s><s>It has a steep concentration gradient, reducing to under 1000 ppm within 1 mm in the z-direction, suggesting that despite the high velocity ejection, the majority of vaporized Fe remains close to the powder bed.</s><s>The net radiative emission of light across all visible wavelengths from the plasma can be calculated, Fig. <ref type="figure" target="#fig_12">10(b)</ref>, and shows the characteristic shape of the laser plume observed experimentally.</s><s>Additionally, a plot of the density gradient vr=vx is proportional to refractive index variations vn=vx.</s><s>The good match between the resulting 'artificial' schlieren image, Fig. <ref type="figure" target="#fig_12">10(c</ref>), and the experimental observations indicate that the calculated gradients of temperature, pressure and composition are representative.</s></p><p><s>The fluid temperature calculations indicate that sufficient heat is available to cause vaporization or even ionization around particles which reach the inner layers of the plume.</s><s>It can be inferred that such particles will be enveloped in hot gas due to the Leidenfrost effect, which is consistent with the radiation emitted by the particles in the direct imaging experiments and by the refractive index gradients observed in the schlieren images.</s><s>The gas envelope around these particles and relatively low calculated local flow velocities suggest that such particles are more likely to be ejected than incorporated into the melt track.</s><s>However, if they are incorporated, the likelihood of local porosity is increased.</s></p><p><s>The video sequences provide many interesting local effects which cannot all be discussed individually.</s><s>A particularly nice example around 150 ms in Video Fig. <ref type="figure" target="#fig_3">3</ref>(a) is the formation of a powder agglomerate close to the scan track, which is lifted off the powder bed by a subsequent scan, fused into a molten bead whilst 'airborne' and ejected from the build region.</s><s>To finish, Fig. <ref type="figure" target="#fig_11">11</ref> shows some other interesting events not in the videos selected for this paper.</s><s><ref type="figure" target="#fig_11">11(c</ref>) shows emission from a partially vaporized particle that was swirling (rotating) as it was emitted.</s><s>Fig. <ref type="figure" target="#fig_11">11(d</ref>) shows a L-shaped streak, formed by a change in the trajectory of a hot ejected particle due to a collision.</s><s>High-speed particles which are turned towards the bed in this manner can form impact craters in the powder layer, unsettling nearby particles.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p><s>The results presented in this work elucidate the dynamic phenomena that arise from the complex interaction between the laser and the molten metal during PBF, which are related to the quality of the manufactured part.</s><s>The open architecture design of the system enabled detailed high-speed imaging to be performed for single tracks and multiple layer builds, as well as schlieren imaging for flow visualisation.</s><s>It was shown that the Fe vapour, plasma and induced Ar gas flow determine the pattern in which powder is denuded from the vicinity of the melt pool.</s><s>Single line scans showed that the direction of particle ejection with regards to the scanned direction changes from forwards to backwards with increasing laser power and scan speed.</s><s>When the scan speed and power were relatively high, the plume was pointed fully backwards and towards the powder layer, which was heavily disrupted as a result.</s><s>Upward ejection resulted mostly in particles being pulled towards the laser spot due to the aerodynamic drag.</s><s>Particles that approached the plume were either sintered or melted and subsequently ejected according to their accumulated heat and momentum.</s><s>The high temperatures of the plume promoted the formation and ejection of agglomerates (particles sintered   together) and large spherical beads (particles fused together) which may result in defects and inclusions if reincorporated into the build after landing.</s><s>Imaging of the process after several layers showed that denudation has a reduced impact on the powder availability compared to the first layer, due to increased powder layer thickness and surface roughness.</s></p><p><s>Schlieren imaging enabled the visualisation of the plume, facilitating flow characterisation.</s><s>It was observed that convection fronts originating from the melt pool propagate in the atmosphere above the powder bed.</s><s>Momentum was conveyed radially with respect to the plume axis through transient eddies trailing the convection fronts.</s><s>The jet of vaporized material becomes entrained in the hot gas, accentuating the refractive index gradient presented to the laser.</s><s>Refractive index gradients were observed around ejected particles, confirming that both heat and momentum is transferred from the plume.</s><s>High-speed observation of the convection patterns in the atmosphere correlated well with the denudation effect observed through the direct imaging.</s><s>Vapour jet visibility was enhanced in a He atmosphere, due to weaker refractive index gradients.</s><s>This difference suggests that heat and mass transfer in the plume can vary significantly with a change in ambient gas, warranting further investigation.</s></p><p><s>The proposed multiphysics treatment of the plume and induced atmospheric gas flow using a multicomponent plasma approach allowed theoretical analysis of the process's fluid dynamic effects.</s><s>It was shown that the denuding flow is of the order of a few tens of m/ s and acts over a radius roughly ten times that of the laser's.</s><s>This radial Ar flow is caused by a fast, upwards ejection of Fe vapour and Fe ions with velocities of the order of several hundreds of m/s which rapidly decelerates within a few mm of travel in the Ar atmosphere.</s><s>The temperatures in the plume were found to be higher than 3500 K, causing melting and vaporization of entrained particles that reach the proximity of the melt pool.</s><s>Fe concentrations of up to 35,000 ppm were predicted in the ambient atmosphere at 10 7 W/cm 2 laser intensity.</s></p><p><s>The combined results showed that the inert atmosphere and laser plume are integral to the heat, mass and momentum transfer of the process.</s><s>Their inclusion in numerical models is critical to process optimisation, to identify parameter sets which result in reduced denudation.</s><s>Observation of plume and particle behaviour under cross-flow emphasised the importance of uniform extraction streams above the bed, carrying enough momentum to prevent contamination of the bed from ejected particles.</s><s>Taking hydrodynamic phenomena into account during process planning can improve the overall build quality and limit the adverse effects of ejected vapour and particles.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>Schematic of the open-architecture PBF system with modifications for highspeed imaging and schlieren imaging.</s></p></div></figDesc><graphic coords="4,44.73,66.73,246.72,153.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 and</head><label>2</label><figDesc><div><p><s>Fig.2and Videos Fig.2(a)-2(f) show high-speed imaging for side and top views of the powder bed during laser scans of individual tracks.</s><s>Three different laser power and scan speed combinations are shown: 50 W and 0.1 m/s, 100 W and 0.5 m/s, and 200 W and 1 m/s.</s><s>The 100 and 200 W laser power conditions have the same line energy (laser power divided by scan speed) at 200 J/m while the 50 W condition has a line energy of 500 J/m.</s><s>The 50 W and 100 W laser power conditions have been shown to build parts with &gt;99% density<ref type="bibr" target="#b12">[13]</ref>.</s><s>These results are for the first powder layer of thickness 50 mm spread on the coupon.</s><s>We had access to only one high-speed camera and so the side and top views were recorded in</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. High-speed images for side and top views when scanning single tracks (left to right scan direction) with laser power and scan speeds of (a) and (b) 50 W and 0.1 m/s; (c) and (d) 100 W and 0.5 m/s and (e) and (f) 200 W and 1 m/s.</s><s>Inset is a schematic of the melt pool shape, which determines the laser plume direction.</s><s>The videos for all figures are included in the supplementary material.</s></p></div></figDesc><graphic coords="6,61.63,66.73,481.87,193.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. Side views during island scans at 100 W and 0.5 m/s.</s><s>(a) Layer 1, laser scan path front to back in the image.</s><s>(b) Layer 2, scan path left to right.</s><s>The powder layer thickness is 50 mm and 75 mm for layers 1 and 2, respectively, as it increases towards its steady state value.</s></p></div></figDesc><graphic coords="6,319.01,314.87,236.16,192.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Top views of island scans at 100 W and 0.5 m/s for (a) layer 1, (b) layer 2, (c) layer 5 and (d) layer 6. Denudation is reduced after the first layer due to the increasing powder layer thickness and the surface roughness of built layers.</s><s>The powder layer thickness is 113 mm and 119 mm for layers 5 and 6, respectively, as it increases towards its steady state value.</s></p></div></figDesc><graphic coords="7,94.39,66.73,396.95,287.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. Schlieren images during left to right line scans at (a) 50 W and 0.1 m/s, (b) 100 W and 0.5 m/s, and (c) 200 W and 1 m/s.</s><s>The characteristic refractive index gradients due to convection are visible in (a) and (b) but not present in (c) due to the backwards tilt of the laser plume.</s><s>Entrained Fe vapour is visible behind the convection front in (a).</s></p></div></figDesc><graphic coords="8,104.09,66.73,396.95,303.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig.6.</s><s>Composite image of the heated gas rising due to convection at the times indicated for laser power 100 W and scan speed 0.5 m/s towards the viewing direction.</s><s>Radial momentum is imparted to the atmosphere by eddies trailing the convection fronts.</s></p></div></figDesc><graphic coords="8,75.80,567.16,453.57,151.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. (Top) Calculated temperature fields for 50, 100 and 200 W laser power.</s><s>(Bottom) Calculated velocity surface plot of fast laser plume, with arrows showing the slower atmospheric gas flow that it induces.</s></p></div></figDesc><graphic coords="9,94.39,66.73,396.95,512.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. (a) Radial velocity component of the flow induced in the Ar atmosphere by the laser plume at different z-heights above the powder bed.</s><s>The denuding flow is faster closer to the Knudsen layer, and carries less momentum with increasing height.</s><s>A brief flow reversal occurs due to Fe concentration and pressure gradients at the plume's fringes.</s><s>(b) Fe concentration plot at the Knudsen layer for different laser powers.</s></p></div></figDesc><graphic coords="10,75.74,525.15,453.60,186.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><figDesc><div><p><s>Fig. 11(a) is a clear example of the laser plume at 200 W to compare with the emitted light distribution from the plasma in Fig. 10(b).</s><s>Fig. 11(b) shows scattering of the laser beam by ejected particulate from the plume.</s><s>Fig.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig. 9. Long exposure schlieren images.</s><s>(a) 100 W laser power and no cross flow, (b) 100 W laser power with 10 l/min cross-flow, (c) 200 W laser power with 10 l/min cross-flow.</s><s>(d) Vapour stream in He atmosphere.</s><s>Refractive index gradients due to temperature and pressure are reduced in He with schlieren sensitivity tuned for Ar.</s></p></div></figDesc><graphic coords="12,65.93,66.73,473.26,205.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig. 11.</s><s>(a) Laser plume radiation during an island scan at 200 W and 0.5 m/s, where surface temperature is increased.</s><s>(b) Scattering of the laser beam by ejected particulate from the plume.</s><s>(c) Swirling hot particle ejection (d) Ejection of hot particle followed by collision, deflecting the particle back towards the bed.</s></p></div></figDesc><graphic coords="13,80.22,488.13,425.25,207.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 10 .</head><label>10</label><figDesc><div><p><s>Fig. 10.</s><s>Simulation outputs at 100 W. (a) Fe concentration plot, showing localized dissipation of generated vapour.</s><s>(b) Plot of the net radiative emission coefficient term 4pε N .</s><s>(c) Artificial schlieren, generated by plotting the vr=vr density gradient.</s></p></div></figDesc><graphic coords="13,66.05,66.73,453.60,357.11" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><s>P. Bidare et al. / Acta Materialia 142 (2018) 107e120</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>This work was supported by the <rs type="funder">Engineering and Physical Sciences Research Council</rs> (Grant numbers <rs type="grantNumber">EP/I033335/2</rs> and <rs type="grantNumber">EP/ K030884/1</rs>).</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_kdPjXMs">
+					<idno type="grant-number">EP/I033335/2</idno>
+				</org>
+				<org type="funding" xml:id="_pKX7zNe">
+					<idno type="grant-number">EP/ K030884/1</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4419-1120-9</idno>
+		<ptr target="https://doi.org/10.1007/978-1-4419-1120-9" />
+		<title level="m">Additive Manufacturing Technologies</title>
+		<meeting><address><addrLine>US, Boston, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Gibson, D.W. Rosen, B. Stucker, Additive Manufacturing Technologies, Springer, US, Boston, MA, 2010, https://doi.org/10.1007/978-1-4419-1120-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">On the role of melt flow into the surface structure and porosity development during selective laser melting</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Panwisawas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Basoalto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.06.004</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2015.06.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="72" to="e79" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Qiu, C. Panwisawas, M. Ward, H.C. Basoalto, J.W. Brooks, M.M. Attallah, On the role of melt flow into the surface structure and porosity development during selective laser melting, Acta Mater. 96 (2015) 72e79, https://doi.org/ 10.1016/j.actamat.2015.06.004.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">In-process monitoring of selective laser melting: spatial detection of defects via image data analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Laguzza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Semeraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Colosimo</surname></persName>
+		</author>
+		<idno type="DOI">10.1115/1.4034715</idno>
+		<ptr target="https://doi.org/10.1115/1.4034715,051001e051001-16" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Grasso, V. Laguzza, Q. Semeraro, B.M. Colosimo, In-process monitoring of selective laser melting: spatial detection of defects via image data analysis, J. Manuf. Sci. Eng. 139 (2016), https://doi.org/10.1115/1.4034715, 051001e051001-16.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Denudation of metal powder layers in laser powder bed fusion processes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Depond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.05.017</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.05.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="33" to="e42" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.J. Matthews, G. Guss, S.A. Khairallah, A.M. Rubenchik, P.J. Depond, W.E. King, Denudation of metal powder layers in laser powder bed fusion processes, Acta Mater. 114 (2016) 33e42, https://doi.org/10.1016/ j.actamat.2016.05.017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Metal vapor micro-jet controls material redistribution in laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-04237-z</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-04237-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">4085</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ly, A.M. Rubenchik, S.A. Khairallah, G. Guss, M.J. Matthews, Metal vapor micro-jet controls material redistribution in laser powder bed fusion additive manufacturing, Sci. Rep. 7 (2017) 4085, https://doi.org/10.1038/s41598-017- 04237-z.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Analysis of laseremelt poolepowder bed interaction during the selective laser melting of a stainless steel</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gunenthiram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Coste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fabbro</surname></persName>
+		</author>
+		<idno type="DOI">10.2351/1.4983259</idno>
+		<ptr target="https://doi.org/10.2351/1.4983259" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">22303</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Gunenthiram, P. Peyre, M. Schneider, M. Dal, F. Coste, R. Fabbro, Analysis of laseremelt poolepowder bed interaction during the selective laser melting of a stainless steel, J. Laser Appl. 29 (2017), 022303, https://doi.org/10.2351/ 1.4983259.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Real-time monitoring of laser powder bed fusion process using highspeed X-ray imaging and diffraction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-03761-2</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-03761-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">3602</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Zhao, K. Fezzaa, R.W. Cunningham, H. Wen, F. Carlo, L. Chen, A.D. Rollett, T. Sun, Real-time monitoring of laser powder bed fusion process using high- speed X-ray imaging and diffraction, Sci. Rep. 7 (2017) 3602, https://doi.org/ 10.1038/s41598-017-03761-2.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Laser powder-bed fusion additive manufacturing: physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.02.014</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.02.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="36" to="e45" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A. Khairallah, A.T. Anderson, A. Rubenchik, W.E. King, Laser powder-bed fusion additive manufacturing: physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones, Acta Mater. 108 (2016) 36e45, https://doi.org/10.1016/j.actamat.2016.02.014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Multiphysics modeling of single/multiple-track defect mechanisms in electron beam selective melting</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wagner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2017.05.061</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2017.05.061" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="324" to="e333" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Yan, W. Ge, Y. Qian, S. Lin, B. Zhou, W.K. Liu, F. Lin, G.J. Wagner, Multi- physics modeling of single/multiple-track defect mechanisms in electron beam selective melting, Acta Mater. 134 (2017) 324e333, https://doi.org/ 10.1016/j.actamat.2017.05.061.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The effects of metal vapour in arc welding</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Murphy</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/43/43/434001</idno>
+		<ptr target="https://doi.org/10.1088/0022-3727/43/43/434001" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">434001</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.B. Murphy, The effects of metal vapour in arc welding, J. Phys. Appl. Phys. 43 (2010), 434001, https://doi.org/10.1088/0022-3727/43/43/434001.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of iron-based powder</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Froyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Vaerenbergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mercelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rombouts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lauwers</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2003.11.051</idno>
+		<ptr target="https://doi.org/10.1016/j.jmatprotec.2003.11.051" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="616" to="e622" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.P. Kruth, L. Froyen, J. Van Vaerenbergh, P. Mercelis, M. Rombouts, B. Lauwers, Selective laser melting of iron-based powder, J. Mater. Process. Technol. 149 (2004) 616e622, https://doi.org/10.1016/j.jmatprotec.2003.11.051.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Investigation of the laserepowdereatmosphere interaction zone during the selective laser melting process</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Masmoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bolot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Coddet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2015.05.008</idno>
+		<ptr target="https://doi.org/10.1016/j.jmatprotec.2015.05.008" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">225</biblScope>
+			<biblScope unit="page" from="122" to="e132" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Masmoudi, R. Bolot, C. Coddet, Investigation of the laserepowdereatmo- sphere interaction zone during the selective laser melting process, J. Mater. Process. Technol. 225 (2015) 122e132, https://doi.org/10.1016/ j.jmatprotec.2015.05.008.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">An openarchitecture metal powder bed fusion system for in-situ process measurements</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bidare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R J</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Shephard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2017.06.007</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2017.06.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="177" to="e185" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Bidare, R.R.J. Maier, R.J. Beck, J.D. Shephard, A.J. Moore, An open- architecture metal powder bed fusion system for in-situ process measure- ments, Addit. Manuf. 16 (2017) 177e185, https://doi.org/10.1016/ j.addma.2017.06.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<monogr>
+		<title level="m">SS 316L-0407 Powder for Additive Manufacturing</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+		<respStmt>
+			<orgName>Renishaw plc</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Data Sheet</note>
+	<note type="raw_reference">Renishaw plc, Data Sheet: SS 316L-0407 Powder for Additive Manufacturing, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Systematic study of effect of cross-drafts and nozzle diameter on shield gas coverage in MIG welding</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Beyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Ramsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Galloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Mcpherson</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/1362171813Y.0000000143</idno>
+		<ptr target="https://doi.org/10.1179/1362171813Y.0000000143" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Technol. Weld. Join</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="652" to="e660" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Beyer, S.W. Campbell, G.M. Ramsey, A.M. Galloway, A.J. Moore, N.A. McPherson, Systematic study of effect of cross-drafts and nozzle diameter on shield gas coverage in MIG welding, Sci. Technol. Weld. Join. 18 (2013) 652e660, https://doi.org/10.1179/1362171813Y.0000000143.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Visualisation of alternating shielding gas flow in GTAW</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bitharas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Galloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Mcpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2015.11.085</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2015.11.085" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="424" to="e431" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Bitharas, S.W. Campbell, A.M. Galloway, N.A. McPherson, A.J. Moore, Visu- alisation of alternating shielding gas flow in GTAW, Mater. Des. 91 (2016) 424e431, https://doi.org/10.1016/j.matdes.2015.11.085.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">CO2 lasereplume interaction in materials processing</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Farson</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1329668</idno>
+		<ptr target="https://doi.org/10.1063/1.1329668" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="681" to="e688" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K.R. Kim, D.F. Farson, CO2 lasereplume interaction in materials processing, J. Appl. Phys. 89 (2001) 681e688, https://doi.org/10.1063/1.1329668.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Modelling of plasma plume induced during laser welding</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mo Scicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Szyma Nski</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/39/4/014</idno>
+		<ptr target="https://doi.org/10.1088/0022-3727/39/4/014" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="685" to="e692" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Mo scicki, J. Hoffman, Z. Szyma nski, Modelling of plasma plume induced during laser welding, J. Phys. Appl. Phys. 39 (2006) 685e692, https://doi.org/ 10.1088/0022-3727/39/4/014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Numerical and experimental study of the effect of groove on plasma plume during high power laser welding</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wen-Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Da-Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yixiong</surname></persName>
+		</author>
+		<idno type="DOI">10.2351/1.4818823</idno>
+		<ptr target="https://doi.org/10.2351/1.4818823" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">52005</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Yan, X. Wen-Jing, W. Yue, S. Da-Wei, W. Yixiong, Numerical and experi- mental study of the effect of groove on plasma plume during high power laser welding, J. Laser Appl. 25 (2013), 052005, https://doi.org/10.2351/1.4818823.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The influence of different volume ratios of He and Ar in shielding gas mixture on the power waste parameters for Nd:YAG and CO2 laser welding</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Hosseini Motlagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Parvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jandaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Torkamany</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.optlastec.2013.04.027</idno>
+		<ptr target="https://doi.org/10.1016/j.optlastec.2013.04.027" />
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Laser Technol</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="191" to="e198" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N.S. Hosseini Motlagh, P. Parvin, M. Jandaghi, M.J. Torkamany, The influence of different volume ratios of He and Ar in shielding gas mixture on the power waste parameters for Nd:YAG and CO2 laser welding, Opt. Laser Technol. 54 (2013) 191e198, https://doi.org/10.1016/j.optlastec.2013.04.027.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<title level="m">Thermophysical Properties of Stainless Steels</title>
+		<meeting><address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+		<respStmt>
+			<orgName>Argonne National Lab</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">C.S. Kim, Thermophysical Properties of Stainless Steels, Argonne National Lab, USA, 1975.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Thermal plasma properties for AreCu, AreFe and AreAl mixtures used in welding plasmas processes: II. Transport coefficients at atmospheric pressure</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cressault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Teulet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gleizes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schnick</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/46/41/415207</idno>
+		<ptr target="https://doi.org/10.1088/0022-3727/46/41/415207" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">415207</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Cressault, A.B. Murphy, P. Teulet, A. Gleizes, M. Schnick, Thermal plasma properties for AreCu, AreFe and AreAl mixtures used in welding plasmas processes: II. Transport coefficients at atmospheric pressure, J. Phys. Appl. Phys. 46 (2013), 415207, https://doi.org/10.1088/0022-3727/46/41/415207.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Spectroscopic studies of plasma during cw laser materials interaction</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Rockstroh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mazumder</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.338142</idno>
+		<ptr target="https://doi.org/10.1063/1.338142" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="917" to="e923" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T.J. Rockstroh, J. Mazumder, Spectroscopic studies of plasma during cw laser materials interaction, J. Appl. Phys. 61 (1987) 917e923, https://doi.org/ 10.1063/1.338142.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Modelling of thermal plasmas for arc welding: the role of the shielding gas properties and of metal vapour</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tashiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lowke</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/42/19/194006</idno>
+		<ptr target="https://doi.org/10.1088/0022-3727/42/19/194006" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">194006</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.B. Murphy, M. Tanaka, K. Yamamoto, S. Tashiro, T. Sato, J.J. Lowke, Modelling of thermal plasmas for arc welding: the role of the shielding gas properties and of metal vapour, J. Phys. Appl. Phys. 42 (2009), 194006, https://doi.org/ 10.1088/0022-3727/42/19/194006.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Net emission coefficients for argon-iron thermal plasmas</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Menart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Malik</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/35/9/306</idno>
+		<ptr target="https://doi.org/10.1088/0022-3727/35/9/306" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">867</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Menart, S. Malik, Net emission coefficients for argon-iron thermal plasmas, J. Phys. Appl. Phys. 35 (2002) 867, https://doi.org/10.1088/0022-3727/35/9/ 306.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Observation and understanding in laser welding of pure titanium at subatmospheric pressure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawahito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kajii</surname></persName>
+		</author>
+		<idno type="DOI">10.1364/OE.25.013539</idno>
+		<ptr target="https://doi.org/10.1364/OE.25.013539" />
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Expr</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">13539</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Gao, Y. Kawahito, S. Kajii, Observation and understanding in laser welding of pure titanium at subatmospheric pressure, Opt. Expr. 25 (2017) 13539, https://doi.org/10.1364/OE.25.013539.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Heat and mass transfer in gas metal arc welding. Part I: the arc</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Tsai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijheatmasstransfer.2006.08.025</idno>
+		<ptr target="https://doi.org/10.1016/j.ijheatmasstransfer.2006.08.025" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat. Mass Transf</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="833" to="e846" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Hu, H.L. Tsai, Heat and mass transfer in gas metal arc welding. Part I: the arc, Int. J. Heat. Mass Transf. 50 (2007) 833e846, https://doi.org/10.1016/ j.ijheatmasstransfer.2006.08.025.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Modeling the interaction of laser radiation with powder bed at selective laser melting</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Gusarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smurov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phpro.2010.08.065</idno>
+		<ptr target="https://doi.org/10.1016/j.phpro.2010.08.065" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Procedia</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="381" to="e394" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.V. Gusarov, I. Smurov, Modeling the interaction of laser radiation with powder bed at selective laser melting, Phys. Procedia 5 (2010) 381e394, https://doi.org/10.1016/j.phpro.2010.08.065.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Investigation on the inclusions in maraging steel produced by Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rombouts</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/b11341-48</idno>
+		<ptr target="https://doi.org/10.1201/b11341-48" />
+	</analytic>
+	<monogr>
+		<title level="m">Innov. Dev. Virtual Phys. Prototyp</title>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="297" to="e304" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Thijs, J. Van Humbeeck, K. Kempen, E. Yasa, J. Kruth, M. Rombouts, Inves- tigation on the inclusions in maraging steel produced by Selective Laser Melting, in: Innov. Dev. Virtual Phys. Prototyp, CRC Press, 2011, pp. 297e304, https://doi.org/10.1201/b11341-48.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A study on the laser spatter and the oxidation reactions during selective laser melting of 316L stainless steel, Al-Si10-Mg, and Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simonelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Aboulkhair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Maskery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Wildman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hague</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-015-2882-8</idno>
+		<ptr target="https://doi.org/10.1007/s11661-015-2882-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="3842" to="e3851" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Simonelli, C. Tuck, N.T. Aboulkhair, I. Maskery, I. Ashcroft, R.D. Wildman, R. Hague, A study on the laser spatter and the oxidation reactions during selective laser melting of 316L stainless steel, Al-Si10-Mg, and Ti-6Al-4V, Metall. Mater. Trans. A 46 (2015) 3842e3851, https://doi.org/10.1007/ s11661-015-2882-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Defect formation and its mitigation in selective laser melting of high g 0 Ni-Base superalloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781119075646.ch38</idno>
+		<ptr target="https://doi.org/10.1002/9781119075646.ch38" />
+	</analytic>
+	<monogr>
+		<title level="m">Superalloys 2016</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Hardy</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Huron</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">U</forename><surname>Glatzel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Griffin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Lewis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Rae</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Seetharaman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Tin</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>John Wiley &amp; Sons, Inc</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="351" to="e358" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Wang, N. Read, L.N. Carter, R.M. Ward, M.M. Attallah, Defect formation and its mitigation in selective laser melting of high g 0 Ni-Base superalloys, in: R.K. Hardy, E. Huron, U. Glatzel, B. Griffin, B. Lewis, C. Rae, V. Seetharaman, S. Tin (Eds.), Superalloys 2016, John Wiley &amp; Sons, Inc, 2016, pp. 351e358, https://doi.org/10.1002/9781119075646.ch38.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Experimental study of the dynamical coupling between the induced vapour plume and the melt pool for NdeYag CW laser welding</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fabbro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Slimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Doudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Coste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Briand</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/39/2/023</idno>
+		<ptr target="https://doi.org/10.1088/0022-3727/39/2/023" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">394</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Fabbro, S. Slimani, I. Doudet, F. Coste, F. Briand, Experimental study of the dynamical coupling between the induced vapour plume and the melt pool for NdeYag CW laser welding, J. Phys. Appl. Phys. 39 (2006) 394, https://doi.org/ 10.1088/0022-3727/39/2/023.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Calculation of laser absorption by metal powders in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Boley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<idno type="DOI">10.1364/AO.54.002477</idno>
+		<ptr target="https://doi.org/10.1364/AO.54.002477" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Opt</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="2477" to="e2482" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.D. Boley, S.A. Khairallah, A.M. Rubenchik, Calculation of laser absorption by metal powders in additive manufacturing, Appl. Opt. 54 (2015) 2477e2482, https://doi.org/10.1364/AO.54.002477.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

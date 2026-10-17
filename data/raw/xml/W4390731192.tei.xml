@@ -1,0 +1,2180 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Influence of wall thickness on microstructure and mechanical properties of thin-walled 316L stainless steel produced by laser powder bed fusion</title>
+<funder ref="#_nDXGvhZ">
+<orgname type="full">ETH Zurich Foundation</orgname>
+</funder>
+<funder ref="#_tUuqw2N">
+<orgname type="full">European Research Council</orgname>
+<orgname type="abbreviated">ERC</orgname>
+</funder>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date>9 January 2024 0264</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">R</forename><surname>Wrobel</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Empa Swiss Federal Laboratories for Materials Science &amp; Technology, Dübendorf, Switzerland</note>
+<orgname type="institution">Empa Swiss Federal Laboratories for Materials Science &amp; Technology</orgname>
+<address>
+<settlement>Dübendorf</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> ETH Zürich, Department of Materials, Laboratory for Nanometallurgy, Zürich, Switzerland</note>
+<orgname type="department">Department of Materials</orgname>
+<orgname key="instit1" type="institution">ETH Zürich</orgname>
+<orgname key="instit2" type="institution">Laboratory for Nanometallurgy</orgname>
+<address>
+<settlement>Zürich</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">Del</forename><surname>Guidice</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> ETH Zürich, Department of Civil, Environmental and Geomatic Engineering, Institute of Structural Engineering, Zürich, Switzerland</note>
+<orgname key="dep1" type="department">Department of Civil, Environmental and Geomatic Engineering</orgname>
+<orgname key="dep2" type="department">Institute of Structural Engineering</orgname>
+<orgname type="institution">ETH Zürich</orgname>
+<address>
+<settlement>Zürich</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Scheel</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Empa Swiss Federal Laboratories for Materials Science &amp; Technology, Dübendorf, Switzerland</note>
+<orgname type="institution">Empa Swiss Federal Laboratories for Materials Science &amp; Technology</orgname>
+<address>
+<settlement>Dübendorf</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+<affiliation key="aff3">
+<note type="raw_affiliation"> ETH Zürich, Department of Mechanical and Process Engineering, Institute for Mechanical Systems, Zürich, Switzerland</note>
+<orgname type="department">Department of Mechanical and Process Engineering</orgname>
+<orgname key="instit1" type="institution">ETH Zürich</orgname>
+<orgname key="instit2" type="institution">Institute for Mechanical Systems</orgname>
+<address>
+<settlement>Zürich</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Abando</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> ETH Zürich, Department of Materials, Laboratory for Nanometallurgy, Zürich, Switzerland</note>
+<orgname type="department">Department of Materials</orgname>
+<orgname key="instit1" type="institution">ETH Zürich</orgname>
+<orgname key="instit2" type="institution">Laboratory for Nanometallurgy</orgname>
+<address>
+<settlement>Zürich</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Maeder</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> Empa Swiss Federal Laboratories for Materials Science &amp; Technology, Thun, Switzerland</note>
+<orgname type="institution">Empa Swiss Federal Laboratories for Materials Science &amp; Technology</orgname>
+<address>
+<settlement>Thun</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Vassiliou</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> ETH Zürich, Department of Civil, Environmental and Geomatic Engineering, Institute of Structural Engineering, Zürich, Switzerland</note>
+<orgname key="dep1" type="department">Department of Civil, Environmental and Geomatic Engineering</orgname>
+<orgname key="dep2" type="department">Institute of Structural Engineering</orgname>
+<orgname type="institution">ETH Zürich</orgname>
+<address>
+<settlement>Zürich</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Hosseini</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Empa Swiss Federal Laboratories for Materials Science &amp; Technology, Dübendorf, Switzerland</note>
+<orgname type="institution">Empa Swiss Federal Laboratories for Materials Science &amp; Technology</orgname>
+<address>
+<settlement>Dübendorf</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+<affiliation key="aff3">
+<note type="raw_affiliation"> ETH Zürich, Department of Mechanical and Process Engineering, Institute for Mechanical Systems, Zürich, Switzerland</note>
+<orgname type="department">Department of Mechanical and Process Engineering</orgname>
+<orgname key="instit1" type="institution">ETH Zürich</orgname>
+<orgname key="instit2" type="institution">Institute for Mechanical Systems</orgname>
+<address>
+<settlement>Zürich</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Spolenak</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> ETH Zürich, Department of Materials, Laboratory for Nanometallurgy, Zürich, Switzerland</note>
+<orgname type="department">Department of Materials</orgname>
+<orgname key="instit1" type="institution">ETH Zürich</orgname>
+<orgname key="instit2" type="institution">Laboratory for Nanometallurgy</orgname>
+<address>
+<settlement>Zürich</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author role="corresp">
+<persname><forename type="first">C</forename><surname>Leinenbach</surname></persname>
+<email>christian.leinenbach@empa.ch</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Empa Swiss Federal Laboratories for Materials Science &amp; Technology, Dübendorf, Switzerland</note>
+<orgname type="institution">Empa Swiss Federal Laboratories for Materials Science &amp; Technology</orgname>
+<address>
+<settlement>Dübendorf</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+<affiliation key="aff5">
+<note type="raw_affiliation"> Laboratory for Photonic Materials and Characterization, École Polytechnique Fédérale de Lausanne, Lausanne 1015, Switzerland</note>
+<orgname type="laboratory">Laboratory for Photonic Materials and Characterization</orgname>
+<orgname type="institution">École Polytechnique Fédérale de Lausanne</orgname>
+<address>
+<postcode>1015</postcode>
+<settlement>Lausanne</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff6">
+<note type="raw_affiliation">Empa Swiss Federal Laboratories for Materials Science &amp; Technology, Dübendorf, Switzerland.</note>
+<orgname type="institution">Empa Swiss Federal Laboratories for Materials Science &amp; Technology</orgname>
+<address>
+<settlement>Dübendorf</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Influence of wall thickness on microstructure and mechanical properties of thin-walled 316L stainless steel produced by laser powder bed fusion</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published">9 January 2024 0264</date>
+</imprint>
+</monogr>
+<idno type="MD5">ED14F262D065889F8E9AC2D5FB095A9F</idno>
+<idno type="DOI">10.1016/j.matdes.2024.112652</idno>
+<note type="submission">Received 3 September 2023; Received in revised form 28 December 2023; Accepted 8 January 2024</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.8.0" when="2024-04-04T12:18+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>Thin-walled structures Laser powder bed fusion 316L stainless steel Thermal simulations Mechanical tests Microstructure</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>A C T Laser powder bed fusion (L-PBF) allows for the fabrication of samples with complex geometries based on thin struts or walls.</s><s>However, only few studies have focused on the effect of these geometries on the properties of the material fabricated using this technology.</s><s>In this work, we studied the impact of wall thicknesses below 1 mm on microstructure formation and mechanical properties in 316L parts fabricated by L-PBF.</s><s>The size and geometry of melt pools varied significantly between different wall thicknesses due to powder denudation and local preheating, resulting in non-symmetrical melt pools for thicker samples.</s><s>Furthermore, in the sub-grain microstructure, the thinnest samples consisted of solidification cells oriented almost parallel to the building direction.</s><s>In the thicker walls, side branching and slender columnar grains were observed in the center lines of the melt pools.</s><s>On the grain size scale, the thinnest samples consisted of finer grains with a more pronounced texture 〈100〉, while large grains growing parallel to the build direction and texture 〈101〉 were found for the thicker samples.</s><s>Mechanical tests showed that the strength and ductility were higher in thicker samples, which was attributed to finer solidification cells.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Laser powder bed fusion (L-PBF) is one of the additive manufacturing (AM) technologies that offers a new approach to the fabrication of complex geometries <ref target="#b0" type="bibr">[1]</ref>.</s><s>It allows fabricating lattice structure-based components and very thin-walled structures that cannot be manufactured by subtractive manufacturing.</s><s>These geometries play an essential role in various applications, such as aerospace, where lattice-based geometry contributes to reducing the weight of the final part <ref target="#b1" type="bibr">[2]</ref>.</s><s>A thinwalled structure finds its application in parts exposed to elevated temperatures and where fast exchange of heat is important.</s><s>In the medical sector, implants, including lattices, improve osseointegration <ref target="#b2" type="bibr">[3,</ref><ref target="#b3" type="bibr">4]</ref>.</s><s>Furthermore, a constantly growing variety of suitable materials for L-PBF in combination with process tuning allows for a better design with respect to its functionality <ref target="#b4" type="bibr">[5]</ref><ref target="#b5" type="bibr">[6]</ref><ref target="#b6" type="bibr">[7]</ref>.</s><s>Therefore, this technology has received more and more attention in recent time.</s></p><p><s>In L-PBF, a laser with a beam diameter usually between 50 and 100 µm selectively scans the powder track by track and layer by layer.</s><s>This step is repeated continuously until the desired geometry is obtained <ref target="#b7" type="bibr">[8]</ref>.</s><s>The interaction of the laser beam with the powder results in the formation of the melt pool <ref target="#b8" type="bibr">[9]</ref>.</s><s>During this step, denudation and spattering of the powder can occur, resulting from the movement of the particles around the melt pool <ref target="#b9" type="bibr">[10]</ref><ref target="#b10" type="bibr">[11]</ref><ref target="#b11" type="bibr">[12]</ref>.</s><s>These phenomena can create defects in the initial packing state of the deposited powder layer, leading to a discontinuous melt pool during the scanning of the powder layers.</s><s>This can promote defect formation, such as porosity or a very poor surface quality <ref target="#b9" type="bibr">[10,</ref><ref target="#b10" type="bibr">11,</ref><ref target="#b12" type="bibr">13]</ref>.</s><s>Thus, it is important to adjust the processing parameters such as laser power, scanning speed, layer thickness, hatch spacing, and scanning strategy to ensure proper powder fusion, as well as sufficient overlap of the subsequent tracks, which will enable fully dense part fabrication <ref target="#b12" type="bibr">[13]</ref>.</s></p><p><s>The microstructure of L-PBF parts is very often far from equilibrium, due to the very complex thermal history of the process <ref target="#b13" type="bibr">[14,</ref><ref target="#b14" type="bibr">15]</ref>.</s><s>The thermal history comprises local cyclic rapid heating and rapid cooling of the part, which is caused by numerous track passes and the many deposited layers.</s><s>This results in fine solidification cell structures and high residual stress levels <ref target="#b13" type="bibr">[14,</ref><ref target="#b15" type="bibr">16]</ref>.</s><s>This can lead to pronounced warpage or even destruction of the fabricated part.</s><s>316L stainless steel (316L SS) is one of the most widely studied materials, due to its very good processability.</s><s>Moreover, because of its good corrosion resistance and mechanical properties, this material is used in the medical and automotive sectors <ref target="#b16" type="bibr">[17]</ref>.</s><s>The microstructure of 316L SS after the L-PBF process in the as-built state consists of very fine solidification cells of face-centered cubic (FCC) austenite <ref target="#b17" type="bibr">[18,</ref><ref target="#b18" type="bibr">19]</ref>.</s><s>316L stainless steel fabricated with L-PBF typically exhibits a notable combination of high tensile strength, ductility, and commendable creep resistance.</s><s>This represents a valuable characteristic of parts manufactured with L-PBF, as they contribute to the alleviation of a constraining factor known as the high-strength-ductility trade-off <ref target="#b19" type="bibr">[20]</ref>.</s><s>Numerous studies have been published on the influence of the different L-PBF process parameters on the formation and control of the microstructure <ref target="#b20" type="bibr">[21]</ref><ref target="#b21" type="bibr">[22]</ref><ref target="#b22" type="bibr">[23]</ref>.</s><s>However, most of them have been carried out on simple bulk geometries, such as cubes.</s></p><p><s>Considering the applications of the L-PBF technology, many use cases are for very intricate and fine structures, very often below 1 mm in thickness, e.g.</s><s>thin-struts, thin walls, etc.</s><s>Thus, the thermal history in these samples will significantly differ from those in a simple, bulky specimen.</s><s>On the one hand, thinner samples require less heat input, due to fewer laser track passes and on the other hand, the underneath solid area for dissipating the heat is smaller.</s><s>Moreover, the denudation of the powder as well as wettability of the substrate in the case of the thinner walls consisting of e.g. 1 or 2 tracks, will intrinsically differ in comparison to the thicker samples.</s><s>Therefore, answering the question of how the part's size and geometry affects the formation of microstructures and mechanical properties of fabricated parts with L-PBF technology is imperative.</s></p><p><s>Up until now, only a limited number of studies has focused on the effect of geometry on the microstructure formation and mechanical properties.</s><s>The influence of the titanium wall thickness on the microstructure formation has been studied by Antonysamy et al. <ref target="#b23" type="bibr">[24]</ref>.</s><s>In that work, the sample thicknesses were ranging between 1 and 5 mm.</s><s>The authors found that with increasing wall thickness, large grains were forming parallel to the build direction, while in the thinnest wall the grains were growing towards the center of the melt pool.</s><s>Very similar observations were made by <ref type="bibr">Leicht et al.</ref> in their study on the influence of wall thickness on the microstructure formation in 316L stainless steel <ref target="#b24" type="bibr">[25]</ref>.</s><s>It was shown that large, elongated grains with a pronounced 〈101〉 orientation were formed in samples thicker than 0.6 mm, while in the thinner ones, a random grain orientation was formed.</s><s>Sanchez-Mata et al. have focused on the microstructure formation in Hastelloy X samples with different strut thicknesses produced with L-PBF <ref target="#b25" type="bibr">[26]</ref>.</s><s>They found the presence of 〈110〉 fiber texture for the thicker parts, while 〈110〉 single crystal microstructure was formed for the thinnest.</s><s>Moreover, the solidification cells size was found to decrease with an increase of the strut diameter.</s><s>A study of the effect of geometrical aspect on the mechanical properties has been carried out by Munk et al. <ref target="#b26" type="bibr">[27]</ref>.</s><s>They investigated various samples thickness and show the variations in the mechanical responses, highlighting that more focus needs to be put into understating and prediction the influence of geometrical aspect in the L-PBF.</s></p><p><s>In this work, the effect of the wall thickness on the microstructure (grain morphology, texture) formation of 316L stainless steel was characterized.</s><s>The melt pool formation during the fabrication of single and multi-track samples was investigated step by step, with an emphasize on the influence of the preceding melt pools on the formation of new ones.</s><s>Additionally, to bridge the gap between the process parameters and the geometry, we performed thermal simulations to examine the thermal history for different wall thicknesses.</s><s>Finally, the mechanical properties of the samples with different wall thicknesses were characterized.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Materials and methods</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Materials<p><s>In this study, a commercially available 316L stainless steel powder with a mean diameter of (d50) of 32.2 µm was used as a material feedstock.</s><s>The powder was supplied by Oerlikon AM and the morphology of the powder is shown in Fig. <ref target="#fig_0" type="figure">1a</ref>.</s></p><p><s>A Sisma Mysint 100 (Sisma S.p.A., Italy) L-PBF machine was used for the sample fabrication, equipped with a 200 W, 1070 nm fiber laser with a Gaussian intensity distribution and 55 µm spot size.</s></p><p><s>To examine the effect of the sample geometry on the microstructure formation, a set of thin-wall samples consisting of 1 to 6 tracks was fabricated (Fig. <ref target="#fig_0" type="figure">1b</ref>).</s><s>Moreover, to investigate the evolution of the melt pool morphology step by step, another set of the thin-walled samples were fabricated with a single track on top of the samples (e.g. for 3 tracks samples, 3 samples were fabricated with a 1 track, 2 tracks, and 3 tracks).</s><s>It is shown in Fig. <ref target="#fig_0" type="figure">1d</ref>.</s></p><p><s>A set of dog bone samples was fabricated to investigate the impact of the wall thickness on the mechanical properties, where only the thickness of the samples was varied (Fig. <ref target="#fig_0" type="figure">1c</ref>).</s><s>Samples were tested in their asbuilt state without additional post-processing.</s><s>The objective was to accurately depict the mechanical properties of samples in their original condition.</s><s>This approach facilitated a precise comparison of microstructures and their impact on mechanical properties across varying sample thicknesses.</s><s>Post-processing, if applied, would have removed material near the edges of the samples, exhibiting a different microstructure than that found at the center of the samples.</s></p><p><s>All samples were fabricated using previously optimized L-PBF parameters on simple cubic geometries, giving almost 100 % relative density.</s><s>The laser power was 160 W, the scanning speed was 400 mm/s, the hatch spacing was 0.1 mm, and the layer thickness was 0.03 mm.</s><s>In addition, a bidirectional scanning strategy was applied.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Microstructure characterization<p><s>To investigate the microstructure, the samples were subjected to standard metallographic preparation, including grinding with SiC paper and polishing with silica suspension (6 µm, 3 µm, and 1 µm).</s><s>To reveal the melt pool boundaries and microstructure, the samples were etched using a V2A atchany (hydrochloric acid, nitric acid and distilled water) for 45 s at 40 • C.</s></p><p><s>Microstructure investigations were carried out using a Zeiss Axiovert 100 optical microscope and a TESCAM Mira scanning electron microscope (SEM) using a secondary electron detector.</s><s>Texture and grain orientation were measured using the aforementioned SEM with an electron-backscattered diffraction (EBSD) EDAX DigiView V camera.</s><s>An acceleration voltage of 20 kV, a beam current of 10,000 µA, and 1 µm step size at a working distance of 15 mm were applied.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Mechanical tests 2.3.1. Tensile tests<p><s>To examine the mechanical behavior of samples with different wall thicknesses, uniaxial tension tests were performed using dog-bone samples, for which only the thickness was modified.</s><s>For each thickness, 3 samples were tested to confirm repeatability of the results.</s><s>The exact dimensions of the samples are shown in Fig. <ref target="#fig_0" type="figure">1c</ref>.</s><s>A universal testing machine Zwick Roell (Ulm, Germany) with a maximum load of 10 kN was used for this purpose.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Nanoindentation tests<p><s>High-speed nanoindentation mapping was used to investigate the correlation of microstructure and local mechanical properties.</s><s>This experiment enabled mechanical characterization of the underlying microstructure by means of high-speed mapping of hardness at submicrometer resolution over a millimeter-scale area.</s><s>High-speed nanoindentation was carried out using a KLA iNano system (KLA Instruments, USA).</s><s>Different grid sizes of the maps with a 2 µm step were used to cover the entire cross section of different wall thicknesses and the indentation load was set to 4 mN.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Thermal simulations<p><s>In order to examine the thermal profiles exposed by laser across different wall thicknesses, thermal simulations were performed using the Abaqus finite-element software in conjunction with its additive manufacturing plugin.</s><s>Material addition reflecting the process in L-PBF was implemented using the quiet element approach <ref target="#b27" type="bibr">[28]</ref>, where elements of all deposited layers were present from the start of the simulation in a quiet state and did not contribute to the solution until activated.</s></p><p><s>The Abaqus/Standard algorithm was used to solve the problem of heat transfer.</s><s>The equation of energy balance can be written in the differential form as follows:</s></p><formula xml:id="formula_0">ρc P Ṫ -∇(k∇T) = q vol (1)</formula><p><s>where T is the temperature, ρ is the density, c p is the specific heat capacity, and k is thermal conductivity of the material.</s><s>In our case, a constant density equal to 7954 kg/m 3 was used for 316L stainless steel and the temperature-dependent thermal conductivity and specific heat capacity were adapted from <ref target="#b28" type="bibr">[29]</ref>.</s><s>The thermal conductivity at temperatures above the melting point was artificially increased to imitate the increased heat transfer resulting from the convection of the liquid inside the melt pool, similar to <ref target="#b29" type="bibr">[30]</ref>.</s><s>In addition, the latent heat of fusion was introduced as an increase in the effective specific heat capacity in a 200 • C temperature range above the melting point.</s></p><p><s>The right term of equation ( <ref type="formula">1</ref>), q vol , describes the volumetric heat generation due to the moving laser, which was represented by a simplified variant of the Goldak heat source <ref target="#b30" type="bibr">[31]</ref> as represented in the following equation:</s></p><formula xml:id="formula_1">q vol = η 6 ̅̅ ̅ 3 √ P a 2 bπ ̅̅̅ π √ exp ( -3x 2 a 2 ) exp ( -3y 2 a 2 ) exp ( -3z 2 b 2 ) (<label>2</label></formula><formula xml:id="formula_2">)</formula><p><s>where η is the absorption coefficient, P is the laser power, a is the laser spot radius (a = 55 2 μm), and b is the powder layer thickness (b = 30μm).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Melt pool morphology in thin-walled samples<p><s>Samples of different thicknesses were examined by optical microscopy to evaluate the presence of defects as well as to characterize the melt pool morphologies.</s><s>The representative areas of cross sections normal to the scanning direction of different wall thicknesses are shown in Fig. <ref target="#fig_1" type="figure">2</ref>. All the samples are free of defects (no pores, no cracks).</s><s>The microstructure consists of overlying melt pools, which is characteristic for samples fabricated using a bidirectional scanning strategy without rotation between layers.</s><s>However, a significant difference could be noticed in terms of the melt pool morphologies between these samples.</s><s>Very shallow melt pools can be found in the samples consisting of track.</s><s>A similar effect is observed in the 2-tracks sample, whereas for samples consisting of 3 or more melt tracks, the melt pools in the center of the wall become more spherical.</s><s>Moreover, considering the melt pool depth, it can be seen that every subsequently scanned track results in a deeper melt pool.</s><s>In contrast, all the melt pools near the edges of the walls are shallower and become almost flat.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Microstructure in thin-walled samples<p><s>The sub-grain microstructures of the samples with different wall thicknesses are shown in Fig. <ref target="#fig_2" type="figure">3</ref>.</s><s>The microstructure mainly consists of very fine solidification cells that keep growing epitaxially across multiple melt pool boundaries; however, some differences in the cell size and orientation can be observed between the samples with different wall thicknesses.</s><s>The single track sample consists of solidification cells of different sizes, which are clustered to form bands of approximately μm in width and inclined towards the wall's center (Fig. <ref target="#fig_2" type="figure">3a</ref> and<ref type="figure">b</ref>).</s><s>The width of these cells varies between 0.7 and 1.1 μm and their length between 3.3 and 25 μm.</s><s>In the 2-tracks sample, the microstructure consists mainly of elongated solidification cells along the build direction in the central part of the wall; however, we can distinguish two different zones.</s><s>They are shown in Fig. <ref target="#fig_2" type="figure">3b</ref> and<ref type="figure">d</ref> and are marked with blue and green colors.</s><s>The blue area corresponds to the center of each melt pool Larger solidification cells can be found in both samples in the vicinity of the sample edges, and their size is very similar to the size of the cells in Fig. <ref target="#fig_2" type="figure">3d</ref>, marked with green color.</s></p><p><s>Considering thicker samples, a side branching can be observed at the melt pool boundaries and the center of the melt pools, as marked with black arrows in Fig. <ref target="#fig_2" type="figure">3f</ref> and<ref type="figure">h</ref>.</s><s>In addition, in some of the melt pools in the central part of the walls, continuous cell growth in a slender domain following the centerline of the melt pools is evident (Fig. <ref target="#fig_2" type="figure">3f</ref> green color), and the growth direction of these cells was marked with white arrows.</s><s>However, these domains are sometimes interrupted by the pockets consisting of randomly growing solidification cells resulting from the scanning of the subsequent track, as marked in Fig. <ref target="#fig_2" type="figure">3f</ref> with red color.</s></p><p><s>Fig. <ref target="#fig_3" type="figure">4</ref> shows detailed EBSD data obtained on specimens with different wall thickness.</s><s>The microstructure of all samples is characterized by columnar grains, indicating epitaxial grain growth through the layers; however, differences in the size and orientations can be observed between different samples.</s><s>The most visible difference is found in the single track and double track samples (Fig. <ref target="#fig_3" type="figure">4a</ref> and<ref type="figure">b</ref>, respectively), compared to the thicker samples.</s><s>In the case of the first group, the samples consist of relatively small grains.</s><s>In the single track sample, the grains are inclined toward the center of the wall, while in the 2 tracks sample, the grains are inclined towards the edge of the sample, consistent with the order of the scanned tracks.</s><s>In the single track sample, the grain width and length are in the range of 20±15 μm and 100±50 μm, respectively.</s><s>In the 2 tracks sample, the grains are longer compared to the single track samples, and they range from 150 to 200 μm in length and from 20 to 50 μm in width.</s><s>In the case of the thicker samples, e.g., 3, tracks sample and thicker (Fig. <ref target="#fig_3" type="figure">4c</ref> and<ref type="figure">d</ref>), the grains are significantly larger, and the vast majority are orientated parallel to the build direction.</s><s>The grains reach a length of a few hundred micrometers, and their width is around 100±20 μm.</s></p><p><s>Furthermore, smaller, elongated grains with respect to the build direction are visible with the orientation of 〈001〉.</s><s>They form in the central part of the wall and the centerline of the melt pools.</s><s>Another aspect that differentiates the microstructures of the thicker samples from the thinner ones is the presence of the fine grain regions near the edges of the sample.</s><s>This area forms a band with a width of around 80 μm, consisting of fine grains, and very often, small powder particles are partly melted to the surface, indicating nucleation of the grain on the powder.</s></p><p><s>All the samples contain many small-angle grain boundaries with 2-15 • of misorientation, as shown in Fig. <ref target="#fig_3" type="figure">4e -h</ref>.</s><s>They appear inhomogeneously distributed, forming vertical bands of the highest density at the center of the single track sample (Fig. <ref target="#fig_3" type="figure">4e</ref>) and at a distance of around 100 µm for the thicker samples, corresponding to the hatch spacing that has been used for the sample fabrication.</s><s>Moreover, the highest density of small angle grain boundaries is visible in the thicker samples (3 and 6 tracks, Fig. <ref target="#fig_3" type="figure">4g</ref> and<ref type="figure">h</ref>, respectively) in the areas where the fine 〈100〉 grains form in the center of the melt pool.</s></p><p><s>To study the dislocation boundary density, kernel average misorientation (KAM) maps were extracted from EBSD data for different wall thicknesses (Fig. <ref target="#fig_3" type="figure">4i -l</ref>).</s><s>The KAM maps show local variations in the lattice structure orientations, giving a qualitative evaluation of the dislocation density.</s><s>By comparing the data obtained from different wall thicknesses, the thicker samples (3 tracks and 6 tracks, Fig. <ref target="#fig_3" type="figure">4k</ref> and<ref type="figure">l</ref>, respectively) show thin bands of higher dislocation density in the areas where the fine 〈100〉 grains in the center of the melt pool form.</s><s>In the single track sample (Fig. <ref target="#fig_3" type="figure">4i</ref>), the dislocation density is more pronounced in the center of the wall.</s><s>In the 2 tracks sample (Fig. <ref target="#fig_3" type="figure">4j</ref>), the density is almost evenly distributed over the wall cross section.</s></p><p><s>Inverse pole figures of the samples with the different wall thicknesses and different crystallographic planes are shown on Fig. <ref target="#fig_4" type="figure">5</ref>.</s><s>The [100],</s></p><p><s>[010], and [001], correspond to the build direction, perpendicular to the scanning direction, and nominal to the scanning direction, respectively.</s><s>The measurements reveal a significant difference between the different wall thicknesses.</s><s>The inverse pole figures show that 〈100〉 is the preferred orientation for 1 and 2 tracks samples.</s><s>In the single track sample, the 〈100〉 orientation is observed in the build direction while, for the other direction, the texture is less pronounced.</s><s>Interestingly, for the 2-track sample an almost single-crystalline-like microstructure is revealed: in all directions, a pronounced 〈001〉 texture is present.</s><s>In contrast, for the samples consisting of 3 tracks and more, the texture in the build direction and perpendicular to the scanning direction is near random; however, in the scanning direction all the samples show more pronounced 〈111〉 texture.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Melt pool formation in thin-walled samples<p><s>The subsequent melt pool morphology evolution in samples with different wall thicknesses is shown in Fig. <ref target="#fig_5" type="figure">6</ref>.</s><s>In the single track sample, the melt pool has an almost elliptical shape, leading to a rounded top surface morphology (Fig. <ref target="#fig_5" type="figure">6 a</ref>).</s><s>The depth and width of the melt pool is 90 µm and 178 µm, respectively.</s><s>For the sample consisting of 2 tracks, both tracks exhibit flattened melt pool contours towards the edges, and the width of either of them is around 160 µm.</s><s>However, the depth of these melt pools differs; the depth is around 60 µm for the 1st track and slightly above 80 µm for the 2nd track (Fig. <ref target="#fig_5" type="figure">6b</ref> and<ref type="figure">c</ref>).</s><s>The penetration depth is almost the same for both melt pools, therefore the top surface of the second melt pool is placed 20 µm higher compared to the first one.</s><s>Moreover, the 2nd melt pool has an elliptical shape, which is rotated by around 30 • in the direction of the subsequently scanned tracks.</s><s>In the sample consisting of 3 tracks, all melt pools have relatively even dimensions (Fig. <ref target="#fig_5" type="figure">6d -f</ref>).</s><s>The width of the melt pools is around 170 µm.</s><s>The only difference in this case is, similar to the 2 track sample, that the melt pools near the edges of the samples are flattened.</s><s>Samples consisting of 4 tracks and more are characterized by a non-uniform top surface morphology.</s><s>The first tracks and the last ones are more elliptical and oriented perpendicular to the build direction.</s><s>The width of the first track is around 164 µm and the depth is around 85 µm, while the width of the last track is 185 µm and the depth is 110 µm.</s><s>For the rest of the tracks located in the middle of the wall, the width is in the range of 175 to 185 µm and the depth in the range of 100 to 110 µm.</s><s>These melt pools have a rather semi-spherical shape in comparison with the elliptical shapes observed in the thinner walls; however, their orientation with respect to the build direction is changing with the number of tracks.</s><s>The second track is oriented at almost 45 • to the build direction (reference axis pointed on the Fig. <ref target="#fig_5" type="figure">6l</ref>), the third one at around 70 • , while the fourth one is becoming oriented almost perpendicular to the build direction.</s><s>Another difference is the penetration depth of the previous layers.</s><s>For the tracks in the middle of the walls, re-melting of the previous layers is higher, resulting in formation of a "valley" in the central part of the wall surrounded by a higher metal mount, given by the higher melt pools near the edges.</s><s>Moreover, the last track, in contrast to the first track, is positioned lower by around 40 µm.</s><s>The depth of the "valley" with the respect to the height of the first track is in the range of 40 to 75 µm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Thermal history<p><s>The simulated temperature distributions at different stages of deposition on 1-to 3-track walls are shown in Fig. <ref target="#fig_6" type="figure">7</ref>.</s><s>A finer mesh size was used in the middle of the walls to guarantee accurate and converged analysis.</s><s>The temperature scale is limited to 1370 • C in snapshots presented in Fig. <ref target="#fig_6" type="figure">7</ref>, which corresponds to the liquidus temperature of 316L stainless steel and thus, the regions above this temperature (in grey) are in liquid state.</s><s>This also allows to better visualize the lower temperature ranges.</s></p><p><s>The temperature history varied for different wall thicknesses.</s><s>A slight heat accumulation was observed in the vicinity of scanned layers for samples consisting of multiple tracks.</s><s>Starting from the 2-track sample, an influence of the first track on the temperature distribution during scanning of subsequent track can be noted.</s><s>The temperature reached values of around 360 • C directly before the second track is scanned.</s><s>In 3-track samples, the local pre-heating before scanning the second track is less pronounced than in the 2-track samples.</s><s>However, before scanning the third track, the heat accumulation in the vicinity of the last track leads to temperatures of almost 470 • C.</s><s>These can be observed in simulation videos provided in Appendix A. In addition, there are differences in the size of melt pools (i.e. the size of the area above the melting point).</s><s>Nevertheless, the melt pool size differences between different samples are rather small in comparison to the differences that are present between the different scanned tracks within the same sample.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Mechanical tests 3.5.1. Tensile tests<p><s>The influence of the different wall thickness on the mechanical properties are shown in Fig. <ref target="#fig_7" type="figure">8</ref>.</s><s>To evaluate the effect of the wall thickness on the mechanical behavior, the samples were tested in two directions, vertical and horizontal with regards to the build direction.</s><s>The results for the vertical and horizontal orientation are shown in Fig. <ref target="#fig_7" type="figure">8a</ref> and b, respectively.</s><s>It was not possible to fabricate single track tensile samples in vertical direction; the surface shape of the samples led to the recoater hitting and deforming wall, resulting in the wall failure when a Considering the obtained results, the yield strength, the ultimate tensile strength as well as the elongation differ between the different wall thicknesses.</s><s>For the vertical samples, the lowest mechanical properties were observed for the 2-track sample, where the 0.2 % yield strength (YS) was around 410 MPa, the ultimate tensile strength (UTS) was around 480 MPa, and the elongation at fracture was around 28 %.</s><s>In the case of thicker samples, a substantial improvement in the mechanical performance was noted.</s><s>The YS reached higher values ranging from 460, 470 and 480 MPa for 3-,4-, and 5-tracks, respectively.</s><s>For the thicker samples, the YS remained almost unchanged at approximately 500 MPa.</s><s>Considering the UTS, a very similar trend is observed and the values are 530, 540 and 550 MPa for 3, 4, and 5 tracks samples, respectively.</s><s>For the thicker samples this value is approximately 580 MPa.</s><s>The elongation values for the samples starting from 3 tracks are ranging between 48 and 60 %; however, no clear trend can be observed.</s></p><p><s>In the case of the horizontal samples, the YS of the 2 tracks sample reaches almost the same values as the thicker samples, with values varying between 560 and 580 MPa, i.e. around 100 MPa higher than for the vertical samples.</s><s>The single-track sample has a lower YS of 490 MPa; however, the elongation at fracture reached around 8 %, which is very similar to the 2-track sample.</s><s>The fracture elongation of the samples consisting of 3 or more tracks varies between 18 and 27 %.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Nanoindentation tests<p><s>The results of the nanoindentation tests for different wall thickness are shown in Fig. <ref target="#fig_8" type="figure">9</ref>.</s><s>These tests allow to investigate the microstructure and mechanical properties of material through rapid mapping of the hardness with sub-micrometer resolution at the micrometer-scale area.</s><s>Across all samples, the hardness ranges between 3.4 and 4.6 GPa.</s><s>Differences in the hardness can be observed within the entire cross-section of a sample.</s><s>However, these differences are less pronounced in the 2 tracks sample compared to the remaining samples.</s><s>Considering the single-track sample, the regions of higher hardness are inclined towards the center of the wall with a band in the middle (around 25 µm in width), where the hardness is lower.</s><s>In contrast, for 3 and 4 tracks samples, the areas of lower hardness form also bands oriented parallel to the build direction; however, the width is significantly larger and it is estimated to be around 100 µm.</s><s>Surprisingly, there is no significant difference in the hardness from the regions in the vicinity of the edges and middle of the samples.</s><s>As nanoindentation tests are very sensitive to even the smallest scratches, the results show slight variations in hardness, which should be regarded as artefacts and not changes originating from the microstructure.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Post-fracture microstructure 3.6.1. Fracture surface<p><s>To investigate the fracture surface of the thin walls after tensile tests, SEM imaging of the 2 track and 6-tracks wall were performed using vertical samples.</s><s>The reason why only these 2 thicknesses were chosen is that they exhibited the biggest differences in their tensile properties (2 tracks sample exhibited lower YS, UTS and elongation compared to the thicker samples).</s><s>The results are presented in Fig. <ref target="#fig_9" type="figure">10</ref>.</s><s>In both cases, a ductile surface fracture was identified by the presence of dimples (Fig. <ref target="#fig_9" type="figure">10c</ref> and<ref type="figure">d</ref>)).</s><s>However, it can be noted that the size of the dimples is larger in the thicker sample compared to the thinner sample.</s><s>Moreover, a reduction in the cross-sectional area can be observed for the thinner sample; however, to quantitatively confirm this phenomenon, a more in depth study would need to be performed, which, however, is beyond the scope of the present paper.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Post-fracture microstructure<p><s>To examine the deformation condition that led to the tensile test result variations between 2-tracks sample and the thicker ones, IPF maps were taken for the samples after tensile testing (Fig. <ref target="#fig_10" type="figure">11</ref>).</s><s>The predominant orientation in both samples is close to 〈111〉 with respect to build direction, while only in the central part of the wall grains with a 〈100〉 orientation formed.</s><s>However, in the thinner sample, fine grains with almost random orientation are present in the vicinity of the edges.</s><s>These grains do not undergo any orientation transformation after applying the stresses.</s></p><p><s>The thicker sample is characterized by very large, elongated grains with respect to the build direction as well as the tension direction.</s><s>Moreover, numerous thin stripes perpendicular to the tensile direction with orientation 〈100〉 can be observed.</s><s>The misorientation profile acquired for both samples (Fig. <ref target="#fig_10" type="figure">11e</ref> and<ref type="figure">f</ref>)), indicate up to 60 • misorientation between the grains, confirming the presence of twins in the samples.</s><s>Taking into account the number of peaks indicating twinning, the density of twins in the thicker samples is significantly larger.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>The results indicate significant variations in the microstructures of thin-walled 316L stainless steel samples with different wall thicknesses, all manufactured using L-PBF under the same processing conditions that were initially optimized for bulk samples.</s><s>These distinctions point to the substantial influence of sample dimensions on microstructure formation, adding to the acknowledged impact of 'optimal' L-PBF process parameters-laser power, scanning speed, hatch spacing, and layer thickness.</s></p><p><s>Furthermore, sample thickness significantly affects the mechanical properties.</s><s>As detailed in the preceding sections, the most significant influence of wall thickness on microstructure and mechanical traits materializes in samples comprising 1 and 2 tracks, translating to wall thicknesses of around 170 µm and 250 µm, respectively.</s><s>In contrast, for thicker samples-comprising 3 or more tracks, with a thickness</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Thermal history and melt pool formation<p><s>In this study, we have observed distinct variations in the morphology of melt pools.</s><s>These differences are not only present between samples of varying thicknesses but also within individual tracks of the same sample.</s><s>Many instances of elliptical melt pools with asymmetrical features were evident, as depicted in Fig. <ref target="#fig_5" type="figure">6</ref>.</s><s>Interestingly, this behavior stabilized when examining samples containing five tracks, with the fourth track exhibiting a degree of symmetry.</s><s>This observation contrasts with the majority of published studies <ref target="#b31" type="bibr">[32]</ref><ref target="#b32" type="bibr">[33]</ref><ref target="#b33" type="bibr">[34]</ref><ref target="#b34" type="bibr">[35]</ref><ref target="#b35" type="bibr">[36]</ref><ref target="#b36" type="bibr">[37]</ref><ref target="#b37" type="bibr">[38]</ref><ref target="#b38" type="bibr">[39]</ref><ref target="#b39" type="bibr">[40]</ref><ref target="#b40" type="bibr">[41]</ref><ref target="#b41" type="bibr">[42]</ref>, which have primarily focused on either single-track samples or larger multi-track specimens, emphasizing the shapes of the central melt pool.</s><s>These observations underscore the distinctive behaviors of melt pool formation between thin-walled and thicker samples, as well as single tracks.</s></p><p><s>The formation of melt pools is influenced by several factors, including temporal thermal history (both local and global pre-heating), powder denudation, and the geometry, thickness, and morphology of the previously consolidated layer.</s><s>These variables collectively contribute to varying la-ser-material interactions.</s><s>Furthermore, these factors can impact fluid dynamics within the melt pool, including Marangoni convection and surface tension, resulting in the diverse melt pool formation phenomena <ref target="#b42" type="bibr">[43]</ref><ref target="#b43" type="bibr">[44]</ref><ref target="#b44" type="bibr">[45]</ref>.</s></p><p><s>Symmetrical, elliptical melt pools are a characteristic feature of single-track samples, as clearly demonstrated in Fig. <ref target="#fig_5" type="figure">6a</ref>.</s><s>These closely resemble the first tracks in both four-and five-track samples (Fig. <ref target="#fig_5" type="figure">6g</ref> and<ref type="figure">k</ref>).</s><s>Interestingly, despite observing local pre-heating in thicker samples, this phenome-non was not relevant to the initial tracks.</s><s>It is important to note that the first track did not undergo pre-heating, as evidenced in Appendix A; its temperature reverted to ambient levels after the new layer was deposited.</s><s>Consequently, it can be concluded that pre-heating does not account for the observed differences in melt pool formation in the first track.</s></p><p><s>A clear difference in this context compared to other tracks is the presence of powder on both sides of the melt pool, significantly influencing denudation.</s><s>The denudation process is extensively detailed in <ref target="#b9" type="bibr">[10,</ref><ref target="#b45" type="bibr">46]</ref>.</s><s>Here, powder is entrained and drawn directly into the melt pool from both sides of the scan track, resulting in the symmetrical nature of the melt pools.</s><s>This process is schematically illustrated for a single-track sample in Fig. <ref target="#fig_1" type="figure">12a</ref>.</s><s>Moreover, the penetration depth within the preceding layer decreases due to the increased energy consumption required for melting a larger amount of material that has been drawn into the melt pool.</s><s>This suggests that the build rate in single-track samples or the first track of thicker samples is consistently higher compared to subsequent tracks.</s><s>This could potentially explain the challenges faced in fabricating single-track tensile samples; the increase in each layer's height exceeds the powder layer thickness, leading to the coater colliding with and distorting the wall upon reaching a critical height.</s><s>However, this phenomenon does not extend to two-and threetrack samples (Fig. <ref target="#fig_5" type="figure">6b -f</ref>).</s></p><p><s>The top surface topography remains relatively flat in both two-and three-track samples, while thicker samples exhibit a wavy pattern.</s><s>Local pre-heating contributes to the formation of larger depression zones and more prominent remelting in thicker samples.</s><s>The increase in depression zone size with rising temperatures aligns with findings by Chen et al. <ref target="#b46" type="bibr">[47]</ref>.</s><s>Additionally, the reduced powder denudation in thicker samples results in progressively lower top surface levels with each subsequently deposited track.</s><s>This effect is less pronounced in two-and three-track samples due to the presence of a larger last melt pool.</s><s>During the scanning of the final track, heat accumulation intensifies due to local pre-heating and limited heat dissipation towards the sample edges (approximately 5 % of bulk material conductivity <ref target="#b47" type="bibr">[48]</ref>).</s><s>Consequently, a deeper melt pool is formed, capable of absorbing more powder from the regions near the sample edges.</s><s>This prolonged solidification time for the material and the enhanced liquid metal overflow due to gravitational forces are schematically depicted in Fig. <ref target="#fig_1" type="figure">12b</ref>, further supported by the flattened morphology of the last melt pools toward the edges.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Solidification cell structure and crystallographic texture<p><s>The solidification microstructure discussed in Section 3.2 reflects the typical pattern found in 316L stainless steel following L-PBF <ref target="#b37" type="bibr">[38,</ref><ref target="#b40" type="bibr">41,</ref><ref target="#b48" type="bibr">49]</ref>.</s><s>This structure is composed of columnar cells, growing epitaxially across melt pool boundaries and spanning multiple layers.</s><s>However, variations in size and orientation are noticeable across different samples.</s></p><p><s>In the case of single-track samples, the cells are elongated along the build direction, with a slight inclination towards the center of the melt pool.</s><s>This alignment corresponds to the semi-elliptical and symmetrical melt pool formation detailed in the preceding section.</s><s>Consequently, the primary driver of solidification, the thermal gradient (G), is perpendicular to the melt pool boundaries and extends toward the top center of the melt pool, consistent with earlier findings <ref target="#b49" type="bibr">[50]</ref>.</s><s>Notably, the size of solidification cells varied without exhibiting any consistent trends in the central part of the wall.</s><s>Only in the regions near the edges (~70 µm from the edges), larger solidification cells were observed.</s><s>That could potentially be attributed to restricted heat dissipation towards the powder bed and localized lower cooling rates.</s></p><p><s>For samples comprising two tracks, the solidification cells are marginally smaller compared to single-track samples, indicating increased cooling rates due to enhanced heat dissipation.</s><s>Larger solidification cells were found in overlapping regions between two melt pools, possibly due to incomplete cooling of the preceding track, resulting in pre-heating effects that influence both G and the solidification front velocity (Fig. <ref target="#fig_2" type="figure">3d</ref>).</s><s>These cells are elongated, influenced by the non-symmetrical melt pools, with G shifting from the center of the melt pool towards the edge of the second scanned track, as depicted in Fig. <ref target="#fig_2" type="figure">13</ref>.</s></p><p><s>In thicker samples, a significant distinction is evident in melt pools with more symmetrical morphologies.</s><s>These pools consist of epitaxially grown cells spanning multiple layers, parallel to the build direction, enveloped by elongated cells inclined towards the centerline of the melt pool.</s><s>This microstructure is consistent throughout thicker samples exhibiting symmetric melt pools.</s><s>Here, G follows the centerline of the melt pool vertically, as each successive melt pool overlaps with the previous one without significant geometry changes.</s><s>However, the vertical cells can be disrupted by subsequently scanned tracks if their geometry deviates.</s></p><p><s>Another notable aspect distinguishing solidification cells in single and double track samples from those in thicker samples is the change in orientation, marked by black arrows in Fig. <ref target="#fig_2" type="figure">3f</ref> and<ref type="figure">h</ref>.</s><s>This orientation shift occurs at the melt pool boundaries, where cells grow at a 90 • angle relative to cells from the preceding melt pool.</s><s>This phenomenon, termed side-branching, has been previously noted <ref target="#b50" type="bibr">[51,</ref><ref target="#b51" type="bibr">52]</ref>.</s><s>It emerges from heat flux variations that induce minor perturbations in the cells.</s><s>These perturbations provide sites for side-branching responses to heat flux changes, leading to growth in altered directions.</s><s>Consequently, more pronounced heat flux changes occur in thicker walls.</s><s>However, further investigation, particularly focused on melt pool formation, is necessary to validate this hypothesis.</s></p><p><s>Comparing EBSD maps and IPSs of samples with varying wall thicknesses reveals distinctions between single/double-track samples and thicker ones.</s><s>These differences vanish in samples comprising three tracks or more.</s><s>In single-track samples, grains are notably smaller compared to 3+ track samples and align along the centerline of the melt pool.</s><s>This corresponds to the solidification direction, proceeding from the melt pool's edge to its top centerline.</s><s>Although some grains possess random orientations, the preferred direction is 〈100〉 relative to the build direction, as depicted in Fig. <ref target="#fig_4" type="figure">5a</ref>.</s><s>It has been demonstrated that obtaining a shallow melt pool encourages grains to favor the 〈100〉 direction <ref target="#b52" type="bibr">[53]</ref>.</s><s>Adjusting process parameters can influence melt pool geometry, directly impacting grain growth direction.</s><s>Hence, sample dimensions, in addition to processing parameters, may influence preferred growth orientation.</s><s>The presence of singly oriented grains with random orientation arises from nucleation on loose powder particles surrounding the melt pool.</s></p><p><s>For two-track samples, a similar trend in grain size and preferred growth orientation is apparent, likely due to comparable melt pool morphologies.</s><s>The first melt pool resembles that of a single-track sample, shallow in nature, while the second is more elliptical and rotated to the right.</s><s>Consequently, the preferred growth direction in these melt pools is 〈100〉 concerning the build direction, with the second melt pool's rotation influencing slight grain angle adjustments to the right side.</s></p><p><s>As wall thickness increases, notably in samples with three or more tracks, elongated grains emerge, growing parallel to the build direction, often between neighboring melt pool centerlines, as seen in Fig. <ref target="#fig_3" type="figure">4c,</ref><ref type="figure">d</ref>.</s><s>These overlapping regions experience side-branching, forming larger grains.</s><s>These cells grow at 90 • angles to one another, growing in 〈100〉 direction for one melt pool and also 〈100〉 for another, both towards the centerline of their respective melt pools.</s><s>In FCC alloys, these directions are symmetrically equivalent.</s><s>While these cells experience 90 • changes in growth direction, their epitaxial growth leads to a larger grain formation.</s><s>Furthermore, nearly spherical melt pools give rise to elongated 〈001〉 grains at the melt pool centerline, similar to the 3-track sample with a near-perfectly symmetrical second track.</s><s>In this scenario, the solid-liquid interface progresses almost parallel to the build direction at the centerline of the melt pool, facilitating epitaxial growth <ref target="#b53" type="bibr">[54,</ref><ref target="#b54" type="bibr">55]</ref>.</s></p><p><s>A shared feature across most samples is the presence of finer grains lacking pronounced texture near the edges.</s><s>In these regions, liquid metal interacts with powder particles not drawn into the melt pool, fostering partial sintering on the melt pool sides.</s><s>Nucleation on these powder particles aligns grain orientation with the powder grains, illustrated in Fig. <ref target="#fig_2" type="figure">13</ref>.</s><s>Nevertheless, this theory requires further studies to be confirmed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Mechanical properties and post-fracture microstructure<p><s>Taking into account the outcomes of the nanoindentation tests, discernible variations in hardness become apparent across distinct samples.</s><s>Much like grain diameters, certain regions exhibit slight deviations in hardness values.</s><s>These alterations can thus be linked to localized shifts in grain orientation.</s></p><p><s>Significant disparities surface among the various samples when analyzing the results of the tensile tests.</s><s>A pronounced anisotropy emerges between vertically and horizontally oriented samples.</s><s>The differences can be attributed to variations in the solidification cells sizes along different planes.</s><s>The cells are elongated towards the build direction which align with the loading direction for the vertical samples.</s><s>Conversely, in the horizontal loading direction (perpendicular to the build direction), the cells are finer (higher amount of the solidification cells boundaries, enriched with dislocation), impeding dislocation movement and contributing to higher strength but lower elongation.</s><s>A similar observation has been already previously documented in additively manufactured bulk samples <ref target="#b55" type="bibr">[56,</ref><ref target="#b56" type="bibr">57]</ref>.</s><s>Furthermore, dissimilarities in mechanical properties manifest across samples with differing thicknesses.</s><s>Thinner samples, such as those comprising 1 and 2 tracks, exhibit consistently lower mechanical properties (yield strength, ultimate strength, and fracture elongation) compared to their thicker counterparts.</s><s>Within the realm of 3-track samples and thicker ones, mechanical properties display modest variation across samples, sans any conspicuous trend attributable to varying surface roughness.</s><s>Moreover, these results of the thicker parts align with those already reported in other literatures, reinforcing the statement that the most significant differences in performance occur in the samples consisting of 1 and 2 tracks <ref target="#b21" type="bibr">[22,</ref><ref target="#b22" type="bibr">23,</ref><ref target="#b55" type="bibr">56]</ref>.</s></p><p><s>Regarding the microstructure of thicker samples, a finer solidification cell structure comes to the fore, yielding heightened dislocation concentrations at cell boundaries <ref target="#b57" type="bibr">[58]</ref>.</s><s>Furthermore, discernibly larger misorientations are observable within thicker samples, as demonstrated in Fig. <ref target="#fig_3" type="figure">4</ref> i-l-an aspect directly linked to amplified dislocation density.</s><s>These dislocations act as impediments to dislocation motion during tension, rendering thicker samples endowed with higher yield strength (YS) and ultimate tensile strength (UTS).</s><s>This, however, doesn't fully elucidate the notably augmented ductility of thicker samples, almost double in comparison to their thinner counterparts.</s></p><p><s>In the analysis of the fracture surface, both samples exhibit fine dimples, consistent with findings from various studies on regular 316L stainless steel geometries fabricated with L-PBF <ref target="#b58" type="bibr">[59]</ref>.</s><s>However, notable differences emerged when compared the fracture surfaces of thinner samples with thicker ones.</s><s>These distinctions primarily arise from variations in the grain size formed in each sample.</s><s>Additionally, when considering already existing research linking dimple size to factors like laser power, scanning speed, hatch spacing, and layer thickness, it's important to recognize that geometry also plays a crucial role in this context <ref target="#b16" type="bibr">[17]</ref>.</s></p><p><s>Upon investigating the microstructure post-fracture, noteworthy shifts in grain orientation unfold.</s><s>Evidently, lattice rotation occurs from the original 〈110〉 orientation to 〈111〉 orientation (parallel to the building direction) under stress-an occurrence previously detailed for FCC alloys.</s><s>On the other hand, orientations like 〈100〉 or 〈111〉 remain stable and unaffected by applied stress, as evident in the finer grains situated near the wall edge (Fig. <ref target="#fig_10" type="figure">11c</ref>).</s><s>Furthermore, the emergence of twins is conspicuous across both sets of samples.</s><s>These twins, recognized for their influence on material ductility <ref target="#b25" type="bibr">[26,</ref><ref target="#b56" type="bibr">57]</ref>, are notably prevalent in thicker samples, potentially underpinning the heightened ductility observed.</s></p><p><s>When exploring elongation to fracture in samples of different thicknesses, a crucial factor to account for is the slimness ratio K <ref target="#b59" type="bibr">[60]</ref>, which is defined as:</s></p><formula xml:id="formula_3">K = L 2 ̅̅̅̅̅̅̅̅̅̅̅̅ T • W √ (3)</formula><p><s>where L 2 is the gauge length and T and W are the thickness and the width of the tensile sample, according to Fig. <ref target="#fig_0" type="figure">1</ref>.</s></p><p><s>Extensive research indicates that the elongation of the sample is highly responsive to variations in gauge thickness, length, and width, with a general trend of a decreasing elongation at fracture for increasing values of K <ref target="#b59" type="bibr">[60]</ref><ref target="#b60" type="bibr">[61]</ref><ref target="#b61" type="bibr">[62]</ref>.</s><s>Our findings corroborate this, revealing a consistent decrease in elongation at break as slimness ratio values increase (i.e. the thickness decreases).</s></p><p><s>To enhance comprehension, the Bertella-Oliver formula has been introduced to convert the total elongations of different tensile specimen dimensions <ref target="#b59" type="bibr">[60,</ref><ref target="#b61" type="bibr">62]</ref>.</s></p><formula xml:id="formula_4">ε = ε r ( K r K ) n (4)</formula><p><s>where ε and ε r are the total elongations of tensile specimens with slimness values K and K r , respectively.</s><s>The subscript r denotes the reference specimen dimension.</s><s>n is a constant depending on the material composition.</s><s>However, its application comes with constraints, as the ratio of tensile bar width to thickness should be less than 20, and the slimness ratio should not exceed 25.</s><s>For the thickest samples, the K value is around 16 and the W/T ratio is approximately 12.5, whereas for the thinnest samples, these values increase to about 29 and 41, respectively.</s><s>This indicates that our thinnest samples do not meet these criteria, rendering the Bertella-Oliver formula inapplicable for correcting the measured values in these cases (for both single and double tracks).</s><s>However, according to Zhang et al. <ref target="#b62" type="bibr">[63]</ref>, the impact of the slimness ratio on 316L's fracture elongation change is relatively moderate.</s><s>This is evidenced by a lower value of n (0.11) as compared to e.g.</s><s>0.3-0.4 for ferritic steels.</s><s>In their study, the average fracture elongation decreased from roughly 66(+/-10)% to 57(+/-7)% as the slimness ratio varied between 3&lt; K &lt;16.</s><s>Thus, it is presumed that the fracture elongation's dependence on sample thickness (i.e. the pure geometric effect) is also moderate in our case.</s></p><p><s>In addition, the reduced fracture elongation in thinner walls might partly be due to the comparably lower surface quality, which makes them more prone to forming notches during tension.</s><s>These notches create stress concentrations that the material's plasticity cannot compensate for due to the limited thickness of the samples.</s><s>As a result, once cracks appear, they do not propagate far, leading to the rapid fracture of the sample.</s></p><p><s>Nevertheless, it is proposed that future research should consider a different methodology that complies with the specified geometric requirements of the samples to gain a fuller understanding of the mechanical behavior being studied.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusion<p><s>This study investigated the impact of wall thickness on microstructure and mechanical properties.</s><s>Specimens of 316L steel with various thicknesses underwent comprehensive microstructure, thermal history, and mechanical analyses.</s><s>In a broader sense, distinct wall thicknesses led to significant shifts in both microstructure and mechanical attributes.</s><s>Beyond conventional parameters like laser power, scanning speed, and layer thickness, these findings highlight the important role of geometric considerations-an aspect usually confined to "printability" discussions but now emerging as a performance determinant.</s></p><p><s>The key findings are as follows:</s></p><p><s>1.</s><s>All sample thicknesses exhibited fully dense structures without evidence of pores or cracks.</s><s>2. Single-track samples showcased symmetric elliptical melt pools due to uniform denudation.</s><s>This symmetry extended to initial paths in other thicknesses.</s><s>However, melt pools in the center of thicker walls tended to be deeper and less symmetrical, inducing an undulating upper surface.</s><s>3. 1-and 2-track samples presented elongated solidification cells paralleling the build direction.</s><s>In contrast, thicker samples boasted finer cells, yielding slender columnar grains along melt pool centerlines.</s><s>Larger cells near edges emerged across all samples due to limited heat dissipation into the powder bed.</s></p><p><s>4. Thinner walls exhibited small grains with pronounced 〈100〉 orientation.</s><s>This trend shifted in the 3-track sample, where large 〈101〉 -oriented grains along the build direction prevailed.</s><s>5.</s><s>While nanoindentation tests revealed minimal differences, tensile tests exhibited notable variability among sample thicknesses.</s><s>Thinner samples manifested reduced yield and ultimate tensile strengths compared to thicker counterparts, attributed to larger solidification cells.</s><s>Enhanced elongation in thicker samples was attributed to the presence of large 〈101〉 grains transforming to 〈111〉 and forming twins under tension.</s><s>6.</s><s>In summary, "thin-walled" categorization applied to thicknesses up to 300 μm (1-track and 2-track).</s><s>Beyond this, samples with 3 tracks or more (~350 μm thickness) mirrored bulk sample behavior.</s></p><p><s>These findings underline the intricate interplay of geometry, microstructure, and mechanical properties, prompting a reconsideration of optimal process strategies in additive manufacturing.</s><s>Disparities between thicknesses are rooted in powder denudation and local preheating.</s><s>Achieving uniform process conditions requires process optimization transcending laser power and scanning speed adjustments.</s><s>A proposed solution entails a novel scanning strategy emulating single-track sample conditions.</s><s>This would involve alternating scanning between tracks in adjacent layers to evenly denude powder and minimize local preheating.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">CRediT</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Declaration of competing interest<p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Fig. 1 .<label>1</label><figdesc><div><p><s>Fig. 1.</s><s>A) morphology of the 316l stainless steel powder used in this study, b) geometry and scanning strategy of the thin-walled samples, c) geometry of the samples for the mechanical tests, d) single-track deposition on walls with different thicknesses.</s></p></div></figdesc><graphic coords="3,49.61,55.40,496.08,221.04" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Fig. 2 .<label>2</label><figdesc><div><p><s>Fig. 2. Morphology of the melt pools in a) 1 track, b) 2 track, c) 3 track, d) 4 track, and e) 5 track samples.</s><s>Dashed lines indicate melt pool contours.</s></p></div></figdesc><graphic coords="4,49.61,55.41,496.08,207.65" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Fig. 3 .<label>3</label><figdesc><div><p><s>Fig. 3. Microstructure of a, b) 1 track, b, d) 2 track, c,d) 3 track, e,f) 6 track, SEM.</s><s>Dashed line indicate a melt pool contour, white arrows indicate the solidification cells growth and with black arrows indicate side-branching.</s></p></div></figdesc><graphic coords="5,120.47,55.42,354.38,468.14" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Fig. 4 .<label>4</label><figdesc><div><p><s>Fig. 4. Inverse pole figures maps with the respect to the build direction for a) 1 track, b) 2 tracks, c) 3 tracks, d) 6 tracks sample; grain boundary map with high angle grain boundaries (&gt;15 • ) in blue and small angle boundaries (2-15 • ) in red for for e) 1 track, f) 2 tracks, g) 3 tracks, h) 6 tracks sample; kernel average misorientation (KAM) maps for i) 1 track, j) 2 tracks, k) 3 tracks, l) 6 tracks sample.</s><s>(For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</s></p></div></figdesc><graphic coords="6,97.74,55.41,399.74,430.56" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Fig. 5 .<label>5</label><figdesc><div><p><s>Fig. 5. Inverse pole figures for a) 1 track, b) 2 tracks, c) 3 tracks, d) 6 track sample.</s></p></div></figdesc><graphic coords="7,99.21,55.42,396.86,474.77" type="bitmap"></graphic></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Fig. 6 .<label>6</label><figdesc><div><p><s>Fig. 6.</s><s>Morphology of the melt pools at the top of the samples consisting of a) 1 track, b) 2 tracks with deposited 1 track, c) 2 tracks width deposited 2 tracks, d) 3 tracks width deposited 1 track, e) 3 tracks width deposited 2 tracks, f) 3 tracks width deposited 3 track, g) 4 tracks width deposited 1 track, h) 4 tracks width deposited 2 tracks, i) 4 tracks width deposited 3 tracks, j) 4 tracks width deposited 4 tracks, k) 5 tracks width deposited 1 track, i) 5 tracks width deposited 2 tracks, m) 5 tracks width deposited 3 tracks, n) 5 tracks width deposited 4 tracks, o) 5 tracks width deposited 5 tracks.</s></p></div></figdesc><graphic coords="8,97.34,55.39,400.61,302.11" type="bitmap"></graphic></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Fig. 7 .<label>7</label><figdesc><div><p><s>Fig. 7. Far field temperature distribution obtained from the thermal simulations for a) 1 track, b) 2 tracks, c) 3 tracks.</s></p></div></figdesc><graphic coords="9,98.48,55.44,398.30,391.25" type="bitmap"></graphic></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Fig. 8 .<label>8</label><figdesc><div><p><s>Fig. 8. Tensile tests results for the different wall thicknesses a) vertical and b) horizontal samples.</s></p></div></figdesc><graphic coords="9,120.47,484.85,354.38,175.97" type="bitmap"></graphic></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Fig. 9 .<label>9</label><figdesc><div><p><s>Fig. 9. Hardness maps results obtained via high-speed nanoindentation mapping for a) 1 track, b) 2 tracks, c) 3 tracks, d) 4 tracks sample.</s></p></div></figdesc><graphic coords="10,99.21,55.40,396.86,307.15" type="bitmap"></graphic></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Fig. 10 .<label>10</label><figdesc><div><p><s>Fig. 10.</s><s>Low and high magnification of fracture surface for a, c) 2 tracks and b, d) 6 tracks sample after tensile tests.</s></p></div></figdesc><graphic coords="11,127.56,55.41,340.13,349.49" type="bitmap"></graphic></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0">Fig. 11 .<label>11</label><figdesc><div><p><s>Fig. 11.</s><s>Inverse pole figures maps of region near the fracture surface with higher magnification of the areas with twins and misorientation profile along the white lines for 2 tracks sample a, c, e) and 6 tracks sample b, d, f).</s></p></div></figdesc><graphic coords="11,42.12,443.00,511.06,258.91" type="bitmap"></graphic></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0">Fig. 12 .Fig. 13 .<label>1213</label><figdesc><div><p><s>Fig. 12. Melt pool formation in a) single-track sample and b) multiple-track samples.</s></p></div></figdesc><graphic coords="12,77.95,55.40,439.34,293.04" type="bitmap"></graphic></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>authorship contribution statement R. Wrobel: Writingoriginal draft, Visualization, Validation, Methodology, Investigation, Data curation, Conceptualization.</s><s>L. Del Guidice: Writingreview &amp; editing, Validation, Methodology, Investigation.</s><s>P. Scheel: Writingreview &amp; editing, Validation, Investigation, Data curation.</s><s>N. Abando: Writingreview &amp; editing, Validation, Investigation, Data curation.</s><s>X. Maeder: Writingreview &amp; editing, Validation, Investigation.</s><s>M. Vassiliou: Writingreview &amp; editing, Validation.</s><s>E. Hosseini: Writingreview &amp; editing, Validation.</s><s>R. Spolenak: Writingreview &amp; editing, Supervision, Conceptualization.</s><s>C. Leinenbach: Writingreview &amp; editing, Supervision, Project administration, Conceptualization.</s></p></div></figdesc></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Materials &amp; Design 238 (2024) 112652</s></p></note>
+<back>
+<div type="acknowledgement">
+<div>Acknowledgements<p>The financial support from the <rs type="funder">ETH Zurich Foundation</rs> through the project no.<rs type="grantNumber">2018-HE-321</rs> "<rs type="projectName">Combustion Dynamics Optimisation for LiQuid Fuel flrEd Gas Turbines (QUIET)</rs>" is gratefully acknowledged.</p><p>Funding to the second and sixth author was provided by the <rs type="funder">European Research Council (ERC)</rs> under <rs type="grantName">Starting Grant</rs> <rs type="grantNumber">803908</rs>.</p></div>
+</div>
+<listorg type="funding">
+<org type="funded-project" xml:id="_nDXGvhZ">
+<idno type="grant-number">2018-HE-321</idno>
+<orgname subtype="full" type="project">Combustion Dynamics Optimisation for LiQuid Fuel flrEd Gas Turbines (QUIET)</orgname>
+</org>
+<org type="funding" xml:id="_tUuqw2N">
+<idno type="grant-number">803908</idno>
+<orgname type="grant-name">Starting Grant</orgname>
+</org>
+</listorg>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Data availability<p><s>Data will be made available on request.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Appendix A. Supplementary data<p><s>Supplementary data to this article can be found online at https://doi.</s><s>org/10.1016/j.matdes.2024.112652.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<monogr>
+<author>
+<persname><forename type="first">L</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Baughman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Godfrey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Medina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Menon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Wiener</surname></persname>
+</author>
+<idno type="DOI">10.1007/978-3-319-55128-9</idno>
+<ptr target="https://doi.org/10.1007/978-3-319-55128-9"></ptr>
+<title level="m">Additive Manufacturing of Metals: The Technology, Materials, Design and Production</title>
+<meeting><address><addrline>Cham</addrline></address></meeting>
+<imprint>
+<publisher>Springer International Publishing</publisher>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">L. Yang, K. Hsu, B. Baughman, D. Godfrey, F. Medina, M. Menon, S. Wiener, Additive Manufacturing of Metals: The Technology, Materials, Design and Production, Springer International Publishing, Cham (2017), https://doi.org/ 10.1007/978-3-319-55128-9.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Metal additive manufacturing in aerospace: A review</title>
+<author>
+<persname><forename type="first">B</forename><surname>Blakey-Milner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Gradl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Snedden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brooks</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Pitot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Lopez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Leary</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Berto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Du Plessis</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matdes.2021.110008</idno>
+<ptr target="https://doi.org/10.1016/j.matdes.2021.110008"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials &amp; Design</title>
+<imprint>
+<biblscope unit="volume">209</biblscope>
+<biblscope unit="page">110008</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">B. Blakey-Milner, P. Gradl, G. Snedden, M. Brooks, J. Pitot, E. Lopez, M. Leary, F. Berto, A. du Plessis, Metal additive manufacturing in aerospace: A review, Materials &amp; Design. 209 (2021) 110008, https://doi.org/10.1016/j. matdes.2021.110008.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Osseointegration of additive manufacturing Ti-6Al-4V and Co-Cr-Mo alloys, with and without surface functionalization with hydroxyapatite and type I collagen</title>
+<author>
+<persname><forename type="first">S</forename><surname>Brogini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sartori</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Giavaresi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Cremascoli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Alemani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Bellini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Martini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Maglio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pagani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fini</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmbbm.2020.104262</idno>
+<ptr target="https://doi.org/10.1016/j.jmbbm.2020.104262"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Mechanical Behavior of Biomedical Materials</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope unit="page">104262</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Brogini, M. Sartori, G. Giavaresi, P. Cremascoli, F. Alemani, D. Bellini, L. Martini, M. Maglio, S. Pagani, M. Fini, Osseointegration of additive manufacturing Ti-6Al-4V and Co-Cr-Mo alloys, with and without surface functionalization with hydroxyapatite and type I collagen, Journal of the Mechanical Behavior of Biomedical Materials. 115 (2021) 104262, https://doi.org/10.1016/j. jmbbm.2020.104262.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Additive manufacturing of titanium alloys in the biomedical field: processes, properties and applications</title>
+<author>
+<persname><forename type="first">F</forename><surname>Trevisan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Calignano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Aversa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Marchese</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Lombardi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Biamino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Ugues</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Manfredi</surname></persname>
+</author>
+<idno type="DOI">10.5301/jabfm.5000371</idno>
+<ptr target="https://doi.org/10.5301/jabfm.5000371"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Applied Biomaterials &amp; Functional Materials</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="57" to="67" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">F. Trevisan, F. Calignano, A. Aversa, G. Marchese, M. Lombardi, S. Biamino, D. Ugues, D. Manfredi, Additive manufacturing of titanium alloys in the biomedical field: processes, properties and applications, Journal of Applied Biomaterials &amp; Functional Materials. 16 (2018) 57-67, https://doi.org/10.5301/jabfm.5000371.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">3D and 4D Printing of Comples Structures of Fe-Mn-Si-Based Shape Memory Alloy using Laser Powder Bed Fusion</title>
+<author>
+<persname><forename type="first">D</forename><surname>Kim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Ferretto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Leinenbach</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Lee</surname></persname>
+</author>
+<idno type="DOI">10.1002/admi.202200171</idno>
+<ptr target="https://doi.org/10.1002/admi.202200171"></ptr>
+</analytic>
+<monogr>
+<title level="j">Advanced Materials Interfaces</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">2200171</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D. Kim, I. Ferretto, C. Leinenbach, W. Lee, 3D and 4D Printing of Comples Structures of Fe-Mn-Si-Based Shape Memory Alloy using Laser Powder Bed Fusion, Advanced Materials Interfaces. 9 (2022) 2200171, https://doi.org/10.1002/ admi.202200171.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">3D magnetic patterning in additive manufacturing via site-specific in-situ alloy modification</title>
+<author>
+<persname><forename type="first">A</forename><surname>Arabi-Hashemi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Maeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Figi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Schreiner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Griffiths</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Leinenbach</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.apmt.2019.100512</idno>
+<ptr target="https://doi.org/10.1016/j.apmt.2019.100512"></ptr>
+</analytic>
+<monogr>
+<title level="j">Applied Materials Today</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="page">100512</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Arabi-Hashemi, X. Maeder, R. Figi, C. Schreiner, S. Griffiths, C. Leinenbach, 3D magnetic patterning in additive manufacturing via site-specific in-situ alloy modification, Applied Materials Today. 18 (2020) 100512, https://doi.org/ 10.1016/j.apmt.2019.100512.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Laser powder bed fusion of a Fe-Mn-Si shape memory alloy</title>
+<author>
+<persname><forename type="first">I</forename><surname>Ferretto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Kim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">M</forename><surname>Della</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ventura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Shahverdi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><surname>Leinenbach</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.addma.2021.102071</idno>
+<ptr target="https://doi.org/10.1016/j.addma.2021.102071"></ptr>
+</analytic>
+<monogr>
+<title level="j">Additive Manufacturing</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope unit="page">102071</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">I. Ferretto, D. Kim, N.M. Della Ventura, M. Shahverdi, W. Lee, C. Leinenbach, Laser powder bed fusion of a Fe-Mn-Si shape memory alloy, Additive Manufacturing. 46 (2021) 102071, https://doi.org/10.1016/j.addma.2021.102071.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Review of selective laser melting: Materials and applications</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">Y</forename><surname>Yap</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><forename type="middle">L</forename><surname>Dong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><forename type="middle">H</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">Q</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">E</forename><surname>Loh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persname>
+</author>
+<idno type="DOI">10.1063/1.4935926</idno>
+<ptr target="https://doi.org/10.1063/1.4935926"></ptr>
+</analytic>
+<monogr>
+<title level="j">Applied Physics Reviews</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="page">41101</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">C.Y. Yap, C.K. Chua, Z.L. Dong, Z.H. Liu, D.Q. Zhang, L.E. Loh, S.L. Sing, Review of selective laser melting: Materials and applications, Applied Physics Reviews. 2 (2015) 041101, https://doi.org/10.1063/1.4935926.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Single track formation in selective laser melting of metal powders</title>
+<author>
+<persname><forename type="first">I</forename><surname>Yadroitsev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gusarov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Yadroitsava</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Smurov</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmatprotec.2010.05.010</idno>
+<ptr target="https://doi.org/10.1016/j.jmatprotec.2010.05.010"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Materials Processing Technology</title>
+<imprint>
+<biblscope unit="volume">210</biblscope>
+<biblscope from="1624" to="1631" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">I. Yadroitsev, A. Gusarov, I. Yadroitsava, I. Smurov, Single track formation in selective laser melting of metal powders, Journal of Materials Processing Technology. 210 (2010) 1624-1631, https://doi.org/10.1016/j. jmatprotec.2010.05.010.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Denudation of metal powder layers in laser powder bed fusion processes</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Guss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Depond</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.actamat.2016.05.017</idno>
+<ptr target="https://doi.org/10.1016/j.actamat.2016.05.017"></ptr>
+</analytic>
+<monogr>
+<title level="j">Acta Materialia</title>
+<imprint>
+<biblscope unit="volume">114</biblscope>
+<biblscope from="33" to="42" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M.J. Matthews, G. Guss, S.A. Khairallah, A.M. Rubenchik, P.J. Depond, W.E. King, Denudation of metal powder layers in laser powder bed fusion processes, Acta Materialia. 114 (2016) 33-42, https://doi.org/10.1016/j.actamat.2016.05.017.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Experimental and computational study on thermal and fluid behaviours of powder layer during selective laser melting additive manufacturing</title>
+<author>
+<persname><forename type="first">H</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Giam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Yan</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.addma.2022.102645</idno>
+<ptr target="https://doi.org/10.1016/j.addma.2022.102645"></ptr>
+</analytic>
+<monogr>
+<title level="j">Additive Manufacturing</title>
+<imprint>
+<biblscope unit="volume">52</biblscope>
+<biblscope unit="page">102645</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Chen, Y. Zhang, A. Giam, W. Yan, Experimental and computational study on thermal and fluid behaviours of powder layer during selective laser melting additive manufacturing, Additive Manufacturing. 52 (2022) 102645, https://doi. org/10.1016/j.addma.2022.102645.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">The role of powder morphology in particle movement behavior in laser powder bed fusion with an emphasis on fluid drag</title>
+<author>
+<persname><forename type="first">T</forename><surname>Fedina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Sundqvist</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F H</forename><surname>Kaplan</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.powtec.2021.10.020</idno>
+<ptr target="https://doi.org/10.1016/j.powtec.2021.10.020"></ptr>
+</analytic>
+<monogr>
+<title level="j">Powder Technology</title>
+<imprint>
+<biblscope unit="volume">395</biblscope>
+<biblscope from="720" to="731" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Fedina, J. Sundqvist, A.F.H. Kaplan, The role of powder morphology in particle movement behavior in laser powder bed fusion with an emphasis on fluid drag, Powder Technology. 395 (2022) 720-731, https://doi.org/10.1016/j. powtec.2021.10.020.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Rubenchik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.actamat.2016.02.014</idno>
+<ptr target="https://doi.org/10.1016/j.actamat.2016.02.014"></ptr>
+</analytic>
+<monogr>
+<title level="j">Acta Materialia</title>
+<imprint>
+<biblscope unit="volume">108</biblscope>
+<biblscope from="36" to="45" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S.A. Khairallah, A.T. Anderson, A. Rubenchik, W.E. King, Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones, Acta Materialia. 108 (2016) 36-45, https://doi.org/10.1016/j.actamat.2016.02.014.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Anisotropy and heterogeneity of microstructure and mechanical properties in metal additive manufacturing: A critical review</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Kok</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><forename type="middle">P</forename><surname>Tan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L S</forename><surname>Nai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">H</forename><surname>Loh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Tor</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matdes.2017.11.021</idno>
+<ptr target="https://doi.org/10.1016/j.matdes.2017.11.021"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials &amp; Design</title>
+<imprint>
+<biblscope unit="volume">139</biblscope>
+<biblscope from="565" to="586" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Kok, X.P. Tan, P. Wang, M.L.S. Nai, N.H. Loh, E. Liu, S.B. Tor, Anisotropy and heterogeneity of microstructure and mechanical properties in metal additive manufacturing: A critical review, Materials &amp; Design. 139 (2018) 565-586, https://doi.org/10.1016/j.matdes.2017.11.021.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Additive manufacturing of metals</title>
+<author>
+<persname><forename type="first">D</forename><surname>Herzog</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Seyda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Wycisk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Emmelmann</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.actamat.2016.07.019</idno>
+<ptr target="https://doi.org/10.1016/j.actamat.2016.07.019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Acta Materialia</title>
+<imprint>
+<biblscope unit="volume">117</biblscope>
+<biblscope from="371" to="392" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D. Herzog, V. Seyda, E. Wycisk, C. Emmelmann, Additive manufacturing of metals, Acta Materialia. 117 (2016) 371-392, https://doi.org/10.1016/j. actamat.2016.07.019.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<monogr>
+<title level="m" type="main">Additive manufacturing: fundamentals and advancements</title>
+<author>
+<persname><forename type="first">M</forename><surname>Srivastava</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Rathee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Maheshwari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">K</forename><surname>Kundra</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2020">2020</date>
+<publisher>CRC Press/Taylor and Francis Group</publisher>
+<pubplace>Boca Raton</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Srivastava, S. Rathee, S. Maheshwari, T.K. Kundra, Additive manufacturing: fundamentals and advancements, CRC Press/Taylor and Francis Group, Boca Raton, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">A comprehensive review on laser powder bed fusion of steels: Processing, microstructure, defects and control methods, mechanical properties, current challenges and future trends</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Narasimharaju</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Zeng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">L</forename><surname>See</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Zhu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Scott</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Jiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lou</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmapro.2021.12.033</idno>
+<ptr target="https://doi.org/10.1016/j.jmapro.2021.12.033"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Manufacturing Processes</title>
+<imprint>
+<biblscope unit="volume">75</biblscope>
+<biblscope from="375" to="414" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S.R. Narasimharaju, W. Zeng, T.L. See, Z. Zhu, P. Scott, X. Jiang, S. Lou, A comprehensive review on laser powder bed fusion of steels: Processing, microstructure, defects and control methods, mechanical properties, current challenges and future trends, Journal of Manufacturing Processes. 75 (2022) 375-414, https://doi.org/10.1016/j.jmapro.2021.12.033.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">316L stainless steel mechanical and tribological behavior-A comparison between selective laser melting, hot pressing and conventional casting</title>
+<author>
+<persname><forename type="first">F</forename><surname>Bartolomeu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Buciumeanu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pinto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Alves</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Carvalho</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">S</forename><surname>Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Miranda</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.addma.2017.05.007</idno>
+<ptr target="https://doi.org/10.1016/j.addma.2017.05.007"></ptr>
+</analytic>
+<monogr>
+<title level="j">Additive Manufacturing</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="81" to="89" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">F. Bartolomeu, M. Buciumeanu, E. Pinto, N. Alves, O. Carvalho, F.S. Silva, G. Miranda, 316L stainless steel mechanical and tribological behavior-A comparison between selective laser melting, hot pressing and conventional casting, Additive Manufacturing. 16 (2017) 81-89, https://doi.org/10.1016/j. addma.2017.05.007.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Highly Anisotropic Steel Processed by Selective Laser Melting</title>
+<author>
+<persname><forename type="first">T</forename><surname>Niendorf</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Leuders</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Riemer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">A</forename><surname>Richard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Tröster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Schwarze</surname></persname>
+</author>
+<idno type="DOI">10.1007/s11663-013-9875-z</idno>
+<ptr target="https://doi.org/10.1007/s11663-013-9875-z"></ptr>
+</analytic>
+<monogr>
+<title level="j">Metall and Materi Trans B</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope from="794" to="796" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Niendorf, S. Leuders, A. Riemer, H.A. Richard, T. Tröster, D. Schwarze, Highly Anisotropic Steel Processed by Selective Laser Melting, Metall and Materi Trans B. 44 (2013) 794-796, https://doi.org/10.1007/s11663-013-9875-z.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Evading the strength-ductility trade-off dilemma in steel through gradient hierarchical nanotwins</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Wei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Zhu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Lei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Mi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Gao</surname></persname>
+</author>
+<idno type="DOI">10.1038/ncomms4580</idno>
+<ptr target="https://doi.org/10.1038/ncomms4580"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Commun</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="page">3580</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Wei, Y. Li, L. Zhu, Y. Liu, X. Lei, G. Wang, Y. Wu, Z. Mi, J. Liu, H. Wang, H. Gao, Evading the strength-ductility trade-off dilemma in steel through gradient hierarchical nanotwins, Nat Commun. 5 (2014) 3580, https://doi.org/10.1038/ ncomms4580.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Effect of energy density and scanning strategy on densification, microstructure and mechanical properties of 316L stainless steel processed via selective laser melting</title>
+<author>
+<persname><forename type="first">T</forename><surname>Larimian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kannan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Grzesiak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Almangour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Borkar</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.msea.2019.138455</idno>
+<ptr target="https://doi.org/10.1016/j.msea.2019.138455"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Science and Engineering: A</title>
+<imprint>
+<biblscope unit="volume">770</biblscope>
+<biblscope unit="page">138455</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Larimian, M. Kannan, D. Grzesiak, B. AlMangour, T. Borkar, Effect of energy density and scanning strategy on densification, microstructure and mechanical properties of 316L stainless steel processed via selective laser melting, Materials Science and Engineering: A. 770 (2020) 138455, https://doi.org/10.1016/j. msea.2019.138455.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Effect of process parameters on the microstructure, tensile strength and productivity of 316L parts produced by laser powder bed fusion</title>
+<author>
+<persname><forename type="first">A</forename><surname>Leicht</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rashidi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Klement</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Hryha</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matchar.2019.110016</idno>
+<ptr target="https://doi.org/10.1016/j.matchar.2019.110016"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Characterization</title>
+<imprint>
+<biblscope unit="volume">159</biblscope>
+<biblscope unit="page">110016</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Leicht, M. Rashidi, U. Klement, E. Hryha, Effect of process parameters on the microstructure, tensile strength and productivity of 316L parts produced by laser powder bed fusion, Materials Characterization. 159 (2020) 110016, https://doi. org/10.1016/j.matchar.2019.110016.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Effect of selective laser melting (SLM) process parameters on microstructure and mechanical properties of 316L austenitic stainless steel</title>
+<author>
+<persname><forename type="first">E</forename><surname>Liverani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Toschi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Ceschini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Fortunato</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmatprotec.2017.05.042</idno>
+<ptr target="https://doi.org/10.1016/j.jmatprotec.2017.05.042"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Materials Processing Technology</title>
+<imprint>
+<biblscope unit="volume">249</biblscope>
+<biblscope from="255" to="263" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">E. Liverani, S. Toschi, L. Ceschini, A. Fortunato, Effect of selective laser melting (SLM) process parameters on microstructure and mechanical properties of 316L austenitic stainless steel, Journal of Materials Processing Technology. 249 (2017) 255-263, https://doi.org/10.1016/j.jmatprotec.2017.05.042.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Effect of build geometry on the β-grain structure and texture in additive manufacture of Ti6Al4V by selective electron beam melting</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Antonysamy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Meyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Prangnell</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matchar.2013.07.012</idno>
+<ptr target="https://doi.org/10.1016/j.matchar.2013.07.012"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Characterization</title>
+<imprint>
+<biblscope unit="volume">84</biblscope>
+<biblscope from="153" to="168" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A.A. Antonysamy, J. Meyer, P.B. Prangnell, Effect of build geometry on the β-grain structure and texture in additive manufacture of Ti6Al4V by selective electron beam melting, Materials Characterization. 84 (2013) 153-168, https://doi.org/ 10.1016/j.matchar.2013.07.012.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Effect of build geometry on the microstructural development of 316L parts produced by additive manufacturing</title>
+<author>
+<persname><forename type="first">A</forename><surname>Leicht</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Klement</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Hryha</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matchar.2018.04.040</idno>
+<ptr target="https://doi.org/10.1016/j.matchar.2018.04.040"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Characterization</title>
+<imprint>
+<biblscope unit="volume">143</biblscope>
+<biblscope from="137" to="143" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Leicht, U. Klement, E. Hryha, Effect of build geometry on the microstructural development of 316L parts produced by additive manufacturing, Materials Characterization. 143 (2018) 137-143, https://doi.org/10.1016/j. matchar.2018.04.040.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Characterization of the microstructure and mechanical properties of highly textured and single crystal Hastelloy X thin struts fabricated by laser powder bed fusion</title>
+<author>
+<persname><forename type="first">O</forename><surname>Sanchez-Mata</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Muñiz-Lerma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Atabay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Shandiz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brochu</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jallcom.2021.163465</idno>
+<ptr target="https://doi.org/10.1016/j.jallcom.2021.163465"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Alloys and Compounds</title>
+<imprint>
+<biblscope unit="volume">901</biblscope>
+<biblscope unit="page">163465</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">O. Sanchez-Mata, X. Wang, J.A. Muñiz-Lerma, S.E. Atabay, M. Attarian Shandiz, M. Brochu, Characterization of the microstructure and mechanical properties of highly textured and single crystal Hastelloy X thin struts fabricated by laser powder bed fusion, Journal of Alloys and Compounds. 901 (2022) 163465, https://doi. org/10.1016/j.jallcom.2021.163465.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Geometry Effect on Microstructure and Mechanical Properties in Laser Powder Bed Fusion of Ti-6Al-4V</title>
+<author>
+<persname><forename type="first">J</forename><surname>Munk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Breitbarth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Siemer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Pirch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Häfner</surname></persname>
+</author>
+<idno type="DOI">10.3390/met12030482</idno>
+<ptr target="https://doi.org/10.3390/met12030482"></ptr>
+</analytic>
+<monogr>
+<title level="j">Metals</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="page">482</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Munk, E. Breitbarth, T. Siemer, N. Pirch, C. Häfner, Geometry Effect on Microstructure and Mechanical Properties in Laser Powder Bed Fusion of Ti-6Al- 4V, Metals. 12 (2022) 482, https://doi.org/10.3390/met12030482.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<monogr>
+<title level="m">SIMULIA User Assistance 2020</title>
+<imprint>
+<publisher>Dassault Systemes Simulia Corp, United States</publisher>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">SIMULIA User Assistance 2020. Dassault Systemes Simulia Corp, United States, 2020. (n.d.).</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<monogr>
+<author>
+<persname><forename type="first">S</forename><surname>Choong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Kim</forename></persname>
+</author>
+<title level="m">Thermophysical properties of stainless steels</title>
+<imprint>
+<date type="published" when="1975">1975</date>
+<biblscope unit="volume">III</biblscope>
+</imprint>
+<respstmt>
+<orgname>Argone National Lab</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">S. Choong, Kim, Thermophysical properties of stainless steels, Argone National Lab. III (1975).</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Efficient thermal finite element modeling of selective laser melting of Inconel 718</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Luo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhao</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00466-019-01794-0</idno>
+<ptr target="https://doi.org/10.1007/s00466-019-01794-0"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput Mech</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="763" to="787" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Z. Luo, Y. Zhao, Efficient thermal finite element modeling of selective laser melting of Inconel 718, Comput Mech. 65 (2020) 763-787, https://doi.org/10.1007/ s00466-019-01794-0.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">A new finite element model for welding heat sources</title>
+<author>
+<persname><forename type="first">J</forename><surname>Goldak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Chakravarti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bibby</surname></persname>
+</author>
+<idno type="DOI">10.1007/BF02667333</idno>
+<ptr target="https://doi.org/10.1007/BF02667333"></ptr>
+</analytic>
+<monogr>
+<title level="j">MTB</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope from="299" to="305" unit="page"></biblscope>
+<date type="published" when="1984">1984</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Goldak, A. Chakravarti, M. Bibby, A new finite element model for welding heat sources, MTB. 15 (1984) 299-305, https://doi.org/10.1007/BF02667333.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">In situ melt pool measurements for laser powder bed fusion using multi sensing and correlation analysis</title>
+<author>
+<persname><forename type="first">R</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Garcia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Kamath</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Ma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Shen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Choo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Fezzaa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">Z</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Kong</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41598-022-18096-w</idno>
+<ptr target="https://doi.org/10.1038/s41598-022-18096-w"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sci Rep</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="page">13716</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R. Wang, D. Garcia, R.R. Kamath, C. Dou, X. Ma, B. Shen, H. Choo, K. Fezzaa, H. Z. Yu, Z. Kong, In situ melt pool measurements for laser powder bed fusion using multi sensing and correlation analysis, Sci Rep. 12 (2022) 13716, https://doi.org/ 10.1038/s41598-022-18096-w.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">In-situ microstructure control by laser post-exposure treatment during laser powder-bed fusion</title>
+<author>
+<persname><forename type="first">M</forename><surname>Hasanabadi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Keshavarzkermai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Asgari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Azizi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gerlich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Toyserkani</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.addlet.2022.100110</idno>
+<ptr target="https://doi.org/10.1016/j.addlet.2022.100110"></ptr>
+</analytic>
+<monogr>
+<title level="j">Additive Manufacturing Letters</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="page">100110</biblscope>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Hasanabadi, A. Keshavarzkermai, H. Asgari, N. Azizi, A. Gerlich, E. Toyserkani, In-situ microstructure control by laser post-exposure treatment during laser powder-bed fusion, Additive Manufacturing Letters. 4 (2023) 100110, https://doi. org/10.1016/j.addlet.2022.100110.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Investigation into spatter behavior during selective laser melting of AISI 316L stainless steel powder</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Mai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Song</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matdes.2015.08.086</idno>
+<ptr target="https://doi.org/10.1016/j.matdes.2015.08.086"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials &amp; Design</title>
+<imprint>
+<biblscope unit="volume">87</biblscope>
+<biblscope from="797" to="806" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Liu, Y. Yang, S. Mai, D. Wang, C. Song, Investigation into spatter behavior during selective laser melting of AISI 316L stainless steel powder, Materials &amp; Design. 87 (2015) 797-806, https://doi.org/10.1016/j.matdes.2015.08.086.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Modeling of solidification microstructure evolution in laser powder bed fusion fabricated 316L stainless steel using combined computational fluid dynamics and cellular automata</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Zhang</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.addma.2019.06.024</idno>
+<ptr target="https://doi.org/10.1016/j.addma.2019.06.024"></ptr>
+</analytic>
+<monogr>
+<title level="j">Additive Manufacturing</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="750" to="765" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Zhang, J. Zhang, Modeling of solidification microstructure evolution in laser powder bed fusion fabricated 316L stainless steel using combined computational fluid dynamics and cellular automata, Additive Manufacturing. 28 (2019) 750-765, https://doi.org/10.1016/j.addma.2019.06.024.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Prediction of microstructure in laser powder bed fusion process</title>
+<author>
+<persname><forename type="first">R</forename><surname>Acharya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Sharon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Staroselsky</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.actamat.2016.11.018</idno>
+<ptr target="https://doi.org/10.1016/j.actamat.2016.11.018"></ptr>
+</analytic>
+<monogr>
+<title level="j">Acta Materialia</title>
+<imprint>
+<biblscope unit="volume">124</biblscope>
+<biblscope from="360" to="371" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R. Acharya, J.A. Sharon, A. Staroselsky, Prediction of microstructure in laser powder bed fusion process, Acta Materialia. 124 (2017) 360-371, https://doi.org/ 10.1016/j.actamat.2016.11.018.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Printability and microstructure of the CoCrFeMnNi high-entropy alloy fabricated by laser powder bed fusion</title>
+<author>
+<persname><forename type="first">A</forename><surname>Piglione</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Dovgyy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Gourlay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Hooper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Pham</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matlet.2018.04.052</idno>
+<ptr target="https://doi.org/10.1016/j.matlet.2018.04.052"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Letters</title>
+<imprint>
+<biblscope unit="volume">224</biblscope>
+<biblscope from="22" to="25" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Piglione, B. Dovgyy, C. Liu, C.M. Gourlay, P.A. Hooper, M.S. Pham, Printability and microstructure of the CoCrFeMnNi high-entropy alloy fabricated by laser powder bed fusion, Materials Letters. 224 (2018) 22-25, https://doi.org/10.1016/ j.matlet.2018.04.052.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Revealing relationships between porosity, microstructure and mechanical properties of laser powder bed fusion 316L stainless steel through heat treatment</title>
+<author>
+<persname><forename type="first">T</forename><surname>Ronneberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Davies</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Hooper</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matdes.2020.108481</idno>
+<ptr target="https://doi.org/10.1016/j.matdes.2020.108481"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials &amp; Design</title>
+<imprint>
+<biblscope unit="volume">189</biblscope>
+<biblscope unit="page">108481</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Ronneberg, C.M. Davies, P.A. Hooper, Revealing relationships between porosity, microstructure and mechanical properties of laser powder bed fusion 316L stainless steel through heat treatment, Materials &amp; Design. 189 (2020) 108481, https://doi.org/10.1016/j.matdes.2020.108481.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Selective Laser Melting of 316L Stainless Steel: Physics of Melting Mode Transition and Its Influence on Microstructural and Mechanical Behavior</title>
+<author>
+<persname><forename type="first">A</forename><surname>Aggarwal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Patel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kumar</surname></persname>
+</author>
+<idno type="DOI">10.1007/s11837-018-3271-8</idno>
+<ptr target="https://doi.org/10.1007/s11837-018-3271-8"></ptr>
+</analytic>
+<monogr>
+<title level="j">JOM</title>
+<imprint>
+<biblscope unit="volume">71</biblscope>
+<biblscope from="1105" to="1116" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Aggarwal, S. Patel, A. Kumar, Selective Laser Melting of 316L Stainless Steel: Physics of Melting Mode Transition and Its Influence on Microstructural and Mechanical Behavior, JOM. 71 (2019) 1105-1116, https://doi.org/10.1007/ s11837-018-3271-8.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Single and multiple track formation mechanism of laser powder bed fusion 316L/CuSn10 multimaterial</title>
+<author>
+<persname><forename type="first">J</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Bai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">Ying</forename><surname>Hsi Fuh</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matchar.2021.111654</idno>
+<ptr target="https://doi.org/10.1016/j.matchar.2021.111654"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Characterization</title>
+<imprint>
+<biblscope unit="volume">183</biblscope>
+<biblscope unit="page">111654</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Chen, Y. Yang, Y. Bai, D. Wang, C. Zhao, J. Ying Hsi Fuh, Single and multiple track formation mechanism of laser powder bed fusion 316L/CuSn10 multi- material, Materials Characterization. 183 (2022) 111654, https://doi.org/ 10.1016/j.matchar.2021.111654.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Stability of cellular microstructure in laser powder bed fusion of 316L stainless steel</title>
+<author>
+<persname><forename type="first">U</forename><surname>Scipioni Bertoli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">E</forename><surname>Macdonald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Schoenung</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.msea.2018.10.051</idno>
+<ptr target="https://doi.org/10.1016/j.msea.2018.10.051"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Science and Engineering: A</title>
+<imprint>
+<biblscope unit="volume">739</biblscope>
+<biblscope from="109" to="117" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">U. Scipioni Bertoli, B.E. MacDonald, J.M. Schoenung, Stability of cellular microstructure in laser powder bed fusion of 316L stainless steel, Materials Science and Engineering: A. 739 (2019) 109-117, https://doi.org/10.1016/j. msea.2018.10.051.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">The study of the laser parameters and environment variables effect on mechanical properties of high compact parts elaborated by selective laser melting 316L powder</title>
+<author>
+<persname><forename type="first">B</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Dembinski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Coddet</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.msea.2013.06.055</idno>
+<ptr target="https://doi.org/10.1016/j.msea.2013.06.055"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Science and Engineering: A</title>
+<imprint>
+<biblscope unit="volume">584</biblscope>
+<biblscope from="21" to="31" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">B. Zhang, L. Dembinski, C. Coddet, The study of the laser parameters and environment variables effect on mechanical properties of high compact parts elaborated by selective laser melting 316L powder, Materials Science and Engineering: A. 584 (2013) 21-31, https://doi.org/10.1016/j.msea.2013.06.055.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Metal surface wettability modification by nanosecond laser surface texturing: A review</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Niu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Lei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Luo</surname></persname>
+</author>
+<idno type="DOI">10.1049/bsb2.12039</idno>
+<ptr target="https://doi.org/10.1049/bsb2.12039"></ptr>
+</analytic>
+<monogr>
+<title level="j">Biosurface and Biotribology</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="95" to="120" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Z. Liu, T. Niu, Y. Lei, Y. Luo, Metal surface wettability modification by nanosecond laser surface texturing: A review, Biosurface and Biotribology. 8 (2022) 95-120, https://doi.org/10.1049/bsb2.12039.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Phase-field modeling of wetting and balling dynamics in powder bed fusion process</title>
+<author>
+<persname><forename type="first">L</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-Q</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T.-H</forename><surname>Fan</surname></persname>
+</author>
+<idno type="DOI">10.1063/5.0046771</idno>
+<ptr target="https://doi.org/10.1063/5.0046771"></ptr>
+</analytic>
+<monogr>
+<title level="j">Physics of Fluids</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope unit="page">42116</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">L. Li, J.-Q. Li, T.-H. Fan, Phase-field modeling of wetting and balling dynamics in powder bed fusion process, Physics of Fluids. 33 (2021) 042116, https://doi.org/ 10.1063/5.0046771.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Thermal Origins</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Ward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">H</forename><surname>Persad</surname></persname>
+</author>
+<idno type="DOI">10.1016/B978-0-12-800722-8.00017-5</idno>
+<ptr target="https://doi.org/10.1016/B978-0-12-800722-8.00017-5"></ptr>
+</analytic>
+<monogr>
+<title level="m">Droplet Wetting and Evaporation</title>
+<imprint>
+<publisher>Elsevier</publisher>
+<date type="published" when="2015">2015</date>
+<biblscope from="221" to="249" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">C.A. Ward, A.H. Persad, Thermal Origins, in: Droplet Wetting and Evaporation, Elsevier, 2015: pp. 221-249. https://doi.org/10.1016/B978-0-12-800722- 8.00017-5.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Laser pre-sintering for denudation reduction in the laser powder bed fusion additive manufacturing of Ti-6Al-4V alloy</title>
+<author>
+<persname><forename type="first">T</forename><surname>Achee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Guss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Elwany</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Matthews</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.addma.2021.101985</idno>
+<ptr target="https://doi.org/10.1016/j.addma.2021.101985"></ptr>
+</analytic>
+<monogr>
+<title level="j">Additive Manufacturing</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope unit="page">101985</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Achee, G. Guss, A. Elwany, M. Matthews, Laser pre-sintering for denudation reduction in the laser powder bed fusion additive manufacturing of Ti-6Al-4V alloy, Additive Manufacturing. 42 (2021) 101985, https://doi.org/10.1016/j. addma.2021.101985.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Elucidating the effect of preheating temperature on melt pool morphology variation in Inconel 718 laser powder bed fusion via simulation and experiment</title>
+<author>
+<persname><forename type="first">Q</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Strayer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Aoyagi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Koizumi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Chiba</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Xiong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>To</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.addma.2020.101642</idno>
+<ptr target="https://doi.org/10.1016/j.addma.2020.101642"></ptr>
+</analytic>
+<monogr>
+<title level="j">Additive Manufacturing</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope unit="page">101642</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Q. Chen, Y. Zhao, S. Strayer, Y. Zhao, K. Aoyagi, Y. Koizumi, A. Chiba, W. Xiong, A. C. To, Elucidating the effect of preheating temperature on melt pool morphology variation in Inconel 718 laser powder bed fusion via simulation and experiment, Additive Manufacturing. 37 (2021) 101642, https://doi.org/10.1016/j. addma.2020.101642.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">On thermal properties of metallic powder in laser powder bed fusion additive manufacturing</title>
+<author>
+<persname><forename type="first">S</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Lane</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whiting</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Chou</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmapro.2019.09.012</idno>
+<ptr target="https://doi.org/10.1016/j.jmapro.2019.09.012"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Manufacturing Processes</title>
+<imprint>
+<biblscope unit="volume">47</biblscope>
+<biblscope from="382" to="392" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Zhang, B. Lane, J. Whiting, K. Chou, On thermal properties of metallic powder in laser powder bed fusion additive manufacturing, Journal of Manufacturing Processes. 47 (2019) 382-392, https://doi.org/10.1016/j.jmapro.2019.09.012.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Process Optimization and Microstructure Analysis to Understand Laser Powder Bed Fusion of 316L Stainless Steel</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">Diaz</forename><surname>Vallejo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lucas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Ayers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Graydon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Sohn</surname></persname>
+</author>
+<idno type="DOI">10.3390/met11050832</idno>
+<ptr target="https://doi.org/10.3390/met11050832"></ptr>
+</analytic>
+<monogr>
+<title level="j">Metals</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="page">832</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">N. Diaz Vallejo, C. Lucas, N. Ayers, K. Graydon, H. Hyer, Y. Sohn, Process Optimization and Microstructure Analysis to Understand Laser Powder Bed Fusion of 316L Stainless Steel, Metals. 11 (2021) 832, https://doi.org/10.3390/ met11050832.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Temporal evolution of temperature gradient and solidification rate in laser powder bed fusion additive manufacturing</title>
+<author>
+<persname><forename type="first">J</forename><surname>Yoshioka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Eshraghi</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00231-022-03318-8</idno>
+<ptr target="https://doi.org/10.1007/s00231-022-03318-8"></ptr>
+</analytic>
+<monogr>
+<title level="j">Heat Mass Transfer</title>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Yoshioka, M. Eshraghi, Temporal evolution of temperature gradient and solidification rate in laser powder bed fusion additive manufacturing, Heat Mass Transfer. (2022), https://doi.org/10.1007/s00231-022-03318-8.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">The role of sidebranching in microstructure development in laser powder-bed fusion</title>
+<author>
+<persname><forename type="first">M.-S</forename><surname>Pham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Dovgyy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Hooper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Gourlay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Piglione</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41467-020-14453-3</idno>
+<ptr target="https://doi.org/10.1038/s41467-020-14453-3"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Commun</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="page">749</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M.-S. Pham, B. Dovgyy, P.A. Hooper, C.M. Gourlay, A. Piglione, The role of side- branching in microstructure development in laser powder-bed fusion, Nat Commun. 11 (2020) 749, https://doi.org/10.1038/s41467-020-14453-3.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Epitaxial laser metal forming: analysis of microstructure formation</title>
+<author>
+<persname><forename type="first">M</forename><surname>Gäumann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Henry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Cléton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-D</forename><surname>Wagnière</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Kurz</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0921-5093(99)00202-6</idno>
+<ptr target="https://doi.org/10.1016/S0921-5093(99)00202-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Science and Engineering: A</title>
+<imprint>
+<biblscope unit="volume">271</biblscope>
+<biblscope from="232" to="241" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Gäumann, S. Henry, F. Cléton, J.-D. Wagnière, W. Kurz, Epitaxial laser metal forming: analysis of microstructure formation, Materials Science and Engineering: A. 271 (1999) 232-241, https://doi.org/10.1016/S0921-5093(99)00202-6.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Simultaneously enhanced strength and ductility for 3D-printed stainless steel 316L by selective laser melting</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Sun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Tan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Tor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41427-018-0018-5</idno>
+<ptr target="https://doi.org/10.1038/s41427-018-0018-5"></ptr>
+</analytic>
+<monogr>
+<title level="j">NPG Asia Materials</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="127" to="136" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Z. Sun, X. Tan, S.B. Tor, C.K. Chua, Simultaneously enhanced strength and ductility for 3D-printed stainless steel 316L by selective laser melting, NPG Asia Materials. 10 (2018) 127-136, https://doi.org/10.1038/s41427-018-0018-5.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Effect of scanning strategy on texture formation in Ni-25 at.%Mo alloys fabricated by selective laser melting</title>
+<author>
+<persname><forename type="first">S.-H</forename><surname>Sun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hagihara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nakano</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matdes.2017.11.060</idno>
+<ptr target="https://doi.org/10.1016/j.matdes.2017.11.060"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials &amp; Design</title>
+<imprint>
+<biblscope unit="volume">140</biblscope>
+<biblscope from="307" to="316" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S.-H. Sun, K. Hagihara, T. Nakano, Effect of scanning strategy on texture formation in Ni-25 at.%Mo alloys fabricated by selective laser melting, Materials &amp; Design. 140 (2018) 307-316, https://doi.org/10.1016/j.matdes.2017.11.060.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Crystallographic texture control of beta-type Ti-15Mo-5Zr-3Al alloy by selective laser melting for the development of novel implants with a biocompatible low Young's modulus</title>
+<author>
+<persname><forename type="first">T</forename><surname>Ishimoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hagihara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hisamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S.-H</forename><surname>Sun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nakano</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Scripta Materialia</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Ishimoto, K. Hagihara, K. Hisamoto, S.-H. Sun, T. Nakano, Crystallographic texture control of beta-type Ti-15Mo-5Zr-3Al alloy by selective laser melting for the development of novel implants with a biocompatible low Young's modulus, Scripta Materialia. 5 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Microstructure and Anisotropy of the Mechanical Properties of 316L Stainless Steel Fabricated by Selective Laser Melting</title>
+<author>
+<persname><forename type="first">B</forename><surname>Zhou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Liang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Liang</surname></persname>
+</author>
+<idno type="DOI">10.3390/met11050775</idno>
+<ptr target="https://doi.org/10.3390/met11050775"></ptr>
+</analytic>
+<monogr>
+<title level="j">Metals</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="page">775</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">B. Zhou, P. Xu, W. Li, Y. Liang, Y. Liang, Microstructure and Anisotropy of the Mechanical Properties of 316L Stainless Steel Fabricated by Selective Laser Melting, Metals. 11 (2021) 775, https://doi.org/10.3390/met11050775.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Mechanical behavior of selective laser melted 316L stainless steel</title>
+<author>
+<persname><forename type="first">J</forename><surname>Suryawanshi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">G</forename><surname>Prashanth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Ramamurty</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.msea.2017.04.058</idno>
+<ptr target="https://doi.org/10.1016/j.msea.2017.04.058"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Science and Engineering: A</title>
+<imprint>
+<biblscope unit="volume">696</biblscope>
+<biblscope from="113" to="121" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Suryawanshi, K.G. Prashanth, U. Ramamurty, Mechanical behavior of selective laser melted 316L stainless steel, Materials Science and Engineering: A. 696 (2017) 113-121, https://doi.org/10.1016/j.msea.2017.04.058.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Microscopic investigation of as built and hot isostatic pressed Hastelloy X processed by Selective Laser Melting</title>
+<author>
+<persname><forename type="first">S</forename><surname>Pourbabak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Montero-Sistiaga</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Schryvers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Van Humbeeck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Vanmeensel</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.matchar.2019.05.024</idno>
+<ptr target="https://doi.org/10.1016/j.matchar.2019.05.024"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Characterization</title>
+<imprint>
+<biblscope unit="volume">153</biblscope>
+<biblscope from="366" to="371" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Pourbabak, M.L. Montero-Sistiaga, D. Schryvers, J. Van Humbeeck, K. Vanmeensel, Microscopic investigation of as built and hot isostatic pressed Hastelloy X processed by Selective Laser Melting, Materials Characterization. 153 (2019) 366-371, https://doi.org/10.1016/j.matchar.2019.05.024.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Effect of selective laser melting (SLM) process parameters on microstructure and mechanical properties of 316L austenitic stainless steel</title>
+<author>
+<persname><forename type="first">E</forename><surname>Liverani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Toschu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Ceschini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Fortunato</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmatprotec.2017.05.042</idno>
+<ptr target="https://doi.org/10.1016/j.jmatprotec.2017.05.042"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Materials Processing Technology</title>
+<imprint>
+<biblscope unit="volume">249</biblscope>
+<biblscope from="255" to="263" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">E. Liverani, S. Toschu, L. Ceschini, A. Fortunato, Effect of selective laser melting (SLM) process parameters on microstructure and mechanical properties of 316L austenitic stainless steel, Journal of Materials Processing Technology. 249 (2017) 255-263, https://doi.org/10.1016/j.jmatprotec.2017.05.042.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Use of miniaturized tensile specimens to evaluate the ductility and formability of dual phased steels for Rapid Alloy Prototyping</title>
+<author>
+<persname><forename type="first">L</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Harrison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Yar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Mehraban</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">G R</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">P</forename><surname>Lavery</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.msea.2023.145075</idno>
+<ptr target="https://doi.org/10.1016/j.msea.2023.145075"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Science and Engineering: A</title>
+<imprint>
+<biblscope unit="volume">875</biblscope>
+<biblscope unit="page">145075</biblscope>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">L. Zhang, W. Harrison, M.A. Yar, S. Mehraban, S.G.R. Brown, N.P. Lavery, Use of miniaturized tensile specimens to evaluate the ductility and formability of dual phased steels for Rapid Alloy Prototyping, Materials Science and Engineering: A. 875 (2023) 145075, https://doi.org/10.1016/j.msea.2023.145075.</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">A highly accurate methodology for the prediction and correlation of mechanical properties based on the slimness ratio of additively manufactured tensile test specimens</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Moura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">D</forename><surname>Vittoria</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">H G</forename><surname>Gabriel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">B</forename><surname>Fonseca</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Gabriel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Webster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">S N</forename><surname>Lopes</surname></persname>
+</author>
+<idno type="DOI">10.1007/s10853-020-04654-y</idno>
+<ptr target="https://doi.org/10.1007/s10853-020-04654-y"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Materials Science</title>
+<imprint>
+<biblscope unit="volume">55</biblscope>
+<biblscope from="9578" to="9596" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">L.S. Moura, G.D. Vittoria, A.H.G. Gabriel, E.B. Fonseca, L.P. Gabriel, T.J. Webster, E.S.N. Lopes, A highly accurate methodology for the prediction and correlation of mechanical properties based on the slimness ratio of additively manufactured tensile test specimens, Journal of Materials Science. 55 (2020) 9578-9596, https:// doi.org/10.1007/s10853-020-04654-y.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">Use of miniature tensile specimens for measuring mechanical properties in the steady-state and transient zones of Ti-6Al-4V wire-fed electron beam deposits</title>
+<author>
+<persname><forename type="first">F</forename><surname>Sikan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Wanjara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Gholipour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brochu</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.msea.2022.144487</idno>
+<ptr target="https://doi.org/10.1016/j.msea.2022.144487"></ptr>
+</analytic>
+<monogr>
+<title level="j">Materials Science &amp; Engineering A</title>
+<imprint>
+<biblscope unit="volume">862</biblscope>
+<biblscope unit="page">144487</biblscope>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">F. Sikan, P. Wanjara, J. Gholipour, M. Brochu, Use of miniature tensile specimens for measuring mechanical properties in the steady-state and transient zones of Ti-6Al-4V wire-fed electron beam deposits, Materials Science &amp; Engineering A. 862 (2023) 144487, https://doi.org/10.1016/j.msea.2022.144487.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">The development of miniature tensile specimens with non-standard aspect and slimness ratios for rapid alloy prototyping processes</title>
+<author>
+<persname><forename type="first">L</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Harrison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Yar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">G R</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">P</forename><surname>Lavery</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmrt.2021.09.029</idno>
+<ptr target="https://doi.org/10.1016/j.jmrt.2021.09.029"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Materials Research and Technology</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope from="1830" to="1843" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">L. Zhang, W. Harrison, M.A. Yar, S.G.R. Brown, N.P. Lavery, The development of miniature tensile specimens with non-standard aspect and slimness ratios for rapid alloy prototyping processes, Journal of Materials Research and Technology. 15 (2021) 1830-1843, https://doi.org/10.1016/j.jmrt.2021.09.029.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

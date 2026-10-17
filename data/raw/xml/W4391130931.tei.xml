@@ -1,0 +1,2361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Understanding Melt Pool Behavior of 316L Stainless Steel in Laser Powder Bed Fusion Additive Manufacturing</title>
+				<funder ref="#_EbwxPDR">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_WQrNSdx">
+					<orgName type="full">U.S. Department of Commerce, National Institute of Standards and Technology</orgName>
+				</funder>
+				<funder ref="#_nM6Hnmd">
+					<orgName type="full">National Aeronautics and Space Administration Cooperative</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-01-23">23 January 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Xiaoliang</forename><surname>Liang</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Mechanical Engineering , University of South Carolina , Columbia , SC 29201 , USA;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of South Carolina</orgName>
+								<address>
+									<postCode>29201</postCode>
+									<settlement>Columbia</settlement>
+									<region>SC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yanbin</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Mechanical Engineering , University of South Carolina , Columbia , SC 29201 , USA;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of South Carolina</orgName>
+								<address>
+									<postCode>29201</postCode>
+									<settlement>Columbia</settlement>
+									<region>SC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kangsen</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Mechanical Engineering , University of South Carolina , Columbia , SC 29201 , USA;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of South Carolina</orgName>
+								<address>
+									<postCode>29201</postCode>
+									<settlement>Columbia</settlement>
+									<region>SC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Huapan</forename><surname>Xiao</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Mechanical Engineering , University of South Carolina , Columbia , SC 29201 , USA;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of South Carolina</orgName>
+								<address>
+									<postCode>29201</postCode>
+									<settlement>Columbia</settlement>
+									<region>SC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Changlin</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Mechanical Engineering , University of South Carolina , Columbia , SC 29201 , USA;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of South Carolina</orgName>
+								<address>
+									<postCode>29201</postCode>
+									<settlement>Columbia</settlement>
+									<region>SC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zilong</forename><surname>Zhang</surname></persName>
+							<email>zilongz@email.sc.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Mechanical Engineering , University of South Carolina , Columbia , SC 29201 , USA;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of South Carolina</orgName>
+								<address>
+									<postCode>29201</postCode>
+									<settlement>Columbia</settlement>
+									<region>SC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Can Sun, Sivaji</roleName><forename type="first">Tianyu</forename><surname>Zhang</surname></persName>
+							<idno type="ORCID">0000-0002-5046-7392</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Mechanical Engineering , University of South Carolina , Columbia , SC 29201 , USA;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of South Carolina</orgName>
+								<address>
+									<postCode>29201</postCode>
+									<settlement>Columbia</settlement>
+									<region>SC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lang</forename><surname>Yuan</surname></persName>
+							<email>langyuan@cec.sc.edu</email>
+							<idno type="ORCID">0000-0002-6894-5030</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Mechanical Engineering , University of South Carolina , Columbia , SC 29201 , USA;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of South Carolina</orgName>
+								<address>
+									<postCode>29201</postCode>
+									<settlement>Columbia</settlement>
+									<region>SC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Understanding Melt Pool Behavior of 316L Stainless Steel in Laser Powder Bed Fusion Additive Manufacturing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-23">23 January 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0A762C8E1C4F71F7E858315F75B0E4DA</idno>
+					<idno type="DOI">10.3390/mi15020170</idno>
+					<note type="submission">Received: 25 December 2023 Revised: 22 January 2024 Accepted: 22 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T02:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>additive manufacturing</term>
+					<term>laser powder bed fusion</term>
+					<term>fluid dynamics</term>
+					<term>melt pool instability</term>
+					<term>surface topography</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>In the laser powder bed fusion additive manufacturing process, the quality of fabrications is intricately tied to the laser-matter interaction, specifically the formation of the melt pool.</s><s>This study experimentally examined the intricacies of melt pool characteristics and surface topography across diverse laser powers and speeds via single-track laser scanning on a bare plate and powder bed for 316L stainless steel.</s><s>The results reveal that the presence of a powder layer amplifies melt pool instability and worsens irregularities due to increased laser absorption and the introduction of uneven mass from the powder.</s><s>To provide a comprehensive understanding of melt pool dynamics, a high-fidelity computational model encompassing fluid dynamics, heat transfer, vaporization, and solidification was developed.</s><s>It was validated against the measured melt pool dimensions and morphology, effectively predicting conduction and keyholing modes with irregular surface features.</s><s>Particularly, the model explained the forming mechanisms of a defective morphology, termed swellundercut, at high power and speed conditions, detailing the roles of recoil pressure and liquid refilling.</s><s>As an application, multiple-track simulations replicate the surface features on cubic samples under two distinct process conditions, showcasing the potential of the laser-matter interaction model for process optimization.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Laser powder bed fusion (LPBF) has emerged as a pivotal technology in the realm of additive manufacturing (AM) for the production of high-performance metallic components.</s><s>This technique provides a distinctive capability to fabricate intricate geometries with exceptional resolution, customize the mechanical properties of components, and minimize lead time while reducing material waste <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>.</s><s>It finds applications across diverse industries, such as aerospace, automotive, healthcare, and tooling, where high precision and specific material properties are crucial.</s><s>Notwithstanding its advantages, LPBF presents challenges, such as the need to optimize process parameters to achieve the desired part quality and address defects during the printing process <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>; the laser-matter interaction in LPBF creates the melt pool, the fundamental element forming the desired geometrical design track by track and layer by layer and determining the quality of the builds.</s><s>Insufficient melts or excessive heat input can lead to lack-of-fusion or keyholing defects <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>.</s><s>The high instability introduced due to the fluid dynamics in the melt pool can cause spatters, balling, or humps that potentially affect the integrity of the materials <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>.</s><s>Therefore, understanding the laser-matter interaction at the melt pool scale and its impact on surface characteristics is critical to assist in the development of the process.</s></p><p><s>In situ technologies through high-speed imaging, e.g., using X-ray radiography and optical or thermal cameras, have been employed exclusively to investigate the melt pool dynamics and understand the laser-matter interaction <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>.</s><s>Zhao et al. <ref type="bibr" target="#b26">[27]</ref> probed the dynamics of the Ti-6Al-4V in the LPBF process from the inside, as well as above the surface of, the powder bed using high-speed hard X-ray imaging and diffraction techniques, concluding that the competition between the Marangoni convection and the recoil pressure primarily determines the extent of the mass, the heat transfers, and the dynamics of the melting process.</s><s>Yin et al. <ref type="bibr" target="#b27">[28]</ref> investigated backward-ejected spatters of IN718 using a highspeed camera in the LPBF process.</s><s>They found that the expanding vapor plume mainly drove the ejected spatters.</s><s>Guo et al. <ref type="bibr" target="#b28">[29]</ref> reported directly observing and quantifying the melt pool variation of AlSi10Mg via in situ high-speed high-energy X-ray imaging.</s><s>They pointed out that the melt pool can undergo different melting regimes, and both the melt pool dimension and volume can change orders of magnitude under a constant input energy density.</s><s>Leung et al. <ref type="bibr" target="#b29">[30]</ref> revealed the underlying physical phenomena of Invar 36 during the deposition of the first-and second-layer melt tracks through in situ and operando high-speed synchrotron X-ray imaging.</s><s>They uncovered mechanisms of pore migration by Marangoni-driven flow, pore dissolution, and dispersion by laser remelting.</s><s>The vapor plume flew backward, impacted the free surface, especially the melt pool end region, and formed backward spatters.</s><s>As an observation, both the recoil pressure and vapor plume play a critical role in driving melt pool behavior during laser scanning.</s></p><p><s>Considering the limits of in situ characterization techniques in LPBF involving limited spatial resolution, difficulties in capturing complex three-dimensional structures, and high cost, computational models that simulate the melt pool dynamics by using Computational Fluid Dynamics (CFD) to account for the fluid flow, heat transfer, and phase change within the melt pool have been applied to interpret the experimental data and assist the process development <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref>.</s><s>During this process, physical forces, including surface tension, viscous forces, recoil pressure, and gravity, interact within the molten pool and influence material flow and heat transfer <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref>.</s><s>Tang et al. <ref type="bibr" target="#b15">[16]</ref> simulated 316 L stainless steel tracks in LPBF.</s><s>Their single-factor analysis studied the effect of surface tension, Marangoni shear force, viscous force, and recoil pressure on the humping phenomenon in laser powder bed fusion, respectively.</s><s>The results indicated that recoil pressure played a more critical role than the other three forces in the melt pool.</s><s>Ren et al. <ref type="bibr" target="#b45">[46]</ref> numerically explored the influence of the contour scan sequence on the surface roughness magnitude in the LPBF of copper alloy using a high-fidelity CFD model.</s><s>They found that the presence of powders deposited on the infill region helped enhance the laser absorption during the pre-contour scan and, by extension, improved the melting behavior and surface flatness.</s><s>Li et al. <ref type="bibr" target="#b46">[47]</ref> developed a particle-scale CFD method with three lasers in LPBF.</s><s>The molten track of the leading laser randomly deviated from one of the molten tracks of the auxiliary lasers due to the uneven distribution of the powder bed, which caused balling and pits, leading to the extreme degradation of surface quality.</s><s>Dai et al. <ref type="bibr" target="#b47">[48]</ref> suggested that excessive recoil force can cause powder spatters and keyholes, while the inefficient Marangoni effect led to the non-uniform melting of IN718 in LPBF with a high-fidelity CFD model.</s><s>Prior research demonstrated the ability of multi-physical models to accurately predict the quality of melted materials and contribute to the development of new materials.</s></p><p><s>One of the direct impacts of the solidified melt tracks is the surface topography and roughness resulting from melt pool morphologies.</s><s>In LPBF, the surface of a part forms through the layer-by-layer deposition of melted powder material, which melts and solidifies rapidly upon exposure to laser energy, resulting in the final surface characteristics of the printed component.</s><s>The process parameters, such as laser power and scanning speed, powder characteristics, and scan strategies, have been studied to explain the surface characteristics by incorporating the interaction between the laser and powder bed <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref>.</s><s>For example, Guo et al. <ref type="bibr" target="#b52">[53]</ref> observed the influence of laser power, scan speed, and hatch spacing on the cube top surface roughness of IN738LC during the LPBF process.</s><s>Higher laser energy density with lower laser speed leads to complete powder melting, aiding in creating a flat surface.</s><s>Qiu et al. <ref type="bibr" target="#b53">[54]</ref> found that increased laser speed and thicker layers result in irregularly shaped laser tracks and a higher occurrence of discontinuities on the top surfaces for Ti-6Al-4V samples.</s><s>Calignano et al. <ref type="bibr" target="#b54">[55]</ref> concluded that the scanning speed has the most influence on surface roughness for AlSi10Mg due to the introduced high melt pool instability.</s><s>Yang et al. <ref type="bibr" target="#b55">[56]</ref> reached similar conclusions for Ti-6Al-4V, where scanning speed dominated the instability, followed by laser power and layer thickness.</s></p><p><s>Experiments and computational modeling in LPBF constitute an integrated approach essential for understanding and optimizing the additive manufacturing process.</s><s>The synergy between empirical observations and computational simulations aids in advancing the fundamental knowledge of LPBF <ref type="bibr" target="#b56">[57]</ref>.</s><s>This study performed single-track experiments with a wide range of laser power and speed under LPBF conditions to examine the variety of melt pool morphologies.</s><s>A high-fidelity computational model, based on the commercial software ANSYS Fluent (version 2022 R1), was developed to interpret the experimental results and investigate the underlying mechanisms that lead to dramatically different melt pool behaviors.</s><s>Then, multiple-track simulations were performed to further assist in explaining surface roughness and correlate the surface topography with the melt pool behaviors, providing new insights into understanding the as-printed top surfaces in LPBF.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental and Modeling Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Experimental Procedure</head><p><s>Experiments based on single lines and cubes in LPBF were performed to understand the melt pool behavior and provide data to validate the computational model.</s><s>The LPBF machine, Aconity MIDI (Germany), which equips a single-mode fiber laser with a maximum laser of 1000 W, was utilized to print those samples in the argon environment.</s><s>During the printing, the oxygen level in the chamber was controlled to be lower than 100 ppm to minimize oxidation.</s><s>The gas-atomized powder was purchased from the Carpenter Technology Corporation (USA).</s><s>It has a particle size distribution from 15 to 45 µm with a mean size of 30 µm.</s><s>The laser spot size was kept constant at 100 µm.</s></p><p><s>Single-track experiments with and without a layer of powder were performed to evaluate the melt pool dynamics under a variety of process conditions.</s><s>In the later discussion, the terms 'bare plate' and 'powder plate' are used to represent the conditions without and with powder, respectively.</s><s>With the powder plate, the powder layer thickness was set at 50 µm.</s><s>Both the bare plate and the powder are made of 316L stainless steel.</s><s>The experiment design is shown in Table <ref type="table" target="#tab_0">1</ref>.</s><s>The cases can be grouped into three series: constant laser power (P laser = 260 W), constant laser speed (V laser = 1.47 m/s), and constant laser energy density (300 J/m).</s><s>Note that the linear energy density is used for the single tracks, which is defined by P laser V laser .</s><s>Each line was printed twice with a length of 20 mm.</s><s>To further understand the melt pool dynamics in relation to the top surface roughness, cube samples with the size of 10 mm × 10 mm × 10 mm were printed with low laser power and speed (260 W and 0.52 m/s) and high laser power and speed (440 W and 1.47 m/s).</s><s>For the cube samples, a simple hatching strategy, where the laser runs back and forth across the entire sample, was applied with a 90 • rotation angle between the consecutive layers.</s><s>The hatch spacing and the layer thickness were set at 100 µm and 30 µm, respectively.</s></p><p><s>The Keyence VHX-5000 digital optical microscope (Itasca, IL, USA) was used to obtain the top surface topography with height information for all printed samples, including the single lines and the cubes.</s><s>To examine the melt pool depth and the detailed topography of the cross sections, the lines were sectioned in the middle of the line, perpendicular to the laser scanning direction, using wire-EDM.</s><s>To reveal the melt pool boundaries, all samples were polished and etched with a mixture of 75 vol% HCl and 25 vol% HNO 3 .</s><s>Both the melt pool depth and width were measured to quantify the melt pool dimensions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Modeling Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Governing Equations</head><p><s>To simulate the melt flow dynamics during LPBF, a CFD model was developed using the commercial software ANSYS Fluent.</s><s>Assuming Newtonian flow behavior, the solved key equations are provided below <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b57">58]</ref>.</s></p><p><s>As part of the Navier-Stokes equations, the conservation of mass is described as:</s></p><formula xml:id="formula_0">∂ρ ∂t + ∇• ρ ⇀ u = 0 (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>where the ρ is volume averaged density, ⇀ u is the velocity vector, and t is the time.</s><s>To incorporate the metallic phase (including both solid and liquid) and the gas phase in the same system, the density was calculated by:</s></p><formula xml:id="formula_2">ρ = α m ρ m + α g ρ g<label>(2)</label></formula><p><s>where α m is the metallic-phase fraction, α g is the gas-phase fraction.</s><s>ρ g is the density of the gas phase.</s><s>ρ m is the density of the metallic phase, calculated as:</s></p><formula xml:id="formula_3">ρ m = γ l ρ l + (1 -γ l )ρ s<label>(3)</label></formula><p><s>where ρ l and ρ s are the densities of liquid and solid, respectively.</s><s>γ l is the volume fractions of the liquid phase, updated as a function of the temperature based on the linear interpretation:</s></p><formula xml:id="formula_4">γ l =        0 T ≤ T s T-T s T l -T s T s &lt; T &lt; T s 1 T ≥ T L (<label>4</label></formula><formula xml:id="formula_5">)</formula><p><s>where T is the local temperature, T l and T s are the liquidus and solidus temperatures of the stainless steel 316L, respectively.</s><s>The conservation of momentum is described below with the essential source terms that drive the fluid flow in the melt pool:</s></p><formula xml:id="formula_6">∂ ∂t ρ ⇀ u + ∇• ρ ⇀ u ⇀ u = -∇p + ∇• µ e f f (∇ ⇀ u + ∇ ⇀ u T ) + ρ → g + ⇀ F source (<label>5</label></formula><formula xml:id="formula_7">)</formula><formula xml:id="formula_8">µ e f f = α m µ m + α g µ g (<label>6</label></formula><formula xml:id="formula_9">) ⇀ F source = ⇀ F sur f ace tension + ⇀ F marangoni + ⇀ F recoil pressure + ⇀ F damping (<label>7</label></formula><formula xml:id="formula_10">)</formula><p><s>where p is the static pressure, → g is the gravity vector, ⇀ F source is the momentum source terms, µ e f f is the efficient dynamic viscosity, µ m and µ g are the dynamic viscosities of the metallic phase and gas phase, respectively, ⇀ F sur f ace tension , ⇀ F marangoni , ⇀ F recoil pressure , and F damping are source terms of surface tension, Marangoni force, recoil pressure <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b57">58]</ref>, and momentum loss in semisolid zone.</s><s>Each term takes the form:</s></p><formula xml:id="formula_11">⇀ F sur f ace tension = σκ → n |∇α m | 2ρ ρ m + ρ g (<label>8</label></formula><formula xml:id="formula_12">) ⇀ F marangoni = ∇σ - → n •∇σ → n → n |∇α m | 2ρ ρ m + ρ g (<label>9</label></formula><formula xml:id="formula_13">) ⇀ F recoil = A recoil P 0 exp L v M(T -T v ) RTT v -1 → n |∇α m | 2ρ ρ m + ρ g (<label>10</label></formula><formula xml:id="formula_14">) ⇀ F damping = (1 -γ l ) 2 γ 3 l + 0.001 A mushy ⇀ u -V laser (<label>11</label></formula><formula xml:id="formula_15">)</formula><p><s>where σ is the surface tension coefficient.</s><s>κ is the interface curvature, defined by κ = ∇• → n , where</s></p><formula xml:id="formula_16">→ n = ∇α m |∇α m |</formula><p><s>is the interface normal factor.</s><s>A recoil is the recoil pressure coefficient, P 0 is the ambient pressure, L v is the latent heat of evaporation, T v is the evaporation pressure, M is the molar mass, R is the universal gas constant, V laser is the laser moving velocity, A mushy is the mushy zone constant, which measures the amplitude of the momentum damping in the mushy zone.</s><s>Note that the value of A mushy has been found in the literature ranging between 1 ×10 3 and 1 × 10 15 in the numerical solidification calculations <ref type="bibr" target="#b58">[59]</ref>.</s><s>The larger the value is, the higher the damping becomes, and the faster the velocity drops to zero in the mushy zone <ref type="bibr" target="#b57">[58]</ref>.</s><s>It was utilized between 1 × 10 6 and 1 × 10 12 based on factors, including dendrite coherency point, alloy compositions, experiment validation, calculation convergency, and time consumption in most LPBF studies <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b60">61]</ref>.</s><s>In this study, the value of 1 × 10 9 was selected to accommodate the small size of the mushy zone and increase the stability of the numerical solution.</s></p><p><s>The free surface of the liquid phase is captured by using the volume of fluid (VOF) algorithm.</s><s>The conservation of volume fraction is described by:</s></p><formula xml:id="formula_17">∂α m ∂t + ∇• α m ⇀ u = 0 (<label>12</label></formula><formula xml:id="formula_18">)</formula><p><s>The standard kε turbulence model is applied.</s><s>The solver based on the SIMPLE algorithm was selected in Fluent to solve the Navier-Stokes equations.</s></p><p><s>For the heat transfer and solidification, the equation of conservation of energy is solved:</s></p><formula xml:id="formula_19">∂ ∂t (ρH) + ∇• ρ ⇀ u H = ∇• k e f f ∇T + q source (<label>13</label></formula><formula xml:id="formula_20">)</formula><p><s>where H is the entropy, updated by the phase fraction of the metal and gas:</s></p><formula xml:id="formula_21">H = α m H m + α g H g (<label>14</label></formula><formula xml:id="formula_22">)</formula><p><s>where H m and H g are the entropies of the metallic phase and gas phase, respectively.</s><s>They are calculated by:</s></p><formula xml:id="formula_23">H g = T 0 C p,g dT<label>(15)</label></formula><formula xml:id="formula_24">H m = T 0 C p,m dT + γ l L m (<label>16</label></formula><formula xml:id="formula_25">)</formula><p><s>where C p,g and C p,m are the specific heats of the gas phase and metallic phase, respectively.</s><s>L m is the latent heat of melting.</s></p><p><s>In Equation <ref type="bibr" target="#b12">(13)</ref>, k e f f is the efficient thermal conductivity, calculated by:</s></p><formula xml:id="formula_26">k e f f = α m k m + α g k g (<label>17</label></formula><formula xml:id="formula_27">)</formula><p><s>where k m and k g are the thermal conductivities of the metallic phase and gas phase, respectively.</s><s>Similar to the density of the metallic phase, the k m is updated by:</s></p><formula xml:id="formula_28">k m = γ l k l + (1 -γ l )k s (<label>18</label></formula><formula xml:id="formula_29">)</formula><p><s>where k l and k s are the thermal conductivities of the liquid phase and solid phase, respectively.</s><s>The energy source terms <ref type="bibr" target="#b15">[16]</ref>, q source , account for evaporation (q evap ), radiation (q radiation ), and laser energy input (q laser )</s></p><formula xml:id="formula_30">q evap = -A evap L v M 2πRT P 0 exp L v M(T -T v ) RTT v |∇α m | 2ρ ρ m + ρ g (<label>19</label></formula><formula xml:id="formula_31">)</formula><formula xml:id="formula_32">q radiation = -σ s ε T 4 -T 4 0 |∇α m | 2ρ ρ m + ρ g (<label>20</label></formula><formula xml:id="formula_33">)</formula><formula xml:id="formula_34">q laser =        α laser 0.5•P laser πr 2 laser exp - r 2•r laser 2 |∇α m | 2ρ ρm +ρg r laser 0 2πr exp - r 2•r laser 2 dr r ≤ r laser 0 r &gt; r laser<label>(21)</label></formula><p><s>where A evap is the coefficient of evaporation energy loss, σ s is the Stefan-Boltzmann constant, ε is the emissivity, T 0 is the ambient temperature, α laser is the laser absorptivity, r laser is the laser spot radius, r is the distance from the mesh cell to the laser axis.</s><s>Note that the mass loss due to evaporation is neglected in the model.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Simulation Setup and Material Properties</head><p><s>In order to validate the modeling effectiveness, a three-dimensional symmetrical domain with an overall size of 1500 × 250 × 637.5 µm 3 and a core size of 1500 × 90 × 270 µm 3 was created to carry out the simulations for the single-track LPBF process.</s><s>The domain was meshed into orthogonal grids with sizes from 3.5 µm to 10 µm.</s><s>The geometry illustration and boundary conditions are shown in Figure <ref type="figure" target="#fig_1">1a</ref>.</s><s>A three-dimensional domain with an overall size of 2900 × 800 × 530 µm 3 , with a mesh size 8 µm, was built for the simulation of multiple-track scanning on a bare plate, as shown in Figure <ref type="figure" target="#fig_1">1b</ref>.</s></p><formula xml:id="formula_35">𝑘 = 𝛼 𝑘 + 𝛼 𝑘 (<label>17</label></formula><formula xml:id="formula_36">)</formula><p><s>where 𝑘 and 𝑘 are the thermal conductivities of the metallic phase and gas phase, respectively.</s><s>Similar to the density of the metallic phase, the 𝑘 is updated by:</s></p><formula xml:id="formula_37">𝑘 = 𝛾 𝑘 + (1 -𝛾 )𝑘<label>(18)</label></formula><p><s>where 𝑘 and 𝑘 are the thermal conductivities of the liquid phase and solid phase, respectively.</s></p><p><s>The energy source terms <ref type="bibr" target="#b15">[16]</ref>, 𝑞 , account for evaporation (𝑞 ), radiation (𝑞 ), and laser energy input (𝑞 )</s></p><formula xml:id="formula_38">𝑞 = -𝐴 𝐿 𝑀 2𝜋𝑅𝑇 𝑃 𝑒𝑥𝑝 𝐿 𝑀(𝑇 -𝑇 ) 𝑅𝑇𝑇 |∇𝛼 | 2𝜌 𝜌 + 𝜌 (<label>19</label></formula><formula xml:id="formula_39">) 𝑞 = -𝜎 𝜀(𝑇 -𝑇 )|∇𝛼 | 2𝜌 𝜌 + 𝜌 (<label>20</label></formula><formula xml:id="formula_40">)</formula><formula xml:id="formula_41">𝑞 = ⎩ ⎪ ⎨ ⎪ ⎧ 𝛼 0.5 • 𝑃 𝜋𝑟 exp - 𝑟 2 • 𝑟 |∇𝛼 | 2𝜌 𝜌 + 𝜌 2𝜋𝑟 exp - 𝑟 2 • 𝑟 𝑑𝑟 𝑟 ≤ 𝑟 0 𝑟 𝑟 (<label>21</label></formula><formula xml:id="formula_42">)</formula><p><s>where 𝐴 is the coefficient of evaporation energy loss, 𝜎 is the Stefan-Boltzmann constant, 𝜀 is the emissivity, 𝑇 is the ambient temperature, 𝛼 is the laser absorptivity, 𝑟 is the laser spot radius, 𝑟 is the distance from the mesh cell to the laser axis.</s><s>Note that the mass loss due to evaporation is neglected in the model.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Simulation Setup and Material Properties</head><p><s>In order to validate the modeling effectiveness, a three-dimensional symmetrical domain with an overall size of 1500 × 250 × 637.5 µm 3 and a core size of 1500 × 90 × 270 µm 3 was created to carry out the simulations for the single-track LPBF process.</s><s>The domain was meshed into orthogonal grids with sizes from 3.5 µm to 10 µm.</s><s>The geometry illustration and boundary conditions are shown in Figure <ref type="figure" target="#fig_1">1a</ref>.</s><s>A three-dimensional domain with an overall size of 2900 × 800 × 530 µm 3 , with a mesh size 8 µm, was built for the simulation of multiple-track scanning on a bare plate, as shown in Figure <ref type="figure" target="#fig_1">1b</ref>.</s><s>Temperature-dependent material properties and other modeling parameters used in the model are shown in Table 2 <ref type="bibr" target="#b14">[15]</ref>.</s><s>Note that the density of the liquid, the specific heat of the solid, and thermal conductivity were approximated as a linear function of the local Temperature-dependent material properties and other modeling parameters used in the model are shown in Table 2 <ref type="bibr" target="#b14">[15]</ref>.</s><s>Note that the density of the liquid, the specific heat of the solid, and thermal conductivity were approximated as a linear function of the local temperature.</s><s>Surface tension, which plays a significant role in melt pool instability, has a more complex relationship with the temperature, as shown separately in Figure <ref type="figure" target="#fig_2">2</ref>. temperature.</s><s>Surface tension, which plays a significant role in melt pool instability, has a more complex relationship with the temperature, as shown separately in Figure <ref type="figure" target="#fig_2">2</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Melt Pool Surface Topography and Dimensions in the Single-Track Experiments</head><p><s>Figure <ref type="figure" target="#fig_4">3</ref> shows the surface topography colormap for single-track samples with and without powder subjected to varying laser powers and speeds, as detailed in Table <ref type="table" target="#tab_0">1</ref>.</s><s>The top surface of bare plate samples, under the same laser power (260 W) with low laser speeds (0.52 and 0.87 m/s), exhibits flatness and continuity, as shown in Figure <ref type="figure" target="#fig_5">3(a1</ref>,<ref type="figure" target="#fig_1">b1</ref>).</s><s>No obvious height fluctuation is observed at different locations on the melt pool top surface.</s><s>However, at a speed of 1.3 m/s (Figure <ref type="figure" target="#fig_5">3(c1)</ref>), continuous regions with a higher height (shown as red) occur in the middle of the melt pool.</s><s>Simultaneously, the lowerheight regions (shown as blue) emerge at the boundary of the melt pool.</s><s>Such melt pool characteristics, where the melt pool has a larger height at the center and a lower height at the melt pool boundaries, are herein termed "swell-undercut".</s><s>Upon further increasing the laser speed to over 1.47 m/s, a discontinuous higher region, appearing as balling <ref type="bibr" target="#b61">[62]</ref>, can be found in Figure <ref type="figure" target="#fig_5">3(d1</ref>,<ref type="figure" target="#fig_1">e1</ref>).</s><s>With the scanning speed increasing, the morphology of the single tracks on the powder plate shows a similar behavior, transitioning from a smooth top surface at scanning speeds of 0.52 m/s and 0.87 m/s (Figure <ref type="figure" target="#fig_5">3(a2</ref>,<ref type="figure" target="#fig_3">b2</ref>)) to a continuous swell at the middle of the melt pool at 1.3 m/s (Figure <ref type="figure" target="#fig_5">3(c2)</ref>), and eventually exhibiting balling for laser speeds exceeding 1.47 m/s (Figure <ref type="figure" target="#fig_5">3(d2)</ref>).</s><s>Moreover, spatters are observed near the melt pool track on the powder plate with a speed higher than 2.2 m/s, as shown in Figure <ref type="figure" target="#fig_5">3(e2</ref>,<ref type="figure" target="#fig_3">h2</ref>).</s><s>Note that the spatters are evident by the relatively large-sized particles that are not spatially connected to the melt track.</s></p><p><s>Comparing the height of each sample on the bare plate or powder plate, the powder plate melt track maintains a higher height under the same process conditions.</s><s>In contrast to the smooth and regular surface on a bare plate, the presence of an additional layer of powder enhances the overall laser energy absorptivity due to the increased heating surface area and laser reflections among powders <ref type="bibr" target="#b45">[46]</ref>.</s><s>This, in turn, results in more mass being melted into the melt pool, leading to an increase in melt liquid volume and a higher melt pool height.</s></p><p><s>Under the same laser linear energy density of 300 J/m, the top surface of bare plate single-track samples exhibits increasing instability with increases in both laser power and speed, as shown in Figure <ref type="figure" target="#fig_5">3(b1</ref>,<ref type="figure" target="#fig_1">f1</ref>,<ref type="figure" target="#fig_1">g1</ref>,<ref type="figure" target="#fig_1">h1</ref>).</s><s>The top surface of these samples exhibits features such as swell-undercut, balling, and humping <ref type="bibr" target="#b15">[16]</ref>, resulting in a poor top surface regularity.</s><s>Furthermore, when compared to scanning on a bare plate, samples subjected to scanning on a powder plate reveal additional features, including pronounced balling, an exposed melt pool bottom, and spatter escaping the melt pool, as shown in Figure <ref type="figure" target="#fig_4">3</ref>(f2,g2,h2), respectively.</s><s>Similarly, under the same conditions, samples on the powder plate consistently exhibit larger height values than their bare plate counterparts.</s><s>Both the top surface of single-track samples on a bare plate and a powder plate, with a constant laser speed of 1.47 m/s, display significant swell-undercut and balling, as shown in Figure <ref type="figure" target="#fig_5">3(d1</ref>,<ref type="figure" target="#fig_3">d2</ref>,<ref type="figure" target="#fig_1">f1</ref>,<ref type="figure" target="#fig_3">f2</ref>,<ref type="figure" target="#fig_1">i1</ref>,<ref type="figure" target="#fig_3">i2</ref>). Notably, the height of balling in the powder plate sample exceeds that in the bare plate sample, as shown in Figure <ref type="figure" target="#fig_4">3</ref>(i1,i2), for example.</s></p><p><s>Figure <ref type="figure" target="#fig_6">4</ref> presents a cross-sectional view of melt pool morphology of single-track samples on a bare plate and powder plate, corresponding to Figure <ref type="figure" target="#fig_4">3</ref>.</s><s>When maintaining a constant laser power of 260 W, the melt pool for both the bare plate and powder plate transitions from a keyholing mode to a conduction mode as the laser speed increases from 0.52 m/s to 2.20 m/s, shown in Figure <ref type="figure" target="#fig_6">4</ref>(a1-e1,a2-e2).</s><s>This transition is judged by the increase in the width-to-depth ratio, where the start of keyholing has typically been identified when the ratio is less than 1 <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b62">63]</ref>.</s><s>This transition occurs because the decreasing laser energy deposition is insufficient to sustain the laser penetration <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b60">61]</ref>.</s><s>Nevertheless, swell-undercut starts forming when the laser speed surpasses 1.30 m/s.</s><s>Comparing the height of each sample on the bare plate or powder plate, the powder plate melt track maintains a higher height under the same process conditions.</s><s>In contrast transitions from a keyholing mode to a conduction mode as the laser speed increases from 0.52 m/s to 2.20 m/s, shown in Figure <ref type="figure" target="#fig_6">4</ref>(a1-e1,a2-e2).</s><s>This transition is judged by the increase in the width-to-depth ratio, where the start of keyholing has typically been identified when the ratio is less than 1 <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b62">63]</ref>.</s><s>This transition occurs because the decreasing laser energy deposition is insufficient to sustain the laser penetration <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b60">61]</ref>.</s><s>Nevertheless, swell-undercut starts forming when the laser speed surpasses 1.30 m/s.</s><s>Variations of the melt pool behaviors are observed under the same laser energy density of 300 J/m.</s><s>Under low laser power and speed conditions, there is sufficient time for heat transfer, resulting in both the bare plate and powder plate melt pools adopting a conduction mode (Figure <ref type="figure" target="#fig_6">4</ref>(b1,b2)).</s><s>As laser power and speed increase, even though the same energy density is maintained, the reduced time for heat transfer intensifies the maximum temperature and recoil pressure.</s><s>Consequently, keyholing forms, as shown in Figure <ref type="figure" target="#fig_6">4</ref>(f1,f2,g1,g2).</s><s>In addition, swell-undercut phenomena become more pronounced.</s><s>However, when the laser power and speed exceed 800 W and 2.67 m/s, the keyholing becomes unsustainable, as shown in Figure <ref type="figure" target="#fig_6">4(h1</ref>,<ref type="figure" target="#fig_3">h2</ref>).</s><s>The extremely strong recoil pressure generated by extremely high power and high speed forces the liquid away from the melt pool.</s><s>This expulsion restricts the energy deposited into the melt pool and limits the melt pool from going deeper.</s><s>From Figure <ref type="figure" target="#fig_6">4</ref>(d1,f1,i1) and Figure <ref type="figure" target="#fig_6">4</ref>(d2,f2,i2), the melt pool morphology of both the bare plate and powder plate samples, with a constant laser speed of 1.47m/s, transfers from the conduction mode to the keyholing mode as the laser power increases from 260 W to 620 W. The transformation to keyholing initiates when the laser power exceeds 440 W, indicating that an increasing power level results in greater energy deposition from the laser.</s><s>Importantly, all cases exhibit the presence of the swell-undercut defect when subjected to a laser speed of 1.47 m/s.</s></p><p><s>Figures <ref type="figure" target="#fig_7">5</ref><ref type="figure" target="#fig_9">6</ref><ref type="figure" target="#fig_12">7</ref>present analyses of melt pool width, depth, and width-to-depth ratio under consistent laser power (260 W), constant laser energy density (300 J/m), and unvarying laser speed (1.47 m/s), respectively.</s><s>Both melt pool width and depth exhibit a decreasing trend with escalating laser speed for both the powder plate and bare plate samples, while the width-to-depth ratio increases, as shown in Figure <ref type="figure" target="#fig_7">5</ref>.</s><s>The increase in laser speed corresponds to a reduction in energy density, leading to a decrease in the size of the melt pool (both width and depth).</s><s>Notably, at a laser speed of 0.52 m/s, where the energy density is sufficient to sustain keyholing, the width-to-depth ratio is particularly low at 0.633.</s><s>In all other cases with the same laser power, the width-to-depth ratio exceeds 1.</s></p><p><s>deposition from the laser.</s><s>Importantly, all cases exhibit the presence of the swell-und defect when subjected to a laser speed of 1.47 m/s.</s></p><p><s>Figures <ref type="figure" target="#fig_7">5</ref><ref type="figure" target="#fig_9">6</ref><ref type="figure" target="#fig_12">7</ref>present analyses of melt pool width, depth, and width-to-depth rati der consistent laser power (260 W), constant laser energy density (300 J/m), and unvar laser speed (1.47 m/s), respectively.</s><s>Both melt pool width and depth exhibit a decre trend with escalating laser speed for both the powder plate and bare plate samples, w the width-to-depth ratio increases, as shown in Figure <ref type="figure" target="#fig_7">5</ref>.</s><s>The increase in laser speed responds to a reduction in energy density, leading to a decrease in the size of the pool (both width and depth).</s><s>Notably, at a laser speed of 0.52 m/s, where the energy sity is sufficient to sustain keyholing, the width-to-depth ratio is particularly low at 0 In all other cases with the same laser power, the width-to-depth ratio exceeds 1.</s><s>From Figure <ref type="figure" target="#fig_9">6</ref>, the melt pool width and width-to-depth ratio initially decrease and then increase with increasing laser power for both the bare plate and powder plate samples under a constant laser energy density of 300 J/m.</s><s>The melt pool depth follows an opposite trend, first increasing and then decreasing.</s><s>As discussed earlier, the melt pool transitions from a conduction mode to keyholing mode as the laser power and speed increase from 260 W and 0.87 m/s to 620 W and 2.07 m/s, accompanied by a decrease in the width-todepth ratio to above 1.25.</s><s>However, the melt pool exits the keyholing mode and goes to an unstable-behaved mode when the laser power and speed reach 800 W and 2.67 m/s, due to insufficient time for heat transfer.</s><s>The melt pool dimensions of both the bare plate and powder plate change with laser power under the same laser speed of 1.47 m/s, which is relatively monotonous (Figure <ref type="figure" target="#fig_12">7</ref>).</s><s>As the laser power increases from 260 W to 620 W, the melt pool width and depth keep increasing, while the width-to-depth ratio decreases.</s><s>This trend is attributed to the increased energy deposition and subsequent transition to the keyholing mode.</s><s>From Figure <ref type="figure" target="#fig_9">6</ref>, the melt pool width and width-to-depth ratio initially decrease then increase with increasing laser power for both the bare plate and powder plate s ples under a constant laser energy density of 300 J/m.</s><s>The melt pool depth follow opposite trend, first increasing and then decreasing.</s><s>As discussed earlier, the melt transitions from a conduction mode to keyholing mode as the laser power and spee crease from 260 W and 0.87 m/s to 620 W and 2.07 m/s, accompanied by a decrease in width-to-depth ratio to above 1.25.</s><s>However, the melt pool exits the keyholing mode goes to an unstable-behaved mode when the laser power and speed reach 800 W and m/s, due to insufficient time for heat transfer.</s><s>The melt pool dimensions of both the plate and powder plate change with laser power under the same laser speed of 1.47 which is relatively monotonous (Figure <ref type="figure" target="#fig_12">7</ref>).</s><s>As the laser power increases from 260 W to W, the melt pool width and depth keep increasing, while the width-to-depth ratio creases.</s><s>This trend is attributed to the increased energy deposition and subsequent sition to the keyholing mode.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Numerical Analysis of Single-Track Laser Scanning</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Mesh Sensitivity and Model Validation</head><p><s>Considering the potential for manual error in measuring melt pool dimension simulations, the analysis for mesh sensitivity involves using the numerically calcul melt pool volume instead.</s><s>This approach helps mitigate inaccuracies that might arise to manual measurement errors, ensuring a more reliable assessment of mesh sensitiv</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Numerical Analysis of Single-Track Laser Scanning</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Mesh Sensitivity and Model Validation</head><p><s>Considering the potential for manual error in measuring melt pool dimensions in simulations, the analysis for mesh sensitivity involves using the numerically calculated melt pool volume instead.</s><s>This approach helps mitigate inaccuracies that might arise due to manual measurement errors, ensuring a more reliable assessment of mesh sensitivity.</s></p><p><s>Figure <ref type="figure" target="#fig_14">8</ref> shows the melt pool volume and computational time under different mesh sizes in the core region for case N06 (laser powder 440 W and laser speed 1.47 m/s).</s><s>Reducing the mesh size in the core region from 9 µm to 7 µm, and, subsequently, to 5 µm, the melt pool volume changes from 79,040 µm 3 to 884,020 µm 3 and, subsequently, to 900,573 µm 3 .</s><s>The melt pool volume variations represent approximately 12% and 2%, respectively, in two mesh size reductions.</s><s>However, computational times increased notably, reaching 6.8 h, 13.9 h, and 35.6 h as the mesh size decreased from 9 µm to 7 µm and then to 5 µm.</s><s>The computational time variations are significant, showing increments of 104% and 156%, respectively.</s><s>Additionally, the convergence criterion for computational results is defined as a melt pool volume variation within 0.1%, calculated at intervals equal to the laser diameter divided by the laser speed.</s></p><p><s>To balance the computational costs and accuracy, a mesh size of 7 µm was employed in this study for all single-track simulations.</s><s>This selection ensures the reliability of the results, while optimizing computational efficiency.</s></p><p><s>To understand surface formation under different working parameters, four cases were chosen for simulation to capture the melt pool dynamics in the LPBF process.</s><s>Table <ref type="table" target="#tab_3">3</ref> shows the selected cases and the comparison of melt pool dimensions between experimental data and simulation results.</s><s>Note that the direct comparison of the predicted melt pool morphologies is shown in Figure <ref type="figure" target="#fig_16">9</ref>, which will be discussed in detail next.</s><s>All cases exhibit errors within a 10% range, except for the case N05-P260V2.20.</s><s>As discussed in Section 2.1, cases with different laser powers and speeds use the same modeling assumptions, especially laser absorptivity and temperature-dependent recoil pressure models, for simplification.</s><s>However, it is more complicated in real LPBF processing.</s><s>The impact of vapor plumes, a dynamic melt pool free surface at the scanning spot, and pressure fluctuation with different laser powers and speeds varies on the energy deposition and recoil pressure.</s><s>Furthermore, the goal of this paper is to figure out the basic top surface formation mechanism.</s><s>In this way, the errors between the experiment and simulation, as shown in Table <ref type="table" target="#tab_3">3</ref>, are acceptable.</s></p><p><s>spectively, in two mesh size reductions.</s><s>However, computational times increased notably, reaching 6.8 h, 13.9 h, and 35.6 h as the mesh size decreased from 9 µm to 7 µm and then to 5 µm.</s><s>The computational time variations are significant, showing increments of 104% and 156%, respectively.</s><s>Additionally, the convergence criterion for computational results is defined as a melt pool volume variation within 0.1%, calculated at intervals equal to the laser diameter divided by the laser speed.</s></p><p><s>To balance the computational costs and accuracy, a mesh size of 7 µm was employed in this study for all single-track simulations.</s><s>This selection ensures the reliability of the results, while optimizing computational efficiency.</s><s>To understand surface formation under different working parameters, four cases were chosen for simulation to capture the melt pool dynamics in the LPBF process.</s><s>Table <ref type="table" target="#tab_3">3</ref> shows the selected cases and the comparison of melt pool dimensions between experimental data and simulation results.</s><s>Note that the direct comparison of the predicted melt pool morphologies is shown in Figure <ref type="figure" target="#fig_16">9</ref>, which will be discussed in detail next.</s><s>All cases exhibit errors within a 10% range, except for the case N05-P260V2.20.</s><s>As discussed in Section 2.1, cases with different laser powers and speeds use the same modeling assumptions, especially laser absorptivity and temperature-dependent recoil pressure models, for simplification.</s><s>However, it is more complicated in real LPBF processing.</s><s>The impact of vapor plumes, a dynamic melt pool free surface at the scanning spot, and pressure fluctuation with different laser powers and speeds varies on the energy deposition and recoil pressure.</s><s>Furthermore, the goal of this paper is to figure out the basic top surface formation mechanism.</s><s>In this way, the errors between the experiment and simulation, as shown in Table <ref type="table" target="#tab_3">3</ref>, are acceptable.</s><s>Melt Pool Size on Bare Plate Numerical Melt Pool Size on Bare Plate Error of Simulation Width Depth Width Depth Width Depth N01-P260V0.52 114 µm 180 µm 119 µm 168 µm 4.20% 7.14% N04-P260V1.47 94 µm 61 µm 99 µm 62 µm 5.05% 1.61% N05-P260V2.20 83 µm 41 µm 92 µm 48.3 µm 9.78% 15.11% N06-P440V1.47 98 µm 104 µm 105 µm 108 µm 6.67% 3.70%</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Physical Mechanisms of Swell-Undercut Formation</head><p><s>Figure <ref type="figure" target="#fig_16">9</ref> shows the simulation and experiment results of single-track laser scanning on the bare plate under the selected laser powers and speeds listed in Table <ref type="table" target="#tab_3">3</ref>.</s><s>The simulation consistently reproduces the melt pool size on the cross section, exhibiting notable agreement with the experimental data.</s><s>This agreement is particularly evident in capturing the swell-undercut defect, as indicated by the comparisons in Figure <ref type="figure" target="#fig_16">9</ref>(a2) vs. Figure <ref type="figure" target="#fig_16">9</ref>(a3), Figure <ref type="figure" target="#fig_16">9</ref>(b2) vs. Figure <ref type="figure" target="#fig_16">9</ref>(b3), Figure <ref type="figure" target="#fig_16">9</ref>(c2) vs. Figure <ref type="figure" target="#fig_16">9</ref>(c3), and Figure <ref type="figure" target="#fig_16">9</ref>(d2) vs. Figure <ref type="figure" target="#fig_17">9(d3)</ref>.</s><s>In all cases, material undergoes melting at the scanning spot and flows downward with a maximum velocity below 10 m/s.</s><s>However, the dynamics of the melt pool vary under different working parameters, as shown in Figure <ref type="figure" target="#fig_17">9(a1-d1</ref>).</s></p><p><s>Lower laser speed (e.g., 0.52 m/s) allows for increased energy deposition, resulting in the formation of a short and deep melt pool exhibiting a keyholing mode.</s><s>This characteristic supports the liquid sufficiently, enabling it to flow back and refill the voids caused by recoil pressure.</s><s>Consequently, a flat surface is formed before solidification, as illustrated in Figure <ref type="figure" target="#fig_16">9</ref>(a1,a2).</s><s>However, as the laser speed increases from 0.52 m/s to 2.20 m/s under a constant laser power of 260 W, the melt pool becomes shallower and narrower due to decreased energy density.</s></p><p><s>Comparing the lower power case N04-P260V1.47 (Figure <ref type="figure" target="#fig_16">9</ref>(b1-b3)) with the higher power case N06-P440V1.47 (Figure <ref type="figure" target="#fig_16">9</ref>(d1-d3)), it is observed that the higher power case exhibits a longer and deeper melt pool and the undercut depth increases.</s><s>This suggests that increased energy deposition by increasing laser power, while keeping the identical laser speed, worsens the swell-undercut defect, when such a defect is already present.</s><s>Higher power increases energy deposition, intensifying evaporation and recoil pressure at the free surface of the scanning spot.</s><s>The enhanced pressure can further squeeze liquid downward and backward to the melt pool end more dramatically, thereby promoting the forma-tion of the swell-undercut defect, as evident in the comparison between Figure <ref type="figure" target="#fig_16">9</ref>(b2,d2).</s><s>However, increased energy deposition by reducing the laser speed, instead, relieves the swell-undercut defect, as evidenced by comparing Figure <ref type="figure" target="#fig_16">9</ref>(a1,a2,b1,b2).</s><s>The low speed allows more time for heat transfer through the material and for the liquid to flow back and refill the voids caused by recoil pressure before the liquid solidifies.</s><s>Nevertheless, the undercut appears when the laser speed exceeds 1.47 m/s, as shown in Figure <ref type="figure" target="#fig_17">9(a2-d2</ref>).</s><s>Overall, the formation of swell-undercut during laser scanning is driven by intense recoil pressure and insufficient liquid refilling.</s><s>This is attributed to the fact that, with sufficient energy deposition together with high laser speed conditions, the liquid solidifies rapidly before it has sufficient time to flow back and refill the void caused by recoil pressure.</s><s>Melt Pool Size on Bare Plate Numerical Melt Pool Size on Bare Plate Error of Simulation Width Depth Width Depth Width Depth N01-P260V0.52 114 µm 180 µm 119 µm 168 µm 4.20% 7.14% N04-P260V1.47 94 µm 61 µm 99 µm 62 µm 5.05% 1.61% N05-P260V2.20 83 µm 41 µm 92 µm 48.3 µm 9.78% 15.11% N06-P440V1.47 98 µm 104 µm 105 µm 108 µm 6.67% 3.70% 3.2.2.</s><s>Physical Mechanisms of Swell-Undercut Formation</s></p><p><s>Figure <ref type="figure" target="#fig_16">9</ref> shows the simulation and experiment results of single-track laser scanning on the bare plate under the selected laser powers and speeds listed in Table <ref type="table" target="#tab_3">3</ref>.</s><s>The simu- To assist in understanding swell-undercut formation, the simulation results of case N04-P260V1.47 are illustrated in detail, with different cross sections showing the liquid fraction and temperature in Figure <ref type="figure" target="#fig_18">10</ref>.</s><s>As the material melts and evaporates at the scanning spot, the liquid experiences significant force from the intense recoil pressure, flowing towards the melt pool end (Figure <ref type="figure" target="#fig_18">10</ref>(c1-c6)) and exhibiting high velocity under the laser spot (Figure <ref type="figure" target="#fig_20">10(b1)</ref>).</s><s>Once the liquid flows away from the scanning spot, the fluid velocity drops rapidly from approximately 10 m/s to 1 m/s, as the semisolid zone damps kinetic energy, as shown in Figure <ref type="figure" target="#fig_20">10(b2-b6</ref>).</s><s>Nevertheless, the liquid solidifies before refilling the volume of the void created by recoil pressure.</s><s>This occurs because the laser moves forward too rapidly under high laser speed conditions, leaving insufficient energy for the liquid to refill the void (Figure <ref type="figure" target="#fig_20">10(a2-a4</ref>)).</s><s>In contrast, lower laser power and speed conditions (260 W and 0.52 m/s) provide more time and energy deposition for liquid refilling, resulting in a different outcome, shown in Figure <ref type="figure" target="#fig_16">9</ref>(a1,a2).</s><s>As a result, the melt pool swell-undercut forms, which significantly increases the top surface roughness.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Surface Topography of Cubic Samples and Multiple-Track Simulation</head><p><s>The top surface topography of cube samples and the simulation of multiple-track scanning on the bare plate are briefly discussed in this section to present connections between the melt pool characteristics and the top surface roughness.</s></p><p><s>Figure <ref type="figure" target="#fig_22">11</ref> shows the top surface topography of cubic samples and multiple-track simulation for abare plate conducted under two distinct laser processing conditions: high laser power and speed case (440 W and 1.47 m/s) and low laser power and speed case (260 W and 0.52 m/s).</s><s>Elevated laser power and speed result in high recoil pressure and reduced heat transfer time, promoting the swell-undercut, as shown in Figure <ref type="figure" target="#fig_22">11</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Surface Topography of Cubic Samples and Multiple-Track Simulation</head><p><s>The top surface topography of cube samples and the simulation of multiple-track scanning on the bare plate are briefly discussed in this section to present connections between the melt pool characteristics and the top surface roughness.</s></p><p><s>Figure <ref type="figure" target="#fig_22">11</ref> shows the top surface topography of cubic samples and multiple-track simulation for abare plate conducted under two distinct laser processing conditions: high laser power and speed case (440 W and 1.47 m/s) and low laser power and speed case (260 W and 0.52 m/s).</s><s>Elevated laser power and speed result in high recoil pressure and reduced heat transfer time, promoting the swell-undercut, as shown in Figure <ref type="figure" target="#fig_22">11</ref> laser scanning process.</s><s>With the low-power and low-speed conditions, a smooth surface was predicted with minimal balling and voids during the laser starting and ending stages (Figure <ref type="figure" target="#fig_22">11</ref>(b2).</s><s>Although the absolute height differences vary between experiments and simulations, the key features of the melt pool behaviors and the surface topography have been captured by the computational model.</s></p><p><s>This demonstration highlights the versatility of the laser-matter interaction model, showcasing its applicability in predicting melt pool behaviors and potential defects during the fabrication process.</s><s>Despite the current model not incorporating powder, it proves valuable in offering insights that aid in elucidating the forming mechanisms of specific features or defects of interest.</s><s>By leveraging the model, researchers can gain a deeper understanding of the intricate dynamics involved in laser-based manufacturing processes, contributing to improved process control and the development of more robust fabrication techniques.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>This study employed single-track laser scanning experiments, both with and without a powder layer, to investigate key topographic features during laser-matter interaction.</s><s>The experiments revealed a transition from a conduction mode to a keyholing model and identified phenomena such as balling, humping, swell-undercut, and spattering across a broad range of process conditions.</s><s>A high-fidelity computational model integrating fluid The numerical modeling for the single-track laser scanning process was employed here to simulate multiple tracks, mimicking the scanning process on the top surface.</s><s>Figure <ref type="figure" target="#fig_23">11(a2)</ref> shows a similar swell-undercut feature for the high-power and high-speed case, where distinguishable fluctuations of height can be observed across the laser scanning tracks.</s><s>In addition, a large balling volume at the laser start point (Figure <ref type="figure" target="#fig_22">11</ref>(a2), red region on the left) and a large volume of voids at the laser end point (Figure <ref type="figure" target="#fig_22">11</ref>(a2), blue region on the right) were formed due to the large recoil pressure and fast solidification speed.</s><s>This phenomenon is commonly observed during the initiation and ending stages of the laser scanning process.</s><s>With the low-power and low-speed conditions, a smooth surface was predicted with minimal balling and voids during the laser starting and ending stages (Figure <ref type="figure" target="#fig_22">11</ref>(b2).</s><s>Although the absolute height differences vary between experiments and simulations, the key features of the melt pool behaviors and the surface topography have been captured by the computational model.</s></p><p><s>This demonstration highlights the versatility of the laser-matter interaction model, showcasing its applicability in predicting melt pool behaviors and potential defects during the fabrication process.</s><s>Despite the current model not incorporating powder, it proves valuable in offering insights that aid in elucidating the forming mechanisms of specific features or defects of interest.</s><s>By leveraging the model, researchers can gain a deeper understanding of the intricate dynamics involved in laser-based manufacturing processes, contributing to improved process control and the development of more robust fabrication techniques.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>This study employed single-track laser scanning experiments, both with and without a powder layer, to investigate key topographic features during laser-matter interaction.</s><s>The experiments revealed a transition from a conduction mode to a keyholing model and identified phenomena such as balling, humping, swell-undercut, and spattering across a broad range of process conditions.</s><s>A high-fidelity computational model integrating fluid dynamics, heat transfer, vaporization, and solidification was developed to interpret the experimental results and elucidate melt pool characteristics in detail.</s><s>The key conclusions derived from both the experiments and simulations are summarized as follows:</s></p><p><s>1.</s></p><p><s>At a low power of 260 W, the width and depth of the melt pool decrease with increasing laser speed in single-track scanning, both with and without a powder layer.</s><s>Swellundercut appears when the speed exceeds 1.30 m/s.</s><s>At a higher power and a laser speed of 1.47 m/s, the melt pool expands, resulting in significant balling.</s><s>2.</s></p><p><s>Increasing laser power and speed at a linear energy density of 300 J/m leads to an increase in melt pool width and depth, transitioning from shallow and wide to deep and narrow and then back to a shallow and wide melt pool.</s><s>Balling and swellundercut phenomena emerge beyond 440 W and 1.47 m/s, with additional spattering observed beyond 620 W and 2.67 m/s. 3.</s></p><p><s>The laser-matter interaction on the bare plate or powder plate does not alter the melt pool characteristics.</s><s>However, the fluctuation of melt track height on a powder plate is consistently higher than on a bare plate in the laser moving direction, due to increased laser energy absorptivity and additional mass from loose powder, worsening melt pool irregularity.</s><s>4.</s></p><p><s>The formation of swell-undercut, revealed by the numerical model, is owing to the large void space created by high intense recoil pressure and insufficient liquid refilling due to momentum damping in the semisolid zone and rapid solidification at high laser power and high-speed conditions.</s><s>In contrast, a lower laser power and speed provide adequate heat transfer time and energy deposition, reducing swell-undercut and surface roughness.</s><s>5.</s></p><p><s>Cubic samples under high laser power and speed exhibit swell-undercut and increased height fluctuation, while lower laser power and speed result in smoother surfaces due to enhanced heat transfer and energy deposition.</s><s>These characteristics align with findings from multiple-track scanning simulations, highlighting the influence of insufficient energy deposition and reduced heat transfer time on surface topography.</s></p><p><s>The accurate prediction of melt pool dynamics in LPBF is pivotal for advancing both materials' and process development, targeting the desired surface finishing, microstructure, and, ultimately, material properties.</s><s>The current study employs the established framework in Ansys Fluent, captures the essential physics that drives melt pool formation, and elucidates surface characteristics.</s><s>With the introduction of the melt pool modules in commercial software packages, such capabilities have become increasingly accessible for both scientific research and engineering applications.</s><s>Indeed, ongoing development will continue to refine the underlying assumptions and governing physics in the models for a more accurate representation of the intricate dynamics in LPBF.</s><s>However, such models are still limited to a countable number of tracks and layers because of the required high spatial and temporal resolutions and the resultant prolonged computational time.</s><s>Beyond adapting advanced numerical algorithms and utilizing high-performance computing facilities, a promising direction involves a novel scheme that solves not only the melt pool dynamics locally but also the global thermal history within complex geometries.</s><s>The advent of artificial intelligence presents a transformative opportunity to expedite model setup, computation, and post-processing through data analytics.</s><s>This technological leap is anticipated to significantly enhance the efficiency of LPBF simulations.</s><s>Furthermore, by integrating with other mechanistic models predicting microstructure and material properties, the synergy between simulations and LPBF research not only fosters innovations in AM but also accelerates its broader success in industrial applications.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Boundary conditions: (a) single-track, (b) multiple-track.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Boundary conditions: (a) single-track, (b) multiple-track.</s></p></div></figDesc><graphic coords="6,62.92,494.29,468.48,151.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Surface tension [16].Figure 2. Surface tension<ref type="bibr" target="#b15">[16]</ref>.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>. Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Surface tension [16].Figure 2. Surface tension<ref type="bibr" target="#b15">[16]</ref>.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Surface topography colored by height for single-track samples on bare plate (BP) and powder plate (PP) with different laser powers and speeds.</s><s>(a1,a2) P = 260 W, V = 0.52 m/s; (b1,b2) P = 260 W, V = 0.87 m/s; (c1,c2) P = 260W, V = 1.30m/s; (d1,d2) P = 260 W, V = 1.47 m/s; (e1,e2) P = 260 W, V = 2.20 m/s; (f1,f2) P = 440 W, V = 1.47 m/s; (g1,g2) P = 620 W, V = 2.07 m/s; (h1,h2) P = 800 W, V = 2.67 m/s; (i1,i2) P = 620 W, V = 1.47 m/s.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Surface topography colored by height for single-track samples on bare plate (BP) and powder plate (PP) with different laser powers and speeds.</s><s>(a1,a2) P = 260 W, V = 0.52 m/s; (b1,b2) P = 260 W, V = 0.87 m/s; (c1,c2) P = 260W, V = 1.30m/s; (d1,d2) P = 260 W, V = 1.47 m/s; (e1,e2) P = 260 W, V = 2.20 m/s; (f1,f2) P = 440 W, V = 1.47 m/s; (g1,g2) P = 620 W, V = 2.07 m/s; (h1,h2) P = 800 W, V = 2.67 m/s; (i1,i2) P = 620 W, V = 1.47 m/s.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Cross-sectional view of melt pool morphology on bare plate (BP) and powder plate (PP) with different laser powers and speeds.</s><s>(a1,a2) P = 260 W, V = 0.52 m/s; (b1,b2) P = 260 W, V = 0.87 m/s; (c1,c2) P = 260W, V = 1.30m/s; (d1,d2) P = 260 W, V = 1.47 m/s; (e1,e2) P = 260 W, V = 2.20 m/s; (f1,f2) P = 440 W, V = 1.47 m/s; (g1,g2) P = 620 W, V = 2.07 m/s; (h1,h2) P = 800 W, V = 2.67 m/s; (i1,i2) P = 620 W, V = 1.47 m/s.</s></p></div></figDesc><graphic coords="10,64.57,307.87,468.48,105.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Melt pool width, depth, and width-to-depth measured from the printed single-track ples under the same power (260 W).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Melt pool width, depth, and width-to-depth measured from the printed single-track samples under the same power (260 W).</s><s>Micromachines 2024, 15, x FOR PEER REVIEW 12</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Melt pool width, depth, and width/depth measured from the printed single-track sam under the same laser energy density (300 J/m).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Melt pool width, depth, and width/depth measured from the printed single-track samples under the same laser energy density (300 J/m).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Melt pool width, depth, and width/depth measured from the printed single-track sam under the same laser energy density (300 J/m).</s></p></div></figDesc><graphic coords="12,168.11,40.68,307.95,63.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. Melt pool width, depth, and width/depth measured from the printed single-track sam under the same laser speed (1.47 m/s).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. Melt pool width, depth, and width/depth measured from the printed single-track samples under the same laser speed (1.47 m/s).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Melt pool volume and computational time under different mesh sizes in the core region.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Melt pool volume and computational time under different mesh sizes in the core region.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Predicted velocity and melt pool in simulations (a1-d2) and melt pool cross sections in experiments (a3-d3) under different laser powers and speeds.</s><s>(a1-a3) P = 260 W, V = 0.52 m/s; (b1-b3) P = 260 W, V = 1.47 m/s; (c1-c3) P = 260 W, V = 2.20 m/s; (d1-d3) P = 440 W, V = 1.47 m/s.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Predicted velocity and melt pool in simulations (a1-d2) and melt pool cross sections in experiments (a3-d3) under different laser powers and speeds.</s><s>(a1-a3) P = 260 W, V = 0.52 m/s; (b1-b3) P = 260 W, V = 1.47 m/s; (c1-c3) P = 260 W, V = 2.20 m/s; (d1-d3) P = 440 W, V = 1.47 m/s.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Melt pool swell-undercut formation with laser power 440 W and speed 1.47 m/s, (a1-a6), liquid fraction, (b1-b6), velocity, (c1-c6), location of cross sections.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><figDesc><div><p><s>(a1).</s><s>Such a feature creates poor surface roughness on the top surface due to the large height fluctuation.</s><s>In contrast, the top surface, under low laser power and speed conditions (Figure11(b1)) presents enhanced smoothness and reduced height fluctuations, with only a few partially melted particles.</s><s>This outcome is owing to the adequate heat transfer time and energy deposition.</s><s>Notably, the observed top surface characteristics are aligned with find-</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Melt pool swell-undercut formation with laser power 440 W and speed 1.47 m/s, (a1-a6), liquid fraction, (b1-b6), velocity, (c1-c6), location of cross sections.</s></p></div></figDesc><graphic coords="15,99.37,161.80,400.56,457.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><figDesc><div><p><s>(a1).</s><s>Such a feature creates poor surface roughness on the top surface due to the large height fluctuation.</s><s>In contrast, the top surface, under low laser power and speed conditions (Figure11(b1)) presents enhanced smoothness and reduced height fluctuations, with only a few partially melted particles.</s><s>This outcome is owing to the adequate heat transfer time and energy deposition.</s><s>Notably, the observed top surface characteristics are aligned with findings in the single-track experiments, as discussed in Section 3.1.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Surface topography of cube samples and multiple-track simulation, (a1) experiment and (a2) simulation for the high laser power and speed condition (440 W and 1.47 m/s); (b1) experiment and (b2) simulation for the low laser power and speed condition (260 W and 0.52 m/s).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Surface topography of cube samples and multiple-track simulation, (a1) experiment and (a2) simulation for the high laser power and speed condition (440 W and 1.47 m/s); (b1) experiment and (b2) simulation for the low laser power and speed condition (260 W and 0.52 m/s).</s></p></div></figDesc><graphic coords="16,171.20,174.46,361.20,278.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Experimental parameters for single tracks.</s></p></div></figDesc><table><row><cell>Case Name</cell><cell>Laser Power, W</cell><cell>Laser Speed, m/s</cell><cell>Laser Energy Density, J/m</cell></row><row><cell>N01</cell><cell>260</cell><cell>0.52</cell><cell>500</cell></row><row><cell>N02</cell><cell>260</cell><cell>0.87</cell><cell>300</cell></row><row><cell>N03</cell><cell>260</cell><cell>1.30</cell><cell>200</cell></row><row><cell>N04</cell><cell>260</cell><cell>1.47</cell><cell>177</cell></row><row><cell>N05</cell><cell>260</cell><cell>2.20</cell><cell>118</cell></row><row><cell>N06</cell><cell>440</cell><cell>1.47</cell><cell>300</cell></row><row><cell>N07</cell><cell>620</cell><cell>2.07</cell><cell>300</cell></row><row><cell>N08</cell><cell>800</cell><cell>2.67</cell><cell>300</cell></row><row><cell>N09</cell><cell>620</cell><cell>1.47</cell><cell>423</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>[16]rial properties and model parameters[16].</s></p></div></figDesc><table><row><cell>Properties</cell><cell>Symbol</cell><cell>Value</cell><cell>Unit</cell></row><row><cell>Density of solid phase</cell><cell>ρ l</cell><cell>7950</cell><cell>kg/m 3</cell></row><row><cell>Density of liquid phase</cell><cell>ρ s</cell><cell>8200 -0.77T</cell><cell>kg/m 3</cell></row><row><cell>Density of gas phase</cell><cell>ρ g</cell><cell>1.22</cell><cell>kg/m 3</cell></row><row><cell>Specific heat of solid phase</cell><cell>C p,m</cell><cell>415 + 0.1838T</cell><cell>J/kg/K</cell></row><row><cell>Specific heat of liquid phase</cell><cell>C p,l</cell><cell>830</cell><cell>J/kg/K</cell></row><row><cell>Specific heat of gas phase</cell><cell>C p,g</cell><cell>1006.43</cell><cell>J/kg/K</cell></row><row><cell>Thermal conductivity of solid phase</cell><cell>k s</cell><cell>9.23 + 0.0139T</cell><cell>W/m/K</cell></row><row><cell>Thermal conductivity of liquid phase</cell><cell>k l</cell><cell>5.5 + 0.0133T</cell><cell>W/m/K</cell></row><row><cell>Thermal conductivity of gas phase</cell><cell>k g</cell><cell>0.02</cell><cell>W/m/K</cell></row><row><cell>Solidus temperature</cell><cell>T s</cell><cell>1658</cell><cell>K</cell></row><row><cell>Liquidus temperature</cell><cell>T l</cell><cell>1723</cell><cell>K</cell></row><row><cell>Evaporation temperature</cell><cell>T v</cell><cell>3090</cell><cell>K</cell></row><row><cell>Latent heat of melting</cell><cell>L m</cell><cell>2.6 × 10 5</cell><cell>J/kg</cell></row><row><cell>Latent heat of vaporization</cell><cell>L v</cell><cell>7.45 × 10 6</cell><cell>J/kg</cell></row><row><cell>Viscosity of metallic phase</cell><cell>µ m</cell><cell>0.006</cell><cell>N/m 2</cell></row><row><cell>Viscosity of gas phase</cell><cell>µ g</cell><cell>1.85 × 10 -5</cell><cell>N/m 2</cell></row><row><cell>Mushy zone constant</cell><cell>A mushy</cell><cell>1 × 10 9</cell><cell>kg/m 3 /s</cell></row><row><cell>Molar mass</cell><cell>M</cell><cell>0.05593</cell><cell>kg/mol</cell></row><row><cell>Ambient pressure</cell><cell>P 0</cell><cell>1.013 × 10 5</cell><cell>Pa</cell></row><row><cell>Universal gas constant</cell><cell>R</cell><cell>8.314</cell><cell>kgm 2 /s 2 /K/mol</cell></row><row><cell>Stefan-Boltzmann constant</cell><cell>σ s</cell><cell>5.67 × 10 -8</cell><cell>kg/s 3 /K 4</cell></row><row><cell>Emissivity</cell><cell>ε</cell><cell>0.5</cell><cell></cell></row><row><cell>Coefficient of evaporation energy loss</cell><cell>A evap</cell><cell>0.5</cell><cell></cell></row><row><cell>Recoil pressure coefficient</cell><cell>A recoil</cell><cell>0.6</cell><cell></cell></row><row><cell>Laser absorptivity</cell><cell>α laser</cell><cell>0.5</cell><cell></cell></row><row><cell>Laser spot radius</cell><cell>r laser</cell><cell>50</cell><cell>µm</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>[16]rial properties and model parameters[16].</s></p></div></figDesc><table><row><cell>Properties</cell><cell>Symbol</cell><cell>Value</cell><cell>Unit</cell></row><row><cell>Density of solid phase</cell><cell>𝜌</cell><cell>7950</cell><cell>kg/m 3</cell></row><row><cell>Density of liquid phase</cell><cell>𝜌</cell><cell>8200 -0.77T</cell><cell>kg/m 3</cell></row><row><cell>Density of gas phase</cell><cell>𝜌</cell><cell>1.22</cell><cell>kg/m 3</cell></row><row><cell>Specific heat of solid phase</cell><cell>𝐶 ,</cell><cell>415 + 0.1838T</cell><cell>J/kg/K</cell></row><row><cell>Specific heat of liquid phase</cell><cell>𝐶 ,</cell><cell>830</cell><cell>J/kg/K</cell></row><row><cell>Specific heat of gas phase</cell><cell>𝐶 ,</cell><cell>1006.43</cell><cell>J/kg/K</cell></row><row><cell>Thermal conductivity of solid phase</cell><cell>𝑘</cell><cell>9.23 + 0.0139T</cell><cell>W/m/K</cell></row><row><cell>Thermal conductivity of liquid phase</cell><cell>𝑘</cell><cell>5.5 + 0.0133T</cell><cell>W/m/K</cell></row><row><cell>Thermal conductivity of gas phase</cell><cell>𝑘</cell><cell>0.02</cell><cell>W/m/K</cell></row><row><cell>Solidus temperature</cell><cell>𝑇</cell><cell>1658</cell><cell>K</cell></row><row><cell>Liquidus temperature</cell><cell>𝑇</cell><cell>1723</cell><cell>K</cell></row><row><cell>Evaporation temperature</cell><cell>𝑇</cell><cell>3090</cell><cell>K</cell></row><row><cell>Latent heat of melting</cell><cell>𝐿</cell><cell>2.6 × 10 5</cell><cell>J/kg</cell></row><row><cell>Latent heat of vaporization</cell><cell>𝐿</cell><cell>7.45 × 10 6</cell><cell>J/kg</cell></row><row><cell>Viscosity of metallic phase</cell><cell>𝜇</cell><cell>0.006</cell><cell>N/m 2</cell></row><row><cell>Viscosity of gas phase</cell><cell>𝜇</cell><cell>1.85 × 10 -5</cell><cell>N/m 2</cell></row><row><cell>Mushy zone constant</cell><cell>𝐴</cell><cell>1 × 10 9</cell><cell>kg/m 3 /s</cell></row><row><cell>Molar mass</cell><cell>𝑀</cell><cell>0.05593</cell><cell>kg/mol</cell></row><row><cell>Ambient pressure</cell><cell>𝑃</cell><cell>1.013 × 10 5</cell><cell>Pa</cell></row><row><cell>Universal gas constant</cell><cell>𝑅</cell><cell>8.314</cell><cell>kgm 2 /s 2 /K/mol</cell></row><row><cell>Stefan-Boltzmann constant</cell><cell>𝜎</cell><cell>5.67 × 10 -8</cell><cell>kg/s 3 /K 4</cell></row><row><cell>Emissivity</cell><cell>𝜀</cell><cell>0.5</cell><cell></cell></row><row><cell>Coefficient of evaporation energy loss</cell><cell>𝐴</cell><cell>0.5</cell><cell></cell></row><row><cell>Recoil pressure coefficient</cell><cell>𝐴</cell><cell>0.6</cell><cell></cell></row><row><cell>Laser absorptivity</cell><cell>𝛼</cell><cell>0.5</cell><cell></cell></row><row><cell>Laser spot radius</cell><cell>𝑟</cell><cell>50</cell><cell>µm</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc><div><p><s>Comparison of melt pool dimensions between experiment and simulation.</s></p></div></figDesc><table><row><cell>Experimental</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3 .</head><label>3</label><figDesc><div><p><s>Comparison of melt pool dimensions between experiment and simulation.</s></p></div></figDesc><table><row><cell>Experimental</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><s>Micromachines 2024, 15, x FOR PEER REVIEW</s></p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding:</head><p><s>The authors would like to acknowledge the support from the <rs type="funder">National Science Foundation</rs> under grant number <rs type="grantNumber">2029425</rs>, financial assistance award <rs type="grantNumber">70NANB23H030</rs> from the <rs type="funder">U.S. Department of Commerce, National Institute of Standards and Technology</rs>, and the <rs type="funder">National Aeronautics and Space Administration Cooperative</rs> Agreement Number <rs type="grantNumber">SC-80NSSC21M0148</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_EbwxPDR">
+					<idno type="grant-number">2029425</idno>
+				</org>
+				<org type="funding" xml:id="_WQrNSdx">
+					<idno type="grant-number">70NANB23H030</idno>
+				</org>
+				<org type="funding" xml:id="_nM6Hnmd">
+					<idno type="grant-number">SC-80NSSC21M0148</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p><s>Data are contained within the article.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Author Contributions: Conceptualization, L.Y.; Methodology, Z.Z., T.Z., S.K. and L.Y.; Software, Z.Z.; Validation, Z.Z. and T.Z.; Formal analysis, Z.Z., T.Z. and C.S.; Investigation, Z.Z., T.Z., C.S., S.K. and L.Y.; Resources, L.Y.; Writing-original draft, Z.Z. and L.Y.; Writing-review &amp; editing, T.Z., C.S. and L.Y.; Visualization, Z.Z.; Supervision, L.Y.; Project administration, L.Y.; Funding acquisition, L.Y.</s><s>All authors have read and agreed to the published version of the manuscript.</s></p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Laser Powder Bed Fusion Additive Manufacturing (LPBF-AM): The Influence of Design Features and LPBF Variables on Surface Topography and Effect on Fatigue Properties</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elambasseril</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wallbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Munk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qian</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10408436.2022.2041396</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Rev. Solid State Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="132" to="168" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elambasseril, J.; Rogers, J.; Wallbrink, C.; Munk, D.; Leary, M.; Qian, M. Laser Powder Bed Fusion Additive Manufacturing (LPBF-AM): The Influence of Design Features and LPBF Variables on Surface Topography and Effect on Fatigue Properties. Crit. Rev. Solid State Mater. Sci. 2023, 48, 132-168. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A Comprehensive Review on Laser Powder Bed Fusion of Steels: Processing, Microstructure, Defects and Control Methods, Mechanical Properties, Current Challenges and Future Trends</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Narasimharaju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>See</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2021.12.033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="375" to="414" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Narasimharaju, S.R.; Zeng, W.; See, T.L.; Zhu, Z.; Scott, P.; Jiang, X.; Lou, S. A Comprehensive Review on Laser Powder Bed Fusion of Steels: Processing, Microstructure, Defects and Control Methods, Mechanical Properties, Current Challenges and Future Trends. J. Manuf. Process 2022, 75, 375-414. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Laser Powder Bed Fusion of Potential Superalloys: A Review</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Cobbinah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nzeukou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">T</forename><surname>Onawale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Matizamhuka</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/met11010058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metals</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cobbinah, P.V.; Nzeukou, R.A.; Onawale, O.T.; Matizamhuka, W.R. Laser Powder Bed Fusion of Potential Superalloys: A Review. Metals 2020, 11, 58. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">On the Current Research Progress of Metallic Materials Fabricated by Laser Powder Bed Fusion Process: A Review</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Abd-Elaziem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Elkatatny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Abd-Elaziem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khedr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Abd El-Baky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hassan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abu-Okail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohammed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Järvenpää</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Allam</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmrt.2022.07.085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res. Technol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="681" to="707" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abd-Elaziem, W.; Elkatatny, S.; Abd-Elaziem, A.E.; Khedr, M.; Abd El-Baky, M.A.; Hassan, M.A.; Abu-Okail, M.; Mohammed, M.; Järvenpää, A.; Allam, T.; et al. On the Current Research Progress of Metallic Materials Fabricated by Laser Powder Bed Fusion Process: A Review. J. Mater. Res. Technol. 2022, 20, 681-707. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Pulsed Laser Additive Manufacturing for 316L Stainless Steel: A New Approach to Control Subgrain Cellular Structure</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Prorok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lou</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-023-06177-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="5027" to="5036" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yin, H.; Yang, J.; Fischer, R.D.; Zhang, Z.; Prorok, B.; Yuan, L.; Lou, X. Pulsed Laser Additive Manufacturing for 316L Stainless Steel: A New Approach to Control Subgrain Cellular Structure. JOM 2023, 75, 5027-5036. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Additive Manufacturing: Scientific and Technological Challenges, Market Uptake and Opportunities</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A M</forename><surname>Tofail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Koumoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bandyopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>O'donoghue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Charitidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mattod.2017.07.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Today</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="22" to="37" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tofail, S.A.M.; Koumoulos, E.P.; Bandyopadhyay, A.; Bose, S.; O&apos;Donoghue, L.; Charitidis, C. Additive Manufacturing: Scientific and Technological Challenges, Market Uptake and Opportunities. Mater. Today 2018, 21, 22-37. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Laser Powder Bed Fusion: A State-of-the-Art Review of the Technology, Materials, Properties &amp; Defects, and Numerical Modelling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yadaiah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prakash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramakrishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dixit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Buddhi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.JMRT.2022.07.121</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res. Technol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="2109" to="2172" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chowdhury, S.; Yadaiah, N.; Prakash, C.; Ramakrishna, S.; Dixit, S.; Gupta, L.R.; Buddhi, D. Laser Powder Bed Fusion: A State-of-the-Art Review of the Technology, Materials, Properties &amp; Defects, and Numerical Modelling. J. Mater. Res. Technol. 2022, 20, 2109-2172. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Additive Manufacturing of Metallic Components-Process, Structure and Properties</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Zuback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Milewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Beese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson-Heid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2017.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="112" to="224" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DebRoy, T.; Wei, H.L.; Zuback, J.S.; Mukherjee, T.; Elmer, J.W.; Milewski, J.O.; Beese, A.M.; Wilson-Heid, A.; De, A.; Zhang, W. Additive Manufacturing of Metallic Components-Process, Structure and Properties. Prog. Mater. Sci. 2018, 92, 112-224. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Editorial: Advances in Computational Modeling of Additive Manufacturing Processes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Sabau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kao</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmats.2022.980825</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">980825</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuan, L.; Sabau, A.S.; Yan, W.; Kao, A. Editorial: Advances in Computational Modeling of Additive Manufacturing Processes. Front. Mater. 2022, 9, 980825. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Ni-Ti Multicell Interlacing Gyroid Lattice Structures with Ultra-High Hyperelastic Response Fabricated by Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmachtools.2023.104099</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mach. Tools Manuf</title>
+		<imprint>
+			<biblScope unit="page">104099</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jin, J.; Wu, S.; Yang, L.; Zhang, C.; Li, Y.; Cai, C.; Yan, C.; Shi, Y. Ni-Ti Multicell Interlacing Gyroid Lattice Structures with Ultra-High Hyperelastic Response Fabricated by Laser Powder Bed Fusion. Int. J. Mach. Tools Manuf. 2024, 195, 104099. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Predictive Process Mapping for Laser Powder Bed Fusion: A Review of Existing Analytical Solutions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rankouhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Thoma</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cossms.2022.101024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Solid State Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">101024</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Agrawal, A.K.; Rankouhi, B.; Thoma, D.J. Predictive Process Mapping for Laser Powder Bed Fusion: A Review of Existing Analytical Solutions. Curr. Opin. Solid State Mater. Sci. 2022, 26, 101024. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Analytical Prediction of Keyhole Porosity in Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-021-08276-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="6995" to="7002" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, W.; Ning, J.; Liang, S.Y. Analytical Prediction of Keyhole Porosity in Laser Powder Bed Fusion. Int. J. Adv. Manuf. Technol. 2022, 119, 6995-7002. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Keyhole Pores Reduction in Laser Powder Bed Fusion Additive Manufacturing of Nickel Alloy 625</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yeung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Donmez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neira</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmachtools.2022.103957</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mach. Tools Manuf</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page">103957</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yeung, H.; Kim, F.H.; Donmez, M.A.; Neira, J. Keyhole Pores Reduction in Laser Powder Bed Fusion Additive Manufacturing of Nickel Alloy 625. Int. J. Mach. Tools Manuf. 2022, 183, 103957. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Formation Mechanisms of Lack of Fusion and Keyhole-Induced Pore Defects in Laser Powder Bed Fusion Process: A Numerical Study</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijthermalsci.2023.108221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Therm. Sci</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page">108221</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, X.; Li, Y.; Li, B. Formation Mechanisms of Lack of Fusion and Keyhole-Induced Pore Defects in Laser Powder Bed Fusion Process: A Numerical Study. Int. J. Therm. Sci. 2023, 188, 108221. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Formation of Keyhole and Lack of Fusion Pores during the Laser Powder Bed Fusion Process</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mfglet.2022.01.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Manuf. Lett</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="19" to="23" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shrestha, S.; Chou, K. Formation of Keyhole and Lack of Fusion Pores during the Laser Powder Bed Fusion Process. Manuf. Lett. 2022, 32, 19-23. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Physics of Humping Formation in Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Q</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijheatmasstransfer.2019.119172</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat. Mass. Transf</title>
+		<imprint>
+			<biblScope unit="page">119172</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tang, C.; Le, K.Q.; Wong, C.H. Physics of Humping Formation in Laser Powder Bed Fusion. Int. J. Heat. Mass. Transf. 2020, 149, 119172. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">An Investigation on the Oxidation Behavior of Spatters Generated during the Laser Powder Bed Fusion of 316L Stainless Steel</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Guo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2022.152796</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="page">152796</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lu, C.; Zhang, R.; Wei, X.; Xiao, M.; Yin, Y.; Qu, Y.; Li, H.; Liu, P.; Qiu, X.; Guo, T. An Investigation on the Oxidation Behavior of Spatters Generated during the Laser Powder Bed Fusion of 316L Stainless Steel. Appl. Surf. Sci. 2022, 586, 152796. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Correlation between the Scan Strategy, Residing Spatter Distribution, and Parts Quality in Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2023.112317</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page">112317</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, Z.; Yang, Y.; Wang, D.; Chen, Z.; Yan, W. Correlation between the Scan Strategy, Residing Spatter Distribution, and Parts Quality in Laser Powder Bed Fusion. Mater. Des. 2023, 234, 112317. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effects of Gas Flow Parameters on Droplet Spatter Features and Dynamics during Large-Scale Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2022.111534</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">225</biblScope>
+			<biblScope unit="page">111534</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, Z.; Yang, Y.; Han, C.; Zhou, H.; Zhou, H.; Wang, M.; Liu, L.; Wang, H.; Bai, Y.; Wang, D. Effects of Gas Flow Parameters on Droplet Spatter Features and Dynamics during Large-Scale Laser Powder Bed Fusion. Mater. Des. 2023, 225, 111534. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">High Seam Surface Quality in Keyhole Laser Welding: Buttonhole Welding</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Woizeschke</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/jmmp2040078</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Mater. Process</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">78</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schultz, V.; Woizeschke, P. High Seam Surface Quality in Keyhole Laser Welding: Buttonhole Welding. J. Manuf. Mater. Process. 2018, 2, 78. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The Interplay between Vapour, Liquid, and Solid Phases in Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bitharas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Parab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-022-30667-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022. 2959</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bitharas, I.; Parab, N.; Zhao, C.; Sun, T.; Rollett, A.D.; Moore, A.J. The Interplay between Vapour, Liquid, and Solid Phases in Laser Powder Bed Fusion. Nat. Commun. 2022, 13, 2959. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">High Frequency Beam Oscillation Keyhole Dynamics in Laser Melting Revealed by In-Situ x-Ray Imaging</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meshkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roychowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gould</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ostroverkhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Adcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Duclos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s43246-023-00332-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, Z.; Tang, G.; Clark, S.J.; Meshkov, A.; Roychowdhury, S.; Gould, B.; Ostroverkhov, V.; Adcock, T.; Duclos, S.J.; Fezzaa, K.; et al. High Frequency Beam Oscillation Keyhole Dynamics in Laser Melting Revealed by In-Situ x-Ray Imaging. Commun. Mater. 2023, 4, 5. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Keyhole Threshold and Morphology in Laser Melting Revealed by Ultrahigh-Speed x-Ray Imaging</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Parab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kantzos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pauza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aav4687</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="849" to="852" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunningham, R.; Zhao, C.; Parab, N.; Kantzos, C.; Pauza, J.; Fezzaa, K.; Sun, T.; Rollett, A.D. Keyhole Threshold and Morphology in Laser Melting Revealed by Ultrahigh-Speed x-Ray Imaging. Science 2019, 363, 849-852. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">In Situ Melt Pool Measurements for Laser Powder Bed Fusion Using Multi Sensing and Correlation Analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Kamath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Choo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kong</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-022-18096-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">13716</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, R.; Garcia, D.; Kamath, R.R.; Dou, C.; Ma, X.; Shen, B.; Choo, H.; Fezzaa, K.; Yu, H.Z.; Kong, Z. In Situ Melt Pool Measurements for Laser Powder Bed Fusion Using Multi Sensing and Correlation Analysis. Sci. Rep. 2022, 12, 13716. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Application Notes-Illumination Lasers-High-Speed Imaging Additive Manufacturing Observing Molten Pool Surface Oscillations During Keyhole Processing in Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caprio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Demir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Previtali</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2020.101470</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">101470</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caprio, L.; Demir, A.G.; Previtali, B. Application Notes-Illumination Lasers-High-Speed Imaging Additive Manufacturing Observing Molten Pool Surface Oscillations During Keyhole Processing in Laser Powder Bed Fusion. Addit. Manuf. 2020, 36, 101470. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Situ/Operando Synchrotron x-Ray Studies of Metal Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rollett</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/mrs.2020.275</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bull</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="927" to="933" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, T.; Tan, W.; Chen, L.; Rollett, A. In Situ/Operando Synchrotron x-Ray Studies of Metal Additive Manufacturing. MRS Bull. 2020, 45, 927-933. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Real-Time Monitoring of Laser Powder Bed Fusion Process Using High-Speed X-ray Imaging and Diffraction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Carlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-03761-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">3602</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, C.; Fezzaa, K.; Cunningham, R.W.; Wen, H.; de Carlo, F.; Chen, L.; Rollett, A.D.; Sun, T. Real-Time Monitoring of Laser Powder Bed Fusion Process Using High-Speed X-ray Imaging and Diffraction. Sci. Rep. 2017, 7, 3602. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Correlation between Forming Quality and Spatter Dynamics in Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2019.100958</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">100958</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yin, J.; Wang, D.; Yang, L.; Wei, H.; Dong, P.; Ke, L.; Wang, G.; Zhu, H.; Zeng, X. Correlation between Forming Quality and Spatter Dynamics in Laser Powder Bed Fusion. Addit. Manuf. 2020, 31, 100958. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">In-Situ Characterization and Quantification of Melt Pool Variation under Constant Input Energy Density in Laser Powder Bed Fusion Additive Manufacturing Process</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Escano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M H</forename><surname>Hojjatzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Parab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Everhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2019.04.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="600" to="609" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo, Q.; Zhao, C.; Qu, M.; Xiong, L.; Escano, L.I.; Hojjatzadeh, S.M.H.; Parab, N.D.; Fezzaa, K.; Everhart, W.; Sun, T.; et al. In-Situ Characterization and Quantification of Melt Pool Variation under Constant Input Energy Density in Laser Powder Bed Fusion Additive Manufacturing Process. Addit. Manuf. 2019, 28, 600-609. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Situ X-ray Imaging of Defect and Molten Pool Dynamics in Laser Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L A</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marussi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Atwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Towrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-018-03734-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1355</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leung, C.L.A.; Marussi, S.; Atwood, R.C.; Towrie, M.; Withers, P.J.; Lee, P.D. In Situ X-ray Imaging of Defect and Molten Pool Dynamics in Laser Additive Manufacturing. Nat. Commun. 2018, 9, 1355. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A Novel Method for the Molten Pool and Porosity Formation Modelling in Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijheatmasstransfer.2019.06.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat. Mass. Transf</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="1091" to="1105" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zheng, M.; Wei, L.; Chen, J.; Zhang, Q.; Zhong, C.; Lin, X.; Huang, W. A Novel Method for the Molten Pool and Porosity Formation Modelling in Selective Laser Melting. Int. J. Heat. Mass. Transf. 2019, 140, 1091-1105. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Modeling of Heat Transfer, Fluid Flow and Solidification Microstructure of Nickel-Base Superalloy Fabricated by Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2016.05.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="178" to="188" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, Y.S.; Zhang, W. Modeling of Heat Transfer, Fluid Flow and Solidification Microstructure of Nickel-Base Superalloy Fabricated by Laser Powder Bed Fusion. Addit. Manuf. 2016, 12, 178-188. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Laser Powder-Bed Fusion Additive Manufacturing: Physics of Complex Melt Flow and Formation Mechanisms of Pores, Spatter, and Denudation Zones</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.02.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="36" to="45" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khairallah, S.A.; Anderson, A.T.; Rubenchik, A.; King, W.E. Laser Powder-Bed Fusion Additive Manufacturing: Physics of Complex Melt Flow and Formation Mechanisms of Pores, Spatter, and Denudation Zones. Acta Mater. 2016, 108, 36-45. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Mesoscopic Simulation Model of Selective Laser Melting of Stainless Steel Powder</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2014.06.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process Technol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="2627" to="2636" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khairallah, S.A.; Anderson, A. Mesoscopic Simulation Model of Selective Laser Melting of Stainless Steel Powder. J. Mater. Process Technol. 2014, 214, 2627-2636. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Numerical Simulations to Predict the Melt Pool Dynamics and Heat Transfer during Single-Track Laser Melting of Ni-Based Superalloy (CMSX-4)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Azadi Tinat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uddagiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Steinbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>López-Galilea</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/met13061091</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metals</title>
+		<imprint>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="1091">2023. 1091</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Azadi Tinat, M.R.; Uddagiri, M.; Steinbach, I.; López-Galilea, I. Numerical Simulations to Predict the Melt Pool Dynamics and Heat Transfer during Single-Track Laser Melting of Ni-Based Superalloy (CMSX-4). Metals 2023, 13, 1091. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Melt Pool Dynamics and Pores Formation in Multi-Track Studies in Laser Powder Bed Fusion Process</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.powtec.2022.117533</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">405</biblScope>
+			<biblScope unit="page">117533</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, E.; Zhou, Z.; Wang, L.; Zheng, Q.; Zou, R.; Yu, A. Melt Pool Dynamics and Pores Formation in Multi-Track Studies in Laser Powder Bed Fusion Process. Powder Technol. 2022, 405, 117533. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Fluid Dynamics Effects on Microstructure Prediction in Single-Laser Tracks for Additive Manufacturing of IN625</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Sabau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Raghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simunovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11663-020-01808-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. B Process Metall. Mater. Process. Sci</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1263" to="1281" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sabau, A.S.; Yuan, L.; Raghavan, N.; Bement, M.; Simunovic, S.; Turner, J.A.; Gupta, V.K. Fluid Dynamics Effects on Microstructure Prediction in Single-Laser Tracks for Additive Manufacturing of IN625. Metall. Mater. Trans. B Process Metall. Mater. Process. Sci. 2020, 51, 1263-1281. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">An Efficient Track-Scale Model for Laser Powder Bed Fusion Additive Manufacturing: Part 1-Thermal Model</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tangestani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sabiston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">É</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmats.2021.753040</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">753040</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tangestani, R.; Sabiston, T.; Chakraborty, A.; Muhammad, W.; Yuan, L.; Martin, É. An Efficient Track-Scale Model for Laser Powder Bed Fusion Additive Manufacturing: Part 1-Thermal Model. Front. Mater. 2021, 8, 753040. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">An Efficient Track-Scale Model for Laser Powder Bed Fusion Additive Manufacturing: Part 2-Mechanical Model</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tangestani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sabiston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Krutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">É</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmats.2021.759669</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">759669</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tangestani, R.; Sabiston, T.; Chakraborty, A.; Yuan, L.; Krutz, N.; Martin, É. An Efficient Track-Scale Model for Laser Powder Bed Fusion Additive Manufacturing: Part 2-Mechanical Model. Front. Mater. 2021, 8, 759669. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Numerical Simulation of Molten Pool Dynamics in High Power Disk Laser Welding</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thomy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vollertsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2011.09.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process Technol</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="262" to="275" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cho, W.I.; Na, S.J.; Thomy, C.; Vollertsen, F. Numerical Simulation of Molten Pool Dynamics in High Power Disk Laser Welding. J. Mater. Process Technol. 2012, 212, 262-275. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Effect of Enhanced Heat and Mass Transport and Flow Reversal during Cool down on Weld Pool Shapes in Laser Spot Welding of Steel</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Saldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kidess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kenjereš</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Kleijn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijheatmasstransfer.2013.07.085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat. Mass. Transf</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="879" to="888" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saldi, Z.S.; Kidess, A.; Kenjereš, S.; Zhao, C.; Richardson, I.M.; Kleijn, C.R. Effect of Enhanced Heat and Mass Transport and Flow Reversal during Cool down on Weld Pool Shapes in Laser Spot Welding of Steel. Int. J. Heat. Mass. Transf. 2013, 66, 879-888. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The Effect of Oxygen on Transitional Marangoni Flow in Laser Spot Welding</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kwakernaak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Saldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kenjeres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Kleijn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2010.07.056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="6345" to="6357" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, C.X.; Kwakernaak, C.; Pan, Y.; Richardson, I.M.; Saldi, Z.; Kenjeres, S.; Kleijn, C.R. The Effect of Oxygen on Transitional Marangoni Flow in Laser Spot Welding. Acta Mater. 2010, 58, 6345-6357. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A Review of Spatter in Laser Powder Bed Fusion Additive Manufacturing: In Situ Detection, Generation, Effects, and Countermeasures</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Nie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/mi13081366</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Micromachines</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1366</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, Z.; Li, H.; Yin, J.; Li, Y.; Nie, Z.; Li, X.; You, D.; Guan, K.; Duan, W.; Cao, L.; et al. A Review of Spatter in Laser Powder Bed Fusion Additive Manufacturing: In Situ Detection, Generation, Effects, and Countermeasures. Micromachines 2022, 13, 1366. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Effects of Scan Speed on Vapor Plume Behavior and Spatter Generation in Laser Powder Bed Fusion Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ge</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2018.09.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="60" to="67" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zheng, H.; Li, H.; Lang, L.; Gong, S.; Ge, Y. Effects of Scan Speed on Vapor Plume Behavior and Spatter Generation in Laser Powder Bed Fusion Additive Manufacturing. J. Manuf. Process 2018, 36, 60-67. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Numerical Study of Alloying Element Distribution in CO 2 Laser-GMA Hybrid Welding</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.commatsci.2010.06.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="792" to="800" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cho, W.I.; Na, S.J.; Cho, M.H.; Lee, J.S. Numerical Study of Alloying Element Distribution in CO 2 Laser-GMA Hybrid Welding. Comput. Mater. Sci. 2010, 49, 792-800. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">On the Role of Pre-and Post-Contour Scanning in Laser Powder Bed Fusion: Thermal-Fluid Dynamics and Laser Reflections</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmecsci.2022.107389</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mech. Sci</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page">107389</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ren, Z.; Wei, D.; Wang, S.; Zhang, D.Z.; Mao, S. On the Role of Pre-and Post-Contour Scanning in Laser Powder Bed Fusion: Thermal-Fluid Dynamics and Laser Reflections. Int. J. Mech. Sci. 2022, 226, 107389. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Particle-Scale Computational Fluid Dynamics Study on Surface Morphology of GH4169 Superalloy during Multi-Laser Powder Bed Fusion with Low Energy Density</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">H</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2023.03.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="287" to="296" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, Q.; Jiang, W.G.; Qin, Q.H.; Tu, Z.X.; Li, D.S. Particle-Scale Computational Fluid Dynamics Study on Surface Morphology of GH4169 Superalloy during Multi-Laser Powder Bed Fusion with Low Energy Density. J. Manuf. Process 2023, 92, 287-296. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Multi-Physical Field Simulation to Yield Defect-Free IN718 Alloy Fabricated by Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2023.135437</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page">135437</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dai, K.; He, X.; Kong, D.; Dong, C. Multi-Physical Field Simulation to Yield Defect-Free IN718 Alloy Fabricated by Laser Powder Bed Fusion. Mater. Lett. 2024, 355, 135437. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Understanding Surface Roughness on Vertical Surfaces of 316 L Stainless Steel in Laser Powder Bed Fusion Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.powtec.2022.117957</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">411</biblScope>
+			<biblScope unit="page">117957</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, T.; Yuan, L. Understanding Surface Roughness on Vertical Surfaces of 316 L Stainless Steel in Laser Powder Bed Fusion Additive Manufacturing. Powder Technol. 2022, 411, 117957. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Influence of Process Parameters on the Porosity, Accuracy, Roughness, and Support Structures of Hastelloy X Produced by Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Minetola</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma12193178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">3178</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calignano, F.; Minetola, P. Influence of Process Parameters on the Porosity, Accuracy, Roughness, and Support Structures of Hastelloy X Produced by Laser Powder Bed Fusion. Materials 2019, 12, 3178. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Influence of Process Parameters for Selective Laser Melting on the Roughness of 3D Printed Surfaces in Co-Cr Dental Alloy Powder</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Baciu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bejinariu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Corăbieru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mihalache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lupu-Poliac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Baciu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Baciu</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1757-899X/572/1/012054</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Mater. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">572</biblScope>
+			<biblScope unit="page">12054</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baciu, A.M.; Bejinariu, C.; Corăbieru, A.; Mihalache, E.; Lupu-Poliac, M.; Baciu, C.; Baciu, E.R. Influence of Process Parameters for Selective Laser Melting on the Roughness of 3D Printed Surfaces in Co-Cr Dental Alloy Powder. IOP Conf. Ser. Mater. Sci. Eng. 2019, 572, 012054. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Pandora&apos;s Box-Influence of Contour Parameters on Roughness and Subsurface Residual Stresses in Laser Powder Bed Fusion of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Artzt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mishurova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gussone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barriobero-Vila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Evsevleev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bruno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Requena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Haubrich</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma13153348</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">3348</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Artzt, K.; Mishurova, T.; Bauer, P.P.; Gussone, J.; Barriobero-Vila, P.; Evsevleev, S.; Bruno, G.; Requena, G.; Haubrich, J. Pandora&apos;s Box-Influence of Contour Parameters on Roughness and Subsurface Residual Stresses in Laser Powder Bed Fusion of Ti-6Al-4V. Materials 2020, 13, 3348. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Effect of Processing Parameters on Surface Roughness, Porosity and Cracking of as-Built IN738LC Parts Fabricated by Laser Powder Bed Fusion</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2020.116788</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process Technol</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page">116788</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo, C.; Li, S.; Shi, S.; Li, X.; Hu, X.; Zhu, Q.; Ward, R.M. Effect of Processing Parameters on Surface Roughness, Porosity and Cracking of as-Built IN738LC Parts Fabricated by Laser Powder Bed Fusion. J. Mater. Process Technol. 2020, 285, 116788. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">On the Role of Melt Flow into the Surface Structure and Porosity Development during Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Panwisawas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Basoalto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.06.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="72" to="79" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qiu, C.; Panwisawas, C.; Ward, M.; Basoalto, H.C.; Brooks, J.W.; Attallah, M.M. On the Role of Melt Flow into the Surface Structure and Porosity Development during Selective Laser Melting. Acta Mater. 2015, 96, 72-79. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Role of Molten Pool Mode on Formability, Microstructure and Mechanical Properties of Selective Laser Melted Ti-6Al-4V Alloy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2016.08.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="558" to="570" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, J.; Han, J.; Yu, H.; Yin, J.; Gao, M.; Wang, Z.; Zeng, X. Role of Molten Pool Mode on Formability, Microstructure and Mechanical Properties of Selective Laser Melted Ti-6Al-4V Alloy. Mater. Des. 2016, 110, 558-570. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Influence of Process Parameters on Surface Roughness of Aluminum Parts Produced by DMLS</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Iuliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-012-4688-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2743" to="2751" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calignano, F.; Manfredi, D.; Ambrosio, E.P.; Iuliano, L.; Fino, P. Influence of Process Parameters on Surface Roughness of Aluminum Parts Produced by DMLS. Int. J. Adv. Manuf. Technol. 2013, 67, 2743-2751. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">LPBF Right the First Time-The Right Mix Between Modeling and Experiments</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Megahed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Mindt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Willems</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dionne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jacquemetton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ranade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peralta</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40192-019-00133-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Integr. Mater. Manuf. Innov</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="194" to="216" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Megahed, M.; Mindt, H.W.; Willems, J.; Dionne, P.; Jacquemetton, L.; Craig, J.; Ranade, P.; Peralta, A. LPBF Right the First Time-The Right Mix Between Modeling and Experiments. Integr. Mater. Manuf. Innov. 2019, 8, 194-216. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<monogr>
+		<ptr target="https://www.ansys.com/services/ansys-learning-hub" />
+		<title level="m">Release 2022 R1; Fluent Theory Guide, Chapter 1. Basic Fluid Flow</title>
+		<meeting><address><addrLine>Canonsburg, PA, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ANSYS, Inc</publisher>
+			<date type="published" when="2022-01-16">2022. 16 January 2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ansys ® Fluent, Release 2022 R1; Fluent Theory Guide, Chapter 1. Basic Fluid Flow; ANSYS, Inc.: Canonsburg, PA, USA, 2022. Available online: https://www.ansys.com/services/ansys-learning-hub (accessed on 16 January 2024).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Numerical Investigation of the Effect of Thermal Expansion Coefficient and Mushy Zone Constant on Modelling of the Phase Change Process to Provide Reliable Selection Criteria of Modelling Parameters</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ezzat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Sakr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Abdel-Rehim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.est.2023.108771</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Energy Storage</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">108771</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ezzat, Y.; Sakr, R.Y.; Abdel-Rehim, A.A. Numerical Investigation of the Effect of Thermal Expansion Coefficient and Mushy Zone Constant on Modelling of the Phase Change Process to Provide Reliable Selection Criteria of Modelling Parameters. J. Energy Storage 2023, 72, 108771. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Influence of Recoil Pressure, Mushy Zone Flow Resistance and Reflectivity on Melt Pool Shape in Laser Powder Bed Fusion Simulation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Katagiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kusano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nomoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Watanabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.csite.2023.103477</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Case Stud. Therm. Eng</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">103477</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Katagiri, J.; Kusano, M.; Nomoto, S.; Watanabe, M. Influence of Recoil Pressure, Mushy Zone Flow Resistance and Reflectivity on Melt Pool Shape in Laser Powder Bed Fusion Simulation. Case Stud. Therm. Eng. 2023, 50, 103477. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Modeling and Numerical Studies of Selective Laser Melting: Multiphase Flow, Solidification and Heat Transfer</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2020.109115</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="page">109115</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">He, Q.; Xia, H.; Liu, J.; Ao, X.; Lin, S. Modeling and Numerical Studies of Selective Laser Melting: Multiphase Flow, Solidification and Heat Transfer. Mater. Des. 2020, 196, 109115. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Characterization of 17-4PH Single Tracks Produced at Different Parametric Conditions towards Increased Productivity of LPBF Systems-The Effect of Laser Power and Spot Size Upscaling</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Makoana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Möller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/met8070475</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metals</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">475</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Makoana, N.W.; Yadroitsava, I.; Möller, H.; Yadroitsev, I. Characterization of 17-4PH Single Tracks Produced at Different Parametric Conditions towards Increased Productivity of LPBF Systems-The Effect of Laser Power and Spot Size Upscaling. Metals 2018, 8, 475. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Understanding Keyhole Induced-Porosities in Laser Powder Bed Fusion of Aluminum and Elimination Strategy</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L A</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmachtools.2022.103977</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mach. Tools Manuf</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page">103977</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo, L.; Wang, H.; Liu, H.; Huang, Y.; Wei, Q.; Leung, C.L.A.; Wu, Y.; Wang, H. Understanding Keyhole Induced-Porosities in Laser Powder Bed Fusion of Aluminum and Elimination Strategy. Int. J. Mach. Tools Manuf. 2023, 184, 103977. [CrossRef</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content</title>
+	</analytic>
+	<monogr>
+		<title level="m">Disclaimer/Publisher&apos;s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Disclaimer/Publisher&apos;s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

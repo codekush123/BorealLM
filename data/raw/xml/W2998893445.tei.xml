@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On the effect of shielding gas flow on porosity and melt pool geometry in laser powder bed fusion additive manufacturing</title>
+				<funder ref="#_MaU2ta7 #_zbjKtSZ">
+					<orgName type="full">VTT Technical Research Centre of Finland</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>03 January 2020 2214</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Joni</forename><surname>Reijonen</surname></persName>
+							<email>joni.reijonen@vtt.fi</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd. Kemistintie 3 , 02150 , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<addrLine>Kemistintie 3</addrLine>
+									<postCode>02150</postCode>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alejandro</forename><surname>Revuelta</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd. Kemistintie 3 , 02150 , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<addrLine>Kemistintie 3</addrLine>
+									<postCode>02150</postCode>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tuomas</forename><surname>Riipinen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd. Kemistintie 3 , 02150 , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<addrLine>Kemistintie 3</addrLine>
+									<postCode>02150</postCode>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kimmo</forename><surname>Ruusuvuori</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd. Kemistintie 3 , 02150 , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<addrLine>Kemistintie 3</addrLine>
+									<postCode>02150</postCode>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pasi</forename><surname>Puukko</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VTT Technical Research Centre of Finland Ltd. Kemistintie 3 , 02150 , Espoo , Finland</note>
+								<orgName type="institution">VTT Technical Research Centre of Finland Ltd</orgName>
+								<address>
+									<addrLine>Kemistintie 3</addrLine>
+									<postCode>02150</postCode>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On the effect of shielding gas flow on porosity and melt pool geometry in laser powder bed fusion additive manufacturing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">03 January 2020 2214</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B632006B43AE7EE548F48BBBF306389F</idno>
+					<idno type="DOI">10.1016/j.addma.2019.101030</idno>
+					<note type="submission">Received 5 August 2019; Received in revised form 14 November 2019; Accepted 31 December 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-24T00:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Gas flow Melt pool geometry Porosity Powder bed fusion Vapor plume</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Metal additive manufacturing is moving from rapid prototyping to on-demand manufacturing and even to serial production.</s><s>Consistent part quality and development of a wider range of available materials are key for wider adoption.</s><s>This requires control and optimization of various laser and scanning parameters.</s><s>Therefore, process modeling has been extensively pursued to reduce experimental runs in the search for parameters that produce dense, high-quality parts for the given alloy.</s><s>However, these optimal parameters remain machine-specific if conditions defined by the machine architecture are not considered.</s><s>Previous studies have shown that shielding gas flow is one such parameter that affects porosity and mechanical properties of parts produced with laser powder bed fusion.</s><s>However, a lack of consensus remains regarding which phenomena are responsible for the observed decrease in quality.</s><s>In this study, the effect of shielding gas flow velocity on porosity and melt pool geometry in laser powder bed fusion additive manufacturing is studied.</s><s>It is shown that decreasing the gas flow velocity leads to a drastic loss of penetration of single scan tracks, leading to increased lack-of-fusion porosity at the part level.</s><s>This is attributed to the obstruction of the laser beam by the process-induced vapor plume emissions of the individual tracks being scanned.</s><s>As the vapor plume, and how effectively it is removed by the shielding gas flow, have a significant effect on the melt pool geometry in laser powder bed fusion, models aiming at predicting the melt pool geometry and attempts to transfer process parameters from one machine to another should consider the effect of the shielding gas flow.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Additive manufacturing (AM) is moving from rapid prototyping to on-demand manufacturing and even to serial production.</s><s>One of the main barriers to overcome for expanding the application area of AM is the relatively narrow material selection compared to the available materials for conventional manufacturing such as casting and machining.</s><s>A common impression is that all weldable materials are suitable for AM with laser powder bed fusion (LPBF), yet the established, commercially available materials are limited to a few tens of alloys.</s><s>One of the main reasons for this is the sheer amount of processing parameters that need to be optimized for each alloy composition to produce sufficiently dense parts with the desired microstructure and properties.</s><s>This requires extensive, costly and time-consuming experimental studies during the AM material development.</s><s>A typical approach is to optimize the laser power P, scanning speed v, hatch spacing h and layer thickness LT, which are often combined into a volumetric energy density VED = P/vhLT <ref type="bibr" target="#b0">[1]</ref>.</s></p><p><s>The limitations on the applicability of VED as a design parameter for LPBF has been recognized <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>, and recently, models incorporating also the laser spot size and material properties have been developed <ref type="bibr" target="#b3">[4]</ref>.</s><s>The response that is measured while the parameters are varied typically includes porosity, melt pool geometry or mechanical properties.</s><s>However, the resulting, so-called optimal parameters are machinespecific.</s><s>It has been shown that when using the same combination of parameters (P, v, h and LT) to produce parts on different LPBF machines at different laboratories, the mechanical properties have significant variability between different LPBF machines <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>.</s><s>It would be desirable to be able to directly transfer or develop a methodology to convert process parameters developed in one machine to another in LPBF.</s><s>This allows efficient utilization of small-scale machines for material development, where the amount of powder needed for development could be less than 1% of the amount needed in production-scale machines.</s><s>If all the variables are kept constant, the result should be the same.</s><s>However, studies have shown that not only the variables (P, v, h, LT), but also the process conditions determined by the fixed machine architecture, e.g.</s><s>how the shielding gas flow is arranged, have a significant effect on the porosity of parts produced <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</s><s>No definitive explanation has been provided for the mechanism through which the gas flow has an effect on the porosity in LPBF.</s><s>Ladewig et al. <ref type="bibr" target="#b8">[9]</ref> attribute the decrease in part quality to two different phenomena: 1) increased laser beam attenuation and/or scattering by the small condensate particles in the vapor plume ejected from the keyhole and 2) large spatters and/or denudated powder particles landing on the unprocessed powder bed when the gas flow is insufficient to remove the vapor plume and/or the spatters.</s></p><p><s>The interaction between a laser beam and the vapor plume has been studied in the laser welding community.</s><s>Laser attenuation by the vapor plume during fiber laser welding has been attributed to absorption, rather than scattering, by the metallic nanoparticles that form as condensates inside the vapor plume <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>.</s><s>Attenuation of laser intensity by small particles can be calculated by the Beer-Lambert law.</s><s>The scattering of electromagnetic radiation from small particles is described by Mie or Rayleigh scattering theories, depending on the particle radius r and wavelength λ of the incident radiation, characterized by a size parameter X = 2πr/λ.</s><s>If the particle size is significantly smaller than the wavelength (X &lt; &lt; 1), Rayleigh approximation can be used.</s><s>Beyond this, Mie scattering theory should be used <ref type="bibr" target="#b12">[13]</ref>.</s><s>The average particle diameter of the condensate in laser keyhole welding has been measured to be 40-55 nm <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15]</ref>.</s><s>As the wavelength of the fiber laser used in welding and LPBF is significantly larger (1070 nm), Rayleigh approximation has been used by Shcheglov et al. <ref type="bibr" target="#b10">[11]</ref> and Zou et al. <ref type="bibr" target="#b11">[12]</ref> to estimate the laser attenuation by absorption in deep penetration laser welding to be 9% and 12%, respectively.</s><s>Katayama et al. <ref type="bibr" target="#b15">[16]</ref> showed with high-speed imaging that the melt pool is much wider and more unstable (in addition to the decreased penetration), when the vapor plume is not removed by any means during deep penetration fiber laser welding, compared to a situation where a cross-flow of gas is applied to remove the vapor plume.</s><s>Zou et al. <ref type="bibr" target="#b11">[12]</ref> also attribute the decreased penetration in laser welding to absorption in the plume, demonstrated by up to 20% increase in weld penetration as the vapor plume was removed by applying a gas jet above the welding plane.</s><s>They also report that the weld width was increased along with the decrease in penetration, as the plume was not effectively removed from the laser beam path.</s></p><p><s>The objective here is to study whether the melt pool geometry in single scan tracks, in addition to part-level porosity, is affected by the shielding gas flow velocity in LPBF in the same way as in laser keyhole welding, which could elucidate our understanding of the underlying mechanism linking shielding gas flow velocity to part quality in LPBF.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Equipment</head><p><s>All the experiments were conducted using a SLM 125 H L LPBF machine from SLM Solutions GmbH equipped with a IPG-YLR-400-SM fiber laser, producing maximum 400 W nominal output power and having a beam diameter of 80 ± 6 μm at focus.</s><s>The build chamber volume is 330 × 580 × 340 mm 3 with a part build volume of 125 × 125 × 125 mm 3 .</s><s>Fig. <ref type="figure" target="#fig_0">1</ref> shows the architecture of the gas flow system and the arrows indicate the gas flow direction in typical conditions.</s><s>The gas flow rate is controlled by altering the gas-circulation pump power from 0 to 100% with 100 % corresponding to gas flow speed of 4 m/s in the inlet piping.</s><s>The inlet pipe diameter is 40 mm.</s><s>This results in a volumetric flow rate of ∼300 l/min for gas flow speed of 4 m/s.</s><s>The flowmeter placement (FI) can be seen in Fig. <ref type="figure" target="#fig_0">1</ref>, monitoring the gas flow velocity in the side of the gas flow inlet.</s><s>The reading from this flowmeter is used as the nominal gas flow velocity parameter in this study.</s></p><p><s>The VELOCICALC 9565 hot-wire anemometer with a 964 probe and a velocity measurement accuracy of ± 3% of reading or ± 0.015 m/s (whichever is greater) from TSI Incorporated was used to measure the flow velocities above the building platform.</s><s>The anemometer is calibrated for air, so the absolute velocity readings for argon could be different and the measured values have to be considered as nominal gas flow speed.</s><s>In this study, the primary interest is in the effects caused by a change in gas flow velocity, and not so much about the absolute gas velocity values.</s><s>The flow velocities were measured from nine locations of the building platform as indicated in Fig. <ref type="figure" target="#fig_1">2</ref>. Identical sets of measurements were conducted for six different pump speeds, corresponding to gas flow velocities between 1-4 m/s in the inlet piping.</s><s>The flow meter and probe were placed inside the gas-tight chamber and the probe was operated by using the rubber glove that is integrated into the build chamber door.</s><s>This allowed maintaining the gas-tight nature of the build chamber and replication of the atmosphere during an actual build process, namely to have argon as the flow medium in a slightly over-pressurized atmosphere.</s><s>It is acknowledged, however, that the hand and the anemometer inside the build chamber during the measurement could disturb the flow and cause deviation from the flow conditions compared to an actual build, although care was taken not to do so.</s><s>In addition, the re-coater was stationary at the back of the build chamber during the flow measurement.</s><s>During an actual build, the recoater would switch the position from back to front of the build chamber between each layer.</s><s>Depending on the re-coater position (back or front), the flow conditions could be different between odd and even layers.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Materials</head><p><s>316 L stainless steel powder supplied by SLM Solutions GmbH was used in the experiments.</s><s>The particle size distribution was D 10 = 23.4</s><s>μm, D 50 = 37.6 μm and D 90 = 59.7 μm.</s><s>The powder was dried in a vacuum over night at 333 K prior to the test runs to remove moisture.</s><s>The shielding gas used was instrument argon 5.0 with 99.999% purity.</s><s>Before a build, the process chamber is flooded with argon.</s><s>During the build, the same argon gas is re-circulated by the pump as shown in Fig. <ref type="figure" target="#fig_0">1</ref>.</s><s>The oxygen content is monitored constantly and if the limit of 0.2% is exceeded, the automated regulating system releases some of the gas from the build chamber via the control valves and replaces it with fresh argon from the reservoir.</s><s>The processing pressure is maintained at 12 mbar above atmospheric pressure.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Experimental procedure</head><p><s>The experiment was designed to test the effect of gas flow velocity on the melt pool dimensions and part porosity during LPBF.</s><s>A stair steptype test specimen (Fig. <ref type="figure" target="#fig_2">3</ref>) was designed to allow for the testing of multiple gas flow velocities during a single build.</s><s>During each gas flow condition, 100 layers with a nominal thickness of 30 μm, i.e. 3 mm of the specimen was built in the z-direction.</s><s>After that, three single scan tracks with a length of 8 mm were produced on the layer number 101, after which the gas flow speed was changed and the next 100 layers and the following three single scan tracks were produced with the new gas flow velocity.</s><s>Three single scan tracks were produced during each gas flow condition to have three cross-sections for each set of parameters for the measurement of melt pool dimensions.</s><s>The single scan tracks were placed on the stair steps in such manner that they are in an upstream location relative to the bulk of the specimen and gas flow direction.</s><s>The scanning strategy between specimens was such that the scanning on each layer starts from the specimens located near the gas flow outlet, proceeding towards the specimens near the gas flow inlet (from left to right in Fig. <ref type="figure" target="#fig_2">3(a)</ref>).</s></p><p><s>Specimens 1-9 were built using identical parameters and were used to assess the effect of location on the building platform to the porosity and melt pool geometry of the specimens.</s><s>Parameters for specimens 10-20 were varied to have a wide range of energy densities to study the effect of the shielding gas flow velocity on well-developed keyhole, transition and conduction regions.</s><s>Table <ref type="table" target="#tab_0">1</ref> summarizes the varied parameters for each specimen.</s><s>The layer thickness was 30 μm.</s><s>Line energy LE = P/v, instead of VED is used in this study, as the layer thickness remains constant and hatch spacing is irrelevant in single scan tracks.</s></p><p><s>Observations by Trapp et al. <ref type="bibr" target="#b16">[17]</ref> were used as guidance for parameter selection to cover all the three regions.</s><s>For designing the experiment, line energy of &lt; 0.1 J/mm was considered as a threshold for conduction mode melting.</s><s>On the other end, line energy above 0.3 J/ mm was considered as a threshold for a well-developed keyhole, where the keyhole and consequently, penetration, would be much larger than the weld width.</s><s>Anything in between would be on the transition regime, where there is already some keyhole formation, but the melt pool width-to-depth ratio is still close to or below one, lacking the distinctive keyhole shape when the cross-section is observed.</s></p><p><s>After the build, the specimens were wire-cut from the platform and further cut from the middle, perpendicular to the single scan tracks.</s><s>The cross-sections were polished to mirror finish and images taken with optical microscope ZEISS Axio Observer Inverted Microscope.</s><s>A python script, based on an intermode algorithm for image thresholding between the light (i.e.</s><s>dense) and dark (i.e.</s><s>porosity) pixels, was used to analyze the share of porosity visible in the cross-sections.</s><s>After the porosity analysis, the cross-sections were etched using Aqua regia (HNO 3 + HCl + glycerin) to reveal the microstructure and melt pool boundaries of the single scan tracks.</s><s>ImageJ software was used for measuring the melt pool dimensions from the single scan tracks ex-situ from the cross-sections.</s><s>As some of the single scan tracks have no welldefined melt pool cross-section (unstable melt pool along the track), only tracks with a well-defined melt pool were measured.</s><s>On each specimen, at each stair step corresponding to a specific gas flow condition, at least one of the three single scan tracks was measured.</s><s>When possible, all three were measured and the average value used.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Gas flow velocity</head><p><s>Fig. <ref type="figure" target="#fig_3">4</ref> shows the measured gas flow velocities above the building platform, corresponding to 4 m/s (a) and 2 m/s (b) as set based on the flow meter in the gas flow inlet piping.</s><s>There are some variations in the flow velocities depending on the position on the platform, as expected.</s><s>The flow velocities are highest at the right side of the platform (corresponding to the flow inlet side) and lowest at the left side of the platform (corresponding to the flow outlet side).</s><s>In addition, the flow velocities are slightly higher at the back of the build chamber, compared to the front.</s><s>It is assumed this is due to the re-coater position, which was at the back of the build chamber during the measurement.</s><s>As the flow impinges on the edge of the re-coater, it is forced around it and the flow velocity is increased.</s><s>Location 2, corresponding to the back center on the building platform, has the highest flow velocity of all the measured positions.</s><s>Fig. <ref type="figure" target="#fig_3">4(c</ref>) shows that the nominal gas flow velocity above the building platform changes linearly, as the pump speed and therefore the nominal gas flow velocity at the inlet piping is changed.</s><s>Here the correlation is shown only for location 5, corresponding to the middle of the platform, as the specimens used for the test with different parameters (test specimens 5, 10-20) are placed around the middle of the platform.</s><s>As there is a linear correlation between the inlet gas flow velocity and the velocity above the platform, the inlet gas flow velocity can, and is, used in the following representations of the results, as this is the parameter that can be set by the machine operator.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Effect of nominal gas flow velocity on porosity</head><p><s>Fig. <ref type="figure" target="#fig_4">5</ref> shows the measured porosity as a function of nominal gas flow velocity as measured in the inlet piping for all the test specimens.</s><s>It can be seen that for all studied parameter combinations, except specimens 13 and 15, the trend is the same; porosity increases as the nominal gas flow velocity decreases.</s><s>After the nominal gas flow velocity  is decreased to 2.0 m/s and below, the increase in porosity is more pronounced.</s><s>Fig. <ref type="figure" target="#fig_5">6</ref> shows examples of cross sections revealing the porosities for four specimens produced with parameters in the keyhole regime (a-b), in the transition regime (c) and in conduction regime (d).</s><s>Fig. <ref type="figure" target="#fig_5">6 (b)</ref> shows specimen 13, which along with specimen 15 deviates from the other observations, namely that the porosity decreased when gas flow speed decreases below 2.0 m/s.</s><s>From the polished cross-sections, it can be also observed that after the gas flow speed was decreased to 2 m/s and below, the dimensional accuracy of the specimens suffer, as indicated by the white arrows.</s><s>It appears as if the part has swollen after decreasing the gas flow speed below 2 m/s.</s><s>It can be observed further that this swelling is not seen on specimens that are produced with lower energy densities (c-d).</s><s>The implications of this are further discussed in section 4.</s></p><p><s>Fig. <ref type="figure" target="#fig_6">7</ref> shows the effect of location on porosity during each studied nominal gas flow velocity.</s><s>The porosity remains low (&lt; 0.1%) for nominal gas flow velocities of ≥ 2.5 m/s.</s><s>During these high gas flow conditions, the location on the building platform has little to no effect on the porosity, except for location 2 (corresponding to the back-center on the building platform), which shows significantly reduced porosity at a nominal gas flow velocity of 4.0 m/s.</s><s>When the gas flow velocity decreases to 2 m/s and below, there is an exponential increase in the porosity in all locations.</s><s>During these slow gas flow velocities, it can be seen that porosity at location 1, corresponding to the back-left corner of the building platform, is noticeable higher than in any other location.</s><s>During the gas flow velocity at 1 m/s, location 4 corresponding to the center-left of the platform also has somewhat higher porosity than most locations.</s><s>Location 5, corresponding to the middle of the platform, shows slightly lower porosity at a gas flow velocity of 1 m/s than other locations.</s></p><p><s>Fig. <ref type="figure" target="#fig_7">8</ref> shows the measured melt pool width and penetration for the specimens 1-9 built at different locations of the building platform.</s><s>Penetration and weld width remains relatively constant for nominal gas flow velocities between 4.0 m/s and 2.5 m/s, but once reduced to 2.0 m/s and below, the penetration sharply decreases and the weld width increases.</s><s>It is important to notice that the melt pool geometry and the specimen location seem uncorrelated, as the deviations within a specimen (indicated by the error bars) are larger than any deviations between the locations on the platform.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Effect of nominal gas flow velocity on melt pool geometry</head><p><s>Fig. <ref type="figure">9</ref> shows the penetration as measured from the single scan tracks as a function of nominal gas flow velocity.</s><s>The penetration remains relatively constant for gas flow velocities between 4.0 and 2.5 m/s, but once reduced to 2.0 m/s and below, the penetration sharply decreases.</s><s>The higher the energy density, the more severe the loss of penetration once the gas flow is reduced below 2.0 m/s.</s><s>At the highest line energy of 0.5 J/mm, the penetration at 4 m/s gas flow conditions is around 300 μm, reducing to below 50 μm at 1 m/s gas flow velocity.</s><s>The decrease in penetration as gas flow is reduced to 2.0 m/s and below is clearly observed for specimens with energy densities in the keyhole regime and for specimens in the transition regime with energy densities above 0.2 J/mm.</s><s>This is illustrated in Fig. <ref type="figure" target="#fig_8">10(a-f</ref>) for keyhole mode melting, where the penetration decreases sharply at 2.0 m/s as the keyhole is lost.</s><s>For conduction mode melting, shown in Fig. <ref type="figure" target="#fig_8">10(g-l</ref>), the effect on penetration is not seen as there is no keyhole to be lost.</s><s>One can also notice that the microstructure is completely different between high and low gas flow conditions in Fig. <ref type="figure" target="#fig_8">10(a-f</ref>), which could lead to different mechanical properties.</s><s>Detailed study of the microstructure is however out of the scope of this study.</s><s>Fig. <ref type="figure" target="#fig_9">11</ref> shows the effect of nominal gas flow velocity on melt pool width.</s><s>At high energy densities, the melt pool width increases as the gas flow velocity decreases.</s><s>At low energy densities, this is not seen.</s><s>This is in good agreement with the observed swelling seen in Fig. <ref type="figure" target="#fig_5">6</ref> for high energy densities but not for low energy densities.</s><s>For high energy densities, the weld width increases enough to cause a noticeable change in the outer diameter of the part.</s><s>With low energy densities, there is no significant increase in weld width along with reduced nominal gas flow velocity and hence the part level swelling is not observed.</s><s>Fig. <ref type="figure" target="#fig_10">12</ref> further shows how the instability in the scan tracks increases as nominal gas flow velocity is decreased.</s><s>The instabilities are observed as balling, necking and widening of the melt pool as gas flow velocity is decreased to 2 m/s and below.</s><s>On the contrary, stable scan tracks at a relatively constant width are produced for the 4 m/s nominal gas flow velocity.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p><s>The results in this study show that shielding gas flow velocity has an effect on the part quality.</s><s>Increasing the gas flow velocity reduces porosity within the studied range.</s><s>The single scan track tests conducted in this study show that even with single scan tracks, the melt pool geometry is significantly affected by the shielding gas flow conditions.</s><s>This indicates that immediate interaction of the laser with the vapor plume of the track being scanned is the cause for the decrease in effective laser energy reaching the powder bed, hence inducing lack-offusion porosity as the individual melt pools lose sufficient penetration.</s><s>This agrees with observations done for laser welding, where there is no powder and only a single weld.</s><s>The fact that the effect of the gas flow velocity is seen on individual melt pool geometries shows that spatter/ denudated particles flying from previous scans to the path of another cannot explain the observed loss of penetration and increase in melt pool width and instability in single scan tracks.</s></p><p><s>The most significant change on the melt pool geometry is seen once    <ref type="figure" target="#fig_2">3</ref>).</s></p><p><s>the nominal gas flow velocity is decreased to 2.0 m/s and below.</s><s>It was observed during the process that at nominal gas flow velocities of 2.5-4.0 m/s the vapor was cleared away and the trajectories of the hot spatter bent along the direction of the cross-flowing shielding gas.</s><s>Once the gas flow was decreased to 2.0 m/s and below, the spatters and the vapor rise more vertically, less affected by the cross-flow of shielding gas.</s><s>For the LPBF system used in the experiments, this could be considered as a minimum shielding gas flow velocity needed for producing quality parts.</s><s>However, it must be emphasized that the machine architecture regarding how the gas flow inlets and outlets are constructed is different for each LPBF machine from different manufacturers and even between different models from the same manufacturer.</s><s>As shown in Fig. <ref type="figure" target="#fig_3">4</ref>, not only the velocity at the inlet, but also how the flow distributes along the build chamber affects the local flow conditions at a specific location on the building platform, which could affect the part porosity, as seen in Fig. <ref type="figure" target="#fig_6">7</ref>. Therefore, replication of the same gas flow conditions experienced in one type of LPBF machine to another might be difficult without severely altering the construction of the machine.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Porosity response</head><p><s>As seen from Fig. <ref type="figure" target="#fig_6">7</ref>, locations 1 and 4 in the platform had higher porosities than the other locations during a nominal gas flow velocity of 1 m/s.</s><s>From Fig. <ref type="figure" target="#fig_7">8</ref> it can be observed that these specimens have no distinctively different melt pool geometries compared to other locations.</s><s>This implies that the higher porosities observed in locations 1 and 4 might not be solely attributable to the loss of penetration of the individual scan tracks that constitute the part.</s><s>As the specimens in locations 1 and 4 are located down-stream in relation to the shielding gas flow, the increased porosity at these locations during reduced gas flow conditions could be the result of spatter/denudated powder ejected from the up-stream locations landing on the powder bed, thus increasing the effective layer thickness at down-stream locations.</s><s>Such observations were also reported by <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b17">18]</ref>.</s><s>Location 2 showed significantly reduced porosity compared to any other location at the gas flow velocity of 4 m/s.</s><s>From Fig. <ref type="figure" target="#fig_3">4</ref> it can be seen that the gas flow velocity as measured above the building platform at this location is higher at 0.96 m/s than in any other location, thus removing the vapor plume most effectively at this location, leading to a minimal amount of porosity.</s><s>This indicates that it could be beneficial to test even higher gas flow velocities to see if porosity is further reduced.</s></p><p><s>From Fig. <ref type="figure" target="#fig_4">5</ref> it can be seen that porosity increases when the shielding gas flow speed decreases, except for the two specimens with the highest energy densities of 0.35 J/mm and 0.5 J/mm.</s><s>If one would only study the part level porosity as the response, this would be hard to explain.</s><s>However, when observing the melt pool geometry from Fig. <ref type="figure">9</ref> and Fig. <ref type="figure" target="#fig_9">11</ref>, it becomes clear that these specimens show the same behavior in terms of melt pool geometry as the other studied parameter combinations.</s><s>When the nominal gas flow velocity is decreased below 2 m/s, the penetration sharply decreases.</s><s>This, combined with high energy densities (&gt; 0.35 J/mm in this case), results in drastically reduced penetration, yet remains sufficient (∼50 μm) to avoid excessive lack of fusion porosity with the used layer thickness of 30 μm.</s><s>Some lack-offusion porosity start to appear once the nominal gas flow velocity is further reduced to 1 m/s.</s><s>Furthermore, the weld width increases as observed in Fig. <ref type="figure" target="#fig_9">11</ref> and as swelling in Fig. <ref type="figure" target="#fig_5">6(a-b</ref>), thus avoiding lack of Fig. <ref type="figure">9</ref>. Effect of nominal shielding gas flow velocity (as measured in the inlet piping) on the melt pool penetration in LPBF on various parameter combinations.</s><s>The first number in the legend labels indicates the specimen number, followed by the laser power in watts, scanning speed in mm/s and line energy in J/mm.</s><s>The lines connecting the markers are for guiding the eye.</s><s>fusion porosities forming between subsequent melt pools.</s><s>In high gas flow conditions, when the gas flow is effectively removing the vapor plume and a deep keyhole is maintained, gas porosity, also known as "keyhole porosity", is observed.</s><s>Once the deep keyhole is lost when reducing gas flow velocity to 2 m/s and below, the keyhole porosity is eliminated in response to this, as seen in Fig. <ref type="figure" target="#fig_5">6 (b</ref>).</s><s>Excessive keyhole porosity is only observed at low scanning speeds of 500 mm/s, combined with sufficiently high laser power (Fig. <ref type="figure" target="#fig_5">6a</ref>).</s><s>With similar energy densities but with higher scanning speed, excessive keyhole porosity is not observed (Fig. <ref type="figure" target="#fig_5">6b</ref>).</s></p><p><s>The keyhole porosity observed only for high energy densities at low (&lt; 500 mm/s) scanning speeds is due to shift of the laser-material interaction zone from the advancing keyhole front to the keyhole bottom under this threshold scanning speed, as shown by <ref type="bibr" target="#b18">[19]</ref> and <ref type="bibr" target="#b19">[20]</ref>.</s><s>This same phenomenon has been observed in laser welding, even as the welding speeds are significantly lower compared to LPBF <ref type="bibr" target="#b20">[21]</ref>.</s><s>It has been shown by <ref type="bibr" target="#b21">[22]</ref> that the welding speed and the related change of laser-material interaction zone from the bottom of the keyhole to the front wall has a significant effect on the formation of keyhole-induced porosity, due to increased transient fluctuations in the keyhole with low welding speeds.</s><s>Increasing welding speed, while keeping the energy density constant, eliminates most of the keyhole porosity.</s><s>This is in good agreement with the observations of this study in the case of LPBF.</s></p><p><s>Fig. <ref type="figure" target="#fig_4">5</ref> shows that the porosity always increases when gas flow speed decreases and this holds even for low energy densities corresponding to conduction mode melting.</s><s>From Fig. <ref type="figure" target="#fig_8">10</ref> it is also clear that there is a sharp decrease in penetration once the gas flow velocity decreases below a certain threshold (2.0 m/s in this study), as the process changes from keyhole/transition to conduction mode melting.</s><s>For conduction mode melting, where there is no keyhole to lose, this is not seen.</s><s>The regression analysis for the data calculated in Table <ref type="table">2</ref> shows with strong confidence (R 2 values mostly above 0.8) that there is a linear correlation between porosity and gas flow velocity even after the jump observed at the 2.0 m/s.</s><s>Further, the regression analysis in Table <ref type="table">2</ref> shows absolutely no correlation between penetration and gas flow speed when observing the "plateau" after the jump at 2.0 m/s, with R 2 values for linear fit mainly below 0.2.</s><s>Therefore, based on the dataset of this experiment, it is inconclusive whether this observed continuous decrease in porosity during gas flow conditions 2.5-4.0 m/s can be attributed to the laser-vapor plume interactions, or if only the jump in porosity caused by the loss of sufficient penetration as gas flow is insufficient (&lt; 2 m/s in this study), that can be explained by the laser attenuation in the vapor plume.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Laser attenuation by vapor plume</head><p><s>Fig. <ref type="figure" target="#fig_11">13</ref> shows the cross-sectional area measured for laser powers 100, 175 and 250 W with a constant scanning speed of 500 mm/s for gas flow velocities 4 m/s and 2 m/s.</s><s>The melting power, indicated by the cross-sectional area of the melt pool, increases linearly with laser power.</s><s>The cross-sectional area is decreased by 30-50%, when the gas flow velocity decreases from 4 m/s to 2 m/s.</s><s>Increasing laser power increases the difference in cross-sectional area between 2 m/s and 4 m/s gas flow conditions.</s><s>Higher laser power means more intense vapor plume and therefore higher improvement in the melting power as the plume is removed.</s><s>In the worst case, a laser power of 250 W is needed in nominal gas flow conditions of 2 m/s for the same melt pool crosssectional area that is achieved with only 145 W of laser power in 4 m/s nominal gas flow conditions.</s></p><p><s>If the change in melt pool geometry is mostly due to absorption by the condensed small (∼50 nm) particles in the vapor plume, then the power absorbed by the vapor should be around 30-50% to explain the observed change in cross-sectional area (i.e.</s><s>metal melted).</s><s>The estimates by Shcheglov et al. <ref type="bibr" target="#b10">[11]</ref> and Zou et al. <ref type="bibr" target="#b11">[12]</ref> at 9% and 12% for the total attenuation are well below what would be needed to explain the observed loss in melting power in this study.</s><s>In their studies, the  attenuation was highest near the laser-material interaction point and decreased along the plume height.</s><s>In the study by Shcheglov et al. <ref type="bibr" target="#b10">[11]</ref>, the lowest measuring point in the plume was 5 mm above the lasermaterial interaction plane.</s><s>In the study by Zou et al. <ref type="bibr" target="#b11">[12]</ref> the lowest measuring point in the plume was ∼2 mm above the interaction plane and therefore the total attenuation was slightly higher at 12%.</s><s>In the study conducted by Greses et al. <ref type="bibr" target="#b13">[14]</ref>, it was reported that the probe laser intensity was reduced by up to 41% right above the keyhole inlet (expressed as height = 0 mm).</s><s>Furthermore, modeling by Bidare et al. <ref type="bibr" target="#b22">[23]</ref> shows that the concentration of Fe in the vapor plume in LPBF has a steep gradient and would reduce to under 1000 ppm already at 1 mm above the keyhole inlet, indicating that most of the vaporized particles remain low (&lt; 1 mm) in the plume.</s><s>Therefore, most of the particleinduced laser attenuation would occur near the keyhole inlet, being omitted by the calculations of Shcheglov et al. <ref type="bibr" target="#b10">[11]</ref> and Zou et al. <ref type="bibr" target="#b11">[12]</ref>.</s></p><p><s>The estimates by <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b13">14]</ref>, on the attenuation are for the case of deep penetration laser welding with laser powers in the kW range, where the keyhole and consequently, vaporization, is much more severe than in LPBF.</s><s>In addition, the welding speeds are an order of magnitude slower than in LPBF, increasing the time the laser interacts with the plume.</s><s>Therefore, in LPBF, the attenuation caused by absorption in the condensed metal particles during a single scan track should be less than the estimates for deep penetration keyhole welding.</s><s>Furthermore, Bidare et al. <ref type="bibr" target="#b22">[23]</ref> estimate the ejection velocity of the plume to be in the order of ∼100 m/s around 1 mm above the keyhole inlet (for 100 W laser power) and even higher with increased proximity to the keyhole inlet.</s><s>Therefore, it seems unlikely that the lowest (0-1 mm above keyhole inlet) part of the plume with an ejection velocity of &gt; 100 m/s would be much affected by the cross-flow of shielding gas with nominal velocities above the building platform below 1 m/s in this study.</s><s>This is supported by the Schlieren imaging observations by Bidare et al. <ref type="bibr" target="#b22">[23]</ref>, where the vapor plume starts to clear away noticeably along with the cross-flow of shielding gas at approximately 5 mm and above the lasermaterial interaction plane.</s><s>Further, pure loss of laser power to the vapor does not explain the observed increase in weld width that is associated with insufficient removal of the vapor plume by the cross-flow of shielding gas, observed previously by Ladewig et al. <ref type="bibr" target="#b8">[9]</ref> and now by us for LPBF and by Zou <ref type="bibr" target="#b11">[12]</ref> and Katayama et al. <ref type="bibr" target="#b15">[16]</ref> for laser welding.</s><s>This implies that purely absorption by the small, condensed metal particles in the plume does not explain the observed change in the melt pool geometry in this study.</s></p><p><s>The authors see a few possible explanations for this.</s><s>The laser beam is scattered along with absorption by the condensed small metal particles, increasing the total attenuation in the plume.</s><s>The diameter of the condensate particles could be larger than the estimates of ∼50 nm used by previous authors, which would increase the scattering coefficient <ref type="bibr" target="#b11">[12]</ref>.</s><s>Considering a limit of X &gt; 0.3 for situations where the Rayleigh approximation is no longer accurate and Mie scattering theory should be used to capture the increased scattering <ref type="bibr" target="#b24">[25]</ref>, this would correspond to a particle diameter of ∼100 nm for a laser wavelength of 1070 nm.</s><s>The actual particle size could be larger than measured due to agglomeration of the nanoparticles in the plume into larger ones.</s><s>Previous studies <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b23">24]</ref>, report that the condensate did agglomerate into large (up to 1 μm size) clusters once captured on the measuring plate, however it was assumed that the particles remain separate in the plume and form agglomerates only once captured.</s><s>Further, the applicability of Rayleigh approximation depends not only on the particle size, but also on the refractive index of the particulate material <ref type="bibr" target="#b24">[25]</ref> and is a better approximation for materials with low refractive index, while metals have high refractive indices.</s><s>Calculations by Lacroix et al. <ref type="bibr" target="#b14">[15]</ref> based on the Mie scattering theory have shown that even with a particle diameter of 50 nm, scattering is notable in the vapor plume.</s><s>They modeled the temperature distribution in the plume with and without scattering, showing that with Mie scattering by small particles the temperature distribution was wider at the bottom of the plume, which was proposed to explain the increased weld width.</s><s>In addition, the modeled peak temperature in the plume replicated observations better once Mie scattering was included, whereas without scattering the temperature was severely overestimated.</s><s>Therefore, it seems Rayleigh approximation is not sufficient to describe the laser attenuation by the condensed small metal particles in the vapor plume in these processes.</s></p><p><s>The denudated/spattered powder particles could contribute to the attenuation of the laser while scanning single tracks, opposed to or in Table <ref type="table">2</ref> Regression analysis for linear fit (R 2 ) calculated for dependency of porosity and penetration depth on gas flow velocity at nominal gas flow velocities between 2.5-4.0 m/s for all the studied parameter combinations, indicated by the specimen numbers.</s><s>For the corresponding laser parameters, see Table <ref type="table" target="#tab_0">1</ref>.</s><s>Porosity (%) Penetration depth (μm) Specimen 2.5 m/s 3.0 m/s 3.5 m/s 4.0 m/s R 2 linear fit 2.5 m/s 3.0 m/s 3.5 m/s 4.0 m/s R 2 linear fit 5 0.052 0.049 0.054 0.037 0.463 86.3 95.0 85.3 87.0 0.05 10 0.346 0.288 0.225 0.249 0.755 66.7 69.3 61.3 66.7 0.09 11 3.389 3.004 2.881 2.825 0.850 33.5 43.0 41.0 37.5 0.10 12 10.207 8.703 8.763 8.134 0.810 23.0 15.5 24.0 24.5 0.16 13 0.483 0.459 0.417 0.379 0.989 193.3 205.0 188.0 195.3 0.04 14 0.237 0.126 0.090 0.035 0.945 56.3 32.7 43.0 58.5 0.03 15 0.545 0.446 0.417 0.342 0.961 307.5 325.0 301.5 301.0 0.24 16 0.007 0.003 0.004 0.001 0.761 178.7 189.7 165.3 173.3 0.26 17 0.065 0.042 0.038 0.032 0.858 91.3 98.7 120.7 121.0 0.89 18 4.877 3.869 4.110 3.687 0.673 30.5 27.0 37.0 55.0 0.75 19 8.602 8.130 7.548 7.054 0.998 24.0 25.0 28.7 21.0 0.05 20 22.169 21.259 19.042 17.805 0.976 4.0 15.3 12.0 16.0 0.59 addition to the possibility of them landing on un-fused areas and thus influencing bulk part quality.</s><s>It has been shown <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b22">23]</ref>, that some of the denudated powder particles are entrained by the vapor-induced flow to the laser beam path and heated up by the laser.</s><s>The ejection velocities of these much larger (around 10-50 μm diameter) particles are in the range of 0∼10 m/s, hence much closer to the speeds of the cross-flowing shielding gas than the metal vapor (∼100 m/s) and therefore can be cleared from the laser beam path by sufficient shielding gas flow.</s><s>Absorption and scattering by these large powder particles could explain why the observed loss of penetration with insufficient shielding gas flow in this study for LPBF is much more severe than observed in previous studies for laser welding, where there is no powder involved.</s><s>Refraction of the laser beam by the gradients in the refractive index of the hot vapor plume and colder atmosphere, elucidated by Bidare et al. <ref type="bibr" target="#b22">[23]</ref>, could also contribute the observed change in melt pool geometry.</s><s>Kawahito et al. <ref type="bibr" target="#b25">[26]</ref> and Shcheglov <ref type="bibr" target="#b26">[27]</ref> have shown that the laser spot position oscillates as it travels through the plume due to refraction.</s><s>These oscillations have not been seen as severe enough to cause the observed change in melt pool geometry and more emphasis has been given to the absorption by the condensate particles, regardless that deliberately oscillating the laser beam is a well-known method for producing welds with increased width and decreased penetration.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>Decreasing the cross-flow-rate of shielding gas flow below a certain threshold decreases penetration and increases melt pool width and instability during the LPBF process.</s><s>Due to the significance of the vapor plume and the effectiveness of its removal by the shielding gas flow in relation to melt pool geometry and porosity in LPBF, vapor plume-laser beam interactions should be included the in the calculations of models aiming at predicting melt pool geometry.</s><s>The shielding gas flow is an important factor in the LPBF process to be taken into consideration when trying to develop processing parameters for a specific material that could be transferrable (directly or via a model that adjusts the values) from one LPBF machine to another.</s></p><p><s>Further studies are needed to conclude whether the scattering and absorption by the metal vapor, the entrained powder particles or the refraction caused by the refractive index gradients between the plume and atmosphere, contribute most to the observed change in weld geometry, when insufficient cross-flow of shielding gas is applied to remove the vapor plume.</s><s>In addition, further studies are needed to conclude whether the continuous increase in porosity that is observed even with low energy densities corresponding to conduction mode melting is attributable completely or in part to laser attenuation by the plume, or to spatter/denudated particles landing on unfused areas during the LPBF process.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>Gas flow configuration in the SLM 125 H L machine used in the experiments, indicating the flow meter (Fl) placement in the inlet piping and showing the schematic circulation of the shielding gas.</s></p></div></figDesc><graphic coords="3,82.21,57.03,430.85,191.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. Flow velocity measurement setup (a) using the hot-wire anemometer and measurement points (b) on the building platform.</s></p></div></figDesc><graphic coords="3,82.21,287.21,430.85,249.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. Specimen layout (a-b) on the building platform and the stair-step specimen design (c-e), showing the placement of the single scan tracks.</s></p></div></figDesc><graphic coords="4,82.21,57.03,430.85,290.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Shielding gas flow velocities as measured from above the building platform corresponding to (a) 4 m/s and (b) 2 m/s gas flow conditions as set based on the inlet gas flow meter.</s><s>In (c) the gas flow velocity as measured above the platform (in the middle of the platform, corresponding to the location 5 in Fig. 3) is plotted against the set gas flow velocity in the inlet piping, showing a linear correlation between the values.</s></p></div></figDesc><graphic coords="5,58.22,57.03,478.80,118.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig.5.</s><s>Porosity as a function of nominal gas flow velocity (as measured in the inlet piping) for all the studied parameter combinations.</s><s>The first number in the legend labels indicates the specimen number, followed by the laser power in watts and scanning speed in mm/s.</s><s>Notice the logarithmic scale for porosity.</s><s>The lines connecting the markers are for guiding the eye.</s></p></div></figDesc><graphic coords="5,37.59,566.31,310.89,171.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6.</s><s>Polished cross-sections revealing the porosities under different process parameters and gas flow conditions.</s><s>(a) and (b) correspond to parameters in the keyhole regime, (c) in the transition regime and (d) in conduction regime.</s><s>Under each specimen, the legend designates the laser power P in watts, scanning speed v in mm/s and hatch spacing h in mm.</s><s>The scale bar is 2 mm.</s></p></div></figDesc><graphic coords="6,82.15,57.03,430.99,137.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig.7.</s><s>Effect of building platform location on porosity at different nominal shielding gas flow velocities (as measured in the inlet piping).</s><s>Notice the logarithmic scale for porosity.</s><s>The numbers 1-9 in the legend correspond to the location numbers on the building platform as shown in Fig.3.</s></p></div></figDesc><graphic coords="6,43.82,243.38,238.61,176.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig.8.</s><s>Melt pool width (left) and penetration (right) as a function of nominal gas flow velocity at different locations (1-9, corresponding to locations in the building platform as shown in Fig.3).</s></p></div></figDesc><graphic coords="6,82.21,548.79,430.85,170.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 10 .</head><label>10</label><figDesc><div><p><s>Fig. 10.</s><s>Cross-sections of single scan tracks revealing the melt pool geometries at line energy of 0.5 J/mm (corresponding to a fully developed keyhole regime) (a-f) and line energy of 0.1 J/mm (corresponding to conduction regime) (g-l) at different nominal shielding gas flow velocities.</s><s>Notice the different scale between images (a-f) and (g-l).</s><s>The measured penetration values are in micrometers.</s></p></div></figDesc><graphic coords="7,82.21,535.64,430.85,173.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig.11.</s><s>Effect of nominal shielding gas flow velocity on the melt pool width in LPBF on various parameter combinations.</s><s>The first number in the legend labels indicates the specimen number, followed by the laser power in watts, scanning speed in mm/s and line energy in J/mm.</s><s>The lines connecting the markers are for guiding the eye.</s></p></div></figDesc><graphic coords="8,37.59,56.64,310.89,159.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 12 .</head><label>12</label><figDesc><div><p><s>Fig. 12. Optical microscope image of single scan tracks produced at (a) 1 m/s and (b) 4 m/s nominal shielding gas flow velocities.</s><s>The laser power and scanning speed were kept constant at 250 W and 500 mm/s, respectively.</s><s>The circles mark the instabilities at track morphology observed at the scan tracks in 1 m/s condition.</s></p></div></figDesc><graphic coords="8,141.90,236.41,311.47,124.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 13 .</head><label>13</label><figDesc><div><p><s>Fig. 13.</s><s>Melt cross-sectional area as a function of laser power at 4 m/s gas flow velocity (circles) and decrease in melt area for 2 m/s gas flow velocity (squares) for the same laser powers.</s></p></div></figDesc><graphic coords="9,43.82,239.36,238.61,196.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Varied process parameters and the corresponding effect to be tested for each specimen.</s></p></div></figDesc><table><row><cell>Specimen</cell><cell>Power (W)</cell><cell>Speed (mm/s)</cell><cell>Hatch (μm)</cell><cell>Line Energy (J/mm)</cell><cell>Tested gas flow hypothesis</cell></row><row><cell>1-9</cell><cell>175</cell><cell>750</cell><cell>120</cell><cell>0.23</cell><cell>Effect of location on platform</cell></row><row><cell>5</cell><cell>175</cell><cell>750</cell><cell>120</cell><cell>0.23</cell><cell>Effect in transition mode</cell></row><row><cell>10</cell><cell>100</cell><cell>500</cell><cell>120</cell><cell>0.20</cell><cell>Effect in transition mode</cell></row><row><cell>11</cell><cell>100</cell><cell>750</cell><cell>120</cell><cell>0.13</cell><cell>Effect in transition mode</cell></row><row><cell>12</cell><cell>100</cell><cell>1000</cell><cell>120</cell><cell>0.10</cell><cell>Effect in conduction mode</cell></row><row><cell>13</cell><cell>175</cell><cell>500</cell><cell>120</cell><cell>0.35</cell><cell>Effect in keyhole mode</cell></row><row><cell>14</cell><cell>175</cell><cell>1000</cell><cell>120</cell><cell>0.18</cell><cell>Effect in transition mode</cell></row><row><cell>15</cell><cell>250</cell><cell>500</cell><cell>120</cell><cell>0.50</cell><cell>Effect in keyhole mode</cell></row><row><cell>16</cell><cell>250</cell><cell>750</cell><cell>120</cell><cell>0.33</cell><cell>Effect in keyhole mode</cell></row><row><cell>17</cell><cell>250</cell><cell>1000</cell><cell>120</cell><cell>0.25</cell><cell>Effect in transition mode</cell></row><row><cell>18</cell><cell>70</cell><cell>500</cell><cell>80</cell><cell>0.14</cell><cell>Effect in transition mode</cell></row><row><cell>19</cell><cell>50</cell><cell>500</cell><cell>80</cell><cell>0.10</cell><cell>Effect in conduction mode</cell></row><row><cell>20</cell><cell>30</cell><cell>500</cell><cell>80</cell><cell>0.06</cell><cell>Effect in conduction mode</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>The authors would like to express their gratitude to <rs type="person">Mrs. Seija Kivi</rs> for the preparation and imaging of the metallographic specimens.</s><s>The financial support of <rs type="funder">VTT Technical Research Centre of Finland</rs> (grant numbers <rs type="grantNumber">118045</rs> and <rs type="grantNumber">120438</rs>) is gratefully acknowledged.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_MaU2ta7">
+					<idno type="grant-number">118045</idno>
+				</org>
+				<org type="funding" xml:id="_zbjKtSZ">
+					<idno type="grant-number">120438</idno>
+				</org>
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p><s>The authors declare that they have no conflict of interest.</s></p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A study of the microstructural evolution during selective laser melting of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verhaeghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3303" to="3312" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Thijs, F. Verhaeghe, T. Craeghs, J.V. Humbeeck, J.-P. Kruth, A study of the mi- crostructural evolution during selective laser melting of Ti-6Al-4V, Acta Mater. 58 (9) (2010) 3303-3312.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Is the energy density a reliable parameter for materials synthesis by selective laser melting?</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Prashanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scudino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maity</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eckert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="386" to="390" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K.G. Prashanth, S. Scudino, T. Maity, J. Das, J. Eckert, Is the energy density a reliable parameter for materials synthesis by selective laser melting? Mater. Res. Lett. 5 (6) (2017) 386-390.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">On the limitations of Volumetric Energy Density as a design parameter for Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Bertoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wolfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><forename type="middle">R</forename><surname>Delplanque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schoenung</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2016.10.037</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2016.10.037" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="331" to="340" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U.S. Bertoli, A.J. Wolfer, M.J. Matthews, J.-P.R. Delplanque, J.M. Schoenung, On the limitations of Volumetric Energy Density as a design parameter for Selective Laser Melting, Mater. Des. 113 (2017) 331-340, https://doi.org/10.1016/j.matdes. 2016.10.037.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Scaling laws for the additive manufacturing</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2018.02.034</idno>
+		<ptr target="https://doi.org/10.1016/j.jmatprotec.2018.02.034" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">257</biblScope>
+			<biblScope unit="page" from="234" to="243" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.M. Rubenchik, W.E. King, S.S. Wu, Scaling laws for the additive manufacturing, J. Mater. Process. Technol. 257 (2018) 234-243, https://doi.org/10.1016/j. jmatprotec.2018.02.034.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Interlaboratory study for nickel alloy 625 made by laser powder bed fusion to quantify mechanical property variability</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">U</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stoudt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moylan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slotwinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Donmez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Eng. Perform</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3390" to="3397" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.U. Brown, G. Jacob, M. Stoudt, S. Moylan, J. Slotwinski, A. Donmez, Interlaboratory study for nickel alloy 625 made by laser powder bed fusion to quantify mechanical property variability, J. Mater. Eng. Perform. 25 (8) (2016) 3390-3397.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Characterization of machine variability and progressive heat treatment in selective laser melting of inconel 718</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Prater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NASA Tech. Rep. Server</title>
+		<imprint>
+			<biblScope unit="page">20150016246</biblScope>
+			<date type="published" when="2015">2015</date>
+			<publisher>NTRS</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Prater, W. Tilson, Z. Jones, Characterization of machine variability and pro- gressive heat treatment in selective laser melting of inconel 718, NASA Tech. Rep. Server (NTRS) (2015) 20150016246.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">High density Ti6Al4V via SLM processing: microstructure and mechanical properties</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wildman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hague</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 22 nd Annual International Solid Freeform Fabrication Symposium</title>
+		<meeting>the 22 nd Annual International Solid Freeform Fabrication Symposium<address><addrLine>Austin, Texas, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="475" to="483" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Kong, I. Tuck, R. Ashcroft, R. Wildman, R. Hague, High density Ti6Al4V via SLM processing: microstructure and mechanical properties, Proceedings of the 22 nd Annual International Solid Freeform Fabrication Symposium, Austin, Texas, USA. 8- 10.8.475-483, 2011.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Gas flow effects on selective laser melting (SLM) manufacturing performance</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ferrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sutcliffe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="355" to="364" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Ferrar, L. Mullen, E. Jones, R. Stamp, C.J. Sutcliffe, Gas flow effects on selective laser melting (SLM) manufacturing performance, J. Mater. Process. Technol. 212 (2) (2012) 355-364.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Influence of the shielding gas flow on the removal of process by-products in the selective laser melting process</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ladewig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schlick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fisser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Glatze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Ladewig, G. Schlick, M. Fisser, V. Schulze, U. Glatze, Influence of the shielding gas flow on the removal of process by-products in the selective laser melting pro- cess, Addit. Manuf. 10 (2016) 1-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of AlSi10Mg: effects of scan direction, part placement and inert gas flow velocity on tensile strength</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Bin</forename><surname>Anwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q.-C</forename><surname>Pham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">240</biblScope>
+			<biblScope unit="page" from="388" to="396" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Bin Anwar, Q.-C. Pham, Selective laser melting of AlSi10Mg: effects of scan di- rection, part placement and inert gas flow velocity on tensile strength, J. Mater. Process. Technol. 240 (2017) 388-396.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Plume attenuation of laser radiation during high power fiber laser welding</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shcheglov</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/lapl.201110010</idno>
+		<ptr target="https://doi.org/10.1002/lapl.201110010" />
+	</analytic>
+	<monogr>
+		<title level="j">Laser Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="475" to="480" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Shcheglov, Plume attenuation of laser radiation during high power fiber laser welding, Laser Phys. Lett. 8 (6) (2011) 475-480, https://doi.org/10.1002/lapl. 201110010.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effect of plume on weld penetration during high-power fiber laser welding</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="22003" to="22004" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Zou, W. Yang, S. Wu, Y. He, R. Xiao, Effect of plume on weld penetration during high-power fiber laser welding, J. Laser Appl. 28 (2) (2016) 022003-1-022003-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Bohren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Huffman</surname></persName>
+		</author>
+		<title level="m">Absorption and Scattering of Light by Small Particles</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley &amp; Sons</publisher>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.F. Bohren, D.R. Huffman, Absorption and Scattering of Light by Small Particles, Wiley &amp; Sons, New York, 1983.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Plume attenuation under high power Nd:yttritium-aluminum-garnet laser welding</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Steen</surname></persName>
+		</author>
+		<idno type="DOI">10.2351/1.1642636</idno>
+		<ptr target="https://doi.org/10.2351/1.1642636" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="9" to="15" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Greses, P.A. Hilton, C.Y. Barlow, W.M. Steen, Plume attenuation under high power Nd:yttritium-aluminum-garnet laser welding, J. Laser Appl. 16 (9) (2004) 9-15, https://doi.org/10.2351/1.1642636.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Solution of the radiative transfer equation in an absorbing and scattering Nd:YAG laser-induced plume</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lacroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boudot</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.368405</idno>
+		<ptr target="https://doi.org/10.1063/1.368405" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2443" to="2449" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Lacroix, C. Boudot, Solution of the radiative transfer equation in an absorbing and scattering Nd:YAG laser-induced plume, J. Appl. Phys. 84 (5) (1998) 2443-2449, https://doi.org/10.1063/1.368405.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Elucidation of laser welding phenomena and factors affecting weld penetration and welding defects</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawahito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phpro.2010.08.024</idno>
+		<ptr target="https://doi.org/10.1016/j.phpro.2010.08.024" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Procedia</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="9" to="17" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Part B</note>
+	<note type="raw_reference">S. Katayama, Y. Kawahito, M. Mizutani, Elucidation of laser welding phenomena and factors affecting weld penetration and welding defects, Phys. Procedia 5 (Part B) (2010) 9-17, https://doi.org/10.1016/j.phpro.2010.08.024.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">In situ absorptivity measurements of metallic powders during laser powder-bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmt.2017.08.006</idno>
+		<ptr target="https://doi.org/10.1016/j.apmt.2017.08.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Mater. Today</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="341" to="349" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Trapp, A.M. Rubenchik, G. Guss, M.J. Matthews, In situ absorptivity measure- ments of metallic powders during laser powder-bed fusion additive manufacturing, Appl. Mater. Today 9 (2017) 341-349, https://doi.org/10.1016/j.apmt.2017.08. 006.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A multiphase CFD model for the prediction of particulate accumulation in a laser powder bed fusion process</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Philo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Butcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sillars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sienz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Lavery</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-72059-3_7</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-72059-3_7" />
+	</analytic>
+	<monogr>
+		<title level="m">CFD Modeling and Simulation in Materials Processing 2018</title>
+		<title level="s">The Minerals, Metals &amp; Materials Series</title>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Nastac</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Pericleous</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Sabau</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Thomas</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.M. Philo, D. Butcher, S. Sillars, C.J. Sutcliffe, J. Sienz, S.G.R. Brown, N.P. Lavery, A multiphase CFD model for the prediction of particulate accumulation in a laser powder bed fusion process, in: L. Nastac, K. Pericleous, A. Sabau, L. Zhang, B. Thomas (Eds.), CFD Modeling and Simulation in Materials Processing 2018. TMS 2018. The Minerals, Metals &amp; Materials Series, Springer, Cham, 2018, , https://doi. org/10.1007/978-3-319-72059-3_7.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Metal vapor microjet controls materials redistribution in laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-04237-z</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-04237-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4085</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ly, A.M. Rubenchik, S.A. Khairallah, G. Guss, M.J. Matthews, Metal vapor micro- jet controls materials redistribution in laser powder bed fusion additive manu- facturing, Sci. Rep. 7 (4085) (2017), https://doi.org/10.1038/s41598-017-04237-z.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effects of scan speed on vapor plume behavior and spatter generation in laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ge</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2018.09.011</idno>
+		<ptr target="https://doi.org/10.1016/j.jmapro.2018.09.011" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="60" to="67" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Zheng, H. Li, L. Lang, S. Gong, Y. Ge, Effects of scan speed on vapor plume behavior and spatter generation in laser powder bed fusion additive manufacturing, J. Manuf. Process. 36 (2018) 60-67, https://doi.org/10.1016/j.jmapro.2018.09. 011.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Melt pool and keyhole behaviour analysis for deep penetration laser welding</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fabbro</surname></persName>
+		</author>
+		<ptr target="http://stacks.iop.org/JPhysD/43/445501" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. D Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">445501</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Fabbro, Melt pool and keyhole behaviour analysis for deep penetration laser welding, J. Phys. D Appl. Phys. 43 (445501) (2010), http://stacks.iop.org/JPhysD/ 43/445501.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Numerical study of keyhole dynamics and keyhole-induced porosity formation in remote laser welding of Al alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Carlson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijheatmasstransfer.2016.12.019</idno>
+		<ptr target="https://doi.org/10.1016/j.ijheatmasstransfer.2016.12.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat Mass Transf</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="244" to="256" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>Part A</note>
+	<note type="raw_reference">R. Lin, H. Wang, F. Lu, J. Solomon, B.E. Carlson, Numerical study of keyhole dy- namics and keyhole-induced porosity formation in remote laser welding of Al al- loys, Int. J. Heat Mass Transf. 108 (Part A) (2017) 244-256, https://doi.org/10. 1016/j.ijheatmasstransfer.2016.12.019.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Fluid and particle dynamics in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bidare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bitharas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2017.09.051</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2017.09.051" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="107" to="120" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Bidare, I. Bitharas, R.M. Ward, M.M. Attallah, A.J. Moore, Fluid and particle dynamics in laser powder bed fusion, Acta Mater. 142 (2018) 107-120, https://doi. org/10.1016/j.actamat.2017.09.051.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Spatter and oxide formation in laser powder bed fusion of Inconel 718</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N D</forename><surname>Gasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Szost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Johns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Clare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.09.032</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2018.09.032" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="446" to="456" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.N.D. Gasper, B. Szost, X. Wang, D. Johns, S. Sharma, A.T. Clare, I.A. Ashcroft, Spatter and oxide formation in laser powder bed fusion of Inconel 718, Addit. Manuf. 24 (2018) 446-456, https://doi.org/10.1016/j.addma.2018.09.032.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Rayleigh limit-Penndorf extension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Selamet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Arpaci</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0017-9310(89)90153-1</idno>
+		<ptr target="https://doi.org/10.1016/0017-9310(89)90153-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat Mass Transf. -Theory Appl</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1809" to="1820" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Selamet, V.S. Arpaci, Rayleigh limit-Penndorf extension, Int. J. Heat Mass Transf. -Theory Appl. 32 (10) (1989) 1809-1820, https://doi.org/10.1016/0017-9310(89) 90153-1.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Optical interaction between laser beam and induced plume in the ultra-high power density Fiber laser welding of stainless steel</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawahito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katayama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transactions of JWRI</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="19" to="25" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Kawahito, M. Mizutani, S. Katayama, Optical interaction between laser beam and induced plume in the ultra-high power density Fiber laser welding of stainless steel, Transactions of JWRI 37 (2) (2008) 19-25.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shcheglov</surname></persName>
+		</author>
+		<idno>978-3-9815134-3-1</idno>
+		<title level="m">Study of Vapour-plasma Plume During High Power Fiber laser Beam Influence on Metals, BAM Bundesanstalt Für Materialforschung Und -prüfung</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Shcheglov, Study of Vapour-plasma Plume During High Power Fiber laser Beam Influence on Metals, BAM Bundesanstalt Für Materialforschung Und -prüfung, Berlin, 2012 ISBN 978-3-9815134-3-1.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

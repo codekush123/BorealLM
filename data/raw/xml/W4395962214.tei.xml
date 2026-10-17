@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Laser powder bed fusion of NdFeB and influence of powder bed heating on density and magnetic properties</title>
+				<funder>
+					<orgName type="full">Equipmake</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Republic of Türkiye Ministry of National Education, HiETA Technologies Limited</orgName>
+				</funder>
+				<funder ref="#_T4uhFva">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-04-29">29 April 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Kübra</forename><surname>Genç</surname></persName>
+							<idno type="ORCID">0009-0008-7977-4469</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Departmant of Mechanical Engineering , University of Sheffield , Sheffield S1 4BJ , UK</note>
+								<orgName type="department">Departmant of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Sheffield</orgName>
+								<address>
+									<postCode>S1 4BJ</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sirapob</forename><surname>Toyting</surname></persName>
+							<email>toytingst788@cam.ac.uk</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Department of Materials Science and Metallurgy , University of Cambridge , Cambridge CB3 0FS , UK</note>
+								<orgName type="department">Department of Materials Science and Metallurgy</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<postCode>CB3 0FS</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Enrique</forename><surname>Galindo-Nava</surname></persName>
+							<email>e.galindonava@ucl.ac.uk</email>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Department of Mechanical Engineering , University College London , London WC1E 7JE , UK</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<postCode>WC1E 7JE</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Iain</forename><surname>Todd</surname></persName>
+							<email>iain.todd@sheffield.ac.uk</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Materials Science and Engineering , University of Sheffield , Sheffield S1 4BJ , UK</note>
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">University of Sheffield</orgName>
+								<address>
+									<postCode>S1 4BJ</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kamran</forename><surname>Mumtaz</surname></persName>
+							<email>k.mumtaz@sheffield.ac.uk</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Departmant of Mechanical Engineering , University of Sheffield , Sheffield S1 4BJ , UK</note>
+								<orgName type="department">Departmant of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Sheffield</orgName>
+								<address>
+									<postCode>S1 4BJ</postCode>
+									<settlement>Sheffield</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Laser powder bed fusion of NdFeB and influence of powder bed heating on density and magnetic properties</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-04-29">29 April 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E1CBAD28C578FF854893212E77C78E95</idno>
+					<idno type="DOI">10.1007/s00170-024-13605-9</idno>
+					<note type="submission">Received: 1 January 2024 / Accepted: 6 April 2024 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-24T01:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Additive manufacturing</term>
+					<term>NdFeB magnets</term>
+					<term>Laser powder bed fusion (L-PBF)</term>
+					<term>Heated bed</term>
+					<term>Remanence</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Laser powder bed fusion (L-PBF) is an additive manufacturing technique that provides an opportunity to create complex NdFeB magnets, potentially enhancing their performance.</s><s>L-PBF possesses its own processing challenges, such as porosity/ cracks and thermal stresses due to rapid cooling.</s><s>This study focused on optimizing the parameters and the use of elevated temperature (300-550 °C) powder bed heating to reduce defect generation.</s><s>This paper includes a detailed process parameter investigation, which revealed samples with a maximum energy product, (BH) max , of 81 kJ/m 3 (remanence, B r 0.72 T; coercivity, H ci 891 kA/m) without post/pretreatment, which are the highest (BH) max and B r for L-PBF-processed NdFeB commercial powder.</s><s>It was observed that all the high-magnetism samples possessed high density, but not all the high-density samples possessed high magnetism.</s><s>The SEM images and discussions are academically valuable since they clearly illustrate grain formation and morphology in the melt pool, areas where the literature provides limited discussion.</s><s>Furthermore, this paper incorporates quantitative phase analyses, revealing that the magnetic properties increase with increasing volume fraction of the strong magnetic phase Nd 2 Fe 14 B. Another significant contribution of this paper is that it is the first study to investigate the effect of heated bed on L-PBF-NdFeB alloys.</s><s>The density of the samples and B r can be improved with the use of elevated powder bed heating, while the H c decreases.</s><s>The (BH) max can also be improved from 55 to 84 kJ/m 3 through elevated powder bed heating.</s><s>The maximum magnetic properties obtained with the heated bed (400 °C) were as follows: B r , 0.76 T; H ci , 750 kA/m; and (BH) max , 84 kJ/m 3 .</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p><s>NdFeB magnets are among the most commonly used permanent magnets and are commonly found within electric motors.</s><s>Due to their high coercivity H c , high remanence B r , and high energy product (BH) max , they are therefore highly desirable for use within electric motor applications <ref type="bibr" target="#b0">[1]</ref> and can retain their magnetism for long periods of time.</s><s>However, eddy currents occur in the magnetic core during the operation of magnetic devices, which can cause a temperature increase within the magnet, subsequently reducing its magnetic performance <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>.</s><s>Due to the low Curie temperature of NdFeB magnets, they are sensitive to eddy currents; isolated-segmented permanent magnets are designed to avoid/reduce eddy current losses by decreasing the eddy current path with isolation layers <ref type="bibr" target="#b3">[4]</ref>.</s><s>With the use of more complex shaped magnets, efficient cooling channels can be integrated to reduce temperature build-up and prevent unnecessary eddy current losses within the magnet <ref type="bibr" target="#b4">[5]</ref>.</s><s>In addition to cooling channels, the enhancement of magnet efficiency is achievable through shape design, wherein the geometric configuration significantly impacts magnetic properties.</s><s>Specialized designs have been developed to optimize key features such as magnetic field strength and distribution.</s><s>The overall shape and dimensions of a magnet play a crucial role in influencing its magnetic strength.</s><s>For instance, manipulating the length of a magnet while maintaining a constant cross-sectional area can result in an improved magnetic field.</s><s>In pursuit of intricate magnet designs, research has been conducted analyzing four distinct shapes: fan-shaped, arc-shaped, ring-shaped, and a self-proposed electromagnet.</s><s>The findings indicated that arc-shaped magnets exhibited the highest field intensity, measuring 0.6 Tesla <ref type="bibr">[6]</ref>.</s></p><p><s>Similarly, other research revealed that triangular magnets outperform trapezoidal or skewed-shaped counterparts in terms of the induced electromotive force and output power in axial flux permanent magnet synchronous generators <ref type="bibr" target="#b6">[7]</ref>.</s><s>Additionally, investigations have demonstrated a 50% increase in motor output power with V-shaped magnets, with the potential for further enhancements using curvedshaped magnets <ref type="bibr" target="#b7">[8]</ref>.</s></p><p><s>There are a number of production methods capable of manufacturing NdFeB magnets, and the most common are sintering, hot deformation, and injection molding <ref type="bibr" target="#b8">[9]</ref>.</s><s>However, with these conventional manufacturing techniques, it can be challenging to produce complex/intricate-shaped NdFeB magnets.</s><s>The most common production method for NdFeB magnets is sintering.</s><s>It is a powder metallurgy-based process involving powder blending, compaction, subsequent sintering in a furnace, machining, and surface treatment and magnetization <ref type="bibr" target="#b9">[10]</ref>.</s><s>In contrast, additive manufacturing (AM) is a layer-by-layer additive process in which a magnet is built from powder or wire feedstock.</s><s>With its slower cooling rates, sintering leads to larger grain sizes in the final magnet, while AM, with higher cooling rates, produces finer grain sizes <ref type="bibr" target="#b7">[8]</ref> that may impact magnetic properties <ref type="bibr" target="#b10">[11]</ref>.</s><s>In terms of complexity, sintering is limited due to traditional molding and pressing methods, whereas AM allows for intricate and complex geometries.</s><s>Sintering generates material waste through machining processes for final shapes, while AM generally produces less waste as the material is selectively deposited.</s><s>Additionally, in sintering, magnetization typically occurs after the process, exposing the magnet to a strong external magnetic field <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13]</ref>.</s><s>In AM, magnetization can be integrated into the process or performed afterward.</s><s>On the other hand, injection molding (IM) is the most widespread method for producing polymer-bonded magnets.</s><s>Although the injection molding (IM) technique enables the production of complex designs, polymers are mixed within these injection-molded NdFeB magnets, subsequently reducing their magnetic performance <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>.</s><s>Machining can also be used as an option for integrating complexity within a component's geometry; however, this approach is not viable due to the brittle structure of NdFeB.</s></p><p><s>Additive manufacturing (AM) presents an opportunity to create complex geometries from various feedstocks.</s><s>Fused deposition modeling (FDM) <ref type="bibr" target="#b15">[16]</ref>, big area additive manufacturing (BAAM) <ref type="bibr" target="#b16">[17]</ref>, binder jetting <ref type="bibr" target="#b17">[18]</ref>, and powder bed fusion <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref> are AM techniques that have thus far been used for the processing of NdFeB.</s><s>With polymer-based AM techniques (e.g., binder jetting) for the indirect production of NdFeB components, low magnetic properties are generated due to the inclusion of polymers within the feedstock, reducing the volume fraction of the magnetic structure and creating porosity within the component after the curing of the polymer binder.</s><s>Previous results have shown that the density of binder jetted magnets is nearly half that of sintered magnets, 3.54 g/cm 3 <ref type="bibr" target="#b17">[18]</ref> and 7.5 g/cm 3 (Arnold Magnetic Tech), respectively.</s><s>Additionally, when the binder jetted magnet is compared with conventional polymer-based magnets, compression-bonded magnets, and IM magnets, the remanence of the binder jetted magnets is lower than that of both the IM and compression-bonded magnets (binder jet magnet, 0.3 T; IM magnet, 0.5 T; compression-bonded magnets, 0.65 T) <ref type="bibr" target="#b13">[14]</ref>.</s><s>FDM produces parts with a lower density than IM and sintered magnets; the density percentage of the FDM sample is 3.57 g/cm 3 while that of the IM sample is 4.35 g/cm 3 <ref type="bibr" target="#b15">[16]</ref> and that of the sintered magnet is 7.5 g/cm 3 .</s><s>The remanence of the FDM-printed sample is 0.31 T <ref type="bibr" target="#b15">[16]</ref>, that of the IM sample is 0.38 T <ref type="bibr" target="#b15">[16]</ref>, and that of the sintered magnet is 1.2 T (by Arnold Magnetic Tech).</s><s>The magnetic properties of the parts produced using BAAM are greater than those of the parts produced using the IM magnet by a narrow margin but still less than those of the sintered magnets (BAAM magnet B r = 0.51 T, IM magnet B r = 0.48 T <ref type="bibr" target="#b16">[17]</ref>, sintered magnet B r = 1.2 T by Arnold Magnetic Tech).</s></p><p><s>Direct processing of NdFeB without the need for a binder can be achieved using powder bed AM techniques that employ a high-energy scanning source to selectively melt the powder.</s><s>This scanning source can either be a laser or an electron beam; however, there is a risk of smoking using an electron, meaning that electron beams charge the powder and displace it from the powder bed.</s><s>This may not only affect the melting quality but also elevate the powder within the build chamber, which can damage the electron melting system <ref type="bibr" target="#b22">[23]</ref>.</s><s>Many powders, including Ti-Al <ref type="bibr" target="#b23">[24]</ref>, Inconel alloys <ref type="bibr" target="#b24">[25]</ref>, and the rare earth permanent magnet Mn-Al <ref type="bibr" target="#b25">[26]</ref>, are at risk of smoking.</s><s>Hence, the powder needs to be preheated and sintered before fully melting with an electron beam, inhibiting powder jumping <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref>.</s></p><p><s>Alternatively, lasers can be used to process the material within the powder bed using L-PBF.</s><s>The laser powder bed fusion processing parameters for NdFeB powder were investigated, and it was found that high-density parts (with a relative density of up to 86%) can be obtained by the energy line (laser power W/laser speed mm/s) between 0.032 and 0.048 W/mm <ref type="bibr" target="#b27">[28]</ref>.</s><s>Various L-PBF scan parameters, such as the laser power (LP), laser focus (LF), point distance (PD), exposure time (ET), and hatch distance (HD), and their effects on the properties of processed NdFeB parts were studied by <ref type="bibr" target="#b28">[29]</ref>.</s><s>During processing, the samples were built on a steel substrate plate that was connected to a larger copper substrate.</s><s>The copper substrate acted as a heat sink during laser-generated heat buildup within the powder bed and built platform.</s><s>The results show that the grain sizes within the samples were reduced to 1 µm, which is smaller than those produced using commercial sintered magnets.</s><s>It was found that high cooling rates are essential for obtaining a Nd 2 Fe 14 B phase and fine grains that also increase coercivity.</s><s>The maximum properties achieved were H ci , 695 kA m -1 ; B r , 0.59 T; and (BH) max , 45 kJm -3 .</s><s>The density of the produced magnet was 7 g/cm 3 , which is 92% of the theoretical density <ref type="bibr" target="#b28">[29]</ref>.</s><s>Moreover, it was suggested that the processing window for NdFeB is narrow and that a small change in laser power can cause destabilization of the melt track.</s><s>In addition, the powder layer thickness must be adequate to achieve a high relative density of the samples <ref type="bibr" target="#b20">[21]</ref>.</s><s>Bittner et al. had been able to generate some of the highest magnetic properties using L-PBF with a coercivity of 886 kA/m, a remanence of 0.63 T, and a density of up to 90%.</s><s>Stable processing was achieved with an energy density between 0.6 and 2.3 J/mm 2 <ref type="bibr" target="#b18">[19]</ref>.</s></p><p><s>Moreover, magnetic properties can be enhanced by element intergranular addition, which is one of the methods used to improve the coercivity of sintered magnets <ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref>.</s><s>An intergranular addition of a low melting point eutectic alloy (Pr 0.5 Nd 0.5 ) 3 (Cu 0.25 Co 0.75 ) was used for SLM-produced NdFeB.</s><s>The results show that the coercivity of the samples improves with the presence of a low-melting paramagnetic alloy between the Nd 2 Fe 14 B phase grains <ref type="bibr" target="#b34">[35]</ref>.</s><s>On the other hand, heat treatment is a post-processing method known to enhance the coercivity of sintered magnets <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b36">37]</ref>, and it has been reported that it increases the magnetic properties of SLM-NdFeB-printed magnets as well <ref type="bibr" target="#b37">[38]</ref> (where the samples were printed with "sintered magnet alloy" and "near-stoichiometric alloy" powders, which were specifically prepared for this study).</s><s>Furthermore, the use of a copperrich NdFeB alloy has been found to improve the coercivity of SLM-ed magnets <ref type="bibr" target="#b38">[39]</ref>.</s><s>The highest coercivity of SLM NdFeB magnets was reported in this study, with the help of heat treatment.</s><s>The double scanning technique is another method for improving density and magnetic properties by reducing voids and cracks.</s><s>The results indicate that the second scan with half laser power after a full power scan does not cause undesirable phase formation <ref type="bibr" target="#b39">[40]</ref> On one side, laser powder bed fusion (LPBF) systems equipped with single and three-beam lasers were employed to produce NdFeB components.</s><s>This study investigated various process parameters, including the type of laser (pulsed or continuous wave), and their impact on magnetic properties.</s><s>Utilizing the synchronized three-beam method with a two-zone scanning strategy resulted in an increase in the maximum magnetic energy product of 33.42 kJ/m.</s><s>3 .</s><s>Furthermore, the processing time substantially decreased by 38% compared to that of the single-beam method <ref type="bibr" target="#b40">[41]</ref>.</s></p><p><s>On the one hand, a specific real-life application of laser powder bed fused (L-BPF) NdFeB magnets has not yet been extensively documented in the literature.</s><s>However, the adoption of L-PBF for NdFeB magnets is an area of ongoing research and development.</s><s>It is known that permanent magnets, such as NdFeB, can be incorporated into the rotor to create a magnetic field <ref type="bibr" target="#b0">[1]</ref> Hence, the potential applications of L-PBF-produced NdFeB magnets include electric motors.</s><s>The use of NdFeB magnets with cooling channels <ref type="bibr" target="#b7">[8]</ref> could be one of the potential uses of L-PBF-produced NdFeB in electric motor applications.</s><s>AM has the potential for the integration of magnets into rotor structures with precise alignment, contributing to improved magnetic flux and motor efficiency.</s><s>It is well known that customized designs and the ability to optimize the distribution of magnetic materials by AM enhance the performance of motors <ref type="bibr" target="#b41">[42]</ref>.</s></p><p><s>Additionally, it has been reported that AM methods are more cost-effective than traditional methods, particularly for small-batch production.</s><s>The production volume is a significant independent factor, while customization and complexity are considered interchangeable in terms of their impact <ref type="bibr" target="#b42">[43]</ref>.</s><s>More specific studies indicate that magnets produced using Big Area Additive Manufacturing (BAAM) exhibit superior cost-effectiveness compared to injection-molded magnets, with comparable or even enhanced performance <ref type="bibr" target="#b43">[44]</ref>.</s><s>However, there is a lack of specific cost-effectiveness studies on laser powder bed-fused NdFeB magnets.</s><s>Nevertheless, considering the known advantages of AM technology, such as design complexity without additional tool or machining costs and minimal material waste, it is anticipated that L-PBF holds potential as a cost-effective method for producing NdFeB magnets.</s></p><p><s>Table <ref type="table">1</ref> compares the magnetic properties of AM and the sintered magnets.</s><s>L-PBF-processed NdFeB is superior to polymer-based AM techniques in terms of density and magnetic properties, while it is inferior to sintered magnets.</s><s>Increasing the volume fraction of magnetic powder (f) may improve the magnetic properties since the energy product, (BH) max , is proportional to f 2 <ref type="bibr" target="#b17">[18]</ref>.</s></p><p><s>The origin of the high remanence of the NdFeB magnet is the highly anisotropic 2:14:1 tetragonal phase (in this case, Nd 2 Fe 14 B), called the hard magnetic phase and represented by θ.</s><s>This phase has a high saturation magnetization and anisotropy constant, which results in high magnetization.</s><s>To obtain the optimum magnetic performance, fine and homogenously distributed Nd 2 Fe 14 B phases surrounded by an amorphous phase, which isolates adjacent grains and ensures high coercivity, are needed <ref type="bibr" target="#b44">[45]</ref>.</s><s>Therefore, it is important to develop optimum AM processing conditions to attain this desired microstructure.</s><s>In this study, L-PBF was used to process NdFeB powder, and the main objective is to improve the density of L-PBF-printed magnets, reduce defects, and understand the effect of density and pre-heating on magnetic properties.</s></p><p><s>Preheating and rescanning reportedly reduce residual stresses in L-PBF processing of standard alloys (e.g., 316 L stainless steel <ref type="bibr" target="#b49">[50]</ref> and Ti6Al4V <ref type="bibr" target="#b50">[51]</ref>); thus, the use of preheating is examined in this paper.</s><s>The expectation is that a reduction in cracks and porosity within NdFeB samples can be achieved by reducing thermal stresses, with the potential to alter and improve magnetic properties.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Materials and methods</head><p><s>This study used a commercial NdFeB powder with a spherical morphology sourced from Magnequench (MQP-S-11-9-20,001).</s><s>Powders were L-PBF processed using an Aconity Mini (for preliminary experimentation) and an Aconity Lab (for elevated temperature powder bed heating).</s><s>Both systems use a 200-W continuous-mode laser with a 1070 nm wavelength and 50 µm and 80 µm laser spot sizes.</s><s>Cubic samples (10 × 10 × 10 mm) were processed under a purged argon atmosphere (maintaining oxygen levels below 200 ppm).</s><s>For the powder bed heat experiments, the samples were processed using the Aconity Lab L-PBF system.</s><s>Powder bed temperatures were set between 300 and 550 °C in 50 °C increments with oxygen levels below 50 ppm.</s><s>The temperatures of the powder bed were checked using a gun pyrometer.</s><s>The densities of the samples were analyzed using the Archimedes density test in water.</s><s>The morphology of the grains was analyzed using a Nikon optical microscope after etching using nital to reveal the grain boundaries.</s><s>Phase analysis was performed using an XRD system, PANalytical X'Pert 3 (reflection).</s><s>The magnetic properties were tested using a Helmholtz coil-fluxmeter and a permeameter by Arnold Magnetic Technologies.</s><s>The internal porosity analysis was performed using a Micro CT (Nikon Metrology XTH 225/320 LC).</s><s>SEM analysis was performed using Inspect F and Inspect F50.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Powder characterization</head><p><s>Commercial magnetic NdFeB powder (MQP-S-11-9-20,001) possessed particle sizes of d 10 = 20.1 µm, d 50 = 41.1 µm, and d 90 = 70.3</s><s>µm (measured using a Mastersizer 3000 laser diffraction analyzer).</s><s>Figure <ref type="figure" target="#fig_0">1</ref> shows the powder morphology, and Table <ref type="table">2</ref> shows the composition of the powder.</s></p><p><s>Table 1 Additive Manufacturing &amp; Conventional Processing of NdFeB Processing techniques Density percentage% H ci , kA/m B r , T (BH) max .</s><s>(kJ/mm 3 ) Reference Binder jetting 47.2 1129 0.30</s><s>Not reported [18] BAAM 64 688.4 0.51</s><s>Not reported [17] FDM 47.6 740 0.31</s><s>Not reported [16] L-PBF 90.9 516 0.563 35.9 [21] L-PBF Not reported 99.71 0.69 30.4 [38] L-PBF 92 695 0.59 45 [29] L-PBF 86 Not reported 0.51</s><s>Not reported [28] L-PBF 97 Not reported 0.55 Not reported [46] L-PBF 91 603 0.65 62 [47] L-PBF Not reported 885 0.63 63 [19] L-PBF Not reported 825 0.55 [48] L-PBF Not reported 921 0.63 63 [49] Sintered, Arnold Magnetic Technologies Not reported 1592 1.2</s><s>Not reported</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Experimental parameters</head><p><s>In this study, the L-PBF parameters laser power (LP), laser speed (LS), hatch distance (HD), layer thickness (LT), and energy density (ED = LP/(LS*HD*LT)) were studied and optimized to attain high-density defect-free components.</s></p><p><s>The experimental setup comprises two stages.</s><s>The primary objective of the first stage is to identify relatively safe combinations of laser power and laser speed and, subsequently, safe EL while keeping the LT and HD fixed.</s><s>This approach is taken before delving into more detailed process parameters.</s><s>The intention is to establish a foundational understanding in stage 1 before progressing to more comprehensive analyses in stage 2.</s></p><p><s>In the first stage, the processing parameters were set based on published papers by Urban et al. <ref type="bibr" target="#b45">[46]</ref> and Kolb et al. <ref type="bibr" target="#b27">[28]</ref>.</s><s>The former paper identified that samples with laser power (LP) ranging from 40 to 55 W and laser speed (LS) from 1200 to 2000 mm/s exhibited higher magnetic polarization, with a LT and HD of 20 µm.</s><s>Furthermore, their density results indicated that a laser power within the range of 40-55 W and a laser speed between 1000 and 3000 mm/s resulted in relatively high densities.</s><s>Higher laser powers up to 90 W were also investigated.</s><s>Consequently, for the initial stage of the experiment, it was decided to set the laser speed between 1000 and 3000 mm/s and the laser power from 40 to 100 W, with a fixed LT of 20 µm, as per the published paper.</s><s>The HD was fixed at 30 µm due to early experimental failures observed with the combination of 20 µm LT and 20 µm HD.</s><s>All combinations of first-stage process parameters set with LP between 40 and 100 W; LS between 1000 and 3000 mm/s; LT, 20 µm; and HD, 30 µm are detailed in the Appendix.</s><s>On the other hand, the latter paper indicated that an energy density (EL), calculated as LP/LS, between 0.03 and 0.05 Ws/mm <ref type="bibr" target="#b27">[28]</ref> yielded the highest relative density.</s><s>Therefore, only process parameters within this EL range were utilized in the first stage, as shown in the Appendix.</s></p><p><s>In the second stage, the parameter design was based on the outcomes of the first stage.</s><s>In this stage, experiments were broadened to investigate the effect of HD, in addition to investigating the effect of higher laser powers up to 200 W and wider laser speed range from 1500 to 5500 mm/s, in addition to a wider energy density range of 20-130 J/mm 3 .</s></p><p><s>A summary of the printing parameters is shown in Table <ref type="table" target="#tab_0">3</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Preliminary experiment, first stage</head><p><s>There was no successful printing below a laser power of 60 W, as shown in Fig. <ref type="figure">2a</ref> (samples 1 to 5).</s><s>It is assumed that the low laser power (below 60 W) was insufficient to melt the NdFeB powder.</s><s>Interestingly, the failed samples from 1 to 5 (LP, 40-50 W) in Fig. <ref type="figure">2a</ref> have the same ED as the successfully printed samples near them.</s><s>Despite all the EDs being between 50 and 83 J/mm 3 , the only successful printing was obtained with an LP of 60 W and above.</s><s>Additionally, the damage of the samples (samples 6 to 9) is due to the failure of nearby samples.</s><s>This is because the broken pieces and layers from the failed samples (samples 1 to 5) are carried onto these samples by a wiper during powder layer deposition.</s><s>Sample 6 and sample 8 were repositioned and reprinted successfully, as shown in Fig. <ref type="figure">2b</ref>.</s></p><p><s>Some defects are observed on the corners and the bottom of the samples (shown by the red arrows in Fig. <ref type="figure">2a</ref>).</s><s>It is possible that the temperature differences between the cold building platform and the hot melted powder cause thermal stresses and subsequently cause these defects and cracks on the bottom of the samples.</s><s>As the printing progresses, the new layers are melted on the previously melted hot layer.</s><s>The temperature differences between the layers decrease as the building progresses, reducing the thermal stresses on the top part of the samples.</s><s>Table <ref type="table">4</ref> shows the detailed process parameters for the samples produced in Fig. <ref type="figure">2</ref>. The process window is LP from 40 to 100 W in 10-W increments, HD 30 µm and LT 20 µm.</s></p><p><s>Table 2 MQP-S-11-9-20,001-NdFeB powder composition Substance Concentration, weight, % Neodymium 17.2 Praseodymium 1.9 Boron 1.7 Cobalt 2.8 Copper 0.1 Titanium 2.1 Zirconium 4.3 Carbon 0.1 Iron 69.8 Figure <ref type="figure" target="#fig_3">3a</ref> shows that the density of the samples increases with increasing laser energy density.</s><s>The highest density was achieved using 100 W, 95.72%, sample 24, while sample 6 had approximately the same energy density as sample 24 but used 60 W LP, generating a 91.52% sample density.</s><s>Both of these samples are indicated with red circles in Fig. <ref type="figure" target="#fig_3">3a</ref>, and their micro CT scan is shown in Fig. <ref type="figure" target="#fig_4">4</ref>. It can be seen that the higher LP samples have higher densities than the lower LP samples in the same energy density range.</s><s>Another important aspect worth noting is the pronounced effect of laser power on the part density.</s><s>Varying the laser power affects the minimum energy density required for achieving 91% dense NdFeB L-PBF parts.</s><s>Figure <ref type="figure" target="#fig_3">3a</ref> illustrates an inverse relationship between LP and the minimum ED needed for the effective melting of NdFeB powder in the L-PBF process.</s><s>At 60 W LP, a minimum ED of 80 J/mm 3 is needed, whereas at 80 W LP, the minimum ED required to achieve 91% dense parts decreases to 59 J/mm 3 .</s><s>This suggests that the laser power has a more significant impact on NdFeB melting in the laser powder bed fusion process.</s><s>The processing quality is more likely dependent on the laser power; however, increasing the ED also increases the density of the samples, as shown in Fig. <ref type="figure" target="#fig_3">3a</ref>. Figure <ref type="figure" target="#fig_3">3b</ref> shows a similar trend for the magnetic remanence values.</s><s>Higher remanence values were achieved using higher laser powers.</s><s>The maximum B r , 0.658 T, was obtained using 100 W (sample 24, red circle in Fig. <ref type="figure" target="#fig_3">3b</ref>), while the B r value of sample 6 is 0.591 T, red circle in Fig. <ref type="figure" target="#fig_3">3b</ref>.</s><s>Sample 6 was processed using 60 W of LP and contains more lack of fusion (LoF) porosities than sample 24 (as shown in Fig. <ref type="figure" target="#fig_4">4a</ref> and <ref type="figure">b</ref>), while their HD and LT remain the same (the energy densities are nearly the same, 74 J/ mm 3 and 80 J/mm 3 ).</s><s>These LoF porosities reduce the percentage of magnetic structure in the components and hence reduce the B r .</s><s>Additionally, two main phases were detected in sample 6 and sample 24, namely soft magnetic α-Fe and hard magnetic Nd 2 Fe 14 B, as shown in Fig. <ref type="figure" target="#fig_4">4c</ref>.</s><s>It is assumed that the greater amount of the a-Fe phase in sample 6 reduces the B r content by reducing the volume percentage of the hard magnetic phase and because of the soft magnetic structure of α-Fe <ref type="bibr" target="#b28">[29]</ref>.</s><s>The greater amount samples 24-26, 100 W. ED 50-83 J/mm. 3 , scan parameters can be seen in Table 4 (red arrows indicate defects) (samples 17-18-20 and sample 23 were not printed due to software errors) Table 4 Processing parameters of the samples shown in Fig.</s><s>The first stage of the experiments was used to narrow the process parameter window to reduce the risk of failure and to control the effect of the laser power and laser speed on both the density and magnetic properties.</s><s>In the second stage, the process parameter window was widened based on the preliminary results.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Effect of laser power and energy density on sample density</head><p><s>As the laser power increases to 100 W, the density increases, as identified within the preliminary experiments.</s><s>However, further investigations on the laser power show that the density of the samples starts to decrease after 120-130 W despite the energy densities being within the same range as those of the lower laser power samples, as shown in Fig. <ref type="figure">5</ref>.</s><s>The reason for this reduction in sample density may be the result of the higher scan speeds.</s><s>The combination of high laser speed and high laser power generates unstable melt pools that result in low-density samples.</s><s>It is also worth noting that increasing the laser power above 130 W may cause excessive laser energy exposure, causing overheating of the powder and the creation of keyholes within the melt pool; hence, the sample density decreases.</s><s>The laser speed should be low enough to allow sufficient melting and powder consolidation, and the laser power should be high enough to melt the powder but needs to be low enough to avoid overheating the powder.</s><s>In this study, the successful laser power range is defined between 60 and 130 W, based on the results in Figs. <ref type="figure">2</ref> and <ref type="figure">5</ref>.</s></p><p><s>Moreover, no sample could be produced above 125 J/mm 3 due to the excessive energy density causing material evaporation.</s><s>High energy densities created keyholes within the melt pool, creating extremely brittle samples.</s><s>It is essential to maintain the energy density below the maximum critical ED value, 125 J/mm 3 , to avoid keyhole pores.</s><s>In addition, high EDs cause higher residual stresses within the sample <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b52">53]</ref> The combination of tensile stresses occurs on top of the samples due to the material shrinkage caused by rapid cooling, and the compressive stresses on the bottom of the sample <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b53">54]</ref> cause cracks <ref type="bibr" target="#b46">[47]</ref> and consequently material delamination.</s><s>It is essential to maintain the energy density below the critical ED value (in this study, 125 J/mm 3 ) to reduce cracks, delamination, partial distortion <ref type="bibr" target="#b46">[47]</ref>, and keyhole pores.</s><s>However, it is also necessary to generate sufficient energy density to prevent a lack of fusion porosity.</s></p><p><s>Figure <ref type="figure">6a</ref> shows that the high-density sample (95.72%) uses an ED 74 J/mm 3 while Fig. <ref type="figure">6b</ref> shows the lack of fusion pores in the low ED sample (ED 50 J/mm 3 , sample density percentage 88.37%).</s><s>Additionally, the very high LP/fast LS combination (200 W/5500 mm/s) negatively impacts the geometric integrity of the sample, as shown in Fig. <ref type="figure">7a</ref> and <ref type="figure">b</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Magnetic test results/relationship between density and remanence</head><p><s>The densities of the 78 samples plotted with respect to LP from 70 to 200 W and LS from 1500 to 5000 mm/s are shown in Fig. <ref type="figure">8a</ref>.</s><s>Since the energy density takes into account four independent process parameters (ED = LP∕(LS * HD * LT), the HD and LT were kept constant.</s><s>The red areas represent regions of high density within the samples.</s><s>The results show that the maximum obtained density was 7.066 g/cm 3 , which is 94%, based on the theoretical density of NdFeB magnets, which is 7.5 g/cm 3 .</s><s>Furthermore, the remanence values of 57 of the 78 samples were tested by a Helmholtz coil and fluxmeter, and the results are plotted in Fig. <ref type="figure">8b</ref>.</s><s>The arrows in Fig. <ref type="figure">8b</ref> show the direction of increasing scan speed; consequently, the solidification process is faster, resulting in higher remanences.</s><s>The results correspond to published results by J. Jaćimović et al. <ref type="bibr" target="#b28">[29]</ref>.</s><s>Generally, the remanence increases as the sample density increases, as shown in Fig. <ref type="figure">8c</ref>.</s><s>All the high magnetic samples have a high density; however, not all the high density samples are highly magnetic.</s><s>Figure <ref type="figure">8d</ref> shows that higher B r values are obtained for ELs between 0.03 and 0.04 W/mm with EDs between 75 and 100 J/mm 3 .</s><s>The B r value decreases to 0.03 T by increasing EL to 0.05 Ws/mm and ED to 125 J/mm 3 .</s><s>It is concluded that the magnetic properties are related not only to the density of the samples but also to the cooling rate.</s><s>The following section will discuss in more detail the analysis of the specific parameter contributions to the phases and magnetic properties.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Relationship between the phase and magnetic properties</head><p><s>The maximum energy product, (BH) max , is one of the essential magnetic properties used to evaluate the performance of permanent magnetic materials.</s><s>It is the maximum BH value in the second quadrant of the hysteresis loop <ref type="bibr" target="#b34">[35]</ref>.</s><s>Thus, the remanence, B r, needs to be considered to improve the magnetic performance.</s><s>In our case, the XRD analyses show that the remanence, B r , increases as the volume fraction of the Nd 2 Fe 14 B phase increases, as shown in Fig. <ref type="figure" target="#fig_6">9a</ref>.</s><s>The reason for this increase is the high saturation magnetization of the Nd 2 Fe 14 B phase, which improves the remanence <ref type="bibr" target="#b54">[55]</ref>.</s><s>Coercivity is the resistance to demagnetization of the magnet, and thus, it is the other important magnetic property to assign to high-performance magnets <ref type="bibr" target="#b55">[56]</ref>.</s><s>High magnetocrystalline anisotropy is one of the requirements for high coercivity.</s><s>Low magnetocrystalline anisotropy is observed in high-symmetry systems, such as Fe, which means that there are many easy axes in the structure, and magnetic domains are easily aligned in many different directions by an external field.</s><s>However, in less symmetrical systems with high magnetocrystalline anisotropy, such as the tetragonal Nd 2 Fe 14 B phase, there are only two axes whose domains can easily align.</s><s>In this phase, more energy is needed to change the domain structure.</s><s>Therefore, magnetic domain motion is restricted, preventing decoupling between domains, which improves coercivity <ref type="bibr" target="#b54">[55]</ref>.</s><s>Graph b in Fig. <ref type="figure" target="#fig_6">9</ref> shows the increase in the intrinsic coercivity, H ci , value with increasing volume fraction of the Nd 2 Fe 14 B phase, possibly resulting from the high magnetocrystalline anisotropy of the Nd 2 Fe 14 B phase.</s><s>There is a clear increasing trend in the B r value with increasing volume fraction of the Nd 2 Fe 14 B phase, as shown in Fig. <ref type="figure" target="#fig_6">9a</ref>, while there is a decreasing trend in the B r and H ci values with increasing volume fraction of the α-Fe phase, as shown in Fig. <ref type="figure" target="#fig_6">9c</ref> and <ref type="figure">d</ref>.</s><s>This decrease is because the magnetically soft α-Fe phase reduces the amount of the hard magnetic phase, Nd 2 Fe 14 B, and reduces the remanence.</s><s>Furthermore, since α-Fe is a soft magnetic phase and easily demagnetized, it acts as the center of reversed magnetic domains, lowering the coercivity <ref type="bibr" target="#b28">[29]</ref>.</s></p><p><s>The smaller the residual sum of squares is, the better the fit of the data, and the greater the residual sum of squares is, the poorer the fit of the data.</s><s>The errors of H ci /a-Fe and H ci / Nd 2 Fe 14 B are high.</s><s>Even for the generally decreasing intrinsic coercivity trend observed with increasing a-Fe phase and decreasing Nd 2 Fe 14 B phase, the relationships between these phases are not linear.</s><s>Therefore, it is confirmed that H ci is related not only to the phase but also to the microstructure <ref type="bibr" target="#b20">[21]</ref>.</s><s>On the other hand, even though the fitting is greater in the B r /Nd 2 Fe 14 B and B r /a-Fe graphs, the error values are not 0.</s><s>This is possibly due to the cracks and porosities within them, which affect the amount of magnetic phase Nd 2 Fe 14 B in the samples.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Relationship between the phase/laser power and the phase/laser speed</head><p><s>The relationship between the laser power and magnetic properties was investigated for the LP samples from 100 to 180 W with 10-W increments, LS 3500 mm/s, HD 20 µm, LT 20 µm.</s><s>The results are shown in Fig. <ref type="figure" target="#fig_7">10</ref>.</s><s>The maximum B r value, 0.74 T, was obtained at LP 130 W, and the highest H c value, 737 kA/m, was obtained at LP 120 W. The decrease in B r and H ci values after 130 W and 120 W, respectively, is similar to that found in the reduction in density of the samples after 120-130 W. The reason behind the decrease in B r and H ci is the decreasing density of the samples due to the high EL, which produces an unstable melt pool in the powder bed.</s><s>The samples with a 140-W laser power have EL = 0.04 Ws/mm and ED = 100 J/mm 3 , and the samples having higher laser powers than 140 W result in higher EL and ED values, which reduces B r , which supports the results in Fig. <ref type="figure">8d</ref>.</s><s>The trends in the laser power B r and laser power H ci graphs are related to the volume fraction of the Nd 2 Fe 14 B and α-Fe phases.</s><s>The increase in B r is directly proportional to the increasing volume fraction of the Nd 2 Fe 14 B phase and decreasing α-Fe phase, as shown in Fig. <ref type="figure" target="#fig_7">10</ref>.</s></p><p><s>Figure <ref type="figure" target="#fig_0">11</ref> shows the effect of laser speed on the B r value.</s><s>B r improves from 0.389 T to 0.622 T with a decrease in LS from 3250 to 2000 mm/s.</s><s>An increase in LS was expected to improve the B r value since it increases the cooling rate.</s><s>However, it was noted that the ED is very low and not capable of fully melting the powder.</s><s>Low EDs cause poor fusion; hence, there is a lack of fusion porosity <ref type="bibr" target="#b46">[47]</ref>.</s><s>In Fig. <ref type="figure" target="#fig_0">11</ref>, B r improves from 0.389 to 0.622 T by decreasing the laser Fig. 11 B r and density of the sample with respect to laser speed, HD 40 µm and LT 20 µm, taken by a Helmholtz coil and fluxmeter</s></p><p><s>speed due to the increase in ED from 38 to 62 J/mm 3 .</s><s>It is also observed that the EL is above 0.04 Ws/mm for the samples with higher B r , 0.52 T, and above.</s><s>However, they are not negatively affected by the high EL rates, which was expected based on the previously discussed result in Fig. <ref type="figure">8d</ref>.</s><s>This is because the HD of the samples plotted in Fig. <ref type="figure" target="#fig_0">11</ref> is 40 μm, while it is 20 μm for the samples plotted in Fig. <ref type="figure">8d</ref>.</s><s>A high HD causes poor melting characteristics and hence requires a slower scan speed, causing a higher EL to be able to melt the powder.</s></p><p><s>It was found that the volume fraction of the Nd 2 Fe 14 B phase is 92% in sample V/3-B r 0.527 T; 90% in sample V/5-B r 0.432 T; and 88.12% in sample V/6-B r 0.389 T, while the volume fractions of a-Fe is 5.28%, 8.08%, and 10.63%, respectively.</s><s>The greater amount of the Nd 2 Fe 14 B phase in the high-B r samples is shown in the XRD patterns in Fig. <ref type="figure" target="#fig_8">12</ref>.</s><s>It is known that a high B r content mainly originates from the hard phase <ref type="bibr" target="#b20">[21]</ref>.</s><s>The density of the samples fluctuates between 90.53 and 93.33%.</s><s>The maximum B r sample also has the maximum density of 93.33%.</s><s>The parameters of the analyzed samples are shown in Table <ref type="table" target="#tab_1">5</ref>. LP was kept constant at 100 W, LS was set from 2000 to 3250 mm/s, HD was 40 µm, and LT was 20 µm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">Heated bed</head><p><s>The temperature on the build platform was measured using a thermocouple to ascertain the actual temperature on the build platform before being subjected to the heated bed printing.</s></p><p><s>The temperature difference between the system (data collected from the thermocouple fitted under the heated bed) and the temperature on the build platform (data collected by the thermocouple connected on the build platform, which is placed on the heated bed) was measured.</s><s>The thermocouple measurement results are plotted in Fig. <ref type="figure" target="#fig_3">13a</ref>.</s><s>The difference is small, between 10 and 100 °C, until 380 °C, after which it increases to 160 °C until cooling starts at 75 min.</s></p><p><s>It was then decided to use a heated bed with low temperatures of 200 °C and 400 °C with the following process parameters: 130 W LP 3500 mm/s, LS 20 µm, LT 30 µm HD to investigate how the system works without compromising the samples at high temperatures.</s><s>Both temperature trials failed due to the extremely brittle samples being created and due to the incomplete fusion/attachment of the sample to the build platform.</s><s>The temperatures of the samples were checked using a gun pyrometer.</s><s>The temperature of the printed sample at 200 °C (thermocouple temperature in the system) was 400 °C (checked by gun pyrometer), and the temperature of the sample processed at 400 °C (thermocouple temperature in the system) was 600 °C (checked by gun pyrometer).</s><s>Pyrometer measurements were taken from the surface of the samples.</s><s>Figure <ref type="figure" target="#fig_3">13b</ref> shows the temperature differences between the sample and the system temperature in detail.</s><s>The temperature difference between the sample and the system was 100 °C at a 380 °C system temperature; then the temperature difference increased to 280 °C by increasing the system temperature to 580 °C.</s><s>It was concluded that the temperature difference increases with increasing set/system temperature and cannot be fully relied upon.</s></p><p><s>The excessive heat within the build platform, generated in combination with the heated bed and laser, made it difficult to produce samples because the first couple of layers did  not attach to the build platform.</s><s>A possible explanation for this may be due to material evaporation caused by excessive heating.</s><s>The other possibility is that rapid cooling, especially if the bed temperature is too high, can lead to quick and uneven contraction.</s><s>This can result in stress within the material and affect adhesion to the build platform.</s><s>It was therefore decided to turn off the heater during the first half of the build to ensure that the samples attached to the platform consistently and did not break due to the powder deposition wiper movement.</s><s>The heater was then turned on for the second half of the build.</s><s>The entire building consisted of 335 layers, and the heated bed was turned on at layer 185.</s><s>A gun pyrometer was used to check the temperature of the samples in the closed chamber after the end of each heated bed trial.</s><s>The selected bed temperatures for the subsequent experiments were initially intended to range from 480 to 880 °C, following the heat treatment temperatures for NdFeB magnets in the literature <ref type="bibr" target="#b36">[37]</ref>.</s><s>However, the temperatures in our study were set between 300 and 550 °C with 50 °C increments since the prior heated bed investigation showed that the sample temperatures were far above the software temperatures: 480 °C for the 380 °C software temperature, 650 °C for the 480 °C software temperature, and 780 °C and 860 °C for the 580 °C software temperature, as presented in Fig. <ref type="figure" target="#fig_3">13b</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7">Effect of the heated bed on the density and magnetic properties of the samples</head><p><s>The heated bed improved the density of the samples from 90 to over 96%.</s><s>Despite this improvement in density, there is no increasing trend between the rising bed temperature and the sample density.</s><s>The average density of the samples is 93.93% at 300 °C, 96.66% at 350 °C, 93.80% at 400 °C, 94.60% at 450 °C, 96.4% at 500 °C, and 96.3% at 550 °C (Fig. <ref type="figure" target="#fig_4">14</ref>).</s><s>The fluctuations in the densities of the three samples at every bed temperature from 300 to 550 °C are likely related to the instability of the building platform.</s></p><p><s>Figure <ref type="figure" target="#fig_10">15</ref> shows the printed samples at 300 °C and 500 °C.</s><s>It is deduced that the delamination near the top surfaces and the corners indicated by the red arrows are related to the faster cooling rates on the top of the samples.</s><s>Printing  ple size: 10 mm × 10 mm × 10 mm); the red arrows point to the cracks and delamination</s></p><p><s>Fig. <ref type="bibr" target="#b15">16</ref> Relationships between a the density percentage of the sample and the heated bed temperature; B r and heated bed temperature; b (BH) max and heated bed temperature; H ci and heated bed tempera-ture.</s><s>Magnetic tests were performed with a permeameter from Arnold Magnetic Technologies (RT, room temperature proceed sample) increment trend, the heated bed improves the B r and (BH) max values, as shown in Fig. <ref type="figure" target="#fig_0">16a</ref> and <ref type="figure">b</ref>.</s><s>B r increases from 0.61 to 0.76 T, while (BH) max increases from 55 to 84 kJ/m 3 .</s><s>Moreover, there is a trend in the (BH) max .</s><s>Despite the fluctuations in the B r and H c values, the (BH) max decreases as the heated bed temperature increases from 400 to 550 °C.</s><s>Regardless of the decreasing trend in the (BH) max , it is still superior to that of the room-temperature-printed sample.</s><s>In contrast, the H c value drops dramatically with the heated bed, from 1000 to below 850 kA/m, as shown in Fig. <ref type="figure" target="#fig_0">16b</ref>.</s><s>In summary, the increasing heated bed temperature shows no trend in either the B r or H c values, while (BH) max decreases with increasing heated bed temperature.</s><s>It is concluded that the heated bed increases the density of the sample, hence increasing the remanence by increasing the percentage of the magnetic content in the entire structure.</s><s>The heated bed decreases the cooling rate, which is expected to result in a lower percentage of the θ phase in the samples.</s><s>However, Fig. <ref type="figure" target="#fig_0">16a</ref> shows improvements in the B r values; hence, it is concluded that the effect of density improvement is greater than the effect of lower cooling rates on B r .</s><s>Even though the heated bed reduces the cooling rates with extra energy input from bed heating, the cooling rates are still much higher than the cooling rate required for the θ phase.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8">Microstructural evaluation of heated bed printing</head><p><s>The microstructures of the heated bed samples are different from those of the room-temperature samples.</s><s>The grain morphology in the room-temperature samples is more globular than that in the heated bed samples, as shown in Fig. <ref type="figure" target="#fig_11">17</ref>.</s><s>In comparison, the dendritic grains observed in the heated bed samples are mostly oriented in the direction of the building, as shown in Fig. <ref type="figure" target="#fig_11">17a</ref>, <ref type="figure">b</ref>, and <ref type="figure">c</ref>.</s><s>The decrease in the intrinsic coercivity of the heated bed samples may be related to dendritic grain formation.</s><s>The lower cooling rates of the heated bed cause in situ heat treatment during and after the build, allowing grains to grow larger, while high cooling rates in the room temperature process result in finer grains.</s><s>It is known that the smaller grains increase the coercivity <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b21">22]</ref>, and it is known from the literature that homogenously distributed grains are needed to improve coercivity <ref type="bibr" target="#b56">[57]</ref>.</s><s>In addition, irregularly shaped grains and grain boundaries also reduce the coercivity <ref type="bibr" target="#b54">[55]</ref>.</s><s>Thus, it can be deduced that the dendritic grains and the larger grains in the heated bed samples could be the reason for the decrease in intrinsic coercivity within the samples when using the heated bed.</s><s>However, B r improved with the use of the heated bed, possibly due to the lower porosity in the heated bed samples.</s><s>the HAZ; and d coarse and fine grain areas in the MPZ; red arrows indicate the z-axis</s></p><p><s>The microstructural evolution of the NdFeB-heated bedprinted sample is complicated due to the different cooling rates in the melt pool zone (MPZ) and the heat-affected zone (HAZ).</s><s>Two different grain morphologies were observed in the MPZ and HAZ. Figure <ref type="figure" target="#fig_12">18</ref> shows the top view of the sample at 400 °C.</s><s>The grains in the MPZ are more spherical and smaller than those in the HAZ.</s><s>Since the grains in the HAZ were exposed to heat from the previously scanned powder, they had more time to grow.</s><s>Hence, grain sizes gradually decrease from the bottom of the MPZ to the top of the MPZ, as shown in Fig. <ref type="figure" target="#fig_12">18d</ref>.</s></p><p><s>Figure <ref type="figure" target="#fig_13">19</ref> shows the cross-section of the 400 ℃ sample.</s><s>The melt pool lines can be seen in Figs.</s><s><ref type="figure" target="#fig_13">19a</ref> and <ref type="figure">b</ref>.</s><s>A closer look at the HAZ and MPZ shows that equiaxed grains are observed in the MPZ, while columnar grains are observed in the HAZ/melt pool line, as shown in Fig. <ref type="figure" target="#fig_13">19c</ref> and <ref type="figure">d</ref>, respectively.</s></p><p><s>In the samples produced at 400 °C, columnar dendritic grains are observed only at the melt pool line (HAZ), and globular and equiaxed grains are observed in the MPZ.</s><s>A different microstructure is observed in the 500 °C-printed samples.</s><s>The higher temperatures cause the columnar dendritic grains to be not only in the melt pool line but also in the melt pool zones since the heat-affected area expands into the melt pool zone, as shown in Fig. <ref type="figure" target="#fig_14">20a</ref> and <ref type="figure">b</ref>.</s><s>The grains in the MPZs are mostly columnar dendrites, where they narrow and cross each other and cause slower cooling rates, which allows for dendritic growth.</s><s>However, there are still globular/equiaxed grains in the middle of the larger MPZ where the cooling rates are faster, as shown in Fig. <ref type="figure" target="#fig_14">20  c</ref> and <ref type="figure">d</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Conclusions</head><p><s>• In this study, L-PBF processing conditions were studied with the aim of optimizing the component density and observing the resultant magnetic properties of NdFeB magnets.</s></p><p><s>• There are defects in the samples, mainly on the sample edges and at the bottom of the samples near the build platform.</s><s>These defects may result from the temperature differences between the build platform and the hot melted powder above them.</s><s>The temperature difference between the layers decreases as the build progresses, reducing the thermal stresses on the top of the samples.</s></p><p><s>• A high laser power/high laser scan speed combination of 100 W/3000 mm/s created higher sample density and remanence values than a low laser power/low laser scan speed combination of 60 W/1250 mm/s, both of which resulted in nearly the same energy density.</s><s>It is concluded that the printing quality is more likely dependent on the laser power; however, increasing the energy density also increases the density of the samples.</s><s>The greater amount of α-Fe phases detected in the low laser power/low laser scan speed combination can be attributed to the low B r , in addition to the increased lack of fusion pores within them.</s><s>In addition, it is essential to maintain the laser power above 50 W to melt the powder.</s></p><p><s>• The density of the samples increases with increasing laser power up to 120-130 W and then starts to decrease.</s><s>It is essential to set a high enough energy density value to melt the powder well.</s><s>However, it is also essential not to exceed the critical energy density to avoid material boiling and excessive keyhole formation during printing.</s><s>Therefore, one of the key points in obtaining high-density samples is to maintain the energy density below a critical energy density value.</s><s>In this study, the critical energy density was 125 J/mm 3 .</s></p><p><s>• Improving the sample density is not the only concern when trying to maximize magnetic performance; there is no linear relationship between the remanence and the density.</s><s>All the high-magnetism samples had high density, but not all the high-density samples had high magnetism.</s><s>It can therefore be concluded that the cooling rates, hence the phases and the microstructure, are vital considerations when trying to understand the generated magnetic properties.</s><s>The energy line (laser power/laser scan speed) is another important parameter that needs to be considered.</s><s>This study revealed that an energy line between 0.03 and 0.04 Ws/mm resulted in a higher remanence.</s><s>In contrast, the remanence tends to decrease with increasing energy to 0.05 Ws/mm.</s><s>It was found that the higher B r samples were obtained with energy lines between 0.03 and 0.04 Ws/mm and with energy densities between 75 and 100 J/mm 3 , while the B r values decreased with increasing energy lines to 0.05 Ws/mm and energy densities to 125 J/mm 3 .</s><s>It is also concluded that the high-B r samples are a result of faster scans.</s></p><p><s>• The magnetic properties are highly dependent on Nd 2 Fe 14 B, which is a strong magnetic phase and a magnetically soft α-Fe phase.</s><s>A higher magnetic phase (Nd 2 Fe 14 B) was detected in the samples with higher B r and H ci values.</s><s>In contrast, the lower α-Fe phase found in the samples has higher B r and H ci values.</s></p><p><s>• Up to 95.72% dense samples were obtained with an energy density below 100 J/mm 3 and an energy line between 0.028 and 0.45 Ws/mm.</s></p><p><s>• The maximum properties obtained by parameter optimization are B r 0.72 T and BH max 81 kJ/mm 3 .</s><s>These are the highest properties obtained in the published literature to date with MQP-S-11-9-20,001 by L-PBF without postprocessing or element doping.</s></p><p><s>• The density percentage of the samples improved with the use of the heated bed (increasing from 90 to 96%).</s><s>However, no linear relationship is observed within the elevated bed temperature range and density increase.</s><s>The instability of the heated bed is one of the reasons for fluctuations in the density of the samples.</s></p><p><s>• The remanence of the samples increased with the heated bed, while the intrinsic coercivity decreased.</s><s>The former is related to the sample density increase and possibly a higher θ phase, and the latter is related to the larger and more dendritic grains in the heated bed samples.</s><s>B r is related to the θ phase in the samples, while intrinsic coercivity is related to the phase distribution and homogeneity and the composition of the grain boundary phases.</s><s>The non-uniform and irregular Nd-rich phase reduces the coercivity.</s></p><p><s>• In this paper, while changes in grain morphology and their impact on coercivity were partially elucidated through SEM images of heated bed samples, a comprehensive investigation, including EBSD analyses, would significantly enhance the understanding of the influence of laser parameters on grain morphology <ref type="bibr" target="#b57">[58,</ref><ref type="bibr" target="#b58">59]</ref>.</s><s>A more in-depth analysis, encompassing aspects such as grain size, grain shape, orientation, and the consequential alterations in magnetic properties, is a good recommendation for future studies.</s><s>Exploring the grain texture of LPBF-produced NdFeB and its correlation with magnetic properties would contribute valuable insights to the evolving field of additive manufacturing of NdFeB magnets.</s></p><p><s>• It was observed that the dendritic-shaped grains are larger and greater in number in the high-temperatureheated bed samples due to their slower cooling rates.</s></p><p><s>• The maximum properties obtained by the heated bed are as follows: B r , 0.76 T; H ci , 750 kA/m; and (BH) max , 84 kJ/ m 3 at 400 °C.</s></p><p><s>• Systematic experiments with variations in bed temperature and relevant printing parameters are needed to determine the optimal temperature range for effective layer adhesion and minimal delamination on top of the samples while achieving the desired magnetic properties.</s></p><p><s>• L-PBF processing of NdFeB powder is highly sensitive and challenging due to the rapid cooling rates generated during this process.</s><s>The magnetic properties can be improved by optimizing the process parameters and through the use of a heated bed.</s><s>However, the magnetic properties of these materials are still lower than those of their conventionally sintered counterparts, which are approximately B r 1-1.3 T and H ci 870-2700 kA/m (data taken from Arnold Magnetic Technologies).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix 1</head><p><s>Sets of parameters based on the studies by</s></p><p><s>Urban et al. and Kolb et al.</s><s>Process parameters not numbered in the table were excluded from the initial stage of the experiment since their respective EL values fell outside the range of 0.03-0.05</s><s>Ws/mm Sample ID Laser power, W Laser speed, mm/s Energy line, Ws/mm 1 40 1000 0.04 2 40 1250 0.032 40 1500 0.026666667 40 1750 0.022857143 40 2000 0.02 40 2250 0.017777778 40 2500 0.016 40 2750 0.014545455 40 3000 0.013333333 3 50 1000 0.05 4 50 1250 0.04 5 50 1500 0.033333333 50 1750 0.028571429 50 2000 0.025 50 2250 0.022222222 50 2500 0.02 50 2750 0.018181818 50 3000 0.016666667 60 1000 0.06 6 60 1250 0.048 7 60 1500 0.04 8 60 1750 0.034285714 9 60 2000 0.03 60 2250 0.026666667 60 2500 0.024 60 2750 0.021818182 60 3000 0.02 70 1000 0.07 70 1250 0.056 10 70 1500 0.046666667 11 70 1750 0.04 12 70 2000 0.035 Sample ID Laser power, W Laser speed, mm/s Energy line, Ws/mm 13 70 2250 0.031111111 70 2500 0.028 70 2750 0.025454545 70 3000 0.023333333 80 1000 0.08 80 1250 0.064 80 1500 0.053333333 14 80 1750 0.045714286 15 80 2000 0.04 16 80 2250 0.035555556 17 80 2500 0.032 80 2750 0.029090909 80 3000 0.026666667 90 1000 0.09 90 1250 0.072 90 1500 0.06 90 1750 0.051428571 18 90 2000 0.045 19 90 2250 0.04 20 90 2500 0.036 21 90 2750 0.032727273 22 90 3000 0.03 100 1000 0.1 100 1250 0.08 100 1500 0.066666667 100 1750 0.057142857 23 100 2000 0.05 24 100 2250 0.044444444 25 100 2500 0.04 26 100 2750 0.036363636</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc><div><p><s>Fig. 1 SEM image of the NdFeB powder MQP-S-11-9-20,001</s></p></div></figDesc><graphic coords="5,308.98,500.25,232.44,191.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 Table 4</head><label>24</label><figDesc><div><p><s>Fig. 2 Processed samples using Aconity mini, LP a samples 1-2; 40 W; samples 3-5, 50 W; samples 6-9, 60 W; samples 10-13, 70 W; samples 14-15, 80 W; b sample 16, 80 W; samples 19-22, 90 W;</s></p></div></figDesc><graphic coords="7,53.86,57.76,487.56,232.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc><div><p><s>the a-Fe phase and the lower amount of the Nd 2 Fe 14 B phase in sample 6 are likely due to the low LP/LS ratio, which causes lower cooling rates.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 a</head><label>3</label><figDesc><div><p><s>Fig. 3 a Relationship between the energy density, sample density, and laser power; b relationship between sample density, remanence, and laser power</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4</head><label>4</label><figDesc><div><p><s>Fig. 4 Micro-CT images; a sample 24, LP 100 W-ED 74 J/mm 3 and b sample 6, LP 60 W-ED 80 J/mm 3 , side view of the samples; c XRD patterns of printed samples 6 and 24, where the blue arrow points to the α-Fe phase</s></p></div></figDesc><graphic coords="8,53.86,345.46,487.56,201.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 Fig. 6 Fig. 7 aFig. 8 a</head><label>5678</label><figDesc><div><p><s>Fig. 5 Relationships between the ED and density of the samples with various laser powers (80-150 W, HD 20 µm-LT 20 µm)</s></p></div></figDesc><graphic coords="9,308.98,57.76,232.44,239.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 9</head><label>9</label><figDesc><div><p><s>Fig. 9 Relationships between a the volume fractions of Nd 2 Fe 14 B and B r ; b the volume fractions of Nd 2 Fe 14 B and H ci ; c the volume fractions of α-Fe and B r ; and d the volume fractions of α-Fe and H ci</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 10</head><label>10</label><figDesc><div><p><s>Fig. 10 Relationships between the LP, B r , and H ci volume fractions of Nd 2 Fe 14 B and α-Fe, LS 3500 mm/s, LT 20 µm, and HD 20 µm</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 12</head><label>12</label><figDesc><div><p><s>Fig.12XRD pattern of sample V/1-V/3-V/4-V/5, which is plotted in Fig.11</s></p></div></figDesc><graphic coords="13,184.25,548.30,360.00,167.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 13 aFig. 14</head><label>1314</label><figDesc><div><p><s>Fig. 13 a Build platform temperature vs. time versus software temperature vs. time; b sample temperature vs. time versus software temperature vs. time</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 15</head><label>15</label><figDesc><div><p><s>Fig.<ref type="bibr" target="#b14">15</ref> Heated bed-printed samples; bed temperatures at a 300 ℃ (410 ℃); b 500 ℃; and c 500 ℃.</s><s>The temperatures in the parentheses were checked with a gun pyrometer after the printing finished (sam-</s></p></div></figDesc><graphic coords="15,53.86,57.76,487.56,256.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 17</head><label>17</label><figDesc><div><p><s>Fig.17SEM images of the heated bed-printed samples a at 400 °C, b at 450 °C, and c at 500 °C; d the RT-printed sample; the red arrows indicate the z-axis build direction</s></p></div></figDesc><graphic coords="16,53.86,57.76,487.56,403.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 18</head><label>18</label><figDesc><div><p><s>Fig. 18 SEM micrographs of the L-PBF-heated bed-printed samples at 400 °C-top view a laser scan tracks of the microstructure; b melt pool zone (MPZ) and heat-affected zone (HAZ); c a closer look at</s></p></div></figDesc><graphic coords="17,53.86,57.76,487.56,476.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 19</head><label>19</label><figDesc><div><p><s>Fig. 19 SEM micrographs of L-PBF-heated bed-printed samples at 400 ℃ cross-section: a melt pool lines; b closer evaluation at the melt pool line (HAZ) and melt pool zone (MPZ); c fine grains in the MPZ; and d closer evaluation at the HAZ</s></p></div></figDesc><graphic coords="18,53.86,57.76,487.56,471.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 20</head><label>20</label><figDesc><div><p><s>Fig. 20 SEM micrographs of L-PBF heated bed samples at 500 ℃ cross-section: a laser scan tracks/melt pool lines on the sample; b closer view of the overlapped melt pool zones (MPZ); c middle of the MPZ with finer grains; and d closer view of the HAZ and MPZ</s></p></div></figDesc><graphic coords="19,53.86,57.76,487.56,456.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><graphic coords="10,184.25,57.76,360.00,140.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 3</head><label>3</label><figDesc><div><p><s>Summary of the process parameters-first stage and second stage</s></p></div></figDesc><table><row><cell>Parameter</cell><cell>First stage</cell><cell>Second stage</cell></row><row><cell>Hatch distance, µm</cell><cell>30</cell><cell>20-30-40</cell></row><row><cell>Layer thickness, µm</cell><cell>20</cell><cell>20</cell></row><row><cell>Laser power, W</cell><cell>40-100</cell><cell>70-200</cell></row><row><cell>Laser speed, mm/s</cell><cell>1000-3000</cell><cell>1500-5500</cell></row><row><cell>Energy density, J/mm 3</cell><cell>50-83</cell><cell>20-130</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 5</head><label>5</label><figDesc><div><p><s>Process parameters of the samples from V/1 to V/6</s></p></div></figDesc><table><row><cell cols="3">Sample ID Laser power, W Laser</cell><cell cols="2">EL, Ws/mm Density</cell></row><row><cell></cell><cell></cell><cell>speed,</cell><cell></cell><cell>percent-</cell></row><row><cell></cell><cell></cell><cell>mm/s</cell><cell></cell><cell>age, %</cell></row><row><cell>V/1</cell><cell>100</cell><cell>2000</cell><cell>0.05</cell><cell>93.33</cell></row><row><cell>V/2</cell><cell>100</cell><cell>2250</cell><cell>0.044</cell><cell>90.53</cell></row><row><cell>V/3</cell><cell>100</cell><cell>2500</cell><cell>0.04</cell><cell>91.33</cell></row><row><cell>V/4</cell><cell>100</cell><cell>2750</cell><cell>0.036</cell><cell>91.2</cell></row><row><cell>V/5</cell><cell>100</cell><cell>3000</cell><cell>0.033</cell><cell>91.66</cell></row><row><cell>V/6</cell><cell>100</cell><cell>3250</cell><cell>0.030</cell><cell>90.94</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>The authors gratefully acknowledge <rs type="person">Justin Mitchell</rs> and <rs type="person">Doug Walston</rs> from <rs type="affiliation">Arnold Magnetic Technologies for Helmholtz coil</rs> tests /Magnetic Tests.</s><s>The authors would like to thanks the <rs type="institution" subtype="infrastructure">EPSRC Future Manufacturing Hub in Manufacture using Advanced Powder Processes (MAPP)</rs> (<rs type="grantNumber">EP/P006566/1</rs>) for their support during this investigation.</s></p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p><s>This study was funded by the <rs type="funder">Republic of Türkiye Ministry of National Education, HiETA Technologies Limited</rs>, and <rs type="funder">Equipmake</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_T4uhFva">
+					<idno type="grant-number">EP/P006566/1</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">EPSRC Future Manufacturing Hub in Manufacture using Advanced Powder Processes (MAPP)</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p><s>The data that support the findings of this study are available from the corresponding author, Kübra Genç, upon reasonable request.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p><s>The authors declare no competing interests.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Author contribution Conceptualization, Kübra Genç; data curation, Kübra Genç and Sirapob Toyting; formal analysis, Kübra Genç; funding acquisition, Kamran Mumtaz; investigation, Kübra Genç and Sirapob Toyting; methodology, Kübra Genç; project administration, Kübra Genç; supervision, Kamran Mumtaz and Iain Todd; validation, Kübra Genç; visualization, Kübra Genç and Sirapob Toyting; writingoriginal draft, Kübra Genç; and writing-review and editing, Kamran Mumtaz and Enrique Galindo-Nava.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations</head><p><s>Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rahman</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/iecon.1993.339004</idno>
+		<ptr target="https://doi.org/10.1109/iecon.1993.339004" />
+		<title level="m">Modern electric motors in electronic world IECON Proceedings (Industrial Electronics Conference)</title>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="644" to="648" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rahman MA (1993) Modern electric motors in electronic world IECON Proceedings (Industrial Electronics Conference) 2:644- 648. https:// doi. org/ 10. 1109/ iecon. 1993. 339004</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Eddy-current loss analysis in PM of surface-mounted-PM SM for electric vehicles</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kesamaru</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/20.877826</idno>
+		<ptr target="https://doi.org/10.1109/20.877826" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Magn</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4 PART 1</biblScope>
+			<biblScope unit="page" from="1936" to="1940" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yoshida K, Hita Y, Kesamaru K (2000) Eddy-current loss anal- ysis in PM of surface-mounted-PM SM for electric vehicles. IEEE Trans Magn 36(4 PART 1):1936-1940. https:// doi. org/ 10. 1109/ 20. 877826</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Magnet eddy-current loss analysis of interior PM machines for electric vehicle application</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TMAG.2017.2700850</idno>
+		<ptr target="https://doi.org/10.1109/TMAG.2017.2700850" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Magn</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu Y, Zhu S, Liu C (2017) Magnet eddy-current loss analysis of interior PM machines for electric vehicle application. IEEE Trans Magn 53(11):1-4. https:// doi. org/ 10. 1109/ TMAG. 2017. 27008 50</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Design optimization and eddy current losses analysis of permanent magnets in PMSM</title>
+		<author>
+			<persName><forename type="first">Xwx</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jlj</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Psp</forename><surname>Song</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CEFC-06.2006.1632979</idno>
+		<ptr target="https://doi.org/10.1109/CEFC-06.2006.1632979" />
+	</analytic>
+	<monogr>
+		<title level="m">12th Biennial IEEE Conference on Electromagnetic Field Computation</title>
+		<imprint>
+			<date type="published" when="2006">2006. 2006</date>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">4244</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang XWX, Li JLJ, PSP Song (2006) Design optimization and eddy current losses analysis of permanent magnets in PMSM. 2006 12th Biennial IEEE Conference on Electromagnetic Field Computation, vol. 38, no. 2, p. 4244, https:// doi. org/ 10. 1109/ CEFC-06. 2006. 16329 79</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Study on the influence of internal water cooling system on the loss of permanent magnet synchronous motor</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.5041185</idno>
+		<ptr target="https://doi.org/10.1063/1.50411" />
+	</analytic>
+	<monogr>
+		<title level="j">AIP Conf Proc</title>
+		<imprint>
+			<date type="published" when="1971">2018. 1971</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yin H, Huang S, Li H (2018) Study on the influence of internal water cooling system on the loss of permanent magnet synchro- nous motor. AIP Conf Proc 1971. https:// doi. org/ 10. 1063/1. 50411</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effect of shape of magnet on the machining of workpiece</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Srinivas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Murtaza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Aggarwal</surname></persName>
+		</author>
+		<idno type="DOI">10.35940/ijrte.B1367.0982S1119</idno>
+		<ptr target="https://doi.org/10.35940/ijrte.B1367.0982S1119" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Recent Technol Eng</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="2909" to="2913" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Srinivas K, Murtaza Q, Aggarwal AK (2019) Effect of shape of magnet on the machining of workpiece. Int J Recent Technol Eng 8(2 Special Issue 11):2909-2913. https:// doi. org/ 10. 35940/ ijrte. B1367. 0982S 1119</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of the magnet shape on the performance of coreless axial flux permanent magnet synchronous generator</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Madanzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ssh</forename><surname>Bukhari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Akhtar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ro</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00202-021-01338-x</idno>
+		<ptr target="https://doi.org/10.1007/s00202-021-01338-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Electr Eng</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="959" to="968" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amin S, Madanzadeh S, Khan S, Bukhari SSH, Akhtar F, Ro JS (2022) Effect of the magnet shape on the performance of coreless axial flux permanent magnet synchronous generator. Electr Eng 104(2):959-968. https:// doi. org/ 10. 1007/ s00202-021-01338-x</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Net shape 3D printed NdFeB permanent magnet</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jaćimović</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.201700098</idno>
+		<ptr target="https://doi.org/10.1002/adem.201700098" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jaćimović J et al (2017) Net shape 3D printed NdFeB permanent magnet. Adv Eng Mater 19(8):1-7. https:// doi. org/ 10. 1002/ adem. 20170 0098</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Developments in the processing and properties of NdFeb-type permanent magnets</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0304-8853(02)00334-7</idno>
+		<ptr target="https://doi.org/10.1016/S0304-8853(02)00334-7" />
+	</analytic>
+	<monogr>
+		<title level="j">J Magn Magn Mater</title>
+		<imprint>
+			<biblScope unit="volume">248</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="432" to="440" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown D, Ma BM, Chen Z (2002) Developments in the processing and properties of NdFeb-type permanent magnets. J Magn Magn Mater 248(3):432-440. https:// doi. org/ 10. 1016/ S0304-8853(02) 00334-7</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Access</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/266/1/012052</idno>
+		<ptr target="https://doi.org/10.1088/1742-6596/266/1/012052" />
+		<title level="m">The preparation of sintered NdFeB magnet with high-coercivity and high temperature-stability The preparation of sintered NdFeB magnet high-coercivity and high temperaturestability</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Access O (2011) The preparation of sintered NdFeB magnet with high-coercivity and high temperature-stability The preparation of sintered NdFeB magnet high-coercivity and high temperature- stability, https:// doi. org/ 10. 1088/ 1742-6596/ 266/1/ 012052</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The origin of coercivity decrease in fine grained Nd-Fe-B sintered magnets</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohkubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sagawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmmm.2008.10.032</idno>
+		<ptr target="https://doi.org/10.1016/j.jmmm.2008.10.032" />
+	</analytic>
+	<monogr>
+		<title level="j">J Magn Magn Mater</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1100" to="1105" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li WF, Ohkubo T, Hono K, Sagawa M (2009) The origin of coer- civity decrease in fine grained Nd-Fe-B sintered magnets. J Magn Magn Mater 321(8):1100-1105. https:// doi. org/ 10. 1016/j. jmmm. 2008. 10. 032</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Production of thick high-performance sintered neodymium magnets by grain boundary diffusion treatment with dysprosium-nickelaluminum alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Oono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kasada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kimura</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmmm.2010.09.021</idno>
+		<ptr target="https://doi.org/10.1016/j.jmmm.2010.09.021" />
+	</analytic>
+	<monogr>
+		<title level="j">J Magn Magn Mater</title>
+		<imprint>
+			<biblScope unit="volume">323</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="297" to="300" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oono N, Sagawa M, Kasada R, Matsui H, Kimura A (2011) Pro- duction of thick high-performance sintered neodymium magnets by grain boundary diffusion treatment with dysprosium-nickel- aluminum alloy. J Magn Magn Mater 323(3-4):297-300. https:// doi. org/ 10. 1016/j. jmmm. 2010. 09. 021</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Microstructure and magnetic properties of NdFeB sintered magnets diffusion-treated with Cu/Al mixed DyCo alloy-powder</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Jang</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/amm-2017-0189</idno>
+		<ptr target="https://doi.org/10.1515/amm-2017-0189" />
+	</analytic>
+	<monogr>
+		<title level="j">Arch Metall Mater</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1263" to="1266" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee MW, Bae KH, Lee SR, Kim HJ, Jang TS (2017) Microstruc- ture and magnetic properties of NdFeB sintered magnets diffu- sion-treated with Cu/Al mixed DyCo alloy-powder. Arch Metall Mater 62(2):1263-1266. https:// doi. org/ 10. 1515/ amm-2017-0189</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Binder jetting : a novel NdFeB bonded magnet fabrication process</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Paranthaman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-016-1883-4</idno>
+		<ptr target="https://doi.org/10.1007/s11837-016-1883-4" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1978" to="1982" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paranthaman MP et al (2016) Binder jetting : a novel NdFeB bonded magnet fabrication process. 68(7):1978-1982. https:// doi. org/ 10. 1007/ s11837-016-1883-4</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Fabrication, processing technologies, and new advances for RE-Fe-B magnets</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TMAG.2016.2535482</idno>
+		<ptr target="https://doi.org/10.1109/TMAG.2016.2535482" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Magn</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown DN (2016) Fabrication, processing technologies, and new advances for RE-Fe-B magnets. IEEE Trans Magn 52(7):1-9. https:// doi. org/ 10. 1109/ TMAG. 2016. 25354 82</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">3D print of polymer bonded rare-earth magnets, and 3D magnetic field scanning with an end-user 3D printer</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huber</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4964856</idno>
+		<ptr target="https://doi.org/10.1063/1.4964856" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Phys Lett</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huber C et al (2016) 3D print of polymer bonded rare-earth mag- nets, and 3D magnetic field scanning with an end-user 3D printer. Appl Phys Lett 109(16). https:// doi. org/ 10. 1063/1. 49648 56</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Big area additive manufacturing of high performance bonded NdFeB magnets</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep36212</idno>
+		<ptr target="https://doi.org/10.1038/srep36212" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li L et al (2016) Big area additive manufacturing of high perfor- mance bonded NdFeB magnets. Sci Rep 6:1-7. https:// doi. org/ 10. 1038/ srep3 6212</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of near-net-shape bonded magnets: prospects and challenges</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Post</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kunc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Paranthaman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2016.12.035</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2016.12.035" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr Mater</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="100" to="104" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li L, Post B, Kunc V, Elliott AM, Paranthaman MP (2017) Addi- tive manufacturing of near-net-shape bonded magnets: prospects and challenges. Scr Mater 135:100-104. https:// doi. org/ 10. 1016/j. scrip tamat. 2016. 12. 035</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Laser powder bed fusion of Nd-Fe-B permanent magnets</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bittner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thielsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Drossel</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40964-020-00117-7</idno>
+		<ptr target="https://doi.org/10.1007/s40964-020-00117-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="9" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bittner F, Thielsch J, Drossel WG (2020) Laser powder bed fusion of Nd-Fe-B permanent magnets. Prog Addit Manuf 5(1):3-9. https:// doi. org/ 10. 1007/ s40964-020-00117-7</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Efficient near net-shape production of high energy rare earth magnets by laser beam melting</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kreitlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leicht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franke</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/amm.871.137</idno>
+		<ptr target="https://doi.org/10.4028/www.scientific.net/amm.871.137" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Mech Mater</title>
+		<imprint>
+			<biblScope unit="volume">871</biblScope>
+			<biblScope unit="page" from="137" to="144" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Urban N, Meyer A, Kreitlein S, Leicht F, Franke J (2017) Efficient near net-shape production of high energy rare earth magnets by laser beam melting. Appl Mech Mater 871:137-144. https:// doi. org/ 10. 4028/ www. scien tific. net/ amm. 871. 137</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Influence of melt-pool stability in 3D printing of NdFeB magnets on density and magnetic properties</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Skalon</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma13010139</idno>
+		<ptr target="https://doi.org/10.3390/ma13010139" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">139</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Skalon M et al (2019) Influence of melt-pool stability in 3D print- ing of NdFeB magnets on density and magnetic properties. Mate- rials 13(1):139. https:// doi. org/ 10. 3390/ ma130 10139</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Self-organized giant magnetic structures via additive manufacturing in NdFeB permanent magnets</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jacimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Christen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dénervaud</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2020.101288</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2020.101288" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">101288</biblScope>
+			<date type="published" when="2020-05">2020. May</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacimovic J, Christen T, Dénervaud E (2020) Self-organized giant magnetic structures via additive manufacturing in NdFeB perma- nent magnets. Addit Manuf 34(May):101288. https:// doi. org/ 10. 1016/j. addma. 2020. 101288</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Prospects of additive manufacturing of rare-earth and non-rare-earth permanent magnets</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Popov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koptyug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Radulov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maccari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Muller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.promfg.2018.02.199</idno>
+		<ptr target="https://doi.org/10.1016/j.promfg.2018.02.199" />
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Manuf</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="100" to="108" />
+			<date type="published" when="2017">2018. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Popov V, Koptyug A, Radulov I, Maccari F, Muller G (2018) Pros- pects of additive manufacturing of rare-earth and non-rare-earth permanent magnets. Procedia Manuf 21(2017):100-108. https:// doi. org/ 10. 1016/j. promfg. 2018. 02. 199</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Powder bed charging during electron-beam additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Cordero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nandwana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Dehoff</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.11.012</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.11.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="437" to="445" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cordero ZC, Meyer HM, Nandwana P, Dehoff RR (2017) Powder bed charging during electron-beam additive manufacturing. Acta Mater 124:437-445. https:// doi. org/ 10. 1016/j. actam at. 2016. 11. 012</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Contouring strategies to improve the tensile properties and quality of EBM printed Inconel 625 parts</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dadbakhsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rashid</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2020.12.007</idno>
+		<ptr target="https://doi.org/10.1016/j.jmapro.2020.12.007" />
+	</analytic>
+	<monogr>
+		<title level="j">J Manuf Process</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="418" to="429" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao X, Dadbakhsh S, Rashid A (2021) Contouring strategies to improve the tensile properties and quality of EBM printed Inconel 625 parts. J Manuf Process 62:418-429. https:// doi. org/ 10. 1016/j. jmapro. 2020. 12. 007</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Production of net-shape Mn-Al permanent magnets by electron beam melting</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Radulov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2019.100787</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2019.100787" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">100787</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Radulov IA et al (2019) Production of net-shape Mn-Al perma- nent magnets by electron beam melting. Addit Manuf 30:100787. https:// doi. org/ 10. 1016/j. addma. 2019. 100787</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">High-quality, high-speed EBM 3D printing by the integration of high-performance electron sources</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jonner</surname></persName>
+		</author>
+		<ptr target="https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5cab4848b&amp;appId=PPGMS" />
+	</analytic>
+	<monogr>
+		<title level="j">EBMPerform</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jonner CJ et al (2019) High-quality, high-speed EBM 3D printing by the integration of high-performance electron sources. EBMPer- form, no. 666788, pp 1-18. https:// ec. europa. eu/ resea rch/ parti cipan ts/ docum ents/ downl oadPu blic? docum entIds= 08016 6e5ca b4848 b&amp; appId= PPGMS</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Laser Beam Melting of NdFeB for the production of rare-earth magnets</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kolb</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/EDPC.2016.7851311</idno>
+		<ptr target="https://doi.org/10.1109/EDPC.2016.7851311" />
+	</analytic>
+	<monogr>
+		<title level="m">2016 6th International Electric Drives Production Conference, EDPC 2016 -Proceedings</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="34" to="40" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kolb T et al (2016) Laser Beam Melting of NdFeB for the produc- tion of rare-earth magnets,&quot; 2016 6th International Electric Drives Production Conference, EDPC 2016 -Proceedings, pp. 34-40. https:// doi. org/ 10. 1109/ EDPC. 2016. 78513 11</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Net shape 3D printed NdFeB permanent magnet</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jaćimović</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.201700098</idno>
+		<ptr target="https://doi.org/10.1002/adem.201700098" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jaćimović J et al (2017) Net shape 3D printed NdFeB permanent magnet. Adv Eng Mater 19(8). https:// doi. org/ 10. 1002/ adem. 20170 0098</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The effect of sintered Nd-Fe-B with Dy infiltration to the plating crafts</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">T</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">W</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmmm.2018.11.080</idno>
+		<ptr target="https://doi.org/10.1016/j.jmmm.2018.11.080" />
+	</analytic>
+	<monogr>
+		<title level="j">J Magn Magn Mater</title>
+		<imprint>
+			<biblScope unit="volume">475</biblScope>
+			<biblScope unit="page" from="10" to="13" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tang XT, Lu ZW, Sun AZ (2019) The effect of sintered Nd-Fe- B with Dy infiltration to the plating crafts. J Magn Magn Mater 475:10-13. https:// doi. org/ 10. 1016/j. jmmm. 2018. 11. 080</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Magnetic properties and microstructure of sintered Nd-Fe-B magnets with intergranular addition of Ni powders</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">G</forename><surname>Cui</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2017.08.061</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2017.08.061" />
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">726</biblScope>
+			<biblScope unit="page" from="846" to="851" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cui XG et al (2017) Magnetic properties and microstructure of sintered Nd-Fe-B magnets with intergranular addition of Ni pow- ders. J Alloys Compd 726:846-851. https:// doi. org/ 10. 1016/j. jallc om. 2017. 08. 061</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Magnetic properties and corrosion resistance of Nd-Fe-B magnets with Nd64Co36intergranular addition</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2014.07.085</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2014.07.085" />
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">616</biblScope>
+			<biblScope unit="page" from="345" to="349" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang P, Liang L, Jin J, Zhang Y, Liu X, Yan M (2014) Magnetic properties and corrosion resistance of Nd-Fe-B magnets with Nd64Co36intergranular addition. J Alloys Compd 616:345-349. https:// doi. org/ 10. 1016/j. jallc om. 2014. 07. 085</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Magnetic properties and phase evolution of sintered Nd-Fe-B magnets with intergranular addition of Pr-Co alloy</title>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2016.02.006</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2016.02.006" />
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">670</biblScope>
+			<biblScope unit="page" from="72" to="77" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jin C et al (2016) Magnetic properties and phase evolution of sintered Nd-Fe-B magnets with intergranular addition of Pr-Co alloy. J Alloys Compd 670:72-77. https:// doi. org/ 10. 1016/j. jallc om. 2016. 02. 006</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Influence of Ta intergranular addition on microstructure and corrosion resistance of Nd-Dy-Fe-B sintered magnets</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2014.01.055</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2014.01.055" />
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">593</biblScope>
+			<biblScope unit="page" from="137" to="140" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang P, Ma T, Liang L, Yan M (2014) Influence of Ta intergranu- lar addition on microstructure and corrosion resistance of Nd-Dy- Fe-B sintered magnets. J Alloys Compd 593:137-140. https:// doi. org/ 10. 1016/j. jallc om. 2014. 01. 055</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of heavy rare earth free high-coercivity permanent magnets</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Volegov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2020.02.058</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2020.02.058" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="733" to="739" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Volegov AS et al (2020) Additive manufacturing of heavy rare earth free high-coercivity permanent magnets. Acta Mater 188:733-739. https:// doi. org/ 10. 1016/j. actam at. 2020. 02. 058</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Improvement of coercivity of sintered NdFeB permanent magnets by heat treatment</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Joly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nevalainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hiraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0304-8853(01)00967-2</idno>
+		<ptr target="https://doi.org/10.1016/S0304-8853(01)00967-2" />
+	</analytic>
+	<monogr>
+		<title level="j">J Magn Magn Mater</title>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="issue">245</biblScope>
+			<biblScope unit="page" from="1329" to="1334" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vial F, Joly F, Nevalainen E, Sagawa M, Hiraga K, Park KT (2002) Improvement of coercivity of sintered NdFeB permanent magnets by heat treatment. J Magn Magn Mater 242-245:1329- 1334. https:// doi. org/ 10. 1016/ S0304-8853(01) 00967-2</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Post-sinter annealing influences on coercivity of multi-main-phase Nd-Ce-Fe-B magnets</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2017.12.027</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2017.12.027" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="97" to="105" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang Y et al (2018) Post-sinter annealing influences on coer- civity of multi-main-phase Nd-Ce-Fe-B magnets. Acta Mater 146:97-105. https:// doi. org/ 10. 1016/j. actam at. 2017. 12. 027</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of bulk nanocrystalline FeNdB based permanent magnets</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Goll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Trauter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bernthaler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Riegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schneider</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/mi12050538</idno>
+		<ptr target="https://doi.org/10.3390/mi12050538" />
+	</analytic>
+	<monogr>
+		<title level="j">Micromachines (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goll D, Trauter F, Bernthaler T, Schanz J, Riegel H, Schneider G (2021) Additive manufacturing of bulk nanocrystalline FeNdB based permanent magnets. Micromachines (Basel) 12(5). https:// doi. org/ 10. 3390/ mi120 50538</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">High-coercivity copper-rich Nd-Fe-B magnets by powder bed fusion using laser beam method</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tosoni</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2023.103426</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2023.103426" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tosoni O et al (2023) High-coercivity copper-rich Nd-Fe-B mag- nets by powder bed fusion using laser beam method. Addit Manuf 64. https:// doi. org/ 10. 1016/j. addma. 2023. 103426</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">New scanning strategy approach for laser powder bed fusion of Nd-Fe-B hard magnetic material</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Pelevin</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/met13061084</idno>
+		<ptr target="https://doi.org/10.3390/met13061084" />
+	</analytic>
+	<monogr>
+		<title level="j">Metals (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pelevin IA et al (2023) New scanning strategy approach for laser powder bed fusion of Nd-Fe-B hard magnetic material. Metals (Basel) 13(6). https:// doi. org/ 10. 3390/ met13 061084</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of NdFeB magnets by synchronized three-beam laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.optlastec.2021.107604</idno>
+		<ptr target="https://doi.org/10.1016/j.optlastec.2021.107604" />
+	</analytic>
+	<monogr>
+		<title level="j">Opt Laser Technol</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yu KS et al (2022) Additive manufacturing of NdFeB magnets by synchronized three-beam laser powder bed fusion. Opt Laser Technol 146. https:// doi. org/ 10. 1016/j. optla stec. 2021. 107604</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Electrical machines</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/9781420037043-13</idno>
+		<ptr target="https://doi.org/10.1201/9781420037043-13" />
+	</analytic>
+	<monogr>
+		<title level="m">The Mechatronics Handbook</title>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="20" to="33" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fraser CJ (2002) Electrical machines. The Mechatronics Hand- book, pp. 20-33-20-51. https:// doi. org/ 10. 1201/ 97814 20037 043-13</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A comparison of traditional manufacturing vs additive manufacturing, the best method for the job</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Potgieter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.promfg.2019.02.003</idno>
+		<ptr target="https://doi.org/10.1016/j.promfg.2019.02.003" />
+	</analytic>
+	<monogr>
+		<title level="m">Procedia Manufacturing</title>
+		<editor>
+			<persName><forename type="middle">V</forename></persName>
+		</editor>
+		<meeting>edia Manufacturing</meeting>
+		<imprint>
+			<publisher>Elsevier B</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="11" to="18" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pereira T, Kennedy JV, Potgieter J (2019) A comparison of tradi- tional manufacturing vs additive manufacturing, the best method for the job,&quot; in Procedia Manufacturing, Elsevier B.V., pp. 11-18. https:// doi. org/ 10. 1016/j. promfg. 2019. 02. 003</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Comparative techno-economic assessment of NdFeB bonded magnet production: injection molding versus big-area additive manufacturing</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Paranthaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Sutherland</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acssuschemeng.3c01942</idno>
+		<ptr target="https://doi.org/10.1021/acssuschemeng.3c01942" />
+	</analytic>
+	<monogr>
+		<title level="j">ACS Sustain Chem Eng</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">36</biblScope>
+			<biblScope unit="page" from="13274" to="13281" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou X, Paranthaman MP, Sutherland JW (2023) Comparative techno-economic assessment of NdFeB bonded magnet produc- tion: injection molding versus big-area additive manufacturing. ACS Sustain Chem Eng 11(36):13274-13281. https:// doi. org/ 10. 1021/ acssu schem eng. 3c019 42</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Nanocrystalline and nanocomposite permanent magnets by melt spinning technique</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shen</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1674-1056/27/11/117502</idno>
+		<ptr target="https://doi.org/10.1088/1674-1056/27/11/117502" />
+	</analytic>
+	<monogr>
+		<title level="j">Chin Phys B</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">117502</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rong C, Shen B (2018) Nanocrystalline and nanocomposite permanent magnets by melt spinning technique. Chin Phys B 27(11):117502. https:// doi. org/ 10. 1088/ 1674-1056/ 27/ 11/ 117502</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Influences of process parameters on rare earth magnets produced by laser beam melting</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franke</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/EDPC.2017.8328149</idno>
+		<ptr target="https://doi.org/10.1109/EDPC.2017.8328149" />
+	</analytic>
+	<monogr>
+		<title level="m">7th International Electric Drives Production Conference</title>
+		<imprint>
+			<date type="published" when="2017">2017. 2017. Decem. 2018</date>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+		</imprint>
+	</monogr>
+	<note>EDPC 2017 -Proceedings</note>
+	<note type="raw_reference">Urban N, Huber F, Franke J (2017) Influences of process param- eters on rare earth magnets produced by laser beam melting. 2017 7th International Electric Drives Production Conference, EDPC 2017 -Proceedings, vol. 2017-Decem, pp. 1-5, 2018, https:// doi. org/ 10. 1109/ EDPC. 2017. 83281 49</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Process-structure-property relationships in laser powder bed fusion of permanent magnetic Nd-Fe-B</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Aboulkhair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Degano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rjm</forename><surname>Hague</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2021.109992</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2021.109992" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Des</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page">109992</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu J, Aboulkhair NT, Degano M, Ashcroft I, Hague RJM (2021) Process-structure-property relationships in laser powder bed fusion of permanent magnetic Nd-Fe-B. Mater Des 209:109992. https:// doi. org/ 10. 1016/j. matdes. 2021. 109992</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Contribution of additive manufacturing of rare earth material to the increase in performance and resource efficiency of permanent magnets</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franke</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/amm.882.135</idno>
+		<ptr target="https://doi.org/10.4028/www.scientific.net/amm.882.135" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Mech Mater</title>
+		<imprint>
+			<biblScope unit="volume">882</biblScope>
+			<biblScope unit="page" from="135" to="141" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Urban N, Meyer A, Keller V, Franke J (2018) Contribution of additive manufacturing of rare earth material to the increase in performance and resource efficiency of permanent magnets. Appl Mech Mater 882:135-141. https:// doi. org/ 10. 4028/ www. scien tific. net/ amm. 882. 135</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Microstructure and magnetic properties of Nd-Fe-B permanent magnets produced by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bittner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thielsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Drossel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2021.113921</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2021.113921" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr Mater</title>
+		<imprint>
+			<biblScope unit="volume">201</biblScope>
+			<biblScope unit="page">113921</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bittner F, Thielsch J, Drossel WG (2021) Microstructure and magnetic properties of Nd-Fe-B permanent magnets produced by laser powder bed fusion. Scr Mater 201:113921. https:// doi. org/ 10. 1016/j. scrip tamat. 2021. 113921</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Evolution of residual stress behavior in selective laser melting (SLM) of 316L stainless steel through preheating and in-situ re-scanning techniques</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waqar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.optlastec.2021.107806</idno>
+		<ptr target="https://doi.org/10.1016/j.optlastec.2021.107806" />
+	</analytic>
+	<monogr>
+		<title level="j">Opt Laser Technol</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page">107806</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waqar S, Guo K, Sun J (2022) Evolution of residual stress behavior in selective laser melting (SLM) of 316L stainless steel through preheating and in-situ re-scanning techniques. Opt Laser Technol 149:107806. https:// doi. org/ 10. 1016/j. optla stec. 2021. 107806</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">In-situ residual stress reduction, martensitic decomposition and mechanical properties enhancement through high temperature powder bed pre-heating of selective laser melted Ti6Al4V</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ghadbeigi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mumtaz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.04.033</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2017.04.033" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng, A</title>
+		<imprint>
+			<biblScope unit="volume">695</biblScope>
+			<biblScope unit="page" from="211" to="220" />
+			<date type="published" when="2017-04">2017. April</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ali H, Ma L, Ghadbeigi H, Mumtaz K (2017) In-situ residual stress reduction, martensitic decomposition and mechanical properties enhancement through high temperature powder bed pre-heating of selective laser melted Ti6Al4V. Mater Sci Eng, A 695(April):211-220. https:// doi. org/ 10. 1016/j. msea. 2017. 04. 033</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Effects of energy density on the mechanical properties, residual stress and thermal-fatigue of Fe-Cr alloy fabricated by laser directed energy deposition</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yue</surname></persName>
+		</author>
+		<idno type="DOI">10.21203/rs.3.rs-2342095/v1</idno>
+		<ptr target="https://doi.org/10.21203/rs.3.rs-2342095/v1" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="page" from="0" to="31" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yue H (2022) Effects of energy density on the mechanical proper- ties, residual stress and thermal-fatigue of Fe-Cr alloy fabricated by laser directed energy deposition, pp 0-31. https:// doi. org/ 10. 21203/ rs.3. rs-23420 95/ v1</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Study of the effect of SLM energy density on residual stress and microstructure of porous bone scaffolds in cubic structures</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/smdo/2022016</idno>
+		<ptr target="https://doi.org/10.1051/smdo/2022016" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Simulat Multidiscipl Des Optim</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang S, Xu S, Zheng W, Han J (2022) Study of the effect of SLM energy density on residual stress and microstructure of porous bone scaffolds in cubic structures. Int J Simulat Multidiscipl Des Optim 13. https:// doi. org/ 10. 1051/ smdo/ 20220 16</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Residual stress of typical parts in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2020.10.009</idno>
+		<ptr target="https://doi.org/10.1016/j.jmapro.2020.10.009" />
+	</analytic>
+	<monogr>
+		<title level="j">J Manuf Process</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="621" to="628" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen C, Chang S, Zhu J, Xiao Z, Zhu H, Zeng X (2020) Residual stress of typical parts in laser powder bed fusion. J Manuf Process 59:621-628. https:// doi. org/ 10. 1016/j. jmapro. 2020. 10. 009</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Oster</surname></persName>
+		</author>
+		<idno type="DOI">10.31274/etd-180810-2741</idno>
+		<ptr target="https://doi.org/10.31274/etd-180810-2741" />
+		<title level="m">Generation and characterization of anisotropic microstructures in rare earth-iron-boron alloys</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page">134</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oster NT (2012) Generation and characterization of anisotropic microstructures in rare earth-iron-boron alloys, p 134. https:// doi. org/ 10. 31274/ etd-180810-2741</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Perspectives on permanent magnetic materials for energy conversion and power generation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jiménez-Villacorta</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-012-1278-2</idno>
+		<ptr target="https://doi.org/10.1007/s11661-012-1278-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall Mater Trans A Phys Metall Mater Sci</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lewis LH, Jiménez-Villacorta F (2013) Perspectives on perma- nent magnetic materials for energy conversion and power genera- tion. Metall Mater Trans A Phys Metall Mater Sci 44(SUPPL. 1). https:// doi. org/ 10. 1007/ s11661-012-1278-2</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Metallurgical factors determining the coercivity of ND-FE-B magnets</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Skalicky</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF01199483</idno>
+		<ptr target="https://doi.org/10.1007/BF01199483" />
+	</analytic>
+	<monogr>
+		<title level="j">Mikrochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="115" to="124" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fidler J, Skalicky P (1987) Metallurgical factors determining the coercivity of ND-FE-B magnets. Mikrochim Acta 91:115-124. https:// doi. org/ 10. 1007/ BF011 99483</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Machining stability improvement in LPBF printed components through stiffening by crystallographic texture control</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>González-Barrio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sanz-Calle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gómez-Escudero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Munoa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>De Lacalle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cirp.2023.03.025</idno>
+		<ptr target="https://doi.org/10.1016/j.cirp.2023.03.025" />
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Ann</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="141" to="144" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pérez-Ruiz J, González-Barrio H, Sanz-Calle M, Gómez-Escudero G, Munoa J, de Lacalle LL (2023) Machining stability improve- ment in LPBF printed components through stiffening by crystal- lographic texture control. CIRP Ann 72(1):141-144. https:// doi. org/ 10. 1016/j. cirp. 2023. 03. 025</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">On the relationship between cutting forces and anisotropy features in the milling of LPBF Inconel 718 for near net shape parts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pérez-Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lnl</forename><surname>De Lacalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Urbikain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bris</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmachtools.2021.103801</idno>
+		<ptr target="https://doi.org/10.1016/j.ijmachtools.2021.103801" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Mach Tools Manuf</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pérez-Ruiz JD, de Lacalle LNL, Urbikain G, Pereira O, Martínez S, Bris J (2021) On the relationship between cutting forces and anisotropy features in the milling of LPBF Inconel 718 for near net shape parts. Int J Mach Tools Manuf 170. https:// doi. org/ 10. 1016/j. ijmac htools. 2021. 103801</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

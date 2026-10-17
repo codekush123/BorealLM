@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Corrosion Behavior of Heat-Treated AlSi10Mg Manufactured by Laser Powder Bed Fusion</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-06-21">21 June 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Marina</forename><surname>Cabrini</surname></persName>
+							<email>marina.cabrini@unibg.it</email>
+							<idno type="ORCID">0000-0003-3901-8657</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Engineering and Applied Sciences , University of Bergamo , 24044 Dalmine , Italy;</note>
+								<orgName type="department">Department of Engineering and Applied Sciences</orgName>
+								<orgName type="institution">University of Bergamo</orgName>
+								<address>
+									<postCode>24044</postCode>
+									<settlement>Dalmine</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> INSTM Unità di Ricerca Bergamo , Dalmine , 24044 , Italy</note>
+								<orgName type="institution">INSTM Unità di Ricerca Bergamo</orgName>
+								<address>
+									<postCode>24044</postCode>
+									<settlement>Dalmine</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Flaviana</forename><surname>Caligna</surname></persName>
+							<email>flaviana.calignano@polito.it</email>
+							<idno type="ORCID">0000-0002-2876-143X</idno>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Department of Management and Production Engineering , Politecnico di Torino , 10129 Torino , Italy;</note>
+								<orgName type="department">Department of Management and Production Engineering</orgName>
+								<orgName type="institution">Politecnico di Torino</orgName>
+								<address>
+									<postCode>10129</postCode>
+									<settlement>Torino</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paolo</forename><surname>Fino</surname></persName>
+							<email>paolo.fino@polito.it</email>
+							<idno type="ORCID">0000-0002-7248-8039</idno>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Department of Applied Science and Technology , Politecnico di Torino , 10129 Torino , Italy;</note>
+								<orgName type="department">Department of Applied Science and Technology</orgName>
+								<orgName type="institution">Politecnico di Torino</orgName>
+								<address>
+									<postCode>10129</postCode>
+									<settlement>Torino</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>5</label> Center for Sustainable Future Technologies CSFT@Polito , Istituto Italiano di Tecnologia (IIT) , 10129 Torino , Italy;</note>
+								<orgName type="department">Center for Sustainable Future Technologies CSFT@Polito</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia (IIT)</orgName>
+								<address>
+									<postCode>10129</postCode>
+									<settlement>Torino</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><surname>Lorenzi</surname></persName>
+							<email>sergio.lorenzi@unibg.it</email>
+							<idno type="ORCID">0000-0002-1337-7590</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Engineering and Applied Sciences , University of Bergamo , 24044 Dalmine , Italy;</note>
+								<orgName type="department">Department of Engineering and Applied Sciences</orgName>
+								<orgName type="institution">University of Bergamo</orgName>
+								<address>
+									<postCode>24044</postCode>
+									<settlement>Dalmine</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> INSTM Unità di Ricerca Bergamo , Dalmine , 24044 , Italy</note>
+								<orgName type="institution">INSTM Unità di Ricerca Bergamo</orgName>
+								<address>
+									<postCode>24044</postCode>
+									<settlement>Dalmine</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Massimo</forename><surname>Lorusso</surname></persName>
+							<email>massimo.lorusso@iit.it</email>
+							<idno type="ORCID">0000-0002-1337-7590</idno>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>5</label> Center for Sustainable Future Technologies CSFT@Polito , Istituto Italiano di Tecnologia (IIT) , 10129 Torino , Italy;</note>
+								<orgName type="department">Center for Sustainable Future Technologies CSFT@Polito</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia (IIT)</orgName>
+								<address>
+									<postCode>10129</postCode>
+									<settlement>Torino</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Diego</forename><surname>Manfredi</surname></persName>
+							<email>diego.manfredi@iit.it</email>
+							<idno type="ORCID">0000-0002-2876-143X</idno>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>5</label> Center for Sustainable Future Technologies CSFT@Polito , Istituto Italiano di Tecnologia (IIT) , 10129 Torino , Italy;</note>
+								<orgName type="department">Center for Sustainable Future Technologies CSFT@Polito</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia (IIT)</orgName>
+								<address>
+									<postCode>10129</postCode>
+									<settlement>Torino</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cristian</forename><surname>Testa</surname></persName>
+							<email>cristian.testa@unibg.it</email>
+							<idno type="ORCID">0000-0002-6064-9851</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Engineering and Applied Sciences , University of Bergamo , 24044 Dalmine , Italy;</note>
+								<orgName type="department">Department of Engineering and Applied Sciences</orgName>
+								<orgName type="institution">University of Bergamo</orgName>
+								<address>
+									<postCode>24044</postCode>
+									<settlement>Dalmine</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> INSTM Unità di Ricerca Bergamo , Dalmine , 24044 , Italy</note>
+								<orgName type="institution">INSTM Unità di Ricerca Bergamo</orgName>
+								<address>
+									<postCode>24044</postCode>
+									<settlement>Dalmine</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tommaso</forename><surname>Pastore</surname></persName>
+							<email>tommaso.pastore@unibg.it</email>
+							<idno type="ORCID">0000-0002-1443-7786</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Engineering and Applied Sciences , University of Bergamo , 24044 Dalmine , Italy;</note>
+								<orgName type="department">Department of Engineering and Applied Sciences</orgName>
+								<orgName type="institution">University of Bergamo</orgName>
+								<address>
+									<postCode>24044</postCode>
+									<settlement>Dalmine</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> INSTM Unità di Ricerca Bergamo , Dalmine , 24044 , Italy</note>
+								<orgName type="institution">INSTM Unità di Ricerca Bergamo</orgName>
+								<address>
+									<postCode>24044</postCode>
+									<settlement>Dalmine</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Corrosion Behavior of Heat-Treated AlSi10Mg Manufactured by Laser Powder Bed Fusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-06-21">21 June 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8CA28EA4E8372D3210DE53C676E5A211</idno>
+					<idno type="DOI">10.3390/ma11071051</idno>
+					<note type="submission">Received: 24 April 2018; Accepted: 13 June 2018;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-07T05:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>additive manufacturing</term>
+					<term>Laser Powder Bed Fusion</term>
+					<term>intergranular corrosion</term>
+					<term>heat treatments</term>
+					<term>AlSi10Mg</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>This experimental work is aimed at studying the effect of microstructural modifications induced by post-processing heat treatments on the corrosion behavior of silicon-aluminum alloys produced by means of laser powder bed fusion (LPBF).</s><s>The manufacturing technique leads to microstructures characterized by the presence of melt pools, which are quite different compared to casting alloys.</s><s>In this study, the behavior of an AlSi10Mg alloy was evaluated by means of intergranular corrosion tests according to ISO 11846 standard on heat-treated samples ranging from 200 to 500 • C as well as on untreated samples.</s><s>We found that temperatures above 200 • C reduced microhardness of the alloy, and different corrosion morphologies occurred due to the modification of both size and distribution of silicon precipitates.</s><s>Selective penetrating attacks occurred at melt pool borders.</s><s>The intergranular corrosion phenomena were less intense for as-produced specimens without heat treatments compared to the heat-treated specimens at 200 and 300 • C. General corrosion morphologies were noticed for specimens heat treated at temperatures exceeding 400 • C.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>High strength and stiffness, low weight, good formability, good corrosion resistance, and recycling possibility make aluminum alloys an ideal candidate to replace heavier materials (steel or copper) to satisfy the weight reduction demand in the automotive industry <ref type="bibr" target="#b0">[1]</ref>.</s><s>Morita reported that aluminum alloys exhibit an improvement in fuel economy of 5.5% for weight reduction of approximately 10% <ref type="bibr" target="#b1">[2]</ref>.</s><s>Recent examples of aluminum applications in vehicles cover power trains, chassis, body structure, and air conditioning.</s><s>There are also strong predictions for aluminum applications in hoods, trunk lids, and steel frame doors <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b2">3]</ref>.</s></p><p><s>In addition, there is now a general trend towards producing components in aluminum, titanium, and nickel alloys in additive manufacturing (AM) <ref type="bibr" target="#b3">[4]</ref> owing to the relevant benefits of such techniques.</s><s>This includes near-net-shape capabilities, superior design and geometrical flexibility, reduced tooling and fixturing, shorter cycle time for design and manufacturing as well as material, energy, and cost efficiency <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>.</s><s>Atzeni and Salmi reported that AM is adequate for small to medium batch productions even for end-usable metal products.</s><s>It reduces time and costs from the design phase to manufacturing because there is no investment in designing, production, and the necessary tools and fixtures <ref type="bibr" target="#b7">[8]</ref>.</s></p><p><s>Laser powder bed fusion (LPBF) is an AM technology for the fabrication of semi-finished components directly from computer-aided design modeling through melting and consolidation-layer upon layer-of a metallic powder with a laser source <ref type="bibr" target="#b8">[9]</ref>.</s><s>Recent studies have demonstrated that metallic AM parts/alloys experience a complex thermal history during production, which involves directional heat extraction, repeated melting and rapid solidification cycles, and repeated solid-state phase transformations.</s><s>This introduces complexities to the analysis of microstructural evolution and properties not typically found in conventional processes <ref type="bibr" target="#b8">[9]</ref>.</s></p><p><s>Studies on development, properties, and microstructures of AM have mainly focused on titanium alloys-in particular Ti6Al4V <ref type="bibr" target="#b9">[10]</ref> and nickel alloys <ref type="bibr" target="#b10">[11]</ref>-owing to their high values, small production, and difficulties of machining.</s><s>The aluminum alloy AlSi10Mg has also received attention as it can be conveniently obtained using LPBF.</s></p><p><s>AlSi10Mg alloy is a traditional cast alloy that is often used for die casting.</s><s>Because of its near eutectic composition, it has good fluidity and low shrinkage.</s><s>The magnesium in the alloy plays an important role in age-hardening, causing the formation of β' phase and Mg 2 Si (β-phase) <ref type="bibr" target="#b11">[12]</ref>.</s></p><p><s>Various studies have been published on the microstructure of LPBF AlSi10Mg, starting from process parameters optimization <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>.</s></p><p><s>In a previous study, Manfredi et al. <ref type="bibr" target="#b15">[16]</ref> demonstrated that AlSi10Mg alloy specimens obtained by means of LPBF have higher hardness and yield strength compared to A360 cast alloy with similar composition.</s><s>This is due to the very fine microstructure and fine distribution of silicon that is promoted by the extremely rapid cooling and solidification.</s><s>This has also been reported by Thijs et al. <ref type="bibr" target="#b12">[13]</ref>.</s><s>Furthermore, Manfredi et al. <ref type="bibr" target="#b16">[17]</ref> outlined a probable presence of Mg 2 Si intermetallic at nanometric scale.</s><s>This was also noted by Olakanmi <ref type="bibr" target="#b17">[18]</ref>.</s><s>Read et al. <ref type="bibr" target="#b18">[19]</ref> observed higher tensile strength of AlSi10Mg compared to A360 die cast in both building directions.</s></p><p><s>Moreover, the powder-based processes enable the consolidation of second or multiple material particles with metal powders to form metal matrix composites (MMCs) <ref type="bibr" target="#b19">[20]</ref>.</s><s>Particularly promising is AlSiMg alloy reinforced with SiC particles because the high amount of silicon reduces or suppresses the reaction between aluminum and silicon carbide.</s><s>This is important as it prevents formation of the dangerous aluminum carbide Al 4 C 3 , which have a detrimental effect on the mechanical properties of the alloy <ref type="bibr" target="#b20">[21]</ref>.</s></p><p><s>The LPBF process leaves high residual thermal stresses in metal structures.</s><s>In order to reduce them and avoid distortions of the manufactured object, stress relieving heat treatment at 300 • C for two hours is usually recommended <ref type="bibr" target="#b16">[17]</ref>.</s><s>However, negative effects on corrosion behavior have been reported.</s><s>Previous studies conducted on stress-relieved specimens of AlSi10Mg <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> showed an increase in susceptibility to selective attack along the melt pool borders.</s><s>Such morphology was not detected after annealing at 550 • C <ref type="bibr" target="#b22">[23]</ref>, which produces relevant variations of microstructure and reduces segregations in the critical thermally affected zone across the melt pools.</s></p><p><s>This paper reports the results of an experimental investigation aimed at studying the effect of heat treatments on microstructure and corrosion resistance of an AlSi10Mg alloy obtained by means of LPBF.</s><s>The corrosion resistance was evaluated by means of intergranular corrosion tests according to ISO11846 standard.</s><s>Microstructure and corrosion morphology were analyzed by means of optical and field emission scanning electron microscope (FESEM) equipped with energy dispersive X-ray spectroscopy (EDS).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head><p><s>The tests were carried out on samples obtained using a gas atomized AlSi10Mg powder produced by EOS Gmbh (Krailling, Germany).</s><s>Table <ref type="table" target="#tab_0">1</ref> reports the alloy composition.</s><s>More detailed properties of the powders are described in previous works <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>.</s><s>The particles have quite regular spherical shape ranging from 0.5 to 40 µm, with an average size of 25 µm.</s><s>During LPBF process, the laser beam intensity was adjusted to achieve complete melting of each powder layer and good connection between two consecutive layers.</s><s>Furthermore, the scan strategy was optimized for reducing the porosity of samples <ref type="bibr" target="#b15">[16]</ref>, as stated by Aboulkhair et al. <ref type="bibr" target="#b25">[26]</ref>, Read et al. <ref type="bibr" target="#b18">[19]</ref>, and Louvis et al. <ref type="bibr" target="#b26">[27]</ref>.</s><s>The laser scanning direction was rotated by 67 • between consecutive layers in order to achieve suitable overlapping and to ensure the highest density <ref type="bibr" target="#b16">[17]</ref>.</s><s>The scan speed, laser power, and hatching distance were optimized as described in a previous work <ref type="bibr" target="#b27">[28]</ref>.</s></p><p><s>For the corrosion testing, cylindrical specimens with 15 mm diameter and 5 mm height were used.</s><s>They were produced considering different orientations with respect to the building platform.</s><s>Specimens were built both with the base parallel to the building platform (named XY, see Figure <ref type="figure" target="#fig_0">1</ref>) and perpendicular to the building platform (named XZ, see Figure <ref type="figure" target="#fig_0">1</ref>).</s><s>Two different temperatures-35 • C and 100 • C-of the building platform during the production process were also considered to assess the role of this parameter on the corrosion behavior of the alloy.</s><s>During LPBF process, the laser beam intensity was adjusted to achieve complete melting of each powder layer and good connection between two consecutive layers.</s><s>Furthermore, the scan strategy was optimized for reducing the porosity of samples <ref type="bibr" target="#b15">[16]</ref>, as stated by Aboulkhair et al. <ref type="bibr" target="#b25">[26]</ref>, Read et al. <ref type="bibr" target="#b18">[19]</ref>, and Louvis et al. <ref type="bibr" target="#b26">[27]</ref>.</s><s>The laser scanning direction was rotated by 67° between consecutive layers in order to achieve suitable overlapping and to ensure the highest density <ref type="bibr" target="#b16">[17]</ref>.</s><s>The scan speed, laser power, and hatching distance were optimized as described in a previous work <ref type="bibr" target="#b27">[28]</ref>.</s></p><p><s>For the corrosion testing, cylindrical specimens with 15 mm diameter and 5 mm height were used.</s><s>They were produced considering different orientations with respect to the building platform.</s><s>Specimens were built both with the base parallel to the building platform (named XY, see Figure <ref type="figure" target="#fig_0">1</ref>) and perpendicular to the building platform (named XZ, see Figure <ref type="figure" target="#fig_0">1</ref>).</s><s>Two different temperatures-35 °C and 100 °C-of the building platform during the production process were also considered to assess the role of this parameter on the corrosion behavior of the alloy.</s><s>The specimens without any further post-processing heat treatments were named UT (untreated).</s><s>The heat treatments were carried out at 200, 300, 400, and 500 °C for 2 h, followed by cooling in still air.</s></p><p><s>Metallographic analysis was also carried out on specimens polished by means of abrasive papers up to 4000 grit, finished by 0.1 μm alumina aqueous suspension, and etched by means of Keller's reagent.</s></p><p><s>Vickers microhardness tests were executed considering 100 g load and 15 s waiting time.</s><s>Intergranular corrosion tests were carried out according to ISO 11846 standard <ref type="bibr" target="#b28">[29]</ref>.</s><s>One side of the specimen was polished with emery paper up to 2400 grit, while the other side was left with the rough surface, i.e., as-produced by LPBF.</s><s>As-built surfaces obtained by means of LPBF have high roughness, and it would have been very difficult to evaluate the depth of the selective attack.</s><s>Previous papers <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> evidenced the difference in the corrosion behavior of the as-built and polished surface in the initiation of the corrosion attack owing to the differences in the passive film protectiveness.</s><s>To avoid this issue, all specimens were pickled before testing and hence the original passive film did not influence the corrosion behavior.</s><s>Then, the specimens were degreased with acetone in ultrasonic bath.</s><s>According to the standard, the specimens were pickled in NaOH 8% at 55 The specimens without any further post-processing heat treatments were named UT (untreated).</s><s>The heat treatments were carried out at 200, 300, 400, and 500 • C for 2 h, followed by cooling in still air.</s></p><p><s>Metallographic analysis was also carried out on specimens polished by means of abrasive papers up to 4000 grit, finished by 0.1 µm alumina aqueous suspension, and etched by means of Keller's reagent.</s></p><p><s>Vickers microhardness tests were executed considering 100 g load and 15 s waiting time.</s><s>Intergranular corrosion tests were carried out according to ISO 11846 standard <ref type="bibr" target="#b28">[29]</ref>.</s><s>One side of the specimen was polished with emery paper up to 2400 grit, while the other side was left with the rough surface, i.e., as-produced by LPBF.</s><s>As-built surfaces obtained by means of LPBF have high roughness, and it would have been very difficult to evaluate the depth of the selective attack.</s></p><p><s>Previous papers <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> evidenced the difference in the corrosion behavior of the as-built and polished surface in the initiation of the corrosion attack owing to the differences in the passive film protectiveness.</s><s>To avoid this issue, all specimens were pickled before testing and hence the original passive film did not influence the corrosion behavior.</s><s>Then, the specimens were degreased with acetone in ultrasonic bath.</s><s>According to the standard, the specimens were pickled in NaOH 8% at 55 • C for 3.5 min, rinsed in water, and dipped in 60% HNO 3 for 2 min.</s><s>They were then rinsed in distilled water and dried.</s><s>All the reagents were of analytical grade.</s></p><p><s>The intergranular corrosion tests were carried in 30 g/L of NaCl solution with 10 mL/L of HCl at room temperature for 24 h.</s><s>After exposure, the specimens were rinsed and the incoherent corrosion products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>.</s></p><p><s>The specimens without any heat treatment did not show preferential attacks along the melt pools and the depth of penetration was negligible.</s></p><p><s>By contrast, the attack was deeper for specimens built at 35 • C compared to those built at 100 • C. The differences disappeared after the heat treatment.</s><s>The samples heat treated at 200 • C showed penetrating attack along the border of the melting pools, which became deeper and wider on the specimens heat treated at 300 • C. Such penetrating attacks were clearly evident on specimens built with the base perpendicular to the building platform (XZ), whereas the attack on the XY planes achieved lower depth because they deviated through the different layers (Figure <ref type="figure" target="#fig_2">2</ref>).</s><s>A previous paper <ref type="bibr" target="#b23">[24]</ref> had indicated the noble pitting potential for XY specimens compared to XZ polished specimens heat treated at 300 • C.</s><s>During our intergranular tests, the corrosion attack took place on all building directions due to the fact that the specimens were fully dipped in the testing solution.</s><s>However, the exposure of both XY and XZ polished specimens allowed for better analysis of the morphology of the attack and enhanced the preferential growth of the attack with respect to the melted pool border.</s><s>On the specimens heat treated above 400 • C, marked general corrosion attack to all the surfaces was observed independent of the building direction.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials 2018, 11, x FOR PEER REVIEW 5 of 15</head><p><s>The specimens without any heat treatment did not show preferential attacks along the melt pools and the depth of penetration was negligible.</s></p><p><s>By contrast, the attack was deeper for specimens built at 35 °C compared to those built at 100 °C .</s><s>The differences disappeared after the heat treatment.</s><s>The samples heat treated at 200° C showed penetrating attack along the border of the melting pools, which became deeper and wider on the specimens heat treated at 300 °C .</s><s>Such penetrating attacks were clearly evident on specimens built with the base perpendicular to the building platform (XZ), whereas the attack on the XY planes achieved lower depth because they deviated through the different layers (Figure <ref type="figure" target="#fig_2">2</ref>).</s><s>A previous paper <ref type="bibr" target="#b23">[24]</ref> had indicated the noble pitting potential for XY specimens compared to XZ polished specimens heat treated at 300 °C .</s><s>During our intergranular tests, the corrosion attack took place on all building directions due to the fact that the specimens were fully dipped in the testing solution.</s><s>However, the exposure of both XY and XZ polished specimens allowed for better analysis of the morphology of the attack and enhanced the preferential growth of the attack with respect to the melted pool border.</s><s>On the specimens heat treated above 400 °C, marked general corrosion attack to all the surfaces was observed independent of the building direction.</s><s>Preferential corrosion of the melt pool border can be attributed to the unique microstructure produced by LPBF process.</s><s>Analysis of the corrosion morphologies was done at both macro and micro scales.</s><s>The preferential attack of the melt pool borders could be clearly detected once the melt pool microstructure was determined by uneven silicon particle precipitation and element segregation.</s><s>It became more penetrating when the heat treatment temperature increased from 200 to 300 °C.</s><s>Such morphology disappeared after the temperature went above 400 °C .</s></p><p><s>The EDS profiles of Al, Si, and O showed the depletion of aluminum and the enrichment of silicon in the correspondence of the attack (Figure <ref type="figure" target="#fig_5">3</ref>).</s><s>The selective dissolution of α-aluminum phase with respect to silicon particles is due to the higher practical nobility of the silicon particles <ref type="bibr" target="#b29">[30]</ref>.</s><s>Table 2. Morphology of corrosion after ISO 11846 test.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C 200 • C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p><s>200 °C 300 °C 400 °C 500 °C products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C 300 • C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C 400 • C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table <ref type="table" target="#tab_2">2</ref> (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table 2 (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C 500 • C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table 2 (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>products were mechanically removed using a soft brush.</s><s>They were then sectioned in order to analyze the morphology and depth of the attack.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>Table <ref type="table" target="#tab_2">2</ref> shows the results of our intergranular tests.</s><s>The corrosion morphology is representative of the attacks that took place on all specimens.</s><s>Preferential attacks at the melt pool borders can be evidenced in the first column of Table 2 (polished exposed surface).</s><s>The depth of the attacks can be evidenced by the metallographic sections in the second and third columns of Table <ref type="table" target="#tab_2">2</ref>. Treatment Exposed Surface (T 35 °C ) (xz plane) Metallographic Section (Exposed Surface xy, Section xz Plane) Platform Temperature 35 °C Platform Temperature 100 °C No 200 °C 300 °C 400 °C 500 °C</s></p><p><s>Preferential corrosion of the melt pool border can be attributed to the unique microstructure produced by LPBF process.</s><s>Analysis of the corrosion morphologies was done at both macro and micro scales.</s><s>The preferential attack of the melt pool borders could be clearly detected once the melt pool microstructure was determined by uneven silicon particle precipitation and element segregation.</s><s>It became more penetrating when the heat treatment temperature increased from 200 to 300 • C. Such morphology disappeared after the temperature went above 400 • C.</s></p><p><s>The EDS profiles of Al, Si, and O showed the depletion of aluminum and the enrichment of silicon in the correspondence of the attack (Figure <ref type="figure" target="#fig_5">3</ref>).</s><s>The selective dissolution of α-aluminum phase with respect to silicon particles is due to the higher practical nobility of the silicon particles <ref type="bibr" target="#b29">[30]</ref>.</s></p><p><s>The galvanic effect of silicon particles on aluminum has been previously demonstrated by means of Scanning Kelvin Probe Microscopy <ref type="bibr" target="#b30">[31]</ref>.</s><s>Osorio et al. <ref type="bibr" target="#b31">[32]</ref> emphasized that the increase in silicon concentration of hypoeutectic Al/Si alloys leads to an increase in the corrosion rate as the fraction of eutectic component increases.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Macrostructure</head><p><s>The macrostructure of the UT samples along the building plane (XY) showed the tracks of the laser scan.</s><s>The melt pool borders were elongated due to the variation of the laser scan directionwhich rotates by 67° between consecutive layers-during building (Figure <ref type="figure" target="#fig_8">4a</ref>).</s><s>The temperature of the platform did not modify the alloy macrostructure.</s></p><p><s>Along the Z-direction, the macrostructure showed semicircular shaped melt pools, partially overlapped on previous tracks (Figure <ref type="figure" target="#fig_8">4b</ref>).</s><s>No Heat treatment HT@200°C HT@300°C HT@400°C 150 m 150 m 150 m 150 m (a) (b) (c) (d) Al Al Si Si O O Al Si O Al Si O Figure 3. Energy dispersive X-ray spectroscopy (EDS) profile of aluminum (blue line), silicon (red line), and oxygen (green line) in the correspondence of attacks on specimens (a) not heat treated; (b) treated at 200 • C for 2 h; (c) treated at 300 • C for 2 h; (d) treated at 400 • C for 2 h.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Macrostructure</head><p><s>The macrostructure of the UT samples along the building plane (XY) showed the tracks of the laser scan.</s><s>The melt pool borders were elongated due to the variation of the laser scan direction-which rotates by 67 • between consecutive layers-during building (Figure <ref type="figure" target="#fig_8">4a</ref>).</s><s>The temperature of the platform did not modify the alloy macrostructure.</s></p><p><s>Along the Z-direction, the macrostructure showed semicircular shaped melt pools, partially overlapped on previous tracks (Figure <ref type="figure" target="#fig_8">4b</ref>).</s></p><p><s>During the LPBF process, the underlying metal, which was only superficially melted, quickly removed the heat from the liquid and ensured the adhesion of the track to the substrate.</s><s>Each singular track could be considered as a small casting deposited on the previous one.</s></p><p><s>The macrostructures of the specimens did not change after heat treatments at temperatures of 200 and 300 • C, and the melt pools were still visible (Figure <ref type="figure" target="#fig_9">5</ref>).</s><s>When the heat treatment temperature was increased to 400 • C, the melt pool borders could not be well distinguished and practically disappeared at 500 • C.</s><s>After heat treatment at this temperature, the macrostructure was significantly modified, and the α-Al phase matrix with rounded particles of silicon could be noticed.</s><s>The size of these particles increased with time and heat treatment temperatures.</s><s>At the highest temperature, second phase separations inside of the α-Al phase could be detected.</s></p><p><s>The macrostructure of the UT samples along the building plane (XY) showed the tracks of the laser scan.</s><s>The melt pool borders were elongated due to the variation of the laser scan directionwhich rotates by 67° between consecutive layers-during building (Figure <ref type="figure" target="#fig_8">4a</ref>).</s><s>The temperature of the platform did not modify the alloy macrostructure.</s></p><p><s>Along the Z-direction, the macrostructure showed semicircular shaped melt pools, partially overlapped on previous tracks (Figure <ref type="figure" target="#fig_8">4b</ref>).</s><s>Materials 2018, 11, x FOR PEER REVIEW 7 of 15</s></p><p><s>During the LPBF process, the underlying metal, which was only superficially melted, quickly removed the heat from the liquid and ensured the adhesion of the track to the substrate.</s><s>Each singular track could be considered as a small casting deposited on the previous one.</s></p><p><s>The macrostructures of the specimens did not change after heat treatments at temperatures of 200 and 300 °C , and the melt pools were still visible (Figure <ref type="figure" target="#fig_9">5</ref>).</s><s>When the heat treatment temperature was increased to 400 °C , the melt pool borders could not be well distinguished and practically disappeared at 500 °C .</s><s>After heat treatment at this temperature, the macrostructure was significantly modified, and the α-Al phase matrix with rounded particles of silicon could be noticed.</s><s>The size of these particles increased with time and heat treatment temperatures.</s><s>At the highest temperature, second phase separations inside of the α-Al phase could be detected.</s><s>The microstructure of the AlSi10Mg obtained by LPBF has been described in previous work by other authors <ref type="bibr" target="#b32">[33]</ref>.</s><s>The microstructure modification inside the melt pools depends on both the rapid solidification process and directional cooling.</s><s>SEM analysis revealed cellular grains inside the melt pools and oriented dendrites.</s></p><p><s>The rapid solidification inhibited segregation and precipitation of alloying elements from liquid and solid solution and produced a microstructure far from equilibrium.</s><s>The directional cooling affected the grain growth perpendicularly with respect to the melt pool border towards the center of the melt pool <ref type="bibr" target="#b8">[9]</ref>.</s><s>Smaller equiaxed grains were observed at the center of the melt pool, while the border of the melt pool-where two tracks were overlapped-underwent double melting.</s><s>Heat The microstructure of the AlSi10Mg obtained by LPBF has been described in previous work by other authors <ref type="bibr" target="#b32">[33]</ref>.</s><s>The microstructure modification inside the melt pools depends on both the rapid solidification process and directional cooling.</s><s>SEM analysis revealed cellular grains inside the melt pools and oriented dendrites.</s></p><p><s>The rapid solidification inhibited segregation and precipitation of alloying elements from liquid and solid solution and produced a microstructure far from equilibrium.</s><s>The directional cooling affected the grain growth perpendicularly with respect to the melt pool border towards the center of the melt pool <ref type="bibr" target="#b8">[9]</ref>.</s><s>Smaller equiaxed grains were observed at the center of the melt pool, while the border of the melt pool-where two tracks were overlapped-underwent double melting.</s><s>Heat Affected Zone (HAZ) could be noticed just next to the melt pool border (Figure <ref type="figure" target="#fig_11">6</ref>).</s><s>This has also been described by Thijs et al. <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>Materials 2018, 11, x FOR PEER REVIEW 8 of 15</s></p><p><s>Affected Zone (HAZ) could be noticed just next to the melt pool border (Figure <ref type="figure" target="#fig_11">6</ref>).</s><s>This has also been described by Thijs et al. <ref type="bibr" target="#b12">[13]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Microstructure</head><p><s>The silicon distribution in the melt pool is regulated by the heating and cooling rate of the alloy.</s><s>Owing to the high solidification rate, the α-Al phase inside the melt pool remains oversaturated in silicon <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>.</s><s>According to Murray and McAlister, the maximum solubility of silicon in aluminum is about 1.5 wt % at the eutectic temperature but decreases to less than 0.05 wt %. below 300 °C .</s><s>Rapid cooling can maintain the silicon content into an α-Al phase at oversaturated level up to 11 wt % <ref type="bibr" target="#b35">[36]</ref>.</s></p><p><s>In our experiment, during LPBF the silicon did not fully remain in solid solution, but partially segregated on the columnar grains of the α-Al phase as fibrous particles that "decorate" the primary grains of the α-Al phase (Figure <ref type="figure" target="#fig_16">7a</ref>) <ref type="bibr" target="#b34">[35]</ref>.</s><s>Thijs et al. defined the structure of silicon as "intercellular network" <ref type="bibr" target="#b12">[13]</ref>.</s><s>At times, the silicon particles formed a eutctic-like phase (Figure <ref type="figure" target="#fig_12">7</ref>).</s><s>The eutectic was more visible in specimens built with a platform temperature of 100 °C compared to 35 °C (Figures <ref type="figure" target="#fig_16">7</ref> and <ref type="figure" target="#fig_17">8</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Microstructure</head><p><s>The silicon distribution in the melt pool is regulated by the heating and cooling rate of the alloy.</s><s>Owing to the high solidification rate, the α-Al phase inside the melt pool remains oversaturated in silicon <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>.</s><s>According to Murray and McAlister, the maximum solubility of silicon in aluminum is about 1.5 wt % at the eutectic temperature but decreases to less than 0.05 wt %. below 300 • C. Rapid cooling can maintain the silicon content into an α-Al phase at oversaturated level up to 11 wt % <ref type="bibr" target="#b35">[36]</ref>.</s></p><p><s>In our experiment, during LPBF the silicon did not fully remain in solid solution, but partially segregated on the columnar grains of the α-Al phase as fibrous particles that "decorate" the primary grains of the α-Al phase (Figure <ref type="figure" target="#fig_16">7a</ref>) <ref type="bibr" target="#b34">[35]</ref>.</s><s>Thijs et al. defined the structure of silicon as "intercellular network" <ref type="bibr" target="#b12">[13]</ref>.</s><s>At times, the silicon particles formed a eutctic-like phase (Figure <ref type="figure" target="#fig_12">7</ref>).</s><s>The eutectic was more visible in specimens built with a platform temperature of 100 • C compared to 35 • C (Figures <ref type="figure" target="#fig_16">7</ref> and <ref type="figure" target="#fig_17">8</ref>).</s></p><p><s>Materials 2018, 11, x FOR PEER REVIEW 8 of 15</s></p><p><s>Affected Zone (HAZ) could be noticed just next to the melt pool border (Figure <ref type="figure" target="#fig_11">6</ref>).</s><s>This has also been described by Thijs et al. <ref type="bibr" target="#b12">[13]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Microstructure</head><p><s>The silicon distribution in the melt pool is regulated by the heating and cooling rate of the alloy.</s><s>Owing to the high solidification rate, the α-Al phase inside the melt pool remains oversaturated in silicon <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>.</s><s>According to Murray and McAlister, the maximum solubility of silicon in aluminum is about 1.5 wt % at the eutectic temperature but decreases to less than 0.05 wt %. below 300 °C .</s><s>Rapid cooling can maintain the silicon content into an α-Al phase at oversaturated level up to 11 wt % <ref type="bibr" target="#b35">[36]</ref>.</s></p><p><s>In our experiment, during LPBF the silicon did not fully remain in solid solution, but partially segregated on the columnar grains of the α-Al phase as fibrous particles that "decorate" the primary grains of the α-Al phase (Figure <ref type="figure" target="#fig_16">7a</ref>) <ref type="bibr" target="#b34">[35]</ref>.</s><s>Thijs et al. defined the structure of silicon as "intercellular network" <ref type="bibr" target="#b12">[13]</ref>.</s><s>At times, the silicon particles formed a eutctic-like phase (Figure <ref type="figure" target="#fig_12">7</ref>).</s><s>The eutectic was more visible in specimens built with a platform temperature of 100 °C compared to 35 °C (Figures <ref type="figure" target="#fig_16">7</ref> and <ref type="figure" target="#fig_17">8</ref>).</s><s>In the HAZ, the solid state diffusion was promoted by thermal cycles and interruptions in the intercellular network occurred.</s><s>Silicon particles coarsening could be noticed, which became idiomorphic crystals (Figure <ref type="figure" target="#fig_22">9b</ref>) <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>The heat treatments at 200 and 300 °C did not modify the macrostructure but favored silicon precipitation.</s><s>An increase in the silicon particle density occurred, but their size remained noticeably small.</s><s>Some isolated particles became visible inside the α-phase grain (a) (b) The heat treatments completely erased the slight differences between the microstructure of specimens built by considering different temperatures of the building platform.</s></p><p><s>The preferential attack at the melt pool border was already observed on heat-treated specimens at 300 °C for 2 h <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref> and without heat treatment <ref type="bibr" target="#b36">[37]</ref>.</s><s>Cabrini et al. <ref type="bibr" target="#b21">[22]</ref> stated that the enhanced content of silicon in the solid solution in the melt pool (due to the rapid solidification and cooling) increases corrosion resistance and the formation of preferential dissolution path in HAZ due to the separation of silicon idiomorphic crystals and produces local galvanic couples.</s><s>The silicon network that decorates the aluminum dendrites inside the melt pool could partially hinder the aluminum matrix by decelerating the corrosion rate.</s><s>Conversely, isolated particles in the HAZ stimulate α-Al corrosion.</s><s>For this reason, the dissolution rate of the melt pool border was higher than the center.</s><s>The heat treatments at 200 and 300 °C promoted an increase in size of silicon crystals around the α-Al phase at the border of the melt pool, thus enhancing the intensity of the attacks.</s></p><p><s>Revilla et al. <ref type="bibr" target="#b36">[37]</ref> observed a close relationship between the size of the cellular grains and the Volta potential difference between the silicon and the aluminum phase.</s><s>Greater potential difference between the phases was found in the regions with larger and coarser microstructures, which In the HAZ, the solid state diffusion was promoted by thermal cycles and interruptions in the intercellular network occurred.</s><s>Silicon particles coarsening could be noticed, which became idiomorphic crystals (Figure <ref type="figure" target="#fig_22">9b</ref>) <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>The heat treatments at 200 and 300 • C did not modify the macrostructure but favored silicon precipitation.</s><s>An increase in the silicon particle density occurred, but their size remained noticeably small.</s><s>Some isolated particles became visible inside the α-phase grain.</s><s>In the HAZ, the solid state diffusion was promoted by thermal cycles and interruptions in the intercellular network occurred.</s><s>Silicon particles coarsening could be noticed, which became idiomorphic crystals (Figure <ref type="figure" target="#fig_22">9b</ref>) <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>The heat treatments at 200 and 300 °C did not modify the macrostructure but favored silicon precipitation.</s><s>An increase in the silicon particle density occurred, but their size remained noticeably small.</s><s>Some isolated particles became visible inside the α-phase grain (a) (b) The heat treatments completely erased the slight differences between the microstructure of specimens built by considering different temperatures of the building platform.</s></p><p><s>The preferential attack at the melt pool border was already observed on heat-treated specimens at 300 °C for 2 h <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref> and without heat treatment <ref type="bibr" target="#b36">[37]</ref>.</s><s>Cabrini et al. <ref type="bibr" target="#b21">[22]</ref> stated that the enhanced content of silicon in the solid solution in the melt pool (due to the rapid solidification and cooling) increases corrosion resistance and the formation of preferential dissolution path in HAZ due to the separation of silicon idiomorphic crystals and produces local galvanic couples.</s><s>The silicon network that decorates the aluminum dendrites inside the melt pool could partially hinder the aluminum matrix by decelerating the corrosion rate.</s><s>Conversely, isolated particles in the HAZ stimulate α-Al corrosion.</s><s>For this reason, the dissolution rate of the melt pool border was higher than the center.</s><s>The heat treatments at 200 and 300 °C promoted an increase in size of silicon crystals around the α-Al phase at the border of the melt pool, thus enhancing the intensity of the attacks.</s></p><p><s>Revilla et al. <ref type="bibr" target="#b36">[37]</ref> observed a close relationship between the size of the cellular grains and the Volta potential difference between the silicon and the aluminum phase.</s><s>Greater potential difference between the phases was found in the regions with larger and coarser microstructures, which The heat treatments completely erased the slight differences between the microstructure of specimens built by considering different temperatures of the building platform.</s></p><p><s>The preferential attack at the melt pool border was already observed on heat-treated specimens at 300 • C for 2 h <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref> and without heat treatment <ref type="bibr" target="#b36">[37]</ref>.</s><s>Cabrini et al. <ref type="bibr" target="#b21">[22]</ref> stated that the enhanced content of silicon in the solid solution in the melt pool (due to the rapid solidification and cooling) increases corrosion resistance and the formation of preferential dissolution path in HAZ due to the separation of silicon idiomorphic crystals and produces local galvanic couples.</s><s>The silicon network that decorates the aluminum dendrites inside the melt pool could partially hinder the aluminum matrix by decelerating the corrosion rate.</s><s>Conversely, isolated particles in the HAZ stimulate α-Al corrosion.</s><s>For this reason, the dissolution rate of the melt pool border was higher than the center.</s><s>The heat treatments at 200 and 300 • C promoted an increase in size of silicon crystals around the α-Al phase at the border of the melt pool, thus enhancing the intensity of the attacks.</s></p><p><s>Revilla et al. <ref type="bibr" target="#b36">[37]</ref> observed a close relationship between the size of the cellular grains and the Volta potential difference between the silicon and the aluminum phase.</s><s>Greater potential difference between the phases was found in the regions with larger and coarser microstructures, which represent a higher driving force for galvanic corrosion.</s><s>This could explain why corrosion attacks arise in the melt pool borders where larger microstructures are generally found.</s></p><p><s>In our experiment, when the heat treatment temperature was further increased to 400 • C (Figure <ref type="figure" target="#fig_24">10a</ref>) and 500 • C, the silicon particle coalescence occurred and rounded second phases were formed.</s><s>represent a higher driving force for galvanic corrosion.</s><s>This could explain why corrosion attacks arise in the melt pool borders where larger microstructures are generally found.</s></p><p><s>In our experiment, when the heat treatment temperature was further increased to 400 °C (Figure <ref type="figure" target="#fig_24">10a</ref>) and 500 °C , the silicon particle coalescence occurred and rounded second phases were formed.</s><s>Hence, the galvanic effect of silicon particles became prevalent over the mechanisms occurring at the melt pool border.</s><s>Corrosion attack was localized at the interface between the silicon precipitates and aluminum matrix.</s><s>The even distribution of precipitates promoted intense general corrosion attack, with shallow and broad pits at most.</s></p><p><s>Annealing heat treatment at 550 °C completely destroyed the melt pool structure <ref type="bibr" target="#b22">[23]</ref> and gave rise to α-Al phase matrix with coarse round-shaped silicon precipitates inside with sizes ranging from 1 to 10 μm.</s><s>This has been noted by Ogris et al. <ref type="bibr" target="#b37">[38]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Effect of Second Phases</head><p><s>In literature, the effect of magnesium and iron precipitates on the aluminum corrosion is well known <ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> even though both elements are present in this alloy in low quantities.</s><s>In regards to the role of these elements in the corrosion behavior, it was observed that Mg2Si precipitates were never detected in the analysis by SEM independently of the heat treatment.</s><s>However, Manfredi et al. <ref type="bibr" target="#b16">[17]</ref> remarked that iron and magnesium precipitates should be so fine that it is impossible to detect them by either metallographic attack or EDS analysis.</s></p><p><s>The alloy used for this experimental work contained approximately 0.16% iron by weight.</s><s>On the as-built specimens, there was no evidence of iron phases.</s><s>However, some needle-like microparticles could be detected in the center of the α-Al phase grains after stress relieving at 300 °C , mainly in the coarse oriented grain zone (arrows in Figure <ref type="figure" target="#fig_18">9</ref>).</s><s>Their morphology can be related to iron intermetallic phases, as reported by Takata et al. <ref type="bibr" target="#b33">[34]</ref>.</s></p><p><s>In Al-Si based alloys, the size of the β-Al5FeSi intermetallic phase is directly dependent on the iron content and cooling rate.</s><s>The size of β-iron intermetallic phases increases with the iron content and decreases with cooling rate <ref type="bibr" target="#b41">[42]</ref>.</s><s>Their presence in the coarse oriented grain zone can be ascribed to the lower solidification rate.</s><s>Unfortunately, the grain size and particle dimensions are too small, so it is impossible to detect differences in their composition using EDS.</s><s>Holesinger et al. <ref type="bibr" target="#b42">[43]</ref> stated that iron and magnesium concentrations were higher at the border of the melt pool, with iron preferentially located at α-aluminum grain boundary.</s><s>Shankar et al. <ref type="bibr" target="#b43">[44]</ref> have said that iron promotes the formation of the α-Al/Si eutectic.</s></p><p><s>Silicon particles are not an efficient cathode for oxygen and hydrogen reduction reactions, but iron particles can be very efficient in promoting the preferential dissolution of aluminum <ref type="bibr" target="#b44">[45]</ref>.</s><s>Hence, the galvanic effect of silicon particles became prevalent over the mechanisms occurring at the melt pool border.</s><s>Corrosion attack was localized at the interface between the silicon precipitates and aluminum matrix.</s><s>The even distribution of precipitates promoted intense general corrosion attack, with shallow and broad pits at most.</s></p><p><s>Annealing heat treatment at 550 • C completely destroyed the melt pool structure <ref type="bibr" target="#b22">[23]</ref> and gave rise to α-Al phase matrix with coarse round-shaped silicon precipitates inside with sizes ranging from 1 to 10 µm.</s><s>This has been noted by Ogris et al. <ref type="bibr" target="#b37">[38]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Effect of Second Phases</head><p><s>In literature, the effect of magnesium and iron precipitates on the aluminum corrosion is well known <ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> even though both elements are present in this alloy in low quantities.</s><s>In regards to the role of these elements in the corrosion behavior, it was observed that Mg 2 Si precipitates were never detected in the analysis by SEM independently of the heat treatment.</s><s>However, Manfredi et al. <ref type="bibr" target="#b16">[17]</ref> remarked that iron and magnesium precipitates should be so fine that it is impossible to detect them by either metallographic attack or EDS analysis.</s></p><p><s>The alloy used for this experimental work contained approximately 0.16% iron by weight.</s><s>On the as-built specimens, there was no evidence of iron phases.</s><s>However, some needle-like microparticles could be detected in the center of the α-Al phase grains after stress relieving at 300 • C, mainly in the coarse oriented grain zone (arrows in Figure <ref type="figure" target="#fig_18">9</ref>).</s><s>Their morphology can be related to iron intermetallic phases, as reported by Takata et al. <ref type="bibr" target="#b33">[34]</ref>.</s></p><p><s>In Al-Si based alloys, the size of the β-Al5FeSi intermetallic phase is directly dependent on the iron content and cooling rate.</s><s>The size of β-iron intermetallic phases increases with the iron content and decreases with cooling rate <ref type="bibr" target="#b41">[42]</ref>.</s><s>Their presence in the coarse oriented grain zone can be ascribed to the lower solidification rate.</s><s>Unfortunately, the grain size and particle dimensions are too small, so it is impossible to detect differences in their composition using EDS.</s><s>Holesinger et al. <ref type="bibr" target="#b42">[43]</ref> stated that iron and magnesium concentrations were higher at the border of the melt pool, with iron preferentially located at α-aluminum grain boundary.</s><s>Shankar et al. <ref type="bibr" target="#b43">[44]</ref> have said that iron promotes the formation of the α-Al/Si eutectic.</s></p><p><s>Silicon particles are not an efficient cathode for oxygen and hydrogen reduction reactions, but iron particles can be very efficient in promoting the preferential dissolution of aluminum <ref type="bibr" target="#b44">[45]</ref>.</s></p><p><s>On the specimens heat treated at 300 • C, needle-like phases were detected after further annealing at 550 • C. The size of these phases was large enough to permit EDS analysis, which confirmed the presence of iron.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Microhardness</head><p><s>The role of heat treatment was very important for both the corrosion behavior and the mechanical properties of the alloy.</s><s>Very fine microstructure obtained by means of LPBF process led to high hardness values, but the heat treatments significantly affected microstructure (Table <ref type="table" target="#tab_16">3</ref> and Figure <ref type="figure" target="#fig_25">11</ref>).</s><s>Our data confirmed the decrease in the mechanical properties as the temperature of the heat treatment increased.</s><s>Furthermore, they did not show any relevant differences between XY and XZ planes and between the specimens built using different platform temperatures.</s><s>This finding is of particular importance because it must be taken into account that materials properties-both mechanical and corrosion performance-have to be considered while developing suitable heat treatments for optimization of specific applications.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials 2018, 11, x FOR PEER REVIEW 11 of 15</head><p><s>On the specimens heat treated at 300 °C , needle-like phases were detected after further annealing at 550 °C .</s><s>The size of these phases was large enough to permit EDS analysis, which confirmed the presence of iron.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Microhardness</head><p><s>The role of heat treatment was very important for both the corrosion behavior and the mechanical properties of the alloy.</s><s>Very fine microstructure obtained by means of LPBF process led to high hardness values, but the heat treatments significantly affected microstructure (Table <ref type="table" target="#tab_16">3</ref> and Figure <ref type="figure" target="#fig_25">11</ref>).</s><s>Our data confirmed the decrease in the mechanical properties as the temperature of the heat treatment increased.</s><s>Furthermore, they did not show any relevant differences between XY and XZ planes and between the specimens built using different platform temperatures.</s><s>This finding is of particular importance because it must be taken into account that materials properties-both mechanical and corrosion performance-have to be considered while developing suitable heat treatments for optimization of specific applications.</s><s>Stress relieving at 200 °C for 2 h only slightly affected hardness, but heat treatments at temperature of 300 °C , which are normally considered for stress relieving, significantly affected the hardness values up to about 25-30% compared to the untreated alloy.</s></p><p><s>Takata et al. reported a significant reduction in the strength of the as-fabricated specimen after heat treatment at 300 °C for 2 h, regardless of the slight differences in the microstructure as detected by SEM and electron backscatter diffraction (EBSD) analyses <ref type="bibr" target="#b33">[34]</ref>.</s><s>They suggested two possible reasons for the reduced strength: (1) the destruction of the fine sub-structures of a tangled array of dislocations within the α-Al elongated grains; and (2) the precipitation of the fine Si phase during annealing.</s><s>Stress relieving at 200 • C for 2 h only slightly affected hardness, but heat treatments at temperature of 300 • C, which are normally considered for stress relieving, significantly affected the hardness values up to about 25-30% compared to the untreated alloy.</s></p><p><s>Takata et al. reported a significant reduction in the strength of the as-fabricated specimen after heat treatment at 300 • C for 2 h, regardless of the slight differences in the microstructure as detected by SEM and electron backscatter diffraction (EBSD) analyses <ref type="bibr" target="#b33">[34]</ref>.</s><s>They suggested two possible reasons for the reduced strength: (1) the destruction of the fine sub-structures of a tangled array of dislocations within the α-Al elongated grains; and (2) the precipitation of the fine Si phase during annealing.</s></p><p><s>Differential scanning calorimetry (DSC) analysis carried out by Marola et al. <ref type="bibr" target="#b45">[46]</ref> provided evidence of precipitation of excess Si solutes in temperatures ranging from ~150 to 350 • C. Further exothermic signals were attributed to the precipitation of Mg 2 Si (signal detected around 317 • C) and possibly Fe-containing intermetallics around 340 • C. The precipitation of these second phases should increase the hardness but the major reduction of silicon oversaturation of aluminum matrix counteracts this effect.</s></p><p><s>In our study, a further increase of heat treatment temperatures decreased the hardness of the alloy owing to the separation of the silicon phase.</s></p><p><s>The results emphasize that the best mechanical and corrosion performances can be evidenced on the as-built alloy.</s><s>Increasing the building platform from 35 to 100 • C can reduce internal residual stresses and does not affect the mechanical strength or susceptibility to selective corrosion attack.</s><s>Therefore, the use of high building platform temperature-i.e., up to 200 • C-is advisable in order to avoid stress relieving heat treatments [47].</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>In this study, the effect of heat treatment on the microstructure and the corrosion resistance of AlSi10Mg alloy produced by means of LPBF was evaluated through selective corrosion tests.</s><s>The results emphasized the better mechanical and corrosion behavior of the as-built alloy.</s></p><p><s>Susceptibility of alloy to selective corrosion attack was noticed after stress relieving in the range of 200-300 • C-temperatures that are commonly recommended for post-processing heat treatments such as stress relieving.</s><s>The attack occurred through the dissolution of α-Al phase stimulated by the precipitation of cathodic silicon particles, with preferential attack on the melt pool borders.</s><s>The attack intensity achieved a maximum after heat treatment at 300 • C.</s></p><p><s>High temperature heat treatments at 400 • C and 500 • C produced marked decrease in hardness, but they prevented the insurgence of selective corrosion attack.</s><s>General corrosion morphologies were noticed.</s><s>Heat treatments at 200 and 300 • C for 2 h maintained the characteristic melt pool macrostructure, but these disappeared above 400 • C. At higher temperature, the microstructure revealed α-Al matrix with silicon rounded particles; the size increased with the temperature of heat treatment.</s></p><p><s>The study has found that increasing the building platform from 35 to 100 • C reduces internal residual stresses and does not affect mechanical strength or susceptibility to selective corrosion attack.</s><s>Therefore, the use of high building platform temperature-i.e., up to 200 • C-is advisable in order to avoid stress relieving heat treatments.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Schematic representation of specimens built with (a) the base parallel to building platform (XY specimens) and (b) perpendicular to the building platform (XZ specimens).</s></p></div></figDesc><graphic coords="3,309.11,442.01,193.88,121.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Schematic representation of specimens built with (a) the base parallel to building platform (XY specimens) and (b) perpendicular to the building platform (XZ specimens).</s></p></div></figDesc><graphic coords="3,92.62,442.01,198.96,121.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Metallographic section after ISO 11846 test on a specimen heat treated at 300 °C (platform 35 °C ) built along XY plane (a) circular base of the specimens and (b) cylindrical lateral surface.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Metallographic section after ISO 11846 test on a specimen heat treated at 300 • C (platform 35 • C) built along XY plane (a) circular base of the specimens and (b) cylindrical lateral surface.</s></p></div></figDesc><graphic coords="4,89.31,532.91,417.90,141.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc><div><p><s>Noanalyze the morphology and depth of the attack.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Energy dispersive X-ray spectroscopy (EDS) profile of aluminum (blue line), silicon (red line), and oxygen (green line) in the correspondence of attacks on specimens (a) not heat treated; (b) treated at 200 °C for 2 h; (c) treated at 300 °C for 2 h; (d) treated at 400 °C for 2 h.</s></p></div></figDesc><graphic coords="6,298.80,257.47,196.90,147.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .Figure 3 .</head><label>43</label><figDesc><div><p><s>Figure 4. Optical images of microstructures of untreated (UT) specimen on (a) XY plane and (b) XZ plane.</s></p></div></figDesc><graphic coords="6,90.16,601.50,415.23,172.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Optical images of microstructures of untreated (UT) specimen on (a) XY plane and (b) XZ plane.Figure 4. Optical images of microstructures of untreated (UT) specimen on (a) XY plane and (b) XZ plane.</s></p></div></figDesc><graphic coords="7,89.72,85.28,415.23,172.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Optical images of microstructures of untreated (UT) specimen on (a) XY plane and (b) XZ plane.Figure 4. Optical images of microstructures of untreated (UT) specimen on (a) XY plane and (b) XZ plane.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Macrostructure of XZ plane specimens after 2 h of heat treatment at different temperature: (a) 200 °C; (b) 300 °C; (c) 400 °C; and (d) 500 °C.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Macrostructure of XZ plane specimens after 2 h of heat treatment at different temperature: (a) 200 • C; (b) 300 • C; (c) 400 • C; and (d) 500 • C.</s></p></div></figDesc><graphic coords="7,81.06,296.25,434.70,374.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Microstructure of as-built specimens using different temperatures of the building platform (a) 35 °C and (b) 100 °C.</s></p></div></figDesc><graphic coords="8,96.00,191.10,401.66,153.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. Close-up of the melt pool (MP) zones (a) of the silicon-isolated particles in HAZ; (b) of the as-built specimens (Tplatform 35 °C).</s></p></div></figDesc><graphic coords="8,301.34,553.18,197.72,132.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Microstructure of as-built specimens using different temperatures of the building platform (a) 35 • C and (b) 100 • C.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Microstructure of as-built specimens using different temperatures of the building platform (a) 35 °C and (b) 100 °C.</s></p></div></figDesc><graphic coords="8,95.39,225.09,401.66,153.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. Close-up of the melt pool (MP) zones (a) of the silicon-isolated particles in HAZ; (b) of the as-built specimens (Tplatform 35 °C).</s></p></div></figDesc><graphic coords="8,300.73,587.16,197.72,132.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. Close-up of the melt pool (MP) zones (a) of the silicon-isolated particles in HAZ; (b) of the as-built specimens (T platform 35 • C).</s></p></div></figDesc><graphic coords="8,95.67,587.36,196.96,132.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8.</s><s>(a) Close-up of the eutectic-like phase on the border of α-Al grains and (b) idiomorphic crystals in the HAZ of the as-built specimens (Tplatform 100 °C).</s></p></div></figDesc><graphic coords="9,90.40,103.78,202.68,136.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Microstructure of the AlSi10Mg specimen after stress relieved at 300 °C (a) MP and (b) HAZ (Tplatform 35 °C).</s></p></div></figDesc><graphic coords="9,302.48,375.42,199.58,134.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8.</s><s>(a) Close-up of the eutectic-like phase on the border of α-Al grains and (b) idiomorphic crystals in the HAZ of the as-built specimens (T platform 100 • C).</s></p></div></figDesc><graphic coords="9,302.66,103.78,202.56,136.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8.</s><s>(a) Close-up of the eutectic-like phase on the border of α-Al grains and (b) idiomorphic crystals in the HAZ of the as-built specimens (Tplatform 100 °C).</s></p></div></figDesc><graphic coords="9,89.36,90.86,202.68,136.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Microstructure of the AlSi10Mg specimen after stress relieved at 300 °C (a) MP and (b) HAZ (Tplatform 35 °C).</s></p></div></figDesc><graphic coords="9,303.52,388.34,199.58,134.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Microstructure of the AlSi10Mg specimen after stress relieved at 300 • C (a) MP and (b) HAZ (T platform 35 • C).</s></p></div></figDesc><graphic coords="9,91.99,388.88,198.03,133.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Microstructure of the XZ (Tplatform 35 °C ) specimens heat treated at (a) 400 °C and (b) 550 °C<ref type="bibr" target="#b37">[38]</ref>.</s></p></div></figDesc><graphic coords="10,302.53,207.57,209.33,154.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Microstructure of the XZ (T platform 35 • C) specimens heat treated at (a) 400 • C and (b) 550 • C [38].</s></p></div></figDesc><graphic coords="10,82.18,207.95,208.35,154.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Effect of thermal treatments on microhardness.</s></p></div></figDesc><graphic coords="11,149.42,358.67,294.45,194.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Effect of thermal treatments on microhardness.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Chemical composition (% weight) of the alloy.</s></p></div></figDesc><table><row><cell>Chemical Composition</cell><cell>Content (% Weight)</cell></row><row><cell>Si</cell><cell>10.1</cell></row><row><cell>Fe</cell><cell>0.16</cell></row><row><cell>Cu</cell><cell>0.001</cell></row><row><cell>Mn</cell><cell>0.002</cell></row><row><cell>Mg</cell><cell>0.35</cell></row><row><cell>Zn</cell><cell>0.002</cell></row><row><cell>Ti</cell><cell>0.01</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Chemical composition (% weight) of the alloy.</s></p></div></figDesc><table><row><cell>Materials 2018, 11, x FOR PEER REVIEW</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Morphology of corrosion after ISO 11846 test.</s></p></div></figDesc><table><row><cell>Heat</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head>Table 3 .</head><label>3</label><figDesc><div><p><s>Results of microhardness measurements (HV0.1).</s></p></div></figDesc><table><row><cell cols="3">Heat Treatment Cooling</cell><cell cols="4">Temperature of Building Platform 100 °C 35 °C</cell></row><row><cell>T (°C )</cell><cell>t (h)</cell><cell></cell><cell>XZ</cell><cell>XY</cell><cell>XZ</cell><cell>XY</cell></row><row><cell>UT</cell><cell>-</cell><cell>-</cell><cell>143 ± 3</cell><cell>140 ± 2</cell><cell>138 ± 2</cell><cell>132 ± 1</cell></row><row><cell>200</cell><cell>2</cell><cell>air</cell><cell>136 ± 5</cell><cell>135 ± 4</cell><cell>137 ± 7</cell><cell>134 ± 8</cell></row><row><cell>300</cell><cell>2</cell><cell>air</cell><cell>95 ± 5</cell><cell>101 ± 2</cell><cell>110 ± 4</cell><cell>106 ± 1</cell></row><row><cell>400</cell><cell>2</cell><cell>air</cell><cell>70 ± 2</cell><cell>69 ± 3</cell><cell>71 ± 2</cell><cell>75 ± 3</cell></row><row><cell>500</cell><cell>2</cell><cell>air</cell><cell>60 ± 2</cell><cell>65 ± 3</cell><cell>59 ± 4</cell><cell>65 ± 2</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head>Table 3 .</head><label>3</label><figDesc><div><p><s>Results of microhardness measurements (HV 0.1 ).</s></p></div></figDesc><table><row><cell></cell><cell></cell><cell></cell><cell cols="4">Temperature of Building Platform</cell></row><row><cell cols="2">Heat Treatment</cell><cell>Cooling</cell><cell cols="2">100 • C</cell><cell cols="2">35 • C</cell></row><row><cell>T ( • C)</cell><cell>t (h)</cell><cell></cell><cell>XZ</cell><cell>XY</cell><cell>XZ</cell><cell>XY</cell></row><row><cell>UT</cell><cell>-</cell><cell>-</cell><cell>143 ± 3</cell><cell>140 ± 2</cell><cell>138 ± 2</cell><cell>132 ± 1</cell></row><row><cell>200</cell><cell>2</cell><cell>air</cell><cell>136 ± 5</cell><cell>135 ± 4</cell><cell>137 ± 7</cell><cell>134 ± 8</cell></row><row><cell>300</cell><cell>2</cell><cell>air</cell><cell>95 ± 5</cell><cell>101 ± 2</cell><cell>110 ± 4</cell><cell>106 ± 1</cell></row><row><cell>400</cell><cell>2</cell><cell>air</cell><cell>70 ± 2</cell><cell>69 ± 3</cell><cell>71 ± 2</cell><cell>75 ± 3</cell></row><row><cell>500</cell><cell>2</cell><cell>air</cell><cell>60 ± 2</cell><cell>65 ± 3</cell><cell>59 ± 4</cell><cell>65 ± 2</cell></row></table></figure>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Funding: This research received no external funding.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p><s>The authors declare no conflict of interest.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions:</head><p><s>The LPBF specimens were built by research groups from IIT (D.M. and M.L.) and Politecnico di Torino (F.C. and P.F.).</s><s>They also realized the microstructural analysis by FESEM.</s><s>The corrosion tests were carried out by a research group from the University of Bergamo (M.C., S.L., C.T. and T.P.).</s><s>All authors wrote or reviewed the paper.</s></p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Recent development in aluminium alloys for the automotive industry</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bottema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wittebrood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>De Smet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haszler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vieregge</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0921-5093(99)00653-X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="37" to="49" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miller, W.S.; Zhuang, L.; Bottema, J.; Wittebrood, A.J.; De Smet, P.; Haszler, A.; Vieregge, A. Recent development in aluminium alloys for the automotive industry. Mater. Sci. Eng. A 2000, 280, 37-49. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Aluminium alloys for automobile applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 6th International Conference on Aluminium Alloys (ICAA-6)</title>
+		<meeting>the 6th International Conference on Aluminium Alloys (ICAA-6)<address><addrLine>Toyohashi, Japan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998-07-10">5-10 July 1998</date>
+			<biblScope unit="page" from="25" to="32" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morita, A. Aluminium alloys for automobile applications. In Proceedings of the 6th International Conference on Aluminium Alloys (ICAA-6), Toyohashi, Japan, 5-10 July 1998; pp. 25-32.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Automotive Engineering: Strategic Overview</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sears</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Steel World</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="55" to="68" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sears, K. Automotive Engineering: Strategic Overview. Steel World 1997, 2, 55-68.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Costs and Cost Effectiveness of Additive Manufacturing a Literature Review and Discussion</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Gilbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">NIST Special Publication 1176</title>
+		<meeting><address><addrLine>Gaithersburg, MD, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+		<respStmt>
+			<orgName>NIST</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Thomas, D.S.; Gilbert, S.W. Costs and Cost Effectiveness of Additive Manufacturing a Literature Review and Discussion; NIST Special Publication 1176; NIST: Gaithersburg, MD, USA, 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Environmental Impact of Additive Manufacturing Processes: Does AM Contribute to a More Sustainable Way of Part Manufacturing?</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kellens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paraskevas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dewulf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Duflou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procir.2016.11.153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="582" to="587" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kellens, K.; Mertens, R.; Paraskevas, D.; Dewulf, W.; Duflou, J.R. Environmental Impact of Additive Manufacturing Processes: Does AM Contribute to a More Sustainable Way of Part Manufacturing? Procedia CIRP 2017, 61, 582-587. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Framework to Predict the Environmental Impact of Additive Manufacturing in the Life Cycle of a Commercial Vehicle</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burkhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Aurich</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procir.2015.02.194</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="408" to="413" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burkhart, M.; Aurich, J.C. Framework to Predict the Environmental Impact of Additive Manufacturing in the Life Cycle of a Commercial Vehicle. Procedia CIRP 2015, 29, 408-413. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing and sustainability: An exploratory study of the advantages and challenges</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Despeisse</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2016.04.150</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="1573" to="1587" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ford, S.; Despeisse, M. Additive manufacturing and sustainability: An exploratory study of the advantages and challenges. J. Clean. Prod. 2016, 137, 1573-1587. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Economics of additive manufacturing for end-usable metal parts</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Atzeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salmi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-011-3878-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1433" to="3015" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Atzeni, E.; Salmi, A. Economics of additive manufacturing for end-usable metal parts. Int. J. Adv. Manuf. Technol. 2012, 62, 1433-3015. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Additive Manufacturing: A Review</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Frazier</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11665-014-0958-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Eng. Perform</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1917" to="1928" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frazier, W.E. Metal Additive Manufacturing: A Review. J. Mater. Eng. Perform. 2014, 23, 1917-1928. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">In-Situ TiC particle reinforced Ti-Al matrix composites: Powder preparation by mechanical alloying and selective laser melting behavior</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2009.07.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="9230" to="9240" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gu, D.; Wang, Z.; Shen, Y.; Li, Q.; Li, Y. In-Situ TiC particle reinforced Ti-Al matrix composites: Powder preparation by mechanical alloying and selective laser melting behavior. Appl. Surf. Sci. 2009, 255, 9230-9240. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical behavior of Inconel 718 fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Amato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gaytan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Murr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Shindo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2011.12.032</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="2229" to="2239" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amato, K.N.; Gaytan, S.M.; Murr, L.E.; Martinez, E.; Shindo, P.W.; Hernandez, J. Microstructures and mechanical behavior of Inconel 718 fabricated by selective laser melting. Acta Mater. 2012, 60, 2229-2239. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Precipitation hardening in Al-Mg-Si alloys with and without excess Si</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Court</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0921-5093(01)01247-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="page" from="11" to="17" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gupta, A.K.; Lloyd, D.J.; Court, S.A. Precipitation hardening in Al-Mg-Si alloys with and without excess Si. Mater. Sci. Eng. A 2001, 316, 11-17. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Fine-sructured aluminium products with controllable texture by selective laser melting of pre-alloyed AlSi10Mg powder</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2012.11.052</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1809" to="1819" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thijs, L.; Kempen, K.; Kruth, J.-P.; Van Humbeeck, J. Fine-sructured aluminium products with controllable texture by selective laser melting of pre-alloyed AlSi10Mg powder. Acta Mater. 2013, 61, 1809-1819. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mechanical Properties of AlSi10Mg Produced by Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phpro.2012.10.059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Procedia</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="439" to="446" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kempen, K.; Thijs, L.; Van Humbeeck, J.; Kruth, J.P. Mechanical Properties of AlSi10Mg Produced by Selective Laser Melting. Phys. Procedia 2012, 39, 439-446. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Properties of test coupons fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Leong</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/KEM.447-448.780</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Key Eng. Mater</title>
+		<imprint>
+			<biblScope unit="page" from="780" to="784" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, A.; Chua, C.K.; Leong, K.F. Properties of test coupons fabricated by selective laser melting. Key Eng. Mater. 2010, 447-448, 780-784. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">From powders to dense metal parts: Characterization of a commercial AlSiMg alloy processed through direct metal laser sintering</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Manickavasagam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Canali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Atzeni</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma6030856</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="856" to="869" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Manfredi, D.; Calignano, F.; Manickavasagam, K.; Canali, R.; Ambrosio, E.P.; Atzeni, E. From powders to dense metal parts: Characterization of a commercial AlSiMg alloy processed through direct metal laser sintering. Materials 2013, 6, 856-869. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Direnct Metal Laser Sintering: An additive manufacturing technology ready to produce lightweight structural parts for robotic applications</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cagliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Canali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Biamino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pavese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Atzeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Iuliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">La Metallurgia Italiana</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="15" to="24" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Manfredi, D.; Cagliano, F.; Ambrosio, E.P.; Krishnan, M.; Canali, R.; Biamino, S.; Pavese, M.; Atzeni, E.; Iuliano, L.; Fino, P.; et al. Direnct Metal Laser Sintering: An additive manufacturing technology ready to produce lightweight structural parts for robotic applications. La Metallurgia Italiana 2013, 105, 15-24.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Selective laser sintering/melting (SLS/SLM) of pure Al, Al-Mg, and Al-Si powders: Effect of processing conditions and powder properties</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename><surname>Olakanmi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2013.03.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="1387" to="1415" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Olakanmi, E.O. Selective laser sintering/melting (SLS/SLM) of pure Al, Al-Mg, and Al-Si powders: Effect of processing conditions and powder properties. J. Mater. Process. Technol. 2013, 213, 1387-1415. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of AlSi10Mg alloy: Process optimisation and mechanical properties development</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Essa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2014.09.044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="417" to="424" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Read, N.; Wang, W.; Essa, K.; Attallah, M.M. Selective laser melting of AlSi10Mg alloy: Process optimisation and mechanical properties development. Mater. Des. 2015, 65, 417-424. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Composites by rapid prototyping technology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2009.07.045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="850" to="856" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar, S.; Kruth, J.-P. Composites by rapid prototyping technology. Mater. Des. 2010, 31, 850-856. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Reactivity of thermally oxidized and unoxidized SiC particulates with aluminium-silicon alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Narciso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>García-Cordovilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Louis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0921-5107(92)90047-D</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. B</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="148" to="155" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Narciso, J.; García-Cordovilla, C.; Louis, E. Reactivity of thermally oxidized and unoxidized SiC particulates with aluminium-silicon alloys. Mater. Sci. Eng. B 1992, 15, 148-155. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Evaluation of corrosion resistance of Al-10Si-Mg alloy obtained by means of Direct Metal Laser Sintering</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cabrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lorenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pastore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pellegrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Biamino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Badini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2015.12.033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="page" from="326" to="335" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cabrini, M.; Lorenzi, S.; Pastore, T.; Pellegrini, S.; Manfredi, D.; Fino, P.; Biamino, S.; Badini, C. Evaluation of corrosion resistance of Al-10Si-Mg alloy obtained by means of Direct Metal Laser Sintering. J. Mater. Process. Technol. 2016, 231, 326-335. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of heat treatment on corrosion resistance of DMLS AlSi10Mg alloy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cabrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lorenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pastore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pellegrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pavese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.electacta.2016.04.157</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="page" from="346" to="355" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cabrini, M.; Lorenzi, S.; Pastore, T.; Pellegrini, S.; Ambrosio, E.P.; Calignano, F.; Manfredi, D.; Pavese, M.; Fino, P. Effect of heat treatment on corrosion resistance of DMLS AlSi10Mg alloy. Electrochim. Acta 2016, 206, 346-355. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Corrosion resistance of direct metal laser sintering AlSiMg alloy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cabrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lorenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pastore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pellegrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pavese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/sia.5981</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Interface Anal</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="818" to="826" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cabrini, M.; Lorenzi, S.; Pastore, T.; Pellegrini, S.; Pavese, M.; Fino, P.; Ambrosio, E.P.; Calignano, F.; Manfredi, D. Corrosion resistance of direct metal laser sintering AlSiMg alloy. Surf. Interface Anal. 2016, 48, 818-826. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Analysis of corrosion resistance of the AlSi10Mg alloy obtained by Additive Manufacturing in chloride solution</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cabrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lorenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pastore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pellegrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Testa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lorusso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">La Metallurgia Italiana</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="137" to="146" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cabrini, M.; Lorenzi, S.; Pastore, T.; Pellegrini, S.; Testa, C.; Manfredi, D.; Ambrosio, E.P.; Calignano, F.; Lorusso, M.; Fino, P. Analysis of corrosion resistance of the AlSi10Mg alloy obtained by Additive Manufacturing in chloride solution. La Metallurgia Italiana 2016, 12, 137-146.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Reducing porosity un AlSi10Mg parts processed by selective laser melting</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Aboulkhair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Everitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tuck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2014.08.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="77" to="86" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aboulkhair, N.T.; Everitt, N.M.; Ashcroft, I.; Tuck, C. Reducing porosity un AlSi10Mg parts processed by selective laser melting. Addit. Manuf. 2014, 1, 77-86. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of aluminium components</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Louvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2010.09.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="275" to="284" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Louvis, E.; Fox, P.; Sutcliffe, C.J. Selective laser melting of aluminium components. J. Mater. Process. Technol. 2011, 211, 275-284. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Influence of process parameters on surface roughness of aluminum parts produced by DMLS</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Iuliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-012-4688-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2743" to="2751" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calignano, F.; Manfredi, D.; Ambrosio, E.P.; Iuliano, L.; Fino, P. Influence of process parameters on surface roughness of aluminum parts produced by DMLS. Int. J. Adv. Manuf. Technol. 2013, 67, 2743-2751. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<monogr>
+		<idno>ISO 11846</idno>
+		<title level="m">Corrosion of Metals and Alloys-Determination of Resistance to Intergranular Corrosion of Solution Heat-Treatable Aluminium Alloys</title>
+		<meeting><address><addrLine>Geneva, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995">1995. 1995</date>
+		</imprint>
+		<respStmt>
+			<orgName>International Organization for Standardization</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">ISO 11846:1995-Corrosion of Metals and Alloys-Determination of Resistance to Intergranular Corrosion of Solution Heat-Treatable Aluminium Alloys; International Organization for Standardization: Geneva, Switzerland, 1995.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A new high-strength and corrosion resistant Al-Si based casting alloy</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2013.01.112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="104" to="107" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liang, Z.X.; Ye, B.; Zhang, L.; Wang, Q.G.; Yang, W.Y.; Wang, Q.D. A new high-strength and corrosion resistant Al-Si based casting alloy. Mater. Lett. 2013, 97, 104-107. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Characterization of cast AlSi(Cu) alloys by scanning Kelvin probe force microscopy</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Fratila-Apachitei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Apachitei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duszcz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.electacta.2006.03.027</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="5892" to="5896" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fratila-Apachitei, L.E.; Apachitei, I.; Duszcz, J. Characterization of cast AlSi(Cu) alloys by scanning Kelvin probe force microscopy. Electrochim. Acta 2006, 51, 5892-5896. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Effect of silicon content on microstructure and electrochemical behavior of hypoeutectic Al</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Osòrio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Goulart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garcia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2007.05.051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Si alloys. Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="365" to="369" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Osòrio, W.R.; Goulart, P.R.; Garcia, A. Effect of silicon content on microstructure and electrochemical behavior of hypoeutectic Al.Si alloys. Mater. Lett. 2008, 62, 365-369. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">On the Selective laser Melting (SLM) of the AlSi10Mg Alloy: Process, Microstructure, and Mechanical Properties</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Trevisan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lorusso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pakkanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aversa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ambrosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lombardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma10010076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">76</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Trevisan, F.; Calignano, F.; Lorusso, M.; Pakkanen, J.; Aversa, A.; Ambrosio, E.P.; Lombardi, M.; Fino, P.; Manfredi, D. On the Selective laser Melting (SLM) of the AlSi10Mg Alloy: Process, Microstructure, and Mechanical Properties. Materials 2017, 10, 76. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Change in microstructure of selectively laser melted AlSi10Mg alloy with heat treatments</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Takata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kodaira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sekizawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kobashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.08.029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">704</biblScope>
+			<biblScope unit="page" from="218" to="228" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Takata, N.; Kodaira, H.; Sekizawa, K.; Suzuki, A.; Kobashi, M. Change in microstructure of selectively laser melted AlSi10Mg alloy with heat treatments. Mater. Sci. Eng. A 2017, 704, 218-228. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of Al-12Si producd by selective laser melting: Effect of heat treatment</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Prashanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scudino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Klauss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Surreddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lober</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Chaubey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eckert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2013.10.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="page" from="153" to="160" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Prashanth, K.G.; Scudino, S.; Klauss, H.J.; Surreddi, K.B.; Lober, L.; Wang, Z.; Chaubey, A.K.; Kuhn, U.; Eckert, J. Microstructure and mechanical properties of Al-12Si producd by selective laser melting: Effect of heat treatment. Mater. Sci. Eng. A 2014, 590, 153-160. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The Al-Si (Aluminium-Silicon) System</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mcalister</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02868729</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Alloy Phase Diagr</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="74" to="84" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murray, J.L.; McAlister, A.J. The Al-Si (Aluminium-Silicon) System. Bull. Alloy Phase Diagr. 1984, 5, 74-84. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Local Corrosion Behavior of Additive Manufactured AlSiMg Alloy Assessed by SEM and SKPFM</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Revilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Godet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>De Graevea</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/2.0461702jes</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Electrochem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="27" to="C35" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Revilla, R.I.; Liang, J.; Godet, S.; De Graevea, I. Local Corrosion Behavior of Additive Manufactured AlSiMg Alloy Assessed by SEM and SKPFM. J. Electrochem. Soc. 2017, 164, C27-C35. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">On the silicon spheroidization in Al-Si alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ogris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wahlen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lüchinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Uggowitzer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1471-5317(03)00010-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Light Met</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="263" to="269" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ogris, E.; Wahlen, A.; Lüchinger, H.; Uggowitzer, P.J. On the silicon spheroidization in Al-Si alloys. J. Light Met. 2002, 2, 263-269. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Investigation of the exfoliation-like attack mechanism in relation to Al-Mg-Si alloy microstructure</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Eckermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Uggowitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Afseth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schmutz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2008.04.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="2085" to="2093" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eckermann, F.; Suter, T.; Uggowitzer, P.J.; Afseth, A.; Schmutz, P. Investigation of the exfoliation-like attack mechanism in relation to Al-Mg-Si alloy microstructure. Corros. Sci. 2008, 50, 2085-2093. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Corrosion Behavior of Extruded near Eutectic AleSieMg and 6063 Alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmst.2013.02.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="380" to="386" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, Y.; Liao, H. Corrosion Behavior of Extruded near Eutectic AleSieMg and 6063 Alloys. J. Mater. Sci. Technol. 2013, 29, 380-386. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Effect of iron-containing intermetallic particles on the corrosion behaviour of aluminium</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ambat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Scamans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Afseth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2006.01.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="3455" to="3471" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ambat, R.; Davenport, A.J.; Scamans, G.M.; Afseth, A. Effect of iron-containing intermetallic particles on the corrosion behaviour of aluminium. Corros. Sci. 2006, 48, 3455-3471. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A study of tensile properties in Al-Si-Cu and Al-Si-Mg alloys: Effect of β-iron intermetallics and porosity</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Samuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Samuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Doty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Valtierra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2008.01.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page" from="36" to="51" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ma, Z.; Samuel, A.M.; Samuel, F.H.; Doty, H.W.; Valtierra, S. A study of tensile properties in Al-Si-Cu and Al-Si-Mg alloys: Effect of β-iron intermetallics and porosity. Mater. Sci. Eng. A 2008, 490, 36-51. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Characterization of an Aluminium Alloy Hemispherical Shell Fabricated via Direct Metal Laser Melting</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Holesinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Lienert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Papin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Cordes</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-015-1798-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1000" to="1010" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holesinger, T.G.; Carpenter, J.S.; Lienert, T.J.; Patterson, B.M.; Papin, P.A.; Swenson, H.; Cordes, N.L. Characterization of an Aluminium Alloy Hemispherical Shell Fabricated via Direct Metal Laser Melting. JOM 2016, 68, 1000-1010. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Nucleation mechanism of the eutectic phases in aluminum-silicon hypoeutectic alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Riddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Makhlouf</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2004.05.045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="4447" to="4460" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shankar, S.; Riddle, Y.W.; Makhlouf, M.M. Nucleation mechanism of the eutectic phases in aluminum-silicon hypoeutectic alloys. Acta Mater. 2004, 52, 4447-4460. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Pitting corrosion of aluminum</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Szklarska-Smialowska</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0010-938X(99)00012-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1743" to="1767" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Szklarska-Smialowska, Z. Pitting corrosion of aluminum. Corros. Sci. 1999, 41, 1743-1767. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A comparison of Selective Laser Melting with bulk rapid solidification of AlSi10Mg alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fiore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Poletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lombardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Battezzati</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.01.309</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">742</biblScope>
+			<biblScope unit="page" from="271" to="279" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marola, S.; Manfredi, D.; Fiore, G.; Poletti, M.G.; Lombardi, M.; Fino, P.; Battezzati, L. A comparison of Selective Laser Melting with bulk rapid solidification of AlSi10Mg alloy. J. Alloys Compd. 2018, 742, 271-279. [CrossRef]</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

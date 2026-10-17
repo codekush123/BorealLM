@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of Pre-and Post-Contouring Strategies to Downskin Sloped Surfaces in Laser Powder-Bed Fusion (L-PBF) Additive Manufacturing</title>
+				<funder ref="#_D8JauBT">
+					<orgName type="full">Navy STTR</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Technical Data Analysis, Inc</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-05-30">30 May 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Nismath</forename><surname>Valiyakath</surname></persName>
+							<email>nismath.valiyakathvadakkanhabeeb@louisville.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Industrial Engineering , University of Louisville , Louisville , KY 40292 , USA;</note>
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vadakkan</forename><surname>Habeeb</surname></persName>
+							<idno type="ORCID">0009-0005-1789-3030</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Industrial Engineering , University of Louisville , Louisville , KY 40292 , USA;</note>
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rabiul</forename><surname>Islam</surname></persName>
+							<idno type="ORCID">0009-0005-1789-3030</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Industrial Engineering , University of Louisville , Louisville , KY 40292 , USA;</note>
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Chou</surname></persName>
+							<email>kevin.chou@louisville.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Industrial Engineering , University of Louisville , Louisville , KY 40292 , USA;</note>
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<postCode>40292</postCode>
+									<settlement>Louisville</settlement>
+									<region>KY</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of Pre-and Post-Contouring Strategies to Downskin Sloped Surfaces in Laser Powder-Bed Fusion (L-PBF) Additive Manufacturing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-05-30">30 May 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B9D8756A61A0FE52A369B12F1355EAAD</idno>
+					<idno type="DOI">10.3390/ma17112639</idno>
+					<note type="submission">Received: 6 May 2024 Revised: 24 May 2024 Accepted: 25 May 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-04T23:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>downskin surfaces</term>
+					<term>surface roughness</term>
+					<term>laser powder-bed fusion</term>
+					<term>contouring strategies</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Among various metal additive manufacturing (AM) technologies, L-PBF is known for fabricating intricate components.</s><s>However, due to step edges and powder particle attachments, attaining a good surface finish is challenging, especially on downskin surfaces.</s><s>Contour scanning has potential to improve surface quality because such scanning may dominate the surface formation of sloped features.</s><s>This study evaluates the effects of pre-and post-contouring strategies on the sloped downskin surfaces fabricated using a commercial L-PBF system with Ti6Al4V powder.</s><s>L-PBF parts printed at inclination angles 30 • , 45 • and 60 • were investigated.</s><s>A double-contouring approach with varying processing conditions was employed and surface characteristics were analyzed using data acquired by white light interferometry.</s><s>The average surface roughness, S a , surface skewness, S sk , and percentage area of powder particles attached onto surfaces were statistically evaluated.</s><s>The lowest S a obtained for pre-and post-contoured samples is 14.08 µm and 18.88 µm, respectively.</s><s>For both strategies, the combination of a low laser power and a high scan speed on the interface of downskin surface and underneath powder results in smoother surfaces.</s><s>However, while comparing both strategies, pre-contouring gives better surface finish for samples built at similar processing conditions, with a difference of nearly 5 µm in S a .</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Laser Powder Bed Fusion (L-PBF) is a widely adopted additive manufacturing process used to fabricate complex metallic parts.</s><s>The process selectively melts a layer of metal powder by laser scanning across the powder bed.</s><s>Subsequently, the powder bed lowers down one layer thickness, and a new layer of metal powder is spread on top of the melted layer.</s><s>Again, the laser beam scans along the predetermined path, building the part layer by layer <ref type="bibr" target="#b0">[1]</ref>.</s><s>The L-PBF process excels in producing complex geometries with single-step fabrication and reducing the weight of a component while meeting the mechanical requirements.</s><s>These unique advantages have led to the process being utilized in various industries like biomedical, automotive, and tooling, but most notably the aerospace sector <ref type="bibr" target="#b1">[2]</ref>.</s></p><p><s>Despite advances in the L-PBF process, it still faces challenges that hinder its growth in many industries.</s><s>Due to lower dimensional accuracy and process repeatability compared to conventional methods, as-built parts require additional post-processing like polishing, coating, and chemical treatments.</s><s>Moreover, mechanical properties, particularly fatigue strength, are constrained by factors such as porosity and surface roughness <ref type="bibr" target="#b2">[3]</ref>.</s></p><p><s>One of the benefits of L-PBF comes from being able to additively build parts without the need for support structures.</s><s>However, parts built with unsupported overhangs exhibit higher surface roughness, and the detrimental effect of surface roughness on fatigue performance is well examined.</s><s>Sanaei and Fatemi have found that surface roughness significantly impacts fatigue performance, even in the presence of internal defects and varying microstructures <ref type="bibr" target="#b3">[4]</ref>.</s><s>So, it is of high interest to explore ways to minimize surface roughness at low overhang angles.</s><s>Also, surface roughness is an important consideration for L-PBF due to its effect on assemblability, which is defined as a component's capability to assemble smoothly with a mating component and depends on the geometric tolerances of mating parts <ref type="bibr" target="#b4">[5]</ref>.</s><s>In addition to considerations of friction, L-PBF-produced parts with high surface roughness require postprocessing steps, resulting in additional costs and time <ref type="bibr" target="#b5">[6]</ref>.</s><s>Furthermore, some applications in the bio-medical sector require tailored surface roughness, so it is imperative that we establish the effect of process parameters on surface roughness <ref type="bibr" target="#b6">[7]</ref>.</s></p><p><s>Among many ways to quantify and characterize surface roughness (S a , S sk , S ku , S t , S q ), the S a value, which is defined as average height of a surface, is the most used as the other parameters have strong correlation to S a value and overall provides a better estimate of surface roughness <ref type="bibr" target="#b7">[8]</ref>.</s><s>To measure the roughness, contact stylus profilometry remains a staple for precise topography measurement at a microscale level.</s><s>However, these contactbased methods are sometimes inadequate in measuring a surface area instead of along a line <ref type="bibr" target="#b8">[9]</ref>.</s><s>Scanning Electron Microscopy (SEM) imaging allows for detailed visualization of surface features and provides valuable qualitative information about surface texture, morphology, and defects <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>.</s><s>However, for precise surface generation with numerical modelling capabilities, X-ray Computed Tomography (XCT) and Scanning White Light Interferometry (SWLI) work well <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>.</s></p><p><s>When examining surface roughness in parts built with unsupported overhangs, the surface facing downward (downskin) is found to have higher surface roughness than upward facing (upskin), vertical (sideskin), and horizontal surfaces <ref type="bibr" target="#b12">[13]</ref>.</s><s>However, the causes and mechanisms of surface formation are different for upskin and downskin.</s><s>Hence, the parameters affect both surfaces differently.</s><s>Two primary contributors to upskin surface roughness are step edges and the agglomeration of partially sintered particles <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>.</s><s>Strano et al. <ref type="bibr" target="#b15">[16]</ref> examined the relationship between overhang sloping angles and upskin surface roughness and found that for lower sloping angles, the staircase effect was the main cause of surface roughness, while at higher sloping angles, partially sintered particles attached to step edges was the dominant factor.</s></p><p><s>Downskin surface roughness is mostly due to the phenomena called dross formation which is caused by the difference in heat transfer rate between solidified metal and metal powder.</s><s>As the laser irradiates a region with solid support, the heat dissipation is fast due to high thermal conductivity of solid metal.</s><s>Conversely, when the laser hits a powdersupported region, the heat dissipation is slower and leads to larger melt pools.</s><s>The enlarged melt pool then sinks into the powder bed due to gravity and capillary forces resulting in dross formation <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>.</s><s>The sagging melt pool produces a larger area for partially melted powder particle attachment, thus contributing to higher surface roughness.</s></p><p><s>A number of processes, design, and metallurgical factors affect downskin surface quality.</s><s>Scan strategy (contouring, hatch spacing, skywriting) and process parameters (scan speed, laser power, hatch spacing, layer thickness), among others, impact downskin surface roughness.</s><s>Tian et al. examined the influence of process parameters on surface roughness of Hastelloy-X parts made by L-PBF <ref type="bibr" target="#b19">[20]</ref>.</s><s>They found that low laser power and high scan speed produce low downskin roughness.</s><s>Fox et al. studied the downskin of stainless steel-GP1 parts at various overhang angles and observed overall surface roughness increase with decreasing inclination angle.</s><s>Also, they found that partially melted particles dominate the downskin surface at a very low (0.06 J/mm) linear energy density, and at a higher (0.28 J/mm) linear energy density, along with partially melted powder, there are solidified melt tracks and deformed materials by the recoater on the surface <ref type="bibr" target="#b20">[21]</ref>.</s><s>Snyder and Thole identified melt pool depth as the primary predictor of downskin surface roughness and found that contour parameters have significant impact for downskin surface <ref type="bibr" target="#b21">[22]</ref>.</s><s>Ullah et al. identified sub-surface pores as another factor that affects the downskin surface quality of AM parts.</s><s>The sub-surface porosity was found to increase with the inclination angle of the overhang surfaces.</s><s>They also found that the contour scanning strategy can affect the downskin surface roughness as well as sub-surface porosity to a great extent <ref type="bibr" target="#b22">[23]</ref>.</s></p><p><s>Although several studies have shown that contouring of the scan region is an effective way to reduce the surface roughness of L-PBF parts, a comprehensive analysis with various contouring methods and a wide range of contouring parameters still cannot be found.</s><s>This study aims to study the effects of two different contouring strategies, namely pre-and postcontouring on the downskin surface roughness of sloped L-PBF parts.</s><s>A wide range of contouring parameters including laser power and scan speed were taken into account, and the effects of these variables on downskin surface roughness were analyzed qualitatively and quantitatively from surface measurement results.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Sample Design and Fabrication</head><p><s>The design of experiment (DOE) was created with two different contouring strategies, namely pre-contouring and post-contouring.</s><s>To ensure adequate remelting of the contouring region, a double-contouring technique rather than a single contour scan was adopted in both cases.</s><s>An inner contour scan shifted inside the raster scan region at an offset distance, d1, and an outer contour scan shifted towards the outside of the raster scan at offset distance, d2, were implemented.</s><s>Along with laser power (P), scan speed (V), and the inclination angle (θ) of the downskin surfaces, the total offset distance, d3 (total distance between inner and outer contour scans, d3 = d1 + d2), was taken as a parameter while designing the experiment.</s><s>The DOE with both strategies is explained in Sections 2.1.1 and 2.1.2.</s><s>The scan strategy and order are illustrated in Figure <ref type="figure" target="#fig_0">1</ref>, along with the sample design.</s></p><p><s>Materials 2024, 17, x FOR PEER REVIEW 3 of 17 downskin surface quality of AM parts.</s><s>The sub-surface porosity was found to increase with the inclination angle of the overhang surfaces.</s><s>They also found that the contour scanning strategy can affect the downskin surface roughness as well as sub-surface porosity to a great extent <ref type="bibr" target="#b22">[23]</ref>.</s></p><p><s>Although several studies have shown that contouring of the scan region is an effective way to reduce the surface roughness of L-PBF parts, a comprehensive analysis with various contouring methods and a wide range of contouring parameters still cannot be found.</s><s>This study aims to study the effects of two different contouring strategies, namely pre-and post-contouring on the downskin surface roughness of sloped L-PBF parts.</s><s>A wide range of contouring parameters including laser power and scan speed were taken into account, and the effects of these variables on downskin surface roughness were analyzed qualitatively and quantitatively from surface measurement results.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Sample Design and Fabrication</head><p><s>The design of experiment (DOE) was created with two different contouring strategies, namely pre-contouring and post-contouring.</s><s>To ensure adequate remelting of the contouring region, a double-contouring technique rather than a single contour scan was adopted in both cases.</s><s>An inner contour scan shifted inside the raster scan region at an offset distance, d1, and an outer contour scan shifted towards the outside of the raster scan at offset distance, d2, were implemented.</s><s>Along with laser power (P), scan speed (V), and the inclination angle (θ) of the downskin surfaces, the total offset distance, d3 (total distance between inner and outer contour scans, d3 = d1 + d2), was taken as a parameter while designing the experiment.</s><s>The DOE with both strategies is explained in Sections 2.1.1 and 2.1.2.</s><s>The scan strategy and order are illustrated in Figure <ref type="figure" target="#fig_0">1</ref>, along with the sample design.</s><s>The sloped samples with width and height of 10 mm, at inclination angles of 30°, 45°, and 60°, were designed as shown in Figure <ref type="figure" target="#fig_0">1</ref>.</s><s>An EOS M270 laser powder-bed fusion system and Ti6Al4V powder were used for fabrication of the sloped samples.</s><s>A powder layer thickness of 30 µm, beam diameter of 100 µm, and hatch spacing of 100 µm were applied throughout the fabrication process.</s><s>In addition, default raster scan parameters of 170 W The sloped samples with width and height of 10 mm, at inclination angles of 30 • , 45 • , and 60 • , were designed as shown in Figure <ref type="figure" target="#fig_0">1</ref>.</s><s>An EOS M270 laser powder-bed fusion system and Ti6Al4V powder were used for fabrication of the sloped samples.</s><s>A powder layer thickness of 30 µm, beam diameter of 100 µm, and hatch spacing of 100 µm were applied throughout the fabrication process.</s><s>In addition, default raster scan parameters of 170 W laser power and 1250 mm/s scanning speed were used for all samples, which are the EOS machine recommended process conditions for Ti6Al4V printing at the selected beam diameter and layer thickness.</s><s>The raster scans were rotated through 90 • in each layer.</s><s>The build plate design, slicing of STL files, and process parameter setup were performed using various software such as Materialize Magics 24.0, RP Tools 6.0, and EOS PSW V3.5.</s><s>Three replicates of each sample were fabricated (Figure <ref type="figure" target="#fig_3">2a</ref>), and the samples were placed randomly on the build plates to avoid the influence of location-dependent effects.</s></p><p><s>Materials 2024, 17, x FOR PEER REVIEW 4 of 17 laser power and 1250 mm/s scanning speed were used for all samples, which are the EOS machine recommended process conditions for Ti6Al4V printing at the selected beam diameter and layer thickness.</s><s>The raster scans were rotated through 90° in each layer.</s><s>The build plate design, slicing of STL files, and process parameter setup were performed using various software such as Materialize Magics 24.0, RP Tools 6.0, and EOS PSW V3.5.</s><s>Three replicates of each sample were fabricated (Figure <ref type="figure" target="#fig_3">2a</ref>), and the samples were placed randomly on the build plates to avoid the influence of location-dependent effects.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">Pre-Contouring Strategy</head><p><s>In this strategy, the inner contour scan will be followed by the outer contour scan at distance d3, and then the raster scans.</s><s>According to a study on the effect of contour scan sequence on the surface roughness of a L-PBF copper alloy part, the pre-contouring resulted in lower roughness on the vertical surfaces.</s><s>The presence of powder provides better energy absorption during pre-contouring, which improves the melt behavior and hence the surface quality <ref type="bibr" target="#b23">[24]</ref>.</s><s>However, the effect of double contouring prior to raster scans on the inclined downskin surfaces has not yet been reported.</s></p><p><s>The design of the experiment (DOE) with pre-contouring strategy is listed in Table <ref type="table" target="#tab_0">1</ref>.</s><s>For this experiment, a fractional factorial experiment with laser power, P, scan speed, V, inclination angle, θ, and offset distance, d3, was implemented.</s><s>Each variable has three factor levels set up by taking the default machine recommended contour scan parameters (P = 150 W, V = 1250 mm/s, d3 = 20 µm) as the pivot parameter.</s><s>The default offset distance in the machine setup is 20 µm.</s><s>Other values were selected in reference to the previous study using post-contouring strategy, where the offset distance, d3, has shown a significant effect on the surface roughness <ref type="bibr" target="#b24">[25]</ref>.</s><s>No. Laser Power, P (W) Scan Speed, V (mm/s) Offset Distance, d3 (µm) 1 100 500 20 2 100 1250 80 3 100 2000 120 4 150 500 120 5 150 1250 20 6 150 2000 80 7 195 500 80 8 195 1250 120</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">Pre-Contouring Strategy</head><p><s>In this strategy, the inner contour scan will be followed by the outer contour scan at distance d3, and then the raster scans.</s><s>According to a study on the effect of contour scan sequence on the surface roughness of a L-PBF copper alloy part, the pre-contouring resulted in lower roughness on the vertical surfaces.</s><s>The presence of powder provides better energy absorption during pre-contouring, which improves the melt behavior and hence the surface quality <ref type="bibr" target="#b23">[24]</ref>.</s><s>However, the effect of double contouring prior to raster scans on the inclined downskin surfaces has not yet been reported.</s></p><p><s>The design of the experiment (DOE) with pre-contouring strategy is listed in Table <ref type="table" target="#tab_0">1</ref>.</s><s>For this experiment, a fractional factorial experiment with laser power, P, scan speed, V, inclination angle, θ, and offset distance, d3, was implemented.</s><s>Each variable has three factor levels set up by taking the default machine recommended contour scan parameters (P = 150 W, V = 1250 mm/s, d3 = 20 µm) as the pivot parameter.</s><s>The default offset distance in the machine setup is 20 µm.</s><s>Other values were selected in reference to the previous study using post-contouring strategy, where the offset distance, d3, has shown a significant effect on the surface roughness <ref type="bibr" target="#b24">[25]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">Post-Contouring Strategy</head><p><s>For the post-contouring strategy experiment, the process variables are different from that of pre-contouring strategy.</s><s>The downskin surface quality is highly dependent on the melt pool characteristics and hence the process parameters that dictate the surface formation.</s><s>The high energy density of the laser beam can help in remelting the edges of scanning region.</s><s>However, it also results in a larger melt pool, causing higher chances of particle attachment on the downskin surfaces <ref type="bibr" target="#b16">[17]</ref>.</s><s>In order to maintain the remelting property and reduce powder attachment, a specific strategy with a high-linear-energydensity (LED) inner contour scan followed by a relatively low LED outer contour scan was incorporated.</s><s>The lower LED helps in smoothening the interface between the molten region and the powder bed while reducing the surface area for powder particle attachment on the downskin surface.</s><s>The offset distance between the contour scans was set up as 20 µm, for all cases, to focus on the effect of the scan strategy itself.</s><s>The medium-LED case had the default parameters of 150 W laser power and 1250 mm/s scan speed.</s><s>The low-LED and high-LED cases were selected relative to the default parameter.</s><s>The scan speed was not varied for the individual samples; only the laser power was set differently for the inner and outer contours.</s><s>The DOE is shown in Table <ref type="table" target="#tab_2">2</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Surface Measurements</head><p><s>The downskin surface roughness was measured using a white light interferometer (WYKO NT1100, Veeco Instruments.</s><s>Inc., Plainview, NY, USA), shown in Figure <ref type="figure" target="#fig_3">2b</ref>.</s><s>A white light source in the machine is directed towards the reference mirror as well as the sample surface.</s><s>The machine uses a vertical scanning interferometry (VSI) mode, where the surface at varying heights is scanned by moving the objective lens (50×) in a vertical direction (Z-axis).</s><s>The interference fringes at each vertical position formed from the reflections of both reference mirror and sample surface were collected and used for the analysis.</s><s>The back scan and scan length from the focus were set as 250 µm and 100 µm, respectively.</s><s>A scanning area of 2.65 mm × 1.25 mm was set in the center of each sample surface by moving the stage in Xand Y-axes.</s><s>The pixel resolution for the images obtained was 340 nm × 394 nm.</s><s>The Vision v3.60 software was used for the WLI image analysis, and the Minitab 20.3 statistical software was used for the roughness data analysis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Pre-Contouring Strategy</head><p><s>The average surface roughness, S a , obtained from the downskin surfaces of precontoured samples are plotted in Figure <ref type="figure" target="#fig_4">3</ref>.</s><s>The sample fabricated with a low-LED precontouring (P = 100 W, V = 2000 mm/s, LED = 0.05 J/mm) and inclination angle 60 • had the lowest S a value of 14.08 µm.</s><s>The highest S a value of 42.84 µm was obtained for the sample with highest LED pre-contouring (P = 195 W, V = 500 mm/s, LED = 0.39 J/mm) and inclination angle 30 • .</s><s>From the results, in general, the S a value decreases with an increase in scan speed for a given laser power.</s><s>Likewise, with an increase in laser power from 100 W to 195 W, there is a slight increase in the S a value in most cases for all inclination angles.</s><s>The results suggest a strong correlation of pre-contouring parameters and the downskin surface roughness.</s><s>However, the statistical analysis using ANOVA was also performed correlate the effect of each variable to the downskin surface roughness more distinctively.</s></p><p><s>with highest LED pre-contouring (P = 195 W, V = 500 mm/s, LED = 0.39 J/mm) and inclination angle 30°.</s><s>From the results, in general, the Sa value decreases with an increase in scan speed for a given laser power.</s><s>Likewise, with an increase in laser power from 100 W to 195 W, there is a slight increase in the Sa value in most cases for all inclination angles.</s><s>The results suggest a strong correlation of pre-contouring parameters and the downskin surface roughness.</s><s>However, the statistical analysis using ANOVA was also performed correlate the effect of each variable to the downskin surface roughness more distinctively.</s><s>Statistical analysis using ANOVA was performed for correlating the effect of each variable to the downskin surface roughness.</s><s>The results are shown in Table <ref type="table" target="#tab_3">3</ref> and the main effects plots for the four variables are in Figure <ref type="figure" target="#fig_6">4</ref>.</s><s>The p-values indicate a significant effect (p-value &lt; 0.05) of pre-contouring laser power, scan speed, and inclination angle on the surface roughness at a 95% confidence interval.</s><s>The offset distance has a high p-value and hence does not show an impact on Sa value.</s><s>This might be because of the repeated remelting of the pre-contoured region by the raster scans.</s><s>The percentage contribution of inclination angle to the Sa value (55.29%) is notably higher than all other variables.</s><s>The scan speed has the second highest contribution (17.25%) to the average surface roughness.</s><s>The literature also reports findings that are similar.</s><s>The inclination angle and the scan speed were the vital parameters that determined the downskin surface roughness of AISI 316L L-PBF parts, according to Wang et al.'s investigation on the effects of laser power, scan speed, and hatch spacing on the downward-facing surfaces <ref type="bibr" target="#b25">[26]</ref>.</s><s>The main effect plot suggests similar trends as in Figure <ref type="figure" target="#fig_4">3</ref>. DF Adj SS Adj MS F-Value p-Value Percent Contribution P (W) 2 223.66 111.83 5.71 0.005 3.575 V (mm/s) 2 1078.8</s><s>539.41 27.5 0.000 17.25 d3 (µm) 2 83.760 41.880 2.14 0.125 1.339 θ (°) 2 3458.4 1729.2 88.3 0.000 55.29 Statistical analysis using ANOVA was performed for correlating the effect of each variable to the downskin surface roughness.</s><s>The results are shown in Table <ref type="table" target="#tab_3">3</ref> and the main effects plots for the four variables are in Figure <ref type="figure" target="#fig_6">4</ref>.</s><s>The p-values indicate a significant effect (p-value &lt; 0.05) of pre-contouring laser power, scan speed, and inclination angle on the surface roughness at a 95% confidence interval.</s><s>The offset distance has a high p-value and hence does not show an impact on S a value.</s><s>This might be because of the repeated remelting of the pre-contoured region by the raster scans.</s><s>The percentage contribution of inclination angle to the S a value (55.29%) is notably higher than all other variables.</s><s>The scan speed has the second highest contribution (17.25%) to the average surface roughness.</s><s>The literature also reports findings that are similar.</s><s>The inclination angle and the scan speed were the vital parameters that determined the downskin surface roughness of AISI 316L L-PBF parts, according to Wang et al.'s investigation on the effects of laser power, scan speed, and hatch spacing on the downward-facing surfaces <ref type="bibr" target="#b25">[26]</ref>.</s><s>The main effect plot suggests similar trends as in Figure <ref type="figure" target="#fig_4">3</ref>.</s><s>The average skewness data of the pre-contoured samples are shown in Figure <ref type="figure" target="#fig_9">5</ref>. Skewness is a measure of the degree of variation of surface peaks and valleys from the mean plane.</s><s>A zero skew (Ssk = 0) indicates a symmetrical plane while a positive (Ssk &gt; 0) and negative skew (Ssk &lt; 0) indicate variation of the surface above and below the mean plane, respectively.</s><s>The skewness data obtained for the pre-contoured samples are in a  The average skewness data of the pre-contoured samples are shown in Figure <ref type="figure" target="#fig_9">5</ref>. Skewness is a measure of the degree of variation of surface peaks and valleys from the mean plane.</s><s>A zero skew (S sk = 0) indicates a symmetrical plane while a positive (S sk &gt; 0) and negative skew (S sk &lt; 0) indicate variation of the surface above and below the mean plane, respectively.</s><s>The skewness data obtained for the pre-contoured samples are in a range between -0.4 and 0.8, with no trend with respect to the processing parameters and inclination angle.</s><s>In the case of the peaks and valleys formed due to step edges and the powder particle attachment corresponding to the LED used for pre-contouring, a trend relating the process variables and S sk values is expected.</s><s>This suggests that here, the skewness is not dependent entirely on the inclination angle of the downskin or the processing conditions but also on random powder particle attachment.</s><s>The ANOVA results of S sk values are tabulated in Table <ref type="table" target="#tab_5">4</ref>.</s><s>The data validates the observation from Figure <ref type="figure" target="#fig_9">5</ref> as the p-value is larger than 0.05 for all variables.</s><s>The average skewness data of the pre-contoured samples are shown in Figure <ref type="figure" target="#fig_9">5</ref>. Skewness is a measure of the degree of variation of surface peaks and valleys from the mean plane.</s><s>A zero skew (Ssk = 0) indicates a symmetrical plane while a positive (Ssk &gt; 0) and negative skew (Ssk &lt; 0) indicate variation of the surface above and below the mean plane, respectively.</s><s>The skewness data obtained for the pre-contoured samples are in a range between -0.4 and 0.8, with no trend with respect to the processing parameters and inclination angle.</s><s>In the case of the peaks and valleys formed due to step edges and the powder particle attachment corresponding to the LED used for pre-contouring, a trend relating the process variables and Ssk values is expected.</s><s>This suggests that here, the skewness is not dependent entirely on the inclination angle of the downskin or the processing conditions but also on random powder particle attachment.</s><s>The ANOVA results of Ssk values are tabulated in Table <ref type="table" target="#tab_5">4</ref>.</s><s>The data validates the observation from Figure <ref type="figure" target="#fig_9">5</ref> as the pvalue is larger than 0.05 for all variables.</s><s>Figure <ref type="figure" target="#fig_11">6</ref> shows the WLI images of the samples with lowest and highest surface roughness.</s><s>The 60 • -inclined downskin surface built with low LED (0.05 J/mm) has no visible surface irregularities in comparison with the 30 • -inclined surface at high LED (0.39 J/mm).</s></p><p><s>The images of samples built with different inclination angles and at same processing parameters (P = 150 W, V = 1250 mm/s, d3 = 20 µm) are shown in Figure <ref type="figure" target="#fig_13">7</ref>.</s><s>The surface at 30 • inclination seemingly has more powder particles attached compared to the 45 • -and 60 • -inclined surfaces.</s><s>θ (°) 2 0.0831 0.0416 0.35 0.708 0.875</s></p><p><s>Figure <ref type="figure" target="#fig_11">6</ref> shows the WLI images of the samples with lowest and highest surface roughness.</s><s>The 60°-inclined downskin surface built with low LED (0.05 J/mm) has no visible surface irregularities in comparison with the 30°-inclined surface at high LED (0.39 J/mm).</s><s>The images of samples built with different inclination angles and at same processing parameters (P = 150 W, V = 1250 mm/s, d3 = 20 µm) are shown in Figure <ref type="figure" target="#fig_13">7</ref>.</s><s>The surface at 30° inclination seemingly has more powder particles attached compared to the 45°-and 60°-inclined surfaces.</s></p><p><s>The percentage area covered by the powder particles on the WLI images was calculated by filtering the area that has Z-height above 70 µm using the Vision software v 3.60.</s><s>The data (Figure <ref type="figure" target="#fig_16">8</ref>) indeed confirms the analysis from the images, as the 30°-inclined samples shows a larger area covered by particles when compared to the 45°-and 60° samples.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Post-Contouring Strategy</head><p><s>The average downskin surface roughness, Sa, data from the WLI measurements of post-contoured samples is plotted in Figure <ref type="figure" target="#fig_19">9</ref>.</s><s>The lowest Sa (18.88 µm) is for the sample built with inner contour laser power (Pi) of 195 W, outer contour laser power, (Po) of 100 W, contour scan speed (V) of 2000 mm/s, and inclination angle (θ) of 60°.</s><s>The highest Sa of 47.10 µm is for the sample built with Pi of 195 W, Po of 150 W, V of 500 mm/s, and inclined at an angle 30°.</s><s>In general, the average downskin surface roughness is found to be lower for the samples built at inclination angle, 60° compared to those with 30°.</s><s>The medium-LED inner contour-low-LED outer contour case (Pi = 150 W, Po = 100 W) has lower downskin surface roughness compared to the other two cases using high-LED inner contouring.</s><s>The medium-LED inner contour case results in lower melt pool depth and width <ref type="bibr" target="#b24">[25]</ref>.</s><s>It helps in reducing the amount of powder particles becoming attached to the downskin surface due to smaller exposed areas of the melt pool.</s><s>The percentage area covered by the powder particles on the WLI images was calculated by filtering the area that has Z-height above 70 µm using the Vision software v 3.60.</s><s>The data (Figure <ref type="figure" target="#fig_16">8</ref>) indeed confirms the analysis from the images, as the 30 • -inclined samples shows a larger area covered by particles when compared to the 45 • -and 60 • samples.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Post-Contouring Strategy</head><p><s>The average downskin surface roughness, S a , data from the WLI measurements of post-contoured samples is plotted in Figure <ref type="figure" target="#fig_19">9</ref>.  Statistical analysis using ANOVA was also performed to understand the independent effects of variable parameters on the downskin surface roughness.</s><s>The results are shown in Table <ref type="table" target="#tab_7">5</ref> and the main effects plot is in Figure <ref type="figure" target="#fig_22">10</ref>.</s><s>The ANOVA table shows that other than inner contour scan power, all other variables are significantly affected the downskin surface roughness (p-value &lt; 0.05) at a confidence interval of 95%.</s><s>However, the percent- Statistical analysis using ANOVA was also performed to understand the independent effects of variable parameters on the downskin surface roughness.</s><s>The results are shown in Table <ref type="table" target="#tab_7">5</ref> and the main effects plot is in Figure <ref type="figure" target="#fig_22">10</ref>.</s><s>The ANOVA table shows that other than inner contour scan power, all other variables are significantly affected the downskin surface roughness (p-value &lt; 0.05) at a confidence interval of 95%.</s><s>However, the percentage contribution of inclination angle is the highest, followed by that of scan speed, which could be the reason for the higher p-values for both laser power variables.</s><s>The main effect plot also shows a slight difference between the two contour powers, whereas the scan speed and inclination angle affect the S a value the most.</s><s>The S a value decreases with increases in scan speed because of the smaller melt pool reducing the chances of powder particle attachment.</s><s>As the inclination angle increases from 30 • to 60 • , the surface roughness decreases considerably.</s><s>Statistical analysis using ANOVA was also performed to understand the independent effects of variable parameters on the downskin surface roughness.</s><s>The results are shown in Table <ref type="table" target="#tab_7">5</ref> and the main effects plot is in Figure <ref type="figure" target="#fig_22">10</ref>.</s><s>The ANOVA table shows that other than inner contour scan power, all other variables are significantly affected the downskin surface roughness (p-value &lt; 0.05) at a confidence interval of 95%.</s><s>However, the percentage contribution of inclination angle is the highest, followed by that of scan speed, which could be the reason for the higher p-values for both laser power variables.</s><s>The main effect plot also shows a slight difference between the two contour powers, whereas the scan speed and inclination angle affect the Sa value the most.</s><s>The Sa value decreases with increases in scan speed because of the smaller melt pool reducing the chances of powder particle attachment.</s><s>As the inclination angle increases from 30° to 60°, the surface roughness decreases considerably.</s><s>The average surface skewness data is plotted in Figure <ref type="figure" target="#fig_23">11</ref>.</s><s>No trend was observed corresponding to the process parameters used.</s><s>Statistical analysis using ANOVA was performed and the results are shown in Table <ref type="table" target="#tab_9">6</ref>.</s><s>The p-value &gt; 0.05 for all variables except the inclination angle, and hence only inclination angle has significant effect on the skewness of the downskin surface.</s><s>The variations are high on the 30 • -inclined samples, whereas the skewness values are close to zero for the 60 • -inclined samples.</s><s>The skewness is hence affected by the randomly attached powder particles, which are determined by the surface's inclination angle and are not due to the process-induced peaks and valleys.</s></p><p><s>The percentage area of particles was calculated from the collected data to validate the skewness results and is shown in Figure <ref type="figure" target="#fig_25">12</ref>.</s><s>The data shows that the 30 • -inclined samples have a very large area covered with powder particles, and that could be the reason for the positive skewness.</s><s>The data of powder particles present on the 30 • -inclined downskin surfaces can also be directly correlated to their higher average surface roughness.</s><s>The area of particles on 60 • -inclined samples are comparatively very low (ranging from 0.1% to 1.28%), resulting in near-zero skewness and a lower surface roughness.</s></p><p><s>corresponding to the process parameters used.</s><s>Statistical analysis using ANOVA was performed and the results are shown in Table <ref type="table" target="#tab_9">6</ref>.</s><s>The p-value &gt; 0.05 for all variables except the inclination angle, and hence only inclination angle has significant effect on the skewness of the downskin surface.</s><s>The variations are high on the 30°-inclined samples, whereas the skewness values are close to zero for the 60°-inclined samples.</s><s>The skewness is hence affected by the randomly attached powder particles, which are determined by the surface's inclination angle and are not due to the process-induced peaks and valleys.</s><s>The percentage area of particles was calculated from the collected data to validate the skewness results and is shown in Figure <ref type="figure" target="#fig_25">12</ref>.</s><s>The data shows that the 30°-inclined samples have a very large area covered with powder particles, and that could be the reason for the positive skewness.</s><s>The data of powder particles present on the 30°-inclined downskin surfaces can also be directly correlated to their higher average surface roughness.</s><s>The area of particles on 60°-inclined samples are comparatively very low (ranging from 0.1% to 1.28%), resulting in near-zero skewness and a lower surface roughness.</s><s>The WLI images of the samples with the lowest and highest downskin surface roughness are shown in Figure <ref type="figure" target="#fig_28">13</ref>.</s><s>The sample with the highest downskin surface roughness (Pi = 195 W, Po = 150 W, V = 500 mm/s, θ = 30°) has a large quantity of powder particles attached to it compared to the sample with lowest Sa (Pi = 195 W, Po = 100 W, V = 2000 mm/s, θ = 60°).</s><s>The percentage area of particles data in Figure <ref type="figure" target="#fig_25">12</ref> supports the image analysis.</s><s>The strategy of using a higher LED inner contour and lower LED outer contour seems to be effective for reducing surface roughness at higher scan speeds.</s><s>The WLI images of the samples with the lowest and highest downskin surface roughness are shown in Figure <ref type="figure" target="#fig_28">13</ref>.</s><s>The sample with the highest downskin surface roughness (P i = 195 W, P o = 150 W, V = 500 mm/s, θ = 30 • ) has a large quantity of powder particles attached to it compared to the sample with lowest S a (P i = 195 W, P o = 100 W, V = 2000 mm/s, θ = 60 • ).</s><s>The percentage area of particles data in Figure <ref type="figure" target="#fig_25">12</ref> supports the image analysis.</s><s>The strategy of using a higher LED inner contour and lower LED outer contour seems to be effective for reducing surface roughness at higher scan speeds.</s></p><p><s>Images of the downskin surface of 30 • -inclined samples built with the same set of inner and outer contour scan powers (P i = 195 W, P o = 150 W) but different scan speeds are shown in Figure <ref type="figure" target="#fig_30">14</ref>.</s><s>There is a large quantity of powder particles present on the sample built with a scan speed of 500 mm/s compared to that with scan speed of 2000 mm/s.</s><s>The smaller scan speed creates a larger melt pool due to increased time of laser exposure and hence has a higher surface area of melt pool exposed to the powder bed underneath the scan domain <ref type="bibr" target="#b26">[27]</ref>.</s><s>The WLI images of the samples with the lowest and highest downskin surface roughness are shown in Figure <ref type="figure" target="#fig_28">13</ref>.</s><s>The sample with the highest downskin surface roughness (Pi = 195 W, Po = 150 W, V = 500 mm/s, θ = 30°) has a large quantity of powder particles attached to it compared to the sample with lowest Sa (Pi = 195 W, Po = 100 W, V = 2000 mm/s, θ = 60°).</s><s>The percentage area of particles data in Figure <ref type="figure" target="#fig_25">12</ref> supports the image analysis.</s><s>The strategy of using a higher LED inner contour and lower LED outer contour seems to be effective for reducing surface roughness at higher scan speeds.</s><s>Images of the downskin surface of 30°-inclined samples built with the same set of inner and outer contour scan powers (Pi = 195 W, Po = 150 W) but different scan speeds are shown in Figure <ref type="figure" target="#fig_30">14</ref>.</s><s>There is a large quantity of powder particles present on the sample built with a scan speed of 500 mm/s compared to that with scan speed of 2000 mm/s.</s><s>The smaller scan speed creates a larger melt pool due to increased time of laser exposure and hence has a higher surface area of melt pool exposed to the powder bed underneath the scan domain <ref type="bibr" target="#b26">[27]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>The study reveals that both pre-and post-contouring strategies resulted in similar trends of surface roughness with the inclination angles and process variables.</s><s>In precontoured samples, the lowest surface roughness of 14.08 µm was obtained for the</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p><s>The study reveals that both pre-and post-contouring strategies resulted in similar trends of surface roughness with the inclination angles and process variables.</s><s>In precontoured samples, the lowest surface roughness of 14.08 µm was obtained for the 60 •inclined sample built with a low laser power (100 W) and high scan speed (2000 mm/s).</s><s>The highest S a of 42.84 µm was for the 30 • -inclined sample with high LED (P = 195 W, V = 500 mm/s).</s><s>The offset distance did not have a significant effect on the downskin surface roughness due to continuous remelting of the contouring region.</s><s>Post-contouring using high LED for the inner contour and low LED for the outer contour, combined with a high scan speed, resulted in the low S a of 18.88 µm for samples with a 60 • inclination.</s></p><p><s>Irrespective of the strategy used, the downskin surface roughness is low at 30 • inclination and it increases significantly for 45 • -and 60 • -inclined surfaces.</s><s>The overhang distance between each layer is high for the 30 • -inclined samples (51.9 µm) compared to the 45 • -(30 µm) and 60 • (17.3 µm)-inclined samples according to an equation proposed by Wang et al. (Equation ( <ref type="formula" target="#formula_0">1</ref>)) <ref type="bibr" target="#b27">[28]</ref>.</s></p><p><s>S = H.</s><s>cot θ</s></p><p><s>Here, S is the overhang length between two layers, H is the layer thickness, and θ is the inclination angle <ref type="bibr" target="#b27">[28]</ref>.</s><s>The exposed melt pool region on the overhang causes dross formation and increases the surface area for partially melted powder particles.</s><s>The surface skewness results showed that the peaks and valleys on downskin surfaces are not only process-induced but also due to random particle attachment (Figures <ref type="figure" target="#fig_10">5</ref> and <ref type="figure" target="#fig_23">11</ref>).</s><s>In addition, the 30 • -inclined surfaces showed a larger percentage area covered by particles (Figures <ref type="figure" target="#fig_17">8</ref> and <ref type="figure" target="#fig_25">12</ref>).</s><s>The results align with Covarrubias et al.'s study on the effect of build angle on overhang surface quality.</s><s>They also observed that the overhang surfaces built at smaller inclination angles have more visible partially melted particles, causing an increase in roughness <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>Likewise, the downskin surface roughness is high at pre-contouring with high laser power and low scan speed (high-LED).</s><s>At high LED, the melt pool dimensions are higher than low-LED cases <ref type="bibr" target="#b24">[25]</ref>.</s><s>This creates a larger melt pool area to be exposed to the powder bed underneath, aiding the attachment of partially melted particles to the surface.</s><s>For post-contouring strategy, when both inner and outer contour scans had high laser power (P i = 195 W, P o = 150 W), the S a value was higher too due to the large melt pool dimensions at high laser power.</s><s>However, out of all the cases examined, the downskin surface roughness is lower when the outer contour laser power is low (100 W) and scan speed is high (2000 mm/s).</s></p><p><s>While comparing the surface roughness of samples built with similar contouring process parameters and same slope, the pre-contoured samples have lower roughness, even though the difference is merely ~5 µm.</s><s>The selection of contouring strategies and processing conditions hence need to be tailored according to the desired end-use application.</s><s>The effect of these strategies on other surfaces like vertical or upskin surfaces is another factor to be considered.</s></p><p><s>As an extension to this research, the upskin surfaces of fabricated samples were also analyzed <ref type="bibr" target="#b28">[29]</ref>.</s><s>The effect of scan strategy and contouring parameters on the downskin surfaces of both pre-and post-contoured samples are quite distinct from their respective upskin surfaces.</s><s>Figure <ref type="figure" target="#fig_32">15</ref> compares the downskin and upskin surfaces of a post-contoured sample built with the medium-LED case (P i = 150 W, P o = 100 W, V = 500 mm/s) at low and high inclination angles.</s><s>The upskin surface roughness is lowest for the 30 • -inclined samples and it further increases with an increase in inclination angle.</s><s>The upskin surfaces are mostly formed by the step edges, and the large distance between the step edges on 30 • -inclined samples reduces their surface roughness <ref type="bibr" target="#b24">[25]</ref>.</s><s>While using the higher scan speed and low laser power aids in reducing the downskin surface roughness, it negatively impacts the finish of the upskin region.</s><s>A larger melt pool created with a low scan speed and high laser power helps the remelting on upskin surface and reduces the surface irregularities.</s><s>Also, compared to the upskin regions where remelting happens on the previously solidified bulk regions, the melt pool size on the downskin surface will be larger for the same input energy density <ref type="bibr" target="#b18">[19]</ref>.</s><s>The reason is the considerably lower heat conduction in the powder bed than the bulk regions because of the increased absorption of energy by powder particles during laser interaction <ref type="bibr" target="#b25">[26]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>This experimental study evaluated the effects of contouring scan strategies and the process parameters on the downskin surfaces of sloped L-PBF parts.</s><s>The influence of preand post-contouring strategies with a wide range of processing conditions like laser power, scan speed, offset distance, and inclination angle were analyzed.</s><s>The WLI images and the average surface roughness, Sa, and surface skewness, Ssk, were used for qualitative and quantitative analysis.</s><s>The major conclusions from the study are listed below.</s></p><p><s>• Pre-contouring resulted in the lowest surface roughness (14.08 µm) for the 60°-inclined sample built with a low laser power (100 W) and high scan speed (2000 mm/s).</s></p><p><s>• Post-contouring with a higher LED inner contour scan and low-LED outer contour scan was effective in reducing the roughness at higher scan speeds.</s><s>The sample built with 195 W inner contour laser power, 100 W outer contour laser power, and 2000 mm/s scan speed has the lowest Sa value of 18.88 µm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>The pre-contouring at low LED resulted in overall smoother surface, but the difference in Sa values is very small (~5 µm) when samples built with similar conditions with both strategies are compared.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>In general, a lower LED at the downskin surface-powder bed interface resulted in lower surface roughness, irrespective of the contour scanning strategy.</s><s>The heat conduction through the powder bed is lower compared to the solidified bulk regions, and hence low heat input will help in smaller melt pool formation.</s><s>This aids in reducing the powder particle attachment to the exposed area of melt pool.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>The 30°-inclined samples have significantly higher downskin surface roughness compared to the 45°-and 60°-inclined samples.</s><s>The overhang length is higher at smaller inclination angles, which results in more powder particle attachment to the downskin region.</s></p><p><s>•</s></p><p><s>The conditions favorable for the lower downskin surface roughness have a negative impact on the corresponding upskin surfaces.</s><s>A high LED helps in remelting the upskin surface which results in better surface finish.</s><s>Also, the upskin surface roughness reduces with an increase in distance between step edges, and hence 30°-inclined samples have smoother surfaces.</s></p><p><s>The contouring of the scan domain is an effective method to reduce the downskin surface roughness of L-PBF parts.</s><s>The selection of contouring scan strategy and processing conditions depends on the end-use application.</s><s>However, this study provides a</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>This experimental study evaluated the effects of contouring scan strategies and the process parameters on the downskin surfaces of sloped L-PBF parts.</s><s>The influence of preand post-contouring strategies with a wide range of processing conditions like laser power, scan speed, offset distance, and inclination angle were analyzed.</s><s>The WLI images and the average surface roughness, S a , and surface skewness, S sk , were used for qualitative and quantitative analysis.</s><s>The major conclusions from the study are listed below.</s></p><p><s>•</s></p><p><s>Pre-contouring resulted in the lowest surface roughness (14.08 µm) for the 60 • -inclined sample built with a low laser power (100 W) and high scan speed (2000 mm/s).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>Post-contouring with a higher LED inner contour scan and low-LED outer contour scan was effective in reducing the roughness at higher scan speeds.</s><s>The sample built with 195 W inner contour laser power, 100 W outer contour laser power, and 2000 mm/s scan speed has the lowest S a value of 18.88 µm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>The pre-contouring at low LED resulted in overall smoother surface, but the difference in S a values is very small (~5 µm) when samples built with similar conditions with both strategies are compared.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>In general, a lower LED at the downskin surface-powder bed interface resulted in lower surface roughness, irrespective of the contour scanning strategy.</s><s>The heat conduction through the powder bed is lower compared to the solidified bulk regions, and hence low heat input will help in smaller melt pool formation.</s><s>This aids in reducing the powder particle attachment to the exposed area of melt pool.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>The 30 • -inclined samples have significantly higher downskin surface roughness compared to the 45 • -and 60 • -inclined samples.</s><s>The overhang length is higher at smaller inclination angles, which results in more powder particle attachment to the downskin region.</s></p><p><s>•</s></p><p><s>The conditions favorable for the lower downskin surface roughness have a negative impact on the corresponding upskin surfaces.</s><s>A high LED helps in remelting the upskin surface which results in better surface finish.</s><s>Also, the upskin surface roughness reduces with an increase in distance between step edges, and hence 30 • -inclined samples have smoother surfaces.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Design of the sloped sample with illustration of the contour scan strategy and scan order.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Design of the sloped sample with illustration of the contour scan strategy and scan order.</s></p></div></figDesc><graphic coords="3,168.13,397.58,382.96,236.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. (a) Fabricated sloped samples on the build plate.</s><s>(b) White Light Interferometer (WLI) used for the downskin surface measurements.</s></p></div></figDesc><graphic coords="4,168.16,144.39,386.88,189.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. (a) Fabricated sloped samples on the build plate.</s><s>(b) White Light Interferometer (WLI) used for the downskin surface measurements.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Average downskin surface roughness, Sa, data of pre-contoured samples.</s></p></div></figDesc><graphic coords="6,169.47,97.07,385.74,217.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Average downskin surface roughness, S a , data of pre-contoured samples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Main effect plot for Sa of pre-contoured samples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Main effect plot for S a of pre-contoured samples.</s></p></div></figDesc><graphic coords="6,169.05,533.40,311.98,208.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Main effect plot for Sa of pre-contoured samples.</s></p></div></figDesc><graphic coords="7,170.13,0.00,292.66,161.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Average surface skewness of pre-contoured samples.</s></p></div></figDesc><graphic coords="7,170.30,369.20,383.62,177.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Average surface skewness of pre-contoured samples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>WLI images of pre-contoured samples with highest and lowest downskin surface roughness.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>WLI images of pre-contoured samples with highest and lowest downskin surface roughness.</s><s>Materials 2024, 17, x FOR PEER REVIEW 9 of 17</s></p></div></figDesc><graphic coords="8,165.71,94.33,314.16,229.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. WLI images of samples built at parameters P = 150 W, V = 1250 mm/s, d3 = 20 µm, and different inclination angles.</s></p></div></figDesc><graphic coords="8,166.34,350.71,313.86,355.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. WLI images of samples built at parameters P = 150 W, V = 1250 mm/s, d3 = 20 µm, and different inclination angles.</s></p></div></figDesc><graphic coords="8,167.84,748.75,389.40,216.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. WLI images of samples built at parameters P = 150 W, V = 1250 mm/s, d3 = 20 µm, and different inclination angles.</s></p></div></figDesc><graphic coords="9,167.58,0.00,307.58,91.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Percentage area of powder particles attached to the downskin surfaces of pre-contoured samples.Figure 8. Percentage area of powder particles attached to the downskin surfaces of pre-contoured samples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Percentage area of powder particles attached to the downskin surfaces of pre-contoured samples.Figure 8. Percentage area of powder particles attached to the downskin surfaces of pre-contoured samples.</s></p></div></figDesc><graphic coords="9,169.05,133.18,381.61,212.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><figDesc><div><p><s>The lowest S a (18.88 µm) is for the sample built with inner contour laser power (P i ) of 195 W, outer contour laser power, (P o ) of 100 W, contour scan speed (V) of 2000 mm/s, and inclination angle (θ) of 60 • .</s><s>The highest S a of 47.10 µm is for the sample built with P i of 195 W, P o of 150 W, V of 500 mm/s, and inclined at an angle 30 • .</s><s>In general, the average downskin surface roughness is found to be lower for the samples built at inclination angle, 60 • compared to those with 30 • .</s><s>The medium-LED inner contour-low-LED outer contour case (P i = 150 W, P o = 100 W) has lower downskin surface roughness compared to the other two cases using high-LED inner contouring.</s><s>The medium-LED inner contour case results in lower melt pool depth and width<ref type="bibr" target="#b24">[25]</ref>.</s><s>It helps in reducing the amount of powder particles becoming attached to the downskin surface due to smaller exposed areas of the melt pool.</s><s>Materials 2024, 17, x FOR PEER REVIEW 10 of 17</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Average downskin surface roughness, Sa, data of post-contoured samples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Average downskin surface roughness, S a , data of post-contoured samples.</s></p></div></figDesc><graphic coords="9,169.05,555.28,381.67,189.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Average downskin surface roughness, Sa, data of post-contoured samples.</s></p></div></figDesc><graphic coords="10,168.94,0.00,385.57,65.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Main effects plot for downskin S a of post-contoured samples.</s></p></div></figDesc><graphic coords="10,168.76,361.00,293.91,196.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Average surface skewness data of downskin surfaces of post-contoured samples.</s></p></div></figDesc><graphic coords="11,168.52,97.18,373.82,188.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Average surface skewness data of downskin surfaces of post-contoured samples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Figure 12 .</head><label>12</label><figDesc><div><p><s>Figure 12.</s><s>Percentage area of powder particles on the downskin surfaces of post-contoured samples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>Figure 12 .</head><label>12</label><figDesc><div><p><s>Figure 12.</s><s>Percentage area of powder particles on the downskin surfaces of post-contoured samples.</s></p></div></figDesc><graphic coords="11,168.99,419.99,373.88,192.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_27"><head>Figure 12 .</head><label>12</label><figDesc><div><p><s>Figure 12.</s><s>Percentage area of powder particles on the downskin surfaces of post-contoured samples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_28"><head>Figure 13 .</head><label>13</label><figDesc><div><p><s>Figure 13.</s><s>Downskin surface images of samples with lowest and highest average surface roughness.</s></p></div></figDesc><graphic coords="12,166.75,130.43,313.75,229.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_29"><head>Figure 13 .</head><label>13</label><figDesc><div><p><s>Figure 13.</s><s>Downskin surface images of samples with lowest and highest average surface roughness.</s><s>Materials 2024, 17, x FOR PEER REVIEW 13 of 17</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_30"><head>Figure 14 .</head><label>14</label><figDesc><div><p><s>Figure 14.</s><s>Downskin surface images of samples built with Pi = 195 W, Po = 150 W, and θ = 30°, but different scan speeds.</s></p></div></figDesc><graphic coords="12,166.75,390.34,313.75,355.33" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_31"><head>Figure 14 .</head><label>14</label><figDesc><div><p><s>Figure 14.</s><s>Downskin surface images of samples built with P i = 195 W, P o = 150 W, and θ = 30 • , but different scan speeds.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_32"><head>Figure 15 .</head><label>15</label><figDesc><div><p><s>Figure 15.</s><s>Downskin and upskin images of post-contoured samples built with Pi = 150 W, Po = 100 W, V = 500 mm/s, and different inclination angles.</s></p></div></figDesc><graphic coords="14,165.72,141.23,385.57,219.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_33"><head>Figure 15 .</head><label>15</label><figDesc><div><p><s>Figure 15.</s><s>Downskin and upskin images of post-contoured samples built with P i = 150 W, P o = 100 W, V = 500 mm/s, and different inclination angles.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>DOE with pre-contouring strategy.</s></p></div></figDesc><table><row><cell>Parameter</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>DOE with pre-contouring strategy.</s></p></div></figDesc><table><row><cell>Parameter No.</cell><cell>Laser Power, P (W)</cell><cell>Scan Speed, V (mm/s)</cell><cell>Offset Distance, d3 (µm)</cell></row><row><cell>1</cell><cell>100</cell><cell>500</cell><cell>20</cell></row><row><cell>2</cell><cell>100</cell><cell>1250</cell><cell>80</cell></row><row><cell>3</cell><cell>100</cell><cell>2000</cell><cell>120</cell></row><row><cell>4</cell><cell>150</cell><cell>500</cell><cell>120</cell></row><row><cell>5</cell><cell>150</cell><cell>1250</cell><cell>20</cell></row><row><cell>6</cell><cell>150</cell><cell>2000</cell><cell>80</cell></row><row><cell>7</cell><cell>195</cell><cell>500</cell><cell>80</cell></row><row><cell>8</cell><cell>195</cell><cell>1250</cell><cell>120</cell></row><row><cell>9</cell><cell>195</cell><cell>2000</cell><cell>20</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>DOE with post-contouring strategy.</s></p></div></figDesc><table><row><cell>Parameter No.</cell><cell>Laser Power of Inner Contour Scan, P i (W)</cell><cell>Laser Power of Outer Contour Scan, P o (W)</cell><cell>Scan Speed, V (mm/s)</cell></row><row><cell>1</cell><cell>195</cell><cell>150</cell><cell>500</cell></row><row><cell>2</cell><cell>195</cell><cell>150</cell><cell>1250</cell></row><row><cell>3</cell><cell>195</cell><cell>150</cell><cell>2000</cell></row><row><cell>4</cell><cell>150</cell><cell>100</cell><cell>500</cell></row><row><cell>5</cell><cell>150</cell><cell>100</cell><cell>1250</cell></row><row><cell>6</cell><cell>150</cell><cell>100</cell><cell>2000</cell></row><row><cell>7</cell><cell>195</cell><cell>100</cell><cell>500</cell></row><row><cell>8</cell><cell>195</cell><cell>100</cell><cell>1250</cell></row><row><cell>9</cell><cell>195</cell><cell>100</cell><cell>2000</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc><div><p><s>ANOVA results of Sa data of pre-contoured samples.</s></p></div></figDesc><table><row><cell>Source</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3 .</head><label>3</label><figDesc><div><p><s>ANOVA results of S a data of pre-contoured samples.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell>Adj MS</cell><cell>F-Value</cell><cell>p-Value</cell><cell>Percent Contribution</cell></row><row><cell>P (W)</cell><cell>2</cell><cell>223.66</cell><cell>111.83</cell><cell>5.71</cell><cell>0.005</cell><cell>3.575</cell></row><row><cell>V (mm/s)</cell><cell>2</cell><cell>1078.8</cell><cell>539.41</cell><cell>27.5</cell><cell>0.000</cell><cell>17.25</cell></row><row><cell>d3 (µm)</cell><cell>2</cell><cell>83.760</cell><cell>41.880</cell><cell>2.14</cell><cell>0.125</cell><cell>1.339</cell></row><row><cell>θ ( • )</cell><cell>2</cell><cell>3458.4</cell><cell>1729.2</cell><cell>88.3</cell><cell>0.000</cell><cell>55.29</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 4 .</head><label>4</label><figDesc><div><p><s>ANOVA results of Ssk data of pre-contoured samples.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell cols="4">Adj MS F-Value p-Value Percent Contribution</cell></row><row><cell>P (W)</cell><cell>2</cell><cell>0.1586</cell><cell>0.0793</cell><cell>0.66</cell><cell>0.518</cell><cell>1.670</cell></row><row><cell>V (mm/s)</cell><cell>2</cell><cell>0.0647</cell><cell>0.0324</cell><cell>0.27</cell><cell>0.764</cell><cell>0.682</cell></row><row><cell>d3 (µm)</cell><cell>2</cell><cell>0.5768</cell><cell>0.2884</cell><cell>2.41</cell><cell>0.097</cell><cell>6.072</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4 .</head><label>4</label><figDesc><div><p><s>ANOVA results of S sk data of pre-contoured samples.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell>Adj MS</cell><cell>F-Value</cell><cell>p-Value</cell><cell>Percent Contribution</cell></row><row><cell>P (W)</cell><cell>2</cell><cell>0.1586</cell><cell>0.0793</cell><cell>0.66</cell><cell>0.518</cell><cell>1.670</cell></row><row><cell>V (mm/s)</cell><cell>2</cell><cell>0.0647</cell><cell>0.0324</cell><cell>0.27</cell><cell>0.764</cell><cell>0.682</cell></row><row><cell>d3 (µm)</cell><cell>2</cell><cell>0.5768</cell><cell>0.2884</cell><cell>2.41</cell><cell>0.097</cell><cell>6.072</cell></row><row><cell>θ ( • )</cell><cell>2</cell><cell>0.0831</cell><cell>0.0416</cell><cell>0.35</cell><cell>0.708</cell><cell>0.875</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 5 .</head><label>5</label><figDesc><div><p><s>ANOVA results of S a data of post-contoured samples.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell>Adj MS</cell><cell>F-Value</cell><cell>p-Value</cell><cell>Percent Contribution</cell></row><row><cell>P i (W)</cell><cell>1</cell><cell>1.0700</cell><cell>1.0700</cell><cell>0.06</cell><cell>0.802</cell><cell>0.023</cell></row><row><cell>P o (W)</cell><cell>1</cell><cell>67.540</cell><cell>67.540</cell><cell>4.01</cell><cell>0.049</cell><cell>1.432</cell></row><row><cell>V (mm/s)</cell><cell>2</cell><cell>588.76</cell><cell>294.38</cell><cell>17.5</cell><cell>0.000</cell><cell>12.49</cell></row><row><cell>θ ( • )</cell><cell>2</cell><cell>2777.4</cell><cell>1388.7</cell><cell>82.4</cell><cell>0.000</cell><cell>58.89</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 5 .</head><label>5</label><figDesc><div><p><s>ANOVA results of Sa data of post-contoured samples.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell cols="4">Adj MS F-Value p-Value Percent Contribution</cell></row><row><cell>Pi (W)</cell><cell>1</cell><cell>1.0700</cell><cell>1.0700</cell><cell>0.06</cell><cell>0.802</cell><cell>0.023</cell></row><row><cell>Po (W)</cell><cell>1</cell><cell>67.540</cell><cell>67.540</cell><cell>4.01</cell><cell>0.049</cell><cell>1.432</cell></row><row><cell>V (mm/s)</cell><cell>2</cell><cell>588.76</cell><cell>294.38</cell><cell>17.5</cell><cell>0.000</cell><cell>12.49</cell></row><row><cell>θ (°)</cell><cell>2</cell><cell>2777.4</cell><cell>1388.7</cell><cell>82.4</cell><cell>0.000</cell><cell>58.89</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table 6 .</head><label>6</label><figDesc><div><p><s>ANOVA results of Ssk data of post-contoured samples.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell cols="4">Adj MS F-Value p-Value Percent Contribution</cell></row><row><cell>Pi (W)</cell><cell>1</cell><cell>0.0904</cell><cell>0.0904</cell><cell>1.42</cell><cell>0.237</cell><cell>1.344</cell></row><row><cell>Po (W)</cell><cell>1</cell><cell>0.2128</cell><cell>0.2128</cell><cell>3.34</cell><cell>0.072</cell><cell>3.164</cell></row><row><cell>V (mm/s)</cell><cell>2</cell><cell>0.3580</cell><cell>0.1790</cell><cell>2.81</cell><cell>0.067</cell><cell>5.322</cell></row><row><cell>θ (°)</cell><cell>2</cell><cell>1.4360</cell><cell>0.7180</cell><cell>11.3</cell><cell>0.000</cell><cell>21.35</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 6 .</head><label>6</label><figDesc><div><p><s>ANOVA results of Ssk data of post-contoured samples.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell>Adj MS</cell><cell>F-Value</cell><cell>p-Value</cell><cell>Percent Contribution</cell></row><row><cell>P i (W)</cell><cell>1</cell><cell>0.0904</cell><cell>0.0904</cell><cell>1.42</cell><cell>0.237</cell><cell>1.344</cell></row><row><cell>P o (W)</cell><cell>1</cell><cell>0.2128</cell><cell>0.2128</cell><cell>3.34</cell><cell>0.072</cell><cell>3.164</cell></row><row><cell>V (mm/s)</cell><cell>2</cell><cell>0.3580</cell><cell>0.1790</cell><cell>2.81</cell><cell>0.067</cell><cell>5.322</cell></row><row><cell>θ ( • )</cell><cell>2</cell><cell>1.4360</cell><cell>0.7180</cell><cell>11.3</cell><cell>0.000</cell><cell>21.35</cell></row></table><note><p><s>Materials 2024, 17, x FOR PEER REVIEW 12 of 17</s></p></note></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p><s>Funding: This research was funded by <rs type="funder">Technical Data Analysis, Inc</rs>. through a <rs type="funder">Navy STTR</rs> project, contract no.</s><s><rs type="grantNumber">N68335-21-C-0168</rs>.</s></p><p><s>Institutional Review Board Statement: Not applicable.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_D8JauBT">
+					<idno type="grant-number">N68335-21-C-0168</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p><s>Data are contained within the article.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p><s>The authors declare no conflict of interest.</s><s>The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Author Contributions: Conceptualization, methodology, formal analysis, investigation, data curation, visualization, writing-original draft preparation, N.V.V.H.; investigation, formal analysis, writing-original draft preparation, R.I.; conceptualization, writing-review and editing, resources, supervision, funding acquisition, K.C.</s><s>All authors have read and agreed to the published version of the manuscript.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The contouring of the scan domain is an effective method to reduce the downskin surface roughness of L-PBF parts.</s><s>The selection of contouring scan strategy and processing conditions depends on the end-use application.</s><s>However, this study provides a comprehensive approach to evaluating the process variables to tailor the downskin surface roughness of L-PBF parts.</s><s>The careful consideration of contour scanning strategy and processing conditions can help in attaining a desired surface quality of the parts by eliminating the post-processing stages.</s></p><p><s>Informed Consent Statement: Not applicable.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Additive Manufacturing Technologies</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khorasani</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-56127-7</idno>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>Springer International Publishing</publisher>
+			<pubPlace>Cham, Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibson, I.; Rosen, D.; Stucker, B.; Khorasani, M. Additive Manufacturing Technologies; Springer International Publishing: Cham, Switzerland, 2020. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Design for Additive Manufacturing Method for a Mechanical System Downsizing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Orquéra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Campocasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Millet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procir.2017.02.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="223" to="228" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orquéra, M.; Campocasso, S.; Millet, D. Design for Additive Manufacturing Method for a Mechanical System Downsizing. Procedia CIRP 2017, 60, 223-228. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Defects in additive manufactured metals and their effect on fatigue performance: A state-of-the-art review</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sanaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fatemi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2020.100724</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">100724</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanaei, N.; Fatemi, A. Defects in additive manufactured metals and their effect on fatigue performance: A state-of-the-art review. Prog. Mater. Sci. 2021, 117, 100724. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Analysis of the effect of surface roughness on fatigue performance of powder bed fusion additive manufactured metals</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sanaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fatemi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tafmec.2020.102638</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Appl. Fract. Mech</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page">102638</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanaei, N.; Fatemi, A. Analysis of the effect of surface roughness on fatigue performance of powder bed fusion additive manufactured metals. Theor. Appl. Fract. Mech. 2020, 108, 102638. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Geometric tolerance and manufacturing assemblability estimation of metal additive manufacturing (AM) processes</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Rupal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Anwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Secanell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Qureshi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2020.108842</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page">108842</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rupal, B.S.; Anwer, N.; Secanell, M.; Qureshi, A.J. Geometric tolerance and manufacturing assemblability estimation of metal additive manufacturing (AM) processes. Mater. Des. 2020, 194, 108842. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Tolerancing: Managing uncertainty from conceptual design to final product</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Morse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Dantan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Anwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Soderberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Moroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Qureshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mathieu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cirp.2018.05.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Ann</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="695" to="717" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morse, E.; Dantan, J.-Y.; Anwer, N.; Soderberg, R.; Moroni, G.; Qureshi, A.; Jiang, X.; Mathieu, L. Tolerancing: Managing uncertainty from conceptual design to final product. CIRP Ann. 2018, 67, 695-717. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Biomechanical performances of PCL/HA micro-and macro-porous lattice scaffolds fabricated via laser powder bed fusion for bone tissue engineering</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Gatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Giuliani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bloise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fassina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Visai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mengucci</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2021.112300</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page">112300</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gatto, M.L.; Furlani, M.; Giuliani, A.; Bloise, N.; Fassina, L.; Visai, L.; Mengucci, P. Biomechanical performances of PCL/HA micro-and macro-porous lattice scaffolds fabricated via laser powder bed fusion for bone tissue engineering. Mater. Sci. Eng. C 2021, 128, 112300. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Modelling of laser powder bed fusion process and analysing the effective parameters on surface characteristics of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Khorasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Ghasemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghaderi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmecsci.2019.105299</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mech. Sci</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page">105299</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khorasani, A.M.; Gibson, I.; Ghasemi, A.H.; Ghaderi, A. Modelling of laser powder bed fusion process and analysing the effective parameters on surface characteristics of Ti-6Al-4V. Int. J. Mech. Sci. 2020, 168, 105299. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Numerical modelling of surface roughness effect on the fatigue behavior of Ti-6Al-4V obtained by additive manufacturing</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vayssette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Saintier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brugger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>El May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pessard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijfatigue.2019.02.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Fatigue</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="180" to="195" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vayssette, B.; Saintier, N.; Brugger, C.; El May, M.; Pessard, E. Numerical modelling of surface roughness effect on the fatigue behavior of Ti-6Al-4V obtained by additive manufacturing. Int. J. Fatigue 2019, 123, 180-195. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A study on the effect of different process parameters on the quality of overhang surface produced by selective laser melting</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Porwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yaswanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Nath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Manufacturing Science and Engineering Conference</title>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Society of Mechanical Engineers</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">51357</biblScope>
+			<biblScope unit="page" from="001T" to="1A" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sarkar, S.; Porwal, A.; Yaswanth, N.; Nath, A.K. A study on the effect of different process parameters on the quality of overhang surface produced by selective laser melting. In International Manufacturing Science and Engineering Conference; American Society of Mechanical Engineers: New York, NY, USA, 2018; Volume 51357, p. V001T01A006.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of scanning strategy during selective laser melting on surface topography, porosity, and microstructure of additively manufactured Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Valente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gundlach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Christiansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A J</forename><surname>Somers</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/app9245554</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">5554</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valente, E.H.; Gundlach, C.; Christiansen, T.L.; Somers, M.A.J. Effect of scanning strategy during selective laser melting on surface topography, porosity, and microstructure of additively manufactured Ti-6Al-4V. Appl. Sci. 2019, 9, 5554. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Investigation of the roughness variation along the length of LPBF manufactured straight channels</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Klingaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baier-Stegmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hattel</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10589759.2020.1785445</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nondestruct. Test. Eval</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="304" to="314" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klingaa, C.G.; Dahmen, T.; Baier-Stegmaier, S.; Mohanty, S.; Hattel, J.H. Investigation of the roughness variation along the length of LPBF manufactured straight channels. Nondestruct. Test. Eval. 2020, 35, 304-314. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of Build Angle on Surface Properties of Nickel Superalloys Processed by Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Covarrubias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eshraghi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-017-2706-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="336" to="342" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Covarrubias, E.E.; Eshraghi, M. Effect of Build Angle on Surface Properties of Nickel Superalloys Processed by Selective Laser Melting. JOM 2018, 70, 336-342. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Improving additive manufacturing processability of hard-to-process overhanging structure by selective laser melting</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2017.06.044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page" from="99" to="108" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, H.; Gu, D.; Xiong, J.; Xia, M. Improving additive manufacturing processability of hard-to-process overhanging structure by selective laser melting. J. Mater. Process. Technol. 2017, 250, 99-108. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Texture of inclined up-facing surfaces in laser powder bed fusion of metals</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Metelkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vanmunster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haitjema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Hooreweder</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2021.101970</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">101970</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Metelkova, J.; Vanmunster, L.; Haitjema, H.; Van Hooreweder, B. Texture of inclined up-facing surfaces in laser powder bed fusion of metals. Addit. Manuf. 2021, 42, 101970. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Surface roughness analysis, modelling and prediction in selective laser melting</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Strano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Everson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Evans</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2012.11.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="589" to="597" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Strano, G.; Hao, L.; Everson, R.M.; Evans, K.E. Surface roughness analysis, modelling and prediction in selective laser melting. J. Mater. Process. Technol. 2013, 213, 589-597. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Optimisation of downskin parameters to produce metallic parts via laser powder bed fusion process: An overview</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Viale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stavridis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bondioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saboori</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-022-10314-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="2159" to="2182" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Viale, V.; Stavridis, J.; Salmi, A.; Bondioli, F.; Saboori, A. Optimisation of downskin parameters to produce metallic parts via laser powder bed fusion process: An overview. Int. J. Adv. Manuf. Technol. 2022, 123, 2159-2182. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Support optimization for overhanging parts in direct metal laser sintering</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Oter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coskun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Akca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Surmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Yilmaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ozer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tarakci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Koc</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijleo.2018.12.072</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Optik</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="575" to="581" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oter, Z.C.; Coskun, M.; Akca, Y.; Surmen, O.; Yilmaz, M.S.; Ozer, G.; Tarakci, G.; Khan, H.M.; Koc, E. Support optimization for overhanging parts in direct metal laser sintering. Optik 2019, 181, 575-581. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Design optimization of supports for overhanging structures in aluminum and titanium alloys by selective laser melting</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2014.07.043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="203" to="213" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calignano, F. Design optimization of supports for overhanging structures in aluminum and titanium alloys by selective laser melting. Mater. Des. 2014, 64, 203-213. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Influences of processing parameters on surface roughness of Hastelloy X produced by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tomus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rometsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2016.10.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="103" to="112" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tian, Y.; Tomus, D.; Rometsch, P.; Wu, X. Influences of processing parameters on surface roughness of Hastelloy X produced by selective laser melting. Addit. Manuf. 2017, 13, 103-112. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Effect of Process Parameters on the Surface Roughness of Overhanging Structures in Laser Powder Bed Fusion Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Moylan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Lane</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procir.2016.02.347</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="131" to="134" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fox, J.C.; Moylan, S.P.; Lane, B.M. Effect of Process Parameters on the Surface Roughness of Overhanging Structures in Laser Powder Bed Fusion Additive Manufacturing. Procedia CIRP 2016, 45, 131-134. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Understanding laser powder bed fusion surface roughness</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Thole</surname></persName>
+		</author>
+		<idno type="DOI">10.1115/1.4046504</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Manufacturing Science and Engineering. Trans. ASME</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="1" to="37" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Snyder, J.C.; Thole, K.A. Understanding laser powder bed fusion surface roughness, Journal of Manufacturing Science and Engineering. Trans. ASME 2020, 142, 1-37. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Anisotropy of additively manufactured AlSi10Mg: Threads and surface integrity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Akmal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Laakso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Niemi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-020-05243-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="3645" to="3662" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ullah, R.; Akmal, J.S.; Laakso, S.V.; Niemi, E. Anisotropy of additively manufactured AlSi10Mg: Threads and surface integrity. Int. J. Adv. Manuf. Technol. 2020, 107, 3645-3662. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">On the role of pre-and post-contour scanning in laser powder bed fusion: Thermal-fluid dynamics and laser reflections</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmecsci.2022.107389</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mech. Sci</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page">107389</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ren, Z.; Wei, D.; Wang, S.; Zhang, D.Z.; Mao, S. On the role of pre-and post-contour scanning in laser powder bed fusion: Thermal-fluid dynamics and laser reflections. Int. J. Mech. Sci. 2022, 226, 107389. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An investigation into the effects of contouring process parameters on the up-skin surface characteristics in laser powder-bed fusion process</title>
+		<author>
+			<persName><forename type="first">T.-N</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rauniyar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Nismath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mfglet.2023.08.085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Manuf. Lett</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="707" to="716" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Le, T.-N.; Rauniyar, S.; Nismath, V.H.; Chou, K. An investigation into the effects of contouring process parameters on the up-skin surface characteristics in laser powder-bed fusion process. Manuf. Lett. 2023, 35, 707-716. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Influences of deposition strategies and oblique angle on properties of AISI316L stainless steel oblique thin-walled part by direct laser fabrication</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.optlastec.2016.01.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Laser. Technol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="138" to="144" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X.; Deng, D.; Qi, M.; Zhang, H. Influences of deposition strategies and oblique angle on properties of AISI316L stainless steel oblique thin-walled part by direct laser fabrication. Opt. Laser. Technol. 2016, 80, 138-144. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of metallic components-Process, structure and properties</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Zuback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Milewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Beese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson-Heid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2017.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="112" to="224" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DebRoy, T.; Wei, H.L.; Zuback, J.S.; Mukherjee, T.; Elmer, J.W.; Milewski, J.O.; Beese, A.M.; Wilson-Heid, A.; De, A.; Zhang, W. Additive manufacturing of metallic components-Process, structure and properties. Prog. Mater. Sci. 2018, 92, 112-224. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Research on the fabricating quality optimization of the overhanging surface in SLM process</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Su</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-012-4271-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1471" to="1484" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, D.; Yang, Y.; Yi, Z.; Su, X. Research on the fabricating quality optimization of the overhanging surface in SLM process. Int. J. Adv. Manuf. Technol. 2013, 65, 1471-1484. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">On Morphology and roughness of upskin surfaces in laser powder-bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Nismath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beytullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chou</surname></persName>
+		</author>
+		<idno>Abstract no. 132</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 52nd SME North American Manufacturing Research Conference (NAMRC 52</title>
+		<meeting>the 52nd SME North American Manufacturing Research Conference (NAMRC 52<address><addrLine>Knoxville, TN, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2024-06">2024. June 2024</date>
+			<biblScope unit="page" from="17" to="21" />
+		</imprint>
+	</monogr>
+	<note>Disclaimer/Publisher&apos;s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content</note>
+	<note type="raw_reference">Nismath, V.H.; Beytullah, A.; David, J.; Chou, K. On Morphology and roughness of upskin surfaces in laser powder-bed fusion additive manufacturing, Manufacturing Letters. In Proceedings of the 52nd SME North American Manufacturing Research Conference (NAMRC 52, 2024), Knoxville, TN, USA, 17-21 June 2024. Abstract no. 132. (accepted). Disclaimer/Publisher&apos;s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An investigation over microstructure and HIP processing effects on wear performance of pure chromium parts fabricated by laser powder bed fusion</title>
+				<funder ref="#_mwzK8Ba">
+					<orgName type="full">CREST</orgName>
+				</funder>
+				<funder ref="#_8FXnwAA">
+					<orgName type="full">Japan Science and Technology Agency (JST).Scientific and Technological Research Council of Turkey (TUBITAK)</orgName>
+				</funder>
+				<funder ref="#_nnjKefe">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_BxMTWBN">
+					<orgName type="full">Japan Society for the Promotion of Science</orgName>
+					<orgName type="abbreviated">JSPS</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-02-13">13 February 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Asli</forename><surname>Gunay Bulutsuz</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Department of Mechanical Engineering , Yildiz Technical University , Besiktas , Istanbul , Turkey</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Yildiz Technical University</orgName>
+								<address>
+									<settlement>Besiktas Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Health Biotechnology Joint Research and Application Center of Excellence , Esenler , Istanbul , Turkey</note>
+								<orgName type="department">Health Biotechnology Joint Research and Application Center of Excellence</orgName>
+								<address>
+									<settlement>Esenler Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Buse</forename><surname>Gulec</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Department of Mechanical Engineering , Yildiz Technical University , Besiktas , Istanbul , Turkey</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Yildiz Technical University</orgName>
+								<address>
+									<settlement>Besiktas Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ozkan</forename><surname>Gokcekaya</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Division of Materials and Manufacturing Science , Graduate School of Engineering , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department">Graduate School of Engineering</orgName>
+								<orgName type="laboratory">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> Anisotropic Design &amp; Additive Manufacturing Research Center , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department">Anisotropic Design &amp; Additive Manufacturing Research Center</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Johannes</forename><surname>Gardstam</surname></persName>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>e</label> Quintus Technologies , Västerås , Sweden</note>
+								<orgName type="institution">Quintus Technologies</orgName>
+								<address>
+									<settlement>Västerås</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takayoshi</forename><surname>Nakano</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Division of Materials and Manufacturing Science , Graduate School of Engineering , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department">Graduate School of Engineering</orgName>
+								<orgName type="laboratory">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> Anisotropic Design &amp; Additive Manufacturing Research Center , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department">Anisotropic Design &amp; Additive Manufacturing Research Center</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hakan</forename><surname>Yilmazer</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Health Biotechnology Joint Research and Application Center of Excellence , Esenler , Istanbul , Turkey</note>
+								<orgName type="department">Health Biotechnology Joint Research and Application Center of Excellence</orgName>
+								<address>
+									<settlement>Esenler Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<note type="raw_affiliation"><label>f</label> Yildiz Technical University , Department of Metallurgical and Materials Engineering , 34220 ˙Istanbul , Turkey</note>
+								<orgName type="department">Department of Metallurgical and Materials Engineering</orgName>
+								<orgName type="institution">Yildiz Technical University</orgName>
+								<address>
+									<postCode>34220</postCode>
+									<settlement>˙Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Bulutsuz</surname></persName>
+							<affiliation key="aff7">
+								<note type="raw_affiliation">Division of Materials and Manufacturing Science , Graduate School of Engineering , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan.</note>
+								<orgName type="department">Graduate School of Engineering</orgName>
+								<orgName type="laboratory">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<note type="raw_affiliation">Department of Mechanical Engineering , Yildiz Technical University , Besiktas , Istanbul , Turkey.</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Yildiz Technical University</orgName>
+								<address>
+									<settlement>Besiktas Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An investigation over microstructure and HIP processing effects on wear performance of pure chromium parts fabricated by laser powder bed fusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-02-13">13 February 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D93422012330581F4E4F0C9D97BE7626</idno>
+					<idno type="DOI">10.1016/j.ijrmhm.2024.106616</idno>
+					<note type="submission">Received 9 October 2023; Received in revised form 9 February 2024; Accepted 12 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T19:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Laser powder bed fusion Pure Cr Crystallographic</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>texture Hot isostatic pressing Wear performance A B S T R A C T Chromium (Cr) and its alloys have long been valued for their exceptional properties, including corrosion resistance and high-temperature stability, rendering them indispensable in industrial applications such as chemical processing, energy production, and aerospace.</s><s>However, due to the difficulties in Cr-based alloy manufacturing, there is a need for novel manufacturing methodologies.</s><s>Additive Manufacturing (AM) emerges as a promising approach, particularly Laser Powder Bed Fusion (LPBF), which allows for intricate designs, reduced material waste, and simplified assembly.</s><s>However, certain issues still need to be addressed, including defects like cracks and porosities in the manufactured parts.</s><s>Post-processing techniques such as Hot Isostatic Pressing (HIP) have gained prominence for enhancing the material properties and quality of AM parts, including those produced using LPBF.</s><s>HIP treatments are effective in eliminating internal pores, although some challenges remain, notably the presence of trapped argon and grain coarsening side effects of HIP process parameters.</s><s>This study focuses on LPBF-processed pure chromium parts with crystallographic texture and investigates their properties after HIP treatment, including microstructure, hardness, and tribological performance.</s><s>According to the obtained results: the HIP process reduced cracks, especially in the center region, but increased gaps in the side region.</s><s>HIP also hindered grain realignment, limiting grain growth, and resulting in high HAGB density and low MUD values.</s><s>Elevated HIP processing pressure negatively affected tribological performance due to increased grain size, and reduced hardness.</s><s>This study, for the first time, realized the effect of HIP conditions on the microstructure and tribological performance of LPBF-processed pure Cr.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Chromium and its alloys play a significant role in industrial applications due to their exceptional properties.</s><s>Their corrosion resistance and high-temperature stability make them ideal for harsh environments like chemical processing, energy production, and aerospace.</s><s>Hightemperature working performance with lower-density Cr provides an alternative solution where Nickel-based superalloys may not suffice to address certain needs <ref type="bibr" target="#b0">[1]</ref>.</s><s>Up to date, Cr has been used as a coating or alloying element in steel, thanks to its performance against corrosion, and low friction coefficient <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>.</s><s>However, manufacturing technologies and characterization studies are still needed to obtain highperformance Cr-based final products to address industrial requirements.</s></p><p><s>The manufacturing of Cr via conventional methodologies is challenging due to the high melting point with limited ductility at room temperature <ref type="bibr" target="#b7">[8]</ref>.</s><s>The casting process needs to be done over 1900 • C and its plastic deformation is also difficult due to its high ductile-to-brittle transition temperature (BDTT) under forming loads <ref type="bibr" target="#b8">[9]</ref>.</s><s>At this point, Additive Manufacturing (AM) offers advantages for Cr-based final product manufacturing.</s><s>Complex geometries can be easily manufactured while decreasing the total weight via topology optimization <ref type="bibr" target="#b9">[10]</ref>.</s><s>Besides these merits, the reduction in material waste and simplified assembly are other appealing aspects of Cr-based alloys AM for green manufacturing <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>.</s><s>Because the Cr-based alloy conventional manufacturing process is usually a major source of pollution <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>As an AM method, laser powder bed fusion (LPBF) has attracted attention with the capability to manufacture near-net shape parts, coupled with reduced production durations and the method ensures the sustainability of raw materials.</s><s>Besides these advantages, studies are still needed to improve LPBF-processed Cr-based parts.</s><s>LPBF is an innovative AM technology that employs a laser beam as a heat source to directly shape the loaded product geometry data by melting specific metal powders layer-by-layer <ref type="bibr" target="#b13">[14]</ref>.</s><s>The laser is precisely focused on an average 100 μm spot size (standard laser diameter for EOS M290 LPBF machine) reaching over 3000 • C, however, defects like cracks, and porosities in asbuilt components were reported previously <ref type="bibr" target="#b14">[15]</ref>.</s><s>Besides, the process parameters such as laser power, scanning speed, hatch spacing, and powder properties can initiate or mitigate defect formation <ref type="bibr" target="#b15">[16]</ref>.</s><s>To minimize the defects, short scan lengths and a high energy density approach have been implemented in this study according to successful findings in previous studies <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18]</ref> while the built stage was preheated to 200 • C to decrease the residual stress <ref type="bibr" target="#b18">[19]</ref>.</s><s>Even though precautions during the LPBF fabrication process have been implemented, porosities, surface-internal cracks, distortions and delaminations, stair-case effects on surface topography, and adhesion of unfused powder particles are some inevitable quality issues <ref type="bibr" target="#b19">[20]</ref>.</s><s>Especially during the LPBF manufacturing of pure Cr severe cracking phenomena were observed due to the mismatch of residual stresses and low BDTT <ref type="bibr" target="#b16">[17]</ref>.</s></p><p><s>Hot Isostatic Pressing (HIP), heat treatments, hot forming, laser postprocessing remelting methods, and their combinations are being applied as post-processes to increase material properties and quality of AM parts <ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>.</s><s>Beyond other methods, HIP is widely being investigated especially for LPBF-produced components <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b26">27]</ref>.</s><s>With the effect of high temperature and pressure, the internal pores of the 3D part can be eliminated <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b27">28]</ref>.</s><s>Due to the nature of the HIP process, there are remaining internal pores as a result of trapped Argon <ref type="bibr" target="#b28">[29]</ref>.</s></p><p><s>Due to the superior properties of Cr, there is a need for improvements in novel manufacturing methodologies.</s><s>This study investigated the LPBF fabrication of hard-to-process pure Cr which has high DBTT, therefore LPBF processing of pure Cr has been quite challenging.</s><s>Previous studies have reported LPBF process parameter optimization and decreasing scan length to accumulate heat to overcome cracks and improve the component density <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b29">30]</ref>.</s><s>However, the current literature lacks an understanding of the effect of the HIP process on the defects and microstructure of pure Cr fabricated by the LPBF process and its wear performance.</s><s>In order to obtain high-quality Cr-based final parts, crystallographic textured LPBF-processed pure Cr cubes were manufactured and the HIP process was applied to understand its effect on material properties.</s><s>The microstructural investigation, hardness, and tribological performances were analyzed before and after HIP treatment to understand the influence of HIP process parameters.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">LPBF processing of pure Cr</head><p><s>Irregular shape pure Cr powder (&gt;99% purity, JFE Material, Japan) was used to fabricate 5 × 5 × 5 mm cube samples by LPBF (Fig. <ref type="figure" target="#fig_0">1(b)</ref>).</s><s>Even though Cr was processed by a cost-efficient method, resulting in an irregular shape, the particle size distribution (D50 = 44.8</s><s>μm) and powder flowability with an avalanche angle and a surface fractal of 52.8 • and 1.95, respectively, were suitable for the LPBF process <ref type="bibr" target="#b15">[16]</ref>.</s></p><p><s>LPBF fabrication of pure Cr samples was performed on a 316 L stainless steel base plate by EOS M290 (Germany) LPBF machine equipped with a 400 W Yb laser with a 100 μm diameter.</s><s>The optimized LPBF process parameters according to our previous study <ref type="bibr" target="#b15">[16]</ref>, layer thickness (h), laser power (P), scan speed (V), and hatch spacing (d), were chosen as 20 μm, 150 W, 400 mm/s, and 80 μm, respectively, with the preheating of build stage to 200 • C (Table <ref type="table" target="#tab_0">1</ref>).</s><s>The volume energy density (E) of LPBF processing can be calculated by Eq. ( <ref type="formula">1</ref>) <ref type="bibr" target="#b30">[31]</ref>.</s></p><formula xml:id="formula_0">E = P νhd (1)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Hot isostatic pressing</head><p><s>The HIP parameters were selected as 1250 • C and two different pressures (100 MPa and 200 MPa).</s><s>Here the aim was to understand the pressure effect at high temperature.</s><s>The effect of HIP process on internal porosities was controlled via a non-destructive Achimedes' principle testing method (ASTM B962 Standard).</s><s>Weight Lab balance was used which was equipped with a density measurement device for solid materials.</s><s>The density measurement test was made in alcohol at room temperature with a measurement accuracy of 0.001 g.</s><s>This methodology neglects the effect of central defects.</s><s>To investigate defects, image processing techniques were employed from optical microscope images.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Microstructural characterization</head><p><s>Optical images (OM images) were captured perpendicular to the LPBF build direction (Fig. <ref type="figure" target="#fig_0">1</ref>, <ref type="figure">x-z plane</ref>).</s><s>The sample surfaces were initially polished using 320-2500 grit sandpaper.</s><s>Subsequently, the polishing process was initiated using a 1 μm polishing cloth and a 0.01 μm alumina solution.</s><s>For cleaning, the samples were immersed in ethyl alcohol within an ultrasonic cleaning device and then prepared for etching.</s><s>The samples were etched using a reagent containing 20 ml of nitric acid and 60 ml of hydrochloric acid.</s><s>They were left in this reagent for 60 s before being prepared for imaging with an optical microscope.</s><s>Optical microscopy was employed for the analysis of defect percentages and microstructure.</s><s>The acquired OM images were processed using ImageJ software to determine the density of each sample based on the defect area ratio within the section.</s><s>Defects (cracks, lack of fusion, and porosities) were calculated as a percentage of the measured area.</s><s>Measurements were taken from the surface of each specimen with an area of 780 × 580 μm.</s><s>Four measurements were repeatedly performed, and the averages with standard deviations of these measurements were calculated.</s><s>To assess the impact of the HIP process on the sample and to understand the defects within it, cross-sections were extracted from the middle of the sample for further investigations (Fig. <ref type="figure" target="#fig_0">1</ref>).</s></p><p><s>The microstructure of as-build and HIPed Cr was examined using an electron backscatter diffraction system (EBSD, Nordlys Max3 system, Oxford Instruments, Cambridge, UK) mounted on a field-emission scanning electron microscope (FE-SEM; JIB-4610 F, JEOL, Tokyo, Japan) operated with at an accelerating voltage of 20 kV and a step size of 2 μm.</s><s>The collected data was analyzed using analysis software (HKL Channel5, Oxford Instruments, UK) to obtain inverse pole figure (IPF) maps, corresponding pole figures, grain size distribution, grain boundary misorientation, qualitative and quantitative analyses of high-angle grain boundaries (HAGBs) and Kernel average misorientation (KAM) distribution.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Hardness and Tribological characterizations</head><p><s>The hardness measurements of the samples were measured with Vickers Hardness Tester.</s><s>Five different measurements were taken by applying 500 g of force, from the different parts of the surface of each sample.</s><s>Then their means and standard deviations were found by statistical methods.</s></p><p><s>A radial cycle motion against a ceramic ball as counterface material was used to conduct the wear studies with Tribotester (Tribo Technic) machine.</s><s>Al 2 O 3 ceramic ball (6 mm in diameter) had a Vickers hardness of 1800 Hv and was used as an abrasive during the tests.</s><s>A normal load of 1 N was applied at a rotational speed of 20 mm/s under dry conditions.</s><s>For the 6366.21</s><s>cycle of 40 m test length, the wear track radius was 1 mm.</s><s>Abrasive balls were maintained firmly in accordance with ASTM <ref type="url" target="astm:G99">G99</ref>-05 specifications.</s><s>Surface topographies and wear track width were observed by FE-SEM (Thermo Scientific) investigations.</s><s>FE-SEM Energy Dispersive Spectroscopy (EDS) mapping was also applied to identify wear mechanisms.</s><s>10 repetitive width measurements were done to calculate the mean value.</s><s>Wear volume loss calculated according to Eq. ( <ref type="formula" target="#formula_1">2</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disk volume loss</head><formula xml:id="formula_1">= 2πR [ r 2 (<label>d 2r</label></formula><p><s>) -</s></p><formula xml:id="formula_2">( d<label>4</label></formula><formula xml:id="formula_3">) ( 4r 2 -d 2 )1 2 ]<label>(2)</label></formula><p><s>where: R = wear track radius, d = wear track width, assuming no significant pin wear.</s><s><ref type="table" target="#tab_2">3</ref>. As-built Cr reached 6.95 g/cm 3 density, which indicated 97.2% relative density compared to the 7.15 g/cm 3 theoretical density of pure chromium.</s><s>The applied HIP process at 1250 • C with the pressure of 100 MPa (Cr-1250-100) increased the density to 7.01 /cm 3 (98.1% relative density), indicating a decrease in defects.</s><s>Although the surface defects increased with the HIP process at 1250 • C with a pressure of 100 MPa, the center and the side region defects of Cr-1250-100 decreased (Fig. <ref type="figure" target="#fig_0">1</ref>, Table <ref type="table" target="#tab_2">3</ref>).</s><s>However, increasing the HIP pressure to 200 MPa the density of Cr-1250-200 decreased to 6.67 g/cm 3 (93.3%</s><s>relative density), as such defects also increased overall.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructure of LPBF-processed and HIPed pure Cr components</head><p><s>Considering the densification and defect ratio of as-built and HIPed samples, hardness differed significantly.</s><s>The highest hardness (195.29 ± 16.52 Hv) was measured from as-built and it decreased after the HIP process.</s><s>The hardness of Cr-1250-100 samples was 154.58 ± 8.70 Hv.</s><s>Despite the increase in density and decrease in defects, the hardness of Cr-1250-100 reduced due to the decrease in residual stress after the HIP process and the increase in grain size resulting in a decrease in HAGB density (Table <ref type="table" target="#tab_1">2</ref><ref type="table" target="#tab_2">3</ref>).</s><s>Increasing the HIP pressure from 100 MPa to 200 MPa further decreased the hardness.</s><s>Although the HAGB density of Cr-1250-200 was comparable to that of as-built Cr, Cr-1250-200 exhibited lower hardness (144.37 ± 19.16 Hv), which contradicted Hall-Petch strengthening.</s><s>However, this outcome can be attributed to the low density and higher porosity of the Cr-1250-200 sample.</s></p><p><s>Fig. <ref type="figure" target="#fig_3">3</ref> presents IPF and HAGB maps with the corresponding {001} pole figures of as-built and HIPed Cr samples.</s><s>The IPF map of as-built Cr showed epitaxial grain growth reaching multiple powder layers (Fig. <ref type="figure" target="#fig_3">3  (a)</ref>).</s><s>The 〈001〉 grain orientation was strongly selected along y direction (x-z plane) while unstable/ rotated &lt;001&gt; grains can be identified from the pole figure, identified with the misorientation between build direction (z) and scan direction (x) (Fig. <ref type="figure" target="#fig_3">3(a``</ref>)), resulting in 3.8 MUD (mean uniform density) which indicates the texture strength.</s><s>Epitaxially grown grains and randomly oriented grains can be detected with the different colors (representing grain orientations) on IPF maps and grain boundaries are indicated with red lines on HAGB maps (Fig. <ref type="figure" target="#fig_3">3</ref>).</s></p><p><s>Depending on the applied pressure of the HIP process, grain orientation, and HAGB distributions exhibited different characteristics (Fig. <ref type="figure" target="#fig_3">3  (b</ref>, <ref type="figure">c</ref>)).</s><s>Large and elongated grains with &lt;001&gt; (red) and 〈101〉 (green) orientations were detected in the IPF map of Cr-1250-100 (Fig. <ref type="figure" target="#fig_3">3(b)</ref>) with an increase in relative intensity of MUD (3.9), allowing the intensities of non-ideal orientations to fade while the predominant grain orientation to remain, resulting fewer HAGBs.</s><s>However, the increase in applied pressure during the HIP process for Cr-1250-200 samples prevented realignment of grain orientation and limited the grain growth, thus, resulting in high HAGB density and low MUD value.</s></p><p><s>The qualitative observations in Fig. <ref type="figure" target="#fig_3">3</ref> are quantified and presented in Fig. <ref type="figure" target="#fig_4">4</ref>. The grain size distribution (Fig. <ref type="figure" target="#fig_4">4(a)</ref>) and the misorientation distribution of HAGBs (Fig. <ref type="figure" target="#fig_4">4(b)</ref>) proved the differences in microstructure of as-built and HIPed samples as well as the differences caused by the applied HIP pressure.</s><s>The average grain size of Cr-1250-100 was 22.6 μm, which was higher than the as-built Cr grain size (16.3 μm).</s><s>The grain growth dynamics also eliminated less misoriented HAGBs while realigning the small grains with the adjacent grains.</s><s>However, the application of high-pressure (200 MPa) during the HIP process (Cr-1250-200) showed limited grain growth (19.6 μm) while primarily realizing grain growth within the less misoriented grains.</s><s>Therefore, the shift of HAGB misorientation from a lower angle (15-25 • ) to a higher angle (45-60 • ) was observed (Fig. <ref type="figure" target="#fig_4">4(b)</ref>).</s></p><p><s>The accumulated strain due to the fabrication condition and the stress-release effect of the HIP process can be estimated with the KAM values <ref type="bibr" target="#b31">[32]</ref>.</s><s>Fig. <ref type="figure" target="#fig_5">5</ref> represents electron microscopy images of as-built and HIPed Cr with corresponding KAM maps.</s><s>The as-built Cr sample exhibited high residual stress, indicated by the KAM color map (Fig. <ref type="figure" target="#fig_5">5  (a'</ref>)).</s><s>Crack initiation and propagation could be identified in Fig. <ref type="figure" target="#fig_5">5(a-c</ref>), corresponding to the location of high misorientation on KAM maps Fig. <ref type="figure" target="#fig_5">5  (a'-c'</ref>).</s><s>The KAM color maps of HIPed Cr samples indicated a release of residual stress as showing a decrease in KAM values.</s><s>While the misorientation along the columnar grain boundary parallel to the build direction was observed from Cr 1250-100 (Fig. <ref type="figure" target="#fig_5">5(b'</ref>)), applying higher HIP pressure altered the grain structure and also affected KAM distribution (Fig. <ref type="figure" target="#fig_5">5(c'</ref>)).</s><s>The quantitative analyses of KAM values were presented in Fig. <ref type="figure" target="#fig_5">5(d</ref>) as a distribution of misorientation angle.</s><s>The tendency of KAM distribution was shifted to lower values with HIP application.</s><s>The descending order of average KAM values was as-built Cr (2.09) &gt; Cr 1250-200 (1.14) &gt; Cr 1250-100 (1.04), calculated from KAM angle distribution (Fig. <ref type="figure" target="#fig_5">5(d)</ref>).</s><s>According to this KAM distribution and the average values, slightly higher KAM was detected from Cr 1250-200 than Cr 1250-100, estimating that the high HIP pressure accumulated and/or kept stress remained in the structure.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Wear properties</head><p><s>Table <ref type="table" target="#tab_3">4</ref> gives the mean coefficient of friction (CoF), wear volume, and wear track widths.</s><s>Fig. <ref type="figure" target="#fig_5">5 (a</ref>, <ref type="figure">b</ref>) shows the plots of the CoF against the number of cycles on LPBF-processed pure Cr parts, respectively, under the 1 N and 5 N loading conditions.</s><s>In the 5 N loading condition, the CoF fluctuated between 0.2 and 0.8.</s><s>For tests with the 1 N loading condition, the CoF fluctuated between 0.8 and 1.5.</s><s>Except for the as-built Cr sample, all the CoF data increased and reached the highest value then decreased and passed a more steady state deviation.</s><s>The Cr 1250-100 sample exhibited a higher value of CoF scatter under 1 N and 5 N loading (Fig. <ref type="figure" target="#fig_6">6 a</ref>, <ref type="figure">b</ref>).</s><s>Fig. <ref type="figure" target="#fig_6">6</ref> shows that the variation of the CoF against the number of strokes for the Cr 1250-200 has a steady character with the highest value scattering within 0.9-1.3 (Fig. <ref type="figure" target="#fig_6">6 a</ref>).</s><s>In the (Fig. <ref type="figure" target="#fig_6">6</ref>), under 1 N loading condition higher mean CoF values were recorded (Fig. <ref type="figure" target="#fig_6">6</ref> Table <ref type="table" target="#tab_3">4</ref>).</s><s>The lowest CoF was recorded in the as-built state under 5 N loading condition with 0.26.</s><s>The highest CoF was recorded in the Cr-1250-100 group with 1.12, and 0.66 for 1 N and 5 N load, respectively.</s><s>The wear volumes were calculated from mean wear track width measurements according to the Eq. ( <ref type="formula">1</ref>).</s><s>Parallel to CoF values, the lowest wear volumes were recorded as-build state with 0.22 and 1.13 respectively for 1 N and 5 N loading conditions (Table <ref type="table" target="#tab_3">4</ref>).</s><s>Due to the effect of the HIP process higher wear volume loss was recorded.</s><s>Cr 1250-200 had 1.8, and 4.14 for the 1 N and 5 N loading conditions, respectively.</s><s>Besides having the highest CoF value, Cr 1250-100 samples resulted in moderate wear volume with 0.48, and 2.72 for the 1 N and 5 N loading conditions, respectively.</s><s>Fig. <ref type="figure" target="#fig_7">7</ref> shows the wear morphologies and EDS map of the wear tracks under 5 N load conditions.</s><s>Adhered particles and cracks emerged with delamination in all the grooves under a 5 N force, causing damage to the columnar structures that are oriented perpendicular to the sliding direction due to applied high stress.</s><s>In all cases, the fractured and adhered particles were observed besides the adhered craters produced due to ploughing.</s><s>The significant damage observed on the surfaces points towards cracking and ploughing as the predominant wear mechanisms involved.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">The effect of HIP parameters on microstructure</head><p><s>As-built Cr contained serious cracking issues, of which some were open to the surface while some were closed.</s><s>These cracks were identified as solidification cracks, which occurred due to the fast-cooling rate of the LPBF process resulting in high residual stress.</s><s>With the fast cooling to room temperature, the residual stress reached over yield strength of as-built Cr, thus resulting in cracks along the HAGBs.</s><s>The HIP process has been applied to improve part density with the application of high temperature and pressure in a short processing time <ref type="bibr" target="#b32">[33]</ref>.</s></p><p><s>The application of HIP to as-built Cr in this study differed in terms of densification, hardness, microstructure, and wear performance of Cr parts regarding the difference in applied pressure.</s><s>After LPBF, besides cracks, porosities also were observed in x-z plane (Fig. <ref type="figure" target="#fig_1">2</ref>).</s><s>To understand the changes in the build direction, x-y plane was also observed and similar findings were observed (Fig. <ref type="figure" target="#fig_8">8</ref>).</s><s>Low-pressure HIP process (Cr-1250-100) improved the density and decreased internal defects while open-surface defects increased.</s><s>Because HIP was ineffective for open pores and defects <ref type="bibr" target="#b20">[21]</ref>.</s><s>Moreover, high HIP pressure was detrimental to the density of Cr components, resulting in lower density than the as-built  Cr sample while increasing the ratio of defects.</s><s>The high HIP pressure was expected to promote crack growth and jeopardize the densification.</s><s>This was estimated considering the high HIP pressure showing higher KAM distribution than Cr 1250-100, indicating high residual stress, thus, resulting increase in defects and decrease in density.</s></p><p><s>HIP is one of the major post densification method with the combined effect of high temperature and pressure together.</s><s>Besides, high densification levels could be achieved when sintering pre-alloyed or pure prealloyed metal combinations, sintering, parameter optimization, powder sizes, and selection of elemental composition are other methods to modulate density <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>.</s><s>The comprehensive examination of processing parameters, with a particular emphasis on energy density, has been carried out to assess their influence on the densification levels of metal parts fabricated through partial melting AM <ref type="bibr" target="#b35">[36]</ref>.</s><s>As an example of powder particle size and sintering temperature effect, in <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38]</ref>, the density of S316 stainless steel varied between 98 and 67%.</s><s>In <ref type="bibr" target="#b38">[39]</ref>, Cubased samples were manufactured with a relative density higher than 99% using CuCr1.3</s><s>powder (wt%) through LPBF.</s><s>The effect of laser scanning parameter were studied and 97% relative density was found for pure SLM printed Cu which found to be low for industrial applications <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b39">40]</ref>.</s><s>Simchi and Pohl <ref type="bibr" target="#b36">[37]</ref> maximized SLS fabricated iron based alloys relative density via sintering.</s><s>In this current study, using the accepted density of pure Cr as 7.19 g/cm 3 from the periodic table, the densification percentages were measured as 96.66%, 97.49%, and 92.76% for the as-built Cr, Cr 1250-100, and Cr 1250-200 samples respectively.</s><s>Previous studies have defined a high densification rate as &lt;98% <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>.</s><s>In the Cr 1250-100 sample group, 97.49% relative density was closest to the high densification level.</s></p><p><s>The results of densification reflected the hardness of as-built and HIPed Cr samples.</s><s>HIP application at high temperatures released the residual stress induced by the LPBF process, thus resulting in a decrease in the hardness of HIP samples.</s><s>However, the HIP processes with different applied pressures differed in terms of the mechanism of hardening the sample.</s><s>While Cr-1250-100 with a bigger grain size and fewer HAGBs had higher hardness than Cr-1250-200.</s><s>The higher hardness was achieved owing to the improved densification and decrease in defects even though high HIP pressure (Cr 1250-200) exhibited high average KAM value.</s><s>Cr-1250-200 had smaller grains and more HAGBs, the hardness value was the lowest among the samples due to low density and high ratio of defects.</s><s>Therefore, it is important to note that the applied HIP pressure should be determined regarding the as-built condition of additively manufactured components, considering surface-opened defects.</s><s>The HIP processing of as-built Cr with different pressures exhibited significant differences in microstructure characteristics.</s><s>While LPBF processing of Cr formed texture via epitaxial grain growth along the preferential &lt;001&gt; direction parallel to the BD, Cr-1250-100 exhibited further texture strengthening.</s><s>This mechanism is expected due to the formation of a more uniform microstructure with the alignment of small grains towards easy growth &lt;001&gt; crystallographic orientation which requires less energy and/or grain growth with realigning low energy HAGBs (such as lower misorientations and/or coincidence site lattice boundaries) <ref type="bibr" target="#b17">[18]</ref>.</s><s>While hardness value is accepted as an indicator of wear resistance, this study highlighted the importance of HIP condition on the hardness of additively manufactured pure Cr in terms of density/ defects and microstructural characteristics.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">The effect of HIP parameters on friction and wear performance</head><p><s>The as-built state resulted in the minimum, and Cr-1250-100 resulted in the highest CoF value.</s><s>The main underlying reason is suspected as the HIP process temperature altering the material properties, affecting grain size, HAGB density and distribution, KAM distribution, and defect ratio.</s><s>Regarding these microstructural differences, there was a %20 decrease in hardness after the 1250 • C and 100 MPa HIP process.</s><s>This decrease was %26 after the 1250 • C and 200 MPa HIP process.</s><s>As seen in the EBSD results, the increase in applied pressure during the HIP process prevented the realignment of grain orientation and restricted grain growth, thereby resulting in high HAGB density and a low MUD value while keeping the residual stress remained or accumulating stress due to high HIP pressure, which positively affected tribological performance relative to the 100 MPa sample.</s></p><p><s>For all samples and loading conditions CoF increased at initial sliding  cycles.</s><s>As sliding distance increased, fluctuations in the CoF decreased.</s><s>These two behaviors were grouped as running in and steady stade stages which were shown as dashed lines in Fig. <ref type="figure" target="#fig_6">6</ref>.</s><s>The initial increase in the CoF was attributed smaller contact area between the abrasive ball and the sample surface due to the rougher surface.</s><s>Further deviations grounded with the combined effect of abrasive-adhesive wear <ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref>.</s><s>HIP-applied samples resulted in higher deviations than the as-built state as shown in Fig. <ref type="figure" target="#fig_6">6</ref>. deviations in the CoF were lower under 5 N load due to plastic deformation.</s><s>The wear study of pure Cr is very limited.</s><s>Previous tribological investigations have mainly focused on Cr coatings, with limited attention given to additively manufactured Cr based materials.</s><s><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref>, researchers used bulk pure Cr, and tested its tribological performance under 5 N loading conditions.</s><s>The CoF value varied between 0.12 and 0.24 which agrees well with the measured CoF values of this study for the as-built state under the same loading condition (Table <ref type="table" target="#tab_2">3</ref>).</s><s>CoF is strongly affected by the micro-macro structure of the material and tribology testing method <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref>.</s><s>As-built samples had the lowest porosity with the highest hardness, residual stress, and CoF resulting in the smallest mean with the lowest fluctuations and CoF value.</s><s>The highest fluctuations and CoF were observed with the lowest hardness and highest porosity (Cr-1250-200).</s><s>The surface defects increase the roughness which causes high deviations in CoF as highlighted previously <ref type="bibr" target="#b50">[51]</ref>.</s><s>Previously, additive manufactured Co-Cr-Mo with different Ti additions samples findings were parallel to and consistent with the current study <ref type="bibr" target="#b51">[52]</ref>.</s><s>With a higher amount of Ti percentage, the hardness decreased and, the porous structure increased which initiated the rise in the CoF values <ref type="bibr" target="#b51">[52]</ref>.</s></p><p><s>Under the 1 N loading state, the CoF values varied between 0.679 and 1.129 against the ball.</s><s>Friction behavior was strongly affected by the applied load and testing conditions.</s><s>An increase in the applied load resulted in decreased CoFs to 0.26-0.56</s><s>intervals.</s><s>Similar behavior was observed in previous studies <ref type="bibr" target="#b42">[43]</ref>.</s><s>This decrease can be attributed to the increased interlocking between the abrasive ball and the sample's surface as a result of the higher normal load.</s><s>This enhanced contact between the surfaces reduces resistance and facilitates relative sliding between the abrasive ball and the surface.</s></p><p><s>Three main wear mechanisms were observed in the observations: oxide formation, adhesions, and delamination.</s><s>As seen in Fig. <ref type="figure" target="#fig_9">9 (a-c</ref>) the  oxide layer was observed on all samples.</s><s>During the sliding an oxide layer formed between the surfaces, and due to the abrasive wear mechanism oxide layer-fractured particles accumulated in some regions.</s><s>These adhered particles can be observed in Figs.</s><s><ref type="figure" target="#fig_7">7</ref> and <ref type="figure" target="#fig_9">9</ref> (black arrows).</s><s>This re-adhered abraded particle creates peaks on the mating surface, leading to the formation of non-uniform wear patterns as shown in Fig. <ref type="figure" target="#fig_9">9</ref> with arrows.</s><s>As seen in Figs. <ref type="figure" target="#fig_7">7</ref>, and <ref type="figure" target="#fig_9">9</ref>, the wear track's edge of samples was rough and Cr and O elements appeared in the EDS map.</s><s>In all samples, oxygen was observed which points oxidative wear mechanism due to the effect of abrasion.</s><s>In EDS maps element transition to the sample surfaces from Al 2 O 3 abrasive ball was not observed (Fig. <ref type="figure" target="#fig_9">9</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>Experiments were conducted to assess the influence of HIP treatment on LPBF-processed, crystallographic-textured pure Cr specimens.</s><s>The effect of the HIP pressure on the defects, microstructure, and mechanical properties is investigated using a systematic study, and the following is concluded:</s></p><p><s>• Application of the HIP process decreased the cracks, especially in the center regions of cubic samples.</s><s>The increased pressure of the process decreased defects in the center region of the samples, however, increased in the surface region.</s></p><p><s>• An increase in applied pressure during the HIP process prevented the realignment of grain orientation and limited grain growth, resulting in a high HAGB density, high average KAM value, and a low MUD value.</s></p><p><s>• HIP processing pressure negatively affected tribological performance reasoned with grain growth and a reduction in hardness value, increased amount of surface porosities due to the temperature and pressure employed in the process.</s></p><p><s>• Increased HIP process pressure decreased the wear performance due to a high ratio of defects.</s><s>Lower HIP process pressure strengthened the texture via realignment of neighboring grains with low misorientation along the preferential &lt;001&gt; direction parallel to the BD, which enabled better wear performance.</s></p><p><s>The results obtained, in demonstrating the impact of HIP on the microstructural and material properties of LPBF-manufactured, crystallographically textured samples, are noteworthy.</s><s>Notably, an increase in HIP pressure has a positive effect on limiting grain growth, however, simultaneously leads to an increase in defects.</s><s>To fully utilize this microstructural effect of HIP pressure, further investigations are warranted to achieve lower defect levels.</s><s>Moreover, it is required to achieve highly dense structures through further optimization of the LPBF process (such as high preheat) and HIP conditions (high pressure for samples without surface defects) or by alloying to overcome the brittle nature of pure Cr.</s><s>Additionally, the potential impact of applying 100 MPa HIP pressure at lower temperatures on defect reduction while avoiding grain growth should also be explored.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1. a) Powder image and LPBF processing direction b) Porosity measurement regions c) Wear testing details.</s></p></div></figDesc><graphic coords="3,53.66,56.07,487.28,189.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. OM images taken from x-z plane of (a) surface region, (b) center region, and (c) side region of as-built Cr sample, (d) surface region, (e) center region, and (f) side region of HIPed Cr-1250-100 sample, (g) surface region, (h) center region, and (k) side region of HIPed Cr-1250-200 sample.</s></p></div></figDesc><graphic coords="4,70.67,56.34,453.60,299.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 represents</head><label>2</label><figDesc><div><p><s>Fig. 2 represents OM images of different regions of as-built Cr and HIPed samples at 1250 • C with pressures of 100 MPa and 200 MPa.</s><s>Significant cracks were detected on the surface (Fig. 1 b), Fig. 2 y-z plane) of Cr samples after the HIP process.</s><s>Even though the cross-section (parallel to x-z plane) of the samples exhibited fewer cracks and porosity (Fig. 1 b), towards the edge (side region) of the samples serious defects were detected.</s><s>These OM observations were quantitatively validated as shown in Table3.</s><s>As-built Cr reached 6.95 g/cm3 density, which indicated 97.2% relative density compared to the 7.15 g/cm3 theoretical density of pure chromium.</s><s>The applied HIP process at 1250 • C with the pressure of 100 MPa (Cr-1250-100) increased the density to 7.01 /cm 3 (98.1% relative density), indicating a decrease in defects.</s><s>Although the surface defects increased with the HIP process at 1250 • C with a pressure of 100 MPa, the center and the side region defects of Cr-1250-100 decreased (Fig.1, Table3).</s><s>However, increasing the HIP pressure to 200 MPa the density of Cr-1250-200 decreased to 6.67 g/cm 3 (93.3%</s><s>relative density), as such defects also increased overall.Considering the densification and defect ratio of as-built and HIPed samples, hardness differed significantly.</s><s>The highest hardness (195.29 ± 16.52 Hv) was measured from as-built and it decreased after the HIP process.</s><s>The hardness of Cr-1250-100 samples was 154.58 ± 8.70 Hv.</s><s>Despite the increase in density and decrease in defects, the hardness of Cr-1250-100 reduced due to the decrease in residual stress after the HIP process and the increase in grain size resulting in a decrease in HAGB density (Table2-3).</s><s>Increasing the HIP pressure from 100 MPa to 200 MPa further decreased the hardness.</s><s>Although the HAGB density of Cr-1250-200 was comparable to that of as-built Cr, Cr-1250-200 exhibited lower hardness (144.37 ± 19.16 Hv), which contradicted Hall-Petch strengthening.</s><s>However, this outcome can be attributed to the low density and higher porosity of the Cr-1250-200 sample.Fig.3presents</s><s>IPF and HAGB maps with the corresponding {001} pole figures of as-built and HIPed Cr samples.</s><s>The IPF map of as-built Cr showed epitaxial grain growth reaching multiple powder layers (Fig.3 (a)).</s><s>The 〈001〉 grain orientation was strongly selected along y direction</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. (a-c) Inverse pole figure and (a'-c') high-angle grain boundary maps with (a"-c") corresponding {001} pole figures of as-built Cr, HIPed Cr-1250-100, and Cr-1250-200 samples.</s><s>Scale bars indicate 200 μm.</s></p></div></figDesc><graphic coords="6,57.66,55.93,479.28,504.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Comparison of (a) the grain size distribution with the average grain size and (b) HAGB misorientation distribution of as-built and HIPed pure Cr.</s></p></div></figDesc><graphic coords="7,40.68,55.42,513.07,213.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. Electron microscopy images of (a) as-built Cr, HIPed (b) Cr-1250-100, and (c) Cr-1250-200 with corresponding (a'-c') KAM maps and (d) KAM angle distributions.</s></p></div></figDesc><graphic coords="7,41.64,308.14,511.04,275.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6.</s><s>CoF values of samples under 1 and 5 N load.</s></p></div></figDesc><graphic coords="8,55.19,517.46,484.95,208.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. Wear Tracks of (a) as-built Cr (b)Cr 1250-100 (c) Cr 1250-200 (d) SEM-EDS Mapping of as built-Cr sample.</s></p></div></figDesc><graphic coords="9,64.66,56.35,465.36,305.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. SEM images taken from y-z plane and maximum pore sizes of side region (a) as-built Cr sample, (c) HIPed Cr-1250-100 sample, (e) HIPed Cr-1250-200 sample.</s></p></div></figDesc><graphic coords="9,66.61,400.43,461.04,102.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig. 9. SEM and EDS values of samples under 5 N load.</s></p></div></figDesc><graphic coords="10,64.15,56.36,466.25,136.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><graphic coords="1,0.00,0.00,595.50,162.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Processes parameters of LPBF and HIP methods.</s></p></div></figDesc><table><row><cell>Samples</cell><cell>Scan</cell><cell>Laser</cell><cell>HIP</cell><cell>HIP</cell><cell>Oxygen</cell></row><row><cell></cell><cell>speed</cell><cell>power</cell><cell>temperature</cell><cell>pressure</cell><cell>(%)</cell></row><row><cell></cell><cell>(mm/s)</cell><cell>(W)</cell><cell>( • C)</cell><cell>(MPa)</cell><cell></cell></row><row><cell>As-built Cr</cell><cell>150</cell><cell>400</cell><cell>-</cell><cell>-</cell><cell>16.6</cell></row><row><cell>Cr-1250-100</cell><cell>150</cell><cell>400</cell><cell>1250</cell><cell>100</cell><cell>22.8</cell></row><row><cell>Cr-1250-200</cell><cell>150</cell><cell>400</cell><cell>1250</cell><cell>200</cell><cell>20.06</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc><div><p><s>Density, hardness, and HAGB density values of as-built and HIPed Cr samples.</s></p></div></figDesc><table><row><cell>Samples</cell><cell>Density (g/cm 3 )</cell><cell>Hardness (Hv)</cell><cell>HAGB density (%)</cell></row><row><cell>As-built Cr</cell><cell>6.95 ± 0.14</cell><cell>195.29 ± 16.52</cell><cell>32.2</cell></row><row><cell>Cr-1250-100</cell><cell>7.01 ± 0.21</cell><cell>154.58 ± 8.70</cell><cell>21.8</cell></row><row><cell>Cr-1250-200</cell><cell>6.67 ± 0.20</cell><cell>144.37 ± 19.16</cell><cell>31.1</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc><div><p><s>Surface porosity values of as-built and HIPed Cr samples.</s></p></div></figDesc><table><row><cell>Samples</cell><cell>X-Z Plane</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Surface region</cell><cell>Center region</cell><cell>Side region</cell></row><row><cell></cell><cell>porosity (%)</cell><cell>porosity (%)</cell><cell>porosity (%)</cell></row><row><cell>As-built Cr</cell><cell>3.99 ± 0.18</cell><cell>1.546 ± 0.44</cell><cell>7.552 ± 0.22</cell></row><row><cell>Cr-1250-</cell><cell>4.33 ± 0.25</cell><cell>1.339 ± 0.47</cell><cell>2.231 ± 0.79</cell></row><row><cell>100</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Cr-1250-</cell><cell>5.43 ± 0.20</cell><cell>1.762 ± 0.16</cell><cell>7.349 ± 0.99</cell></row><row><cell>200</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc><div><p><s>Wear results of samples under the 1 N and 5 N loading conditions.</s></p></div></figDesc><table><row><cell>Samples</cell><cell cols="2">Coefficient</cell><cell>Wear</cell><cell></cell><cell cols="2">Wear Track Width (μm)</cell></row><row><cell></cell><cell cols="2">of Friction</cell><cell cols="2">Volume (10^3xmm 3 )</cell><cell></cell><cell></cell></row><row><cell></cell><cell>1 N</cell><cell>5 N</cell><cell>1 N</cell><cell>5 N</cell><cell>1 N</cell><cell>5 N</cell></row><row><cell>As-built-Cr</cell><cell>0.67</cell><cell>0.26</cell><cell>0.22</cell><cell>1.13</cell><cell>149.74 ± 22.47</cell><cell>247.30 ± 14.87</cell></row><row><cell>Cr 1250-100</cell><cell>1.12</cell><cell>0.66</cell><cell>0.48</cell><cell>2.72</cell><cell>181.74 ± 16.23</cell><cell>321.83 ± 21.59</cell></row><row><cell>Cr 1250-200</cell><cell>1.03</cell><cell>0.56</cell><cell>1.80</cell><cell>4.14</cell><cell>289.74 ± 20.09</cell><cell>369.11 ± 11.64</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p><s>The authors acknowledge the support of <rs type="grantName">Grants-in-Aid for Scientific Research</rs> (Grant Number: <rs type="grantNumber">23H00235</rs>) from the <rs type="funder">Japan Society for the Promotion of Science (JSPS)</rs> and <rs type="funder">CREST</rs> (Grant Number: <rs type="grantNumber">JPMJCR2194</rs>) from the <rs type="funder">Japan Science and Technology Agency (JST).Scientific and Technological Research Council of Turkey (TUBITAK)</rs> <rs type="grantNumber">BIDEB 2209a</rs> (Grant Number: <rs type="grantNumber">1919B012102207</rs>).</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_BxMTWBN">
+					<idno type="grant-number">23H00235</idno>
+					<orgName type="grant-name">Grants-in-Aid for Scientific Research</orgName>
+				</org>
+				<org type="funding" xml:id="_mwzK8Ba">
+					<idno type="grant-number">JPMJCR2194</idno>
+				</org>
+				<org type="funding" xml:id="_8FXnwAA">
+					<idno type="grant-number">BIDEB 2209a</idno>
+				</org>
+				<org type="funding" xml:id="_nnjKefe">
+					<idno type="grant-number">1919B012102207</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p><s>Data will be made available on request.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>CRediT authorship contribution statement Asli Gunay Bulutsuz: Formal analysis, Investigation, Methodology, Supervision, Writingoriginal draft.</s><s>Buse Gulec: Formal analysis, Writingoriginal draft.</s><s>Ozkan Gokcekaya: Formal analysis, Investigation, Writingoriginal draft, Writingreview &amp; editing.</s><s>Johannes Gardstam: Investigation, Methodology.</s><s>Takayoshi Nakano: Conceptualization, Supervision, Writingreview &amp; editing.</s><s>Hakan Yilmazer: Conceptualization, Formal analysis, Supervision, Writingreview &amp; editing.</s></p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Metallurgy of chromium</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gilbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/220310a0</idno>
+		<ptr target="https://doi.org/10.1038/220310a0" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page">310</biblScope>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Gilbert, Metallurgy of chromium, Nature. 220 (1968) 310, https://doi.org/ 10.1038/220310a0.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Multilayered chromium/chromium nitride coatings for use in pressure die-casting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Esteve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Montalà</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Carreras</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0257-8972(01)01476-1</idno>
+		<ptr target="https://doi.org/10.1016/S0257-8972(01)01476-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="issue">147</biblScope>
+			<biblScope unit="page" from="268" to="273" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Lousa, J. Romero, E. Martinez, J. Esteve, F. Montalà, L. Carreras, Multilayered chromium/chromium nitride coatings for use in pressure die-casting, Surf. Coat. Technol. 146-147 (2001) 268-273, https://doi.org/10.1016/S0257-8972(01) 01476-1.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Structural, mechanical and tribological properties of CrAlN coatings deposited by reactive unbalanced magnetron sputtering</title>
+		<author>
+			<persName><forename type="first">X.-Z</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">T</forename><surname>Zeng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.surfcoat.2005.08.072</idno>
+		<ptr target="https://doi.org/10.1016/j.surfcoat.2005.08.072" />
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="1372" to="1376" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X.-Z. Ding, X.T. Zeng, Structural, mechanical and tribological properties of CrAlN coatings deposited by reactive unbalanced magnetron sputtering, Surf. Coat. Technol. 200 (2005) 1372-1376, https://doi.org/10.1016/j.surfcoat.2005.08.072.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Corrosion behaviour of chromium coatings obtained by direct and reverse pulse plating electrodeposition in NaCl aqueous solution</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Imaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Díez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sarret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>García-Lecina</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2013.10.005</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2013.10.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="251" to="259" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Imaz, M. Ostra, M. Vidal, J.A. Díez, M. Sarret, E. García-Lecina, Corrosion behaviour of chromium coatings obtained by direct and reverse pulse plating electrodeposition in NaCl aqueous solution, Corros. Sci. 78 (2014) 251-259, https://doi.org/10.1016/j.corsci.2013.10.005.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Magnetron deposition of Cr coatings with RF-ICP assistance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Sidelev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Grudinin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Zinkovskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Alkenova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Bleykher</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/coatings12101587</idno>
+		<ptr target="https://doi.org/10.3390/coatings12101587" />
+	</analytic>
+	<monogr>
+		<title level="j">Coatings</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1587</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D.V. Sidelev, V.A. Grudinin, K.A. Zinkovskii, K. Alkenova, G.A. Bleykher, Magnetron deposition of Cr coatings with RF-ICP assistance, Coatings. 12 (2022) 1587, https://doi.org/10.3390/coatings12101587.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A comparative research on corrosion behavior of electroplated and magnetron sputtered chromium coatings</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Martinuzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Giurlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pizzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Galvanetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Calisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Innocenti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Caporali</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/coatings12020257</idno>
+		<ptr target="https://doi.org/10.3390/coatings12020257" />
+	</analytic>
+	<monogr>
+		<title level="j">Coatings</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">257</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.M. Martinuzzi, L. Donati, W. Giurlani, F. Pizzetti, E. Galvanetto, N. Calisi, M. Innocenti, S. Caporali, A comparative research on corrosion behavior of electroplated and magnetron sputtered chromium coatings, Coatings. 12 (2022) 257, https://doi.org/10.3390/coatings12020257.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">High temperature steam oxidation of chromium-coated zirconiumbased alloys: kinetics and process</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Brachet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rouesne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ribis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Guilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Urvoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Toffolon-Masclet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Le</forename><surname>Saux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chaabane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Palancher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bischoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Augereau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pouillier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.CORSCI.2020.108537</idno>
+		<ptr target="https://doi.org/10.1016/J.CORSCI.2020.108537" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page">108537</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.C. Brachet, E. Rouesne, J. Ribis, T. Guilbert, S. Urvoy, G. Nony, C. Toffolon- Masclet, M. Le Saux, N. Chaabane, H. Palancher, A. David, J. Bischoff, J. Augereau, E. Pouillier, High temperature steam oxidation of chromium-coated zirconium- based alloys: kinetics and process, Corros. Sci. 167 (2020) 108537, https://doi.org/ 10.1016/J.CORSCI.2020.108537.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Characterization of the high-pressure and high-temperature phase diagram and equation of state of chromium</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anzellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Errandonea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Burakovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Turnbull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Beavers</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-022-10523-2</idno>
+		<ptr target="https://doi.org/10.1038/s41598-022-10523-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">6727</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Anzellini, D. Errandonea, L. Burakovsky, J.E. Proctor, R. Turnbull, C.M. Beavers, Characterization of the high-pressure and high-temperature phase diagram and equation of state of chromium, Sci. Rep. 12 (2022) 6727, https://doi.org/10.1038/ s41598-022-10523-2.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Chromium and chromium-based alloys: problems and possibilities for high-temperature service</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ro</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-004-0197-0</idno>
+		<ptr target="https://doi.org/10.1007/s11837-004-0197-0" />
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="28" to="33" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y.F. Gu, H. Harada, Y. Ro, Chromium and chromium-based alloys: problems and possibilities for high-temperature service, JOM. 56 (2004) 28-33, https://doi.org/ 10.1007/s11837-004-0197-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Topology optimization for metal additive manufacturing: current trends, challenges, and future outlook</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ibhadode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sixt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Nsiempba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Orakwe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martinez-Marchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Shahabad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonakdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Toyserkani</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17452759.2023.2181192</idno>
+		<ptr target="https://doi.org/10.1080/17452759.2023.2181192" />
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Ibhadode, Z. Zhang, J. Sixt, K.M. Nsiempba, J. Orakwe, A. Martinez-Marchese, O. Ero, S.I. Shahabad, A. Bonakdar, E. Toyserkani, Topology optimization for metal additive manufacturing: current trends, challenges, and future outlook, Virtual Phys. Prototyp. 18 (2023), https://doi.org/10.1080/17452759.2023.2181192.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Dentistry 4.0 concept in the design and manufacturing of prosthetic dental restorations</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dobrzański</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Dobrzański</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/pr8050525</idno>
+		<ptr target="https://doi.org/10.3390/pr8050525" />
+	</analytic>
+	<monogr>
+		<title level="j">Processes</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">525</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.A. Dobrzański, L.B. Dobrzański, Dentistry 4.0 concept in the design and manufacturing of prosthetic dental restorations, Processes. 8 (2020) 525, https:// doi.org/10.3390/pr8050525.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Challenges of co-Cr alloy additive manufacturing methods in dentistry-the current state of knowledge (systematic review)</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Konieczny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szczesio-Wlodarczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sokolowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bociong</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma13163524</idno>
+		<ptr target="https://doi.org/10.3390/ma13163524" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">3524</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Konieczny, A. Szczesio-Wlodarczyk, J. Sokolowski, K. Bociong, Challenges of co-Cr alloy additive manufacturing methods in dentistry-the current state of knowledge (systematic review), Materials. 13 (2020) 3524, https://doi.org/ 10.3390/ma13163524.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Environmental evaluation of the effects of using chromic waste in the production of chromium compounds</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Walawska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kowalski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0959-6526(00)00054-8</idno>
+		<ptr target="https://doi.org/10.1016/S0959-6526(00)00054-8" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="219" to="226" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Walawska, Z. Kowalski, Environmental evaluation of the effects of using chromic waste in the production of chromium compounds, J. Clean. Prod. 9 (2001) 219-226, https://doi.org/10.1016/S0959-6526(00)00054-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Laser powder bed fusion for metal additive manufacturing: perspectives on recent developments</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Yeong</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17452759.2020.1779999</idno>
+		<ptr target="https://doi.org/10.1080/17452759.2020.1779999" />
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="359" to="370" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.L. Sing, W.Y. Yeong, Laser powder bed fusion for metal additive manufacturing: perspectives on recent developments, Virtual Phys. Prototyp. 15 (2020) 359-370, https://doi.org/10.1080/17452759.2020.1779999.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Densification behavior of gas and water atomized 316L stainless steel powder during selective laser melting</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2010.02.030</idno>
+		<ptr target="https://doi.org/10.1016/j.apsusc.2010.02.030" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page" from="4350" to="4356" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Li, Y. Shi, Z. Wang, L. Wang, J. Liu, W. Jiang, Densification behavior of gas and water atomized 316L stainless steel powder during selective laser melting, Appl. Surf. Sci. 256 (2010) 4350-4356, https://doi.org/10.1016/j.apsusc.2010.02.030.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Controlling process instability for defect lean metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Escano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nabaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M H</forename><surname>Hojjatzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-022-28649-2</idno>
+		<ptr target="https://doi.org/10.1038/s41467-022-28649-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1079</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Qu, Q. Guo, L.I. Escano, A. Nabaa, S.M.H. Hojjatzadeh, Z.A. Young, L. Chen, Controlling process instability for defect lean metal additive manufacturing, Nat. Commun. 13 (2022) 1079, https://doi.org/10.1038/s41467-022-28649-2.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effect of scan length on densification and crystallographic texture formation of pure chromium fabricated by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gokcekaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Todo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Suganuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fukushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Narushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/cryst11010009</idno>
+		<ptr target="https://doi.org/10.3390/cryst11010009" />
+	</analytic>
+	<monogr>
+		<title level="j">Crystals (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Gokcekaya, T. Ishimoto, T. Todo, R. Suganuma, R. Fukushima, T. Narushima, T. Nakano, Effect of scan length on densification and crystallographic texture formation of pure chromium fabricated by laser powder bed fusion, Crystals (Basel). 11 (2020) 9, https://doi.org/10.3390/cryst11010009.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Crystallographic orientation control of pure chromium via laser powder bed fusion and improved high temperature oxidation resistance</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gokcekaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Narushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2020.101624</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2020.101624" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">101624</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Gokcekaya, N. Hayashi, T. Ishimoto, K. Ueda, T. Narushima, T. Nakano, Crystallographic orientation control of pure chromium via laser powder bed fusion and improved high temperature oxidation resistance, Addit. Manuf. 36 (2020) 101624, https://doi.org/10.1016/j.addma.2020.101624.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of powder bed preheating on the crack formation and microstructure in ceramic matrix composites fabricated by laser powder-bed fusion process</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Maurya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kosiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Juhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sergejev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Prashanth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2022.103013</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2022.103013" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">103013</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.S. Maurya, K. Kosiba, K. Juhani, F. Sergejev, K.G. Prashanth, Effect of powder bed preheating on the crack formation and microstructure in ceramic matrix composites fabricated by laser powder-bed fusion process, Addit. Manuf. 58 (2022) 103013, https://doi.org/10.1016/j.addma.2022.103013.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Pore defects in laser powder bed fusion: formation mechanism, control method, and perspectives</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2023.169215</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2023.169215" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">944</biblScope>
+			<biblScope unit="page">169215</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Du, Y. Zhao, J. Jiang, Q. Wang, H. Wang, N. Li, J. Sun, Pore defects in laser powder bed fusion: formation mechanism, control method, and perspectives, J. Alloys Compd. 944 (2023) 169215, https://doi.org/10.1016/j. jallcom.2023.169215.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Hot isostatic pressing in metal additive manufacturing: X-ray tomography reveals details of pore closure</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Du Plessis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Macdonald</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2020.101191</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2020.101191" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">101191</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. du Plessis, E. Macdonald, Hot isostatic pressing in metal additive manufacturing: X-ray tomography reveals details of pore closure, Addit. Manuf. 34 (2020) 101191, https://doi.org/10.1016/j.addma.2020.101191.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Reduction of micro-cracking in nickel superalloys processed by selective laser melting: a fundamental alloy design approach</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mumtaz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.04.035</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2015.04.035" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="59" to="68" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N.J. Harrison, I. Todd, K. Mumtaz, Reduction of micro-cracking in nickel superalloys processed by selective laser melting: a fundamental alloy design approach, Acta Mater. 94 (2015) 59-68, https://doi.org/10.1016/j. actamat.2015.04.035.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Study of the effects of hot forging on the additively manufactured stainless steel preforms</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Pruncu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hopper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2020.07.028</idno>
+		<ptr target="https://doi.org/10.1016/j.jmapro.2020.07.028" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="668" to="676" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.I. Pruncu, C. Hopper, P.A. Hooper, Z. Tan, H. Zhu, J. Lin, J. Jiang, Study of the effects of hot forging on the additively manufactured stainless steel preforms, J. Manuf. Process. 57 (2020) 668-676, https://doi.org/10.1016/j. jmapro.2020.07.028.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effect of heat treatment and hot isostatic pressing on the microstructure and mechanical properties of Inconel 625 alloy processed by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kreitcberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brailovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Turenne</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.02.038</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2017.02.038" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">689</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Kreitcberg, V. Brailovski, S. Turenne, Effect of heat treatment and hot isostatic pressing on the microstructure and mechanical properties of Inconel 625 alloy processed by laser powder bed fusion, Mater. Sci. Eng. A 689 (2017) 1-10, https:// doi.org/10.1016/j.msea.2017.02.038.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Strong morphological and crystallographic texture and resulting yield strength anisotropy in selective laser melted tantalum</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Montero Sistiaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.04.036</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2013.04.036" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="4657" to="4668" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Thijs, M.L. Montero Sistiaga, R. Wauthle, Q. Xie, J.-P. Kruth, J. Van Humbeeck, Strong morphological and crystallographic texture and resulting yield strength anisotropy in selective laser melted tantalum, Acta Mater. 61 (2013) 4657-4668, https://doi.org/10.1016/j.actamat.2013.04.036.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effects of process time interval and heat treatment on the mechanical and microstructural properties of direct laser deposited 316L stainless steel</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yadollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shamsaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Seely</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.07.056</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2015.07.056" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">644</biblScope>
+			<biblScope unit="page" from="171" to="183" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Yadollahi, N. Shamsaei, S.M. Thompson, D.W. Seely, Effects of process time interval and heat treatment on the mechanical and microstructural properties of direct laser deposited 316L stainless steel, Mater. Sci. Eng. A 644 (2015) 171-183, https://doi.org/10.1016/j.msea.2015.07.056.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Contribution of hot isostatic pressing on densification, microstructure evolution, and mechanical anisotropy of additively manufactured IN718 Ni-based superalloy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rezaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kermanpur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rezaeian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Badrossamay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Foroozmehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sadeghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2021.141721</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2021.141721" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">823</biblScope>
+			<biblScope unit="page">141721</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Rezaei, A. Kermanpur, A. Rezaeian, M. Badrossamay, E. Foroozmehr, F. Sadeghi, J. Han, T.M. Park, Contribution of hot isostatic pressing on densification, microstructure evolution, and mechanical anisotropy of additively manufactured IN718 Ni-based superalloy, Mater. Sci. Eng. A 823 (2021) 141721, https://doi.org/ 10.1016/j.msea.2021.141721.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Hot isostatic pressing of laser powder-bed-fused 304L stainless steel under different temperatures</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmecsci.2022.107413</idno>
+		<ptr target="https://doi.org/10.1016/j.ijmecsci.2022.107413" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mech. Sci</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page">107413</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Zhang, C. Li, G. Yao, Y. Zhang, Hot isostatic pressing of laser powder-bed-fused 304L stainless steel under different temperatures, Int. J. Mech. Sci. 226 (2022) 107413, https://doi.org/10.1016/j.ijmecsci.2022.107413.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Two-step heat treatment for laser powder bed fusion of a nickel-based superalloy with simultaneously enhanced tensile strength and ductility</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2021.102168</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2021.102168" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">102168</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Sun, Q. Teng, Y. Xie, T. Liu, R. Ma, J. Bai, C. Cai, Q. Wei, Two-step heat treatment for laser powder bed fusion of a nickel-based superalloy with simultaneously enhanced tensile strength and ductility, Addit. Manuf. 46 (2021) 102168, https://doi.org/10.1016/j.addma.2021.102168.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The effects of feature sizes in selectively laser melted Ti-6Al-4V parts on the validity of optimised process parameters</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Phutela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Aboulkhair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma13010117</idno>
+		<ptr target="https://doi.org/10.3390/ma13010117" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">117</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Phutela, N.T. Aboulkhair, C.J. Tuck, I. Ashcroft, The effects of feature sizes in selectively laser melted Ti-6Al-4V parts on the validity of optimised process parameters, Materials. 13 (2019) 117, https://doi.org/10.3390/ma13010117.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Effects of fabrication conditions on the microstructure, pore characteristics and gas retention of pure tungsten prepared by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hatano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijrmhm.2020.105410</idno>
+		<ptr target="https://doi.org/10.1016/j.ijrmhm.2020.105410" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">105410</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Yamamoto, M. Hara, Y. Hatano, Effects of fabrication conditions on the microstructure, pore characteristics and gas retention of pure tungsten prepared by laser powder bed fusion, Int. J. Refract. Met. Hard Mater. 95 (2021) 105410, https://doi.org/10.1016/j.ijrmhm.2020.105410.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Electron backscatter diffraction study of orientation gradients at the grain boundaries of a polycrystalline steel sheet deformed along different loading paths</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Signorelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roatta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">De</forename><surname>Vincentis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schwindt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Avalos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Bolmaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bozzolo</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S1600576717009372</idno>
+		<ptr target="https://doi.org/10.1107/S1600576717009372" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1179" to="1191" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.W. Signorelli, A. Roatta, N. De Vincentis, C. Schwindt, M. Avalos, R.E. Bolmaro, N. Bozzolo, Electron backscatter diffraction study of orientation gradients at the grain boundaries of a polycrystalline steel sheet deformed along different loading paths, J. Appl. Crystallogr. 50 (2017) 1179-1191, https://doi.org/10.1107/ S1600576717009372.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Influence of high initial porosity introduced by laser powder bed fusion on the fatigue strength of Inconel 718 after post-processing with hot isostatic pressing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaletsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Broeckmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2021.102331</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2021.102331" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">102331</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Kaletsch, S. Qin, S. Herzog, C. Broeckmann, Influence of high initial porosity introduced by laser powder bed fusion on the fatigue strength of Inconel 718 after post-processing with hot isostatic pressing, Addit. Manuf. 47 (2021) 102331, https://doi.org/10.1016/j.addma.2021.102331.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Density and porosity control of sintered 316l stainless steel parts produced by additive manufacturing</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Verlee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dormal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lecomte-Beckers</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/0032589912Z.00000000082</idno>
+		<ptr target="https://doi.org/10.1179/0032589912Z.00000000082" />
+	</analytic>
+	<monogr>
+		<title level="j">Powder Metall</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="260" to="267" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Verlee, T. Dormal, J. Lecomte-Beckers, Density and porosity control of sintered 316l stainless steel parts produced by additive manufacturing, Powder Metall. 55 (2012) 260-267, https://doi.org/10.1179/0032589912Z.00000000082.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effects of processing parameters on consolidation and microstructure of W-cu components by DMLS</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2008.05.065</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2008.05.065" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">473</biblScope>
+			<biblScope unit="page" from="107" to="115" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gu, Y. Shen, Effects of processing parameters on consolidation and microstructure of W-cu components by DMLS, J. Alloys Compd. 473 (2009) 107-115, https://doi.org/10.1016/j.jallcom.2008.05.065.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Evaluation of light-weight AlSi10Mg periodic cellular lattice structures fabricated via direct metal laser sintering</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hussein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="856" to="864" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Yan, L. Hao, A. Hussein, et al., Evaluation of light-weight AlSi10Mg periodic cellular lattice structures fabricated via direct metal laser sintering, J. Mater. Process. Technol. 214 (2014) 856-864.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Effects of laser sintering processing parameters on the microstructure and densification of iron powder</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Simchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pohl</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0921-5093(03)00341-1</idno>
+		<ptr target="https://doi.org/10.1016/S0921-5093(03)00341-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="119" to="128" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Simchi, H. Pohl, Effects of laser sintering processing parameters on the microstructure and densification of iron powder, Mater. Sci. Eng. A 359 (2003) 119-128, https://doi.org/10.1016/S0921-5093(03)00341-1.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Microstructures and electrical and mechanical properties of cu-Cr alloys fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Uchida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ozaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsubota</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2019.107815</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2019.107815" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page">107815</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Uchida, T. Kimura, T. Nakamoto, T. Ozaki, T. Miki, M. Takemura, Y. Oka, R. Tsubota, Microstructures and electrical and mechanical properties of cu-Cr alloys fabricated by selective laser melting, Mater. Des. 175 (2019) 107815, https://doi.org/10.1016/j.matdes.2019.107815.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of pure copper</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Ikeshoji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yonehara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Imai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kyogoku</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-017-2695-x</idno>
+		<ptr target="https://doi.org/10.1007/s11837-017-2695-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Jom</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="396" to="400" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T.T. Ikeshoji, K. Nakamura, M. Yonehara, K. Imai, H. Kyogoku, Selective laser melting of pure copper, Jom. 70 (2018) 396-400, https://doi.org/10.1007/ s11837-017-2695-x.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Manufacture by selective laser melting and mechanical behavior of commercially pure titanium</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Attar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scudino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eckert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2013.11.038</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2013.11.038" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">593</biblScope>
+			<biblScope unit="page" from="170" to="177" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Attar, M. Calin, L.C. Zhang, S. Scudino, J. Eckert, Manufacture by selective laser melting and mechanical behavior of commercially pure titanium, Mater. Sci. Eng. A 593 (2014) 170-177, https://doi.org/10.1016/j.msea.2013.11.038.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Influence of energy density on metallurgy and properties in metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Yusuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02670836.2017.1289444</idno>
+		<ptr target="https://doi.org/10.1080/02670836.2017.1289444" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1269" to="1289" />
+			<date type="published" when="2017">2017</date>
+			<pubPlace>United Kingdom</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.M. Yusuf, N. Gao, Influence of energy density on metallurgy and properties in metal additive manufacturing, Materials Science and Technology (United Kingdom). 33 (2017) 1269-1289, https://doi.org/10.1080/ 02670836.2017.1289444.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The genesis of friction</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Suh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Sin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0043-1648(81)90315-X</idno>
+		<ptr target="https://doi.org/10.1016/0043-1648(81)90315-X" />
+	</analytic>
+	<monogr>
+		<title level="j">Wear</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="91" to="114" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N.P. Suh, H.-C. Sin, The genesis of friction, Wear. 69 (1981) 91-114, https://doi. org/10.1016/0043-1648(81)90315-X.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iakovakis</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/ZENODO.5767383</idno>
+		<ptr target="https://doi.org/10.5281/ZENODO.5767383" />
+		<title level="m">Wear Resistance of an Additively Manufactured High-carbon Martensitic Stainless Steel</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Iakovakis, Wear Resistance of an Additively Manufactured High-carbon Martensitic Stainless Steel, 2021, https://doi.org/10.5281/ZENODO.5767383.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The third-body approach: a mechanical view of wear</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Godet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0043-1648(84)90025-5</idno>
+		<ptr target="https://doi.org/10.1016/0043-1648(84)90025-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Wear</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="437" to="452" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Godet, The third-body approach: a mechanical view of wear, Wear. 100 (1984) 437-452, https://doi.org/10.1016/0043-1648(84)90025-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A model for friction in quasi-steady-state sliding part II. Numerical results and discussion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Mosleby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0043-1648(91)90361-W</idno>
+		<ptr target="https://doi.org/10.1016/0043-1648(91)90361-W" />
+	</analytic>
+	<monogr>
+		<title level="j">Wear</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="13" to="25" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Zhang, F.A. Mosleby, S.L. Rice, A model for friction in quasi-steady-state sliding part II. Numerical results and discussion, Wear. 149 (1991) 13-25, https://doi.org/ 10.1016/0043-1648(91)90361-W.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A Tribological comparison of pure and Boronized chromium</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ingole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Usta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bindal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Ucisik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liang</surname></persName>
+		</author>
+		<idno type="DOI">10.1115/1.2345417</idno>
+		<ptr target="https://doi.org/10.1115/1.2345417" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Tribol</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="895" to="897" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Ribeiro, S. Ingole, M. Usta, C. Bindal, A.H. Ucisik, H. Liang, A Tribological comparison of pure and Boronized chromium, J. Tribol. 128 (2006) 895-897, https://doi.org/10.1115/1.2345417.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Erosion resistance and tribological properties of coatings deposited by reactive magnetron sputtering method onto the brass substrate</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dobrzański</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lukaszkowicz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2004.09.050</idno>
+		<ptr target="https://doi.org/10.1016/j.jmatprotec.2004.09.050" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="issue">158</biblScope>
+			<biblScope unit="page" from="317" to="323" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.A. Dobrzański, K. Lukaszkowicz, Erosion resistance and tribological properties of coatings deposited by reactive magnetron sputtering method onto the brass substrate, J. Mater. Process. Technol. 157-158 (2004) 317-323, https://doi.org/ 10.1016/j.jmatprotec.2004.09.050.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Tribological study of thin-electroplated chromium: evaluation of Wear rate as a function of surface roughness</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Tabrizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Aghajani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Laleh</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40799-021-00502-z</idno>
+		<ptr target="https://doi.org/10.1007/s40799-021-00502-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Tech</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="369" to="379" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.T. Tabrizi, H. Aghajani, F.F. Laleh, Tribological study of thin-electroplated chromium: evaluation of Wear rate as a function of surface roughness, Exp. Tech. 47 (2023) 369-379, https://doi.org/10.1007/s40799-021-00502-z.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effect of ECAP on sliding wear behaviour of mg-Zn-Gd-Zr alloy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bontha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Ramesh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matpr.2019.10.045</idno>
+		<ptr target="https://doi.org/10.1016/j.matpr.2019.10.045" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Today Proc</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="97" to="102" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Patil, S. Bontha, M.R. Ramesh, Effect of ECAP on sliding wear behaviour of mg- Zn-Gd-Zr alloy, Mater Today Proc. 20 (2020) 97-102, https://doi.org/10.1016/j. matpr.2019.10.045.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Fibre laser nitriding of titanium and its alloy in open atmosphere for orthopaedic implant applications: investigations on surface quality, microstructure and tribological properties</title>
+		<author>
+			<persName><forename type="first">C.-W</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Donaghy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.surfcoat.2016.12.036</idno>
+		<ptr target="https://doi.org/10.1016/j.surfcoat.2016.12.036" />
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="628" to="640" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.-W. Chan, S. Lee, G.C. Smith, C. Donaghy, Fibre laser nitriding of titanium and its alloy in open atmosphere for orthopaedic implant applications: investigations on surface quality, microstructure and tribological properties, Surf. Coat. Technol. 309 (2017) 628-640, https://doi.org/10.1016/j.surfcoat.2016.12.036.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">In-situ dual wire arc additive manufacturing of NiTi-coating on Ti6Al4V alloys: microstructure characterization and mechanical properties</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.surfcoat.2020.125439</idno>
+		<ptr target="https://doi.org/10.1016/j.surfcoat.2020.125439" />
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">386</biblScope>
+			<biblScope unit="page">125439</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wang, Z. Pan, L. Wang, L. Su, K. Carpenter, J. Wang, R. Wang, H. Li, In-situ dual wire arc additive manufacturing of NiTi-coating on Ti6Al4V alloys: microstructure characterization and mechanical properties, Surf. Coat. Technol. 386 (2020) 125439, https://doi.org/10.1016/j.surfcoat.2020.125439.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Microstructure characterization of co-Cr-Mo-xTi alloys developed by micro-plasma based additive manufacturing for knee implants</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sawant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmrt.2022.09.033</idno>
+		<ptr target="https://doi.org/10.1016/j.jmrt.2022.09.033" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res. Technol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="252" to="266" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Kumar, M.S. Sawant, N.K. Jain, S. Gupta, Microstructure characterization of co-Cr-Mo-xTi alloys developed by micro-plasma based additive manufacturing for knee implants, J. Mater. Res. Technol. 21 (2022) 252-266, https://doi.org/ 10.1016/j.jmrt.2022.09.033.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Development, characterisation, and modelling of processability of nitinol stents using laser powder bed fusion</title>
+				<funder ref="#_tvefEWZ">
+					<orgName type="full">Engineering and Physical Science Research Council (EPSRC), UK.Research and Innovation (UKRI)</orgName>
+				</funder>
+				<funder ref="#_wFmMETx">
+					<orgName type="full">EPSRC UK</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-03-25">25 March 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Parastoo</forename><surname>Jamshidi</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> School of Metallurgy and Materials , University of Birmingham , Edgbaston B15 2TT , UK</note>
+								<orgName type="department">School of Metallurgy and Materials</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Edgbaston</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chinnapat</forename><surname>Panwisawas</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> NISCO UK Research Centre , School of Engineering , University of Leicester , Leicester LE1 7RH , UK</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="laboratory">NISCO UK Research Centre</orgName>
+								<orgName type="institution">University of Leicester</orgName>
+								<address>
+									<postCode>LE1 7RH</postCode>
+									<settlement>Leicester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Department of Materials , University of Oxford , Parks Road , Oxford OX1 3PH , UK</note>
+								<orgName type="department">Department of Materials</orgName>
+								<orgName type="institution">University of Oxford</orgName>
+								<address>
+									<addrLine>Parks Road</addrLine>
+									<postCode>OX1 3PH</postCode>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Enzoh</forename><surname>Langi</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> School of Materials , Loughborough University , Loughborough LE11 3TU , UK</note>
+								<orgName type="department">School of Materials</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Loughborough</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sophie</forename><forename type="middle">C</forename><surname>Cox</surname></persName>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>e</label> School of Chemical Engineering , University of Birmingham , Edgbaston B15 2TT , UK</note>
+								<orgName type="department">School of Chemical Engineering</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Edgbaston</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiling</forename><surname>Feng</surname></persName>
+							<affiliation key="aff5">
+								<note type="raw_affiliation"><label>f</label> School of Engineering , Manchester Metropolitan University , Manchester M1 5GD , UK</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">Manchester Metropolitan University</orgName>
+								<address>
+									<postCode>M1 5GD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Liguo</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> School of Materials , Loughborough University , Loughborough LE11 3TU , UK</note>
+								<orgName type="department">School of Materials</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Loughborough</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Moataz</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+							<email>m.m.attallah@bham.ac.uk</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> School of Metallurgy and Materials , University of Birmingham , Edgbaston B15 2TT , UK</note>
+								<orgName type="department">School of Metallurgy and Materials</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Edgbaston</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Development, characterisation, and modelling of processability of nitinol stents using laser powder bed fusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-03-25">25 March 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B81D0311DAD6B631B8603141BA44E4B0</idno>
+					<idno type="DOI">10.1016/j.jallcom.2022.164681</idno>
+					<note type="submission">Received 27 October 2021 Received in revised form 11 March 2022 Accepted 21 March 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-24T09:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Laser powder bed fusion Nitinol Phase transformations Mechanical properties</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a b s t r a c t</head><p><s>Additive manufacturing (AM) of customised vascular or peripheral stents is of great potential for surgeons and patients, enabling the patients to have customised stents and achieving better outcomes from stenting procedures, with further advantages of having a resource efficient manufacturing process.</s><s>In this study, the potential for AM of superelastic NiTi-based shape memory alloy (Nitinol) stents was investigated.</s><s>Two stent designs, which are used for the treatment of complex peripheral artery stenosis in the lower limbs, were studied.</s><s>Laser Powder Bed Fusion (LPBF) of two stent designs was studied to investigate the impact of the process parameters on the stent geometry, strut size, structural integrity and the phase transformations.</s><s>The study demonstrated the successful manufacture of Nitinol stents via LPBF, with strut sizes in the range between 250 µm and ≈ 560 µm.</s><s>The elastic modulus of the stents was between 56 and 73 GPa, which matches well with the elastic modulus of standard austenitic Nitinol.</s><s>Chemical etching was used to reduce the strut diameter and to remove the partially melted particles.</s><s>It was shown that the laser energy input has a vital role in controlling the Ni-evaporation and the subsequent changes in the transformation temperatures, as well as the morphology of the stents.</s><s>The lower energy input results in a reduced Ni-evaporation, maintaining the austenite finish temperature at the expected range, in addition to generating a good build morphology.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>The metallic vascular stent, a small mesh-like tube implant, has a major role to treat and restore blood flow through narrow or clogged arteries, caused by the build-up of plaque and fatty deposits in peripheral arterial disease <ref type="bibr" target="#b0">[1]</ref>.</s><s>The right choice of the stent type by a surgeon depends on the complex vessel geometry in diseased regions and the blood vessel size for each individual patient.</s><s>There are, however, several inherent issues associated with the current conventional stent manufacturing, including a lack of customisation of fit to complex vessel anatomical morphology and sizes, a mismatch of mechanical performance between the stent and patient's blood vessels resulting from the exposure to severe biomechanical forces.</s><s>Furthermore, the conventional manufacturing process for stents involves many steps, including machining, drilling, cutting, heat treatment and shape setting, laser-cutting and the final step of surface finish, which results in the loss of materials during production, increasing both the time and costs of stent production <ref type="bibr" target="#b13">[14]</ref>.</s></p><p><s>Additive manufacturing (AM), unlike the conventional manufacturing routes for stents, results in customised patient-specific stents, design flexibility, cost-efficient production and less material waste <ref type="bibr" target="#b35">[36]</ref>.</s><s>Laser powder bed fusion (LPBF), an AM technique, has recently gained attention in assessing its feasibility to manufacture stents.</s><s>In LPBF, a customised stent can be built layer-by-layer from a digital design using a high-energy fibre laser to melt the metallic powder selectively, causing the powder to fuse together <ref type="bibr" target="#b2">[3]</ref>.</s></p><p><s>The current vascular stents available are fabricated from cobaltchromium alloys, nitinol and stainless steels, using mainly conventional routes, such as laser micro-cutting of tubular precursors and photo etching <ref type="bibr" target="#b32">[33]</ref>.</s><s>Utilising LPBF techniques for manufacturing stents offers advantages over conventional routes, including minimising waste in production (compared with laser micro-machining) and improving the geometrical flexibility of stent production <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>, in addition to the huge potential for customisation and patient-specific treatment.</s><s>Recently several studies have focused on studying and assessing the use of this technique for the feasibility of producing stent geometry.</s><s><ref type="bibr" target="#b4">[5]</ref> used LPBF for 3D printing of cobalt-chromium stents.</s><s>It was shown that there is a potential to additively manufacture CoCr stents with high geometrical accuracy which is an attractive alternative to current conventional stent manufacturing route.</s></p><p><s>A typical material for the manufacturing of self-expanding vascular stents, for the treatment of blocked and narrowed arteries, would be formed from a composition which could alloy for a generally flexible/ elastic behaviour, with greater resistance to deformation and higher strength, as well as being biocompatible with effective corrosion resistance.</s><s>The overall success of such stents at the implantation site is all dependent on their material characteristics and the design.</s><s>Nitinol (nickel-titanium) shape memory alloy (SMA) is of great interest as a biomedical implant or medical device material, due to its distinctive superelastic behaviour and shape memory effect, over and above its good biomechanical biocompatibility due to its low modulus, excellent wear resistance, higher ductility, and higher strength <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b28">29]</ref>.</s><s>Vascular stents fabricated by AM from this material could be very effective for cardiovascular diseases treatment.</s><s>Nitinol has been investigated within the biomedical field for dentistry (e.g.</s><s>orthodontic wire), or cardiology for stent production.</s><s>Stents made of superelastic Nitinol show higher conformability to the complex vessel geometry within the diseased regions <ref type="bibr" target="#b38">[39]</ref>.</s><s>However, the performance of NiTi alloys in AM components strongly depend on the final chemistry/alloy composition.</s><s>The equi-atomic or near-equi-atomic NiTi composition exhibits elastic deformation of approximately 20% recoverable strain <ref type="bibr" target="#b3">[4]</ref>.</s><s>Any slight changes in the Ni-content can change the transformation temperatures, and, subsequently, its superelastic behaviour <ref type="bibr" target="#b20">[21]</ref>.</s><s>The martensite to austenite transformation temperatures can shift into temperatures higher than the human body temperature, thus reducing the superelastic performance of Nitinol, which will affect its deployment as a stent <ref type="bibr" target="#b31">[32]</ref>.</s><s>AM of Nitinol stents as such is likely to be a challenging task, if the material behaviour is to be maintained, knowing how AM parameters affect the crystallographic orientation, phase fractions, chemical composition, and/or surface conditions, which all can affect the performance of the stent <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b19">20]</ref>.</s><s>The as-printed nitinol stents may have poor superelastic behaviour due to the influence of the metastable microstructure formed during solidification and the presence of thermal stresses in the material.</s><s>However, subsequent thermal postprocessing will rejuvenate the microstructure to achieve a satisfactory superelastic performance.</s><s>In this paper, a preliminary study focusing on the potential for AM of Nitinol stents was investigated.</s><s>A parametric study is implemented to assess the effect of LPBF process parameters on the build quality and geometrical tolerances of different stents designs, in addition to the microstructural development, structural soundness, mechanical properties, and chemical content.</s><s>To mitigate the chemical changes associated with the process due to Ni loss, adding and blending an extra ~2 at% Ni powder into the as-received equiatomic NiTi powder was adopted, combined with multi-physics modelling to assess the magnitude of chemical changes, which are detrimental to the superelastic behaviour.</s><s>Finally, different post-LPBF heat treatments were also explored to assess their utility in adjusting the A f of the printed stents.</s><s>The study also explores the utility of chemical post-processing to improve the surface quality of the stent.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Materials</head><p><s>Equi-atomic, pre-alloyed NiTi powders, processed by plasma wire atomisation technology was used in this study.</s><s>The powders were supplied by AP&amp;C Advanced Powders and Coatings.</s><s>The chemical composition and characteristics of the powders were shown in Table <ref type="table" target="#tab_0">1</ref>.</s><s>Energy-Dispersive X-ray Spectroscopy (EDX) was used to quantify the content of Ni and Ti.</s><s>The oxygen and carbon content of LPBFed stent were measured using both X-ray fluorescence (XRF) and inert gas fusion (IGF) according to ASTM E1409-13 Standard Test Method (LECO TC436AR system).</s><s>IGF can detect oxygen down to 50 ppm.</s><s>The sample is heated in an inert atmosphere within a high purity graphite crucible, the reacted oxygen with carbon resulted in formation of CO and CO 2 in which they can be measured by infrared detection.</s></p><p><s>The particle size of the as-received powders was analysed using a Coulter LS230 laser diffraction particle size analyser.</s><s>Fig. <ref type="figure" target="#fig_0">1</ref> shows that the average particle size (d 50 ) was ~ 32.2 µm with spherical morphology with limited satellites, suggesting good flowability, This was also confirmed through having a Hausner ratio &lt; 1.25.</s><s>Other percentile values of particles size distribution are shown in Table <ref type="table" target="#tab_1">2</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">LPBF of NiTi stents</head><p><s>Two different stent designs; zigzag and Palmaz were manufactured using a Concept Laser M2 Cusing system.</s><s>The M2 system has a Yb-fibre laser with a power up to 400 W and a 60 µm laser spot size, running under a controlled argon atmosphere down to &lt; 1000 ppm.</s></p><p><s>The oxygen and carbon content of LPBFed stent manufactured using 0.3 J/mm linear energy density is shown Table <ref type="table" target="#tab_2">3</ref>.</s></p><p><s>To assess the effect of the LPBF heat input on the geometrical accuracy of the stents, in terms of the strut sizes, as well as the development of internal defects (e.g.</s><s>porosity) and chemical composition, LPBF parameters were varied in the following ranges; laser power between 60 and 100 W, and a scan speed between 115 and 250 mm/s, using a layer thickness of 20 µm.</s><s>Due to the fine geometry of the stents, the samples were built using contour scanning only, without employing any laser hatching.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Microstructural characterisation</head><p><s>AJOEL6060 Scanning Electron Microscope (SEM), equipped with an Oxford Inca Energy-Dispersive X-ray Spectroscopy (EDX) system, was used to analyse the morphology of the stents.</s></p><p><s>The porosity fraction within the builds was characterised using optical microscopy and a Skyscan1172 micro-computed tomography (micro-CT) system (Bruker, Belgium) with 80 kV maximum X-ray energy, 8 W beam power, 570 ms exposure per projection, 0.5 mm aluminium filter and 4.87 µm pixel size.</s><s>CTAn (version 1.15.4.0,</s><s>Bruker) software conducted the 3D porotiy analysis.</s><s>Micro-CT values of porosity were then compared with those identified using optical microscopy.</s><s>3 specimens were used for each technique.</s><s>The data is expressed as mean ± standard deviation of the mean.</s><s>To measure the Ni-content in LPBFed stents with various energy densities, the elemental analysis was done using a JOEL6060 SEM, equipped with an Oxford Inca EDX Spectroscopy system.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Ni-loss prediction using thermal fluid dynamics</head><p><s>To simulate the selective vaporisation of Ni during LPBF, following the first model development in Panwisawas et al. <ref type="bibr" target="#b21">[22]</ref> and later modified model in Panwisawas et al. <ref type="bibr" target="#b23">[24]</ref>, and validate the experimental results, Open Field Operation and Manipulation (OpenFOAM®) -a C+ + open source toolbox -has been used to carry out computational fluid dynamics (CFD) calculation to simulate the laser-metal powder interaction, giving rise to prediction of vaporisation phenomenon -in terms of the vaporisation area (Ni loss) as a function of process variables.</s><s>The CFD simulation adopted from Basoalto et al. <ref type="bibr" target="#b1">[2]</ref> captures all interfacial phenomena: capillary force (surface tension effect), thermo-capillary force (Marangoni's flow), recoil pressure, drag force using Darcy's term due to solid-liquid transition, and buoyancy force.</s><s>These has been included in the simulation of the LPBF process.</s><s>In this work, the conservation of thermal energy has taken into account the energy dissipation during melting in the mushy zone and subsequent solidification, and heat loss due to vaporisation, convection and conduction.</s><s>Still, a complicated energy reflection of the laser beam (coupling with the electromagnetics equations) has not been considered in this work.</s><s>Instead, a representative volumetric laser heat source considering energy reflection, after Panwisawas et al. <ref type="bibr" target="#b22">[23]</ref>, were used.</s><s>The coupling of the conservation equations of momentum, thermal energy, mass and phase fraction via volume-of-fluid (VOF) method, adopted from Shinjo and Panwisawas <ref type="bibr" target="#b29">[30]</ref>, was solved using one equation set to describe (solid, liquid, vapour) metallic and gaseous phases in order to model the liquid/gas interface evolution.</s></p><p><s>For the thermal fluid dynamics calculation, the VOF equation, used to simulate the liquid-gas interface evolution, is expressed as</s></p><formula xml:id="formula_0">+ = u t m •( ) V 1 1 2 (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>where 1 is phase fraction of liquid metal, t is time, u is velocity of fluid with satisfying the continuity equation = u • 0. The vapourised mass loss of liquid metal phase has been cooperated in the sink term on the right-hand side when reaching the vaporization temperature T V .</s><s>This study uses 2 as the metal vapour density assuming no difference from atmospheric gas phase because chemical species is not distinguishable here.</s><s>The mass loss rate per unit volume m V is defined as</s></p><formula xml:id="formula_2">= m p m k T 2 V V B (<label>2</label></formula><formula xml:id="formula_3">)</formula><p><s>and the phenomenological expression of recoil pressure p V is de- fined as</s></p><formula xml:id="formula_4">= p T p H R T T ( ) exp 1 1 V V V 0 (3)</formula><p><s>During the LPBF process, all interfacial forces have been included into the conservations of momentum, and thermal energy conservation was balanced between laser heat source input and heat losses.</s><s>Above all, all equations were solved to simulate the melt pool kinetics, changes in liquid-vapour interface, fully developed melt pool geometry and temperature history as a function of process conditions.</s><s>The CFD simulation here was applied to the representative powder size distribution of NiTi alloys using a calculation domain of 250 µm × 1000 µm × 250 µm, containing 4 million elements with the constant hexagonal mesh size of 2.5 µm.</s><s>Detailed modelling framework is available elsewhere Basoalto et al. <ref type="bibr" target="#b1">[2]</ref>; <ref type="bibr" target="#b22">[23]</ref> and thermophysical properties for NiTi-based shape memory alloy can be seen in Table <ref type="table" target="#tab_3">4</ref>.</s><s>To simulate the processing conditions, selected laser powers with given scanning speeds have been used in the heat source model, see Table <ref type="table">5</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">X-ray diffraction (XRD)</head><p><s>XRD analysis on the LPBF stents (prepared with NiTi + Ni) was done at room temperature using Bruker D8 X-ray diffractometer  with a Cu Kα radiation source.</s><s>The X-ray tube was operated at 30 kV with a current of 10 mV.</s><s>Scan angles ranged from 0°-120°, with a minimum size step of 0.02°, generating intensity-2θ plots.</s><s>The JCPDS-cards 18-0899 and 46-1238 were selected for the identification of different phases within the samples.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Differential scanning calorimetry (DSC)</head><p><s>The phase transformation temperatures (TTs) of the powders and different LPBF builds, including stents manufactured at various energy densities, as well as stents manufactured with both the as-received equiatomic NiTi powder and the blended powder with extra ~2 at% Ni powder (NiTi+Ni), were determined using a Mettler Toledo DSC1 system with testing temperatures between -60 °C and 100 °C and heating/cooling rate of 10 °C/ minute.</s><s>Small pieces of the stents were placed in an aluminium pan and the amount of energy absorbed and/or released when heated and cooled was measured and recorded.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Mechanical testing</head><p><s>Spherical nanoindentation techniques (NanoTest Platform 3) were used to analyse the hardness and elastic modules of LPBFed Nitinol stents at the nanoscale.</s><s>Standard metallography techniques were used to prepare the specimens.</s><s>The specimens were prepared by sectioning, mounting, grinding and polishing (down to 0.5 µm).</s><s>The VibroMet 2 with MasterMet 2 Colloidal Silica chemo-mechanically polished the sample to a surface finish suitable for spherical nanoindentation.</s><s>In this work, load-controlled nanoindentations were performed at a constant loading and unloading rate of 0.3 mN/ s.</s><s>Here, 20 loading-unloading cycles were performed for each indent with load increasing from 2 mN to 40 mN.</s><s>During the experiment, partial unloading (reduced to 50% of the peak load) and reloading were executed.</s><s>After the final loading increment (40 mN), the indenter was unloaded completely.</s><s>The hardness and elastic modulus values of LPBFed Nitinol stents were calculated from the measured spherical indentation load-depth curves.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8.">Surface cleaning via chemical etching</head><p><s>Chemical etching process, as one known efficient technique (post-cleaning), for the removal of remaining melted particles, was used to improve the surface finish and also to reduce the stent strut thickness.</s><s>The stents were etched for twelve minutes in (HF: HNO3:H2O = 1:2:3) solution.</s><s>They were rinsed in distilled water after for five minutes and then with ethanol to complete the surface cleaning.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Result and discussion</head><p><s>The Nitinol stents, with two distinct stent designs of zigzag and Palmaz, were manufactured via LPBF (Fig. <ref type="figure" target="#fig_1">2</ref>), illustrating the feasibility of LPBF techniques for 3D printing stents, yet with varying levels of success.</s><s>The morphology of LPBFed stents and the evaluation of regularity and thickness of struts are shown in Figs. <ref type="figure" target="#fig_2">3</ref> and <ref type="figure" target="#fig_3">4</ref> for both designs.</s><s>Microscopic examination for the topography of both stents observed spherical partially melted powder particles on the surface.</s><s>The presence of these remaining particles on the surface of struts is the in-built issues associated with the additive manufacturing technique.</s><s>This issue can be resolved using post-processing treatments, such as</s></p><formula xml:id="formula_5">K K K kg.m -3 g mol -1 J kg -1 K -1 J kg -1 K -1 Wm -1 K -1 Wm -1 K -1 mPa.s K -1 Nm -1 Nm -1 K -1 J kg -1 J kg -1 Nm -2 JK -1 mol -1 J K -1</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 5</head><p><s>Laser heat source parameters used in this work.</s></p><p><s>Heat source model parameters Value Unit Laser power distribution factor, Laser beam power, p Effective absorptivity, Laser beam radius, r0 Laser beam velocity, v 1.0 90, 60, 80, 100 0.24 70 115, 120, 250, 280 -W μm mm s -1 polishing and/or chemical etching <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b4">5]</ref>.</s><s>Figs. <ref type="figure" target="#fig_2">3</ref> and <ref type="figure" target="#fig_3">4</ref> also show that at higher linear energy densities, the strut thickness was larger, with more irregular shapes than the stents manufactured with lower laser energy inputs.</s><s>The zigzag design (Fig. <ref type="figure" target="#fig_2">3a</ref>) achieved more regularity in the strut shape at lower energy densities.</s></p><p><s>A strut size of ~250 µm, with more regular shape, was obtained at 0.3 J/mm linear energy density (Figs.</s><s><ref type="figure" target="#fig_2">3a</ref> and <ref type="figure" target="#fig_3">4</ref>).</s><s>The same trend was observed in the Palmaz-Schatz design, concerning the strut sizes, however, at lower energy densities, the irregularity of the struts increased, resulting from insufficient melting between the successive layers.</s><s>This is more obvious with Palmaz-Schatz geometry.</s><s>The microstructure of LPBFed stents in both designs does not show any cracks or defects at any energy density, confirming the ability of the LPBF process to print structurally sound stents.</s><s>Both stent designs have unsupported (overhanging) features, which occasionally merged with the lower layers or were slightly out of shape.</s><s>This confirms that for 3D printing of metal stent mesh structure by means of LPBF, particular rules may be required at design phase.</s><s>Demir and Previtali (2017) describes the most required design rules for manufacturability of metal micro component by the means of industrial LPBF system where the feature dimensions are more dependent on beam diameter, powder grain size and layer thickness.</s><s>In their investigation, in order to study the feasibility of the LPBF process for stent manufacturing, they generated a new stent design similar to the available commercial stent by considering the specific design rules for additive manufacturing.</s><s>They avoid the issue of irregular strut shape by minimizing the overhang zones and sections requiring support structure during the build and cardiovascular CoCr stents with acceptable geometrical accuracy were 3D printed in their investigation.</s></p><p><s>Strut thickness has a key role in stent functionality as a main element in stent design which needs to be thin enough to demonstrate the geometrical flexibility utilising the superelastic behaviour <ref type="bibr" target="#b16">[17]</ref>.</s><s>Strut thickness must be balanced by the need for visibility of the stent location.</s><s>The stents with thin struts might cause issues for visibility within the human body via X-rays, which is required for surgeons to accurately place the device whilst minimizing the risk of the X-ray exposure to the patient.</s><s>However, this issue is addressed by the addition of ternary alloys with higher density to increase attenuation, and produce a higher contrast compared to the background.</s><s>Tofail et al. <ref type="bibr" target="#b34">[35]</ref> enhanced the radiopacity of NiTi materials by inclusion of rare earth (RE) lanthanide elements, erbium into shape memory nitinol alloy.</s><s>The radiopaque NiTi-RE devices showed high potential for the ease of placement of surgical devices within the targeted implantation site with a minimum level x-ray exposure to the patient.</s></p><p><s>The microstructure and texture of the LPBFed Nitinol stent with zigzag designs, manufactured with blended with 2 at% Ni-content addition (NiTi+Ni), at the lowest laser energy input, is shown in Fig. <ref type="figure" target="#fig_4">5a</ref>.</s><s>The mixture of clear embedded large plates, along with some irregular smaller plates, are observed within the NiTi matrix, confirming the presence of both the martensite and austenite phases.</s><s>The presence of clearer, larger plates within the matrix can indicate that the majority volume fraction of the stent consist of B2 phase.</s><s>In addition, there is virtually no pores observed within the LPBFed Nitinol stent matrix.</s><s>Fig. <ref type="figure" target="#fig_4">5b</ref> shows the XRD pattern of LPBFed Nitinol stent.</s><s>Higher concentration of the B2 austenite in the build is due to the rapid cooling rate during processing resulting in the retention of the B2 austenite  phase.</s><s>To have a self-expanding Nitinol stent, it is required to be in a superelastic austenite condition at room temperature <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b30">31]</ref>.</s><s>The peaks related to the austenite B2 phase are indicated by (110)B2, (200) B2, (211)B2 and (220)B2 reflections.</s><s>The presence of strong B2 peaks confirms that the samples have a bulk volume fraction of the B2 phase.</s><s><ref type="bibr" target="#b17">[18]</ref>.</s></p><p><s>A porosity analysis was also conducted on LPBFed stents produced at a lower energy density of 0.3 J/mm, as an optimised process parameter with the smallest and most regular strut size, using SEM (Fig. <ref type="figure" target="#fig_5">6a</ref>).</s><s>3D porosity analysis using X-ray tomography was also performed on the LPBFed stents, produced with other levels of energy densities, to compare the effects of energy input on the level of porosity (Fig. <ref type="figure" target="#fig_5">6b</ref>).</s><s>The levels of closed porosity in all LPBFed stents are less than 0.0005%, confirming the capability of LPBF to 3D print Nitinol stents with virtually no porosity, with the exception of infrequently observed fine pores close to the struts surface.</s><s>There are several studies that have investigated the potential of additive manufacturing for producing stent geometries, in terms of the capability for geometrical accuracy, internal defects and porosity level and surface crack.</s><s>Wessarges et al. <ref type="bibr" target="#b36">[37]</ref> have used a micro selective laser melting system along with subsequent plasma and chemical polishing stages for manufacturing of stainless steel stents, the 3D printed mesh structure showed good level of mechanical performance however with surface and internal defects.</s><s>In another study, Regenfuss et al. <ref type="bibr" target="#b25">[26]</ref> additively manufactured a micro component with a similar structure to stent dimensions using a laser micro sintering with high geometrical accuracy despite the internal defects and porosity.</s><s>This study here demonstrated that the Nitinol stents with virtually no porosity can be 3D printed with the use of LPBF.</s></p><p><s>When manufacturing NiTi shape memory alloys using the LPBF method, a relationship is perceived between the laser energy inputs (the combination of scan speed and laser power) and the amount of Niloss through selective vaporisation.</s></p><p><s>Table 4 displays the Ni loss (at%)  and the change of Ti to Ni ratio at different energy inputs.</s><s>The extent of Ni losses increases with the energy density.</s><s>The greatest Ni-loss was shown to be in the case of samples built with highest linear energy density.</s><s>In contrast, the least Ni-loss was evidenced in samples manufactured at the lowest energy density.</s><s>Fig. 7a illustrates the Ni loss (at %) plotted against energy density.</s><s>A 0.8 J/m linear energy density experienced the greatest Ni loss of 1.9 at%.</s><s>Conversely, a 0.3 J/m laser energy input lost approximately 0.02 at% Ni.</s><s>Ni loss prediction using thermal fluid dynamics was also shown in Fig. Thermal fluid flow calculations predicted vaporisation during LPBF of NiTi stents, showing the higher volatile element, Ni, calculated using the temperature dependence of elemental vapor pressure in Fig. <ref type="figure" target="#fig_9">8</ref>(a), are pronounced during LPBF processes if higher power lasers are used.</s><s>The volatile mass loss of specific elements is of importance to impact the functionality, localised microstructures, and site-specific properties, which can lead to defect formation during the process.</s><s>To perform the proof-of-concept simulation whether vaporisation effect is measurable, a NiTi-based shape memory alloy was evaluated.</s><s>NiTi manufactured through four different process conditions were selected for the vapourisation study, according to Table <ref type="table">5</ref>.</s><s>The degree of vaporisation, indicates the Ni loss is depended upon processing conditions, resulting from the different applied energy densities.</s><s>The phase transformation behaviour and transformation temperatures of the LPBFed stents at different energy densities, illustrated by DSC traces, are shown in Fig. <ref type="figure" target="#fig_11">9</ref>.</s><s>The austenite finish temperature (A f ), an important factor to identify the superelasticity of Nitinol stents at all conditions for all LPBFed stents produced with various energy densities, was above 50 °C.</s><s>The A f temperature of LPBFed stents, manufactured at 0.8 J/mm, was around 80 °C.</s><s>However, it decreased by decreasing the energy input and shifted to ~62 °C at energy density of 0.3 J/mm, confirming the presence of a high Ni losses at higher energy inputs.</s><s>Ni evaporation at high energy density and its effect on changing the phase transformation and properties of NiTi alloys was previously reported during LPBF fabrication <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b37">38]</ref>.</s><s>For self-expanding Nitinol stents, it requires the ideal A f to be below room temperature (around 28 °C) to ensure that the stent is in the superelastic (austenite phase field) during deployment <ref type="bibr" target="#b26">[27]</ref>.</s><s>The Ni loss was calculated for the LPBFed stents produced with as-received NiTi powders with 0.8 J/mm energy density using EDX, and was then compared to initial NiTi powders with equiatomic ratios.</s><s>This found that the Ni-loss was ~2 at% (Table <ref type="table" target="#tab_4">6</ref>).</s><s>In this study, Ni-loss was compensated by adding and blending an extra ~2 at% Ni powder into the as-received equiatomic NiTi power (NiTi+Ni).</s><s>With newer powder blend (higher Ni content), the transformation temperature (A f ) shifted to ~37 °C (Fig. <ref type="figure" target="#fig_11">9b</ref>).</s><s>Different post-LPBF heat treatments were also explored to assess their utility in adjusting the A f of the LPBFed stents.</s><s>Recently several number of  studies conducted on the effect of heat treatment and subsequent aging on transformation temperature and the shape memory response of nitinol materials.</s><s>Various heat treatment and aging regimes were investigated.</s><s>Liu et al. <ref type="bibr" target="#b14">[15]</ref> showed that the short time ageing treatment of nitinol stents at 500 °C for longer than 10 min but not more than 60 min is the optimised regime for achieving high non-linear superelasticity at body temperature.</s><s>In this study, following a heat treatment at 500°C for 30 min on LPBFed stent prepared with NiTi+Ni powders, A f dropped to ~29 °C, with high-intensity peaks which increased the superelasticity of the LPBFed stents.</s></p><p><s>The loading-unloading responses obtained from spherical nanoindentation is shown in Fig. <ref type="figure" target="#fig_10">10</ref> (a) for 4 selected indents, from which the hardness and elastic modulus was calculated using the method proposed by Field and Swain <ref type="bibr" target="#b7">[8]</ref>.</s><s>Fig. <ref type="figure" target="#fig_10">10</ref> (b) shows the variation in the elastic modulus and hardness, with varying load levels for LPBFed Nitinol stents with zigzag designs, manufactured using the lowest laser energy input.</s><s>Since this was a load-controlled experiment, the variations in hardness and elastic modulus were plotted against the load.</s><s>It is evident that the elastic modulus and hardness vary with the indentation load levels.</s><s>Firstly, the hardness showed an increase with the load, which is due to the cyclic work hardening mechanism in the loading-unloading Spherical indentation process <ref type="bibr" target="#b6">[7]</ref>.</s><s>Secondly, the modulus increased with the decreasing load level (i.e., indent size) due to the so-called indentation size effect (ISE).</s><s>As the indent size decreases, dislocation source limitation leads to increased yield stress and modulus, an important mechanism for ISE <ref type="bibr" target="#b24">[25]</ref>.</s><s>Results of this work show that the mechanical properties of LPBFed nitinol are size dependent at microscale, as also demonstrated for various materials such as 316 L stainless steel <ref type="bibr" target="#b18">[19]</ref> and AlSi10Mg alloy <ref type="bibr" target="#b5">[6]</ref>.</s><s>For the stents, strut thickness (tens to hundreds of microns) is a key parameter for structural design, with thinner struts associated with increased flexibility, reduced stent profile and greater deliverability.</s><s>Therefore, size-dependent properties should be considered during design phase and additive manufacturing process of nitinol stents, for which our results can provide useful guidance.</s><s>Fig. <ref type="figure" target="#fig_12">11</ref> illustrates the SEM micrographs of LPBFed stents in asbuilt statute (top row) and after chemical etching.</s><s>Chemical etching here was used as a method to remove and clean the surface of the LPBFed stents and to reduce the strut sizes.</s><s>Chemical etching is an effective post-processing technique <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b27">28]</ref>, for both the cleaning of the surface and removal of the unmelted particles meeting the initial surface quality requirements of a modern-day stent.</s><s>Dadbakhsh et al. <ref type="bibr" target="#b3">[4]</ref> demonstrated the efficiency of the chemical etching of LPBFed nitinol parts for the elimination of un-melted particles from the surface with the use of HF-based solutions.</s></p><p><s>For nitinol implantable materials, this technique similar to other surface modifications such as coating, passivation and electropolishing can be advantageous to overcome the potential issue of Ni release into blood stream in the human body <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>This surface treatment was also effective in reducing the strut sizes of the stents, a key role in stent functionality.</s><s>The strut sizes of the LPBFed stents decreased to ~150 µm for zigzag stents and ~400 µm for Palmaz-Schatz stents.</s><s>In general, the overall success of stents deployment is dependent on their material characteristics, surface quality, design and their strut size and shape <ref type="bibr" target="#b33">[34]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusion</head><p><s>In this study Nitinol stents were successfully fabricated by LPBF and its potential to replace the current conventional route of laser cutting of metal tubes was assessed.</s><s>It was found that implementing LPBF could minimize the amount of produced waste material and allow manufacturers to produce stent geometries specific to the patient.</s><s>This study investigated the influence of the laser energy input on stent characteristics (the combined effect of laser power and scan speed parameters) during LPBF.</s><s>Comprehensive analysis of the as-fabricated stent was performed, focusing on the morphology, internal porosity, microstructure, impact of process parameters on Ni-loss and its effect on transformation temperatures, surface roughness and hardness, resulting from altering the combined effect of scan speed and the laser power, allowed to the following to be concluded:</s></p><p><s>• Strut size can be reduced by lowering the energy heat input to the detriment of the strut regularity and geometrical accuracy, while avoiding too low levels as they may lead to lack of fusion.</s><s>Successful printing requires a combined balance between the required strut thickness and its regularity.</s></p><p><s>• Crack-free Nitinol stents manufactured via LPBFed showed vir- tually no porosity.</s></p><p><s>• The austenite finish temperatures of LPBFed stents was strongly dependent on the Ni-content within the matrix.</s><s>It was shown that the laser energy input plays an important role in controlling the Ni-loss and the subsequent transformation temperatures, as well as the morphology of the LPBFed stents.</s><s>The lower the energy heat input, the less Ni evaporation and the lower the austenite finish temperature of the stent with more accurate morphology are.</s><s>This was confirmed by thermal fluid flow calculations predicting vaporisation during LPBF of NiTi stents.</s><s>Compensation of Ni loss during LPBF process and the heat treatment of the LPBFed stents at 500 °C for 30 min were effective in dropping of the A f to ~37 °C and ~29 °C, respectively.</s></p><p><s>• The LPBFed Nitinol stents exhibited elastic modulus with the value that matches well with the reported standard elastic modulus of austenite NiTi.</s><s>Although the hardness results are slightly lower than the hardness results from commercial Nitinol alloys, however, this can be further improved upon by surface and heat treatments on the LPBFed stents.</s></p><p><s>• Chemical etching was effective both for removal of the unmelted particles after LPBF technique and also for reducing the strut size.</s><s>Future investigation would look at the use of electro polishing as</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1. a) SEM micrograph of the as-received NiTi powder, and b) the particle size distribution.</s></p></div></figDesc><graphic coords="3,45.64,53.13,504.00,179.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. The zigzag and Palmaz-Schatz stents designs, alongside the LPBF-fabricated stents.</s></p></div></figDesc><graphic coords="4,312.61,53.13,240.05,375.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. Morphology of LPBFed stents manufactured via LPBF with three different energy densities of high, medium and low laser energy input.</s><s>a) Zigzag design, and b) Palmaz-Schatz design.</s></p></div></figDesc><graphic coords="5,81.64,53.14,432.00,252.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Evaluation of thickness of struts, manufactured with three different energy densities of high, medium and low laser energy input with zigzag and Palmaz-Schatz designs.</s></p></div></figDesc><graphic coords="5,54.65,549.64,216.00,158.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. a) The optical microscopy micrograph of the LPBFed stent manufactured with blended NiTi+Ni powders (with 0.3 J/mm energy density, and b) XRD patterns for asbuilt Nitinol stents at room temperature.</s></p></div></figDesc><graphic coords="6,81.64,410.17,432.00,284.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6.</s><s>Levels of porosity shown in, a) SEM micrographs, showing little and/or no level of porosity within LPBFed stents fabricated with a lower energy density of 0.3 J/mm, and b) X-ray 3D computed tomography of geometry and 3D porosity analysis of LPBFed stents at three various energy densities.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc><div><p><s>7b.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><figDesc><div><p><s>Fig. 8(b) illustrates a comparison between mass loss measured by EDX spectroscopy and overall NiTi mass loss, predicted by the CFD model.</s><s>EDX experiment publicised further that Ni vaporisation is dominant in NiTi alloy.</s><s>This is in good agreement with Fig. 8(a), where melting and boiling temperatures of Ni are lower than those of Ti and vapour pressure of Ni is above Ti at all temperatures.</s><s>Ni is prone to vaporise initially.</s><s>Modelling results agree with further experimental measurements.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. a)The influence of heat input on Ni-loss calculated by EDX at different energy density and b) predicted Ni loss from thermal fluid flow calculations on LPBFed NiTi stents for four different laser powers and scan speeds.</s><s>The vaporisation area is the largest indicated by the near-circle red spot in the left column which is quite different from case d (the smallest).</s></p></div></figDesc><graphic coords="7,81.64,53.15,432.00,156.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. Vapourisation prediction: (a) temperature dependence of elemental vapour pressure; (b) measured Ni loss compared with CFD-predicted mass loss in the NiTi alloy.</s></p></div></figDesc><graphic coords="7,81.64,557.17,432.00,162.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 .</head><label>10</label><figDesc><div><p><s>Fig. 10.</s><s>(a) Representative load-displacement curves (the inset shows 4 indentation imprints) and (b) variation of hardness and elastic modulus for LPBFed Nitinol stents at different load levels.</s></p></div></figDesc><graphic coords="8,81.64,515.13,432.00,192.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig. 9.</s><s>A comparison of DSC traces of, a) LPBFed stents (prepared with as-received NiTi powders) at as-fabricated status manufactured with various energy density, and b) LPBFed stents prepared with NiTi+Ni powders and heat treatments at different conditions.</s></p></div></figDesc><graphic coords="8,81.64,53.14,432.00,158.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig. 11.</s><s>SEM micrographs of LPBFed stents, showing the effects of chemical etching on removal of remaining partially melted particles and reduction of strut sizes.</s><s>a) Asfabricated Zigzag stent design with visual observation of partially melted particles on the strut surfaces, b and c) chemical etched zigzag stents with no remaining particles after LPBF with different magnification, d) As-fabricated Palmaz-Schatz design with visual observation of partially melted particles on the strut surfaces and e&amp;f) chemical etched Palmaz-Schatz stents with no remaining particles after LPBF with different magnifications.</s></p></div></figDesc><graphic coords="9,45.64,53.16,504.00,253.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Chemical composition, apparent and tap density, particle size and Hausner ratio for the pre-alloyed NiTi powders.</s></p></div></figDesc><table><row><cell cols="2">Nitinol powder Chemical composition</cell><cell>Oxygen content</cell><cell>Particle size</cell><cell>Apparent density</cell><cell>Tapped density</cell><cell cols="2">Hausner ratio A f temperature (°C)</cell></row><row><cell></cell><cell>(at%)</cell><cell>(wt%)</cell><cell>D 50</cell><cell>(g/cm 3 )</cell><cell>(g/cm 3 )</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>(µm)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>As-received</cell><cell>Ti 48.9 Ni 51.1</cell><cell>0.033</cell><cell>~32</cell><cell>3.91</cell><cell>4.46</cell><cell>1.14</cell><cell>28</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc><div><p><s>Particle size data (d 10 , d 50 , and d 90 ) of the NiTi pre-alloyed powder.</s></p></div></figDesc><table><row><cell>NiTi pre-alloyed powder (15-63 µm)</cell><cell></cell></row><row><cell>Mean size (µm)</cell><cell>28.08</cell></row><row><cell>D 10</cell><cell>9.90</cell></row><row><cell>D 50</cell><cell>32.02</cell></row><row><cell>D 90</cell><cell>49.53</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc><div><p><s>Oxygen and carbon content in LPBFed stent (inert gas fusion measurement).</s></p></div></figDesc><table><row><cell>Linear energy density (J/mm)</cell><cell>Oxygen (wt%)</cell><cell>Carbon (wt%)</cell></row><row><cell>0.3</cell><cell>0.073</cell><cell>0.034</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc><div><p><s>Thermophysical properties used for CFD calculations.</s></p></div></figDesc><table><row><cell cols="2">Thermophysical properties</cell><cell></cell><cell></cell><cell>NiTi-</cell><cell>Unit</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>based SMA</cell></row><row><cell cols="2">Solidus temperature, T s</cell><cell cols="2">Specific heat</cell><cell>1513 1583 3300 6450 106.56 280</cell></row><row><cell>of liquid metal, c p l</cell><cell cols="3">Thermal conductivity of</cell><cell>320 23</cell></row><row><cell cols="4">solid metal, ks Thermal conductivity of</cell><cell>21.3</cell></row><row><cell cols="4">liquid metal, k l Dynamic viscosity,</cell><cell>7.24</cell></row><row><cell cols="3">µ Thermal expansion coefficient,</cell><cell></cell><cell>8 × 10 -6</cell></row><row><cell>Surface tension,</cell><cell cols="3">Temperature</cell><cell>1.62</cell></row><row><cell cols="2">coefficient of surface tension,</cell><cell>d dT</cell><cell>Enthalpy</cell><cell>-0.28 × 10 -3 3.7 × 10 5</cell></row><row><cell cols="4">change of melting, Hm Enthalpy change of</cell><cell>5.7 × 10 6</cell></row><row><cell cols="4">vapourisation, H V Atmospheric pressure,</cell><cell>101,300</cell></row><row><cell cols="2">p 0 Ideal gas constant, R</cell><cell></cell><cell></cell><cell>8.314</cell></row><row><cell cols="2">Boltzmann's constant, k B</cell><cell></cell><cell></cell><cell>1.38 × 10 -24</cell></row></table><note><p><s>s Liquidus temperature, T l Evaporation temperature, T v Density of liquid metal, 2 Molar mass (u), m Specific heat of solid metal, c p</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 6</head><label>6</label><figDesc><div><p><s>Effect of energy input during LPBF systems on Ni loss (as-received Nitinol powder Ti 48.9 Ni 51.1 (at%)).</s></p></div></figDesc><table><row><cell>Linear Energy density (J/mm)</cell><cell>Ti (at%)</cell><cell>Ni (at%)</cell><cell>Ni loss (at%)</cell></row><row><cell>0.8</cell><cell>50.80</cell><cell>49.20</cell><cell>1.90</cell></row><row><cell>0.5</cell><cell>50.86</cell><cell>49.14</cell><cell>1.96</cell></row><row><cell>0.4</cell><cell>49.44</cell><cell>50.56</cell><cell>0.56</cell></row><row><cell>0.3</cell><cell>48.92</cell><cell>51.08</cell><cell>0.02</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>MMA, SCC, LZ, and JF acknowledge the support from the <rs type="funder">EPSRC UK</rs> (Grant No: <rs type="grantNumber">EP/R001650/1</rs>; Title: <rs type="projectName">Smart peripheral stents for the lower extremity-design, manufacturing and evaluation</rs>).</s><s>CP would like to acknowledge the research grant from <rs type="grantName">Innovation Fellowship</rs>, funded by the <rs type="funder">Engineering and Physical Science Research Council (EPSRC), UK.Research and Innovation (UKRI)</rs> (grant no.: <rs type="grantNumber">EP/ S000828/1</rs>).</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_wFmMETx">
+					<idno type="grant-number">EP/R001650/1</idno>
+					<orgName type="grant-name">Innovation Fellowship</orgName>
+					<orgName type="project" subtype="full">Smart peripheral stents for the lower extremity-design, manufacturing and evaluation</orgName>
+				</org>
+				<org type="funding" xml:id="_tvefEWZ">
+					<idno type="grant-number">EP/ S000828/1</idno>
+				</org>
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>a follow-up process to meet the surface quality requirements of a modern-day stent.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fabrication and in vitro deployment of a laser-activated shape memory polymer vascular stent</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Ward</forename><surname>Baer Géraldine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wilson</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>William</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Benett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthews</forename><surname>Dennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Duncan</forename><forename type="middle">J</forename><surname>Hartman Jonathan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Maitland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Eng. Online</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baer Géraldine, M. Ward Small, S. Thomas, Wilson William, J. Benett, L. Dennis, Matthews Hartman Jonathan, Duncan J. Maitland, Fabrication and in vitro de- ployment of a laser-activated shape memory polymer vascular stent, Biomed. Eng. Online 6 (2007) 43.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A computational study on the three-dimensional printability of precipitate-strengthened nickel-based superalloys</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Basoalto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Panwisawas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sovani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brooks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. A</title>
+		<imprint>
+			<biblScope unit="volume">474</biblScope>
+			<biblScope unit="page">20180295</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.C. Basoalto, C. Panwisawas, Y. Sovani, M.J. Anderson, R.P. Turner, B. Saunders, J.W. Brooks, A computational study on the three-dimensional printability of precipitate-strengthened nickel-based superalloys, Proc. R. Soc. A 474 (2018) 20180295.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Adding functionality with additive manufacturing: fabrication of titanium-based antibiotic eluting implants</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Parastoo</forename><surname>Cox Sophie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jamshidi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Neil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mark Eisenstein</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Webber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hany Hassanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Moataz</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Attallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shepherd</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Liam</forename><forename type="middle">M</forename><surname>Owen Addison</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Grover</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="407" to="415" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cox Sophie, C. Parastoo Jamshidi, M. Neil, Mark Eisenstein, A. Webber, Hany Hassanin, M. Moataz, E.T. Attallah, Duncan, Shepherd Owen Addison, Liam M. Grover, Adding functionality with additive manufacturing: fabrication of ti- tanium-based antibiotic eluting implants, Mater. Sci. Eng. C 64 (2016) 407-15.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Laser additive manufacturing of bulk and porous shape-memory NiTi alloys: From processes to potential biomedical applications</title>
+		<author>
+			<persName><forename type="first">Sasan</forename><surname>Dadbakhsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathew</forename><surname>Speirs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Pierre</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bull</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="765" to="774" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sasan Dadbakhsh, Mathew Speirs, Jan Van Humbeeck, Jean-Pierre Kruth, Laser additive manufacturing of bulk and porous shape-memory NiTi alloys: From processes to potential biomedical applications, MRS Bull. 41 (2016) 765-74.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of cardiovascular CoCr stents by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Ali Gökhan Demir</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Previtali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="338" to="350" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ali Gökhan Demir, Barbara Previtali, Additive manufacturing of cardiovascular CoCr stents by selective laser melting, Mater. Des. 119 (2017) 338-350.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Study of size effect on microstructure and mechanical properties of AlSi10Mg samples made by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Zhichao</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoyu</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenhua</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hao</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hongshuai</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2463</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhichao Dong, Xiaoyu Zhang, Wenhua Shi, Hao Zhou, Hongshuai Lei, Jun Liang, Study of size effect on microstructure and mechanical properties of AlSi10Mg samples made by selective laser melting, Materials 11 (2018) 2463.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Indentation size effects in spherical nanoindentation analyzed by experiment and non-local crystal plasticity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Engels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kostka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vajragupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hartmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materialia</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="21" to="30" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.K. Engels, S. Gao, W. Amin, A. Biswas, A. Kostka, N. Vajragupta, A. Hartmaier, Indentation size effects in spherical nanoindentation analyzed by experiment and non-local crystal plasticity, Materialia 3 (2018) 21-30.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A simple predictive model for spherical indentation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Field</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Swain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="297" to="306" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.S. Field, M.V. Swain, A simple predictive model for spherical indentation, J. Mater. Res. 8 (1993) 297-306.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Design rules for producing cardiovascular stents by selective laser melting: geometrical constraints and opportunities</title>
+		<author>
+			<persName><forename type="first">Valentina</forename><surname>Finazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><forename type="middle">G</forename><surname>Demir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlo</forename><forename type="middle">Alberto</forename><surname>Biffi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudio</forename><surname>Chiastra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Migliavacca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenza</forename><surname>Petrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Previtali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Struct. Integr</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="16" to="23" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valentina Finazzi, Ali G.ökhan Demir, Carlo Alberto Biffi, Claudio Chiastra, Francesco Migliavacca, Lorenza Petrini, Barbara Previtali, Design rules for pro- ducing cardiovascular stents by selective laser melting: geometrical constraints and opportunities, Procedia Struct. Integr. 15 (2019) 16-23.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Design and functional testing of a novel balloon-expandable cardiovascular stent in CoCr alloy produced by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Valentina</forename><surname>Finazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><forename type="middle">G</forename><surname>Demir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlo</forename><forename type="middle">Alberto</forename><surname>Biffi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Migliavacca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenza</forename><surname>Petrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Previtali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="161" to="173" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valentina Finazzi, Ali G.ökhan Demir, Carlo Alberto Biffi, Francesco Migliavacca, Lorenza Petrini, Barbara Previtali, Design and functional testing of a novel bal- loon-expandable cardiovascular stent in CoCr alloy produced by selective laser melting, J. Manuf. Process. 55 (2020) 161-73.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Zavattieri, The status, challenges, and future of additive manufacturing in engineering</title>
+		<author>
+			<persName><forename type="first">Gao</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yunbo</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Devarajan</forename><surname>Ramanujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karthik</forename><surname>Ramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yong</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">B</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charlie</forename><forename type="middle">C L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin</forename><forename type="middle">Song</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pablo</forename><forename type="middle">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Aided Des</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="65" to="89" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gao Wei, Yunbo Zhang, Devarajan Ramanujan, Karthik Ramani, Yong Chen, Christopher B. Williams, Charlie C.L. Wang, C. Yung, Shin Song Zhang, Pablo D. Zavattieri, The status, challenges, and future of additive manufacturing in engineering, Comput. Aided Des. 69 (2015) 65-89.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effect of laser scanning speed on the microstructure, phase transformation and mechanical property of NiTi alloys fabricated by LPBF</title>
+		<author>
+			<persName><forename type="first">Wenqian</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bo</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ying</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yinong</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hong</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qin</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lishan</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xin</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shijie</forename><surname>Hao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="page">110460</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wenqian Guo, Bo Feng, Ying Yang, Yang Ren, Yinong Liu, Hong Yang, Qin Yang, Lishan Cui, Xin Tong, Shijie Hao, Effect of laser scanning speed on the micro- structure, phase transformation and mechanical property of NiTi alloys fabri- cated by LPBF, Mater. Des. (2022) 110460.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Surface modifications of nitinol</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Waseem Haider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Munroe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K S</forename><surname>Pulletikurthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pandya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Long Term Eff. Med. Implants</title>
+		<imprint>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waseem Haider, N. Munroe, V. Tek, C. Pulletikurthi, P.K.S. Gill, S. Pandya, Surface modifications of nitinol, J. Long Term Eff. Med. Implants (2009) 19.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Nitinol melting, manufacture and fabrication</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hodgson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Minim. Invasive Ther. Allied Technol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="61" to="65" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Hodgson, S. Russell, Nitinol melting, manufacture and fabrication, Minim. Invasive Ther. Allied Technol. 9 (2000) 61-65.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The effect of ageing treatment on shape-setting and superelasticity of a nitinol stent</title>
+		<author>
+			<persName><forename type="first">Xiaopeng</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yinong</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dazhi</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Min</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Charact</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="402" to="406" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiaopeng Liu, Yinong Wang, Dazhi Yang, Min Qi, The effect of ageing treatment on shape-setting and superelasticity of a nitinol stent&apos;, Mater. Charact. 59 (2008) 402-06.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of NiTi stents with open-cell and variable diameter</title>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Maffia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valentina</forename><surname>Finazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Berti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Migliavacca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenza</forename><surname>Petrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Previtali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><forename type="middle">G</forename><surname>Demir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Smart Mater. Struct</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">105010</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simone Maffia, Valentina Finazzi, Francesca Berti, Francesco Migliavacca, Lorenza Petrini, Barbara Previtali, Ali G.ökhan Demir, Selective laser melting of NiTi stents with open-cell and variable diameter, Smart Mater. Struct. 30 (2021) 105010.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<monogr>
+		<author>
+			<persName><surname>Mccormick</surname></persName>
+		</author>
+		<title level="m">Overview of cardiovascular stent designs, Functionalised Cardiovascular Stents</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCormick, Overview of cardiovascular stent designs, Functionalised Cardiovascular Stents, Elsevier, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Phase analysis of NiTi shape memory wires and computer simulations of the superelastic effect</title>
+		<author>
+			<persName><forename type="first">Beata</forename><surname>Młocek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zdzisław</forename><surname>Lekston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maciej</forename><surname>Zubko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Rak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazimierz</forename><surname>Stróż</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Phys. Pol. Ser. a</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beata Młocek, Zdzisław Lekston, Maciej Zubko, Jan Rak, Kazimierz Stróż, Phase analysis of NiTi shape memory wires and computer simulations of the super- elastic effect, Acta Phys. Pol. Ser. a (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The stress-strain behavior of coronary stent struts is size dependent</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Savage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Mchugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Quinn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Biomed. Eng</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="686" to="691" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B.P. Murphy, P. Savage, P.E. McHugh, D.F. Quinn, The stress-strain behavior of coronary stent struts is size dependent, Ann. Biomed. Eng. 31 (2003) 686-691.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Laser beam powder bed fusion of nitinol shape memory alloy (SMA)</title>
+		<author>
+			<persName><forename type="first">Ahmed</forename><surname>Obeidi Muhannad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Medad</forename><surname>Monu Cian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Declan</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bourke Merve Nur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><surname>Dogu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mimi</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Inam</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dermot</forename><surname>Ul Ahad</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brabazon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res. Technol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2554" to="2570" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Obeidi Muhannad Ahmed, Medad Monu Cian Hughes, Declan Bourke Merve Nur Dogu, Joshua Francis, Mimi Zhang, Inam Ul Ahad, Dermot Brabazon, Laser beam powder bed fusion of nitinol shape memory alloy (SMA), J. Mater. Res. Technol. 14 (2021) 2554-2570.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Physical metallurgy of Ti-Ni-based shape memory alloys</title>
+		<author>
+			<persName><forename type="first">Kazuhiro</forename><surname>Otsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiabing</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="511" to="678" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kazuhiro Otsuka, Xiabing Ren, Physical metallurgy of Ti-Ni-based shape memory alloys, Prog. Mater. Sci. 50 (2005) 511-678.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">A multi-scale multi-physics approach to modelling of additive manufacturing in nickel-based superalloys, A multi-scale multi-physics approach to modelling of additive manufacturing in nickel-based superalloys Superalloys</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Panwisawas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sovani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Palumbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Choquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Basoalto</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>Warrendale</publisher>
+			<biblScope unit="page" from="1021" to="1030" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Panwisawas, Y. Sovani, M.J. Anderson, R. Turner, N.M. Palumbo, B.C. Saunders, I. Choquet, J.W. Brooks, H.C. Basoalto, A multi-scale multi-physics approach to modelling of additive manufacturing in nickel-based superalloys, A multi-scale multi-physics approach to modelling of additive manufacturing in nickel-based superalloys Superalloys, TMS, Warrendale, 2016, pp. 1021-1030.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Modelling of thermal fluid dynamics for fusion welding</title>
+		<author>
+			<persName><forename type="first">Chinnapat</forename><surname>Panwisawas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yogesh</forename><surname>Sovani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">P</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeffery</forename><forename type="middle">W</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hector</forename><forename type="middle">C</forename><surname>Basoalto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Isabelle</forename><surname>Choquet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">252</biblScope>
+			<biblScope unit="page" from="76" to="82" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chinnapat Panwisawas, Yogesh Sovani, Richard P. Turner, Jeffery W. Brooks, Hector C. Basoalto, Isabelle Choquet, Modelling of thermal fluid dynamics for fusion welding, J. Mater. Process. Technol. 252 (2018) 1 76-82.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Metal 3D printing as a disruptive technology for superalloys</title>
+		<author>
+			<persName><surname>Panwisawas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Panwisawas, et al., Metal 3D printing as a disruptive technology for superalloys, Nat. Commun. 11 (2020) 1-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The indentation size effect: a critical examination of experimental observations and mechanistic interpretations</title>
+		<author>
+			<persName><surname>Pharr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="271" to="292" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pharr, et al., The indentation size effect: a critical examination of experimental observations and mechanistic interpretations, Annu. Rev. Mater. Res. 40 (2010) 271-92.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Principles of laser micro sintering</title>
+		<author>
+			<persName><forename type="first">Pv</forename><surname>Regenfuss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Streek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hartwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Th</forename><surname>Brabant Klötzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Exner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp. J</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pv Regenfuss A., L. Streek, S. Hartwig, Th. Brabant Klötzer M., R. Horn, Ebert, H. Exner, Principles of laser micro sintering, Rapid Prototyp. J. (2007).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The influence of heat treatment on the thermomechanical response of Ni-rich NiTi alloys manufactured by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Soheil</forename><surname>Saedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Sadi Turabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohsen</forename><surname>Taheri Andani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Haberland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haluk</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">677</biblScope>
+			<biblScope unit="page" from="204" to="210" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Soheil Saedi, Ali Sadi Turabi, Mohsen Taheri Andani, Christoph Haberland, Haluk Karaca, Mohammad Elahinia, The influence of heat treatment on the thermomechanical response of Ni-rich NiTi alloys manufactured by selective laser melting, J. Alloy. Compd. 677 (2016) 204-10.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Critical overview of Nitinol surfaces and their modifications for medical applications</title>
+		<author>
+			<persName><surname>Shabalovskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="447" to="467" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shabalovskaya, et al., Critical overview of Nitinol surfaces and their modifica- tions for medical applications, Acta Biomater. 4 (2008) 447-467.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Surface conditions of nitinol wires, tubing, and as-cast alloys. The effect of chemical etching, aging in boiling water, and heat treatment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shabalovskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anderegg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Laab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rondelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Mater. Res. Part B Appl. Biomater. Off. J. Soc. Biomater. Jpn. Soc. Biomater. Aust. Soc. Biomater. Korean Soc. Biomater</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="193" to="203" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A. Shabalovskaya, J. Anderegg, F. Laab, P.A. Thiel, G. Rondelli, Surface conditions of nitinol wires, tubing, and as-cast alloys. The effect of chemical etching, aging in boiling water, and heat treatment, J. Biomed. Mater. Res. Part B Appl. Biomater. Off. J. Soc. Biomater. Jpn. Soc. Biomater. Aust. Soc. Biomater. Korean Soc. Biomater. 65 (2003) 193-203.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Digital materials design by thermal-fluid science for multi-metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Junji</forename><surname>Shinjo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chinnapat</forename><surname>Panwisawas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page">116825</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Junji Shinjo, Chinnapat Panwisawas, Digital materials design by thermal-fluid science for multi-metal additive manufacturing, Acta Mater. 210 (2021) 116825.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Fatigue-crack growth properties of thin-walled superelastic austenitic Nitinol tube for endovascular stents</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Stankiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Mater. Res. Part A</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="685" to="691" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.M. Stankiewicz, S.W. Robertson, R.O. Ritchie, Fatigue-crack growth properties of thin-walled superelastic austenitic Nitinol tube for endovascular stents, J. Biomed. Mater. Res. Part A 81 (2007) 685-691.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Self-expanding nitinol stents: material and design considerations</title>
+		<author>
+			<persName><forename type="first">Dieter</forename><surname>Stoeckel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Pelton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Duerig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Radiol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="292" to="301" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dieter Stoeckel, Alan Pelton, Tom Duerig, Self-expanding nitinol stents: material and design considerations, Eur. Radiol. 14 (2004) 292-301.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A survey of stent designs</title>
+		<author>
+			<persName><surname>Stoeckel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Minim. Invasive Ther. Allied Technol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="137" to="147" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stoeckel, et al., A survey of stent designs, Minim. Invasive Ther. Allied Technol. 11 (2002) 137-147.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Reduced thrombogenicity of nitinol stents-in vitro evaluation of different surface modifications and coatings</title>
+		<author>
+			<persName><forename type="first">Gunnar</forename><surname>Tepe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joerg</forename><surname>Schmehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans</forename><forename type="middle">P</forename><surname>Wendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sivio</forename><surname>Schaffner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Heller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Gianotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claus</forename><forename type="middle">D</forename><surname>Claussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><forename type="middle">H</forename><surname>Duda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="643" to="650" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gunnar Tepe, Joerg Schmehl, Hans P. Wendel, Sivio Schaffner, Stephan Heller, Marc Gianotti, Claus D. Claussen, Stephan H. Duda, Reduced thrombogenicity of nitinol stents-in vitro evaluation of different surface modifications and coat- ings, Biomaterials 27 (2006) 643-650.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">X-ray visibility and metallurgical features of NiTi shape memory alloy with erbium</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A M</forename><surname>Tofail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gandhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lavelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tiernan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Biffi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="450" to="454" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A.M. Tofail, J. Butler, A.A. Gandhi, J.M. Carlson, S. Lavelle, S. Carr, P. Tiernan, G. Warren, K. Kennedy, C.A. Biffi, X-ray visibility and metallurgical features of NiTi shape memory alloy with erbium, Mater. Lett. 137 (2014) 450-54.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of nitinol shape memory alloys to overcome challenges in conventional nitinol fabrication</title>
+		<author>
+			<persName><forename type="first">Jason</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohsen</forename><surname>Taheri Andani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Haberland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ASME 2014 international mechanical engineering congress and exposition</title>
+		<meeting>the ASME 2014 international mechanical engineering congress and exposition</meeting>
+		<imprint>
+			<publisher>American Society of Mechanical Engineers Digital Collection</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Walker, Jason, Mohsen Taheri Andani, Christoph Haberland, and Mohammad Elahinia. 2014. Additive manufacturing of nitinol shape memory alloys to overcome challenges in conventional nitinol fabrication. In: Proceedings of the ASME 2014 international mechanical engineering congress and exposition. American Society of Mechanical Engineers Digital Collection.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of vascular implants by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wessarges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gieseke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nölke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaierle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-P</forename><surname>Schmitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haferkamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Eng. Biomed. Tech</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="401" to="S404" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Wessarges, R. Hagemann, M. Gieseke, C. Nölke, S. Kaierle, W. Schmidt, K.- P. Schmitz, H. Haferkamp, Additive manufacturing of vascular implants by se- lective laser melting, Biomed. Eng. Biomed. Tech. 59 (2014) S401-S404.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ni-loss compensation and thermomechanical property recovery of 3D printed NiTi alloys by pre-coating Ni on NiTi powder</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D K</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">102344</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Ye, S.F. Li, R.D.K. Misra, R. Zheng, Y.F. Yang, Ni-loss compensation and ther- momechanical property recovery of 3D printed NiTi alloys by pre-coating Ni on NiTi powder, Addit. Manuf. 47 (2021) 102344.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Effects of material properties on mechanical performance of Nitinol stent designed for femoral artery: Finite element analysis</title>
+		<author>
+			<persName><forename type="first">Fardin</forename><surname>Nematzadeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientia Iranica</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fardin Nematzadeh, et al., Effects of material properties on mechanical perfor- mance of Nitinol stent designed for femoral artery: Finite element analysis. Scientia Iranica (2012).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

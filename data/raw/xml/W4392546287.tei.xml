@@ -1,0 +1,2825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Development of Hydroxyapatite/Polycaprolactone Composite Biomaterials for Laser Powder Bed Fusion: Evaluation of Powder Characteristics, Mechanical Properties and Biocompatibility</title>
+				<funder ref="#_xwhx7uy">
+					<orgName type="full">Natural Science Foundation of Hunan Province</orgName>
+				</funder>
+				<funder ref="#_9S9SGCf #_Pa2craj">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_4myc9mN">
+					<orgName type="full">State Key Polymers 2024</orgName>
+				</funder>
+				<funder ref="#_jHb7XmY">
+					<orgName type="full">Laboratory of Materials Processing and Die &amp; Mould Technology, Huazhong University of Science and Technology</orgName>
+				</funder>
+				<funder ref="#_khawQc7 #_K29rcfe">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-03-07">7 March 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Hongbo</forename><surname>Yao</surname></persName>
+							<email>yaohongbo@hnu.edu.cn</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> National Engineering Research Centre for High Efficiency Grinding , College of Mechanical and Vehicle Engineering , Hunan University , Changsha 410082 , China;</note>
+								<orgName type="department">College of Mechanical and Vehicle Engineering</orgName>
+								<orgName type="laboratory">National Engineering Research Centre for High Efficiency Grinding</orgName>
+								<orgName type="institution">Hunan University</orgName>
+								<address>
+									<postCode>410082</postCode>
+									<settlement>Changsha</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Zhu</surname></persName>
+							<email>zhuwei@hnu.edu.cn</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> National Engineering Research Centre for High Efficiency Grinding , College of Mechanical and Vehicle Engineering , Hunan University , Changsha 410082 , China;</note>
+								<orgName type="department">College of Mechanical and Vehicle Engineering</orgName>
+								<orgName type="laboratory">National Engineering Research Centre for High Efficiency Grinding</orgName>
+								<orgName type="institution">Hunan University</orgName>
+								<address>
+									<postCode>410082</postCode>
+									<settlement>Changsha</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaolong</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> National Engineering Research Centre for High Efficiency Grinding , College of Mechanical and Vehicle Engineering , Hunan University , Changsha 410082 , China;</note>
+								<orgName type="department">College of Mechanical and Vehicle Engineering</orgName>
+								<orgName type="laboratory">National Engineering Research Centre for High Efficiency Grinding</orgName>
+								<orgName type="institution">Hunan University</orgName>
+								<address>
+									<postCode>410082</postCode>
+									<settlement>Changsha</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiner</forename><surname>Yi</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Xiangya School of Pharmacy , Central South University , Changsha 410083 , China;</note>
+								<orgName type="department">Xiangya School of Pharmacy</orgName>
+								<orgName type="institution">Central South University</orgName>
+								<address>
+									<postCode>410083</postCode>
+									<settlement>Changsha</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jinchao</forename><surname>Yao</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> National Engineering Research Centre for High Efficiency Grinding , College of Mechanical and Vehicle Engineering , Hunan University , Changsha 410082 , China;</note>
+								<orgName type="department">College of Mechanical and Vehicle Engineering</orgName>
+								<orgName type="laboratory">National Engineering Research Centre for High Efficiency Grinding</orgName>
+								<orgName type="institution">Hunan University</orgName>
+								<address>
+									<postCode>410082</postCode>
+									<settlement>Changsha</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xun</forename><surname>Yuan</surname></persName>
+							<email>xunyuan@hnu.edu.cn</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> National Engineering Research Centre for High Efficiency Grinding , College of Mechanical and Vehicle Engineering , Hunan University , Changsha 410082 , China;</note>
+								<orgName type="department">College of Mechanical and Vehicle Engineering</orgName>
+								<orgName type="laboratory">National Engineering Research Centre for High Efficiency Grinding</orgName>
+								<orgName type="institution">Hunan University</orgName>
+								<address>
+									<postCode>410082</postCode>
+									<settlement>Changsha</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Feng</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> National Engineering Research Centre for High Efficiency Grinding , College of Mechanical and Vehicle Engineering , Hunan University , Changsha 410082 , China;</note>
+								<orgName type="department">College of Mechanical and Vehicle Engineering</orgName>
+								<orgName type="laboratory">National Engineering Research Centre for High Efficiency Grinding</orgName>
+								<orgName type="institution">Hunan University</orgName>
+								<address>
+									<postCode>410082</postCode>
+									<settlement>Changsha</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaoxiao</forename><surname>Han</surname></persName>
+							<email>xiaoxiaohan@hnu.edu.cn</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> National Engineering Research Centre for High Efficiency Grinding , College of Mechanical and Vehicle Engineering , Hunan University , Changsha 410082 , China;</note>
+								<orgName type="department">College of Mechanical and Vehicle Engineering</orgName>
+								<orgName type="laboratory">National Engineering Research Centre for High Efficiency Grinding</orgName>
+								<orgName type="institution">Hunan University</orgName>
+								<address>
+									<postCode>410082</postCode>
+									<settlement>Changsha</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Development of Hydroxyapatite/Polycaprolactone Composite Biomaterials for Laser Powder Bed Fusion: Evaluation of Powder Characteristics, Mechanical Properties and Biocompatibility</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-03-07">7 March 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A1ADCD791BCF462608679F879465717F</idno>
+					<idno type="DOI">10.3390/polym16060731</idno>
+					<note type="submission">Received: 29 December 2023 Revised: 31 January 2024 Accepted: 1 March 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T05:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>additive manufacturing</term>
+					<term>selective laser sintering</term>
+					<term>polycaprolactone</term>
+					<term>hydroxyapatite</term>
+					<term>bone tissue engineering</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Hydroxyapatite/polycaprolactone (HA/PCL) composites have been extensively explored in laser powder bed fusion (L-PBF) for bone tissue engineering.</s><s>However, conventional mechanical mixing methods for preparing composite powders often yield inhomogeneous compositions and suboptimal flowability.</s><s>In this study, HA/PCL powders were prepared and optimized for L-PBF using the modified emulsion solvent evaporation method.</s><s>The morphology, flowability and thermal and rheological properties of the powders were systematically investigated, along with the mechanical and biological properties of the fabricated specimens.</s><s>The HA/PCL powders exhibited spherical morphologies with a homogeneous distribution of HA within the particles.</s><s>The addition of small amounts of HA (5 wt% and 10 wt%) enhanced the processability and increased the maximum values of the elastic modulus and yield strength of the specimens from 129.8 MPa to 166.2 MPa and 20.2 MPa to 25.1 MPa, respectively, while also improving their biocompatibility.</s><s>However, excessive addition resulted in compromised sinterability, thereby affecting both mechanical and biological properties.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Large bone defects resulting from accidents, trauma, osteoarthritis, tumors, and severe comminuted fractures often require intervention as they cannot heal spontaneously.</s><s>The utilization of autograft and allograft transplantation, as conventional therapeutic modalities for this condition, is significantly constrained by the scarcity of donors, complications, and immune rejection reactions <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>.</s><s>Bone tissue engineering (BTE) holds immense potential in the treatment of large bone defects.</s><s>It is anticipated that through the implantation of artificial bone scaffolds seeded with cells and growth factors at the site of defects, flawless restoration of the bone tissue defect can be achieved <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>.</s><s>The development of novel biomaterials and manufacturing methods for biomimetic artificial bone scaffolds, which play a pivotal role in the restoration of bone defects, has attracted tremendous research attention.</s></p><p><s>Polymeric materials are commonly used for scaffold fabrication in BTE due to their excellent formability, biocompatibility, and tunable mechanical strength <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>.</s><s>Several biocompatible polymeric materials, such as polycaprolactone (PCL) <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>, polylactic acid (PLA) <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>, polyglycolic acid (PGA) <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17]</ref>, polyurethane (PU) <ref type="bibr" target="#b17">[18]</ref>, and polyether ketone (PEEK) <ref type="bibr" target="#b18">[19]</ref>, have been extensively studied and employed for the production of scaffolds.</s><s>PCL, a synthetic and biodegradable polymer, has gained approval from both the U.S. Food and Drug Administration and the European Medicines Agency for its applications in healthcare.</s><s>With its excellent solubility, low melting point, flexibility, minimal degradation byproducts, and extended degradation time of 1~2 years <ref type="bibr" target="#b19">[20]</ref>, PCL has attracted significant attention in the fields of BTE, long-term surgical implants, and slowrelease drug delivery systems <ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>.</s><s>However, the hydrophobicity and low bioactivity of PCL impede cell adhesion on the scaffold and exert an impact on cell proliferation and differentiation, thereby decelerating the process of bone defect repair <ref type="bibr" target="#b23">[24]</ref>.</s></p><p><s>To attain enhanced bioactivity and hydrophilicity of polymer materials, composite biomaterials have been developed by incorporating an inorganic phase, such as bioceramics that mimic the composition of natural bone <ref type="bibr" target="#b1">[2]</ref>.</s><s>This allows for harnessing the synergistic advantages offered by multiple materials <ref type="bibr" target="#b24">[25]</ref>.</s><s>Calcium phosphate ceramics such as β-tricalcium phosphate (β-TCP), bioglasses, and hydroxyapatite (HA) are widely used bioceramics.</s><s>Among these, HA is the primary inorganic component found in human bones and possesses excellent biocompatibility and osteoinductive capabilities.</s><s>Consequently, composites composed of PCL and HA have emerged as ideal materials for scaffolds used in BTE <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>.</s></p><p><s>Generally, the irregularity of geometric shape in bone defects and the unique nature of each patient's defect necessitate individualized solutions for implant design and manufacturing.</s><s>Additive manufacturing (AM) technology, as a layer-wise manufacturing method, is superior to traditional manufacturing methods (such as injection molding and CNC machining) in creating personalized implants <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31]</ref>.</s><s>Selective laser sintering (SLS), involving laser powder bed fusion (L-PBF) of the AM process, utilizes a laser as the heat source to sinter powdered materials selectively.</s><s>It is widely regarded as one of the most established and extensively utilized AM processes for polymer processing.</s><s>Compared to other AM technologies, SLS eliminates the need for additional support structures during the printing process.</s><s>This capability enables SLS to fabricate structures with particularly complex shapes <ref type="bibr" target="#b31">[32]</ref>, which confers significant advantages in bone repair and regeneration.</s></p><p><s>SLS technology has been employed in previous studies to manufacture PCL and its composites.</s><s>Williams et al. pioneered the utilization of SLS technology in fabricating scaffolds using PCL materials that closely matched the mechanical properties of trabecular bone.</s><s>Additionally, CT scanning revealed promising outcomes for using SLS in manufacturing mandibular models and bone scaffolds <ref type="bibr" target="#b32">[33]</ref>.</s><s>Huang et al. utilized SLS to manufacture scaffolds using a mixed powder of PCL and sodium chloride as a pore-forming agent.</s><s>Subsequent removal of the sodium chloride resulted in a liver tissue scaffold characterized by intricate 3D flow channels and a high porosity of 89%.</s><s>The biological results demonstrated that these 3D flow channels significantly promote cell growth and functional expression <ref type="bibr" target="#b33">[34]</ref>.</s><s>Doyle et al. fabricated composite scaffolds comprising PCL and β-TCP through SLS, which exhibited a decrease in both elastic modulus and strength, as well as the alteration of degradation properties upon the incorporation of β-TCP <ref type="bibr" target="#b34">[35]</ref>.</s><s>Hollister et al. conducted a comprehensive study on the utilization of SLS for manufacturing PCL tracheal scaffolds, which were employed in a clinical trial for the treatment of pediatric patients with tracheobronchial cartilage collapse <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b36">37]</ref>.</s><s>The results indicated that the scaffold's opening stiffness of 4 mm/N provides sufficient support for tracheal growth <ref type="bibr" target="#b37">[38]</ref>.</s><s>Liu et al. prepared HA/PCL scaffolds loaded with vascular endothelial growth factor (VEGF), which exhibited excellent biocompatibility and promoted osteogenic differentiation of stem cells, leading to a significant enhancement in vascularization and bone generation in vivo <ref type="bibr" target="#b38">[39]</ref>.</s></p><p><s>The conventional approach for preparing composite biomaterial powders involves mechanically crushing PCL powder followed by incorporating HA particles directly into the powder <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref>.</s><s>However, this method often results in an uneven distribution of HA, leading to poor flowability, reduced precision, and compromised and inconsistent mechanical properties of the scaffolds, which are critical factors for the application of biomedical devices.</s><s>Du et al. introduced the emulsification solvent evaporation method to synthesize HA/PCL composite microspheres, which were subsequently used in the fabrication of scaffolds via SLS <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>.</s><s>Similar approaches have also been applied in other relevant investigations.</s><s><ref type="bibr">Liu et al. used</ref> this method to fabricate the scaffold for vascularized bone regeneration <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref>.</s><s>In addition, <ref type="bibr">Gu et al. used</ref> this method to fabricate scaffolds for osteochondral repair <ref type="bibr" target="#b44">[45]</ref>.</s><s>This method can improve the uniformity of HA and the precision of scaffold fabrication.</s><s>However, current research primarily focuses on the scaffold structure and the influence of materials on the biological functionality of the scaffold.</s><s>The preparation and optimization of HA/PCL composite microsphere powders and their effect on printability (flowability, thermal behavior, and rheology properties), mechanical performance, and biocompatibility of the SLS-processed scaffolds have not been thoroughly explored.</s></p><p><s>In this study, the HA/PCL composite biomaterial powders amenable to SLS were prepared using the modified emulsion solvent evaporation method.</s><s>The morphology, flowability, thermal behavior, and rheology properties of the prepared powders were characterized.</s><s>Subsequently, specimens were manufactured through SLS with a wide range of printing parameters, and compression testing and porosity measurements were conducted to determine variations in mechanical performance and optimize the processing parameters.</s><s>Finally, biocompatibility experiments were performed on the scaffolds to validate their feasibility for BTE applications.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Preparation of Powder by Solvent Evaporation</head><p><s>PCL (Mn = 50,000) was commercially purchased in a powdered form with an average particle size of 250 µm.</s><s>HA nanoparticles (SKU: H106378) with a size of 100 nm were purchased from Aladdin Shanghai.</s><s>Pure PCL and HA/PCL powders were prepared using a modified solid-in-oil-in-water (S/O/W) emulsion solvent evaporation method.</s><s>First, 50 g of PCL was dissolved in 300 mL of dichloromethane (DCM).</s><s>Subsequently, various concentrations of HA (2.5 g, 5 g, and 10 g) were added to 30 mL of ethanol and agitated for 30 s using an emulsifier to ensure thorough dispersion.</s><s>Then, the ethanol solution was introduced into the DCM solution and stirred to generate a suspension, which was then added to 1500 mL of polyvinyl alcohol (PVA) solution (1 w/v%) and vigorously stirred for 5 min at 9000 rpm using an emulsifier to form an emulsion.</s><s>After that, the emulsion was stirred continuously for 6 h at 25 • C to ensure the evaporation of DCM.</s><s>Finally, the resulting powder was collected, subjected to 3 rounds of washing with pure water, and subsequently dried for further processing.</s><s>The process of the preparation of powder is shown in Figure <ref type="figure" target="#fig_0">1</ref>.</s><s>The HA/PCL composite powders with varying ratios of HA were prepared, namely PCL, 5HA/PCL, 10HA/PCL, and 20HA/PCL powders representing pure PCL and powders incorporating a 5%, 10%, and 20% weight ratio of HA, respectively.</s></p><p><s>HA, leading to poor flowability, reduced precision, and compromised and incons mechanical properties of the scaffolds, which are critical factors for the application omedical devices.</s><s>Du et al. introduced the emulsification solvent evaporation meth synthesize HA/PCL composite microspheres, which were subsequently used in the cation of scaffolds via SLS <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>.</s><s>Similar approaches have also been applied in oth evant investigations.</s><s><ref type="bibr">Liu et al. used</ref> this method to fabricate the scaffold for vascul bone regeneration <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref>.</s><s>In addition, <ref type="bibr">Gu et al. used</ref> this method to fabricate sca for osteochondral repair <ref type="bibr" target="#b44">[45]</ref>.</s><s>This method can improve the uniformity of HA an precision of scaffold fabrication.</s><s>However, current research primarily focuses on th fold structure and the influence of materials on the biological functionality of the sca The preparation and optimization of HA/PCL composite microsphere powders and effect on printability (flowability, thermal behavior, and rheology properties), mech performance, and biocompatibility of the SLS-processed scaffolds have not been oughly explored.</s></p><p><s>In this study, the HA/PCL composite biomaterial powders amenable to SLS prepared using the modified emulsion solvent evaporation method.</s><s>The morph flowability, thermal behavior, and rheology properties of the prepared powders characterized.</s><s>Subsequently, specimens were manufactured through SLS with a range of printing parameters, and compression testing and porosity measurements conducted to determine variations in mechanical performance and optimize the cessing parameters.</s><s>Finally, biocompatibility experiments were performed on the folds to validate their feasibility for BTE applications.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Preparation of Powder by Solvent Evaporation</head><p><s>PCL (Mn = 50,000) was commercially purchased in a powdered form with an av particle size of 250 µm.</s><s>HA nanoparticles (SKU: H106378) with a size of 100 nm purchased from Aladdin Shanghai.</s><s>Pure PCL and HA/PCL powders were prepared a modified solid-in-oil-in-water (S/O/W) emulsion solvent evaporation method.</s><s>Fi g of PCL was dissolved in 300 mL of dichloromethane (DCM).</s><s>Subsequently, variou centrations of HA (2.5 g, 5 g, and 10 g) were added to 30 mL of ethanol and agitat 30 s using an emulsifier to ensure thorough dispersion.</s><s>Then, the ethanol solutio introduced into the DCM solution and stirred to generate a suspension, which wa added to 1500 mL of polyvinyl alcohol (PVA) solution (1 w/v%) and vigorously stirr 5 min at 9000 rpm using an emulsifier to form an emulsion.</s><s>After that, the emulsio stirred continuously for 6 h at 25 °C to ensure the evaporation of DCM.</s><s>Finally, the r ing powder was collected, subjected to 3 rounds of washing with pure water, and s quently dried for further processing.</s><s>The process of the preparation of powder is s in Figure <ref type="figure" target="#fig_0">1</ref>.</s><s>The HA/PCL composite powders with varying ratios of HA were prep namely PCL, 5HA/PCL, 10HA/PCL, and 20HA/PCL powders representing pure PC powders incorporating a 5%, 10%, and 20% weight ratio of HA, respectively.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Powder Characterization</head><p><s>The particle size and distribution of the powders were tested using a laser particle analyzer (LS-POP9, OMEC).</s><s>The span of the particle size distribution was calculated using (D 90 -D 10 )/D 50 .</s><s>D n is the particle size that a cumulative percentage of the particle size distribution in a powder sample corresponds to when it reaches n%.</s><s><ref type="bibr" target="#b45">[46]</ref> The surface morphology of the powders was observed using scanning electron microscopy (SEM) with an MIA3 from TSCAN at an energy of 5 KeV.</s><s>The powder flowability was evaluated according to the Chinese standard GB/T 31057.3-2018</s><s>using a BT-1000 powder characterization tester from Bettersize Instruments (Dandong, China) <ref type="bibr" target="#b46">[47]</ref>.</s><s>For measuring the tap density, the frequency of vibration was set as 250 vibrations per minute and the amplitude was 3 mm.</s><s>The Hausner ratio (HR) of the powders was then obtained by dividing the tap density values by the bulk density values.</s><s>Four parameters related to the followability (i.e., angle of repose, angle of spatula, compressibility, and uniformity coefficient) can also be obtained through the BT-1000 instrument.</s><s>Each measurement can be converted into a corresponding index number (scored out of 25) using the Carr Flowability Chart <ref type="bibr" target="#b47">[48]</ref>, and the sum of these four index numbers is defined as the flowability index.</s><s>By referring to the flowability index obtained from the chart, the severity of either bridging or compaction of a material can be determined (Table <ref type="table" target="#tab_0">S1</ref>).</s></p><p><s>Differential scanning calorimetry (DSC) tests were conducted using a DSC3 from Mettler Toledo.</s><s>The powder was subjected to a heating process in a nitrogen atmosphere from 20 • C to 100 • C at a controlled rate of 10 • C/min; subsequently, it was cooled back to 20 • C at the same rate.</s><s>The starting melting temperature T im , peak melting temperature T m , starting crystallization temperature T ic , and peak crystallization temperature T c were obtained from these tests.</s></p><p><s>Thermogravimetric analysis (TGA) was carried out using a TGA209F1 instrument from NETZSCH.</s><s>The powders were heated from 20 • C to 500 • C at a rate of 10 • C/min in a nitrogen atmosphere.</s><s>The temperature at which the powder produced a 1% mass loss was determined as the thermal degradation onset temperature T d,oneset .</s><s>The sample quantities utilized for DSC and TGA analyses ranged from 5 mg to 10 mg, with three repetitions conducted for each sample.</s></p><p><s>The rheological behavior and melt viscosity of various powders were evaluated using the Kinexus pro+ instrument from Malvern Panalytical.</s><s>The powder was loaded onto a 40 mm-diameter parallel plate with a 1 mm gap between plates and subjected to oscillatory shear testing at 85 • C with an angular velocity range of 0.1-100 rad/s.</s><s>All tests were repeated three times for each material.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Specimen Preparation and Characterization</head><p><s>The specimens were fabricated using a SnowWhite2 SLS 3D printer from Sharebot, Nibionno, Italy.</s><s>The geometries of the cylindrical specimens for compression tests are Φ10 mm × 5 mm according to the standard ISO 604:2002 <ref type="bibr">[49]</ref>.</s><s>The cylinder specimens used for cell culturing have a geometric dimension of Φ5 mm × 2 mm.</s><s>The optimization for process parameters was conducted for each material by varying the laser power with an interval of 0.7 W while keeping other parameters constant.</s><s>The specific processing parameters are shown in Table <ref type="table" target="#tab_0">1</ref>.</s><s>The laser energy was calculated using p/sht <ref type="bibr" target="#b49">[50]</ref>.</s><s>Compression tests were conducted at room temperature using an AGS-X electronic universal testing machine from Shimadzu.</s><s>The loading rate was set to 5 mm/s for all specimens.</s><s>The second derivative of the stress-strain curve is used for analyzing the yield strength of the specimen, which corresponds to the zero point (inflection point) of the second-order derivative of the curve.</s><s>The porosity was determined using the Archimedes' method with a precision balance and density test kit.</s><s>For all the mechanical tests and porosity measurements, at least 3 specimens were tested, and the resulting values were averaged.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">In Vitro Cell Culture to Evaluate the Biocompatibility of Scaffolds</head><p><s>The biocompatibility of PCL-based scaffolds fabricated using SLS was assessed through in vitro culture with human osteosarcoma cells (MG-63).</s><s>The MG-63 cells were cultured in 1640 medium containing 10% v/v fetal bovine serum (FBS, Gibco) and 1% (v/v) penicillinstreptomycin-amphotericin B (PSA, Gibco).</s><s>All the scaffolds were sterilized with ethanol for 30 min and irradiated with UV light overnight.</s><s>Subsequently, the sterilized scaffolds were infiltrated with a culture medium overnight before cell seeding.</s><s>The cell adhesion performance on scaffolds was evaluated by seeding 50,000 cells per well onto the surface of the scaffold in 96-well plates.</s><s>The cytoskeleton and nucleus were stained with phalloidin-iFluor 488 (Biolite, China) and 2-(4-Amidinophenyl)-6-indolecarbamidine dihydrochloride (DAPI, 1:1000, Beyotime, China), respectively, the following day.</s><s>The cell morphology on scaffolds was observed with fluorescence microscopy (Olympus, Japan).</s><s>In addition, the cells on the scaffold were fixed and dehydrated with a gradient concentration of alcohol (30%, 50%, 70%, and 100%) before being placed under the SEM for observation.</s><s>The cell proliferation was assessed by culturing the cells at a density of 10,000 per well on the scaffold surface in 96-well plates, and the cell activity was evaluated using Cell Counting Kit-8 (CCK-8, Meilunbio, Dalian, China) on day 1, day 3, day 5, and day 7.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Powder Morphology and Flowability</head><p><s>The particle morphology and size of powders exert a significant impact on their flowability, thereby influencing the surface roughness and strength of the produced parts.</s><s>The ideal powders for SLS should have a narrow particle size distribution and preferably exhibit a spherical morphology <ref type="bibr" target="#b50">[51]</ref>.</s><s>The SEM images confirmed that the prepared pure PCL powder as well as the 5HA/PCL, 10HA/PCL, and 20HA/PCL composite powders demonstrated a relatively optimal spherical morphology (Figure <ref type="figure" target="#fig_2">2a</ref> 1 -a 4 ).</s><s>PCL exhibited a round shape but a less smooth surface due to the presence of numerous wrinkles and micropores.</s><s>This phenomenon could be attributed to the reliance of emulsion on interfacial tension for maintaining a spherical shape.</s><s>As the solvent evaporated, PCL initiated crystallization at the spherical interface, resulting in a process of crystalline bending that generates elastic potential energy.</s><s>Consequently, defects and pores were formed within the crystals to release this stored energy <ref type="bibr" target="#b51">[52,</ref><ref type="bibr" target="#b52">53]</ref>.</s><s>White HA particles (marked with red arrows) were uniformly distributed on the surface (Figure <ref type="figure" target="#fig_2">2b</ref> 2 -b 4 ); compared to the mechanical mixing method, the powder prepared in this study allowed a more homogeneous HA distribution while avoiding the sedimentation of nanoparticles.</s><s>The pores and defects on the microsphere surface decreased with the increase in HA.</s><s>In contrast to the surface morphology of PCL microspheres, HA particles filled the pores and defects that covered the microsphere formation process.</s><s>However, as the amount of HA increased, HA produced aggregation on the microsphere surface, making the microsphere surface rougher and thus affecting the flowability of the powder.</s></p><p><s>The particle size distributions of the PCL powders are presented in Figure <ref type="figure" target="#fig_2">2c</ref> 1 -c 4 .</s><s>Overall, all the powders exhibited a particle size within the range of 40~130 µm, with the pure PCL showing larger particles in the range of 60~133 µm.</s><s>Additionally, the median diameter (D 50 ) of the HA/PCL composite powders was approximately 70 µm, except for pure PCL, which had a D 50 value of 98 µm.</s><s>Upon the addition of HA, there was a decrease in powder D 50 and an increase in span value due to the heterogeneous nucleation induced by HA during the solvent evaporation process.</s><s>The presence of HA particles accelerated the droplet crystallization rate while simultaneously impeding crystal growth, resulting in the formation of more fine particles compared to pure PCL.</s><s>As the amount of HA increased, the crystallization induced by the aggregated HA led to larger microspheres and, consequently, a wider size distribution.</s><s>This phenomenon explained the observed increase in span value with increasing HA content.</s><s>Nevertheless, the method used in this study enables convenient and flexible adjustment of the average particle size distribution through manipulation of processing parameters such as the PCL concentration and emulsification speed (Figure <ref type="figure" target="#fig_0">S1</ref>).</s><s>The particle size distributions of the PCL powders are presented in Figure <ref type="figure" target="#fig_1">2</ref> Overall, all the powders exhibited a particle size within the range of 40~130 µm, wit pure PCL showing larger particles in the range of 60~133 µm.</s><s>Additionally, the me diameter (D50) of the HA/PCL composite powders was approximately 70 µm, excep pure PCL, which had a D50 value of 98 µm.</s><s>Upon the addition of HA, there was a dec in powder D50 and an increase in span value due to the heterogeneous nucleation ind by HA during the solvent evaporation process.</s><s>The presence of HA particles accele the droplet crystallization rate while simultaneously impeding crystal growth, resu in the formation of more fine particles compared to pure PCL.</s><s>As the amount of H creased, the crystallization induced by the aggregated HA led to larger microspheres consequently, a wider size distribution.</s><s>This phenomenon explained the observe crease in span value with increasing HA content.</s><s>Nevertheless, the method used in study enables convenient and flexible adjustment of the average particle size distrib The angle of repose serves as a direct indicator of powder flowability, whereby a smaller angle indicates superior powder fluidity.</s><s>According to Carr's criteria for fluidity classification, an angle of repose below 30 • signifies good flowability <ref type="bibr" target="#b53">[54]</ref>.</s><s>The addition of HA resulted in a decrease in the angle of repose from 35.2 • for PCL powder to below 30 • , indicating an improvement in flowability (Table <ref type="table" target="#tab_1">2</ref>).</s><s>The Hausner ratio (HR) is a representative flow characteristic of powders, which is calculated as the ratio between tap density and bulk density.</s><s>Powders with an HR &lt; 1.25 are considered to have good flowability and are suitable for SLS <ref type="bibr" target="#b55">[56]</ref>.</s><s>As shown in Table <ref type="table" target="#tab_1">2</ref>, the HR value of PCL was 1.158, which is comparable to the widely used commercial polyamide 12 (PA12) powder in PBF <ref type="bibr" target="#b54">[55]</ref>.</s><s>The incorporation of HA particles resulted in a decrease in the HR values for 5HA/PCL and 10HA/PCL to 1.045 and 1.058, respectively, indicating their excellent flowability.</s><s>With a further increase in the amount of HA, the HR of 20HA/PCL increased to 1.203.</s><s>The results of the flowability index, which provided a more comprehensive and well-rounded assessment of the powder flowability, further substantiated the observation.</s><s>With an appropriate amount of HA (5% and 10%), the nanoparticles on the PCL surface could function as a lubricant, reducing the interparticle forces <ref type="bibr" target="#b56">[57]</ref>.</s><s>However, excessive HA (20%) led to particle aggregation and hindered the powder flow.</s><s>These findings aligned with the SEM analysis of surface morphology.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Thermal Properties</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Melting and Crystallization</head><p><s>The DSC curves for the heating and cooling process of each material are shown in Figure <ref type="figure" target="#fig_3">3</ref>, where virgin PCL is the raw material directly obtained from the supplier for powder preparation.</s><s>HA did not show any endothermic or exothermic behavior within this temperature range, and all the curves reflected the melting and crystallization characteristics of PCL.</s><s>In Figure <ref type="figure" target="#fig_8">3a</ref>, the melting temperature T m of the powders remained essentially unchanged, while a significant disparity was observed in the melt onset temperature T im between the virgin PCL and the prepared powders.</s><s>The discrepancy could be attributed to the commercial powders often exhibiting heterogeneity and containing additives, whereas powders made using solvent evaporation allowed for further purification of the PCL material.</s><s>In addition, the width of the melting peak suggested that crystallization from the solvent provided a prolonged time for the PCL chains to rearrange and form a concentrated thickness distribution of thicker crystal lamellae, thus increasing the melt onset temperature <ref type="bibr" target="#b57">[58,</ref><ref type="bibr" target="#b58">59]</ref>.</s><s>This also contributed to the observation that the prepared powders exhibited narrower and more distinct peaks compared to those of virgin PCL (Figure <ref type="figure" target="#fig_8">3a</ref>).</s><s>In addition, as shown in Figure <ref type="figure" target="#fig_8">3a</ref>, the prepared PCL powder had a low-temperature shoulder (indicated by the red arrows) at around 40 • C, which gradually decreased with the addition of HA.</s><s>This phenomenon could be attributed to the evaporation of the solvent during the formation of microspheres.</s><s>As the solvent evaporated, the polymer shell underwent continuous contraction, leading to its fragmentation into small pieces, acting as nuclei for the secondary crystallization of PCL <ref type="bibr" target="#b59">[60]</ref>.</s><s>However, the addition of HA particles resulted in the inhibition of secondary crystallization <ref type="bibr" target="#b60">[61]</ref>, as evidenced by the observed decrease in enthalpy for the low-temperature shoulder in heating curves for HA/PCL composite powders (Figure <ref type="figure" target="#fig_8">3a</ref>).</s><s>The cooling cycles of the PCL materials are depicted in Figure <ref type="figure" target="#fig_8">3b</ref>, wherein a slight increase in the crystallization onset temperature T ic and a reduction in the degree of crystallinity x c of PCL were observed (Table <ref type="table" target="#tab_2">3</ref>).</s><s>These findings suggested that the addition of HA showed a noticeable nucleation effect on the molten PCL <ref type="bibr" target="#b61">[62]</ref>.</s><s>This could be attributed to HA hindrance on the mobility of PCL molecular chains <ref type="bibr" target="#b62">[63]</ref>.</s><s>However, there was little difference in crystallinity, indicating that substantial alterations in laser energy are unnecessary during the SLS process.</s></p><p><s>in Tim and negligible alteration in the Tic of the prepared powders, indicating an imp ment in sinterability.</s><s>Furthermore, the sharper melting peaks of the prepared pow (shown in Figure <ref type="figure" target="#fig_8">3a</ref>), in comparison to virgin PCL material, contributed to improved der flowability at high temperatures.</s><s>Simultaneously, this would help to minimize e sive sintering of the particles beyond the scanning boundaries, thereby improving the tour resolution of the fabricated parts <ref type="bibr" target="#b63">[64]</ref>.</s><s>The sintering window of the material, which is defined as the difference between the melting onset temperature T im and the crystallization onset temperature T ic , plays an essential role in determining the sinterability.</s><s>Based on Figure <ref type="figure" target="#fig_8">3b</ref> and Table <ref type="table" target="#tab_2">3</ref>, the sintering windows of PCL, 5HA/PCL, 10HA/PCL, and 20HA/PCL were determined to be 19.1 • C, 18.6 • C, 18.1 • C, and 18.2 • C, respectively, all wider than that of the virgin PCL powder (15.4 • C).</s><s>The expanded sintering window could be attributed to the large enhancement in T im and negligible alteration in the T ic of the prepared powders, indicating an improvement in sinterability.</s><s>Furthermore, the sharper melting peaks of the prepared powders (shown in Figure <ref type="figure" target="#fig_8">3a</ref>), in comparison to virgin PCL material, contributed to improved powder flowability at high temperatures.</s><s>Simultaneously, this would help to minimize excessive sintering of the particles beyond the scanning boundaries, thereby improving the contour resolution of the fabricated parts <ref type="bibr" target="#b63">[64]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Thermal Stability</head><p><s>The thermal stability of the biomaterials for SLS processing is crucial, given the prolonged duration of the heating process.</s><s>The thermogravimetric (TG) (Figure <ref type="figure" target="#fig_6">4a</ref>) and derivative thermogravimetry (DTG) (Figure <ref type="figure" target="#fig_6">4b</ref>) data indicated that HA did not degrade below 500 • C.</s><s>Among all the prepared powders, an increase in HA content led to a decrease in the onset degradation temperature T d,onset and maximum degradation temperature T d,max , as shown in Table <ref type="table" target="#tab_3">4</ref>.</s><s>The reduction in thermal stability could be attributed to the aggregation of HA within the microspheres, which lowered the activation energy barrier.</s><s>Additionally, previous studies have also indicated that the addition of calcium phosphate tends to induce polymer chain breakage <ref type="bibr" target="#b64">[65,</ref><ref type="bibr" target="#b65">66]</ref>.</s><s>Conversely, the presence of HA on the microsphere surface hindered the degradation and spillover of volatile decomposition substances, resulting in a decrease in r d,max as the HA content increased.</s><s>It is worth noting that all materials exhibited significantly higher degradation temperatures than their melting temperatures, indicating sufficient thermal stability of the composite materials during processing.</s><s>The residual mass at 500 • C of PCL, 5HA/PCL, 10HA/PCL, and 20HA/PCL was determined to be 1.01%, 3.9%, 7.5%, and 17.2%, respectively.</s><s>The measured content of HA in the PCL composite powder was lower than the theoretical values, indicating a slight loss of HA during the powder preparation process.</s><s>The loss of HA probably occurred in the process of transferring HA dispersion into the aqueous solution and subsequent solvent evaporation, where HA entered the aqueous phase from the emulsion interfaces due to its hydrophilic nature.</s></p><p><s>aggregation of HA within the microspheres, which lowered the activation energy ba Additionally, previous studies have also indicated that the addition of calcium phos tends to induce polymer chain breakage <ref type="bibr" target="#b64">[65,</ref><ref type="bibr" target="#b65">66]</ref>.</s><s>Conversely, the presence of HA o microsphere surface hindered the degradation and spillover of volatile decompo substances, resulting in a decrease in rd,max as the HA content increased.</s><s>It is worth n that all materials exhibited significantly higher degradation temperatures than their ing temperatures, indicating sufficient thermal stability of the composite materials d processing.</s><s>The residual mass at 500 °C of PCL, 5HA/PCL, 10HA/PCL, and 20HA was determined to be 1.01%, 3.9%, 7.5%, and 17.2%, respectively.</s><s>The measured co of HA in the PCL composite powder was lower than the theoretical values, indica slight loss of HA during the powder preparation process.</s><s>The loss of HA probab curred in the process of transferring HA dispersion into the aqueous solution and s quent solvent evaporation, where HA entered the aqueous phase from the emulsi terfaces due to its hydrophilic nature.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Rheological Properties</head><p><s>The complex viscosity characteristics of various materials at 85 °C are shown i ure 5.</s><s>All the composite powders exhibited non-Newtonian and shear-thinning beh The viscosity of the HA/PCL composite powders was higher than that of PCL, prim attributed to the presence of nanoparticles that impeded the movement of the mole chains and thereby increased the melt viscosity.</s><s>Additionally, the abundant -OH g Table 4.</s><s>The key thermal stability properties of the PCL and HA/PCL composite powders.</s><s>Sample T d,onset ( • C) T d,max ( • C) ∆T ( • C) r d,max (%/min) Residual Mass at 500 • C (%) PCL 350.2 412.0 61.8 24.49 1.01 5HA/PCL 344.0 410.0 66.0 22.89 4.74 10HA/PCL 330.1 409.7 79.6 21.46 8.03 20HA/PCL 305.6 407.9 102.3 17.87 15.71</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Rheological Properties</head><p><s>The complex viscosity characteristics of various materials at 85 • C are shown in Figure <ref type="figure" target="#fig_9">5</ref>.</s><s>All the composite powders exhibited non-Newtonian and shear-thinning behavior.</s><s>The viscosity of the HA/PCL composite powders was higher than that of PCL, primarily attributed to the presence of nanoparticles that impeded the movement of the molecular chains and thereby increased the melt viscosity.</s><s>Additionally, the abundant -OH groups in HA could form hydrogen bonds with PCL <ref type="bibr" target="#b66">[67]</ref>.</s><s>The difference in viscosity between 5HA/PCL, 10HA/PCL, and 20HA/PCL at a low shear rate was not significant.</s><s>However, an increase in HA content resulted in a rapid decrease in viscosity at high rates.</s><s>The composite powders with a higher HA content exhibited elevated shear stress as the shear rate increased, leading to more rapid decreases in viscosity <ref type="bibr" target="#b67">[68]</ref>.</s></p><p><s>According to the Frenkel-Eshelby viscosity model, surface tension and zero-shear viscosity (η 0 ) are the primary factors affecting the coalescence behavior of powder particles in the SLS process <ref type="bibr" target="#b68">[69]</ref>.</s><s>A lower η 0 leads to a higher rate of consolidation.</s><s>To obtain the material η 0 , the Carreau-Yasuda model was used to analyze the complex viscosity of PCL and HA/PCL composites as a function of frequency, as it not only describes the Newtonian behavior of the fluid at low shear rates but also captures the shear thinning process at high shear rates.</s><s>The complex viscosity η of polymers is generally described using the Carreau-Yasuda model <ref type="bibr" target="#b69">[70]</ref>:</s></p><formula xml:id="formula_0">η = η ∞ + (η 0 -η ∞ ) 1 + (λω) a (n-1)/a (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>where η ∞ is the infinite shear viscosity, η 0 is the zero-shear viscosity, λ is the relaxation time, n is the power law index, and a is the width of the transition region between Newtonian and power law behavior.</s><s>The zero-shear viscosities of virgin PCL, PCL, 5HA/PCL, 10HA/PCL, and 20HA/PCL were determined to be 3304.</s><s><ref type="table" target="#tab_1">S2</ref>).</s><s>Although these values seem relatively high compared to PA2200, they were comparable to the viscosity of commercial PA12 Orgasol, which has a viscosity of 8000 Pa•s at temperatures above its melting point of 25 • C <ref type="bibr" target="#b70">[71]</ref>.</s><s>With appropriate printing strategies, the prepared powders could be effectively utilized in powder bed manufacturing processes.</s></p><p><s>PCL and HA/PCL composites as a function of frequency, as it not only describes the Newtonian behavior of the fluid at low shear rates but also captures the shear thinning process at high shear rates.</s><s>The complex viscosity η of polymers is generally described using the Carreau-Yasuda model <ref type="bibr" target="#b69">[70]</ref>:</s></p><formula xml:id="formula_2">      1 / 0 1 n a a                 (<label>1</label></formula><formula xml:id="formula_3">)</formula><p><s>where η∞ is the infinite shear viscosity, η0 is the zero-shear viscosity, λ is the relaxation time, n is the power law index, and a is the width of the transition region between Newtonian and power law behavior.</s><s>The zero-shear viscosities of virgin PCL, PCL, 5HA/PCL, 10HA/PCL, and 20HA/PCL were determined to be 3304.</s><s><ref type="table" target="#tab_1">S2</ref>).</s></p><p><s>Although these values seem relatively high compared to PA2200, they were comparable to the viscosity of commercial PA12 Orgasol, which has a viscosity of 8000 Pa•s at temperatures above its melting point of 25 °C <ref type="bibr" target="#b70">[71]</ref>.</s><s>With appropriate printing strategies, the prepared powders could be effectively utilized in powder bed manufacturing processes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Mechanical Properties of the Scaffolds</head><p><s>The porosity and mechanical properties of the fabricated PCL and HA/PCL composite specimens are shown in Figure <ref type="figure" target="#fig_11">6</ref>.</s><s>Tissue engineering scaffolds should have a specific porosity for the exchange of substances and waste materials in cell culture while also providing sufficient compression strength to support new bone regeneration <ref type="bibr" target="#b71">[72,</ref><ref type="bibr" target="#b72">73]</ref>.</s><s>In this study, at least five different laser energy levels were used for SLS printing of the PCL and HA/PCL composite specimens to explore the properties of the fabricated parts and optimize processing parameters.</s><s>Additionally, slight adjustments were made to the laser energy range during printing to ensure the successful fabrication of the specimens.</s></p><p><s>The porosity of all materials decreased with increasing laser energy and then stabilized within a certain range (Figure <ref type="figure" target="#fig_12">6a</ref>).</s><s>This was because higher laser energy promoted</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Mechanical Properties of the Scaffolds</head><p><s>The porosity and mechanical properties of the fabricated PCL and HA/PCL composite specimens are shown in Figure <ref type="figure" target="#fig_11">6</ref>.</s><s>Tissue engineering scaffolds should have a specific porosity for the exchange of substances and waste materials in cell culture while also providing sufficient compression strength to support new bone regeneration <ref type="bibr" target="#b71">[72,</ref><ref type="bibr" target="#b72">73]</ref>.</s><s>In this study, at least five different laser energy levels were used for SLS printing of the PCL and HA/PCL composite specimens to explore the properties of the fabricated parts and optimize processing parameters.</s><s>Additionally, slight adjustments were made to the laser energy range during printing to ensure the successful fabrication of the specimens.</s></p><p><s>The porosity of all materials decreased with increasing laser energy and then stabilized within a certain range (Figure <ref type="figure" target="#fig_12">6a</ref>).</s><s>This was because higher laser energy promoted powder sintering, reducing interparticle voids and decreasing porosity.</s><s>However, when the material approached densification, a further increase in laser energy led to over-sintering, preventing further reductions in the porosity.</s><s>The porosity of the specimens ranged from 3.6% to 22.8% depending on the processing parameters.</s><s>Compared to PCL, 5HA/PCL and 10HA/PCL showed lower porosity at the same level of laser energy, potentially attributed to the enhanced energy absorption resulting from the presence of HA on the powder surface.</s><s>However, among all of the materials tested, 20HA/PCL specimens showed the highest porosity due to the significant amount of HA on the microspheres' surface (Figure <ref type="figure" target="#fig_6">2b 4</ref> ), which hindered the coalescence of the adjacent particles and ultimately increased the porosity.</s></p><p><s>The specimens were subjected to compression tests to evaluate their elastic modulus and yield strength.</s><s>The elastic modulus of pure PCL and 20HA/PCL specimens initially increased with the rise in laser energy, reaching a maximum of 129.8 MPa and 107.6 MPa, respectively, at a laser density of 0.12 J/mm 3 due to the improved densification (Figure <ref type="figure" target="#fig_12">6b</ref>).</s><s>Subsequently, the elastic modulus decreased due to polymer degradation at high energy levels.</s><s>However, for the 5HA/PCL and 10HA/PCL specimens, the modulus exhibited a decreasing trend as the laser energy exceeded 0.12 J/mm 3 , with the respective maximum elastic modulus of 137.5 and 166.2 MPa.</s><s>This was due to the fact that this relatively low laser energy density was adequate in ensuring a comparatively high density.</s><s>Further escalation of energy input compromised the elastic modulus.</s><s>It was also notable that the elastic modulus of the HA/PCL composite generally had a higher elastic modulus than the pure PCL specimens, with the exception being the 20HA/PCL specimen.</s><s>Furthermore, the 5HA/PCL and 10HA/PCL specimens showed improved yield strength to 22.5 and 25.1 MPa, respectively, compared to the pure PCL specimens (20.2 MPa) fabricated at the same energy density of 0.12 J/mm 3 , while the yield strength of the 20HA/PCL specimen decreased to 16.1 MPa (Figure <ref type="figure" target="#fig_12">6d</ref>).</s><s>This observation aligned with the results of the porosity and elastic modulus.</s><s>The modulus of the prepared HA/PCL scaffolds indicates their suitability for bone tissue repair in non-load-bearing bones such as trabecular bone, which typically exhibits a modulus ranging from 60 to 440 MPa <ref type="bibr" target="#b73">[74]</ref>.</s></p><p><s>Polymers 2024, 16, x FOR PEER REVIEW 11 of 18 powder sintering, reducing interparticle voids and decreasing porosity.</s><s>However, when the material approached densification, a further increase in laser energy led to over-sintering, preventing further reductions in the porosity.</s><s>The porosity of the specimens ranged from 3.6% to 22.8% depending on the processing parameters.</s><s>Compared to PCL, 5HA/PCL and 10HA/PCL showed lower porosity at the same level of laser energy, potentially attributed to the enhanced energy absorption resulting from the presence of HA on the powder surface.</s><s>However, among all of the materials tested, 20HA/PCL specimens showed the highest porosity due to the significant amount of HA on the microspheres' surface (Figure <ref type="figure" target="#fig_6">2b4</ref>), which hindered the coalescence of the adjacent particles and ultimately increased the porosity.</s><s>The specimens were subjected to compression tests to evaluate their elastic modulus and yield strength.</s><s>The elastic modulus of pure PCL and 20HA/PCL specimens initially increased with the rise in laser energy, reaching a maximum of 129.8 MPa and 107.6 MPa, respectively, at a laser density of 0.12 J/mm 3 due to the improved densification (Figure <ref type="figure" target="#fig_12">6b</ref>).</s><s>Subsequently, the elastic modulus decreased due to polymer degradation at high energy levels.</s><s>However, for the 5HA/PCL and 10HA/PCL specimens, the modulus exhibited a decreasing trend as the laser energy exceeded 0.12 J/mm 3 , with the respective maximum The SEM images showed cross-sections of the specimens fabricated at the same laser energy of 0.12 J/mm 3 (Figure <ref type="figure" target="#fig_13">7</ref>).</s><s>The presence of distinct interlayer pores was observed in pure PCL, while the 5HA/PCL specimens exhibited a granular structure.</s><s>In contrast, the 10 HA/PCL specimens displayed an enhanced degree of sintering, whereas the 20HA/PCL samples showed loosely packed individual microspheres with limited sintering necks.</s><s>This observation further supported the hypothesis that a judicious amount of HA enhanced the energy absorption capacity of the powder, thereby facilitating sintering, whereas an excessive amount of HA impeded the sintering process and led to high porosity and inferior mechanical properties.</s><s>and elastic modulus.</s><s>The modulus of the prepared HA/PCL scaffolds indicates their ability for bone tissue repair in non-load-bearing bones such as trabecular bone, w typically exhibits a modulus ranging from 60 to 440 MPa <ref type="bibr" target="#b73">[74]</ref>.</s></p><p><s>The SEM images showed cross-sections of the specimens fabricated at the same energy of 0.12 J/mm 3 (Figure <ref type="figure" target="#fig_13">7</ref>).</s><s>The presence of distinct interlayer pores was observ pure PCL, while the 5HA/PCL specimens exhibited a granular structure.</s><s>In contras 10 HA/PCL specimens displayed an enhanced degree of sintering, whereas the 20HA samples showed loosely packed individual microspheres with limited sintering n This observation further supported the hypothesis that a judicious amount of HA hanced the energy absorption capacity of the powder, thereby facilitating sinte whereas an excessive amount of HA impeded the sintering process and led to high p ity and inferior mechanical properties.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Biocompatibility of the Scaffolds</head><p><s>The biocompatibility of the SLS-fabricated PCL-based scaffolds was evalu through in vitro cell culture.</s><s>The adhesion of the MG-63 cells on the scaffolds after was observed using a fluorescent microscope, images from which are shown in Figur The cell nuclei were stained blue using DAPI and exhibited a distributed pattern, form a network distribution surrounding the microspheres on the outer surface of the scaff The F-actin (stained green) also displayed a similar distribution around these sphe</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Biocompatibility of the Scaffolds</head><p><s>The biocompatibility of the SLS-fabricated PCL-based scaffolds was evaluated through in vitro cell culture.</s><s>The adhesion of the MG-63 cells on the scaffolds after 24 h was observed using a fluorescent microscope, images from which are shown in Figure <ref type="figure" target="#fig_16">8a</ref>.</s><s>The cell nuclei were stained blue using DAPI and exhibited a distributed pattern, forming a network distribution surrounding the microspheres on the outer surface of the scaffolds.</s><s>The F-actin (stained green) also displayed a similar distribution around these spherical areas, with some connections observed between them, indicating the adhesion of the cytoskeleton on the surface of the microspheres within the scaffolds.</s><s>The SEM analysis further revealed the adhesion of MG-63 cells onto the surface of the microspheres and within the interstitial spaces, with concurrent extension of filopodia to neighboring microspheres (Figure <ref type="figure" target="#fig_16">8b</ref>).</s><s>These results indicated that the inherent rough top surface of the SLS-printed scaffolds provided ample microspheres and pores, which offered a substantial surface area for cell attachment, growth, and migration.</s><s>Among the various scaffolds tested, the 5HA/PCL and 10HA/PCL scaffolds demonstrated enhanced cell attachment and spreading compared to pure PCL; however, a further increase in HA content resulted in a decrease in both the growth and migration of MG-63 cells.</s></p><p><s>The proliferation of MG-63 cells on the SLS-manufactured scaffolds with different HA ratios, as evaluated using the CCK-8 assay on days 1, 3, 5, and 7, is illustrated in Figure <ref type="figure" target="#fig_17">9</ref>.</s><s>The results demonstrated that the cell viability of all the scaffolds increased over time, indicating the excellent biocompatibility of the scaffolds fabricated using PCL and HA/PCL composite powders.</s><s>Furthermore, in comparison to the PCL scaffold, the 5HA/PCL scaffold exhibited significantly higher cell numbers after day 5, while the 10HA/PCL scaffold showed a slight advantage in terms of cell proliferation.</s><s>Conversely, the 20HA/PCL scaffold had the lowest cell numbers among all groups and reached a plateau in cell proliferation by day 7.</s><s>The results were in line with the observations from the fluorescent staining images and SEM images (Figure <ref type="figure" target="#fig_15">8</ref>).</s></p><p><s>areas, with some connections observed between them, indicating the adhesion of th toskeleton on the surface of the microspheres within the scaffolds.</s><s>The SEM analysis ther revealed the adhesion of MG-63 cells onto the surface of the microspheres and w the interstitial spaces, with concurrent extension of filopodia to neighboring microsph (Figure <ref type="figure" target="#fig_16">8b</ref>).</s><s>These results indicated that the inherent rough top surface of the SLS-pr scaffolds provided ample microspheres and pores, which offered a substantial su area for cell attachment, growth, and migration.</s><s>Among the various scaffolds tested 5HA/PCL and 10HA/PCL scaffolds demonstrated enhanced cell attachment and sp ing compared to pure PCL; however, a further increase in HA content resulted in crease in both the growth and migration of MG-63 cells.</s><s>The proliferation of MG-63 cells on the SLS-manufactured scaffolds with diff HA ratios, as evaluated using the CCK-8 assay on days 1, 3, 5, and 7, is illustrated in F 9. The results demonstrated that the cell viability of all the scaffolds increased over indicating the excellent biocompatibility of the scaffolds fabricated using PCL HA/PCL composite powders.</s><s>Furthermore, in comparison to the PCL scaffold 5HA/PCL scaffold exhibited significantly higher cell numbers after day 5, whil 10HA/PCL scaffold showed a slight advantage in terms of cell proliferation.</s><s>Conver the 20HA/PCL scaffold had the lowest cell numbers among all groups and reach Polymers 2024, 16, x FOR PEER REVIEW 14 of 18</s></p><p><s>plateau in cell proliferation by day 7.</s><s>The results were in line with the observations from the fluorescent staining images and SEM images (Figure <ref type="figure" target="#fig_15">8</ref>).</s><s>The effects of HA on cell proliferation studies have been extensively reported; the addition of HA generally exerts a positive effect on the enhancement of cellular activity of the scaffolds.</s><s>This is because the addition of HA improves the hydrophilicity and increases the surface roughness of the scaffolds, which facilitates robust adhesion of cells to the scaffolds <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b74">75,</ref><ref type="bibr" target="#b75">76]</ref>.</s><s>In this study, the incorporation of a moderate concentration of HA (5 wt% and 10 wt%) promoted cell proliferation, whereas an excessive amount of HA (20 wt%) led to a decrease in cell number.</s><s>However, as seen from the SEM images in Figure <ref type="figure" target="#fig_16">8b</ref>, the flattened cell shape and extended filopodia on the 20HA/PCL scaffolds were comparable to other scaffolds, suggesting that the reduction in cell number was not attributed to the alteration in the biocompatibility of the scaffold material.</s><s>During the optimization of the HA/PCL powder process parameters, the sinterability of 20HA/PCL was consistently much lower than that of the other materials.</s><s>The specimens of 20HA/PCL used for biocompatibility assessments were obtained with the optimized parameters.</s><s>The SEM images of the 20HA/PCL composite powder (Figure <ref type="figure" target="#fig_6">2b4</ref>) and the resulting crosssection of the scaffolds (Figure <ref type="figure" target="#fig_14">7d</ref>) demonstrated that the addition of 20 wt% HA led to a loosened arrangement of HA particles on the surface of the microspheres, hindering their sintering and coalescence, thereby compromising both the actual HA content and the scaffold integrity.</s><s>This accounts for the decrease in cell viability observed in the 20HA/PCL scaffolds.</s><s>Therefore, it is crucial to control the HA content in the HA/PCL composite powders, as it not only affects the printability of the material but also the biological properties of the resulting scaffolds.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>In this study, the HA/PCL composite powders were prepared for the SLS process using a modified S/O/W emulsion solvent evaporation method.</s><s>The particle morphology, size distribution, powder flowability, and thermal and rheological behavior were evalu-</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Schematic for preparing HA/PCL composite powders using the modified emulsion solvent evaporation method.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. (a1-a4, b1-b4) SEM images and (c1-c4) particle size distribution curves of the PCL HA/PCL composite powders (b1-b4 are the high-magnification images; red arrows point to HA ticles).</s></p></div></figDesc><graphic coords="6,162.58,160.97,393.47,462.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. (a 1 -a 4 ,b 1 -b 4 ) SEM images and (c 1 -c 4 ) particle size distribution curves of the PCL and HA/PCL composite powders ((b 1 -b 4 ) are the high-magnification images; red arrows point to HA particles).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. DSC curves of the virgin PCL, PCL, and HA/PCL composite powders: (a) heating a cooling process at a rate of 10 °C/min.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. DSC curves of the virgin PCL, PCL, and HA/PCL composite powders: (a) heating and (b) cooling process at a rate of 10 • C/min.</s></p></div></figDesc><graphic coords="8,164.02,87.20,393.47,172.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Thermal stability of the PCL and HA/PCL composite powders under air atmosphe TG and (b) DTG curves.</s></p></div></figDesc><graphic coords="9,165.46,187.65,393.47,169.17" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Thermal stability of the PCL and HA/PCL composite powders under air atmosphere: (a) TG and (b) DTG curves.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>3</head><label>3</label><figDesc><div><p><s>Pa•s, 5522.7 Pa•s, 7817.6 Pa•s, 9092.6 Pa•s, and 8177 Pa•s, respectively (the fitting parameters are presented in Table</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>3</head><label>3</label><figDesc><div><p><s>Pa•s, 5522.7 Pa•s, 7817.6 Pa•s, 9092.6 Pa•s, and 8177 Pa•s, respectively (the fitting parameters are presented in Table</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Complex viscosity curves of virgin PCL, PCL, and HA/PCL composite powders.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Complex viscosity curves of virgin PCL, PCL, and HA/PCL composite powders.</s></p></div></figDesc><graphic coords="10,167.89,212.03,227.28,181.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Mechanical properties of the SLS-manufactured scaffolds: (a) porosity; (b) compressive modulus; (c) typical stress-strain curves of the scaffolds at the laser energy of 0.12 J/mm 3 (the points in the figure are the corresponding yield strengths); (d) yield strength at the laser energy of 0.12 J/mm 3 .</s><s>(e) Photos of typical specimens.</s></p></div></figDesc><graphic coords="11,164.39,251.43,393.47,396.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Mechanical properties of the SLS-manufactured scaffolds: (a) porosity; (b) compressive modulus; (c) typical stress-strain curves of the scaffolds at the laser energy of 0.12 J/mm 3 (the points in the figure are the corresponding yield strengths); (d) yield strength at the laser energy of 0.12 J/mm 3 .</s><s>(e) Photos of typical specimens.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. SEM images of cross-sections of the SLS specimens fabricated at 0.12 J/mm 3 : (a) PC 5HA/PCL; (c) 10HA/PCL; (d) 20HA/PCL.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7. SEM images of cross-sections of the SLS specimens fabricated at 0.12 J/mm 3 : (a) PCL; (b) 5HA/PCL; (c) 10HA/PCL; (d) 20HA/PCL.</s></p></div></figDesc><graphic coords="12,165.93,161.83,389.26,273.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8.</s><s>(a) Fluorescent staining image of MG-63 on the scaffold, F-actin stained with phall (green), cell nuclei stained with DAPI (blue); (b) SEM image of MG-63 cells on the scaffold af h (arrows point to cells).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8.</s><s>(a) Fluorescent staining image of MG-63 on the scaffold, F-actin stained with phalloidin (green), cell nuclei stained with DAPI (blue); (b) SEM image of MG-63 cells on the scaffold after 24 h (arrows point to cells).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Cell proliferation on the PCL and HA/PCL composite scaffolds on days 1, 3, 5, and 7 (n = 5, * indicates p &lt; 0.05, ** indicates p &lt; 0.01).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Cell proliferation on the PCL and HA/PCL composite scaffolds on days 1, 3, 5, and 7 (n = 5, * indicates p &lt; 0.05, ** indicates p &lt; 0.01).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Process parameters for PCL and HA/PCL composite powders.</s></p></div></figDesc><table><row><cell>Process Parameters</cell><cell>PCL</cell><cell>5HA/PCL</cell><cell>10HA/PCL</cell><cell>20HA/PCL</cell></row><row><cell>Laser power p (W)</cell><cell>2.8-5.6</cell><cell>2.8-5.6</cell><cell>2.8-5.6</cell><cell>2.8-7</cell></row><row><cell>Laser scan speed s (mm/s)</cell><cell>3600</cell><cell>2400</cell><cell>2400</cell><cell>3600</cell></row><row><cell>Powder bed temperature ( • C)</cell><cell>50</cell><cell>56</cell><cell>58</cell><cell>54</cell></row><row><cell>Layer thickness t (mm)</cell><cell>0.1</cell><cell>0.1</cell><cell>0.1</cell><cell>0.1</cell></row><row><cell>Hatch distance h (mm)</cell><cell>0.1</cell><cell>0.1</cell><cell>0.1</cell><cell>0.1</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>The key flowability properties of the PCL and HA/PCL composite powders.</s></p></div></figDesc><table><row><cell>Sample</cell><cell>Angle of Repose ( • )</cell><cell>Angle of Fall ( • )</cell><cell>Bulk Density (g/cm 3 )</cell><cell>Tap Density (g/cm 3 )</cell><cell>Hausner Ratio (HR)</cell><cell>Flowability Index</cell></row><row><cell>PCL</cell><cell>35.2</cell><cell>18.3</cell><cell>0.57</cell><cell>0.66</cell><cell>1.158</cell><cell>79.5</cell></row><row><cell>5HA/PCL</cell><cell>25.4</cell><cell>14.2</cell><cell>0.67</cell><cell>0.70</cell><cell>1.045</cell><cell>97.0</cell></row><row><cell>10HA/PCL</cell><cell>25.7</cell><cell>19.2</cell><cell>0.64</cell><cell>0.73</cell><cell>1.058</cell><cell>96.0</cell></row><row><cell>20HA/PCL</cell><cell>29.9</cell><cell>18.5</cell><cell>0.69</cell><cell>0.77</cell><cell>1.203</cell><cell>81.5</cell></row><row><cell>PA12 [55]</cell><cell>/</cell><cell>/</cell><cell>0.48</cell><cell>0.54</cell><cell>1.125</cell><cell>/</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc><div><p><s>The key melting and crystallization properties of the virgin PCL, PCL, and HA/PCL composite powders.</s></p></div></figDesc><table><row><cell>Virgin PCL</cell><cell>53.9</cell><cell>64.5</cell><cell>38.4</cell><cell>34.0</cell><cell>15.5</cell><cell>83.1</cell><cell>59.6</cell></row><row><cell>PCL</cell><cell>58.9</cell><cell>63.8</cell><cell>39.8</cell><cell>37.5</cell><cell>19.1</cell><cell>82.1</cell><cell>58.8</cell></row><row><cell>5HA/PCL</cell><cell>58.8</cell><cell>63.2</cell><cell>40.1</cell><cell>37.8</cell><cell>18.7</cell><cell>81.1</cell><cell>58.1</cell></row><row><cell>10HA/PCL</cell><cell>58.6</cell><cell>63.2</cell><cell>40.5</cell><cell>37.8</cell><cell>18.1</cell><cell>76.9</cell><cell>55.1</cell></row><row><cell>20HA/PCL</cell><cell>58.7</cell><cell>63.5</cell><cell>40.5</cell><cell>37.8</cell><cell>18.2</cell><cell>76.1</cell><cell>54.5</cell></row></table><note><p><s>Sample T im ( • C) T m ( • C) T ic ( • C) T c ( • C) Sintering Window ( • C) ∆H melt (J/g) x c (%)</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc><div><p><s>The key thermal stability properties of the PCL and HA/PCL composite powders.</s></p></div></figDesc><table><row><cell>Residual Ma</cell></row><row><cell>500 °C (%</cell></row></table><note><p>Sample</p><p><s>Td,onset (°C) Td,max (°C) ΔT (°C) rd,max (%/min)</s></p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p><s>The authors would also like to thank the <rs type="institution">Analysis and Testing Center of Hunan University</rs> for the mechanical tests.</s></p></div>
+			</div>
+			<div type="funding">
+<div><p><s>Funding: This research was funded by the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">52205355</rs>, <rs type="grantNumber">52075158</rs>), the <rs type="funder">Natural Science Foundation of Hunan Province</rs> (<rs type="grantNumber">2021JJ30109</rs>), and the <rs type="funder">State Key Polymers 2024</rs>, <rs type="grantNumber">16</rs>, <rs type="grantNumber">731 15</rs> of <rs type="grantNumber">18</rs> <rs type="funder">Laboratory of Materials Processing and Die &amp; Mould Technology, Huazhong University of Science and Technology</rs> (<rs type="grantNumber">P2023-016</rs>).</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_khawQc7">
+					<idno type="grant-number">52205355</idno>
+				</org>
+				<org type="funding" xml:id="_K29rcfe">
+					<idno type="grant-number">52075158</idno>
+				</org>
+				<org type="funding" xml:id="_xwhx7uy">
+					<idno type="grant-number">2021JJ30109</idno>
+				</org>
+				<org type="funding" xml:id="_4myc9mN">
+					<idno type="grant-number">16</idno>
+				</org>
+				<org type="funding" xml:id="_9S9SGCf">
+					<idno type="grant-number">731 15</idno>
+				</org>
+				<org type="funding" xml:id="_jHb7XmY">
+					<idno type="grant-number">18</idno>
+				</org>
+				<org type="funding" xml:id="_Pa2craj">
+					<idno type="grant-number">P2023-016</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p><s>The original contributions presented in the study are included in the article and Supplementary Materials, further inquiries can be directed to the corresponding authors.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p><s>The authors declare no conflict of interest.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Author Contributions: Conceptualization, H.Y. and W.Z.; methodology, H.Y. and X.H.; software, H.Y. and J.Y.; validation, H.Y., X.Z. and W.Z.; formal analysis, H.Y. and X.Y. (Xiner Yi); investigation, H.Y. and X.Y. (Xun Yuan); resources, H.Y.; data curation, H.Y. and W.Z.; writing-original draft preparation, H.Y.; writing-review and editing, H.Y., W.Z., X.Y. (Xun Yuan), F.C. and X.H.; visualization, H.Y. and X.Z.; supervision, W.Z.; project administration, F.C.; funding acquisition, X.H. and W.Z. All authors have read and agreed to the published version of the manuscript.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The effects of HA on cell proliferation studies have been extensively reported; the addition of HA generally exerts a positive effect on the enhancement of cellular activity of the scaffolds.</s><s>This is because the addition of HA improves the hydrophilicity and increases the surface roughness of the scaffolds, which facilitates robust adhesion of cells to the scaffolds <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b74">75,</ref><ref type="bibr" target="#b75">76]</ref>.</s><s>In this study, the incorporation of a moderate concentration of HA (5 wt% and 10 wt%) promoted cell proliferation, whereas an excessive amount of HA (20 wt%) led to a decrease in cell number.</s><s>However, as seen from the SEM images in Figure <ref type="figure">8b</ref>, the flattened cell shape and extended filopodia on the 20HA/PCL scaffolds were comparable to other scaffolds, suggesting that the reduction in cell number was not attributed to the alteration in the biocompatibility of the scaffold material.</s><s>During the optimization of the HA/PCL powder process parameters, the sinterability of 20HA/PCL was consistently much lower than that of the other materials.</s><s>The specimens of 20HA/PCL used for biocompatibility assessments were obtained with the optimized parameters.</s><s>The SEM images of the 20HA/PCL composite powder (Figure <ref type="figure">2b 4</ref> ) and the resulting crosssection of the scaffolds (Figure <ref type="figure">7d</ref>) demonstrated that the addition of 20 wt% HA led to a loosened arrangement of HA particles on the surface of the microspheres, hindering their sintering and coalescence, thereby compromising both the actual HA content and the scaffold integrity.</s><s>This accounts for the decrease in cell viability observed in the 20HA/PCL scaffolds.</s><s>Therefore, it is crucial to control the HA content in the HA/PCL composite powders, as it not only affects the printability of the material but also the biological properties of the resulting scaffolds.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>In this study, the HA/PCL composite powders were prepared for the SLS process using a modified S/O/W emulsion solvent evaporation method.</s><s>The particle morphology, size distribution, powder flowability, and thermal and rheological behavior were evaluated.</s><s>The HR values and flowability indices showed that the incorporation of HA nanoparticles improved the powder flowability as compared to pure PCL powder, while an excessive HA content (20 wt%) resulted in compromised flowability.</s><s>The sintering window values of the prepared powders were wider than those of virgin PCL material due to the enhanced rearrangement capability of molecular chains during crystallization in solution.</s><s>The addition of HA also led to an increase in melt viscosity.</s><s>The addition of HA increased the compression modulus and yield strength of the specimens, with maximum achievable values improved from 129.8 MPa to 166.2 MPa and 20.2 MPa to 25.1 MPa, respectively.</s><s>The porosity of the specimens varied between 3.64% and 22.84% depending on the processing parameters used.</s><s>Cell adhesion and proliferation experiments demonstrated that the incorporation of HA improved the biocompatibility of PCL, which facilitated close cell adhesion to the scaffolds.</s><s>It is worth mentioning that an excessive HA content led to insufficient sintering and coalescence of the PCL microspheres, thereby compromising the mechanical strength and integrity of the scaffolds and impacting their biological properties.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Materials:</head><p><s>The following supporting information can be downloaded at: <ref type="url" target="https://www.mdpi.com/article/10.3390/polym16060731/s1">https:  //www.mdpi.com/article/10.3390/polym16060731/s1</ref>, Figure <ref type="figure">S1</ref>: Effect of (a) PCL concentration, (b) emulsification speed on the particle size distribution of PCL; Table <ref type="table">S1</ref>: The key properties for the flowability index of the PCL and HA/PCL composite powders; Table <ref type="table">S2</ref>: The fitting parameters of the Carreau-Yasuda model for the virgin PCL, PCL, and HA/PCL composite powders.</s></p><p><s>Institutional Review Board Statement: Not applicable.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Scaffolds for Bone Tissue Engineering: State of the art and new perspectives</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Roseti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Parisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cavallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Desando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bartolotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grigolo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2017.05.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1246" to="1262" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roseti, L.; Parisi, V.; Petretta, M.; Cavallo, C.; Desando, G.; Bartolotti, I.; Grigolo, B. Scaffolds for Bone Tissue Engineering: State of the art and new perspectives. Mater. Sci. Eng. C 2017, 78, 1246-1262. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Materials design for bone-tissue engineering</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Koons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Diba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Mikos</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41578-020-0204-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="584" to="603" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koons, G.L.; Diba, M.; Mikos, A.G. Materials design for bone-tissue engineering. Nat. Rev. Mater. 2020, 5, 584-603. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Biomaterials for tissue engineered bone Scaffolds: A review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sehgal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Sharma</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matpr.2021.04.273</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Today Proc</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="888" to="893" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kalsi, S.; Singh, J.; Sehgal, S.S.; Sharma, N.K. Biomaterials for tissue engineered bone Scaffolds: A review. Mater. Today Proc. 2023, 81, 888-893. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Bone Regeneration Using Gene-Activated Matrices</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>D'mello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Atluri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Geary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Elangovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Salem</surname></persName>
+		</author>
+		<idno type="DOI">10.1208/s12248-016-9982-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AAPS J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="43" to="53" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D&apos;Mello, S.; Atluri, K.; Geary, S.M.; Hong, L.; Elangovan, S.; Salem, A.K. Bone Regeneration Using Gene-Activated Matrices. AAPS J. 2016, 19, 43-53. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Powder-based 3D printing for bone tissue engineering</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brunello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivolella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meneghello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ferroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gardin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Piattelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bressan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biotechadv.2016.03.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Adv</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="740" to="753" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brunello, G.; Sivolella, S.; Meneghello, R.; Ferroni, L.; Gardin, C.; Piattelli, A.; Zavan, B.; Bressan, E. Powder-based 3D printing for bone tissue engineering. Biotechnol. Adv. 2016, 34, 740-753. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Biomimetic Materials and Fabrication Approaches for Bone Tissue Engineering</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Amirthalingam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rangasamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Hwang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adhm.201700612</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Healthc. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1700612</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim, H.D.; Amirthalingam, S.; Kim, S.L.; Lee, S.S.; Rangasamy, J.; Hwang, N.S. Biomimetic Materials and Fabrication Approaches for Bone Tissue Engineering. Adv. Healthc. Mater. 2017, 6, 1700612. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Current Concepts in Scaffolding for Bone Tissue Engineering</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ghassemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shahroodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Ebrahimzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mousavian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Movaffagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moradi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Bone Jt. Surg</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="90" to="99" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ghassemi, T.; Shahroodi, A.; Ebrahimzadeh, M.H.; Mousavian, A.; Movaffagh, J.; Moradi, A. Current Concepts in Scaffolding for Bone Tissue Engineering. Arch. Bone Jt. Surg. 2018, 6, 90-99. [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">4D Printing of Shape Memory Vascular Stent Based on betaCD-g-Polycaprolactone</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/marc.202100176</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromol Rapid Commun</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">2100176</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou, Y.; Zhou, D.; Cao, P.; Zhang, X.; Wang, Q.; Wang, T.; Li, Z.; He, W.; Ju, J.; Zhang, Y. 4D Printing of Shape Memory Vascular Stent Based on betaCD-g-Polycaprolactone. Macromol Rapid Commun 2021, 42, e2100176. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Gelatin-polycaprolactonenanohydroxyapatite electrospun nanocomposite scaffold for bone tissue engineering</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gautam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Purohit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Dinda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Potdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-F</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Mishra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2020.111588</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">111588</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gautam, S.; Sharma, C.; Purohit, S.D.; Singh, H.; Dinda, A.K.; Potdar, P.D.; Chou, C.-F.; Mishra, N.C. Gelatin-polycaprolactone- nanohydroxyapatite electrospun nanocomposite scaffold for bone tissue engineering. Mater. Sci. Eng. C 2021, 119, 111588. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Synergy effect of Urtica dioica and ZnO NPs on microstructure, antibacterial activity and cytotoxicity of electrospun PCL scaffold for wound dressing application</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ghiyasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Salahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Esfahani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mtcomm.2021.102163</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Today Commun</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">102163</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ghiyasi, Y.; Salahi, E.; Esfahani, H. Synergy effect of Urtica dioica and ZnO NPs on microstructure, antibacterial activity and cytotoxicity of electrospun PCL scaffold for wound dressing application. Mater. Today Commun. 2021, 26, 102163. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Design and additive manufacturing of flexible polycaprolactone scaffolds with highly-tunable mechanical properties for soft tissue engineering</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2020.108508</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page">108508</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meng, Z.; He, J.; Cai, Z.; Wang, F.; Zhang, J.; Wang, L.; Ling, R.; Li, D. Design and additive manufacturing of flexible poly- caprolactone scaffolds with highly-tunable mechanical properties for soft tissue engineering. Mater. Des. 2020, 189, 108508. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Design and fused deposition modeling of triply periodic minimal surface scaffolds with channels and hydrogel for breast reconstruction</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Han</surname></persName>
+		</author>
+		<idno type="DOI">10.18063/ijb.685</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Bioprinting</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">685</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu, X.; Chen, F.; Cao, H.; Li, L.; He, N.; Han, X. Design and fused deposition modeling of triply periodic minimal surface scaffolds with channels and hydrogel for breast reconstruction. Int. J. Bioprinting 2023, 9, 685. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The development and challenges of poly (lactic acid) and poly (glycolic acid)</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Jem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aiepr.2020.01.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Ind. Eng. Polym. Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="60" to="70" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jem, K.J.; Tan, B. The development and challenges of poly (lactic acid) and poly (glycolic acid). Adv. Ind. Eng. Polym. Res. 2020, 3, 60-70. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Controlled Release of 5-Fluorouracil from Alginate Beads Encapsulated in 3D Printed pH-Responsive Solid Dosage Forms</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Gioumouxouzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Chatzitaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karavasili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">L</forename><surname>Katsamenis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tzetzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mystiridou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bouropoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Fatouros</surname></persName>
+		</author>
+		<idno type="DOI">10.1208/s12249-018-1084-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AAPS PharmSciTech</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="3362" to="3375" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gioumouxouzis, C.I.; Chatzitaki, A.T.; Karavasili, C.; Katsamenis, O.L.; Tzetzis, D.; Mystiridou, E.; Bouropoulos, N.; Fatouros, D.G. Controlled Release of 5-Fluorouracil from Alginate Beads Encapsulated in 3D Printed pH-Responsive Solid Dosage Forms. AAPS PharmSciTech 2018, 19, 3362-3375. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Biodegradable Polylactide Supraparticle Powders with Functional Additives for Biomedical Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Canziani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hanschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sommereyns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Distler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schramm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grünewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Detsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.202205730</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">2205730</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Canziani, H.; Hanschmann, B.; Tischer, F.; Sommereyns, A.; Distler, T.; Schramm, J.; Hesse, N.; Schmidt, J.; Grünewald, A.; Detsch, R.; et al. Biodegradable Polylactide Supraparticle Powders with Functional Additives for Biomedical Additive Manufacturing. Adv. Funct. Mater. 2022, 32, 2205730. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A Composite Hydrogel Scaffold Permits Self-Organization and Matrix Deposition by Cocultured Human Glomerular Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tuffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Saleem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Satchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Welsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perriman</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adhm.201900698</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Healthc. Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1900698</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tuffin, J.; Burke, M.; Richardson, T.; Johnson, T.; Saleem, M.A.; Satchell, S.; Welsh, G.I.; Perriman, A. A Composite Hydrogel Scaffold Permits Self-Organization and Matrix Deposition by Cocultured Human Glomerular Cells. Adv. Healthc. Mater. 2019, 8, 1900698. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Bioactive glass-collagen/poly (glycolic acid) scaffold nanoparticles exhibit improved biological properties and enhance osteogenic lineage differentiation of mesenchymal stem cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Toosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Naderi-Meshkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Esmailzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Behravan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramakrishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Behravan</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fbioe.2022.963996</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Bioeng. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">963996</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Toosi, S.; Naderi-Meshkin, H.; Esmailzadeh, Z.; Behravan, G.; Ramakrishna, S.; Behravan, J. Bioactive glass-collagen/poly (glycolic acid) scaffold nanoparticles exhibit improved biological properties and enhance osteogenic lineage differentiation of mesenchymal stem cells. Front. Bioeng. Biotechnol. 2022, 10, 963996. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Biobased Thermoplastic Polyurethanes and Their Capability to Biodegradation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alhanish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abu Ghalia</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-981-33-4749-6_4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Eco-Friendly Adhesives for Wood and Natural Fiber Composites</title>
+		<meeting><address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="85" to="104" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alhanish, A.; Abu Ghalia, M. Biobased Thermoplastic Polyurethanes and Their Capability to Biodegradation. In Eco-Friendly Adhesives for Wood and Natural Fiber Composites; Springer: Singapore, 2021; pp. 85-104. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Developments of PEEK (Polyetheretherketone) as a biomedical material: A focused review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kango</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eurpolymj.2021.110295</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Polym. J</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page">110295</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verma, S.; Sharma, N.; Kango, S.; Sharma, S. Developments of PEEK (Polyetheretherketone) as a biomedical material: A focused review. Eur. Polym. J. 2021, 147, 110295. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The return of a forgotten polymer-Polycaprolactone in the 21st century</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Woodruff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hutmacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.progpolymsci.2010.04.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Polym. Sci</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1217" to="1256" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Woodruff, M.A.; Hutmacher, D.W. The return of a forgotten polymer-Polycaprolactone in the 21st century. Prog. Polym. Sci. 2010, 35, 1217-1256. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">PCL-Based Composite Scaffold Matrices for Tissue Engineering Applications</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Siddiqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Asawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Birru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Baadhe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rao</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12033-018-0084-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="506" to="532" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siddiqui, N.; Asawa, S.; Birru, B.; Baadhe, R.; Rao, S. PCL-Based Composite Scaffold Matrices for Tissue Engineering Applications. Mol. Biotechnol. 2018, 60, 506-532. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Polycaprolactone and its derivatives for drug delivery</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pawar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nagaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kapare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Giram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wavhale</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pat.6140</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Polym. Adv. Technol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="3296" to="3316" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pawar, R.; Pathan, A.; Nagaraj, S.; Kapare, H.; Giram, P.; Wavhale, R. Polycaprolactone and its derivatives for drug delivery. Polym. Adv. Technol. 2023, 34, 3296-3316. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Manufacturing of hydrogel biomaterials with controlled mechanical properties for tissue engineering applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vedadghavami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Minooei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Mohammadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khetani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rezaei Kolahchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mashayekhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sanati-Nezhad</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actbio.2017.07.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="42" to="63" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vedadghavami, A.; Minooei, F.; Mohammadi, M.H.; Khetani, S.; Rezaei Kolahchi, A.; Mashayekhan, S.; Sanati-Nezhad, A. Manufacturing of hydrogel biomaterials with controlled mechanical properties for tissue engineering applications. Acta Biomater. 2017, 62, 42-63. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The effect of scaffold composition on the early structural characteristics of chondrocytes and expression of adhesion molecules</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Schagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kurz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Casper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dadsetan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yu-Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Mrosek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Fitzsimmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>O'driscoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Reinholz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2009.12.037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2798" to="2805" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schagemann, J.C.; Kurz, H.; Casper, M.E.; Stone, J.S.; Dadsetan, M.; Yu-Long, S.; Mrosek, E.H.; Fitzsimmons, J.S.; O&apos;Driscoll, S.W.; Reinholz, G.G. The effect of scaffold composition on the early structural characteristics of chondrocytes and expression of adhesion molecules. Biomaterials 2010, 31, 2798-2805. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Multiscale osteointegration as a new paradigm for the design of calcium phosphate scaffolds for bone regeneration</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Lan Levengood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Polak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Maki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Jamison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wagoner Johnson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2010.01.052</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="3552" to="3563" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lan Levengood, S.K.; Polak, S.J.; Wheeler, M.B.; Maki, A.J.; Clark, S.G.; Jamison, R.D.; Wagoner Johnson, A.J. Multiscale osteointegration as a new paradigm for the design of calcium phosphate scaffolds for bone regeneration. Biomaterials 2010, 31, 3552-3563. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Functionalized Polycaprolactone/Hydroxyapatite Composite Microspheres for Promoting Bone Consolidation in a Rat Distraction Osteogenesis Model</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jor.24542</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Orthop. Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="961" to="971" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wen, G.; Xu, J.; Wu, T.; Zhang, S.; Chai, Y.; Kang, Q.; Li, G. Functionalized Polycaprolactone/Hydroxyapatite Composite Microspheres for Promoting Bone Consolidation in a Rat Distraction Osteogenesis Model. J. Orthop. Res. 2020, 38, 961-971. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Fabrication techniques involved in developing the composite scaffolds PCL/HA nanoparticles for bone tissue engineering applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murugan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Parcha</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10856-021-06564-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Mater. Med</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">93</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murugan, S.; Parcha, S.R. Fabrication techniques involved in developing the composite scaffolds PCL/HA nanoparticles for bone tissue engineering applications. J. Mater. Sci. Mater. Med. 2021, 32, 93. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">3D printed PCL/SrHA scaffold for enhanced bone regeneration</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>He</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cej.2019.01.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eng. J</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="269" to="279" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, D.; Nie, W.; Li, D.; Wang, W.; Zheng, L.; Zhang, J.; Zhang, J.; Peng, C.; Mo, X.; He, C. 3D printed PCL/SrHA scaffold for enhanced bone regeneration. Chem. Eng. J. 2019, 362, 269-279. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">3D printing of HA/PCL composite tissue engineering scaffolds</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aiepr.2019.09.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Ind. Eng. Polym. Res</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="196" to="202" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jiao, Z.; Luo, B.; Xiang, S.; Ma, H.; Yu, Y.; Yang, W. 3D printing of HA/PCL composite tissue engineering scaffolds. Adv. Ind. Eng. Polym. Res. 2019, 2, 196-202. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Polymers for 3D Printing and Customized Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Ligon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stampfl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gurr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mulhaupt</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemrev.7b00074</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="10212" to="10290" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ligon, S.C.; Liska, R.; Stampfl, J.; Gurr, M.; Mulhaupt, R. Polymers for 3D Printing and Customized Additive Manufacturing. Chem. Rev. 2017, 117, 10212-10290. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A comparison of traditional manufacturing vs. additive manufacturing, the best method for the job</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Potgieter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.promfg.2019.02.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Manuf</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="11" to="18" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pereira, T.; Kennedy, J.V.; Potgieter, J. A comparison of traditional manufacturing vs. additive manufacturing, the best method for the job. Procedia Manuf. 2019, 30, 11-18. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Powder bed fusion process: A brief review</title>
+		<author>
+			<persName><forename type="first">Dev</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mahender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matpr.2020.08.415</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Today Proc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="350" to="355" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dev Singh, D.; Mahender, T.; Reddy, A.R. Powder bed fusion process: A brief review. Mater. Today Proc. 2021, 46, 350-355. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Bone tissue engineering using polycaprolactone scaffolds fabricated via selective laser sintering</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adewunmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Schek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Krebsbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Feinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hollister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2004.11.057</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="4817" to="4827" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams, J.M.; Adewunmi, A.; Schek, R.M.; Flanagan, C.L.; Krebsbach, P.H.; Feinberg, S.E.; Hollister, S.J.; Das, S. Bone tissue engineering using polycaprolactone scaffolds fabricated via selective laser sintering. Biomaterials 2005, 26, 4817-4827. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Avidin-biotin binding-based cell seeding and perfusion culture of liver-derived cells in a porous scaffold with a three-dimensional interconnected flow-channel network</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Oizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sakai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2007.05.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3815" to="3823" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, H.; Oizumi, S.; Kojima, N.; Niino, T.; Sakai, Y. Avidin-biotin binding-based cell seeding and perfusion culture of liver-derived cells in a porous scaffold with a three-dimensional interconnected flow-channel network. Biomaterials 2007, 28, 3815-3823. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Evaluating the effect of increasing ceramic content on the mechanical properties, material microstructure and degradation of selective laser sintered polycaprolactone/β-tricalcium phosphate materials</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lohfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mchugh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.medengphy.2015.05.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Eng. Phys</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="767" to="776" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doyle, H.; Lohfeld, S.; McHugh, P. Evaluating the effect of increasing ceramic content on the mechanical properties, material microstructure and degradation of selective laser sintered polycaprolactone/β-tricalcium phosphate materials. Med. Eng. Phys. 2015, 37, 767-776. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Clinical grade manufacture of 3D printed patient specific biodegradable devices for pediatric airway support</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ramaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Landry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sashidharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Crotts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Maher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Goudy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hollister</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2022.121702</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page">121702</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ramaraju, H.; Landry, A.M.; Sashidharan, S.; Shetty, A.; Crotts, S.J.; Maher, K.O.; Goudy, S.L.; Hollister, S.J. Clinical grade manufacture of 3D printed patient specific biodegradable devices for pediatric airway support. Biomaterials 2022, 289, 121702. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">3D Printing of Poly-ε-Caprolactone (PCL) Auxetic Implants with Advanced Performance for Large Volume Soft Tissue Engineering</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Rutledge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hollister</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.202215220</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">2215220</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Park, J.H.; Park, H.-J.; Tucker, S.J.; Rutledge, S.K.; Wang, L.; Davis, M.E.; Hollister, S.J. 3D Printing of Poly-ε-Caprolactone (PCL) Auxetic Implants with Advanced Performance for Large Volume Soft Tissue Engineering. Adv. Funct. Mater. 2023, 33, 2215220. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Integrating Image-Based Design and 3D Biomaterial Printing to create Patient Specific Devices within a Design Control Framework for Clinical Translation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hollister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Green</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsbiomaterials.6b00332</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Biomater. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1827" to="1836" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hollister, S.J.; Flanagan, C.L.; Morrison, R.J.; Patel, J.J.; Wheeler, M.B.; Edwards, S.P.; Green, G.E. Integrating Image-Based Design and 3D Biomaterial Printing to create Patient Specific Devices within a Design Control Framework for Clinical Translation. ACS Biomater. Sci. Eng. 2016, 2, 1827-1836. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Delivering Proangiogenic Factors from 3D-Printed Polycaprolactone Scaffolds for Vascularized Bone Regeneration</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adhm.202000727</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Healthc. Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2000727</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, H.; Du, Y.; Yang, G.; Hu, X.; Wang, L.; Liu, B.; Wang, J.; Zhang, S. Delivering Proangiogenic Factors from 3D-Printed Polycaprolactone Scaffolds for Vascularized Bone Regeneration. Adv. Healthc. Mater. 2020, 9, e2000727. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Biomechanical performances of PCL/HA micro-and macro-porous lattice scaffolds fabricated via laser powder bed fusion for bone tissue engineering</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Gatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Giuliani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bloise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fassina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Visai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mengucci</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2021.112300</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C Mater. Biol. Appl</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page">112300</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gatto, M.L.; Furlani, M.; Giuliani, A.; Bloise, N.; Fassina, L.; Visai, L.; Mengucci, P. Biomechanical performances of PCL/HA micro-and macro-porous lattice scaffolds fabricated via laser powder bed fusion for bone tissue engineering. Mater. Sci. Eng. C Mater. Biol. Appl. 2021, 128, 112300. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Poly-epsilon-caprolactone/hydroxyapatite for tissue engineering scaffold fabrication via selective laser sintering</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Wiria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actbio.2006.07.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wiria, F.E.; Leong, K.F.; Chua, C.K.; Liu, Y. Poly-epsilon-caprolactone/hydroxyapatite for tissue engineering scaffold fabrication via selective laser sintering. Acta Biomater. 2007, 3, 1-12. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Selective laser sintering fabrication of nano-hydroxyapatite/polyepsilon-caprolactone scaffolds for bone tissue engineering applications</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.2147/IJN.S50685</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Nanomed</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="4197" to="4213" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xia, Y.; Zhou, P.; Cheng, X.; Xie, Y.; Liang, C.; Li, C.; Xu, S. Selective laser sintering fabrication of nano-hydroxyapatite/poly- epsilon-caprolactone scaffolds for bone tissue engineering applications. Int. J. Nanomed. 2013, 8, 4197-4213. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Microsphere-based selective laser sintering for building macroporous bone scaffolds with controlled microstructure and excellent biocompatibility</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfb.2015.06.074</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf. B Biointerfaces</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="81" to="89" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Du, Y.; Liu, H.; Shuang, J.; Wang, J.; Ma, J.; Zhang, S. Microsphere-based selective laser sintering for building macroporous bone scaffolds with controlled microstructure and excellent biocompatibility. Colloids Surf. B Biointerfaces 2015, 135, 81-89. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Selective laser sintering scaffold with hierarchical architecture and gradient composition for osteochondral repair in rabbits</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Mikos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2017.05.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="37" to="48" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Du, Y.; Liu, H.; Yang, Q.; Wang, S.; Wang, J.; Ma, J.; Noh, I.; Mikos, A.G.; Zhang, S. Selective laser sintering scaffold with hierarchical architecture and gradient composition for osteochondral repair in rabbits. Biomaterials 2017, 137, 37-48. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Integrated polycaprolactone microsphere-based scaffolds with biomimetic hierarchy and tunable vascularization for osteochondral repair</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actbio.2022.01.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="190" to="197" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gu, X.; Zha, Y.; Li, Y.; Chen, J.; Liu, S.; Du, Y.; Zhang, S.; Wang, J. Integrated polycaprolactone microsphere-based scaffolds with biomimetic hierarchy and tunable vascularization for osteochondral repair. Acta Biomater. 2022, 141, 190-197. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">An investigation into the mechanisms of self-emulsification using particle size analysis and low frequency dielectric spectroscopy</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Q M</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Banning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Booth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0378-5173(94)00222-Q</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Pharm</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="103" to="110" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Craig, D.Q.M.; Barker, S.A.; Banning, D.; Booth, S.W. An investigation into the mechanisms of self-emulsification using particle size analysis and low frequency dielectric spectroscopy. Int. J. Pharm. 1995, 114, 103-110. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<monogr>
+		<idno>GB/T 31057</idno>
+		<title level="m">Granular Materials-Physical Properties-Part 3: Fluidity Index</title>
+		<meeting><address><addrLine>Beijing, China</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="3" to="2018" />
+		</imprint>
+		<respStmt>
+			<orgName>Standardization Administration</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">GB/T 31057.3-2018; Granular Materials-Physical Properties-Part 3: Fluidity Index. Standardization Administration: Beijing, China, 2008.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Evaluating flow properties of solids</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Carr</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/archopht.1965.00970040165007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eng</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="163" to="168" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carr, R.L. Evaluating flow properties of solids. Chem. Eng. 1965, 72, 163-168. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<monogr>
+		<title level="m">Plastics-Determination of Compressive Properties</title>
+		<meeting><address><addrLine>ISO; Geneva, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Plastics-Determination of Compressive Properties. ISO: Geneva, Switzerland, 2022.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Material Evaluation and Process Optimization of CNT-Coated Polymer Powders for Selective Laser Sintering</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/polym8100370</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Polymers</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">370</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuan, S.; Bai, J.; Chua, C.K.; Wei, J.; Zhou, K. Material Evaluation and Process Optimization of CNT-Coated Polymer Powders for Selective Laser Sintering. Polymers 2016, 8, 370. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Laser sintering of polyamides and other polymers</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Goodridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J M</forename><surname>Hague</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2011.04.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="229" to="267" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goodridge, R.D.; Tuck, C.J.; Hague, R.J.M. Laser sintering of polyamides and other polymers. Prog. Mater. Sci. 2012, 57, 229-267. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Confined and Directed Polymer Crystallization at Curved Liquid/Liquid Interface</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Staub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/macp.201700455</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromol. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="page">1700455</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Staub, M.C.; Li, C.Y. Confined and Directed Polymer Crystallization at Curved Liquid/Liquid Interface. Macromol. Chem. Phys. 2018, 219, 1700455. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Highly robust crystalsome via directed polymer crystallization at curved liquid/liquid interface</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jinnai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms10599</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10599</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, W.; Qi, H.; Zhou, T.; Mei, S.; Han, L.; Higuchi, T.; Jinnai, H.; Li, C.Y. Highly robust crystalsome via directed polymer crystallization at curved liquid/liquid interface. Nat. Commun. 2016, 7, 10599. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Characterization of powder flowability using measurement of angle of repose</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Geldart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Abdullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hassanpour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Nwoke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wouters</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1672-2515(07)60247-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">China Particuology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="104" to="107" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Geldart, D.; Abdullah, E.C.; Hassanpour, A.; Nwoke, L.C.; Wouters, I. Characterization of powder flowability using measurement of angle of repose. China Particuology 2006, 4, 104-107. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Comparative study on the selective laser sintering of polypropylene homopolymer and copolymer: Processability, crystallization kinetics, crystal phases and mechanical properties</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sagar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2020.101610</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">101610</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tan, L.J.; Zhu, W.; Sagar, K.; Zhou, K. Comparative study on the selective laser sintering of polypropylene homopolymer and copolymer: Processability, crystallization kinetics, crystal phases and mechanical properties. Addit. Manuf. 2021, 37, 101610. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">A review of the process physics and material screening methods for polymer powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Chatham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.progpolymsci.2019.03.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Polym. Sci</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="68" to="95" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chatham, C.A.; Long, T.E.; Williams, C.B. A review of the process physics and material screening methods for polymer powder bed fusion additive manufacturing. Prog. Polym. Sci. 2019, 93, 68-95. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Silica Nanoparticles as Glidants for Industrial Processing: A Statistical Approach</title>
+		<author>
+			<persName><forename type="first">Jiménez</forename><surname>Garavito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-C.; Cares</forename><surname>Pacheco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-G</forename><surname>Gerardin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Falk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.iecr.2c02455</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Eng. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="16517" to="16528" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jiménez Garavito, M.-C.; Cares Pacheco, M.-G.; Gerardin, F.; Falk, V. Silica Nanoparticles as Glidants for Industrial Processing: A Statistical Approach. Ind. Eng. Chem. Res. 2022, 61, 16517-16528. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Effect of Molecular Weight on the Crystallization and Melt Memory of Poly(ε-caprolactone) (PCL)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fernández-Tena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Pérez-Camargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Coulembier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sangroniz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aranburu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guerrica-Echevarria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cavallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Müller</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.3c00234</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="4602" to="4620" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fernández-Tena, A.; Pérez-Camargo, R.A.; Coulembier, O.; Sangroniz, L.; Aranburu, N.; Guerrica-Echevarria, G.; Liu, G.; Wang, D.; Cavallo, D.; Müller, A.J. Effect of Molecular Weight on the Crystallization and Melt Memory of Poly(ε-caprolactone) (PCL). Macromolecules 2023, 56, 4602-4620. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Crystallization and Homogeneous Nucleation Kinetics of Poly(ε-caprolactone) (PCL) with Different Molar Masses</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wurm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zhuravlev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Eckstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jehnichen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pospiech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Androsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wunderlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schick</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma300363b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="3816" to="3828" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wurm, A.; Zhuravlev, E.; Eckstein, K.; Jehnichen, D.; Pospiech, D.; Androsch, R.; Wunderlich, B.; Schick, C. Crystallization and Homogeneous Nucleation Kinetics of Poly(ε-caprolactone) (PCL) with Different Molar Masses. Macromolecules 2012, 45, 3816-3828. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Microparticle formation and its mechanism in single and double emulsion solvent evaporation</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Rosca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Watari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jconrel.2004.07.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Control. Release</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="271" to="280" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosca, I.D.; Watari, F.; Uo, M. Microparticle formation and its mechanism in single and double emulsion solvent evaporation. J. Control. Release 2004, 99, 271-280. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Morphological features and melting behavior of nanocomposites based on isotactic polypropylene and multiwalled carbon nanotubes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Avila-Orta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Medellín-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Dávila-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Aguirre-Figueroa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Hsiao</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/app.26823</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Polym. Sci</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="2640" to="2647" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Avila-Orta, C.A.; Medellín-Rodríguez, F.J.; Dávila-Rodríguez, M.V.; Aguirre-Figueroa, Y.A.; Yoon, K.; Hsiao, B.S. Morphological features and melting behavior of nanocomposites based on isotactic polypropylene and multiwalled carbon nanotubes. J. Appl. Polym. Sci. 2007, 106, 2640-2647. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Polycaprolactone nanocomposite reinforced by bioresource starch-based nanoparticles</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijbiomac.2017.05.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biol. Macromol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="1304" to="1311" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kong, J.; Yu, Y.; Pei, X.; Han, C.; Tan, Y.; Dong, L. Polycaprolactone nanocomposite reinforced by bioresource starch-based nanoparticles. Int. J. Biol. Macromol. 2017, 102, 1304-1311. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Fabrication of highly porous poly (ε-caprolactone) fibers for novel tissue scaffold via water-bath electrospinning</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Pant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Neupane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Panthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfb.2011.07.045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf. B Biointerfaces</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="587" to="592" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pant, H.R.; Neupane, M.P.; Pant, B.; Panthi, G.; Oh, H.-J.; Lee, M.H.; Kim, H.Y. Fabrication of highly porous poly (ε-caprolactone) fibers for novel tissue scaffold via water-bath electrospinning. Colloids Surf. B Biointerfaces 2011, 88, 587-592. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Recent Progress on Polymer Materials for Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.202003062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">2003062</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tan, L.J.; Zhu, W.; Zhou, K. Recent Progress on Polymer Materials for Additive Manufacturing. Adv. Funct. Mater. 2020, 30, 2003062. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Development of poly(ε-polycaprolactone)/hydroxyapatite composites for bone tissue regeneration</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Backes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A G</forename><surname>Beatrice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M B</forename><surname>Shimomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Harb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Pachane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Selistre-De-Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Passador</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Pessan</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/s43578-021-00316-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="3050" to="3062" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Backes, E.H.; Beatrice, C.A.G.; Shimomura, K.M.B.; Harb, S.V.; Pachane, B.C.; Selistre-de-Araujo, H.S.; Costa, L.C.; Passador, F.R.; Pessan, L.A. Development of poly(ε-polycaprolactone)/hydroxyapatite composites for bone tissue regeneration. J. Mater. Res. 2021, 36, 3050-3062. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Thermal, and Mechanical Properties of Melt-Processed Poly (ε-Caprolactone) (PCL)/Hydroxyapatite (HAP) Composites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Motloung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Mofokeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Viscoelastic</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma15010104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">104</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Motloung, M.P.; Mofokeng, T.G.; Ray, S.S. Viscoelastic, Thermal, and Mechanical Properties of Melt-Processed Poly (ε- Caprolactone) (PCL)/Hydroxyapatite (HAP) Composites. Materials 2021, 15, 104. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Polydopamine constructed interfacial molecular bridge in nano-hydroxylapatite/polycaprolactone composite scaffold</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shuai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfb.2022.112668</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf. B Biointerfaces</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page">112668</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feng, P.; Qiu, X.; Yang, L.; Liu, Q.; Zhou, C.; Hu, Y.; Shuai, C. Polydopamine constructed interfacial molecular bridge in nano-hydroxylapatite/polycaprolactone composite scaffold. Colloids Surf. B Biointerfaces 2022, 217, 112668. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Effect of hydroxyapatite nano-particles on morphology, rheology and thermal behavior of poly(caprolactone)/chitosan blends</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Ghorbani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kaffashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shokrollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akhlaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Hedenqvist</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2015.10.076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="980" to="989" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ghorbani, F.M.; Kaffashi, B.; Shokrollahi, P.; Akhlaghi, S.; Hedenqvist, M.S. Effect of hydroxyapatite nano-particles on morphology, rheology and thermal behavior of poly(caprolactone)/chitosan blends. Mater. Sci. Eng. C 2016, 59, 980-989. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">A targeted material selection process for polymers in laser sintering</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Vasquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Majewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Haworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hopkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2014.09.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="127" to="138" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vasquez, G.M.; Majewski, C.E.; Haworth, B.; Hopkinson, N. A targeted material selection process for polymers in laser sintering. Addit. Manuf. 2014, 1-4, 127-138. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Cholecalciferol as Bioactive Plasticizer of High Molecular Weight Poly (D,L-Lactic Acid) Scaffolds for Bone Regeneration</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Calore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hadavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Honing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Albillos-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bernaerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moroni</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ten.tec.2022.0041</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tissue Eng. Part C Methods</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="335" to="350" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calore, A.R.; Hadavi, D.; Honing, M.; Albillos-Sanchez, A.; Mota, C.; Bernaerts, K.; Harings, J.; Moroni, L. Cholecalciferol as Bioactive Plasticizer of High Molecular Weight Poly (D,L-Lactic Acid) Scaffolds for Bone Regeneration. Tissue Eng. Part C Methods 2022, 28, 335-350. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Characterization of polyamide powders for determination of laser sintering processability</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Verbelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dadbakhsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Den Eynde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goderis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Puyvelde</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eurpolymj.2015.12.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Polym. J</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="163" to="174" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verbelen, L.; Dadbakhsh, S.; Van den Eynde, M.; Kruth, J.-P.; Goderis, B.; Van Puyvelde, P. Characterization of polyamide powders for determination of laser sintering processability. Eur. Polym. J. 2016, 75, 163-174. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Porous polycaprolactone scaffold for cardiac tissue engineering fabricated by selective laser sintering</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Yeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sudarmadji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Venkatraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Boey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actbio.2009.12.033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2028" to="2034" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yeong, W.Y.; Sudarmadji, N.; Yu, H.Y.; Chua, C.K.; Leong, K.F.; Venkatraman, S.S.; Boey, Y.C.; Tan, L.P. Porous polycaprolactone scaffold for cardiac tissue engineering fabricated by selective laser sintering. Acta Biomater. 2010, 6, 2028-2034. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Polymer Fiber Scaffolds for Bone and Cartilage Tissue Engineering</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201903279</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1903279</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, Y.; Liu, X.; Zeng, L.; Zhang, J.; Zuo, J.; Zou, J.; Ding, J.; Chen, X. Polymer Fiber Scaffolds for Bone and Cartilage Tissue Engineering. Adv. Funct. Mater. 2019, 29, 1903279. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Topological design and additive manufacturing of porous metals for bone scaffolds and orthopaedic implants: A review</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Choong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Xie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2016.01.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="127" to="141" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X.; Xu, S.; Zhou, S.; Xu, W.; Leary, M.; Choong, P.; Qian, M.; Brandt, M.; Xie, Y.M. Topological design and additive manufacturing of porous metals for bone scaffolds and orthopaedic implants: A review. Biomaterials 2016, 83, 127-141. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Fabrication of three-dimensional polycaprolactone/hydroxyapatite tissue scaffolds and osteoblast-scaffold interactions in vitro</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guceri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gandhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2007.08.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="5291" to="5297" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shor, L.; Guceri, S.; Wen, X.; Gandhi, M.; Sun, W. Fabrication of three-dimensional polycaprolactone/hydroxyapatite tissue scaffolds and osteoblast-scaffold interactions in vitro. Biomaterials 2007, 28, 5291-5297. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Interaction of cell culture with composition effects on the mechanical properties of polycaprolactone-hydroxyapatite scaffolds fabricated via selective laser sintering (SLS)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eosoly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Vrana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lohfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hindie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Looney</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2012.06.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="2250" to="2257" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eosoly, S.; Vrana, N.E.; Lohfeld, S.; Hindie, M.; Looney, L. Interaction of cell culture with composition effects on the mechanical properties of polycaprolactone-hydroxyapatite scaffolds fabricated via selective laser sintering (SLS). Mater. Sci. Eng. C 2012, 32, 2250-2257. [CrossRef</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content</title>
+	</analytic>
+	<monogr>
+		<title level="m">Disclaimer/Publisher&apos;s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Disclaimer/Publisher&apos;s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

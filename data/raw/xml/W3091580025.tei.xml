@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Crystallographic orientation control of pure chromium via laser powder bed fusion and improved high temperature oxidation resistance</title>
+				<funder ref="#_Aeq5nvV">
+					<orgName type="full">Japan Society for the Promotion of Science</orgName>
+					<orgName type="abbreviated">JSPS</orgName>
+				</funder>
+				<funder ref="#_CFdrGPy">
+					<orgName type="full">Japan Science and Technology Agency</orgName>
+					<orgName type="abbreviated">JST</orgName>
+				</funder>
+				<funder ref="#_hN7CUFE">
+					<orgName type="full">Cross-Ministerial Strategic Innovation Promotion Program</orgName>
+					<orgName type="abbreviated">SIP</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>1 October 2020 2214</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Ozkan</forename><surname>Gokcekaya</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Division of Materials and Manufacturing Science , Graduate School of Engineering , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department" key="dep1">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Anisotropic Design &amp; Additive Manufacturing Research Center , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department">Anisotropic Design &amp; Additive Manufacturing Research Center</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Naohiro</forename><surname>Hayashi</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Department of Materials Processing , Tohoku University , 6-6-02 Aza Aoba , Aramaki , Aoba-ku , Sendai , Miyagi 980-8579 , Japan</note>
+								<orgName type="department">Department of Materials Processing</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<addrLine>6-6-02 Aza Aoba Aramaki Aoba-ku</addrLine>
+									<postCode>980-8579</postCode>
+									<settlement>Sendai</settlement>
+									<region>Miyagi</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takuya</forename><surname>Ishimoto</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Division of Materials and Manufacturing Science , Graduate School of Engineering , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department" key="dep1">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Anisotropic Design &amp; Additive Manufacturing Research Center , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department">Anisotropic Design &amp; Additive Manufacturing Research Center</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kyosuke</forename><surname>Ueda</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Department of Materials Processing , Tohoku University , 6-6-02 Aza Aoba , Aramaki , Aoba-ku , Sendai , Miyagi 980-8579 , Japan</note>
+								<orgName type="department">Department of Materials Processing</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<addrLine>6-6-02 Aza Aoba Aramaki Aoba-ku</addrLine>
+									<postCode>980-8579</postCode>
+									<settlement>Sendai</settlement>
+									<region>Miyagi</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Division of Materials and Manufacturing Science , Graduate School of Engineering , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan.</note>
+								<orgName type="department">Graduate School of Engineering</orgName>
+								<orgName type="laboratory">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takayuki</forename><surname>Narushima</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Department of Materials Processing , Tohoku University , 6-6-02 Aza Aoba , Aramaki , Aoba-ku , Sendai , Miyagi 980-8579 , Japan</note>
+								<orgName type="department">Department of Materials Processing</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<addrLine>6-6-02 Aza Aoba Aramaki Aoba-ku</addrLine>
+									<postCode>980-8579</postCode>
+									<settlement>Sendai</settlement>
+									<region>Miyagi</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Takayoshi</forename><surname>Nakano</surname></persName>
+							<email>nakano@mat.eng.osaka-u.ac.jp</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Division of Materials and Manufacturing Science , Graduate School of Engineering , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department" key="dep1">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Anisotropic Design &amp; Additive Manufacturing Research Center , Osaka University , 2-1 , Yamadaoka , Suita , Osaka 565-0871 , Japan</note>
+								<orgName type="department">Anisotropic Design &amp; Additive Manufacturing Research Center</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Yamadaoka Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Crystallographic orientation control of pure chromium via laser powder bed fusion and improved high temperature oxidation resistance</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">1 October 2020 2214</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">65CEDD190FA0DC03269088F55FAAC2CF</idno>
+					<idno type="DOI">10.1016/j.addma.2020.101624</idno>
+					<note type="submission">Received 16 June 2020; Received in revised form 31 August 2020; Accepted 15 September 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-19T23:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Chromium Laser powder bed fusion High-temperature oxidation Crystallographic texture Microstructure Grain boundary</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>This is the first comprehensive study on the development of a cubic crystallographic texture in pure chromium (Cr) manufactured using laser powder bed fusion (LPBF) with different laser energy densities to alter its microstructure and high-temperature oxidation behavior.</s><s>An increase in the laser energy density led to the formation of a strong crystallographic texture, which was preferentially oriented in the (100) plane, and there were microstructural improvements in the pure Cr.</s><s>The grain size of the (100)-oriented Cr was larger than that of the randomly oriented Cr.</s><s>In addition, the high-angle grain boundary and coincident site lattice (CSL) boundary characteristics were altered.</s><s>The (100)-oriented Cr exhibited a decrease in the oxide thickness that was due to the decrease in the grain boundary density with a larger grain size and an increase in the CSL boundary ratio.</s><s>In contrast, the Cr with a random texture showed higher oxidation kinetics and spallation of the oxide layer.</s><s>The oxidation kinetics of the pure Cr manufactured using LPBF obeyed the parabolic rate law.</s><s>However, the crystal orientation affected the oxidation of the Cr as the (100)-oriented pure Cr displayed a lower parabolic rate constant, indicating that the (100)-oriented Cr was oxidation-resistant.</s><s>This is the first report to demonstrate the cubic crystallographic texture formation and the improvement of high-temperature oxidation resistance in Cr manufactured using LPBF.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>The increased efficiency associated with high operating temperature applications has prompted researchers to search for new materials that can be used at temperatures above the useful limit of nickel-based superalloys.</s><s>Chromium (Cr) metal and its alloys have been investigated in this regard because of their high melting point, good oxidation resistance, low density (20% less than most nickel-based superalloys), and high thermal conductivity (2-4 times higher than most superalloys) for high-temperature applications such as jet engines <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>.</s></p><p><s>Many high-temperature alloys rely on the development of a chromiacontaining scale for protection against oxidation and corrosion <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>.</s><s>Oxidation of pure Cr and Fe-Cr systems in different environments has been described in several studies <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>.</s><s>These studies have resulted in models as behaving similarly to Fe, forming a weak protective scale, or forming a protective scale similar to that of pure Cr.</s></p><p><s>The more stringent requirements on the lifetime and efficiency of parts used at high temperatures <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>, such as gas turbines, cannot only be addressed by improving the material selection, but also by designing parts that have more effective cooling channels for circulating a refrigerant fluid.</s><s>Additive manufacturing (AM) technology has been developed to fabricate complex-structured components in a short time at low cost <ref type="bibr" target="#b9">[10]</ref>.</s><s>In this study, laser powder bed fusion (LPBF), which is a widely used metal AM process, was applied to the manufacturing of pure Cr.</s><s>This allows the production of parts with a near-net-shape directly from metallic powder material.</s><s>Furthermore, LPBF has been reported to enable microstructure control characterized by crystallographic orientations varying from randomly oriented polycrystalline to highly texturized single crystalline-like microstructures <ref type="bibr" target="#b10">[11]</ref>.</s><s>This is achieved by the regulation of thermal gradients, direction, and the rate of solid--liquid interface migration under different laser scanning conditions.</s><s>Additionally, LPBF technology has enabled the design of products with superior properties by tailoring the microstructure of various metallic materials <ref type="bibr" target="#b11">[12]</ref> such as nickel-based alloys <ref type="bibr" target="#b12">[13]</ref>, cobalt-based alloys <ref type="bibr" target="#b13">[14]</ref>, titanium alloys <ref type="bibr" target="#b14">[15]</ref>, aluminum alloys <ref type="bibr" target="#b15">[16]</ref>, and steel <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b16">17]</ref>.</s><s>However, to our knowledge, there have been no reports concerning LPBF processing of pure Cr.</s></p><p><s>Regarding the industrialization of pure Cr, it is important to study the oxidation behavior that occurs during atmospheric heating in a hot working environment.</s><s>Generally, the oxidation resistance depends on the protective property of the oxide layer that is formed on the surface in an oxidizing atmosphere.</s><s>However, the formation of the oxide layer varies significantly with the microstructure, chemical composition, and surface condition of the material <ref type="bibr" target="#b17">[18]</ref>.</s><s>Therefore, various methods have been proposed to enhance the oxidation resistance by altering the chemical composition <ref type="bibr" target="#b18">[19]</ref>, changing the structure of the alloy <ref type="bibr" target="#b19">[20]</ref>, or controlling the microstructure (e.g., grain size, grain boundary character, and crystallographic orientation) <ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>.</s></p><p><s>Consequently, the effects of the chemical composition <ref type="bibr" target="#b23">[24]</ref>, grain size <ref type="bibr" target="#b24">[25]</ref>, grain boundary character <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref>, and crystallographic orientation <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref> on the oxidation behavior have been investigated for a variety of materials.</s><s>Taneichi et al. <ref type="bibr" target="#b23">[24]</ref> compared the oxidation behavior of both pure Cr and Cr alloyed with Fe and Ni, reporting that the oxidation progressed with a similar parabolic rate constant, although the alloys were not additively manufactured materials.</s><s>The formation of a Cr oxide layer depends on the Cr content in the specimen.</s><s>Chevalier <ref type="bibr" target="#b29">[30]</ref> reported that a critical amount of Cr is needed for an alloy to form a homogeneous and continuous protective Cr oxide layer.</s><s>Wang et al. <ref type="bibr" target="#b24">[25]</ref> studied these phenomena to determine the effect of the grain sizes on the oxidation behavior in alloys with differing Cr content.</s><s>In addition, the promotion of Cr diffusion in low Cr alloys was also reported, owing to the high-angle grain boundary density resulted from a decrease in grain size <ref type="bibr" target="#b24">[25]</ref>.</s><s>Kong et al. investigated the effect of the laser energy density on the microstructure of 316L stainless steel fabricated by LPBF <ref type="bibr" target="#b30">[31]</ref>.</s><s>They concluded that the improvement in biofunctionality and corrosion behavior of the material is due to the increase in grain size resulting from a high laser energy input <ref type="bibr" target="#b30">[31]</ref>.</s></p><p><s>As mentioned, the grain size of the specimen plays an important role in the oxidation behavior because it affects the amount of Cr diffusion to the surface along the grain boundary and through intragranular ion transfer <ref type="bibr" target="#b31">[32]</ref>.</s><s>The grain size, grain boundary density, and grain boundary character distribution (GBCD), which all affect the oxidation behavior of the material <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b32">33]</ref> should also be considered.</s><s>In addition to the high-angle grain boundary (HAGB) density, Tan et al. <ref type="bibr" target="#b33">[34]</ref> reported that by engineering the microstructure, a higher fraction of special boundaries (coincidence site lattice, CSL; ∑ ≤29) are obtained, leading to an increased intergranular oxidation resistance.</s><s>Furthermore, Yamaura et al. studied the oxidation of individual ∑ boundaries and showed that boundaries with relative orientations closer to low ∑ boundaries are more resistant to oxidation than random boundaries <ref type="bibr" target="#b34">[35]</ref>.</s><s>On the other hand, oxidation studies on single crystals of Fe <ref type="bibr" target="#b35">[36]</ref>, Cu <ref type="bibr" target="#b36">[37]</ref>, Ni <ref type="bibr" target="#b37">[38]</ref>, and Fe-Ni alloys <ref type="bibr" target="#b38">[39]</ref> have shown that the oxidation rate depends on the crystallographic orientation.</s><s>In their investigation of Cr oxidation behavior, Caplan and Sproule <ref type="bibr" target="#b39">[40]</ref> showed that some oriented Cr grains led to the growth of a thin and monocrystalline oxide, while others developed thicker polycrystalline oxides.</s></p><p><s>From the aforementioned studies, it is evident that the material chemistry, crystal orientation, grain size, grain boundary density, and characteristics of the grain boundary have a significant influence on the oxidation behavior of metallic material.</s><s>In this study, crystallographic textured pure Cr was fabricated using LPBF processing technology, which provides the advantage of controlling the preferential alignment of the crystal orientation.</s><s>To the authors' knowledge, there have been no reports on the crystallographic texture formation of pure Cr by LPBF and its oxidation behavior.</s><s>The high-temperature oxidation behavior of the crystallographic textured Cr specimens was investigated with respect to the crystal orientation, grain size, HAGB density, and GBCD.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Pure Cr fabrication via LPBF</head><p><s>Pure Cr powder (&gt;99% purity, JFE Material, Japan), as shown in Fig. <ref type="figure" target="#fig_0">1(a)</ref>, was used in this study.</s><s>The particle size distributions were measured using a Mastersizer 3000E particle size analyzer (Malvern Panalytical, UK) (Fig. <ref type="figure" target="#fig_0">1(b)</ref>).</s><s>The volume weighted percentiles of the Cr powder were D 10 = 29.7 µm, D 50 = 44.8</s><s>µm, and D 90 = 66.6 µm.</s><s>In order to assess the flowability and estimate the homogeneity of the powder bed, the avalanche angle and surface fractal were analyzed using the Revolution Powder Analyzer (Mercury Scientific, US).</s><s>The avalanche angle and surface fractal for the pure Cr powder were 52.8 • and 1.95, respectively; those for commercial Ti6Al4V spherical powders (EOS, Germany), used as a reference, were 39.2 • and 1.73.</s></p><p><s>An LPBF-machine (EOS M290, Germany) equipped with a 400 W Yb laser was used to manufacture the Cr specimens.</s><s>Specimens with dimensions of 10 mm × 10 mm × 5 mm along the x-, y-, and z-axes, respectively, were fabricated using a 316 L stainless steel baseplate.</s><s>The process parameters for the fabrication of the Cr specimens included a fixed layer thickness (h), laser power (P), and hatch spacing (d) of 20 µm, 250 W, and 80 µm, respectively.</s><s>The scan speed (v) was varied within the range of 500-1000 mm/s.</s><s>The areal laser energy density (E) of the fabrication conditions is defined by Eq. ( <ref type="formula" target="#formula_0">1</ref>) <ref type="bibr" target="#b40">[41]</ref> as</s></p><formula xml:id="formula_0">E = P νd (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>The calculated energy densities were 6.2, 5.2, 3.9, and 3.1 J/mm 2 which are referred to as E6, E5, E4, and E3, respectively.</s><s>Note that in specimen E6, a (100)-oriented texture evolved, so we will refer to it herein as LPBF (100).</s><s>An almost random crystallographic texture developed in E3, so we will refer to it as LPBF-R.</s></p><p><s>The building stage was pre-heated to 353 K and the building chamber was filled with high-purity argon gas to maintain an oxygen content below 100 ppm.</s><s>A meander scan strategy with the scan lines spanning the entire 10 mm length was used, and the laser scanning direction was rotated by 90 • between adjacent layers (Fig. <ref type="figure" target="#fig_1">2(a)</ref>) to minimize the internal residual stress <ref type="bibr" target="#b41">[42]</ref> and/or promote crystallographic texture formation with sufficient intensity <ref type="bibr" target="#b12">[13]</ref>.</s><s>The typical appearance of the fabricated specimen is shown in Fig. <ref type="figure" target="#fig_0">1(c</ref>).</s><s>No major defects or swelling are evident.</s><s>After fabrication, the specimens were separated from the baseplate using an electrical discharge machine (DKV7732, Tainatec, Japan).</s><s>The density was measured based on Archimedes' principle (LA310S, Sartorius, Germany) <ref type="bibr" target="#b42">[43]</ref> using ethanol (99.5% purity, Wako, Japan) at room temperature.</s><s>The room temperature was constantly measured to correct for the density of ethanol.</s><s>To evaluate the relative density, the theoretical density of pure Cr (at room temperature), 7.19 g/cm 3 , was used.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">High-temperature oxidation</head><p><s>Three specimens with dimensions of approximately 5 mm × 10 mm × 1.5 mm were sliced from the as-fabricated Cr specimens (Fig. <ref type="figure" target="#fig_1">2(b)</ref>) using a fine-cutter (HS-45A, Heiwa Technica, Japan) for the hightemperature oxidation test.</s><s>Before the oxidation test, the surfaces of the specimens were mechanically ground with SiC paper up to #1000 and mirror polished with an alumina suspension (AP-D Powder 0.3 µm, Struers, Denmark).</s><s>The dimensions and mass of the specimens were measured, followed by successive ultrasonic cleaning with ethanol (99.5% purity, Wako, Japan) and deionized ultrapure water (Direct-Q UV, Merck, Germany).</s><s>The Cr concentration was measured using an energy dispersive X-ray spectroscope (EDS) (AZtec 3.1, Oxford Instruments, UK) mounted on a field-emission scanning electron microscope (FE-SEM) (JIB-4610 F, JEOL, Japan) operated at 20 kV, confirming that there was no significant Cr dilution due to contaminant elements from the baseplate.</s><s>High-temperature oxidation experiments were conducted at 1073 K with a muffle furnace (KBF828N, Koyo Thermo Systems, Japan).</s><s>The Cr specimens were placed on a silica dish and, after the temperature of the furnace was stabilized, inserted into the furnace.</s><s>The high-temperature oxidation periods varied from 21.6 to 86.4 ks, and the specimens were removed from the furnace and air-cooled to room temperature.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Characterization</head><p><s>Phase analysis of the as-fabricated specimens and oxidized specimens was performed using X-ray diffraction (XRD, RINT-2500 V, Rigaku, Japan) using Cu Kα radiation with a wavelength of 0.154 nm.</s><s>The XRD data were obtained through point scanning in the 2θ angular range from 30 • to 90 • for the as-fabricated specimens and 30 • to 60 • for the oxidized specimens, with a step size of 0.02 • and a scan time of 2 s per step at room temperature.</s><s>To identify the phases present, the signature peaks of the phases were indexed with diffraction patterns of the corresponding phase by using the X ′ Pert HighScore Plus software (PANalytical, Netherlands).</s><s>To quantitatively evaluate the degree of (100) alignment in the as-fabricated Cr specimens, the Lotgering factor for the (100)-plane, L(100), was determined from the XRD peak profile by applying the following equation <ref type="bibr" target="#b43">[44]</ref>.</s></p><formula xml:id="formula_2">L(100) = A(h00) -B(h00) 1 -B(h00) (<label>2</label></formula><formula xml:id="formula_3">)</formula><p><s>where A(h00), and B(h00</s></p><formula xml:id="formula_4">) = ∑ Int(h00) ∑ Int(hkl) . (<label>3</label></formula><formula xml:id="formula_5">)</formula><p><s>In Eqs.</s><s>(2) and (3), A(h00) is the ratio of the XRD intensity for the (h00) reflection to the sum of the reflections in a scanned range obtained from the as-fabricated Cr specimens, and B(h00) is an equivalent value for randomly oriented Cr, according to the International Center for Diffraction Data (JCPDS), file No. 6-694.</s></p><p><s>Microstructural and crystallographic texture analyses of the asfabricated specimens fabricated with different energy densities were conducted to clarify the possible effect of the microstructural and crystallographic texture characteristics on oxidation behavior.</s><s>The microstructural characterization was conducted on the y-z plane (refer to Fig. <ref type="figure" target="#fig_1">2(a)</ref>), the same surface that was used for oxidation analysis.</s><s>The y-z cross section of the as-fabricated specimen was obtained by electrical discharge wire cutting.</s><s>The cross sections were mirror-polished as described in section 2.2 and observed using FE-SEM.</s><s>The crystallographic texture was examined using an electron backscatter diffraction system (EBSD, Nordlys Max 3 system, Oxford Instruments, UK) mounted on the FE-SEM, operated with a 20 kV accelerating voltage and a step size of 1 µm.</s><s>Then, HKL Channel 5 software (Oxford Instruments, UK) was used to clean the non-indexed pixels and visualize the obtained EBSD data.</s><s>From these results, the quantitative analysis of the grain orientation ratios, average grain size, grain size distribution, number fraction of GB, and CSL grain boundaries were measured for more than 1000 grains per map.</s><s>The Brandon criterion was considered for the CSL grain boundaries with ∑ ≤29 <ref type="bibr" target="#b44">[45]</ref>.</s><s>The oxide layers were also analyzed using FE-SEM to identify the surface morphology after oxidation.</s></p><p><s>A cross section of the oxide layer was investigated to determine the oxidation mechanism related to the crystallographic orientation of Cr.</s><s>The oxidized Cr specimens were embedded in a resin (PolyFast, Struers, Denmark).</s><s>The cross section of the oxide layer at the height of 2.5 mm from the top of the initial product was exposed using the fine-cutter, and the section was ground and polished with a diamond paste (DP-Paste P 1 µm, Struers, Denmark).</s><s>Cross-sectional observations were conducted using electron probe micro-analysis (EPMA, JXA-8530 F, JEOL, Japan) to investigate the chemical composition of the constituent reaction products and determine the oxide layer thickness.</s><s>A parabolic rate constant (k p ) for oxidation was calculated using the following equation  [24]:</s></p><formula xml:id="formula_6">d 2 = k p t (<label>4</label></formula><formula xml:id="formula_7">)</formula><p><s>where d is the oxide scale thickness and t is the time.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Statistical analysis</head><p><s>Quantitative results of the oxide layer thickness are expressed as the mean ± the standard deviation.</s><s>For the comparison of the data between the LPBF-(100) and LPBF-R specimens, a two-tailed t-test was used, and P &lt; 0.05 was considered statistically significant.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructure characteristics of LPBF-manufactured pure Cr</head><p><s>The fabricated pure Cr specimens reached a relative density of over 90%, which increased with an increase in energy density up to 95.47% relative density at the highest energy density used (Table <ref type="table" target="#tab_0">1</ref>).</s><s>Although the relative density should be improved for future industrial applications, the crystallographic texture formation and oxidation behavior were the focus of the present study.</s><s>To this end, a spherical powder with better flowability could increase the relative density of Cr.</s></p><p><s>The SEM micrographs of the y-z cross section of the as-fabricated Cr specimens, and XRD patterns of the Cr powder and as-fabricated Cr specimens measured in the same plane are shown in Fig. <ref type="figure" target="#fig_2">3</ref>.</s><s>The XRD results confirmed that the fabricated specimen consisted of pure Cr with a body-centered cubic (BCC) structure, without any additional phases.</s><s>The relative intensity of the (200) texture became prominent in the LPBF-fabricated specimens as a function of the energy density.</s><s>The evaluated L(100) values were 0.54, 0.28, 0.21, 0.15, and 0.13 for the specimens E6, E5, E4, E3, and Cr powders, respectively (Table <ref type="table" target="#tab_0">1</ref>), indicating that the strongest (100) crystallographic alignment developed under the fabrication with the highest energy density (specimen E6 (LPBF-(100)).</s><s>These results show that controlling the crystallographic texture of Cr specimens can be accomplished by controlling the laser energy density during LPBF fabrication.</s></p><p><s>The inverse pole figure (IPF) maps were colorized according to the crystallographic orientation in the x-direction and are shown in Fig. <ref type="figure" target="#fig_3">4</ref>, along with the related grain boundary (GB) maps, in which the HAGBs (15 • ≤ θ) are represented by the red lines, and the pole figures (PFs).</s><s>The cubic crystallographic texture in which the (100) orients along the x-, y-, and z-directions became prominent as a function of laser energy density, corresponding to the change in L(100).</s><s>The specimens E3 and E4 exhibited nearly random crystallographic textures.</s><s>For the specimen E5, the (100) aligned along the y-direction, while the crystal plane showed rotation between the x-and z-directions (Fig. <ref type="figure" target="#fig_3">4(b"</ref>)).</s><s>With a further increase in the energy density, a strong cubic crystallographic texture was formed, as seen for E6/LPBF-(100) (Fig. <ref type="figure" target="#fig_3">4(a"</ref>)).</s><s>During the transformation from the random crystallographic texture to the strong (100) texture, the characteristic columnar grain formation was observed as a continuous orientation of the (100) through multiple layers <ref type="bibr" target="#b45">[46]</ref>.</s><s>It has been reported that the (100) of the BCC structure requires less energy to grow <ref type="bibr" target="#b46">[47]</ref>.</s><s>The optimal way for grain growth is to reduce the required energy for nucleation with a preferential growth of columnar cells along the existing cells of the previous layer.</s><s>Crystallographic texture formation in this study was achieved by fabrication with high laser energy density due to continuous grain growth, which was induced by the cellular microstructure through several layers.</s></p><p><s>The progression of the crystallographic texture formation from random to (100) cubic texture for pure Cr was achieved for the first time by tuning the laser energy density of the LPBF process.</s><s>This change in texture is assumed to be related to the solid-liquid interface morphology that is affected by constitutional cooling according to alloy solidification theories <ref type="bibr" target="#b47">[48]</ref>.</s><s>In the case of alloys, the rate of constitutional supercooling is considered to be related to the thermal gradient (G) and the migration velocity of the solid-liquid interface (R) <ref type="bibr" target="#b48">[49]</ref>.</s><s>It should be noted that the high thermal conductivity of chromium (93.9 W/(m⋅K) <ref type="bibr" target="#b49">[50]</ref>) should be considered to induce this phenomenon.</s><s>An increased G/R ratio tends to result in columnar microstructure formation in which epitaxial growth is feasible, while a decrease in G/R results in an equiaxed microstructure due to the enhancement of supercooling <ref type="bibr" target="#b47">[48]</ref>.</s><s>It has been reported that the R increases with an increase in the scanning speed <ref type="bibr" target="#b50">[51]</ref> and a decrease in the laser energy density <ref type="bibr" target="#b51">[52]</ref>.</s><s>Thus, the strong single-crystal-like crystallographic texture formation introduced with the increase in the laser energy density was presumably induced by the decrease in the laser scan speed, which promoted the crystallographic orientation control of the pure Cr during LPBF.</s></p><p><s>The (100)-oriented and randomly oriented as-fabricated Cr specimens showed different grain size characteristics, as shown in Table <ref type="table" target="#tab_0">1</ref>.</s></p><p><s>The grain size increased with an increasing energy density.</s><s>The mean grain sizes of the (100) and randomly oriented Cr specimens were 24 µm and 16.2 µm, respectively.</s><s>Notably, Zhou et al. <ref type="bibr" target="#b52">[53]</ref> obtained an oxidation-resistant titanium alloy by controlling the microstructural characteristics and thus, altering the grain size.</s><s>Jia et al. <ref type="bibr" target="#b53">[54]</ref> reported that the microstructure of the LPBF-built Inconel 718 superalloy experienced successive morphological changes with an increasing laser energy density.</s><s>This resulted in uniformly distributed coarsened and clustered columnar dendrites.</s><s>In their subsequent study <ref type="bibr" target="#b54">[55]</ref>, a modified microstructure, resulting from a higher laser energy density, exhibited an improvement in oxidation behavior owing to its increased grain size and uniformly distributed microstructure.</s></p><p><s>Other important classifications of the properties of the as-fabricated Cr are the CSL boundary characteristic and HAGB density of the LPBF-(100) and LPBF-R, which are listed in Table <ref type="table" target="#tab_1">2</ref>.</s><s>The CSL boundaries are described by defining the rotation axis and the rotation angle; hence, the &lt;uvw&gt; denotes the CSL boundaries' rotation axis (Table <ref type="table" target="#tab_2">3</ref>).</s><s>The frequency of HAGBs shifted toward a lower angle misorientation with the formation of a crystallographic texture (Fig. <ref type="figure" target="#fig_4">5(a)</ref>), which resulted in a decrease in the HAGB density (Table <ref type="table" target="#tab_1">2</ref>).</s><s>The results demonstrated that LPBF-(100) demonstrated high intensity near the (100)-oriented CSL boundaries (Σ5, Σ13a, Σ17a, Σ25a, and Σ29a).</s><s>LPBF-R exhibited a high frequency for the (111)-oriented CSL boundaries (Σ3, Σ7, Σ13b, Σ19b, Σ21a), as shown in Table <ref type="table" target="#tab_1">2</ref>.</s><s>This indicates the effect of the crystallographic orientation of pure Cr on GBCD.</s><s>Although the fraction of the grain boundaries for each CSL boundary differed between the LPBF-(100) and LPBF-R (Fig. <ref type="figure" target="#fig_4">5(b)</ref>), the total frequency of the CSL boundaries (Σ3-29) in LPBF-(100) was higher than LPBF-R (Table <ref type="table" target="#tab_1">2</ref>).</s></p><p><s>The occurrence of special boundaries has been linked to the overall crystallographic texture of polycrystalline materials <ref type="bibr" target="#b55">[56]</ref>.</s><s>It has been suggested that the characteristics of the CSL boundaries are directly related to the strength and type of crystallographic texture <ref type="bibr" target="#b56">[57]</ref>.</s><s>The high ratio of Σ&lt;111&gt; of LPBF-R is related to the high rate of the Σ3 twin boundary.</s><s>In contrast, the LPBF-(100) specimen showed a decreased HAGB density and an increased fraction of the (100)-oriented CSL boundaries.</s><s>Yamaura et al. <ref type="bibr" target="#b34">[35]</ref> reported a high oxidation resistance for particular CSL boundaries within Ni-Fe alloys and suggested that the classification of the CSL boundaries was useful in distinguishing the propensity for oxidation among the individual grain boundaries.</s></p><p><s>It has been reported that the CSL boundaries are oxidation-resistant boundaries at the early stage of oxidation <ref type="bibr" target="#b34">[35]</ref>.</s><s>Therefore, the increase   in the CSL boundary ratio with the crystallographic texture formation indicates an enhanced oxidation resistance for the LPBF-(100) pure Cr.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Oxidation behavior and correlation with the microstructure</head><p><s>After the oxidation test, the specimen surface was uniform and no formation of "hot spots" was observed, although "hot spots" have been previously reported to form on surface defects such as cracks <ref type="bibr" target="#b57">[58]</ref>.</s><s>Fig. <ref type="figure" target="#fig_5">6</ref> shows the XRD results for the LPBF-(100) and LPBF-R specimens after they were subjected to oxidation at 1073 K for 86.4 ks.</s><s>To identify the phases present, the signature peaks of the phases were matched with the diffraction patterns of the corresponding phases in the JCPDS database.</s></p><p><s>The results indicate that a protective Cr 2 O 3 oxide layer (JCPDS, file No. 38-1479) and Cr 2 N phase (JCPDS, file No. 35-803) formed on the LPBF-(100) and LPBF-R specimens.</s><s>This implies that the crystallographic texture formation and the grain boundary characteristics by LPBF did not alter the composition of the constituent phases of the reaction products after high-temperature oxidation.</s></p><p><s>The cross-sectional images of the oxidized LPBF-(100) and LPBF-R specimens are shown in Fig. <ref type="figure" target="#fig_6">7(a)</ref> and <ref type="figure">(b)</ref>, respectively.</s><s>The oxide scale varied in thickness through the cross section of the oxide layer of both Cr specimens because Cr diffusion is faster along the grain boundary than through the matrix, leading to the formation of an uneven oxide layer <ref type="bibr" target="#b58">[59]</ref>.</s><s>The Cr 2 O 3 oxide layer on Cr is formed by the outward diffusion of Cr from the specimen and the inward diffusion of O through the oxide layer.</s><s>When the inward grain boundary diffusion of O is dominant, the oxidation rate increases, and spallation of the oxide layer can be observed <ref type="bibr" target="#b59">[60]</ref>.</s><s>The cross-sectional images of the oxidized surfaces suggest that the LPBF-(100) specimens are oxidized relatively homogeneously and they form a protective oxide layer.</s><s>However, the LPBF-R specimen demonstrated spallation of the oxide layer due to the high oxidation rate resulting from major outward Cr diffusion through HAGBs and inward O diffusion through the oxide layer, which exhibited internal oxidation (Fig. <ref type="figure" target="#fig_6">7(b ′</ref> )).</s><s>The bulk diffusion coefficient of O is close to that of Cr <ref type="bibr" target="#b60">[61]</ref>; however, the grain boundary diffusion coefficient of Cr is several orders of magnitude higher than that of the O in Cr 2 O 3 <ref type="bibr" target="#b59">[60]</ref>.</s><s>This result is in good agreement with the observation that Cr 2 O 3 was mainly present as an outer oxide after high-temperature oxidation (Fig. <ref type="figure" target="#fig_6">7</ref>).</s></p><p><s>The results of EPMA mapping of the cross sections of LPBF-(100) and LPBF-R are shown in Fig. <ref type="figure" target="#fig_6">7(a ′</ref> , <ref type="figure">b ′</ref> ).</s><s>A continuous Cr 2 O 3 layer was observed at the surface of both of the oxidized Cr specimens.</s><s>The Cr 2 O 3 on the surface of the LPBF-(100) specimen exhibited a change in the   oxide layer thickness without spallation (Fig. <ref type="figure" target="#fig_6">7(a ′</ref> )).</s><s>However, the oxide layer on the surface of the LPBF-R specimen was more likely to have a uniform thickness, except for the spallation region, which had a significantly thicker oxide layer (Fig. <ref type="figure" target="#fig_6">7(b ′</ref> )).</s><s>Although a difference in the Cr 2 O 3 oxide characteristics was observed, the discontinuous Cr 2 N layer was similar.</s><s>The LPBF-(100) specimens exhibited a larger grain size with fewer HAGBs and more oxidation-resistant CSL boundaries, which resulted in a stable oxidation layer without spallation.</s><s>In the case of the LPBF-R specimen, irregular oxide growth caused spallation and a significant increase in the oxide layer thickness (Fig. <ref type="figure" target="#fig_6">7(b)</ref>), which is due to the high density of HAGB and the low fraction of protective CSL boundaries.</s></p><p><s>It has been reported that Cr 2 N formation has occurred after Cr 2 O 3 layer formation on the surface of pure Cr during oxidation <ref type="bibr" target="#b23">[24]</ref>.</s><s>However, the mechanism of Cr 2 N formation was expected to be the breakdown of the Cr 2 O 3 layer even though the protective Cr 2 O 3 layer was reformed <ref type="bibr" target="#b61">[62]</ref>.</s><s>Because of this oxide layer breakdown, Cr 2 N formed discontinuously with diffusion through HAGBs.</s><s>The progress of Cr 2 N formation was blocked by the growth of the new Cr 2 O 3 layer.</s><s>The distance between the discontinuous Cr 2 N formations was measured as 5-10 µm, referring to the size of the small grains (~8 µm) of the as-fabricated Cr specimens.</s><s>However, the mean grain sizes of the LPBF-(100) and LPBF-R specimens were measured to be 24 µm and 16.2 µm, respectively.</s><s>Athreya et al. <ref type="bibr" target="#b26">[27]</ref> suggested the importance of the grain size distribution rather than the average grain size for evaluating the oxidation properties, an assertion that is consistent the findings in this study.</s><s>Ion diffusion through Cr was expected with regard to the correlation between the crystallographic orientations of the oxidation surface and GBCD.</s><s>Therefore, LPBF-R specimens with a low fraction of CSL boundaries and high density of HAGBs displayed significant intergranular oxidation while intragranular oxidation developed as a result of the lack of oxidation-resistant surface orientation, as demonstrated in Fig. <ref type="figure" target="#fig_6">7(b ′</ref> ).</s></p><p><s>The purpose of this study was to fabricate pure Cr using LPBF with controlled crystallographic orientation from random to single crystalline-like textures, and to investigate the oxidation resistance, focusing on the effects of the crystallographic orientation, grain sizes, and GBCD.</s><s>To our knowledge, the oxidation behavior of pure Cr that is related to its crystallographic orientation has not yet been studied in detail.</s><s>Because of the lack of knowledge in the literature regarding single-crystal oxidation of Cr, the crystallographic orientation-related oxidation behavior was investigated using commercially available Cr plates.</s><s>A stereomicroscopic image was taken (Z6 APO, Leica Microsystems, Germany) to figure out grain boundaries and the orientation of the grains was identified, then the oxide scale thickness was recorded as a comparison to the polycrystalline LPBF-(100) and LPBF-R specimens (Fig. <ref type="figure" target="#fig_7">8</ref>).</s><s>Bonfrisco et al. <ref type="bibr" target="#b27">[28]</ref> reported the effect of the crystallographic orientation on the early stage of oxidation in polycrystalline Cr, revealing that the oxidation rate had a tendency of (100) &lt; (011) &lt; (111).</s><s>This was unexpected when considering that (100) is not the closest packed plane in the BCC structure; also, the (100) crystal exhibited the highest oxide thickness for a single crystal investigation.</s></p><p><s>Bonfrisco et al. <ref type="bibr" target="#b27">[28]</ref> also found that the diffusivity of Cr 2 O 3 with the R-3c crystal structure is expected to be anisotropic, which could contribute to differences in the oxide growth rate for a surface with different orientations.</s><s>Caplan and Sproule <ref type="bibr" target="#b39">[40]</ref> reported that the growth of a thin Cr 2 O 3 or a thicker oxide layer was observed on differently oriented Cr grains.</s><s>Based on these findings, we can conclude that the oxidation of Cr grains depends on the crystallographic orientation of the grains.</s><s>However, Cr grains with a thick oxide layer have demonstrated the outward diffusion of cations and the inward diffusion of oxygen <ref type="bibr" target="#b39">[40]</ref>.</s><s>Corresponding to this statement, the fact that randomly oriented Cr exhibited a significantly thicker oxide layer than (100)-oriented Cr suggests a lack of oxidation resistance without crystallographic texture formation.</s></p><p><s>The growth kinetics of the oxide layer formed on the Cr specimens was investigated by measuring the mass change and the oxide scale thickness versus the oxidation time (Fig. <ref type="figure" target="#fig_8">9</ref>).</s><s>In the case of LPBF-(100), a gradual increase (from 0.009 to 0.013 kgm -2 ) in the weight from 21.6 ks up to 86.4 ks was observed.</s><s>The mass gain for the LPBF-R specimen was approximately 1.7 times higher than that for the LPBF-(100) specimen at 86.4 ks (Fig. <ref type="figure" target="#fig_8">9(a)</ref>).</s><s>However, as described earlier, the Cr 2 N layer was formed beneath the outer oxide layer in both Cr specimens.</s><s>Therefore, the oxidation rate of Cr cannot be evaluated by only measuring the mass gain, and the thickness of the oxide scale was investigated by performing cross-sectional observations.</s><s>Fig. <ref type="figure" target="#fig_8">9</ref>(b) shows the change in oxide layer thickness as a function of the square root of time.</s><s>The solid and dotted lines indicate the parabolic rate law fitted using Eq. 4. As shown in Fig. <ref type="figure" target="#fig_8">9</ref> (b), the oxide thickness was significantly smaller in the LPBF-(100) specimen than in the LPBF-R specimen, with P-values of 0.002 and 0.016 at 43.2 and 86.4 ks, respectively.</s><s>The data plots closely followed the parabolic rate law, demonstrating that the oxidation obeyed the parabolic rate law at the latter stage.</s><s>The fact that the oxide behavior obeys parabolic rate law further indicates a negligible effect of the surface defects on the oxidation.</s><s>The parabolic rate constant values of LPBF-(100) and LPBF-R were 8.4 × 10 -18 m 2 s -1 and 1.4 × 10 -17 m 2 s -1 , respectively.</s><s>At the early stage of oxidation, there was a primary oxidation mechanism that progressed relatively fast, depending mainly on the crystallographic orientation of the Cr surface, which was similar to results presented by Bonfrisco et al. <ref type="bibr" target="#b27">[28]</ref>.</s><s>However, the intragranular oxidation actively contributed to the oxidation growth.</s><s>The orientation dependency and the oxidation-resistant CSL boundary characteristics were discussed at this stage of oxidation <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b32">33]</ref>.</s><s>The protective oxide layer was formed at the early stage and subsequently developed and deformed owing to the HAGBs and the intragranular oxidation mechanisms at the latter stage.</s><s>The (100) crystallographic texture, grain size, and GB characteristics were important factors.</s><s>This indicated a significant effect of controlling the crystallographic orientation, grain size, and GBCD of pure Cr that is fabricated by LPBF to improve the high-temperature oxidation resistance.</s></p><p><s>There is room for improvement of the high-temperature oxidation characteristics of LPBF-fabricated Cr parts.</s><s>By achieving dense parts with a more prominent crystallographic texture, HAGBs, which adversely affect the oxidation resistance, can be excluded.</s><s>This is a challenge that may be addressed by further research.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>The high-temperature oxidation behavior of pure Cr specimens fabricated by LPBF has been studied for the first time with respect to the roles of the crystallographic texture, resulting grain size, and grain boundary characteristics in forming a protective Cr 2 O 3 oxide.</s><s>The following conclusions can be drawn from this study.</s></p><p><s>(1) It has been demonstrated for the first time in the literature that crystallographic texture formation and changes in the microstructure properties of pure Cr are possible by controlling the LPBF processing conditions.</s><s>Under the fabrication condition with higher energy density, a strong crystallographic texture with a (100) orientation along the build direction was formed, whereas a randomly oriented crystallographic texture formed when fabrication proceeded at a lower energy density.</s><s>The grain size of the (100)-oriented Cr specimen was larger than the randomly oriented specimen, and GBCD differed owing to the crystallographic texture and grain size.</s><s>(2) The (100)-oriented Cr specimen exhibited a significantly smaller oxide layer thickness compared to the randomly oriented Cr specimen.</s><s>This is attributed to two factors: the orientation dependency of oxidation resistance in which intragranular Cr diffusion was prevented in the (100) crystal orientation, and delayed intergranular oxidation due to oxidation-resistant CSL boundaries.</s><s>(3) The oxide scale thickness plot obeyed the parabolic rate law, and the (100)-oriented Cr had a lower parabolic rate constant compared to that of randomly oriented Cr.</s><s>This suggests that (100)-oriented Cr was oxidation-resistant.</s></p><p><s>The present study shows that the resistance to high-temperature oxidation is largely due to the grain boundary density and characteristics that result from crystallographic texture formation.</s><s>Fabrication using LPBF is beneficial for controlling the crystallographic texture, the grain boundary condition, and the resultant oxidation resistance of the metallic materials.</s><s>Therefore, this method is promising for the production of high-temperature oxidation-resistant parts for industry.</s><s>However, future research is needed in order to develop the fabrication of dense parts suitable for advanced applications.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>(a) Morphology of pure Cr powders used in LPBF, (b) particle size distribution, and (c) appearance of the LPBF-fabricated specimen (E3).</s></p></div></figDesc><graphic coords="3,57.66,55.42,479.95,120.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. Schematic representation of (a) the laser scan strategy and (b) the extraction of specimens for the high-temperature oxidation test.</s></p></div></figDesc><graphic coords="3,87.59,214.86,420.05,149.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. SEM micrographs of the y-z cross section of the as-fabricated LPBF specimens (a) E3 (LPBF-R) and (b) E6 (LPBF-(100)), and (c) XRD patterns of pure Cr powder and as-fabricated Cr specimens.</s></p></div></figDesc><graphic coords="5,129.66,55.42,335.95,300.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. (a-d) The IPF maps showing variation in textures for various laser energy densities, (a ′ -d ′ ) the corresponding grain boundary maps, and (a"-d") the {100} pole figures for the y-z plane of pure Cr manufactured via LPBF.</s><s>The IPF maps were colorized according to the crystallographic orientation in the x-direction.</s></p></div></figDesc><graphic coords="5,45.64,403.60,504.00,313.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. Comparison of the (a) high-angle grain boundary distribution and (b) CSL boundary fractions for the specimens LPBF-(100) and LPBF-R.</s></p></div></figDesc><graphic coords="6,43.14,418.07,240.05,236.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig.6.</s><s>The XRD patterns of the surfaces of the specimens LPBF-(100) and LPBF-R after oxidation tests at 1073 K for 86.4 ks.</s></p></div></figDesc><graphic coords="6,342.14,524.70,180.00,191.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. (a,b) The SEM images and (a ′ , b ′ ) EPMA images of the cross section of the specimens (a, a ′ ) LPBF-(100) and (b.</s><s>b ′ ) LPBF-R after oxidation tests at 1073 K for 86.4 ks.</s></p></div></figDesc><graphic coords="7,57.66,55.44,479.95,384.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. (a) Stereomicroscopic image of the surface of commercially available Cr before the oxidation test.</s><s>Dotted lines trace the grain boundaries of crystal Cr grains (CG) and (b) oxide scale thickness of LPBF and commercially available Cr specimens.</s></p></div></figDesc><graphic coords="8,73.13,55.40,180.00,255.17" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig. 9. (a) Mass gain versus square root of oxidation time and (b) oxide scale thickness versus square root of oxidation time plots of the specimens LPBF-(100) and LPBF-R.</s><s>*indicates statistical significant difference between the specimens LPBF-(100) and LPBF-R.</s></p></div></figDesc><graphic coords="8,105.62,535.07,384.05,181.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Basic characterizations including relative density, grain size, and L-factor for (100) for pure Cr specimens fabricated by LPBF.</s></p></div></figDesc><table><row><cell>Notations</cell><cell>Energy density (J/mm 2 )</cell><cell>Relative density (%)</cell><cell>Grain size (µm)</cell><cell>L-factor for (100) (-)</cell></row><row><cell>E6</cell><cell>6.25</cell><cell>95.47</cell><cell>24.00</cell><cell>0.54</cell></row><row><cell>E5</cell><cell>5.21</cell><cell>94.44</cell><cell>21.58</cell><cell>0.28</cell></row><row><cell>E4</cell><cell>3.91</cell><cell>93.42</cell><cell>16.28</cell><cell>0.21</cell></row><row><cell>E3</cell><cell>3.13</cell><cell>92.21</cell><cell>16.24</cell><cell>0.15</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc><div><p><s>Frequencies of CSL grain boundaries described by the Brandon criterion (Σ3-29) with defining rotation axis &lt;uvw&gt; and HAGB density of LPBF-(100) and LPBF-R.</s></p></div></figDesc><table><row><cell></cell><cell>Σ3-</cell><cell>Σ&lt;100&gt;</cell><cell>Σ&lt;110&gt;</cell><cell>Σ&lt;111&gt;</cell><cell>HAGB</cell></row><row><cell></cell><cell>29</cell><cell>5, 13a, 17a,</cell><cell>9, 11, 19a,</cell><cell>3, 7, 13b,</cell><cell>density (%)</cell></row><row><cell></cell><cell></cell><cell>25a, 29a</cell><cell>27a</cell><cell>19b, 21a</cell><cell></cell></row><row><cell>LPBF-</cell><cell>11.4</cell><cell>3.74</cell><cell>2.77</cell><cell>2.56</cell><cell>40</cell></row><row><cell>(100)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>LPBF-R</cell><cell>8.1</cell><cell>1.31</cell><cell>1.62</cell><cell>3.16</cell><cell>59</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc><div><p><s>CSL boundaries with values ≤29 for cubic-cubic misorientation.</s></p></div></figDesc><table><row><cell>Σ</cell><cell>Axis</cell><cell>Angle</cell><cell>Deviation</cell></row><row><cell></cell><cell>&lt;uvw&gt;</cell><cell>θ m</cell><cell>θ 0</cell></row><row><cell>3</cell><cell>111</cell><cell>60</cell><cell>8.66</cell></row><row><cell>5</cell><cell>100</cell><cell>36.87</cell><cell>6.71</cell></row><row><cell>7</cell><cell>111</cell><cell>38.21</cell><cell>5.67</cell></row><row><cell>9</cell><cell>110</cell><cell>38.94</cell><cell>5.00</cell></row><row><cell>11</cell><cell>110</cell><cell>50.48</cell><cell>4.52</cell></row><row><cell>13a</cell><cell>100</cell><cell>22.62</cell><cell>4.16</cell></row><row><cell>13b</cell><cell>111</cell><cell>27.8</cell><cell>4.16</cell></row><row><cell>15</cell><cell>210</cell><cell>48.19</cell><cell>3.87</cell></row><row><cell>17a</cell><cell>100</cell><cell>28.07</cell><cell>3.64</cell></row><row><cell>17b</cell><cell>221</cell><cell>61.93</cell><cell>3.64</cell></row><row><cell>19a</cell><cell>110</cell><cell>26.53</cell><cell>3.44</cell></row><row><cell>19b</cell><cell>111</cell><cell>46.83</cell><cell>3.44</cell></row><row><cell>21a</cell><cell>111</cell><cell>21.74</cell><cell>3.27</cell></row><row><cell>21b</cell><cell>211</cell><cell>44.4</cell><cell>3.27</cell></row><row><cell>23</cell><cell>311</cell><cell>40.45</cell><cell>3.13</cell></row><row><cell>25a</cell><cell>100</cell><cell>16.25</cell><cell>3.00</cell></row><row><cell>25b</cell><cell>331</cell><cell>51.68</cell><cell>3.00</cell></row><row><cell>27a</cell><cell>110</cell><cell>31.58</cell><cell>2.89</cell></row><row><cell>27b</cell><cell>210</cell><cell>35.42</cell><cell>2.89</cell></row><row><cell>29a</cell><cell>100</cell><cell>43.61</cell><cell>2.79</cell></row><row><cell>29b</cell><cell>221</cell><cell>46.39</cell><cell>2.79</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p><s>Acknowledgments This work was supported by <rs type="grantName">Grants-in-Aid for Scientific Research</rs> (<rs type="grantNumber">JP18H05254</rs>) from the <rs type="funder">Japan Society for the Promotion of Science (JSPS)</rs>.</s><s>This work was also partly supported by the <rs type="funder">Cross-Ministerial Strategic Innovation Promotion Program (SIP)</rs>, -<rs type="projectName">Materials Integration for Revolutionary Design System of Structural Materials-, Domain C1</rs>: "<rs type="projectName">Development of Additive Manufacturing Process for Ni-based Alloy</rs>" from the <rs type="funder">Japan Science and Technology Agency (JST)</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Aeq5nvV">
+					<idno type="grant-number">JP18H05254</idno>
+					<orgName type="grant-name">Grants-in-Aid for Scientific Research</orgName>
+				</org>
+				<org type="funded-project" xml:id="_hN7CUFE">
+					<orgName type="project" subtype="full">Materials Integration for Revolutionary Design System of Structural Materials-, Domain C1</orgName>
+				</org>
+				<org type="funded-project" xml:id="_CFdrGPy">
+					<orgName type="project" subtype="full">Development of Additive Manufacturing Process for Ni-based Alloy</orgName>
+				</org>
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>CRediT authorship contribution statement Ozkan Gokcekaya: Conceptualization, Analysis, Investigation, Methodology, Validation, Visualization, Writing -original draft.</s><s>Naohiro Hayashi: Analysis, Investigation, Methodology, Visualization.</s><s>Takuya Ishimoto: Data curation, Writing -review &amp; editing.</s><s>Kyosuke Ueda: Analysis, Supervision.</s><s>Takayuki Narushima: Conceptualization, Supervision, Writing -review &amp; editing.</s><s>Takayoshi Nakano: Conceptualization, Project administration, Supervision, Writing -review &amp; editing.</s><s>Author contributions Ozkan Gokcekaya: Conceptualization, Analysis, Investigation, Methodology, Validation, Visualization, Writing -original draft.</s><s>Naohiro Hayashi: Analysis, Investigation, Methodology, Visualization.</s><s>Takuya Ishimoto: Data curation, Writing -review &amp; editing.</s><s>Kyosuke Ueda: Analysis, Supervision.</s><s>Takayuki Narushima: Conceptualization, Supervision, Writing -review &amp; editing.</s><s>Takayoshi Nakano: Conceptualization, Project administration, Supervision, Writing -review &amp; editing.</s></p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Metallurgy of chromium</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gilbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/220310a0</idno>
+		<ptr target="https://doi.org/10.1038/220310a0" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page">310</biblScope>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Gilbert, Metallurgy of chromium, Nature 220 (1968) 310, https://doi.org/ 10.1038/220310a0.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Chromium and chromium-based alloys: problems and possibilities for high-temperature service</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ro</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-004-0197-0</idno>
+		<ptr target="https://doi.org/10.1007/s11837-004-0197-0" />
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="28" to="33" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y.F. Gu, H. Harada, Y. Ro, Chromium and chromium-based alloys: problems and possibilities for high-temperature service, JOM 56 (2004) 28-33, https://doi.org/ 10.1007/s11837-004-0197-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Corrosion of metallic materials fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41529-019-0086-1</idno>
+		<ptr target="https://doi.org/10.1038/s41529-019-0086-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Npj Mater. Degrad</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Kong, C. Dong, X. Ni, X. Li, Corrosion of metallic materials fabricated by selective laser melting, Npj Mater. Degrad. 3 (2019) 24, https://doi.org/10.1038/ s41529-019-0086-1.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Oxidation comparison of alumina-forming and chromiaforming commercial alloys at 1100 and 1200</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jönsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Westerlund</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11085-016-9710-4</idno>
+		<ptr target="https://doi.org/10.1007/s11085-016-9710-4" />
+	</analytic>
+	<monogr>
+		<title level="j">C, Oxid. Met</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="315" to="326" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Jönsson, A. Westerlund, Oxidation comparison of alumina-forming and chromia- forming commercial alloys at 1100 and 1200 • C, Oxid. Met. 88 (2017) 315-326, https://doi.org/10.1007/s11085-016-9710-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Oxidation of iron-chromium binary alloys</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Footner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mortimer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/216054a0</idno>
+		<ptr target="https://doi.org/10.1038/216054a0" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="54" to="56" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P.K. Footner, D.R. Holmes, D. Mortimer, Oxidation of iron-chromium binary alloys, Nature 216 (1967) 54-56, https://doi.org/10.1038/216054a0.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Oxidation of binary FeCr alloys (Fe-2.25Cr, Fe-10Cr, Fe-18Cr and Fe-25Cr) in O 2 and in O 2 + H 2 O environment at 600 • C</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pujilaksono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jonsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heidari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Halvarsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Svensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Johansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11085-010-9229-z</idno>
+		<ptr target="https://doi.org/10.1007/s11085-010-9229-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Oxid. Met</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="183" to="207" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Pujilaksono, T. Jonsson, H. Heidari, M. Halvarsson, J.E. Svensson, L. G. Johansson, Oxidation of binary FeCr alloys (Fe-2.25Cr, Fe-10Cr, Fe-18Cr and Fe- 25Cr) in O 2 and in O 2 + H 2 O environment at 600 • C, Oxid. Met. 75 (2011) 183-207, https://doi.org/10.1007/s11085-010-9229-z.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation of chromium: kinetic modeling and microstructural investigation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hallström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Halvarsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Höglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jonsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ågren</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ssi.2013.02.017</idno>
+		<ptr target="https://doi.org/10.1016/j.ssi.2013.02.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Ion</title>
+		<imprint>
+			<biblScope unit="volume">240</biblScope>
+			<biblScope unit="page" from="41" to="50" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Hallström, M. Halvarsson, L. Höglund, T. Jonsson, J. Ågren, High temperature oxidation of chromium: kinetic modeling and microstructural investigation, Solid State Ion. 240 (2013) 41-50, https://doi.org/10.1016/j.ssi.2013.02.017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of building direction on the microstructure and tensile properties of Ti-48Al-2Cr-2Nb alloy additively manufactured by electron beam melting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Yasuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hagihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takeyama</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2016.11.001</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2016.11.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="61" to="70" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Todai, T. Nakano, T. Liu, H.Y. Yasuda, K. Hagihara, K. Cho, M. Ueda, M. Takeyama, Effect of building direction on the microstructure and tensile properties of Ti-48Al-2Cr-2Nb alloy additively manufactured by electron beam melting, Addit. Manuf. 13 (2017) 61-70, https://doi.org/10.1016/j. addma.2016.11.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Influence of unique layered microstructure on fatigue properties of Ti-48Al-2Cr-2Nb alloys fabricated by electron beam melting</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Yasuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takeyama</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2018.01.009</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2018.01.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Cho, R. Kobayashi, J.Y. Oh, H.Y. Yasuda, M. Todai, T. Nakano, A. Ikeda, M. Ueda, M. Takeyama, Influence of unique layered microstructure on fatigue properties of Ti-48Al-2Cr-2Nb alloys fabricated by electron beam melting, Intermetallics 95 (2018) 1-10, https://doi.org/10.1016/j.intermet.2018.01.009.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing: technology, applications and research needs</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Leu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11465-013-0248-8</idno>
+		<ptr target="https://doi.org/10.1007/s11465-013-0248-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Front, Mech. Eng</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="215" to="243" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Guo, M.C. Leu, Additive manufacturing: technology, applications and research needs, Front, Mech. Eng. 8 (2013) 215-243, https://doi.org/10.1007/s11465-013- 0248-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Crystallographic orientation control of 316L austenitic stainless steel via selective laser melting</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Amano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.2355/isijinternational.ISIJINT-2019-744</idno>
+		<ptr target="https://doi.org/10.2355/isijinternational.ISIJINT-2019-744" />
+	</analytic>
+	<monogr>
+		<title level="j">ISIJ Int</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="1758" to="1764" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Ishimoto, S. Wu, Y. Ito, S.-H. Sun, H. Amano, T. Nakano, Crystallographic orientation control of 316L austenitic stainless steel via selective laser melting, ISIJ Int. 60 (2020) 1758-1764, https://doi.org/10.2355/isijinternational.ISIJINT- 2019-744.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Anisotropy and heterogeneity of microstructure and mechanical properties in metal additive manufacturing: a critical review</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">P</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L S</forename><surname>Nai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Loh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Tor</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2017.11.021</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2017.11.021" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="565" to="586" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Kok, X.P. Tan, P. Wang, M.L.S. Nai, N.H. Loh, E. Liu, S.B. Tor, Anisotropy and heterogeneity of microstructure and mechanical properties in metal additive manufacturing: a critical review, Mater. Des. 139 (2018) 565-586, https://doi.org/ 10.1016/j.matdes.2017.11.021.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of scanning strategy on texture formation in Ni-25at%Mo alloys fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hagihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2017.11.060</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2017.11.060" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="307" to="316" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.-H. Sun, K. Hagihara, T. Nakano, Effect of scanning strategy on texture formation in Ni-25at%Mo alloys fabricated by selective laser melting, Mater. Des. 140 (2018) 307-316, https://doi.org/10.1016/j.matdes.2017.11.060.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Phase and grain size inhomogeneity and their influences on creep behavior of Co-Cr-Mo alloy additive manufactured by electron beam melting</title>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kurosu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chiba</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2014.11.012</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2014.11.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="305" to="318" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.-H. Sun, Y. Koizumi, S. Kurosu, Y.-P. Li, A. Chiba, Phase and grain size inhomogeneity and their influences on creep behavior of Co-Cr-Mo alloy additive manufactured by electron beam melting, Acta Mater. 86 (2015) 305-318, https:// doi.org/10.1016/j.actamat.2014.11.012.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of dense components in beta-titanium alloys with crystallographic texture from a mixture of pure metallic element powders</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2019.107771</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2019.107771" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page">107771</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Nagase, T. Hori, M. Todai, S.-H. Sun, T. Nakano, Additive manufacturing of dense components in beta-titanium alloys with crystallographic texture from a mixture of pure metallic element powders, Mater. Des. 173 (2019), 107771, https://doi.org/10.1016/j.matdes.2019.107771.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Microstructure and wear behavior of in-situ hypereutectic Al-high Si alloys produced by selective laser melting</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Coddet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Coddet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2016.03.053</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2016.03.053" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="120" to="126" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Kang, P. Coddet, C. Chen, Y. Wang, H. Liao, C. Coddet, Microstructure and wear behavior of in-situ hypereutectic Al-high Si alloys produced by selective laser melting, Mater. Des. 99 (2016) 120-126, https://doi.org/10.1016/j. matdes.2016.03.053.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Excellent mechanical and corrosion properties of austenitic stainless steel with a unique crystallographic lamellar microstructure via selective laser melting</title>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hagihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tsutsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hanawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2018.09.017</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2018.09.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="89" to="93" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.-H. Sun, T. Ishimoto, K. Hagihara, Y. Tsutsumi, T. Hanawa, T. Nakano, Excellent mechanical and corrosion properties of austenitic stainless steel with a unique crystallographic lamellar microstructure via selective laser melting, Scr. Mater. 159 (2019) 89-93, https://doi.org/10.1016/j.scriptamat.2018.09.017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Differences in oxides on large-and small-grained 304 stainless steel</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Merz</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02655116</idno>
+		<ptr target="https://doi.org/10.1007/BF02655116" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1973" to="1980" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D.R. Baer, M.D. Merz, Differences in oxides on large-and small-grained 304 stainless steel, Metall. Trans. A. 11 (1980) 1973-1980, https://doi.org/10.1007/ BF02655116.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effects of alloyed Si on the oxidation behaviour of Co-29Cr-6Mo alloy for solid-oxide fuel cell interconnects</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tunthawiroon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chiba</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2015.02.036</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2015.02.036" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="88" to="99" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Tunthawiroon, Y. Li, N. Tang, Y. Koizumi, A. Chiba, Effects of alloyed Si on the oxidation behaviour of Co-29Cr-6Mo alloy for solid-oxide fuel cell interconnects, Corros. Sci. 95 (2015) 88-99, https://doi.org/10.1016/j.corsci.2015.02.036.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of grain size on the oxidation of Fe-13Cr-5Ni alloy at 973K in Ar-21vol%O 2</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maruyama</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2014.11.020</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2014.11.020" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="195" to="202" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Liu, Z. Yang, C. Zhang, M. Ueda, K. Kawamura, T. Maruyama, Effect of grain size on the oxidation of Fe-13Cr-5Ni alloy at 973K in Ar-21vol%O 2 , Corros. Sci. 91 (2015) 195-202, https://doi.org/10.1016/j.corsci.2014.11.020.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Grain-size effects on the high-temperature oxidation behaviour of chromium steels</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Trindade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Krupp</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11085-010-9192-8</idno>
+		<ptr target="https://doi.org/10.1007/s11085-010-9192-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Oxid. Met</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="551" to="563" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Trindade, H.-J. Christ, U. Krupp, Grain-size effects on the high-temperature oxidation behaviour of chromium steels, Oxid. Met. 73 (2010) 551-563, https:// doi.org/10.1007/s11085-010-9192-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">High temperature corrosion behavior of Cu-20Co-30Cr alloys with different grain size</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2013.11.025</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2013.11.025" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="184" to="190" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z.Q. Cao, H.J. Sun, J. Lu, K. Zhang, Y. Sun, High temperature corrosion behavior of Cu-20Co-30Cr alloys with different grain size, Corros. Sci. 80 (2014) 184-190, https://doi.org/10.1016/j.corsci.2013.11.025.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Influence of grain shape, size, and grain boundary diffusion on high-temperature oxidation of pure metal Fe, Cu, and Zn</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Samal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mitra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-015-2987-0</idno>
+		<ptr target="https://doi.org/10.1007/s11661-015-2987-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="3324" to="3332" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Samal, S.K. Mitra, Influence of grain shape, size, and grain boundary diffusion on high-temperature oxidation of pure metal Fe, Cu, and Zn, Metall. Mater. Trans. A. 46 (2015) 3324-3332, https://doi.org/10.1007/s11661-015-2987-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Oxidation or nitridation behavior of pure chromium and chromium alloys containing 10 mass%Ni or Fe in atmospheric heating</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Taneichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Narushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ouchi</surname></persName>
+		</author>
+		<idno type="DOI">10.2320/matertrans.47.2540</idno>
+		<ptr target="https://doi.org/10.2320/matertrans.47.2540" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="2540" to="2546" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Taneichi, T. Narushima, Y. Iguchi, C. Ouchi, Oxidation or nitridation behavior of pure chromium and chromium alloys containing 10 mass%Ni or Fe in atmospheric heating, Mater. Trans. 47 (2006) 2540-2546, https://doi.org/10.2320/ matertrans.47.2540.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effects of grain sizes on the oxidation behavior of Ni-based alloy 230 and N</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Szpunar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.04.173</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.04.173" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">752</biblScope>
+			<biblScope unit="page" from="40" to="52" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Wang, J.A. Szpunar, Effects of grain sizes on the oxidation behavior of Ni-based alloy 230 and N, J. Alloy. Compd. 752 (2018) 40-52, https://doi.org/10.1016/j. jallcom.2018.04.173.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The role of grain boundaries in the initial oxidation behavior of austenitic stainless steel containing alloyed Cu at 700 • C for advanced thermal power plant applications</title>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-P</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-W</forename><surname>Yi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2015.03.014</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2015.03.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="52" to="66" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-H. Kim, B.K. Kim, D.-I. Kim, P.-P. Choi, D. Raabe, K.-W. Yi, The role of grain boundaries in the initial oxidation behavior of austenitic stainless steel containing alloyed Cu at 700 • C for advanced thermal power plant applications, Corros. Sci. 96 (2015) 52-66, https://doi.org/10.1016/j.corsci.2015.03.014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Role of grain boundary engineered microstructure on high temperature steam oxidation behaviour of Ni based superalloy alloy 617</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Athreya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Deepak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mandal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Sarma</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.11.137</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.11.137" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">778</biblScope>
+			<biblScope unit="page" from="224" to="233" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.N. Athreya, K. Deepak, D.-I. Kim, B. de Boer, S. Mandal, V.S. Sarma, Role of grain boundary engineered microstructure on high temperature steam oxidation behaviour of Ni based superalloy alloy 617, J. Alloy. Compd. 778 (2019) 224-233, https://doi.org/10.1016/j.jallcom.2018.11.137.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effects of crystallographic orientation on the early stages of oxidation in nickel and chromium</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Bonfrisco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frary</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10853-009-4144-x</idno>
+		<ptr target="https://doi.org/10.1007/s10853-009-4144-x" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1663" to="1671" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.P. Bonfrisco, M. Frary, Effects of crystallographic orientation on the early stages of oxidation in nickel and chromium, J. Mater. Sci. 45 (2010) 1663-1671, https:// doi.org/10.1007/s10853-009-4144-x.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Influence of grain orientation on the incipient oxidation behavior of Haynes 230 at 900 • C</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Szpunar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchar.2015.06.029</idno>
+		<ptr target="https://doi.org/10.1016/j.matchar.2015.06.029" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Charact</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="33" to="42" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Wang, F. Fan, J.A. Szpunar, L. Zhang, Influence of grain orientation on the incipient oxidation behavior of Haynes 230 at 900 • C, Mater. Charact. 107 (2015) 33-42, https://doi.org/10.1016/j.matchar.2015.06.029.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">What did we learn on the reactive element effect in chromia scale since Pfeil&apos;s patent?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chevalier</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/maco.201307310</idno>
+		<ptr target="https://doi.org/10.1002/maco.201307310" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Corros</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="109" to="115" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Chevalier, What did we learn on the reactive element effect in chromia scale since Pfeil&apos;s patent? Mater. Corros. 65 (2014) 109-115, https://doi.org/10.1002/ maco.201307310.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Biofunctional and anti-corrosive 3D printing 316L stainless steel fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Man</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2018.04.058</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2018.04.058" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="88" to="101" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Kong, X. Ni, C. Dong, X. Lei, L. Zhang, C. Man, J. Yao, X. Cheng, X. Li, Bio- functional and anti-corrosive 3D printing 316L stainless steel fabricated by selective laser melting, Mater. Des. 152 (2018) 88-101, https://doi.org/10.1016/j. matdes.2018.04.058.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The high-temperature oxidation of bulk nanocrystalline 304 stainless steel in air</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2013.03.008</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2013.03.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="64" to="72" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.G. Wang, M. Sun, H.B. Han, K. Long, Z.D. Zhang, The high-temperature oxidation of bulk nanocrystalline 304 stainless steel in air, Corros. Sci. 72 (2013) 64-72, https://doi.org/10.1016/j.corsci.2013.03.008.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effect of grain boundary characteristics on the oxidation behavior of ferritic stainless steel</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Phaniraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Cho</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2011.08.020</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2011.08.020" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="4124" to="4130" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.P. Phaniraj, D.-I. Kim, Y.W. Cho, Effect of grain boundary characteristics on the oxidation behavior of ferritic stainless steel, Corros. Sci. 53 (2011) 4124-4130, https://doi.org/10.1016/j.corsci.2011.08.020.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The effect of grain boundary engineering on the oxidation behavior of INCOLOY alloy 800H in supercritical water</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sridharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jnucmat.2005.09.023</idno>
+		<ptr target="https://doi.org/10.1016/j.jnucmat.2005.09.023" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Nucl. Mater</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="263" to="271" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Tan, K. Sridharan, T.R. Allen, The effect of grain boundary engineering on the oxidation behavior of INCOLOY alloy 800H in supercritical water, J. Nucl. Mater. 348 (2006) 263-271, https://doi.org/10.1016/j.jnucmat.2005.09.023.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Structure-dependent intergranular oxidation in Ni-Fe polycrystalline alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yamaura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Igarashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsurekawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Watanabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1359-6454(99)00007-5</idno>
+		<ptr target="https://doi.org/10.1016/S1359-6454(99)00007-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1163" to="1174" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Yamaura, Y. Igarashi, S. Tsurekawa, T. Watanabe, Structure-dependent intergranular oxidation in Ni-Fe polycrystalline alloy, Acta Mater. 47 (1999) 1163-1174, https://doi.org/10.1016/S1359-6454(99)00007-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The rate of film formation on metals</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lustman</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/1.3071385</idno>
+		<ptr target="https://doi.org/10.1149/1.3071385" />
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Electrochem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="359" to="375" />
+			<date type="published" when="1942">1942</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Lustman, The rate of film formation on metals, Trans. Electrochem. Soc. 81 (1942) 359-375, https://doi.org/10.1149/1.3071385.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The structure of oxide films on different faces of a single crystal of copper</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Lawless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Gwathmey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0001-6160(56)90133-X</idno>
+		<ptr target="https://doi.org/10.1016/0001-6160(56)90133-X" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="153" to="163" />
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K.R. Lawless, A.T. Gwathmey, The structure of oxide films on different faces of a single crystal of copper, Acta Metall. 4 (1956) 153-163, https://doi.org/10.1016/ 0001-6160(56)90133-X.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Grain boundary character distribution in oxides formed on (100) and (111) nickel single crystals coated with ceria gel</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Czerwinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhilyaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Szpunar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0010-938X(99)00006-2</idno>
+		<ptr target="https://doi.org/10.1016/S0010-938X(99)00006-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1703" to="1713" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Czerwinski, A. Zhilyaev, J.A. Szpunar, Grain boundary character distribution in oxides formed on (100) and (111) nickel single crystals coated with ceria gel, Corros. Sci. 41 (1999) 1703-1713, https://doi.org/10.1016/S0010-938X(99) 00006-2.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Initial oxidation kinetics of Fe-Ni single crystals before and after ion bombardment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Chenakin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0169-4332(94)00471-4</idno>
+		<ptr target="https://doi.org/10.1016/0169-4332(94)00471-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="91" to="96" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.P. Chenakin, Initial oxidation kinetics of Fe-Ni single crystals before and after ion bombardment, Appl. Surf. Sci. 84 (1995) 91-96, https://doi.org/10.1016/0169- 4332(94)00471-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effect of oxide grain structure on the high-temperature oxidation of Cr</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Caplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Sproule</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00611694</idno>
+		<ptr target="https://doi.org/10.1007/BF00611694" />
+	</analytic>
+	<monogr>
+		<title level="j">Oxid. Met</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="459" to="472" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Caplan, G.I. Sproule, Effect of oxide grain structure on the high-temperature oxidation of Cr, Oxid. Met. 9 (1975) 459-472, https://doi.org/10.1007/ BF00611694.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Effects of processing parameters on consolidation and microstructure of W-Cu components by DMLS</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2008.05.065</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2008.05.065" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">473</biblScope>
+			<biblScope unit="page" from="107" to="115" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gu, Y. Shen, Effects of processing parameters on consolidation and microstructure of W-Cu components by DMLS, J. Alloy. Compd. 473 (2009) 107-115, https://doi.org/10.1016/j.jallcom.2008.05.065.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Stress and deformation evaluations of scanning strategy effect in selective laser melting</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2016.05.007</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2016.05.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="240" to="251" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Cheng, S. Shrestha, K. Chou, Stress and deformation evaluations of scanning strategy effect in selective laser melting, Addit. Manuf. 12 (2016) 240-251, https://doi.org/10.1016/j.addma.2016.05.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effect of selective laser melting process parameters on the quality of Al alloy parts: powder characterization, density, surface roughness, and dimensional accuracy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Maamoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Elbestawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Veldhuis</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma11122343</idno>
+		<ptr target="https://doi.org/10.3390/ma11122343" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2343</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.H. Maamoun, Y.F. Xue, M.A. Elbestawi, S.C. Veldhuis, Effect of selective laser melting process parameters on the quality of Al alloy parts: powder characterization, density, surface roughness, and dimensional accuracy, Materials 11 (2018) 2343, https://doi.org/10.3390/ma11122343.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Successful additive manufacturing of MoSi2 including crystallographic texture and shape control</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hagihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Suyalatu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2016.11.191</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2016.11.191" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">696</biblScope>
+			<biblScope unit="page" from="67" to="72" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Hagihara, T. Nakano, M. Suzuki, T. Ishimoto, Suyalatu, S.-H. Sun, Successful additive manufacturing of MoSi2 including crystallographic texture and shape control, J. Alloy. Compd. 696 (2017) 67-72, https://doi.org/10.1016/j. jallcom.2016.11.191.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The structure of high-angle grain boundaries</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Brandon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0001-6160(66)90168-4</idno>
+		<ptr target="https://doi.org/10.1016/0001-6160(66)90168-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1479" to="1484" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D.G. Brandon, The structure of high-angle grain boundaries, Acta Metall. 14 (1966) 1479-1484, https://doi.org/10.1016/0001-6160(66)90168-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Crystallographic texture control of beta-type Ti-15Mo-5Zr-3Al alloy by selective laser melting for the development of novel implants with a biocompatible low Young&apos;s modulus</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hagihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hisamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2016.12.038</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2016.12.038" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="34" to="38" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Ishimoto, K. Hagihara, K. Hisamoto, S.-H. Sun, T. Nakano, Crystallographic texture control of beta-type Ti-15Mo-5Zr-3Al alloy by selective laser melting for the development of novel implants with a biocompatible low Young&apos;s modulus, Scr. Mater. 132 (2017) 34-38, https://doi.org/10.1016/j.scriptamat.2016.12.038.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Messler</surname></persName>
+		</author>
+		<title level="m">Principles of welding: processes, physics. Chemistry, and Metallurgy</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.W. Messler, Principles of welding: processes, physics. Chemistry, and Metallurgy, Wiley, New York, 2008.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Grain structure control of additively manufactured metallic materials</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Faierson</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma10111260</idno>
+		<ptr target="https://doi.org/10.3390/ma10111260" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1260</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Yan, W. Xiong, J.E. Faierson, Grain structure control of additively manufactured metallic materials, Materials 10 (2017) 1260, https://doi.org/10.3390/ ma10111260.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Evolution of solidification texture during additive manufacturing</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mazumder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep16446</idno>
+		<ptr target="https://doi.org/10.1038/srep16446" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">16446</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.L. Wei, J. Mazumder, T. DebRoy, Evolution of solidification texture during additive manufacturing, Sci. Rep. 5 (2015) 16446, https://doi.org/10.1038/ srep16446.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The case for chromium</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Sims</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF03378217</idno>
+		<ptr target="https://doi.org/10.1007/BF03378217" />
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="127" to="132" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.T. Sims, The case for chromium, JOM 15 (1963) 127-132, https://doi.org/ 10.1007/BF03378217.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Effects of process variables and size-scale on solidification microstructure in beam-based fabrication of bulky 3D structures</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bontha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Klingbeil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kobryn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2009.02.019</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2009.02.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">513</biblScope>
+			<biblScope unit="issue">514</biblScope>
+			<biblScope unit="page" from="311" to="318" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Bontha, N.W. Klingbeil, P.A. Kobryn, H.L. Fraser, Effects of process variables and size-scale on solidification microstructure in beam-based fabrication of bulky 3D structures, Mater. Sci. Eng. A. 513-514 (2009) 311-318, https://doi.org/10.1016/ j.msea.2009.02.019.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A comprehensive comparison of the analytical and numerical prediction of the thermal history and solidification microstructure of Inconel 718 products made by laser powder-bed fusion</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Promoppatum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-C</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pistorius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.ENG.2017.05.023</idno>
+		<ptr target="https://doi.org/10.1016/J.ENG.2017.05.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Engineering</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="685" to="694" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Promoppatum, S.-C. Yao, P.C. Pistorius, A.D. Rollett, A comprehensive comparison of the analytical and numerical prediction of the thermal history and solidification microstructure of Inconel 718 products made by laser powder-bed fusion, Engineering 3 (2017) 685-694, https://doi.org/10.1016/J. ENG.2017.05.023.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">A novel titanium alloy manufactured by selective laser melting: microstructure, high temperature oxidation resistance</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">S</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2015.10.092</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2015.10.092" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1199" to="1204" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Zhou, S.F. Wen, B. Song, X. Zhou, Q. Teng, Q.S. Wei, Y.S. Shi, A novel titanium alloy manufactured by selective laser melting: microstructure, high temperature oxidation resistance, Mater. Des. 89 (2016) 1199-1204, https://doi.org/10.1016/j. matdes.2015.10.092.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Selective laser melting additive manufacturing of Inconel 718 superalloy parts: densification, microstructure and properties</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2013.09.171</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2013.09.171" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">585</biblScope>
+			<biblScope unit="page" from="713" to="721" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Q. Jia, D. Gu, Selective laser melting additive manufacturing of Inconel 718 superalloy parts: densification, microstructure and properties, J. Alloy. Compd. 585 (2014) 713-721, https://doi.org/10.1016/j.jallcom.2013.09.171.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Selective laser melting additive manufactured Inconel 718 superalloy parts: high-temperature oxidation property and its mechanisms</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.optlastec.2014.03.008</idno>
+		<ptr target="https://doi.org/10.1016/j.optlastec.2014.03.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Laser Technol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="161" to="171" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Q. Jia, D. Gu, Selective laser melting additive manufactured Inconel 718 superalloy parts: high-temperature oxidation property and its mechanisms, Opt. Laser Technol. 62 (2014) 161-171, https://doi.org/10.1016/j.optlastec.2014.03.008.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Grain boundaries in rapidly solidified and annealed Fe-6.5 mass% Si polycrystalline ribbons with high ductility</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Oikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Arai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0001-6160(89)90021-7</idno>
+		<ptr target="https://doi.org/10.1016/0001-6160(89)90021-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="941" to="952" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Watanabe, H. Fujii, H. Oikawa, K.I. Arai, Grain boundaries in rapidly solidified and annealed Fe-6.5 mass% Si polycrystalline ribbons with high ductility, Acta Metall. 37 (1989) 941-952, https://doi.org/10.1016/0001-6160(89)90021-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The relationship between texture and CSL boundaries distribution in polycrystalline materials-II. analysis of the relationship between texture and coincidence grain boundary distribution</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garbacz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Grabski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0956-7151(93)90076-5</idno>
+		<ptr target="https://doi.org/10.1016/0956-7151(93)90076-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall. Mater</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="475" to="483" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Garbacz, M.W. Grabski, The relationship between texture and CSL boundaries distribution in polycrystalline materials-II. analysis of the relationship between texture and coincidence grain boundary distribution, Acta Metall. Mater. 41 (1993) 475-483, https://doi.org/10.1016/0956-7151(93)90076-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Microstructural evolution and failure characteristics of a NiCoCrAlY bond coat in &quot;hot spot&quot; cyclic oxidation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tryon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Torbet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Pollock</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2009.04.039</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2009.04.039" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="3885" to="3894" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Cao, B. Tryon, C.J. Torbet, T.M. Pollock, Microstructural evolution and failure characteristics of a NiCoCrAlY bond coat in &quot;hot spot&quot; cyclic oxidation, Acta Mater. 57 (2009) 3885-3894, https://doi.org/10.1016/j.actamat.2009.04.039.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The effect of grain size on the corrosion behaviour of inconel 600 in high-temperature steam</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Araki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Watanabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0010-938X(81)90024-X</idno>
+		<ptr target="https://doi.org/10.1016/0010-938X(81)90024-X" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="819" to="842" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Abe, H. Araki, H. Yoshida, M. Okada, R. Watanabe, The effect of grain size on the corrosion behaviour of inconel 600 in high-temperature steam, Corros. Sci. 21 (1981) 819-842, https://doi.org/10.1016/0010-938X(81)90024-X.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Factors affecting isothermal oxidation of pure chromium in air</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Dorcheh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schütze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Galetz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2017.11.006</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2017.11.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="261" to="269" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.S. Dorcheh, M. Schütze, M.C. Galetz, Factors affecting isothermal oxidation of pure chromium in air, Corros. Sci. 130 (2018) 261-269, https://doi.org/10.1016/j. corsci.2017.11.006.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">On high temperature oxidation of chromium: II. Properties of and the oxidation mechanism of chromium</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kofstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lillerud</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/1.2129481</idno>
+		<ptr target="https://doi.org/10.1149/1.2129481" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Electrochem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="2410" to="2419" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Kofstad, K.P. Lillerud, On high temperature oxidation of chromium: II. Properties of and the oxidation mechanism of chromium, J. Electrochem. Soc. 127 (1980) 2410-2419, https://doi.org/10.1149/1.2129481.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">On the oxidation and nitridation of chromium at 1300 • C</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Royer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ledoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mathieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Steinmetz</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11085-010-9198-2</idno>
+		<ptr target="https://doi.org/10.1007/s11085-010-9198-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Oxid. Met</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="79" to="92" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Royer, X. Ledoux, S. Mathieu, P. Steinmetz, On the oxidation and nitridation of chromium at 1300 • C, Oxid. Met. 74 (2010) 79-92, https://doi.org/10.1007/ s11085-010-9198-2.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

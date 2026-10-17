@@ -1,0 +1,2530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mechanical performance of auxetic meta-biomaterials</title>
+				<funder ref="#_7KDSM9B">
+					<orgName type="full">CCI</orgName>
+				</funder>
+				<funder ref="#_9sHqpXT">
+					<orgName type="full">Research Foundation -Flanders</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-01-30">30 January 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">H</forename><forename type="middle">M A</forename><surname>Kolken</surname></persName>
+							<email>h.m.a.kolken@tudelft.nl</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Department of Biomechanical Engineering , Delft University of Technology , Delft , the Netherlands</note>
+								<orgName type="department">Department of Biomechanical Engineering</orgName>
+								<orgName type="institution">Delft University of Technology</orgName>
+								<address>
+									<settlement>Delft</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><surname>Lietaert</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>3D</label> Systems -LayerWise NV , Leuven , Belgium</note>
+								<orgName type="department">Systems -LayerWise NV</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Van Der Sloten</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>3D</label> Systems -LayerWise NV , Leuven , Belgium</note>
+								<orgName type="department">Systems -LayerWise NV</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Pouran</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Department of Orthopedics , University Medical Center Utrecht , Utrecht , the Netherlands</note>
+								<orgName type="department">Department of Orthopedics</orgName>
+								<orgName type="institution">University Medical Center Utrecht</orgName>
+								<address>
+									<settlement>Utrecht</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Meynen</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> KU Leuven , Institute for Orthopedic Research and Training , Leuven , Belgium</note>
+								<orgName type="institution" key="instit1">KU Leuven</orgName>
+								<orgName type="institution" key="instit2">Institute for Orthopedic Research and Training</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Van Loock</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> KU Leuven , Institute for Orthopedic Research and Training , Leuven , Belgium</note>
+								<orgName type="institution" key="instit1">KU Leuven</orgName>
+								<orgName type="institution" key="instit2">Institute for Orthopedic Research and Training</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Department of Biomechanical Engineering , Delft University of Technology , Delft , the Netherlands</note>
+								<orgName type="department">Department of Biomechanical Engineering</orgName>
+								<orgName type="institution">Delft University of Technology</orgName>
+								<address>
+									<settlement>Delft</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Department of Orthopedics , University Medical Center Utrecht , Utrecht , the Netherlands</note>
+								<orgName type="department">Department of Orthopedics</orgName>
+								<orgName type="institution">University Medical Center Utrecht</orgName>
+								<address>
+									<settlement>Utrecht</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><surname>Scheys</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> KU Leuven , Institute for Orthopedic Research and Training , Leuven , Belgium</note>
+								<orgName type="institution" key="instit1">KU Leuven</orgName>
+								<orgName type="institution" key="instit2">Institute for Orthopedic Research and Training</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>e</label> Division of Orthopedics , University Hospitals Leuven , Belgium</note>
+								<orgName type="department">Division of Orthopedics</orgName>
+								<orgName type="institution">University Hospitals Leuven</orgName>
+								<address>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Zadpoor</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Department of Biomechanical Engineering , Delft University of Technology , Delft , the Netherlands</note>
+								<orgName type="department">Department of Biomechanical Engineering</orgName>
+								<orgName type="institution">Delft University of Technology</orgName>
+								<address>
+									<settlement>Delft</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mechanical performance of auxetic meta-biomaterials</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-01-30">30 January 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3F25CC930852E129CF0805DE2071CFFC</idno>
+					<idno type="DOI">10.1016/j.jmbbm.2020.103658</idno>
+					<note type="submission">Received 13 November 2019; Received in revised form 16 January 2020; Accepted 24 January 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-23T02:37+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Poisson&apos;s ratio Auxetics Meta-biomaterials Meta-implants Additive manufacturing</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The innovative design of orthopedic implants could play an important role in the development of life-lasting implants, by improving both primary and secondary implant fixations.</s><s>The concept of meta-biomaterials aims to achieve a unique combination of mechanical, mass transport, and biological properties through optimized topological design of additively manufactured (AM) porous biomaterials.</s><s>In this study, we primarily focused on a specific class of meta-biomaterials, namely auxetic meta-biomaterials.</s><s>Their extraordinary behavior of lateral expansion in response to axial tension could potentially improve implant-bone contact in certain orthopedic applications.</s><s>In this work, a multitude of auxetic meta-biomaterials were rationally designed and printed from Ti-6Al-4V using a commercially available laser powder bed fusion process called selective laser melting.</s><s>The reentrant hexagonal honeycomb unit cell was used as a starting point, which was then parametrically tuned to obtain a variety of mechanical and morphological properties.</s><s>In this two-step study, the morphology and quasistatic properties of the developed meta-biomaterials were assessed using mechanical experiments accompanied with full-field strain measurements using digital image correlation.</s><s>In addition, all our designs were computationally modelled using the finite element method.</s><s>Our results showed the limits of the AM processes for the production of auxetic meta-biomaterials in terms of which values of the design parameters (e.g., re-entrant angle, relative density, and aspect ratio) could be successfully manufactured.</s><s>We also found that the AM process itself imparts significant influence on the morphological and mechanical properties of the resulting auxetic metabiomaterials.</s><s>This further highlights the importance of experimental studies to determine the actual mechanical properties of such metamaterials.</s><s>The elastic modulus and strength of many of our designs fell within the range of those reported for both trabecular and cortical bone.</s><s>Unprecedented properties like these could be used to simultaneously address the different challenges faced in the mechanical design of orthopedic implants.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>With the elderly population growing and the prevalence of osteoarthritis rising, the need to develop life-lasting implants is greater than ever <ref type="bibr" target="#b42">(Kurtz et al., 2007;</ref><ref type="bibr" target="#b41">Kremers et al., 2015;</ref><ref type="bibr" target="#b71">Wallace et al., 2017)</ref>.</s><s>Total joint replacements are one of the most successful surgical interventions, but young and active patients are very likely to outlive their implants <ref type="bibr" target="#b43">(Kurtz et al., 2009;</ref><ref type="bibr" target="#b45">Learmonth et al., 2007)</ref>, requiring a second (i.e., a revision) surgery.</s><s>The rising number of such surgeries <ref type="bibr" target="#b42">(Kurtz et al., 2007)</ref>, combined with unmet clinical needs in more complex skeletal cases such as orthopedic oncology, trauma, and pediatric patients, calls for improvement of both the initial post-operative fixation (primary) as well as the long-term (secondary) fixation.</s><s>This especially applies to the cases in which the available bone stock is limited, rendering the anchoring inadequate.</s></p><p><s>Innovative mechanical designs of orthopedic implants could play an important role in improving both primary and secondary implant fixations.</s><s>These innovative solutions go far beyond simply solving the longstanding problem of stress shielding and rely on the unprecedented properties of the so-called meta-biomaterials <ref type="bibr" target="#b40">(Kolken et al., 2018;</ref><ref type="bibr" target="#b75">Yavari et al., 2015;</ref><ref type="bibr" target="#b4">Ahmadi et al., 2019)</ref>.</s><s>When applied "rationally" <ref type="bibr" target="#b40">(Kolken et al., 2018;</ref><ref type="bibr" target="#b56">Overvelde et al., 2017;</ref><ref type="bibr" target="#b53">Mirzaali et al., 2017)</ref>, such unusual mechanical properties could enable solutions that are ordinarily impossible.</s><s>Indeed, the emerging concept of meta-biomaterials goes beyond the mechanical properties alone and aims to achieve a unique combination of mechanical, mass transport, and biological properties by optimizing the microscale topological design of additively manufactured (AM) porous (metallic) biomaterials <ref type="bibr" target="#b76">(Zadpoor, 2016;</ref><ref type="bibr" target="#b10">Bobbert et al., 2017;</ref><ref type="bibr" target="#b39">Kolken and Zadpoor, 2017)</ref>.</s></p><p><s>Here, we are primarily concerned with auxetic meta-biomaterials that have a negative Poisson's ratio and expand laterally in response to axial stretch <ref type="bibr" target="#b39">(Kolken and Zadpoor, 2017)</ref>.</s><s>Recently, a rational distribution of negative (auxetic) and positive Poisson's ratios has been used to improve the bone-implant contact and enhance the longevity of the femoral component (i.e., hip stem) of a total hip replacement (THR) implant <ref type="bibr" target="#b40">(Kolken et al., 2018)</ref>.</s><s>Since the hip stem is repeatedly loaded under bending, the lateral side of a conventional implant will be retracting from the bone under tensile loading.</s><s>The bone-implant interface is not only more susceptible to failure when subjected to tension <ref type="bibr" target="#b37">(Keaveny et al., 1994)</ref>, a retracting implant also reduces the bone-implant contact and allows wear particles to enter the bone-implant interface space.</s><s>The lateral application of an auxetic meta-biomaterial results in compression along both of the implant's contact lines with the surrounding bone, thereby decreasing the chance of bone-implant interface failure and stimulating bone growth <ref type="bibr" target="#b40">(Kolken et al., 2018)</ref>.</s></p><p><s>Despite the great potential of AM auxetic meta-biomaterials in improving bone-implant contact and, thus, implant longevity, limited data is available regarding their actual mechanical properties, and their Poisson's ratio in particular <ref type="bibr" target="#b39">(Kolken and Zadpoor, 2017;</ref><ref type="bibr" target="#b74">Yang et al., 2012)</ref>.</s><s>In this work, we characterized the mechanical properties of AM, Ti-6Al-4V auxetic lattices that were based on the re-entrant hexagonal honeycomb unit cell and were fabricated using a commercially available laser powder bed fusion (L-PBF) process called selective laser melting (SLM) <ref type="bibr" target="#b38">(Khorasani et al., 2019;</ref><ref type="bibr" target="#b69">Tan et al., 2019)</ref>.</s><s>This AM process uses a high-power laser beam to selectively fuse metal powder particles to build a part straight from a computer-aided design (CAD) file.</s><s>The word re-entrant refers to something "directed inward" or having a negative angle <ref type="bibr">(Reentrant)</ref>, which directly applies to the ribs of this geometry <ref type="bibr" target="#b39">(Kolken and Zadpoor, 2017;</ref><ref type="bibr" target="#b23">Evans and Alderson, 2000)</ref>.</s><s>This combination of material and AM process was selected because Ti-6Al-4V is a highly biocompatible material and is commonly used for the fabrication of orthopedic implants <ref type="bibr" target="#b54">(Niinomi, 1998;</ref><ref type="bibr" target="#b49">Long and Rack, 1998)</ref>.</s><s>Moreover, SLM is a certified process and is commercially available for the fabrication of implantable medical devices, including orthopedic implants.</s></p><p><s>The study was performed in two steps.</s><s>In the first step (group 1), the limits of the SLM process were explored to fabricate structures with suitable properties for orthopedic applications.</s><s>These specimens were mechanically tested under compression, since compression is one of the major modes of loading in bone-mimicking meta-biomaterials.</s><s>Additionally, extensive research has been done on other porous metabiomaterials using the same loading condition <ref type="bibr" target="#b75">(Yavari et al., 2015;</ref><ref type="bibr" target="#b32">Hrabe et al., 2011;</ref><ref type="bibr" target="#b78">Zhao et al., 2018;</ref><ref type="bibr" target="#b3">Ahmadi et al., 2018)</ref>.</s><s>Their micro-architecture was assessed using micro-computed tomography (micro-CT).</s><s>In the second step (group 2), the compressive mechanical properties obtained using the stress-strain curve were complemented with the measurements of the Poisson's ratio performed using the digital image correlation (DIC) technique <ref type="bibr" target="#b52">(McCormick and Lord, 2010)</ref>.</s><s>In addition to the experimental results, all of the designs (group 1 and 2) were computationally modelled using the finite element (FE) method.</s><s>This comprehensive library of mechanical and morphological properties provides currently lacking experimental data, to take further steps in the adoption of auxetic lattices within the field of orthopedics.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Design and AM of auxetic meta-biomaterials</head><p><s>The auxetic meta-biomaterials in this study were built from the reentrant hexagonal honeycomb unit cell (Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>This unit cell can be derived from the conventional hexagonal honeycomb by inverting two of its vertices.</s><s>When stretched, the ribs of the re-entrant hexagonal honeycomb re-align (hinging) and the structure expands laterally.</s><s>This specific behavior is characterized by a negative Poisson's ratio, and depends on several geometrical parameters, such as the re-entrant angle (θ), rib-length ratio (a/b), and the relative density (RD).</s><s>With the reentrant angle values ranging between 5 and 25 � , rib-length ratios of 0.5-1.5, and relative densities of 0.20-0.50, a total of 60 different designs were considered.</s><s>However, considering the processability window of SLM and the intended cell sizes for bone tissue regeneration, not all combinations could be successfully manufactured (Fig. <ref type="figure" target="#fig_0">1</ref>-1, a ¼ 2 mm).</s><s>Taking the printing and design limitations into consideration, a total of 31 cylindrical specimens (∅ ¼ 25 mm, h ¼ 37.5 mm) were successfully designed and manufactured (Fig. <ref type="figure" target="#fig_0">1-1</ref>).</s><s>The specimens in group 2 were designed using the same variation of geometrical parameters.</s><s>With the intention to experimentally determine their Poisson's ratio, their cell size had to be sufficiently large and their front surface had to be flat.</s><s>As a result, 34 different cubical specimens (25 � 25 � 25 mm) were designed with a mutual cell width (w) of 5 mm (Fig. <ref type="figure" target="#fig_0">1</ref><ref type="figure">2</ref>).</s></p><p><s>All specimens were additively manufactured using Ti-6Al-4V ELI (ASTM <ref type="url" target="astm:F3001">F3001</ref>) powder (Fig. <ref type="figure" target="#fig_0">1-1A</ref> and <ref type="figure" target="#fig_0">1-2A</ref>).</s><s>This specific grade of Ti-6Al-4V is particularly useful in the medical industry for its high strength, light weight, good corrosion resistance and outstanding damage tolerance <ref type="bibr" target="#b54">(Niinomi, 1998)</ref>.</s><s>The direct metal printing process was performed on a ProX DMP320 machine (3D Systems, Leuven, Belgium) using the DMP Control software.</s><s>A sample size of five was used for each design in group 1, whereas four specimens were printed for each design in group 2. Due to the small unit cell size of the specimens in group 1, and ensuing a small overhang length, they could be printed without supports.</s><s>The specimens in group 2 had to be printed horizontally or at a 45-degree angle to avoid supports being required inside the porous structure.</s><s>These specific requirements pushed some of the designs outside the processability window of the SLM process.</s><s>Multiple optimization trials and production batches were required to obtain high quality specimens.</s><s>After printing, the specimens were removed from the build plate using wire electrical discharge machining (EDM).</s><s>The specimens were ultrasonically cleaned in 96% ethanol to remove the excess powder particles.</s><s>A chemical etching process was used to improve the surface finish of the specimens, by removing adhering powder particles <ref type="bibr" target="#b57">(Pyka et al., 2012)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Morphological characterization</head><p><s>To study the morphology of the auxetic meta-biomaterials in group 1, micro-CT scans were made using a Quantum FX micro CT scanner (PerkinElmer, Waltham, United States).</s><s>To reduce the beam hardening effects and scatter, the sample holder was surrounded by a copper filter.</s><s>Three out of five specimens were, randomly selected and scanned for 4.5 min, using a voxel size of 40 3 μm 3 , a tube voltage of 90 kV, a tube current of 200 μA, and a field of view of 20 � 20 mm (Fig. <ref type="figure" target="#fig_0">1-1C</ref>).</s></p><p><s>Subsequently, the TIFF stacks were imported into the image analysis software Fiji <ref type="bibr" target="#b62">(Schindelin et al., 2012)</ref>.</s><s>A 3D Gaussian blur filter was applied, followed by a Bernsen local thresholding <ref type="bibr" target="#b62">(Schindelin et al., 2012)</ref>.</s><s>The images were cropped to isolate the region of interest, after which they were purified using the BoneJ plugin to remove unconnected and loose structures <ref type="bibr" target="#b21">(Doube et al., 2010)</ref>.</s><s>The relative density, pore size (spacing), and strut thickness (3D thickness) could then be obtained using the same plugin <ref type="bibr" target="#b19">(Day et al., 2000)</ref>.</s><s>The bone volume fraction (i.e., relative density) was calculated by dividing the foreground voxels by the total number of voxels in the image.</s><s>The strut thickness at a point was obtained by computing the 3D volume weighted (unbiased) thickness at this point <ref type="bibr" target="#b19">(Day et al., 2000)</ref>.</s><s>The outer dimensions of the specimens in both groups were measured with a caliper.</s><s>A laboratory scale (Sartorius AG, G€ ottingen, Germany, 0.1 mg resolution) was used to weigh the specimens.</s><s>The relative density was also determined using the dry weighing technique in which the weights of the specimens were divided by the weight of a solid Ti-6Al-4V object with similar dimensions and a density of 4.43 g/cm 3 .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Mechanical testing</head><p><s>All specimens were axially compressed using a mechanical testing machine (Zwick GmbH &amp; Co. KG, Ulm, Germany) with a 250 kN load cell and a 0.5% cross head accuracy.</s><s>On either side of the specimens, a tool steel plate was positioned to prevent the machine platens from wearing.</s><s>The cylindrical specimens in group 1 were preloaded with 10 N, and subsequently compressed up to 15 mm (2 mm/min).</s><s>The cubical specimens in group 2 were subjected to a 5 N preload, after which they were compressed for 10 mm (1 mm/min).</s></p><p><s>The quasi-static mechanical properties were obtained according to ISO 13314:2011 using the stress-strain curves <ref type="bibr">(Standard, 2011)</ref>.</s><s>The "quasi-elastic gradient", from now on referred to as the elastic modulus, was calculated in the linear region at the beginning of the stress-strain curve.</s><s>If the first peak happened to coincide with the failure of the vertical struts being in contact with the bottom compression platen, the gradient of the second linear region was used.</s><s>This was done to make sure we are comparing the behavior of the structures as a whole.</s><s>The data were corrected for the machine compliance according to the 'Direct Technique' presented by <ref type="bibr" target="#b35">Kalidindi et al. (1997)</ref>.</s><s>As an alternative to the compressive yield strength, the ISO-13314:2011 standard introduces the concept of "compressive offset stress".</s><s>This property was measured at 0.2% plastic compressive strain and will from now on be referred to as the yield strength.</s><s>The first local maximum in the stress-strain curve corresponds with the first maximum compressive strength (FMCS), whereas the plateau stress was calculated as the arithmetical mean of the stresses between 20% and 30% compressive strain.</s><s>In the cases where the first linear region was omitted, for reasons mentioned above, the second local maximum was reported as the FMCS.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Digital image correlation</head><p><s>DIC was used to measure the full-field strains and displacements experienced during the compression experiments, by comparing the images of a specimen at the different stages of its deformation (McCormick and Lord, 2010) (Fig. <ref type="figure" target="#fig_0">1-2C</ref>).</s><s>For this method to work efficiently, the surface of the studied specimens should have sufficient image texture and contrast with a random and unique pixel pattern.</s><s>The cubical specimens were, therefore, spray-painted in black, after which their front surface was stamped in white.</s><s>An airbrush was finally used to add a black, random, and unique speckle pattern <ref type="bibr" target="#b40">(Kolken et al., 2018)</ref>.</s><s>During axial compression, two 4 MP digital cameras (Limess, Krefeld, Germany) were used to capture the front surface of the specimens with a frequency of 1 Hz.</s><s>Once the cameras were set, the DIC system was calibrated using the VicSnap software (Correlated Solutions Inc., Irmo, USA).</s><s>The images were analyzed using Vic-3D 8 (Correlated Solutions Inc., Irmo, USA) to calculate the displacements and strain fields.</s><s>The relative displacements of a pre-defined group of unit cells were used to calculate the Poisson's ratio.</s><s>This group consisted of 3 � 2 � 3 unit cells in the middle of the frontal surface of the specimens (Fig. <ref type="figure" target="#fig_0">1</ref><ref type="figure">2</ref>).</s><s>The coordinates of their vertices at the different stages of deformation were used to calculate the values of directional strains (i.e., ε xx and ε yy ).</s><s>The average strain values were then used to calculate the Poisson's ratio, ν</s></p><formula xml:id="formula_0">(¼ -ε xx /ε yy ).</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Finite element analysis</head><p><s>Three-dimensional FE models were developed to evaluate the elastic behavior of the porous auxetic structures in more detail.</s><s>The quasi-static compression experiments were simulated using the implicit solver of Abaqus standard (Dassault Syst� emes, V� elizy-Villacoublay, France).</s><s>The The cylindrical (1A) and cubical specimens (2A) were successfully manufactured using SLM.</s><s>The specimens in group 1 were first evaluated with micro-CT (1B-C), after which they were axially compressed (1B).</s><s>The specimens in group 2 were axially compressed (2B), while their deformation was closely examined using DIC (2B-C).</s></p><p><s>struts of the auxetic structure were represented using the quadratic Timoshenko beam elements.</s><s>A convergence study was used to determine the appropriate number of elements for the FE models.</s><s>The geometry of the specimens was reconstructed using the IntraLattice Grasshopper plugin available in Rhinoceros 3D (Robert McNeel &amp; Associates) <ref type="bibr" target="#b44">(Kurtz et al., 2015)</ref>.</s><s>The node connections and coordinates were exported to MATLAB, where a custom script was used to generate beam elements suitable for FE modeling.</s><s>The appropriate beam section, cross-sectional geometry, and beam thickness were also assigned.</s><s>In accordance with the as-manufactured properties of AM Ti-6Al-4V ELI parts (personal communication, February 6, 2019, 3DSystems, Leuven, Belgium), isotropic elastic material properties including an elastic modulus of 70 GPa and a Poisson's ratio of 0.3 were assigned to the material constituting the struts.</s><s>Since an infinite friction was assumed between the specimen and the platens, the boundary conditions were applied to a reference point on either side of the specimens.</s><s>A rigid body constraint was used to tie all of the top and bottom nodes to their respective reference point.</s><s>A 0.5 mm vertical displacement was applied to the top reference point, while all other degrees of freedom were constrained.</s><s>Encastre boundary conditions were prescribed at the bottom reference point.</s><s>The elastic modulus was calculated using the overall engineering stress and engineering strain of the porous structures.</s><s>The overall stress in the structure was calculated using the reaction force calculated for the bottom reference point and the initial cross-sectional area perpendicular to the loading direction.</s><s>The overall strain was calculated using the imposed displacement and the initial lattice height.</s><s>To determine the Poisson's ratio of the cubic specimens, the exact same procedure as in the experiments was applied.</s><s>The displacements of the vertices enclosing a 3 � 2 � 3 array of unit cells were used to calculate the transverse and axial strain values.</s></p><p><s>In the case of the cylindrical specimens, the three-dimensional cell array had to be cut from a full lattice, resulting in a number of unconnected struts.</s><s>A preliminary analysis showed that these unconnected struts could adversely affect the accuracy of the computational models of lattice structures.</s><s>These struts were therefore eliminated from the CAD files before being send to the printer, but removing them inside the Abaqus environment would take a lot of time.</s><s>We therefore used rectangular geometries, with the same unit cell dimensions, to get rid of these unconnected struts in our simulations.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1</head><p><s>The relative density values for both groups measured in the CAD file, calculated using the dry-weighing technique, and obtained from the micro-CT images, presented as mean � SD.</s></p><p><s>Design Group 1 Group 2 CAD Dry-weighing Micro-CT CAD Dry-weighing 0.5-5-0.30</s><s>0.264 0.229 � 0.003 0.302 � 0.012 0.277 0.255 � 0.002 0.5-5-0.20 0.182 0.162 � 0.002 0.198 � 0.002 0.187 0.162 � 0.003 1.0-5-0.50</s><s>0.446 0.397 � 0.004 0.497 � 0.003 0.429 0.362 � 0.003 1.0-5-0.40</s><s>0.363 0.349 � 0.005 0.391 � 0.006 0.349 0.303 � 0.002 1.0-5-0.30</s><s>0.276 0.273 � 0.003 0.295 � 0.003 0.267 0.235 � 0.002 1.0-5-0.20 0.187 0.137 � 0.003 0.186 � 0.003 0.183 0.166 � 0.001 1.0-10-0.50</s><s>0.449 0.416 � 0.001 0.501 � 0.007 0.430 0.371 � 0.002 1.0-10-0.40</s><s>0.365 0.338 � 0.003 0.385 � 0.012 0.350 0.308 � 0.001 1.0-10-0.30</s><s>0.277 0.275 � 0.001 0.300 � 0.001 0.268 0.242 � 0.002 1.0-10-0.20 0.188 0.191 � 0.002 0.196 � 0.003 0.183 0.161 � 0.002 1.0-15-0.40</s><s>0.366 0.362 � 0.002 0.406 � 0.003 0.355 0.303 � 0.001 1.0-15-0.30</s><s>0.279 0.287 � 0.002 0.308 � 0.003 0.271 0.238 � 0.001 1.0-15-0.20 0.188 0.219 � 0.002 0.224 � 0.004 0.185 0.166 � 0.001 1.0-20-0.20 0.186 0.307 � 0.001 0.318 � 0.004 0.186 0.169 � 0.003 1.5-5-0.50</s><s>0.456 0.414 � 0.002 0.506 � 0.004 0.415 0.337 � 0.001 1.5-5-0.40</s><s>0.369 0.362 � 0.002 0.340 � 0.003 0.340 0.278 � 0.004 1.5-5-0.30</s><s>0.280 0.286 � 0.002 0.302 � 0.002 0.261 0.222 � 0.002 1.5-5-0.20 0.190 0.200 � 0.001 0.196 � 0.003 0.179 0.156 � 0.002 1.5-10-0.50</s><s>0.458 0.367 � 0.003 0.530 � 0.003 0.448 0.345 � 0.002 1.5-10-0.40</s><s>0.370 0.371 � 0.003 0.411 � 0.007 0.341 0.283 � 0.002 1.5-10-0.30</s><s>0.280 0.309 � 0.002 0.234 � 0.002 0.261 0.224 � 0.001 1.5-10-0.20 0.190 0.229 � 0.001 0.218 � 0.002 0.180 0.155 � 0.003 1.5-15-0.50</s><s>0.459 0.475 � 0.004 0.560 � 0.005 0.422 0.364 � 0.003 1.5-15-0.40</s><s>0.372 0.437 � 0.003 0.526 � 0.012 0.344 0.297 � 0.006 1.5-15-0.30</s><s>0.282 0.316 � 0.003 0.337 � 0.011 0.265 0.242 � 0.002 1.5-15-0.20 ---0.181</s><s>0.154 � 0.001 1.5-20-0.50</s><s>0.461 0.487 � 0.003 0.603 � 0.004 0.423 0.356 � 0.002 1.5-20-0.40</s><s>0.373 0.419 � 0.002 0.506 � 0.001 0.346 0.294 � 0.002 1.5-20-0.30</s><s>0.283 0.317 � 0.003 0.350 � 0.005 0.264 0.227 � 0.001 1.5-20-0.20 ---0.180</s><s>0.163 � 0.001 1.5-25-0.50</s><s>0.465 0.513 � 0.002 0.601 � 0.002 0.424 0.360 � 0.009 1.5-25-0.40</s><s>0.375 0.437 � 0.001 0.503 � 0.002 0.346 0.284 � 0.002 1.5-25-0.30</s><s>0.284 0.319 � 0.003 0.397 � 0.003 0.266 0.231 � 0.001 1.5-25-0.20 ---0.182</s><s>0.157 � 0.002</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Morphological characteristics</head><p><s>The values of the relative density obtained for the specimens of group 1 using dry weighing and micro-CT imaging ranged between 0.14 and 0.60 (Table <ref type="table">1</ref>).</s><s>In some cases, they were slightly lower than the design values, but in general they were �1-34% higher.</s><s>These deviations were found to increase with the re-entrant angle and aspect ratio.</s><s>The relative density values determined for the specimens of group 2 using dry weighing varied between 0.15 and 0.37, and were �2-6% smaller than their design values (Table <ref type="table">1</ref>).</s></p><p><s>The mean pore size in group 1 decreased with the aspect ratio, reentrant angle, and relative density (Fig. <ref type="figure">2</ref>).</s><s>For the relative density values of �0.2, �0.3, �0.4 and � 0.5, the pore sizes varied in the following ranges: 1168-3107, 948-2815, 907-1361, and 801-1185 μm, respectively (Fig. <ref type="figure">2</ref>).</s><s>Increasing the strut thickness reduced the pore size while increasing the relative density (Fig. <ref type="figure">2</ref>, Tables <ref type="table">1</ref> and <ref type="table">2</ref>).</s><s>The actual values of the strut thickness varied in the following ranges: 477-901, 604-1205, 752-925 and 902-1113 μm corresponding to the aforementioned classes of relative density (Table <ref type="table">2</ref>).</s><s>The differences between the actual values of the morphological parameters determined using micro-CT and their corresponding design values were not similar for all designs (Tables <ref type="table">1</ref> and <ref type="table">2</ref>).</s><s>For small re-entrant angles and aspect ratios, the actual strut thicknesses were smaller or similar to the design values.</s><s>As the aspect ratio and re-entrant angle increased, the struts tended to increase in diameter (Table <ref type="table">2</ref>).</s><s>This same trend could, however, not directly be observed in the accompanying relative density values (Table <ref type="table">1</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Mechanical properties</head><p><s>Not all the designs showed the typical stress-strain curve frequently seen in porous biomaterials <ref type="bibr" target="#b30">(Hedayati et al., 2018)</ref>.</s><s>In general, all specimens exhibited the initial linear region, but the subsequent plateau region and the typical fluctuations were not as clear (Fig. <ref type="figure" target="#fig_1">3</ref>).</s><s>When present, the level of fluctuations decreased as the relative density increased.</s><s>The final densification phase could not be clearly observed.</s><s>The level of the variations in the stress-strain curves of the same experimental group usually increased substantially, once the maximum stress was reached (Fig. <ref type="figure" target="#fig_1">3</ref>).</s></p><p><s>Different failure modes could be observed during the compression tests, for which three distinctions were made (Fig. <ref type="figure" target="#fig_1">3</ref>).</s><s>Specimens of the different groups failed through one of the three failure mechanisms: 1. densification, 2. the formation of a diagonal shear band, or 3. the successive collapse of the layers perpendicular to the loading direction.</s><s>The type of failure mode changed in the abovementioned order as the aspect ratio and re-entrant angle increased (Fig. <ref type="figure" target="#fig_1">3</ref>).</s><s>Having reached the final failure mode, the frequency of the fluctuations increased with the reentrant angle.</s><s>In cases where the stress-strain curve pointed at densification, the specimens finally showed a diagonal crack upon failure, similar to a solid part <ref type="bibr" target="#b17">(Choy et al., 2017)</ref>.</s><s>Furthermore, most specimens with high values of relative density failed through the formation of a diagonal shear band while the fluctuations in the stress-strain curves obtained for the specimens with low values of the relative density clearly pointed towards the collapse of individual layers (Fig. <ref type="figure" target="#fig_1">3</ref>).</s></p><p><s>Some of the stress-strain curves of the specimens from group 2 also showed an abrupt drop to zero stress at �5% strain (Fig. <ref type="figure" target="#fig_1">3G</ref> and <ref type="figure">J</ref>).</s><s>The corresponding DIC images (Fig. <ref type="figure" target="#fig_1">3J-3</ref>) showed that the peak values of the horizontal strain are measured at the bottom of the specimens, right before failure.</s><s>In general, these horizontal strain patterns showed positive strain in the vertices and the vertical struts, while the diagonal struts experience negative values of strain.</s><s>Moreover, strain concentrations could be found throughout the porous structures, in the earlier phases of deformation.</s></p><p><s>Except for the negative Poisson's ratio (NPR), all other mechanical properties were found to increase with the relative density (Fig. <ref type="figure" target="#fig_2">4A</ref>).</s><s>The NPR increased with the re-entrant angle and decreased with the aspect ratio.</s><s>A range of Poisson's ratios was obtained, varying between 0.052 � 0.0033 for the highest values of the relative density to -0.211 þ/-0.0145 for the smallest values of the relative density.</s><s>A lateral contraction could be observed in response to axial compression, in the specimens with a negative Poisson's ratio (Fig. <ref type="figure" target="#fig_1">3J</ref> and Fig. <ref type="figure" target="#fig_3">5A-B</ref>).</s><s>The observed trends were similar to those obtained in the FE models and the absolute values could be closely predicted for the smallest values of the relative density, except for the Poisson's ratio where the prediction errors were larger (Fig. <ref type="figure" target="#fig_3">5</ref>).</s></p><p><s>The elastic modulus, or quasi-elastic gradient, of the auxetic metabiomaterials was found to vary in the range of 84.2 � 5.2 MPa to 11.1 � 0.3 GPa for relative density values between 0.15 and 0.60 (Fig. <ref type="figure" target="#fig_2">4</ref>).</s><s>According to the FE model, the elastic modulus decreases with the re-entrant angle and decreases with the aspect ratio (Fig. <ref type="figure" target="#fig_3">5D-E</ref>).</s><s>Similar results were found in the experiments (Fig. <ref type="figure" target="#fig_2">4B-C</ref>), although this did not hold for all of the designs.</s><s>A deviation from this rule seems to occur in the designs with a re-entrant angle above �15 � .</s><s>In these cases, the structures were suddenly much stiffer than their counterparts with Fig. <ref type="figure">2</ref>. The mean pore size vs. porosity duos that were attained for group 1, �SD.</s><s>The numbered data points in the graph correspond to the 3D models that could be derived from the micro-CT images.</s><s>The green area shows the desired spectrum in which bone tends to grow <ref type="bibr" target="#b36">(Karageorgiou and Kaplan, 2005;</ref><ref type="bibr" target="#b22">Entezari et al., 2019;</ref><ref type="bibr" target="#b9">Van Bael et al., 2012;</ref><ref type="bibr" target="#b7">Arabnejad et al., 2016;</ref><ref type="bibr" target="#b51">Mastrogiacomo et al., 2006)</ref>.</s><s>slightly smaller angles (Fig. <ref type="figure" target="#fig_2">4B-C</ref>, <ref type="figure" target="#fig_3">5D-E</ref>).</s><s>The same phenomenon can be observed in the graphs on the yield strength, or compressive offset stress.</s><s>The values varied between 6.9 � 0.2 and 279.9 � 7.1 MPa for the aforementioned range of relative densities (Fig. <ref type="figure" target="#fig_2">4D-E</ref>).</s><s>The auxetic meta-biomaterials exhibited a first maximum compressive strength (FMCS) between 18.8 � 0.7 and 400.4 � 31.9</s><s>MPa, and a plateau stress ranging from 10.9 � 1.0 to 301.5 � 22.8 MPa.</s><s>Both properties were found to decrease with aspect ratio, at least for the specimens in group 1 (Fig. <ref type="figure" target="#fig_2">4F-I</ref>).</s><s>The relatively high standard deviations measured for those values make it difficult to draw decisive conclusions regarding their dependency on the re-entrant angle.</s><s>The exponents of the Ashby power law were calculated for the elastic moduli using the aforementioned 70 GPa bulk modulus <ref type="bibr" target="#b25">(Gibson and Ashby, 1999)</ref>.</s><s>The data on the elastic moduli for group 1 could be fitted with values varying between 1.86 and 5.00, while the exponent for sample group 2 ranged between 2.15-4.19</s><s>(no figure).</s><s>The exponent increased as the aspect ratio and relative density decreased (no figure).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p><s>In this study, a wide range of auxetic meta-biomaterials were designed and additively manufactured.</s><s>Variations in mechanical properties were achieved by changing the geometrical parameters and the overall relative density of the specimens.</s><s>The results of the morphological and mechanical characterization form a promising basis towards the final application of auxetic meta-biomaterials in orthopedics.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Morphology and requirements for bone-mimicking meta-biomaterials</head><p><s>The micro-CT data were used for further comparison in group 1.</s><s>The specimens in group 2 were not designed to meet the requirements for bone tissue regeneration, and will, therefore, not be evaluated on their bone-mimicking properties.</s></p><p><s>In terms of the relative density, the specimens in group 1 showed some differences from their design values.</s><s>Their small unit cell size, and the accompanying strut thicknesses, pushed the limits of the SLM process.</s><s>Due to the shorter struts, and the high number of diagonal oriented lines, the laser is forced to make frequent acute turns.</s><s>At the point of rotation, the laser is standing still and the melt pool enlarges <ref type="bibr" target="#b18">(Craeghs et al., 2011;</ref><ref type="bibr" target="#b8">Van Bael et al., 2011;</ref><ref type="bibr" target="#b65">Sing et al., 2018)</ref>.</s><s>Within the structure this will lead to thicker struts, and at the periphery parasitic 'blob' formations may occur <ref type="bibr" target="#b18">(Craeghs et al., 2011)</ref>.</s><s>Subsequently, oblique struts are generally built by stacking of single or multiple melt pools across multiple layers.</s><s>This 'staircase effect' increases the strut thickness by inflicting an undesirable roughness <ref type="bibr" target="#b8">(Van Bael et al., 2011;</ref><ref type="bibr" target="#b65">Sing et al., 2018)</ref>.</s><s>As a result, the printed specimens can deviate from their CAD file due to certain geometrical imperfections (e.g.</s><s>strut thickness heterogeneity, overmelting and bulky vertices/joints) <ref type="bibr" target="#b18">(Craeghs et al., 2011;</ref><ref type="bibr" target="#b8">Van Bael et al., 2011;</ref><ref type="bibr" target="#b65">Sing et al., 2018;</ref><ref type="bibr" target="#b48">Liu et al., 2017;</ref><ref type="bibr" target="#b13">Cansizoglu et al., 2008;</ref><ref type="bibr" target="#b63">Shipley et al., 2018)</ref>.</s><s>Modulated energy delivery has been proven the best option for the printing of fine details, and could maybe change the limits of the process <ref type="bibr" target="#b60">(Saunders, 2018)</ref>.</s><s>Unfortunately, this option was not explored here.</s><s>The degree of smoothening resulting from the chemical etching process depends on the surface to volume ratio of the specimen and, thus, the type of unit cell.</s><s>To what extent the surface of the specimens was actually smoothened has not been determined.</s><s>The relative density of the specimens in group 2 is clearly less affected, probably as a direct consequence of the bigger unit cell size.</s></p><p><s>Most of the absolute values of the relative density fell within the range of those reported for optimal bone growth (&lt;0.55</s><s>RD).</s><s>Since the design of porous biomaterials needs to be simultaneously optimized for mechanical functionality and biological efficiency, the literature is not unanimous about the most optimal relative density for bone ingrowth.</s><s>Furthermore, bone is a hierarchical structure and its properties highly depend on the anatomical location and the patient's attributes (e.g.</s><s>age, health, and activity) <ref type="bibr" target="#b58">(Rho et al., 1998;</ref><ref type="bibr" target="#b26">Goldstein, 1987)</ref>.</s><s>That being said, given the wide range of the obtained relative density values, the studied auxetic meta-biomaterials could be used for a variety of applications.</s></p><p><s>The mean pore size ranged between �800 μm and 3100 μm, covering only a small portion of the bone regenerative spectrum.</s><s>However, the ideal pore size for bone tissue regeneration is yet to be determined, and great differences have been found between the in-vitro and in-vivo optima <ref type="bibr" target="#b36">(Karageorgiou and Kaplan, 2005)</ref>.</s><s>Most studies recommend pore sizes between 300 μm and 800 μm to facilitate the diffusion of nutrients and enable the formation of capillaries <ref type="bibr" target="#b36">(Karageorgiou and Kaplan, 2005;</ref><ref type="bibr" target="#b22">Entezari et al., 2019;</ref><ref type="bibr" target="#b9">Van Bael et al., 2012;</ref><ref type="bibr" target="#b7">Arabnejad et al., 2016;</ref><ref type="bibr" target="#b51">Mastrogiacomo et al., 2006)</ref>.</s><s>Smaller pores, on the other hand, better accommodate cell attachment <ref type="bibr" target="#b9">(Van Bael et al., 2012;</ref><ref type="bibr" target="#b59">Rumpler et al., 2008)</ref>.</s><s>The curvature-driven effects found by Rumpler et al. support this observation, since smaller pores have a higher average curvature and would, therefore, enhance the deposition of de novo tissue <ref type="bibr" target="#b59">(Rumpler et al., 2008)</ref>.</s><s>Larger pores are expected to be more beneficial in later stages to avoid pore occlusion and facilitate cell growth <ref type="bibr" target="#b36">(Karageorgiou and Kaplan, 2005;</ref><ref type="bibr" target="#b9">Van Bael et al., 2012)</ref>.</s><s>Functionally graded scaffolds could, therefore, provide both ideal cell attachment sites and sufficient space for further proliferation and growth.</s><s>In that regard, the wide pore size spectrum in this study could be used to form a graded structure.</s></p><p><s>Table <ref type="table">2</ref> The strut thickness values for group 1 measured in the CAD file and obtained from the micro-CT images, presented as mean � SD.</s></p><p><s>Design Group 1 Group 2 CAD (μm) Micro-CT (μm) CAD (μm) 0.5-5-0.30</s><s>1131 1205 � 331 682 0.5-5-0.20 910 901 � 270 545 1.0-5-0.50</s><s>1113 1113 � 311 1324 1.0-5-0.40</s><s>934 925 � 281 1157 1.0-5-0.30</s><s>825 741 � 244 979 1.0-5-0.20 660 553 � 199 782 1.0-10-0.50</s><s>1049 1013 � 309 1253 1.0-10-0.40</s><s>919 815 � 277 1098 1.0-10-0.30</s><s>779 664 � 233 931 1.0-10-0.20 624 515 � 188 744 1.0-15-0.40</s><s>853 870 � 287 999 1.0-15-0.30</s><s>726 689 � 241 848 1.0-15-0.20 583 519 � 163 680 1.0-20-0.20 536 649 � 186 670 1.5-5-0.50</s><s>918 902 � 234 1593 1.5-5-0.40</s><s>798 764 � 207 1390 1.5-5-0.30</s><s>673 604 � 182 1175 1.5-5-0.20 538 477 � 156 935 1.5-10-0.50</s><s>879 904 � 234 1570 1.5-10-0.40</s><s>764 752 � 203 1370 1.5-10-0.30</s><s>645 626 � 201 1158 1.5-10-0.20 515 592 � 206 922 1.5-15-0.50</s><s>825 967 � 226 1465 1.5-15-0.40</s><s>719 908 � 234 1280 1.5-15-0.30</s><s>609 653 � 184 10835 1.5-15-0.20 --863 1.5-20-0.50</s><s>793 1004 � 217 1437 1.5-20-0.40</s><s>692 886 � 202 1256 1.5-20-0.30</s><s>584 665 � 182 1060 1.5-20-0.20 --844 1.5-25-0.50</s><s>720 986 � 188 1400 1.5-25-0.40</s><s>629 850 � 187 1225 1.5-25-0.30</s><s>533-727 � 174-1038828 1.5-25-0.20</s><s>Subsequently, the design and processing parameters could be adjusted to approach other desirable pore sizes (e.g., those of Trabecular Titanium (640 μm) <ref type="bibr">(LimaCorporate, 2016)</ref> and Trabecular metal (�440 μm) (ZimmerBiomet, 2019)).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Topology-property relationships</head><p><s>The stress-strain curves showed that there are large variations in the mechanical behavior and ultimate failure modes of the specimens from different groups.</s><s>Further compression of the specimens would most likely have resulted in the, currently lacking, densification phase.</s><s>Some of the curves did show densification, but without a plateau phase.</s><s>According to Gibson and Ashby, these specific cellular solids go through early densification <ref type="bibr" target="#b25">(Gibson and Ashby, 1999)</ref>.</s><s>This can be explained by their high relative density and/or their low aspect ratio, which causes their cell walls to touch at lower strains.</s><s>The fluctuations corresponded with the collapse of successive layers, in which the layer containing the weakest link collapses first.</s><s>The sudden drops at �5% strain correspond with the failure of the vertical struts being in contact with the bottom compression platen.</s><s>The slenderness of these struts, and thus their tendency to fail, depends on the geometrical parameters and the number of the unit cell layers that could be fitted in a 25 � 25 � 25 mm cube.</s></p><p><s>The mechanical properties of porous meta-biomaterials are often considered independent of the unit cell size, as long as the relative density is kept constant <ref type="bibr" target="#b23">(Evans and Alderson, 2000;</ref><ref type="bibr" target="#b6">Alderson, 1999)</ref>.</s><s>Even though this assumption is not 100% accurate, particularly for bending-dominated unit cells such as the ones considered here, it is often a good first approximation that allows us to discuss both experimental groups together.</s></p><p><s>The sudden shift in the mechanical properties at a re-entrant angle of �15 � is most likely a direct consequence of the inferior print quality of horizontal struts <ref type="bibr" target="#b65">(Sing et al., 2018;</ref><ref type="bibr" target="#b67">Suard et al., 2015;</ref><ref type="bibr" target="#b73">Wauthle et al., 2015;</ref><ref type="bibr" target="#b64">Simonelli et al., 2014)</ref>.</s><s>In specimens with a relatively small re-entrant angle, the angle of the inclined struts with the powder bed significantly decreases.</s><s>Those struts will, therefore, be printed with higher internal porosities <ref type="bibr" target="#b73">(Wauthle et al., 2015)</ref>.</s><s>The CT images show that the struts indeed become more irregular and oval-shaped below a re-entrant angle of �15 � .</s><s>Additionally, the inverted vertices are more likely to touch and fuse with a re-entrant angle above �15 � , potentially increasing the overall stiffness as well.</s><s>Consequently, the mechanical properties may have been affected by the difference in build orientation between groups and within group 2 <ref type="bibr" target="#b73">(Wauthle et al., 2015;</ref><ref type="bibr" target="#b64">Simonelli et al., 2014)</ref>.</s><s>In this case the quality of the vertical struts may have become inferior to the quality of the inclined struts.</s><s>Additionally, The relatively high values of the power law exponents show that the stiffness of these meta-biomaterials is very sensitive to the relative density.</s></p><p><s>The measured Poisson's ratio values suggest that the auxetic metabiomaterials with this type of unit cell can give both an auxetic and a non-auxetic response.</s><s>The re-entrant hexagonal honeycomb mainly deforms by hinging of its ribs, and if the thickness of the struts increases, and vertices gain volume due to an increased melt pool, this will become more difficult <ref type="bibr" target="#b18">(Craeghs et al., 2011;</ref><ref type="bibr" target="#b8">Van Bael et al., 2011;</ref><ref type="bibr" target="#b65">Sing et al., 2018;</ref><ref type="bibr" target="#b20">Deshpande et al., 2001;</ref><ref type="bibr" target="#b50">Masters and Evans, 1996)</ref>.</s><s>As a result, the high relative density specimens were unable to exhibit a negative Poisson effect <ref type="bibr" target="#b72">(Wang et al., 2017)</ref>.</s><s>The auxetic effect can, therefore, only be guaranteed below a relative density of 0.40.</s></p><p><s>The resulting Young's modulus -Poisson's ratio duos have been presented in Fig. <ref type="figure" target="#fig_4">6</ref>.</s><s>The negative correlation follows the shape of the outer bounds of the feasible elasticity tensors calculated by <ref type="bibr" target="#b27">Hashin &amp; Shtrikman (Hashin and Shtrikman, 1963)</ref>.</s><s>However, it has been proven very difficult to attain these bounds, especially for negative Poisson's ratio materials <ref type="bibr" target="#b55">(Ostanin et al., 2018)</ref>.</s><s>Anisotropic, or transversely isotropic materials in this case, should in theory be able to reach or even surpass these limits.</s><s>Their appearance is yet another limitation, since lattice structures, like the ones proposed here, exhibit much lower stiffness than sheet-based, closed-cell structures.</s><s>In this particular case, it would be wise to pursue bigger aspect ratios to improve the stiffness given a certain NPR.</s></p><p><s>The obtained mechanical properties largely overlap with the apparent bone tissue properties reported in literature.</s><s>The mechanical properties of trabecular bone vary significantly and there are great intraand inter-subject differences <ref type="bibr" target="#b58">(Rho et al., 1998;</ref><ref type="bibr" target="#b26">Goldstein, 1987)</ref>.</s><s>According to Goldstein, the elastic modulus of trabecular bone varies between 1.1 MPa and 2.9 GPa depending on the anatomical location and the testing conditions <ref type="bibr" target="#b26">(Goldstein, 1987)</ref>.</s><s>Rho et al. reported a somewhat larger range of 1-20 GPa, covering both trabecular and cortical bone, but this was partly based on hypotheses <ref type="bibr" target="#b58">(Rho et al., 1998)</ref>.</s><s>In general, the stiffness of cortical bone is higher, but the designs in this study definitely cover the lower end of this spectrum <ref type="bibr" target="#b15">(Choi et al., 1990;</ref><ref type="bibr" target="#b61">Schaffler and Burr, 1988;</ref><ref type="bibr" target="#b24">Gibson, 1985)</ref>.</s><s>The measured yield strength and FMCS values closely resemble the values measured for the (yield) strength of trabecular and cortical bone <ref type="bibr" target="#b26">(Goldstein, 1987;</ref><ref type="bibr" target="#b24">Gibson, 1985)</ref>.</s><s>With these mechanical properties we will be able to mimic the mechanical environment of the native bony tissue, to stimulate osseointegration and contribute to a mechanically stable bone-implant interface <ref type="bibr" target="#b33">(Huiskes et al., 1992;</ref><ref type="bibr" target="#b14">Chamay and Tschantz, 1972)</ref>.</s></p><p><s>A number of unit cells have been considered as bone-substituting meta-biomaterials, e.g. the diamond, cube, rhombic dodecahedron, and truncated cuboctahedron <ref type="bibr" target="#b2">(Ahmadi et al., 2015</ref><ref type="bibr" target="#b3">(Ahmadi et al., , 2018;;</ref><ref type="bibr" target="#b34">de Jonge et al., 2019;</ref><ref type="bibr" target="#b77">Zadpoor, 2019)</ref>.</s><s>Unlike the auxetic meta-biomaterials studied here, these unit cells exhibit a positive Poisson's ratio <ref type="bibr" target="#b34">(de Jonge et al., 2019)</ref>.</s><s>In terms of the mechanical properties, the re-entrant hexagonal honeycomb can easily compete with other bending-dominated unit cells (i.e.</s><s>diamond, rhombic dodecahedron, truncated cuboctahedron) of the same relative density <ref type="bibr" target="#b34">(de Jonge et al., 2019)</ref>.</s><s>They could, therefore, be perfectly combined to form hybrid meta-biomaterials, similar to those presented by <ref type="bibr" target="#b40">Kolken et al. (2018)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Challenges and limitations</head><p><s>With conventional production techniques, these microscale, complex geometries cannot be manufactured.</s><s>Even with the state-of-the-art AM techniques, it remains a challenge to fabricate auxetic metabiomaterials.</s><s>This is not only a direct consequence of the printing resolutions (smallest feature sizes: �200 μm) <ref type="bibr" target="#b8">(Van Bael et al., 2011)</ref>, but also highly depends on the geometry of the printed construct.</s><s>About half the struts of the re-entrant hexagonal honeycomb may create critical 'overhangs', depending on the unit cell size, and will need to be supported to obtain a successful print <ref type="bibr" target="#b65">(Sing et al., 2018;</ref><ref type="bibr" target="#b11">Calignano, 2014)</ref>.</s><s>Together with the layer-by-layer build-up of each specimen and the build orientation used, inter-and intra-batch variations are inevitable <ref type="bibr" target="#b73">(Wauthle et al., 2015;</ref><ref type="bibr" target="#b64">Simonelli et al., 2014;</ref><ref type="bibr" target="#b68">Sutton et al., 2017;</ref><ref type="bibr" target="#b5">Al-Bermani et al., 2010)</ref>.</s><s>In this study, all of the specimens of a respective design were discarded and re-printed once outliers were found.</s><s>This resulted in specimens of different groups being manufactured in multiple batches.</s><s>The inevitable variations between different production batches could affect the final results.</s></p><p><s>The FE models could very well predict the above-mentioned trends for the stiffness and the Poisson's ratio, especially for the smaller values of relative density.</s><s>However, like other studies <ref type="bibr" target="#b28">(Hedayati et al., 2016</ref><ref type="bibr" target="#b29">(Hedayati et al., , 2017))</ref>, the values started to deviate above a relative density of a �0.2.</s><s>This deviation significantly increased with the re-entrant angle, which probably relates to the densification and subsequent stiffening of the structures during compression (Fig. <ref type="figure" target="#fig_1">3</ref>).</s><s>The Timoshenko beam elements in the FE model significantly reduced computation time, but the assumptions made are not valid for non-slender beams, such as the struts of the structures with high values of relative density.</s><s>Despite the accurate predictions found by <ref type="bibr" target="#b66">Smith et al. (2013)</ref>, this could have affected the numerical values.</s><s>Moreover, the manufacturing irregularities caused by the AM processes could result in significant deviations of the FE results from those observed experimentally <ref type="bibr" target="#b12">(Campoli et al., 2013)</ref>.</s><s>Artefacts like internal porosity, surface roughness, and residual stresses were not accounted for in the FE models <ref type="bibr" target="#b8">(Van Bael et al., 2011)</ref>.</s><s>Additionally, the assumption of an isotropic, as-manufactured Ti-6Al-4V ELI modulus (70 GPa) was used to model the auxetic meta-biomaterials.</s><s>This value is significantly lower than the average post-processed AM TI-6Al-4V ELI stiffness (107-122 GPa) (3DSystems, 2019), and might be the reason for underestimating the stiffness at the higher values of relative density.</s><s>Furthermore, the directional solidification during printing probably resulted in a more anisotropic material profile <ref type="bibr" target="#b70">(Thijs et al., 2010)</ref>.</s><s>More research will be necessary to see whether this material profile will actually improve the FE predictions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Potential applications and future research</head><p><s>The spatially varying structure of bone is very difficult to mimic, but with the extensive design freedom presented here, the possibilities are endless.</s><s>Bone-mimicking scaffolds would be one out of many potential applications that could benefit from this class of meta-biomaterials.</s><s>It is important to note that trade-offs should be made concerning certain properties.</s><s>A high stiffness is generally the result of a high relative density, and, thus, a low porosity.</s><s>As such, the pore size would be small enough to stimulate bone growth, but the bulky struts will hinder the Poisson's effect.</s><s>An NPR scaffold should therefore be carefully designed using the right combination of geometrical parameters.</s><s>The extent to which the auxetic effect is desired will, therefore, be of great importance.</s><s>The biological response in terms of bone tissue regenerative performance should also be assessed in future studies.</s><s>Indeed, some preliminary research has shown that NPR scaffolds can effectively improve initial bone-cell proliferation, as compared to scaffolds with a positive Poisson's ratio <ref type="bibr" target="#b16">(Choi et al., 2016)</ref>.</s></p><p><s>Many bone repair sites experience cyclic loading, which means a significant fatigue life is critical for the performance of these scaffolds.</s><s>The fatigue behavior of auxetic meta-biomaterials should, therefore, be studied as well.</s><s>Chemical etching processes could also be applied to improve the fatigue life life of auxetic meta-biomaterials by reducing stress concentrations and surface roughness <ref type="bibr" target="#b31">(Van Hooreweder et al., 2017)</ref>.</s><s>Other post-processing techniques, such as heat treatment, could improve both the mechanical performance and bone regeneration performance of AM porous biomaterials <ref type="bibr" target="#b46">(Li et al., 2018)</ref>, and should, therefore, be considered in future studies.</s></p><p><s>In addition to the anisotropy caused by the printing process, the reentrant hexagonal honeycomb unit cell itself is also transversely isotropic.</s><s>The mechanical response of these auxetic meta-biomaterials is, therefore, not only direction-dependent in terms of stiffness and strength, but also in terms of its Poisson's ratio.</s><s>Irregularly shaped defects, or rounded defects such as the acetabulum, are therefore more difficult to treat.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>We studied the mechanical performance of auxetic metabiomaterials designed using the re-entrant hexagonal honeycomb unit cell with different design parameters and, thus, values of the elastic modulus and negative Poisson's ratio.</s><s>Over 300 specimens were additively manufactured and evaluated on their ability to function as orthopedic implants.</s><s>Most of the absolute values of the relative density fell within the range of those reported for optimal bone growth (&lt;55% RD).</s><s>With stiffness values between 84.2 � 5.2 MPa and 11.1 � 0.3 GPa and yield strengths between 6.9 � 0.2 MPa and 279.9 � 7.1 MPa, the studied auxetic meta-biomaterials perform in the range of properties reported for bone.</s><s>A trade-off should be made if one were to obtain a high stiffness and a negative Poisson's ratio, but pursuing bigger aspect ratios may be the best option to strike the right balance between both of these criteria.</s><s>The data presented here could pave the way for the application of the unprecedented properties of auxetic meta-biomaterials to simultaneously address multiple mechanical design challenges of orthopedic implants.</s><s>These would include the prevention of the stress shielding phenomenon, offering mechanical support, and generating compressive stresses at the entire bone-implant interface.</s><s>Ultimately, however, it is important to also study the dynamic behavior and biological performance of auxetic meta-biomaterials, before they could be used in clinical settings.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>Study outline showing the cylindrical specimens in group 1 and the cubical specimens in group 2. The tables show the combinations of the re-entrant angle (θ), aspect ratio (a/b) and relative density (RD) that could be successfully manufactured in each respective group.The cylindrical (1A) and cubical specimens (2A) were successfully manufactured using SLM.</s><s>The specimens in group 1 were first evaluated with micro-CT (1B-C), after which they were axially compressed (1B).</s><s>The specimens in group 2 were axially compressed (2B), while their deformation was closely examined using DIC (2B-C).</s></p></div></figDesc><graphic coords="3,296.52,55.44,123.41,123.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig.3.</s><s>The average stress-strain curves of group 1 (A-E) and group 2 (F-J), presented per re-entrant angle.</s><s>The two designs defining the outer boundaries of the porosity spectrum have been presented.</s><s>Within the tested strain range, the curves denoted by (1) primarily experienced densification.</s><s>A 45-degree shear band would usually mark the failure in graphs like (2).</s><s>Specimens with curves like (3) failed through a layer-by-layer collapse.</s><s>The strain maps were obtained with DIC and correspond to the numbers presented in F, G, and J.</s></p></div></figDesc><graphic coords="7,43.03,55.45,509.16,638.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. The experimental mechanical properties that could be obtained from the compression tests as a function of the relative density, � SD. (A) The Poisson's ratio of the specimens in group 2, the elastic modulus of group 1 (B) and 2 (C), the yield strength of group 1 (D) and 2 (E), the first maximum compressive strength of group 1 (F) and 2 (G), and the plateau stress of group 1 (H) and 2 (I).</s></p></div></figDesc><graphic coords="8,109.64,55.45,375.93,635.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. (A) An example of the finite element model for the cylindrical specimens in group 1, including the deformation and horizontal strain results (right, scale factor: 5).</s><s>(B) An example of the finite element model for the cubical specimens in group 2, including the deformation and horizontal strain results (right, scale factor: 5).</s><s>(C) The experimental and computational Poisson's ratios vs. the re-entrant angle, � SD. (D) The experimental and computational elastic moduli vs. the relative density in group 1, �SD.</s><s>(E) The experimental and computational elastic moduli vs. the relative density in group 2, �SD.</s></p></div></figDesc><graphic coords="9,77.39,55.45,440.45,636.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig.6.</s><s>The elastic modulus-Poisson's ratio duos found for the cubical specimens in group 2, �SD.</s></p></div></figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>The research for this paper was financially supported by the <rs type="projectName">Prosperos</rs> project, funded by the <rs type="programName">Interreg VA Flanders -The Netherlands program</rs>, <rs type="funder">CCI</rs> Grant No. <rs type="grantNumber">2014TC16RFCB04</rs> and an <rs type="grantName">SB fellowship</rs> from <rs type="funder">Research Foundation -Flanders</rs> (<rs type="grantNumber">1S61818N</rs>).</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_7KDSM9B">
+					<idno type="grant-number">2014TC16RFCB04</idno>
+					<orgName type="grant-name">SB fellowship</orgName>
+					<orgName type="project" subtype="full">Prosperos</orgName>
+					<orgName type="program" subtype="full">Interreg VA Flanders -The Netherlands program</orgName>
+				</org>
+				<org type="funding" xml:id="_9sHqpXT">
+					<idno type="grant-number">1S61818N</idno>
+				</org>
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p><s>There are no conflicts of interest to declare.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>CRediT authorship contribution statement H.M.A. Kolken: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing -original draft, Writing -review &amp; editing, Visualization, Project administration.</s><s>K. Lietaert: Resources.</s><s>T. van der Sloten: Resources.</s><s>B. Pouran: Methodology, Resources, Data curation.</s><s>A. Meynen: Methodology, Software, Formal analysis, Data curation.</s><s>G. Van Loock: Methodology, Software.</s><s>H. Weinans: Resources.</s><s>L. Scheys: Resources.</s><s>A.A. Zadpoor: Writing -original draft, Writing -review &amp; editing, Supervision.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p><s>Supplementary data to this article can be found online at <ref type="url" target="https://doi.org/10.1016/j.jmbbm.2020.103658">https://doi.  org/10.1016/j.jmbbm.2020.103658</ref>.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Dsystems</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">3DSystems, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title/>
+		<ptr target="https://www.3dsystems.com/sites/default/files/2018-03/3d-systems-laserform-ti-gr23%28a%29-datasheet-us-a4-2018.03.21-web.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">LaserForm® Ti Gr</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaserForm® Ti Gr23 (A). https://www.3dsystems.com/sites/default /files/2018-03/3d-systems-laserform-ti-gr23%28a%29-datasheet-us-a4-2018.03.21 -web.pdf.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Additively manufactured open-cell porous biomaterials made from six different space-filling unit cells: the mechanical and morphological properties</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yavari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pouran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrooten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1871" to="1896" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahmadi, S., Yavari, S., Wauthle, R., Pouran, B., Schrooten, J., Weinans, H., Zadpoor, A., 2015. Additively manufactured open-cell porous biomaterials made from six different space-filling unit cells: the mechanical and morphological properties. Materials 8 (4), 1871-1896.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fatigue performance of additively manufactured meta-biomaterials: the effects of topology and material type</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hedayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lietaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tümer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fatemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pouran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="292" to="304" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahmadi, S., Hedayati, R., Li, Y., Lietaert, K., Tümer, N., Fatemi, A., Rans, C., Pouran, B., Weinans, H., Zadpoor, A., 2018. Fatigue performance of additively manufactured meta-biomaterials: the effects of topology and material type. Acta Biomater. 65, 292-304.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">From microstructural design to surface engineering: a tailored approach for improving fatigue life of additively manufactured meta-biomaterials</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Borisov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Petrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Leeflang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tümer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huizenga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ayas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="153" to="166" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahmadi, S., Kumar, R., Borisov, E., Petrov, R., Leeflang, S., Li, Y., Tümer, N., Huizenga, R., Ayas, C., Zadpoor, A., 2019. From microstructural design to surface engineering: a tailored approach for improving fatigue life of additively manufactured meta-biomaterials. Acta Biomater. 83, 153-166.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The origin of microstructural diversity, texture, and mechanical properties in electron beam melted Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Al-Bermani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blackmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Todd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3422" to="3434" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Al-Bermani, S., Blackmore, M., Zhang, W., Todd, I., 2010. The origin of microstructural diversity, texture, and mechanical properties in electron beam melted Ti-6Al-4V. Metall. Mater. Trans. 41 (13), 3422-3434.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A triumph of lateral thought</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Ind</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="384" to="391" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alderson, A., 1999. A triumph of lateral thought. Chem. Ind. 17, 384-391.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Highstrength porous biomaterials for bone replacement: a strategy to assess the interplay between cell morphology, mechanical properties, bone ingrowth and manufacturing constraints</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arabnejad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pasini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="345" to="356" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arabnejad, S., Johnston, R.B., Pura, J.A., Singh, B., Tanzer, M., Pasini, D., 2016. High- strength porous biomaterials for bone replacement: a strategy to assess the interplay between cell morphology, mechanical properties, bone ingrowth and manufacturing constraints. Acta Biomater. 30, 345-356.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Micro-CT-based improvement of geometrical and mechanical controllability of selective laser melted Ti6Al4V porous structures</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Bael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kerckhofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pyka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrooten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">528</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="7423" to="7431" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Bael, S., Kerckhofs, G., Moesen, M., Pyka, G., Schrooten, J., Kruth, J.-P., 2011. Micro-CT-based improvement of geometrical and mechanical controllability of selective laser melted Ti6Al4V porous structures. Mater. Sci. Eng., A 528 (24), 7423-7431.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The effect of pore geometry on the in vitro biological behavior of human periosteum-derived cells seeded on selective lasermelted Ti6Al4V bone scaffolds</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Bael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Truscello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kerckhofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Van Oosterwyck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrooten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2824" to="2834" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Bael, S., Chai, Y.C., Truscello, S., Moesen, M., Kerckhofs, G., Van Oosterwyck, H., Kruth, J.-P., Schrooten, J., 2012. The effect of pore geometry on the in vitro biological behavior of human periosteum-derived cells seeded on selective laser- melted Ti6Al4V bone scaffolds. Acta Biomater. 8 (7), 2824-2834.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Additively manufactured metallic porous biomaterials based on minimal surfaces: a unique combination of topological, mechanical, and mass transport properties</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bobbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lietaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Eftekhari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pouran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="572" to="584" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bobbert, F., Lietaert, K., Eftekhari, A.A., Pouran, B., Ahmadi, S., Weinans, H., Zadpoor, A., 2017. Additively manufactured metallic porous biomaterials based on minimal surfaces: a unique combination of topological, mechanical, and mass transport properties. Acta Biomater. 53, 572-584.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Design optimization of supports for overhanging structures in aluminum and titanium alloys by selective laser melting</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="203" to="213" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calignano, F., 2014. Design optimization of supports for overhanging structures in aluminum and titanium alloys by selective laser melting. Mater. Des. 64, 203-213.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of open-cell metallic biomaterials manufactured using additive manufacturing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Campoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Borleffs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Yavari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="957" to="965" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Campoli, G., Borleffs, M., Yavari, S.A., Wauthle, R., Weinans, H., Zadpoor, A.A., 2013. Mechanical properties of open-cell metallic biomaterials manufactured using additive manufacturing. Mater. Des. 49, 957-965.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Properties of Ti-6Al-4V non-stochastic lattice structures fabricated via electron beam melting</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Cansizoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Harrysson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cormier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mahale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">492</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="468" to="474" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cansizoglu, O., Harrysson, O., Cormier, D., West, H., Mahale, T., 2008. Properties of Ti-6Al-4V non-stochastic lattice structures fabricated via electron beam melting. Mater. Sci. Eng., A 492 (1-2), 468-474.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mechanical influences in bone remodeling. Experimental research on Wolff&apos;s law</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chamay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tschantz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="173" to="180" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chamay, A., Tschantz, P., 1972. Mechanical influences in bone remodeling. Experimental research on Wolff&apos;s law. J. Biomech. 5 (2), 173-180.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The elastic moduli of human subchondral, trabecular, and cortical bone tissue and the size-dependency of cortical bone modulus</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ciarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Goldstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1103" to="1113" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Choi, K., Kuhn, J.L., Ciarelli, M.J., Goldstein, S.A., 1990. The elastic moduli of human subchondral, trabecular, and cortical bone tissue and the size-dependency of cortical bone modulus. J. Biomech. 23 (11), 1103-1113.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">MG-63 osteoblast-like cell proliferation on auxetic PLGA scaffold with mechanical stimulation for bone tissue regeneration</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Sung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomater. Res</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Choi, H.J., Lee, J.J., Park, Y.J., Shin, J.-W., Sung, H.-J., Shin, J.W., Wu, Y., Kim, J.K., 2016. MG-63 osteoblast-like cell proliferation on auxetic PLGA scaffold with mechanical stimulation for bone tissue regeneration. Biomater. Res. 20 (1), 33.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Compressive properties of Ti-6Al-4V lattice structures fabricated by selective laser melting: design, orientation and density</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Choy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-N</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="213" to="224" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Choy, S.Y., Sun, C.-N., Leong, K.F., Wei, J., 2017. Compressive properties of Ti-6Al-4V lattice structures fabricated by selective laser melting: design, orientation and density. Addit. Manuf. 16, 213-224.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Determination of geometrical factors in Layerwise Laser Melting using optical process monitoring</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Clijsters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bechmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Berumen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optic Laser. Eng</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1440" to="1446" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Craeghs, T., Clijsters, S., Yasa, E., Bechmann, F., Berumen, S., Kruth, J.-P., 2011. Determination of geometrical factors in Layerwise Laser Melting using optical process monitoring. Optic Laser. Eng. 49 (12), 1440-1446.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Parallel plate model for trabecular bone exhibits volume fraction-dependent bias</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Odgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sumner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hvid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="715" to="720" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Day, J., Ding, M., Odgaard, A., Sumner, D., Hvid, I., Weinans, H., 2000. Parallel plate model for trabecular bone exhibits volume fraction-dependent bias. Bone 27 (5), 715-720.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Foam topology: bending versus stretching dominated architectures</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Deshpande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fleck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1035" to="1040" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deshpande, V., Ashby, M., Fleck, N., 2001. Foam topology: bending versus stretching dominated architectures. Acta Mater. 49 (6), 1035-1040.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">BoneJ: free and extensible bone image analysis in ImageJ</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doube</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Kłosowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arganda-Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Cordeli� Eres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Dougherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Shefelbine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1076" to="1079" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doube, M., Kłosowski, M.M., Arganda-Carreras, I., Cordeli� eres, F.P., Dougherty, R.P., Jackson, J.S., Schmid, B., Hutchinson, J.R., Shefelbine, S.J., 2010. BoneJ: free and extensible bone image analysis in ImageJ. Bone 47 (6), 1076-1079.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Architectural design of 3D printed scaffolds controls the volume and functionality of newly formed bone</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Entezari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Roohani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Dunstan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rognon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zreiqat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Healthcare Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1801353</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Entezari, A., Roohani, I., Li, G., Dunstan, C.R., Rognon, P., Li, Q., Jiang, X., Zreiqat, H., 2019. Architectural design of 3D printed scaffolds controls the volume and functionality of newly formed bone. Adv. Healthcare Mater. 8 (1), 1801353.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Auxetic materials: functional materials and structures from lateral thinking!</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="617" to="628" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Evans, K.E., Alderson, A., 2000. Auxetic materials: functional materials and structures from lateral thinking! Adv. Mater. 12 (9), 617-628.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The mechanical behaviour of cancellous bone</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="317" to="328" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibson, L.J., 1985. The mechanical behaviour of cancellous bone. J. Biomech. 18 (5), 317-328.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Ashby</surname></persName>
+		</author>
+		<title level="m">Cellular Solids: Structure and Properties</title>
+		<imprint>
+			<publisher>Cambridge university press</publisher>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibson, L.J., Ashby, M.F., 1999. Cellular Solids: Structure and Properties. Cambridge university press.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The mechanical properties of trabecular bone: dependence on anatomic location and function</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Goldstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">11-12</biblScope>
+			<biblScope unit="page" from="1055" to="1061" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goldstein, S.A., 1987. The mechanical properties of trabecular bone: dependence on anatomic location and function. J. Biomech. 20 (11-12), 1055-1061.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A variational approach to the theory of the elastic behaviour of multiphase materials</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hashin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shtrikman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Phys. Solid</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="127" to="140" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hashin, Z., Shtrikman, S., 1963. A variational approach to the theory of the elastic behaviour of multiphase materials. J. Mech. Phys. Solid. 11 (2), 127-140.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Mechanical behavior of additively manufactured porous biomaterials made from truncated cuboctahedron unit cells</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hedayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sadighi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohammadi-Aghdam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mech. Sci</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="19" to="38" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hedayati, R., Sadighi, M., Mohammadi-Aghdam, M., Zadpoor, A., 2016. Mechanical behavior of additively manufactured porous biomaterials made from truncated cuboctahedron unit cells. Int. J. Mech. Sci. 106, 19-38.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Analytical relationships for the mechanical properties of additively manufactured porous biomaterials based on octahedral unit cells</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hedayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sadighi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohammadi-Aghdam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Math. Model</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="408" to="422" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hedayati, R., Sadighi, M., Mohammadi-Aghdam, M., Zadpoor, A., 2017. Analytical relationships for the mechanical properties of additively manufactured porous biomaterials based on octahedral unit cells. Appl. Math. Model. 46, 408-422.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Isolated and modulated effects of topology and material type on the mechanical properties of additively manufactured porous biomaterials</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hedayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lietaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pouran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Behav. Biomed. Mater</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="254" to="263" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hedayati, R., Ahmadi, S., Lietaert, K., Pouran, B., Li, Y., Weinans, H., Rans, C., Zadpoor, A., 2018. Isolated and modulated effects of topology and material type on the mechanical properties of additively manufactured porous biomaterials. J. Mech. Behav. Biomed. Mater. 79, 254-263.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Improving the fatigue performance of porous metallic biomaterials produced by Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Hooreweder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Apers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lietaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="193" to="202" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Hooreweder, B., Apers, Y., Lietaert, K., Kruth, J.-P., 2017. Improving the fatigue performance of porous metallic biomaterials produced by Selective Laser Melting. Acta Biomater. 47, 193-202.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Compressioncompression fatigue of selective electron beam melted cellular titanium (Ti-6Al-4V)</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Hrabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heinl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Flinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>K€ Orner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Bordia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Mater. Res. B Appl. Biomater</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="313" to="320" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hrabe, N.W., Heinl, P., Flinn, B., K€ orner, C., Bordia, R.K., 2011. Compression- compression fatigue of selective electron beam melted cellular titanium (Ti-6Al-4V). J. Biomed. Mater. Res. B Appl. Biomater. 99 (2), 313-320.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The relationship between stress shielding and bone resorption around total hip stems and the effects of flexible materials</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huiskes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Rietbergen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Orthop. Relat. Res</title>
+		<imprint>
+			<biblScope unit="page" from="124" to="134" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huiskes, R., Weinans, H., Van Rietbergen, B., 1992. The relationship between stress shielding and bone resorption around total hip stems and the effects of flexible materials. Clin. Orthop. Relat. Res. 124-134.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Non-Auxetic Mechanical Metamaterials</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>De Jonge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kolken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">635</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Jonge, C.P., Kolken, H., Zadpoor, A.A., 2019. Non-Auxetic Mechanical Metamaterials. Materials 12 (4), 635.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Accurate characterization of machine compliance for simple compression testing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalidindi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abusafieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>El-Danaf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Mech</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="210" to="215" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kalidindi, S., Abusafieh, A., El-Danaf, E., 1997. Accurate characterization of machine compliance for simple compression testing. Exp. Mech. 37 (2), 210-215.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Porosity of 3D biomaterial scaffolds and osteogenesis</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Karageorgiou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kaplan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="5474" to="5491" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karageorgiou, V., Kaplan, D., 2005. Porosity of 3D biomaterial scaffolds and osteogenesis. Biomaterials 26 (27), 5474-5491.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Differences between the tensile and compressive strengths of bovine tibial trabecular bone depend on modulus</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Keaveny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Wachtel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Hayes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1137" to="1146" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keaveny, T.M., Wachtel, E.F., Ford, C.M., Hayes, W.C., 1994. Differences between the tensile and compressive strengths of bovine tibial trabecular bone depend on modulus. J. Biomech. 27 (9), 1137-1146.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A comprehensive study on variability of relative density in selective laser melting of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Khorasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghasemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghaderi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khorasani, A.M., Gibson, I., Ghasemi, A., Ghaderi, A., 2019. A comprehensive study on variability of relative density in selective laser melting of Ti-6Al-4V. Virtual Phys. Prototyp. 1-11.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Auxetic mechanical metamaterials</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Kolken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Adv</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="5111" to="5129" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kolken, H.M., Zadpoor, A., 2017. Auxetic mechanical metamaterials. RSC Adv. 7 (9), 5111-5129.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Rationally designed meta-implants: a combination of auxetic and conventional meta-biomaterials</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Kolken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Janbaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Leeflang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lietaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Weinans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Horiz</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="28" to="35" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kolken, H.M., Janbaz, S., Leeflang, S.M., Lietaert, K., Weinans, H.H., Zadpoor, A.A., 2018. Rationally designed meta-implants: a combination of auxetic and conventional meta-biomaterials. Mater. Horiz. 5 (1), 28-35.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Prevalence of total hip and knee replacement in the United States</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Kremers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Crowson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Kremers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Washington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Jiranek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Berry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bone Jt. Surg. Am</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page">1386</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kremers, H.M., Larson, D.R., Crowson, C.S., Kremers, W.K., Washington, R.E., Steiner, C. A., Jiranek, W.A., Berry, D.J., 2015. Prevalence of total hip and knee replacement in the United States. J. Bone Jt. Surg. Am. Vol. 97 (17), 1386.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Projections of primary and revision hip and knee arthroplasty in the United States from 2005 to 2030</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Halpern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JBJS</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="780" to="785" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kurtz, S., Ong, K., Lau, E., Mowat, F., Halpern, M., 2007. Projections of primary and revision hip and knee arthroplasty in the United States from 2005 to 2030. JBJS 89 (4), 780-785.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Future young patient demand for primary and revision joint replacement: national projections from 2010 to 2030</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Bozic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Orthop. Relat. Res</title>
+		<imprint>
+			<biblScope unit="volume">467</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2606" to="2612" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kurtz, S.M., Lau, E., Ong, K., Zhao, K., Kelly, M., Bozic, K.J., 2009. Future young patient demand for primary and revision joint replacement: national projections from 2010 to 2030. Clin. Orthop. Relat. Res. 467 (10), 2606-2612.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<ptr target="http://intralattice.com" />
+		<title level="m">Intra-Lattice: Generative Lattice Design with Grasshopper</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kurtz, A., Tang, Y., Zhao, F., 2015. Intra-Lattice: Generative Lattice Design with Grasshopper. http://intralattice.com.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The operation of the century: total hip replacement</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Learmonth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rorabeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="1508" to="1519" />
+			<date type="published" when="2007">2007. 9597</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Learmonth, I.D., Young, C., Rorabeck, C., 2007. The operation of the century: total hip replacement. Lancet 370 (9597), 1508-1519.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Heat treatment effect on the mechanical properties, roughness and bone ingrowth capacity of 3D printing porous titanium alloy</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Adv</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="12471" to="12483" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, Z., Liu, C., Wang, B., Wang, C., Wang, Z., Yang, F., Gao, C., Liu, H., Qin, Y., Wang, J., 2018. Heat treatment effect on the mechanical properties, roughness and bone ingrowth capacity of 3D printing porous titanium alloy. RSC Adv. 8 (22), 12471-12483.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<monogr>
+		<ptr target="https://www.limacorporate.com/aboutus.html?b¼technology&amp;call¼cookie-accept&amp;ok¼1" />
+		<title level="m">Introduction to trabecular titanium</title>
+		<imprint>
+			<publisher>LimaCorporate</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LimaCorporate, 2016. Introduction to trabecular titanium. https://www.limacorporate. com/aboutus.html?b¼technology&amp;call¼cookie-accept&amp;ok¼1.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Elastic and failure response of imperfect three-dimensional metallic lattices: the role of geometric defects induced by Selective Laser Melting</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kamm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>García-Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pasini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Phys. Solid</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="160" to="184" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, L., Kamm, P., García-Moreno, F., Banhart, J., Pasini, D., 2017. Elastic and failure response of imperfect three-dimensional metallic lattices: the role of geometric defects induced by Selective Laser Melting. J. Mech. Phys. Solid. 107, 160-184.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Titanium alloys in total joint replacement-a materials science perspective</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="1621" to="1639" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Long, M., Rack, H., 1998. Titanium alloys in total joint replacement-a materials science perspective. Biomaterials 19 (18), 1621-1639.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Models for the elastic deformation of honeycombs</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Compos. Struct</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="403" to="422" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masters, I., Evans, K., 1996. Models for the elastic deformation of honeycombs. Compos. Struct. 35 (4), 403-422.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Role of scaffold internal structure on in vivo bone formation in macroporous calcium phosphate bioceramics</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mastrogiacomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scaglione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Martinetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dolcini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Beltrame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cancedda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Quarto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="3230" to="3237" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mastrogiacomo, M., Scaglione, S., Martinetti, R., Dolcini, L., Beltrame, F., Cancedda, R., Quarto, R., 2006. Role of scaffold internal structure on in vivo bone formation in macroporous calcium phosphate bioceramics. Biomaterials 27 (17), 3230-3237.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Digital image correlation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mccormick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lord</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Today</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="52" to="54" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCormick, N., Lord, J., 2010. Digital image correlation. Mater. Today 13 (12), 52-54.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Rational design of soft mechanical metamaterials: independent tailoring of elastic properties with randomness</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mirzaali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hedayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vergani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Strano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">51903</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mirzaali, M., Hedayati, R., Vena, P., Vergani, L., Strano, M., Zadpoor, A., 2017. Rational design of soft mechanical metamaterials: independent tailoring of elastic properties with randomness. Appl. Phys. Lett. 111 (5), 051903.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of biomedical titanium alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niinomi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="231" to="236" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Niinomi, M., 1998. Mechanical properties of biomedical titanium alloys. Mater. Sci. Eng., A 243 (1-2), 231-236.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">A parametric class of composites with a large achievable range of effective elastic properties</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ostanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ovchinnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Tozoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zorin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Phys. Solid</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="204" to="217" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ostanin, I., Ovchinnikov, G., Tozoni, D.C., Zorin, D., 2018. A parametric class of composites with a large achievable range of effective elastic properties. J. Mech. Phys. Solid. 118, 204-217.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Rational design of reconfigurable prismatic architected materials</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Overvelde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hoberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bertoldi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">541</biblScope>
+			<biblScope unit="issue">7637</biblScope>
+			<biblScope unit="page">347</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Overvelde, J.T., Weaver, J.C., Hoberman, C., Bertoldi, K., 2017. Rational design of reconfigurable prismatic architected materials. Nature 541 (7637), 347.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Surface modification of Ti6Al4V open porous structures produced by additive manufacturing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pyka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burakowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kerckhofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Bael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrooten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wevers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="363" to="370" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pyka, G., Burakowski, A., Kerckhofs, G., Moesen, M., Van Bael, S., Schrooten, J., Wevers, M., 2012. Surface modification of Ti6Al4V open porous structures produced by additive manufacturing. Adv. Eng. Mater. 14 (6), 363-370.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Mechanical properties and the hierarchical structure of bone</title>
+		<author>
+			<persName><forename type="first">Merriam-</forename><surname>Reentrant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">Comn D</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Rho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kuhn-Spearing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zioupos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Eng. Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="92" to="102" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reentrant, Merriam-Webster.comn.d. Rho, J.-Y., Kuhn-Spearing, L., Zioupos, P., 1998. Mechanical properties and the hierarchical structure of bone. Med. Eng. Phys. 20 (2), 92-102.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The effect of geometry on three-dimensional tissue growth</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rumpler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Woesz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Dunlop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Van Dongen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fratzl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Soc. Interface</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="1173" to="1180" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rumpler, M., Woesz, A., Dunlop, J.W., van Dongen, J.T., Fratzl, P., 2008. The effect of geometry on three-dimensional tissue growth. J. R. Soc. Interface 5 (27), 1173-1180.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Modulation Matters -How to Build All Features Great and Small LinkedIn</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saunders</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saunders, M., 2018. Modulation Matters -How to Build All Features Great and Small LinkedIn.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Stiffness of compact bone: effects of porosity and density</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Schaffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Burr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="13" to="16" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schaffler, M.B., Burr, D.B., 1988. Stiffness of compact bone: effects of porosity and density. J. Biomech. 21 (1), 13-16.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Fiji: an open-source platform for biological-image analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schindelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arganda-Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kaynig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Longair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pietzsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Preibisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rueden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">676</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schindelin, J., Arganda-Carreras, I., Frise, E., Kaynig, V., Longair, M., Pietzsch, T., Preibisch, S., Rueden, C., Saalfeld, S., Schmid, B., 2012. Fiji: an open-source platform for biological-image analysis. Nat. Methods 9 (7), 676.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Optimisation of process parameters to address fundamental challenges during selective laser melting of Ti-6Al-4V: a review</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shipley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcdonnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Culleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Coull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lupoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>O'donnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Trimble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mach. Tool Manufact</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shipley, H., McDonnell, D., Culleton, M., Coull, R., Lupoi, R., O&apos;Donnell, G., Trimble, D., 2018. Optimisation of process parameters to address fundamental challenges during selective laser melting of Ti-6Al-4V: a review. Int. J. Mach. Tool Manufact. 128, 1-20.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Effect of the build orientation on the mechanical properties and fracture modes of SLM Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simonelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Tse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tuck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">616</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simonelli, M., Tse, Y.Y., Tuck, C., 2014. Effect of the build orientation on the mechanical properties and fracture modes of SLM Ti-6Al-4V. Mater. Sci. Eng., A 616, 1-11.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of lattice structures: a statistical approach to manufacturability and mechanical behavior</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Wiria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Yeong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Robot. Comput. Integrated Manuf</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="170" to="180" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sing, S.L., Wiria, F.E., Yeong, W.Y., 2018. Selective laser melting of lattice structures: a statistical approach to manufacturability and mechanical behavior. Robot. Comput. Integrated Manuf. 49, 170-180.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Finite element modelling of the compressive response of lattice structures manufactured using the selective laser melting technique</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cantwell</surname></persName>
+		</author>
+		<idno>Ref number ISO 13314 (13314) 1-7</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Mechanical Testing of Metals-Ductility Testing-Compression Test for Porous and Cellular Metals</title>
+		<imprint>
+			<date type="published" when="2011">2013. 2011. 2011</date>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="28" to="41" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, M., Guan, Z., Cantwell, W., 2013. Finite element modelling of the compressive response of lattice structures manufactured using the selective laser melting technique. Int. J. Mech. Sci. 67, 28-41. ISO 13314: 2011 (E) Standard, I., 2011. Mechanical Testing of Metals-Ductility Testing-Compression Test for Porous and Cellular Metals. Ref number ISO 13314 (13314) 1-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Mechanical equivalent diameter of single struts for the stiffness prediction of lattice structures produced by Electron Beam Melting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lhuissier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dendievel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vignat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Blandin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Villeneuve</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="124" to="131" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suard, M., Martin, G., Lhuissier, P., Dendievel, R., Vignat, F., Blandin, J.-J., Villeneuve, F., 2015. Mechanical equivalent diameter of single struts for the stiffness prediction of lattice structures produced by Electron Beam Melting. Addit. Manuf. 8, 124-131.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Powder characterisation techniques and effects of powder characteristics on part properties in powder-bed fusion processes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Kriewall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Leu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Newkirk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="29" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sutton, A.T., Kriewall, C.S., Leu, M.C., Newkirk, J.W., 2017. Powder characterisation techniques and effects of powder characteristics on part properties in powder-bed fusion processes. Virtual Phys. Prototyp. 12 (1), 3-29.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Microstructure modelling for metallic additive manufacturing: a review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H K</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Yeong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tan, J.H.K., Sing, S.L., Yeong, W.Y., 2019. Microstructure modelling for metallic additive manufacturing: a review. Virtual Phys. Prototyp. 1-19.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">A study of the microstructural evolution during selective laser melting of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verhaeghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3303" to="3312" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thijs, L., Verhaeghe, F., Craeghs, T., Van Humbeeck, J., Kruth, J.-P., 2010. A study of the microstructural evolution during selective laser melting of Ti-6Al-4V. Acta Mater. 58 (9), 3303-3312.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Knee osteoarthritis has doubled in prevalence since the mid-20th century</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Worthington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Felson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Jurmain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Wren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maijanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Lieberman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Natl. Acad. Sci. Unit. States Am</title>
+		<meeting>Natl. Acad. Sci. Unit. States Am</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="9332" to="9336" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wallace, I.J., Worthington, S., Felson, D.T., Jurmain, R.D., Wren, K.T., Maijanen, H., Woods, R.J., Lieberman, D.E., 2017. Knee osteoarthritis has doubled in prevalence since the mid-20th century. Proc. Natl. Acad. Sci. Unit. States Am. 114 (35), 9332-9336.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of 3D re-entrant auxetic cellular structures</title>
+		<author>
+			<persName><forename type="first">X.-T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mech. Sci</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="396" to="407" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X.-T., Wang, B., Li, X.-W., Ma, L., 2017. Mechanical properties of 3D re-entrant auxetic cellular structures. Int. J. Mech. Sci. 131, 396-407.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Effects of build orientation and heat treatment on the microstructure and mechanical properties of selective laser melted Ti6Al4V lattice structures</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vrancken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beynaerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jorissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrooten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="77" to="84" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wauthle, R., Vrancken, B., Beynaerts, B., Jorissen, K., Schrooten, J., Kruth, J.-P., Van Humbeeck, J., 2015. Effects of build orientation and heat treatment on the microstructure and mechanical properties of selective laser melted Ti6Al4V lattice structures. Addit. Manuf. 5, 77-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Compressive properties of Ti-6Al-4V auxetic mesh structures made by electron beam melting</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Harrysson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cormier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3370" to="3379" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, L., Harrysson, O., West, H., Cormier, D., 2012. Compressive properties of Ti-6Al-4V auxetic mesh structures made by electron beam melting. Acta Mater. 60 (8), 3370-3379.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Relationship between unit cell type and porosity and the fatigue behavior of selective laser melted meta-biomaterials</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Yavari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pouran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrooten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Behav. Biomed. Mater</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="91" to="100" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yavari, S.A., Ahmadi, S., Wauthle, R., Pouran, B., Schrooten, J., Weinans, H., Zadpoor, A., 2015. Relationship between unit cell type and porosity and the fatigue behavior of selective laser melted meta-biomaterials. J. Mech. Behav. Biomed. Mater. 43, 91-100.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Mechanical meta-materials</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Horiz</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="371" to="381" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zadpoor, A.A., 2016. Mechanical meta-materials. Mater. Horiz. 3 (5), 371-381.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Mechanical performance of additively manufactured metabiomaterials</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Zadpoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="41" to="59" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zadpoor, A.A., 2019. Mechanical performance of additively manufactured meta- biomaterials. Acta Biomater. 85, 41-59.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Effect of pore geometry on the fatigue properties and cell affinity of porous titanium scaffolds fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Behav. Biomed. Mater</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="478" to="487" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, D., Huang, Y., Ao, Y., Han, C., Wang, Q., Li, Y., Liu, J., Wei, Q., Zhang, Z., 2018. Effect of pore geometry on the fatigue properties and cell affinity of porous titanium scaffolds fabricated by selective laser melting. J. Mech. Behav. Biomed. Mater. 88, 478-487.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b79">
+	<monogr>
+		<title level="m" type="main">Trabecular metal technology</title>
+		<author>
+			<persName><surname>Zimmerbiomet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ZimmerBiomet, 2019. Trabecular metal technology.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

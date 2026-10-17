@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Design and analysis of strut-based lattice structures for vibration isolation</title>
+				<funder ref="#_dJXYbBj">
+					<orgName type="full">Engineering and Physical Sciences Research Council</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>21 September 2017 0141</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Wahyudin</forename><forename type="middle">P</forename><surname>Syam</surname></persName>
+							<email>wahyudin.syam@nottingham.ac.uk</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Manufacturing Metrology Team , Faculty of Engineering , University of Nottingham , NG7 2RD , UK</note>
+								<orgName type="department">Faculty of Engineering</orgName>
+								<orgName type="laboratory">Manufacturing Metrology Team</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<postCode>NG7 2RD</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wu</forename><surname>Jianwei</surname></persName>
+							<email>wujianwei@hit.edu.cn</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Ultra-Precision Optoelectronic Instrumentation Engineering Center , Harbin Institute of Technology , 150001 , China</note>
+								<orgName type="department">Ultra-Precision Optoelectronic Instrumentation Engineering Center</orgName>
+								<orgName type="institution">Harbin Institute of Technology</orgName>
+								<address>
+									<postCode>150001</postCode>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bo</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Ultra-Precision Optoelectronic Instrumentation Engineering Center , Harbin Institute of Technology , 150001 , China</note>
+								<orgName type="department">Ultra-Precision Optoelectronic Instrumentation Engineering Center</orgName>
+								<orgName type="institution">Harbin Institute of Technology</orgName>
+								<address>
+									<postCode>150001</postCode>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ian</forename><surname>Maskery</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Centre for Additive Manufacturing , Faculty of Engineering , University of Nottingham , NG7 2RD , UK</note>
+								<orgName type="department">Faculty of Engineering</orgName>
+								<orgName type="laboratory">Centre for Additive Manufacturing</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<postCode>NG7 2RD</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Waiel</forename><surname>Elmadih</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Manufacturing Metrology Team , Faculty of Engineering , University of Nottingham , NG7 2RD , UK</note>
+								<orgName type="department">Faculty of Engineering</orgName>
+								<orgName type="laboratory">Manufacturing Metrology Team</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<postCode>NG7 2RD</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><surname>Leach</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Manufacturing Metrology Team , Faculty of Engineering , University of Nottingham , NG7 2RD , UK</note>
+								<orgName type="department">Faculty of Engineering</orgName>
+								<orgName type="laboratory">Manufacturing Metrology Team</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<postCode>NG7 2RD</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Design and analysis of strut-based lattice structures for vibration isolation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">21 September 2017 0141</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F59FBAE932D3DEF11B18D41CB434C851</idno>
+					<idno type="DOI">10.1016/j.precisioneng.2017.09.010</idno>
+					<note type="submission">Received 9 May 2017; Received in revised form 2 August 2017; Accepted 19 September 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-24T09:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Additive manufacturing Design Lattice structures Vibration isolation Natural frequency</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>This paper presents the design, analysis and experimental verification of strut-based lattice structures to enhance the mechanical vibration isolation properties of a machine frame, whilst also conserving its structural integrity.</s><s>In addition, design parameters that correlate lattices, with fixed volume and similar material, to natural frequency and structural integrity are also presented.</s><s>To achieve high efficiency of vibration isolation and to conserve the structural integrity, a trade-off needs to be made between the frame's natural frequency and its compressive strength.</s><s>The total area moment of inertia and the mass (at fixed volume and with similar material) are proposed design parameters to compare and select the lattice structures; these parameters are computationally efficient and straight-forward to compute, as opposed to the use of finite element modelling to estimate both natural frequency and compressive strength.</s><s>However, to validate the design parameters, finite element modelling has been used to determine the theoretical static and dynamic mechanical properties of the lattice structures.</s><s>The lattices have been fabricated by laser powder bed fusion and experimentally tested to compare their static and dynamic properties to the theoretical model.</s><s>Correlations between the proposed design parameters, and the natural frequency and strength of the lattices are presented.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Additive manufacturing (AM) allows almost infinite geometrical design freedom <ref type="bibr" target="#b0">[1]</ref>, and the range and mix of potential materials is increasing <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>.</s><s>However, despite the benefits afforded with having such freedom in design, there is a correspondingly larger design space that can be difficult to navigate.</s><s>In this paper, we demonstrate how relatively simple design parameters can be used to reduce the design space and pinpoint a near-optimum design.</s></p><p><s>AM lattices are popular because they exhibit various advantages over solid stuctures and non-additively manufactured cellular solids.</s><s>AM lattices have all the advantages of cellular solids, for example, lowmass and high impact energy absorbtion, and have an additional advantage: a high degree of design freedom.</s><s>The freedom to exploit lattice designs is a big advantage that enables, for example, the design of lattices with material grading to provide variations in their structural properties and a controllable deformation property to avoid undesirable failure modes <ref type="bibr" target="#b3">[4]</ref>.</s><s>Another advantage of the freedom of lattice design is that topologically optimised solutions to various problems, for example mechanical, thermal, vibration and energy absorption, can be implemented.</s><s>In addition, AM lattices can provide better solutions to problems where the loading condition is unpredictable during operation <ref type="bibr" target="#b3">[4]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Design for AM to isolate vibration: motivation</head><p><s>This study presents design, experimental methodology and design parameters focusing on how to select a lattice design from many feasible strut-based lattice designs, within the same volume and from one material, to be used for a high-efficiency vibration isolation structure and to have sufficient structural integrity to sustain a mass load.</s><s>Potential applications include metrology frames, machine frames and mounting brackets to support rotary components.</s><s>Conventionally, to reduce the effect of vibration, both from the system itself and from the environment, high-stiffness structures are used, for example, a highmass solid structure.</s><s>However, the use of a solid structure does not isolate vibration transferred to the system, rather, the structure attenuates the vibration amplitude <ref type="bibr" target="#b4">[5]</ref>.</s></p><p><s>Vibration isolation is compared to vibration damping in Fig. <ref type="figure">1</ref>, which considers a simple case where vibration is transferred from an external vibration source to a machine.</s><s>In Fig. <ref type="figure">1</ref>, the abscissa is the ratio r between the frequency of an external vibration f and the natural frequency of the machine f n .</s><s>The ordinate is the displacement amplitude d of the machine with respect to the displacement amplitude of the external vibration source.</s><s>C is damping coefficient that can be in the form of a different component or can be from the structure itself <ref type="bibr" target="#b4">[5]</ref>.</s></p><p><s>In Fig. <ref type="figure">1</ref>, vibration damping reduces the amplitude of the transferred displacement due to the vibration.</s><s>The machine is considered to become one structure with the external vibration source when the fraction of the transferred displacement to the part is equal to unity (see Fig. <ref type="figure">1</ref>).</s><s>When the ratio between the frequency of the vibration source and the natural frequency of the part is equal to unity, the amplitude of the part displacement will be amplified, having a significantly higher value than the original source displacement; this phenomenon is called resonance <ref type="bibr" target="#b4">[5]</ref>.</s></p><p><s>As an alternative to vibration damping, vibration isolation can be used to reduce the vibration amplitude transferred to the machine, with respect to the external vibration, by separating (isolating) the part from the external vibration source (see Fig. <ref type="figure">1</ref>).</s><s>Vibration isolation is more effective at reducing the effect of vibration compared to damping because it does not require high mass (weight) to suppress the machine's displacement due to the vibration and it can reduce the displacement of the machine to less than that of the external vibration.</s><s>The higher the ratio r, the more the part is isolated from the external vibration.</s><s>To have a high value of r, f n should be smaller than f .</s><s>A high r value can be achieved by lowering the stiffness of a structure, but, there is a practical limit: if the stiffness is too low, the structure will be unable to sustain mass loads.</s><s>In Fig. <ref type="figure">1</ref>, f n is directly proportional to square root of stiff- ness over mass ( k m / ) <ref type="bibr" target="#b4">[5]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Research aim</head><p><s>In this paper, design and analysis of several lattices and experimental methodology to verify the lattices' natural frequency and stiffness (mainly due to bending) are presented.</s><s>In addition, design parameters are proposed to allow comparison and selection of the optimum design for a strut-based lattice structure, from the potentially large number of feasible designs.</s><s>All considered designs have the same volume and are fabricated from the same material.</s><s>The selection focuses on two properties: high-efficiency vibration isolation and sufficient structural integrity to be able to sustain specific mass loads.</s><s>The design parameters should be able to capture the information about different lattice topologies (configurations) and can be correlated to the natural frequency of different lattices.</s><s>To capture topology information, the total area moment of inertia of a strut-based lattice and its mass (at fixed volume) are proposed as design parameters.</s></p><p><s>In this study, because the strut material is identical for all the examined lattice types, two hypotheses are proposed: (1) the stiffness of a lattice is proportional to its total area moment I m / of inertia I , and (2) the natural frequency f n of a lattice is proportional to I/m .</s><s>By using I/m and I to represent f n and the stiffness of a lattice, respectively, at the design stage, a significant reduction in computational effort to compare f n and stiffness can be obtained, compared to multiple experimental tests or finite element analysis (FEA) procedures.</s><s>FEA methods, commonly used to predict the natural frequency and compressive strength of a lattice structure, are computationally intensive and require specific procedures to be followed, such as convergence tests <ref type="bibr" target="#b3">[4]</ref>.</s><s>Moreover, the two hypotheses allow the selection of an optimum lattice design from many feasible designs.</s><s>For each of the lattice structures considered in this work, the stiffness is dominated by bending stress.</s><s>This was determined by considering Maxwell's criterion <ref type="bibr" target="#b6">[7]</ref>, which relates the deformation mechanism of a structure to its nodal connectivity</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Lattice structure designs, analyses and simulations</head><p><s>There are a large number of feasible options for designing strutbased lattice structures within a defined volume.</s><s>A lattice structure consists of nodes (n) and struts (p), as illustrated in Fig. <ref type="figure">2</ref>. A node is a joint where two or more struts meet, and a strut is a link or member that connects two nodes.</s><s>If the number of nodes and struts are not constrained, then there will be a potentially large number of feasible strutbased lattice configurations that can be designed within a fixed volume.</s><s>The large number of options results from the variation of the number of Fig. 2. Illustration of a lattice configuration with nodes n = 9 and struts p = 16.</s></p><p><s>nodes and struts, the variation of node positions in a specific volume, the variation of node and strut diameters and multiple combinations of struts.</s></p><p><s>To demonstrate the use of the proposed design parameters and to reduce the design space, several lattice parameters have been fixed.</s><s>The fixed parameters are the number, positions and diameters of the nodes, and the diameter of the struts.</s><s>By fixing these parameters, the number of lattice design configurations can be significantly reduced.</s><s>Six models of lattices based on configurations of nine nodes are presented, as shown in Fig. <ref type="figure" target="#fig_1">3</ref>. Model 1 is a body-centred-cubic (BCC) which is the simplest configuration of lattice cell with nine nodes <ref type="bibr" target="#b5">[6]</ref>.</s><s>The other models are generated by varying the strut configuration while maintaining the symmetry, allowing duplication in three directions, of the lattice designs.</s><s>The number and combination of struts connecting two nodes are the diffierences among the six models.</s><s>Each of the six singlecell lattice models, presented in Fig. <ref type="figure" target="#fig_1">3</ref>, has a constant volume of (25 × 25 × 25) mm.</s><s>Based on a common topology representation <ref type="bibr" target="#b6">[7]</ref>, the strut is represented as a cylinder with a diameter of 1.5 mm and the node is represented as a sphere with a diameter of 2 mm.</s></p><p><s>Lattice structures are rarely used in the form of a single unit <ref type="bibr" target="#b7">[8]</ref>, so they have been fabricated and experimentally verified in the form of a (2 × 2 × 2) unit cell configuration; this means every 2 × 2 × 2 configuration has eight identical lattice unit cells that shape a cubic sample.</s><s>The 2 × 2 × 2 configuration is selected because it minimally represents a repeated form of lattices and shows the essential propertites of lattices (see Fig. <ref type="figure" target="#fig_2">4</ref>).</s><s>When a lattice is under compression, it undergoes three processes: elastic deformation, energy absorption (plateu region) and densification.</s><s>The 2 × 2 × 2 configurations undergo the three processes under compression, as shown in Fig. <ref type="figure" target="#fig_2">4</ref>, therefore, confirming they exhibit lattice behaviour.</s><s>It is worth noting, in practice, lattice structures can be made with many more repeated forms than a 2 × 2 × 2 configuration.</s><s>The 2 × 2 × 2 configurations are shown in Fig. <ref type="figure" target="#fig_4">5</ref>.</s><s>By default, the bulk volume of each of the six lattice models in the configuration shown in Fig. <ref type="figure" target="#fig_4">5</ref> is (50 × 50 × 50) mm.</s><s>In Fig. <ref type="figure" target="#fig_4">5</ref>, 2 mm thickness plates are included into the designs.</s><s>The purpose of adding the plate is to allow for the mounting of an accelerometer sensor for impact tests and to simulate a real situation where lattice structures are commonly designed as repeated structures between thin plates used as boundary walls <ref type="bibr" target="#b8">[9]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Design parameter variables: total area moment of inertia and mass</head><p><s>The first design parameter is the total area moment of inertia I , which is constituted by I x , I y and I z about the x-, y-and z-axes respec- tively.</s><s>Therefore, I is calculated as the summation of I I z x , I y and The calculations of the total I x , I y and I z are carried out by summing all individual area I zn moments of inertia of each strut p: I xs, I ys and I zs and each node n: I xn, I yn and  The area total moments of inertia I x , I y and I z are defined as:</s></p><formula xml:id="formula_0">∑ ∑ = + = = I I I x i N xs i j N xn j 1 1 strut node (<label>1</label></formula><formula xml:id="formula_1">) ∑ ∑ = + = = I I I y i N ys i j N yn j 1 1 strut node (<label>2</label></formula><formula xml:id="formula_2">) ∑ ∑ = + = = I I I z i N zs i j N zn j 1 1 strut node (<label>3</label></formula><formula xml:id="formula_3">)</formula><p><s>where I xs, I ys and I zs are the area moments of inertia of struts p about the x-, y-and z-axes, respectively, I xn, I yn and I zn are the area moments of inertia of struts n about to the x-, y-and z-axes, respectively, i is an index of the i th strut and j is an index of the j th node.</s><s>The number of nodes and struts are denoted as N node and N strut respectively (see Fig. <ref type="figure">2</ref>).</s><s>The parallel axis theorem <ref type="bibr" target="#b9">[10]</ref> is applied to calculate I for each strut: I xs, I ys and I zs and for each node n: I xn, I yn and I zn .</s><s>Fig. <ref type="figure" target="#fig_5">6</ref> is an illustration of the parallel axis theorem from a two-dimensional (xand y-planes) perspective.</s><s>In Fig. <ref type="figure" target="#fig_5">6</ref>, the moments of inertia for each strut p  and for each node n can be calculated with respect to a central co- ordinate system I x , I y and I z for the x-, y-and z-axes.</s></p><p><s>The central co- ordinate system (the origin O) is calculated as the centroid of all the node coordinates.</s><s>Hence, the moments of inertia for each strut and node are calculated as: = + I I ldx xs i x s s s ' 2 s i (4) = + I I ldy ys i y s s s ' 2 s i (5) = + I I l d z zs i Z s s s ' 2 s i (6) = + I I πd x 4 xn j xn n n 2 2 (7) = + I I πd y 4 yn j yn n n 2 2 (8)</s></p><formula xml:id="formula_4">= + I I πd z 4 zn j zn n n 2 2 (<label>9</label></formula><formula xml:id="formula_5">)</formula><p><s>where i and j are the index for the i th strut and the n th node respectively, l s is the length of the strut, d s is the diameter of the strut p, d n is the diameter of node n, x s , y s and z s are the distances of the strut's centroid from the origin O along each axis, and x n , y n and z n are the distances of the node's centroid from the origin O (see Fig. <ref type="figure" target="#fig_5">6</ref> for a two-dimensional illustration in the xy-plane).</s><s>In Eqs. ( <ref type="formula">7</ref>)-( <ref type="formula" target="#formula_4">9</ref>), the indexes i and j vanish, since all the nodes and struts are the same size.</s><s>I x ' s i , I y ' s i and I Z ' s i are the area moment of inertia of the i-th strut when it is in a horizontal orientation.</s><s>I xn , I yn and I zn are the area moment of inertia of the node about the x-, y-and z-axes respectively.</s><s>Since the node is a spherical shape which has the same form in any orientation, I xn , I yn and I zn are equal and can be defined as follows <ref type="bibr" target="#b9">[10]</ref>:    calculations for I Z ' s i is similar to the calculation of I y i ' s .</s><s>From Fig. <ref type="figure" target="#fig_6">7</ref>, the distances of the elements of the struts (shown with a blue square in Fig. <ref type="figure" target="#fig_6">7</ref>) ′</s></p><formula xml:id="formula_6">= = =<label>(</label></formula><p><s>x and ′ y to the rotated x-and y-axes, respectively, can be de- fined as:</s></p><formula xml:id="formula_7">′ = + x x θ y θ cos sin<label>(11)</label></formula><formula xml:id="formula_8">′ = - y y θ x θ cos sin (<label>12</label></formula><formula xml:id="formula_9">)</formula><p><s>where θ is the degree of rotation of the strut from the origin.</s><s>From the basic definition of area moment of inertia I of a solid body, I xs and I ys are defined in [10].</s><s>I xs and I ys are I of a rectangular cross- section area, since the strut's cross-sectional area along its long direction is a rectangular area.</s><s>By inserting equation <ref type="bibr" target="#b10">(11)</ref> into the basic formula for I xs [10], we can obtain for each i-th strut: = -+ I θ I θ θI θ I [cos ] 2 sin cos [sin ] x i i x i i x y i y ' 2 2 s s s s (13) where I xy s is a product of inertia and is equal to zero since the strut has a symmetrical cross-section area [12].</s><s>Hence, I x ' s i becomes: = + I θ I θ I [cos ] [sin ] x i x i y ' 2 2 s i s s (14) = + I θ d l θ d l [cos ] 12 [sin ] 12 .</s><s>x i s s i s s ' 2 3 2 3 s i (15) By substituting Eq. ( <ref type="formula" target="#formula_8">12</ref>) into the basic formula for I ys <ref type="bibr" target="#b9">[10]</ref> and calculating in a similar way as in equations ( <ref type="formula">13</ref>)-( <ref type="formula">15</ref>), I y ' s i for each i-th strut becomes:</s></p><formula xml:id="formula_10">= + I θ d l θ d l [cos ] 12 [sin ] 12 . y i s s i s s ' 2 3 2 3 s i (<label>16</label></formula><formula xml:id="formula_11">)</formula><p><s>The calculation for I Z ' s i for each i-th strut is similar to the calculation of I y ' s i and can be calculated as (see Fig. <ref type="figure" target="#fig_7">8</ref>): = + I θ d l θ d l [cos ] 12 [sin ] 12 Z xy i s s xy i s s ' 2 3 2 3 i (17) where θ xy is the rotation angle of the strut with respect to plane xy.</s><s>The calculations for I xs_i , I ys_i and I zs_i are summarised as follows (based on Fig. 8): = + + I θ d l θ d l l d x [cos ] 12 [sin ] 12 xs i i s s i s s s s s 2 3 2 3 ' 2 (18) = + + I θ d l θ d l l d y [cos ] 12 [sin ] ( ) 12 ys i i s s i s s s s s 2 3 2 ' 3 2 (19) = + + I θ d l θ d l l d z [cos ] 12 [sin ] 12 zs i xy i s s xy i s s s s s 2 3 2 3 2 (20) where = = + x s y y y 2 ( ) 2 2 1 , = = + y s x x x 2 ( ) 2 2 1 , = + z x y s 1 2 2 2 , = + l x y s ' 2 2</s></p><p><s>, l s is the length of the strut, θ cos xy is the inclination of the strut with respect to z-axis, =x x x 2 1 , and =y y y 2 1 .</s><s>Finally, I for the two thin plates can be calculated in a similar wat to the calculation of I for the nodes.</s><s>Instead, the I of the thin plates follows a rectangular cross-sectional area <ref type="bibr" target="#b9">[10]</ref>.</s></p><p><s>To calculate mass, it is straightforward to calculate the total volume of the struts (as cylinders) and nodes (as spheres) and multiplying by the material density.</s><s>In this study, the material used to fabricate the lattices is Nylon-12 with density ρ = 1010 kg/m 3 .</s><s>Table <ref type="table" target="#tab_0">2</ref> (row 1 and row 2) shows the calculated total area moment of inertia I and the mass for each of the six models in the 2 × 2 × 2 configuration in Fig. <ref type="figure" target="#fig_4">5</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Analysis of axial stress of each strut member in a lattice structure due to compressive stress</head><p><s>In this section, an FEA method to predict the ability of the lattice structures to sustain a load (structural integrity) is presented.</s><s>To predict the structural integrity, a stiffness matrix method is used.</s></p><p><s>To analyse the structural integrity of the six lattice models, axial stresses on each strut are calculated and analysed.</s><s>To predict whether the strength of a lattice structure is able to sustain a vertical load, all axial stresses on each strut should be less than the yield strength Y s of the lattice material.</s><s>If there is more than one strut that has axial stress more than its yield strength, then the structure may fail to sustain the load.</s><s>In Fig. <ref type="figure" target="#fig_8">9</ref>, an axial stress for each i th strut is denoted as P axial i .</s><s>The axial stress P axial i is formulated as:</s></p><formula xml:id="formula_12">= P F A axial i i i (<label>21</label></formula><formula xml:id="formula_13">)</formula><p><s>where F i is the axial force for the i th strut p and A i is the cross-section area of the strut perpendicular to the F i direction.</s></p><p><s>A stiffness-matrix method is used to calculate P axial i for each node <ref type="bibr" target="#b10">[11]</ref>.</s><s>The method is then derived and extended to a 3D case and applied with MATLAB.</s><s>Firtly, the method maps all the nodes and struts of a lattice into a symmetric global stiffness matrix.</s><s>The second step is to calculate displacements for each strut p from a global displacement matrix.</s><s>When the global stiffness and the displacement matrices are constructed, the axial force for each strut p can be calculated by:</s></p><formula xml:id="formula_14">= F D K xial a (<label>22</label></formula><formula xml:id="formula_15">)</formula><p><s>where F xial a is a × N 1 dof matrix containing F i on each strut p in the x,y and z directions.</s><s>K is a × N N dof dof global stiffness matrix for each strut, and D is a × N 1 dof global displacement matrix on each node n in the x-, y-and z-directions.</s><s>Both Kand D are based on the lattice global (origin) coordinate O (see Fig. <ref type="figure" target="#fig_5">6</ref>).</s><s>N dof is the degree of freedom (dof) of the lattice being analysed and is defined as:</s></p><formula xml:id="formula_16">= × N N 3. dof node (<label>23</label></formula><formula xml:id="formula_17">)</formula><p><s>The N dof is multiplied by three because 3D spatial coordinates are being used.</s><s>From Fig. <ref type="figure" target="#fig_9">10a</ref>, the axial force F i can be calculated as: ⎧ ⎨ ⎩ = = ( ) F d A π i A E l f s d 2 2 s s s (</s></p><formula xml:id="formula_18">)<label>24</label></formula><p><s>where E is Young's modulus, d f is the axial displacement and A s is the cross-sectional area of the strut perpendicular to F i .</s></p><p><s>The global stiffness matrix K and the global displacement matrix D have to be constructed from a stiffness matrix ′ K and displacement matrix D', repectively, with respect to the local coordinates of each strut and with respect to the origin.</s><s>The stiffness matrix for each strut K' can be calculated as (see Fig. <ref type="figure" target="#fig_9">10a</ref>):</s></p><formula xml:id="formula_19">′ = ⎡ ⎣ ⎢ - - ⎤ ⎦ ⎥ A E l K 1 1 1 1 . s s (<label>25</label></formula><formula xml:id="formula_20">)</formula><p><s>The matrix K' is multiplied by a 2 × 2 matrix ⎡ ⎣ ⎢ --</s></p><formula xml:id="formula_21">⎤ ⎦ ⎥ 1 1 1 1</formula><p><s>because each strut only has two edges (the two ends of a strut).</s><s>Moreover, the displacement matrix D' for all the struts can be defined as (see Fig. <ref type="figure" target="#fig_9">10b</ref>):</s></p><formula xml:id="formula_22">⎡ ⎣ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎤ ⎦ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ = … … … d d d d d d d d d d d d D ' .</formula><p><s>f f f f origin f origin f fn fny fnz fn fn fn 1 1 1 1 1 1 x y z x y origin z x origin z origin z origin z (26)</s></p><p><s>It is worth noting that, similar to K', the matrix D' only has two nodes: f i and f i origin (Fig. <ref type="figure" target="#fig_9">10b</ref>).</s><s>K' and D' are calculated with respect to the local coordinates of each strut (Fig. <ref type="figure" target="#fig_9">10a</ref>).</s><s>Since K and D are the global stiffness and displacement matrices, respectively, the displacement and stiffness for each strut in its local coordinates should be transformed to global coordinates.</s><s>Fig. <ref type="figure" target="#fig_9">10b</ref> shows how to transform from the strut local coordinates to the lattice global coordinates.</s><s>To transform the local displacement and stiffness matrices to the global coordinates, a transformation matrix T should be used, where T is defined as:</s></p><formula xml:id="formula_23">= ⎡ ⎣ ⎢ … …… … …… ⎤ ⎦ ⎥ λ λ λ λ λ λ λ λ λ λ λ λ T 0 0 0 0 0 0 0 0 0 0 0 0 x y z x y z nx nx nx nx nx nx 1 1 1 1 1 1<label>(27)</label></formula><p><s>where λ x , λ y and λ z are the transformation multiplier with respect to the x,y and z global coordinates respectively.</s><s>λ x , λ y and λ z are calcu- lated as:</s></p><formula xml:id="formula_24">= = - = - - + - + - ( ) λ θ x x l x x x x y y z z cos ( ) ( ) , x x F F s F F F F F F F F 2 2 2 i origin i o r i g i n i o r i g i n i o r i g i n i o r i g i n (<label>28</label></formula><formula xml:id="formula_25">) = = - = - - + - + -<label>(</label></formula><p><s>) λ θ y y l y y x x y y z z cos ( ) ( ) , y y F F s F F F F F F F F 2 2 2</s></p><formula xml:id="formula_26">i origin i o r i g i n i o r i g i n i o r i g i n i o r i g i n (<label>29</label></formula><formula xml:id="formula_27">) = = - = - - + - + - ( ) λ θ z z l z z x x y y z z cos ( ) ( ) . z z F F s F F F F F F F F 2 2 2 i origin i o r i g i n i o r i g i n i o r i g i n i o r i g i n (<label>30</label></formula><formula xml:id="formula_28">)</formula><p><s>Hence, the global K and D matrices can be calculated as:</s></p><formula xml:id="formula_29">= K T KT ' T (31) and = D TD'.<label>(32)</label></formula><p><s>Finally, by substituting Eqs.</s><s>(31) and (32) into Eq.</s><s>( <ref type="formula" target="#formula_14">22</ref>), the F xial a matrix can be calculated as:</s></p><formula xml:id="formula_30">F axial = T T K′T TD′ (<label>33</label></formula><formula xml:id="formula_31">)</formula><p><s>By calculating the matrices F xial a and D, all axial forces and displacements (in the 3D spatial directions) of each strut can be obtained.</s></p><p><s>To carry out the analyses, the material properties of the lattice structures and the boundary conditions for the analysis have to be defined.</s><s>Nylon-12 is used as the material for lattice fabrication and test.</s><s>The properties of Nylon-12 used in this study are obtained from the report by Ngim et al. <ref type="bibr" target="#b11">[12]</ref>.</s><s>The boundary conditions that are set for the truss analysis are: (1) the lower nodes of the six lattice models are fixed by setting their displacements in the x-,y-and z-directions to zero, and (2) the loads are applied vertically to each node at the top.</s><s>Fig. <ref type="figure" target="#fig_10">11</ref> shows the boundary conditions to analyse the six lattice structures with the truss-matrix analysis.</s><s>The total load selected for the polymer-based lattices is 5 N by considering small direct-current motors that commonly have massses ≤0.5 kg.</s><s>The loads are distributed evenly across the upper nodes of the structures for numerical calculations.</s></p><p><s>From the structural analysis and after applying a 5 N total load, the maximum axial stress on each strut of the six lattices is compared to Nylon-12's material yield strength Y s <ref type="bibr" target="#b11">[12]</ref>.</s><s>Y s for Nylon-12 is 0.054 GPa.</s></p><p><s>Results from the truss-matrix analysis revealed that lattice model 1, model 4 and model 6 have maximum axial stresses, among all the struts, that are greater than Y s .</s><s>This result suggest that lattice model 1, model 4 and model 6 cannot sustain the given compressive load.</s><s>Lattice model 2, model 3 and model 5 show maximum axial stresses that are less than Y s , and can sustain the given load and satisfy the structural integrity criteria.</s><s>Table <ref type="table" target="#tab_0">2</ref> (row 6 and row 7) shows the maximum axial stresses for the six lattice models and the ability to sustain the load.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">FEA simulation to estimate stiffness and natural frequency of the lattice structures</head><p><s>A commercial FEA software package ANSYS was used to simulate and estimate the stiffness and natural frequency f n of the six lattice structures.</s><s>Before starting the FEA analysis, a convergence test to determine the size of mesh elements, that controls the number of elements, was carried out.</s><s>The test was carried out by increasing the number of elements until the simulation output converges.</s></p><p><s>The convergence tests use model 1 and model 5 since they are the models with minimum and maximum strut elements, respectively.</s><s>The test is carried out by increasing the number of elements (by decreasing the element size) until the difference of a result with respect to the previous result converges.</s><s>Fig. <ref type="figure" target="#fig_0">12</ref> shows the results of the convergence tests.</s></p><p><s>From the convergence tests, the number of mesh elements where the FEA results converge is around 95 000 elements for model 1 and around 220,000 elements for model 5 that correspond to element size of (0.4 × 0.4 × 0.4) mm.</s><s>Hence, the mesh parameters used for the simulations are a quadrilateral element with a size of (0.4 × 0.4 × 0.4) mm.</s><s>With the selected element size, the number of mesh elements for the 2 × 2 × 2 cubic lattice samples was around 95,000-220,000 elements.</s><s>Material properties used in this FEA are obtained from reference <ref type="bibr" target="#b11">[12]</ref>.</s></p><p><s>For the stiffness predictions for the lattices, an evenly distributed 1 N compression force is applied vertically on the top plate.</s><s>The stiffness is calculated by dividing the compression force over the resulted displacement since the stiffness-displacement relation is still linear for a small force.</s><s>The simulated stiffness is presented in Table <ref type="table" target="#tab_0">2</ref> (row 5).</s><s>The force and boundary conditions are presented in Fig. <ref type="figure" target="#fig_10">11</ref>.</s><s>Fig. <ref type="figure" target="#fig_12">13</ref> shows results of the displacement of the six lattice models.</s><s>From Table <ref type="table" target="#tab_0">2</ref>, we can observe that lattice model 1 is the weakest structure among the six models.</s></p><p><s>The estimated f n for the lattice structures is presented in Table 2 (row 4).</s><s>In Table <ref type="table" target="#tab_0">2</ref>, the simulated f n of the lattice models considers the first mode of vibration because this is the most dominant mode that occurs with oscillation along a vertical direction <ref type="bibr" target="#b4">[5]</ref>.</s><s>Fig. <ref type="figure" target="#fig_13">14</ref> shows the FEA simulation to estimate the f n of mode 1 for all the lattice models.</s><s>Results from the FEA in Table <ref type="table" target="#tab_0">2</ref> shows that the f n of lattice model 5 is the highest and has the highest stiffness.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Experimental verification</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Fabrication</head><p><s>For efficiency, only three lattice models were fabricated for experimental verification; those were lattice model 1, model 2 and model 3.</s><s>The reason to select the three lattices is as follows: (1) lattice model 1 has the least number of struts, (2) lattice model 2 and model 3 have different behaviour, compared to the other lattice models, for their stiffness (see Table <ref type="table" target="#tab_0">2</ref> row 1 and row 5), and (3) lattice model 3 has a larger area moment of inertia than model 2, but a lower stiffness.</s><s>The different behaviour could be related to lower bending stress in model 2. To carry out experimental tests to verify the predicted natural frequency f n and compressive strengths of the selected three lattice models, the lattices were fabricated by means of a laser powder bed fusion (LPBF) process.</s><s>The lattice structures were fabricated from Nylon-12 powder.</s><s>Table <ref type="table">3</ref> shows the mechanical properties of selectively laser sintered Nylon-12.</s><s>The results of the LPBF fabrication are shown in Fig. <ref type="figure" target="#fig_14">15</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Impact test</head><p><s>Impact tests were carried out to characterise the f n values of the lattice structures <ref type="bibr" target="#b4">[5]</ref>.</s><s>The main components of the impact test are an accelerometer, a signal amplifier and an oscilloscope to read the amplified signals from the accelerometer.</s><s>Fig. <ref type="figure" target="#fig_15">16</ref> shows the impact test experimental set up.</s><s>The impacts are applied in the axial (vertical) direction.</s><s>The calculated f n values are the eigen mode 1 vibration os- cillation in the axial (vertical) direction.</s><s>f n values are calculated from the amplified signals read by the oscilloscope.</s><s>Fig. <ref type="figure" target="#fig_6">17</ref> shows samples of the recorded accelerometer signals due to vibration obtained by applying an impact force to the lattice structures and recording the signals until they are completely attenuated.</s><s>f n values are calculated by finding the first three consecutive peak points from the maxmum peak.</s><s>The three points are then determined following common procedures <ref type="bibr" target="#b14">[15]</ref>.</s></p><p><s>For each lattice structure, both single cells and the 2 × 2 × 2 samples, three repeat measurements were carried out.</s><s>In addition, the impact tests were carried out on two parts for each lattice model.</s><s>The total number of impact tests was eighteen: three selected lattice models, three repeats for each model, and two fabricated parts for each model.</s><s>Since the f n estimation involved two parts for each model, the standard deviation of the mean of the calculated f n values is used to quantify the  part-to-part variation.</s><s>In addition, for comparison purposes, a solid cube model with size of (25 × 25 × 25) mm was fabricated with the same Nylon-12 material and also tested.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Compression tests</head><p><s>To test the compressive strength of the lattice models, compression tests were carried out by using a universal tensile test machine.</s><s>The test was carried out by applying an axial compressive force with compression speed 1 mm min -1 .</s><s>Fig. <ref type="figure" target="#fig_7">18</ref> (left) shows the results of the compression tests for the selected three lattice models, and Fig. <ref type="figure" target="#fig_7">18</ref> (right) shows one of the compression tests.</s><s>The compression speed was set to 1 mm min -1 for all the tests.</s><s>A total of nine compression tests were carried out (three selected lattice models with three compression tests for each model).</s><s>In Fig. <ref type="figure" target="#fig_7">18</ref> (left), the displacement data are only shown up to the maximum force before plastic deformation occurs <ref type="bibr" target="#b7">[8]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Results and discussion</head><p><s>From the results in Table <ref type="table">1</ref>, model 1 has the minimum natural frequency of 50 Hz, model 3 has 320 Hz and model 2 has the maximum natural frequency of 500 Hz.</s><s>Meanwhile, the results from FEA for natural frequency estimation are presented in Table <ref type="table" target="#tab_0">2</ref> (row 4).</s><s>Percentage differences between the FEA and the experimental results are 4% -14% (see below).</s></p><p><s>For more verification and comparison of the impact test results, a solid cube model was fabricated and tested.</s><s>The f n of the solid cube model obtained from the experiment is 5170 Hz ± 80 Hz and from the simulation is 5250 Hz, giving a 1.5% difference.</s><s>It is worth noting that the standard error of the impact test results consider part-to-part variation becase the measurements were carried out for two different parts for each model.</s></p><p><s>Table <ref type="table">1</ref> (row 2) shows the results of the stiffness measurements.</s><s>The   parameters and the simulated lattice properties, that is I , mass, f n , strength and the maximum axial stress on the lattices' struts.</s><s>From all six lattice models, only model 3, model 4 and model 5 can satisfy the structural integrity criteria to be able to sustain the load.</s><s>Of these three models, model 3 has the lowest f n .</s><s>From the experimental results of the impact tests and the compression tests, the proposed design parameters: I and m are proportional to the natural frequency and the strength of the lattice.</s><s>Figs.</s><s>19 and 20 show the correlation of f n with respect to k m / and the correlation of the proposed parameter I m / with respect to f n , respectively.</s><s>For each graph in Figs.</s><s><ref type="figure" target="#fig_16">19</ref> and <ref type="figure" target="#fig_17">20</ref>, a least-squared line is fitted to the simulation results and the experimental results are shown with error bars.</s><s>Before the linear regression analyses were applied to data points, normality tests of the data points were carried out.</s></p><p><s>From the normality tests, the variation of the data points follow normal distribution (with -= P value 0.85).</s><s>It suggests that the regression analyses are valid.</s><s>The regression analyses are applied to six data points from the six lattice models.</s><s>The six lattice models cover a range from the model with the least number of struts (model 1) to the model with the most number of struts (model 5).</s><s>With fixed nine number of nodes, the lattice design space is limited to those six models.</s></p><p><s>Fig. <ref type="figure" target="#fig_16">19</ref> shows the correlation between f n and k m / .</s><s>From Fig. <ref type="figure" target="#fig_16">19</ref>, the coefficient of determination (goodness of fit) R 2 value is 0.99.</s><s>From the R 2 value, the data points do not follow the fit perfectly as in the case of solid cubes.</s><s>This result suggests that lattice structure vibration characteristics are not exactly equal to those of solid structures.</s><s>The complex nature of lattice structures may affect this equality, for example, due to bending of their members.</s></p><p><s>Fig. <ref type="figure" target="#fig_17">20</ref> shows the correlation between f n and the proposed para- meter I m / .</s><s>From Fig. <ref type="figure" target="#fig_17">20</ref>, the proposed parameter I m / show a linear correlation to f n .</s><s>The determination coefficient R 2 value of the fit is 0.81.</s><s>Hence, the fitting covers 81% variation of the data.</s><s>In Fig. <ref type="figure" target="#fig_17">20</ref>, from analysis of variance (ANOVA) test for the regression analyses, the I m / term is statistically significant ( -= P value 0.01) while the con- stant term (the intercept) is not significant ( -= P value 0.5).</s><s>From ANOVA test, it suggests that the parameter I m / has significant posi- tive correlation with f n .</s><s>The proposed parameters could be useful to  select a lattice configuration among many feasible options (at fixed volume and with one material) focusing on natural frequency and strength; the calculation of the parameter I and m are very efficient compared to FEA simulations or experiments to compare the f n .</s><s>Using the analytical model developed here the computing time for I m / with an average desktop PC is generally seconds, while the computing time for k m / by FEA, excluding the convergence test, is around 45 min with a high-performance computer.</s></p><p><s>From Fig. <ref type="figure" target="#fig_17">20</ref>, model 2 has lower I than model 3, but model 2 has a higher stiffness than model 3.</s><s>The reason can be traced to the stretchdominated nature of model 2's structure, and the bending-dominated nature of model 3's structure.</s><s>A stretch-dominated structure increases the strength of model 2 and a bending-dominated structure decreases the strength of model 3 <ref type="bibr" target="#b6">[7]</ref>.</s></p><p><s>From the simulation and experimental results, it can be observed that lattice model 3 is a good compromise between f n and the com- pression strength.</s><s>Model 1, model 4 and model 6 have low f n which is good for vibration isolation, but the structure of these three models cannot sustain the given load.</s><s>Similar conclusions can be drawn for model 2 and model 5; the two lattice models have the highest compressive strength, but they also have the highest value of f n .</s></p><p><s>The simulation and experiment results suggest that model 3 is the most suitable lattice structure to be selected out of the six lattice structure models proposed above for high-efficiency vibration isolation while fulfilling the structural integrity constraint.</s><s>Model 3 has a sufficient strength but has a lower natural frequency compared to model 2 and model 5.</s><s>A wide range of applications can utilise model 3 lattice design, for example, as a frame structure for a machine or as mounts for rotary equipment so that the vibration from the rotary equipment is isolated from the structure of interest considering an ideal situation where there is only one vibration source.</s><s>For instance, a system related to rotational and linear motion typically has vibration generated from the motors, for example, a linear motor system can produce vibration with a frequency of more than 400 Hz <ref type="bibr" target="#b13">[14]</ref>.</s></p><p><s>Fig. <ref type="figure">21</ref> illustrates the vibration isolation of lattice models 2-5 with an external vibration source oscillating at 400Hz.</s><s>Damping factors ζ are considered to be in a range from 0.2 to 0.5 <ref type="bibr" target="#b17">[18]</ref>.</s><s>Damping factor ζ is a constant that directly proportional to damping coefficient C <ref type="bibr" target="#b4">[5]</ref>.</s><s>Fig. <ref type="figure">21</ref> shows that lattice model 3 can reduce vibration more than lattice models 2 and 5 for all damping factors.</s><s>Lattice models 1, 4 and 6 were not considered because they are too weak to sustain the predefined load, as can be seen in Table <ref type="table" target="#tab_0">2</ref> row 7.</s><s>For the range of damping factors considered here, the maximum vibration reduction that lattice model 3 can provide is 26% at = ζ 0.5(the transferred amplitude is 74% from the source amplitude), while models 2 and 5 do not reduce the vibration.</s><s>Finally, the effectiveness of model 3 lattice structure to isolate vibrations also depends on the various vibration frequencies of the system of interest.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions and future work</head><p><s>The paper proposes design parameters to compare lattice designs considering the natural frequency and the compression strength, and to select a design that has high efficiency vibration isolation properties, that at the same time, is able to sustain loads.</s><s>The proposed parameter is straightforward and efficient to calculate rather than to run FEA simulations, which are computationally extensive.</s></p><p><s>Future work includes, an investigation of a more comprehensive model to estimate natural frequency of lattice structures.</s><s>The effect of bending of the members of a lattice structure is expected to contribute to its natural frequency.</s><s>In addition, a full six degrees of freedom model of the vibration of lattices should be investigated.</s></p><p><s>The design parameters can be integrated into an iterative optimisation procedure as an objective function.</s><s>With iterative procedures, a wider and more complex design space can be explored to find a better strut-based model that has high vibration isolation efficiency for a system of interest.</s></p><p><s>Further work will study the various types of defects of fabricated lattice structures, for example, part porosity and geometry imperfections, and their correlation to the degradation of mechanical performance properties, for example, natural frequency and compressive strength of the lattice structures.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .Fig. 2 .</head><label>12</label><figDesc><div><p><s>Fig. 1.</s><s>Graph illustrating vibration damping and isolation.</s></p></div></figDesc><graphic coords="2,37.59,56.64,359.42,187.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig.3.</s><s>Six models of lattice unit cells.</s></p></div></figDesc><graphic coords="3,37.59,56.64,299.66,212.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Experimentally determined force-displacement curve of the (2 × 2 × 2) lattice model 3.</s><s>It consists of elastic, plastic and densification regions [8].</s></p></div></figDesc><graphic coords="3,324.51,288.96,215.28,154.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc><div><p><s>a transformation of the axes to which the area moment of inertia refers should be carried out, since not every strut is parallel (horizontal) with respect to the central axes O.</s><s>The derivation of the transformed axes to calculate I x ' s i , I y ' s i and I Z ' s i , is shown in Fig. 7, illustrated only for I x ' s i and I y ' s i in a two-dimensional xyplane.</s><s>The derivation is shown for I x ' s i andI y ' s i only, because the</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig.5.</s><s>Representation of the 2 × 2 × 2 configuration for each of the six lattice models, each model having eight identical lattice unit cells.</s></p></div></figDesc><graphic coords="4,37.59,56.64,299.09,198.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6.</s><s>Variables used I xs , I ys , I xn and I yn for each strut p and n in a 2D xy-plane view.</s></p></div></figDesc><graphic coords="4,55.33,275.02,215.57,207.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig.7.</s><s>Illustration of the parallel-axis theorem in a 2D xy-plane for a nonparallel (non-horizontal) strut with respect to the lattice origin O of a lattice structure.</s></p></div></figDesc><graphic coords="4,37.59,613.53,299.52,124.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. Illustration of the calculation of I for a strut.</s><s>(a) Illustration of θ and θ xy and, (b) illustration of x y , s s and z s.</s></p></div></figDesc><graphic coords="5,37.59,574.53,359.42,163.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig.9.</s><s>Illustration of stresses for each strut p.</s></p></div></figDesc><graphic coords="6,37.59,56.64,358.99,173.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 10 .</head><label>10</label><figDesc><div><p><s>Fig. 10.</s><s>Illustration of (a) a displacement and axial force in local coordinates and (b) the displacement and axial force in global coordinates in 2D.</s></p></div></figDesc><graphic coords="6,37.59,560.41,359.42,177.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig.11.</s><s>A set of boundary conditions and loads for the analysis of the axial stress for each strut.</s></p></div></figDesc><graphic coords="7,55.33,524.13,215.57,196.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 12 .</head><label>12</label><figDesc><div><p><s>Fig. 12. Convergence tests to select the size of the elements in the meshing process.</s><s>(a) Convergence tests for natural frequency f n , and (b) convergence tests for displacement.</s></p></div></figDesc><graphic coords="8,88.04,56.81,419.18,281.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 13 .</head><label>13</label><figDesc><div><p><s>Fig. 13.</s><s>FEA simulations to estimate displacement of the lattices structures to calculate the stiffness of the lattice.</s><s>Colour bars show displacement values.</s></p></div></figDesc><graphic coords="8,88.21,556.50,418.89,172.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 14 .</head><label>14</label><figDesc><div><p><s>Fig. 14.</s><s>FEA simulations to estimate f n of the lattice structures in 2 × 2 × 2 cubic sample configuration.</s><s>Colour bars show normalised eigenvalues of the relative amplitudes of motion due to vibration [5].</s></p></div></figDesc><graphic coords="9,88.21,56.81,418.89,180.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>.Fig. 15 .</head><label>15</label><figDesc><div><p><s>Fig.15.</s><s>Fabrication results of the three lattice structures in samples of (2 × 2 × 2) configuration.</s><s>The dimension of each sample is (50 × 50 × 50) mm.</s><s>The nodes are spheres with 2 mm diameter and the struts are cylinders with 1.5 mm diameter.</s></p></div></figDesc><graphic coords="9,37.59,275.87,299.37,111.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 16 .</head><label>16</label><figDesc><div><p><s>Fig. 16.</s><s>Experimental set up for the impact test to characterise the natural frequencies of the lattice structures.</s></p></div></figDesc><graphic coords="9,37.59,407.40,360.00,150.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Fig. 19 .</head><label>19</label><figDesc><div><p><s>Fig. 19.</s><s>Correlation between k m / and natural fre- quencies.</s><s>The fitted line is calculated from simulation data.</s><s>The error bar and variation of fitting coefficients are u (standard error).</s></p></div></figDesc><graphic coords="11,37.59,455.70,359.42,282.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig. 20 .</head><label>20</label><figDesc><div><p><s>Fig. 20.</s><s>Positive correlation between the proposed design parameter I m / and the natural frequencies of the models.</s><s>The fitted line is calculated from simulation data.</s><s>The error bar and variation of fitting coefficients are u (standard error).</s></p></div></figDesc><graphic coords="12,37.59,56.64,359.13,285.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><graphic coords="10,37.59,56.64,358.85,165.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><graphic coords="10,87.59,516.36,420.05,203.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><graphic coords="13,88.50,56.81,418.32,195.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2</head><label>2</label><figDesc><div><p><s>Summary of calculated design parameters and the simulated lattice properties.</s></p></div></figDesc><table><row><cell>No.</cell><cell cols="2">Results</cell><cell cols="2">2 × 2 × 2 samples configurations</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Model 1</cell><cell>Model 2</cell><cell>Model 3</cell><cell>Model 4</cell><cell>Model 5</cell><cell>Model 6</cell></row><row><cell>1</cell><cell cols="2">Total I/m 4</cell><cell>× -4.19 10 6</cell><cell>× -2.01 10 3</cell><cell>× -3.01 10 3</cell><cell>× -1.31 10 3</cell><cell>× -5.71 10 3</cell><cell>× -1.07 10 4</cell></row><row><cell>2</cell><cell cols="2">Mass/kg</cell><cell>× -9.74 10 3</cell><cell>× -1.08 10 2</cell><cell>× -1.11 10 2</cell><cell>× -1.04 10 2</cell><cell>× -1.17 10 2</cell><cell>× -1.10 10 2</cell></row><row><cell>3</cell><cell>I</cell><cell>m /(m 4 kg -1 ) 1/2</cell><cell>× -2.01 10 2</cell><cell>× -4.30 10 1</cell><cell>× -5.19 10 1</cell><cell>× -3.53 10 1</cell><cell>× -6.97 10 1</cell><cell>× -9.84 10 2</cell></row><row><cell>4</cell><cell cols="2">f n /Hz ( ± 1%)</cell><cell>47.5</cell><cell>501.5</cell><cell>325</cell><cell>240.5</cell><cell>640.5</cell><cell>190</cell></row><row><cell>5</cell><cell cols="2">k/N m -1 ( ± 1%)</cell><cell>3090</cell><cell>55600</cell><cell>25300</cell><cell>16500</cell><cell>75700</cell><cell>11900</cell></row><row><cell>6</cell><cell cols="2">Maximum axial stress from all the struts P axial_i /GPa</cell><cell>0.079</cell><cell>0.015</cell><cell>0.048</cell><cell>0.078</cell><cell>0.017</cell><cell>0.088</cell></row><row><cell>7</cell><cell cols="2">Is able to sustain the load?</cell><cell>No</cell><cell>Yes</cell><cell>Yes</cell><cell>No</cell><cell>Yes</cell><cell>No</cell></row><row><cell></cell><cell cols="2">Table 3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="3">Mechanical properties of LPBF Nylon-12 for uniaxial compres-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">sion [12].</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Property</cell><cell>value</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Young's modulus E/Mpa</cell><cell>741</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Poisson's ratio v</cell><cell>0.3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Yield strength Y s /Mpa</cell><cell>54</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Peak strain ε p /%</cell><cell>15</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p><s>Acknowledgements This work was supported by the <rs type="funder">Engineering and Physical Sciences Research Council</rs> [grant number <rs type="grantNumber">EP/M008983/1</rs>].</s><s>The authors would like to thank <rs type="person">Prof. T.L. Schmitz</rs> (<rs type="affiliation">UNC Charlotte, USA</rs>) and <rs type="person">Dr. Dimitrios Chronopoulos</rs> (<rs type="affiliation">The</rs> <rs type="affiliation">University of Nottingham, UK</rs>) for fruitful discussions.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_dJXYbBj">
+					<idno type="grant-number">EP/M008983/1</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>results show that the maximum stiffness of 56,140 N m -1 is obtained for model 2, model 3 is 18,750 N m -1 , while the minimum stiffness of 3434 N m -1 is obtained for model 1.</s></p><p><s>The structural stiffnesses calculated from FEA are presented in Table <ref type="table">2</ref> (row 5).</s><s>The percentage difference between the FEA and the experimental results of the stiffness ranges from 0.8% to 26%.</s><s>Similar to the impact test results, the standard error of the results of the compression test consider part-to-part variation.</s></p><p><s>The uncertainty of the experiment results from both impact and compression tests are calculated as standard error of the mean.</s><s>This type of uncertainty is called Type-A uncertainty <ref type="bibr" target="#b15">[16]</ref>.</s><s>Standard error is used to represent the precision of the calculated means from both the two tests <ref type="bibr" target="#b16">[17]</ref>.</s><s>The standard error u is calculated as <ref type="bibr" target="#b16">[17]</ref>:</s></p><formula xml:id="formula_32">= u σ n , (<label>34</label></formula><formula xml:id="formula_33">)</formula><p><s>where σ is sample standard deviation and n is the number of repeat experiments.</s><s>The values of n for the impact and compression tests are six and three, respectively.</s></p><p><s>The difference between the FEA and the experimental results for all the lattice models is most probably due to the nature of the LPBF process used to fabricate the lattices, the difference in the material properties between the FEA simulation and the fabricated lattices, and the geometrical discrepancies of the fabricated part from the nominal CAD models, for example, the size of the lattices' nodes and struts <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>LPBF fabricates lattices that are not fully dense due to porosity defects, while the FEA simulation considered fully dense parts with ideal geometry.</s></p><p><s>To summarise (from Table <ref type="table" target="#tab_1">1</ref> row 3), model 2 has the highest compressive strength having the maximum force, before plastic deformation occurs, of 19.25 N at 0.68 mm displacement.</s><s>Model 1 has the minimum compression force that is 2.21 N with displacement at 1.62 mm.</s><s>Model 3 has a compressive force higher than that of model 1 but lower than that of model 2. For model 3, the compressive force before plastic deformation occurs at 12.78 N with a displacement of 1.13 mm.</s><s>It is worth noting that, the compression force of lattice model 1 is less than 5 N; this suggests that lattice model 1 cannot sustain the applied load of 5 N since, in model 1, the plastic deformation occurs before the compressive force reaches 5 N.</s></p><p><s>Table <ref type="table">2</ref> shows the summary of all the results of the calculated design</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Fig. 17 .Fig. 18 .</head><label>1718</label><figDesc><div><p><s>Samples of accelerometer signal from lattice model 1 (blue), model 2 (red) and model 3 (green).</s><s>(For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</s><s>Compression force against displacement for the selected three 2 × 2 × 2 lattice models: the Red line is for model 2, the green line is for model 3, and the blue line is for model 1 (left).</s><s>The compression test applied to model 3 (right).</s><s>(For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc><div><p><s>Summary of lattice properties from experiments (u denotes standard error).</s></p></div></figDesc><table><row><cell cols="2">No. Results</cell><cell cols="2">2 × 2 × 2 samples configurations</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Model 1</cell><cell>Model 2</cell><cell>Model 3</cell></row><row><cell>1</cell><cell>f n /Hz</cell><cell>50 ± 6</cell><cell>500 ± 26</cell><cell>320 ± 14</cell></row><row><cell>2</cell><cell>k/N m -1</cell><cell>3434 ± 208</cell><cell>56140 ± 580</cell><cell>18750 ± 212</cell></row><row><cell>3</cell><cell cols="2">Max. compression force/N 2.21 ± 0.03</cell><cell>19.25 ± 0.08</cell><cell>12.78 ± 0.25</cell></row></table></figure>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Design for additive manufacturing: trends, opportunities, considerations and constraints</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Moroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vanekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fadel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann CIRP</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="737" to="760" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thompson MK, Moroni G, Vanekar T, Fadel G, Campbell I, Gibson I, et al. Design for additive manufacturing: trends, opportunities, considerations and constraints. Ann CIRP 2016;65:737-60.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Research supporting principles for design for additive manufacturing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rosen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="225" to="232" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosen DW. Research supporting principles for design for additive manufacturing. Virtual Phys Prototyp 2014;9:225-32.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Additive manufacturing technologies: rapid prototyping to direct digital manufacturing</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Springer</publisher>
+			<pubPlace>New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibson I, Rosen DW, Stucker B. Additive manufacturing technologies: rapid proto- typing to direct digital manufacturing. New York, USA: Springer; 2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A mechanical property evaluation of graded density Al-Si10-Mg lattice structures manufactured by selective laser sintering</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Maskery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Aboulkhair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Aremu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Wildman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A-Struct</title>
+		<imprint>
+			<biblScope unit="volume">670</biblScope>
+			<biblScope unit="page" from="264" to="274" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maskery I, Aboulkhair NT, Aremu AO, Tuck CJ, Ashcroft IA, Wildman RD, et al. A mechanical property evaluation of graded density Al-Si10-Mg lattice structures manufactured by selective laser sintering. Mater Sci Eng A-Struct 2016;670:264-74.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Mechanical vibrations: modelling and measurement</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Schmitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page">87</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmitz TL, Smith KS. Mechanical vibrations: modelling and measurement. New York: Springer; 2012. p. 87.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An investigation into reinforced and functionally graded lattice structures</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Maskery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hussey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Panesar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aremu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashcroft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Plast</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="151" to="165" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maskery I, Hussey A, Panesar A, Aremu A, Tuck C, Ashcroft I, et al. An investigation into reinforced and functionally graded lattice structures. J Cell Plast 2017;53:151-65.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Foam topology bending versus stretching dominated architectures</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Deshpande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Ashby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Fleck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1035" to="1040" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deshpande VS, Ashby MF, Fleck NA. Foam topology bending versus stretching dominated architectures. Acta Mater 2001;49:1035-40.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Metallic microlattice materials: a current state of the art on manufacturing, mechanical properties and applications</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Rashed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raw</forename><surname>Mines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Hazell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Design</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="518" to="533" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rashed MG, Ashraf M, Mines RAW, Hazell PJ. Metallic microlattice materials: a current state of the art on manufacturing, mechanical properties and applications. Mater Design 2016;95:518-33.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Heuristic optimization method for cellular structure design of light weight components</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rosen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Precis Eng Manuf</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1071" to="1078" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nguyen J, Park SI, Rosen D. Heuristic optimization method for cellular structure design of light weight components. Int J Precis Eng Manuf 2013;14:1071-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Timoshenko</surname></persName>
+		</author>
+		<title level="m">Mechanic of material</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="page">250</biblScope>
+		</imprint>
+	</monogr>
+	<note>3rd ed</note>
+	<note type="raw_reference">Gere GM, Timoshenko SP. Mechanic of material. 3rd ed. New York: Springer; 1991. p. 250.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Structural analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Hibbeler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Prentice Hall</publisher>
+			<biblScope unit="page">539</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>8th ed</note>
+	<note type="raw_reference">Hibbeler RC. Structural analysis. 8th ed. New York: Prentice Hall; 2012. p. 539.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Design optimisation of consolidated granular-solid polymer prismatic beam using metamorphic development</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Ngim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Soar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sol Struc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="726" to="740" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ngim DB, Liu JS, Soar R. Design optimisation of consolidated granular-solid polymer prismatic beam using metamorphic development. Int J Sol Struc 2009;46:726-40.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Additively manufactured open-cell porous biomaterials made from six different space-filling unit cells: the mechanical and morphological properties</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Yavari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pouran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrooten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weinans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1871" to="1896" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahmadi S M, Yavari S A, Wauthle R, Pouran B, Schrooten J, Weinans H, et al. Additively manufactured open-cell porous biomaterials made from six different space-filling unit cells: the mechanical and morphological properties. Materials 2015;8:1871-96.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Design of a linear macro-micro actuation stage considering vibration isolation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Mech Eng</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang L, Long Z, Cai J, Fang W. Design of a linear macro-micro actuation stage considering vibration isolation. Adv Mech Eng 2015;7:1-13.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Introduction to dynamics and vibration</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bower</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vlahovska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+		<respStmt>
+			<orgName>School of Engineering Brown University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD</note>
+	<note type="raw_reference">Bower A, Vlahovska P, Xu J. Introduction to dynamics and vibration. PhD: School of Engineering Brown University; 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<monogr>
+		<title level="m">BIPM JCGM 100 2008 Evaluation of measurement data -Guide to the expression of uncertainty in measurement (GUM)</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">BIPM JCGM 100 2008 Evaluation of measurement data -Guide to the expression of uncertainty in measurement (GUM).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Applied statistics and probability for engineers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Runger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<biblScope unit="page">225</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montgomery DC, Runger GC. Applied statistics and probability for engineers. New York: John Wiley &amp; Sons; 2003. p. 225.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Vibration and sound damping in polymers</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Geethamma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Asaletha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kalarikkal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resonance</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="821" to="833" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Fig</note>
+	<note type="raw_reference">Geethamma VG, Asaletha R, Kalarikkal N, Thomas S. Vibration and sound damping in polymers. Resonance 2014;9:821-33. Fig.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Vibration isolation of lattice models 2, 3 and 5. The frequency of external vibration is 400Hz and damping factors ≤ ≤ 0</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vibration isolation of lattice models 2, 3 and 5. The frequency of external vibration is 400Hz and damping factors ≤ ≤ 0.2 ζ 0.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

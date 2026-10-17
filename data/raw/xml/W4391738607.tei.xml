@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Manufacturing of high strength and high conductivity copper with laser powder bed fusion</title>
+				<funder ref="#_MPGeNd8">
+					<orgName type="full">Independent Research Fund Denmark</orgName>
+				</funder>
+				<funder ref="#_7szZ5aT">
+					<orgName type="full">State Key Laboratory of Solidification Processing in NWPU</orgName>
+				</funder>
+				<funder ref="#_ZBwk4XE">
+					<orgName type="full">Australian Research Council (ARC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Australian Centre for Microscopy and Microanalysis</orgName>
+					<orgName type="abbreviated">ACMM</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Northwestern Polytechnical University</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-02-04">Feb 04, 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Yingang</forename><forename type="middle">;</forename><surname>Liu</surname></persName>
+							<idno type="ORCID">0000-0002-4008-3256</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Mechanical and Mining Engineering , The University of Queensland , St. Lucia , QLD , Australia.</note>
+								<orgName type="department">School of Mechanical and Mining Engineering</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<addrLine>St. Lucia</addrLine>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jingqi</forename><forename type="middle">;</forename><surname>Zhang</surname></persName>
+							<idno type="ORCID">0000-0002-3757-4249</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Mechanical and Mining Engineering , The University of Queensland , St. Lucia , QLD , Australia.</note>
+								<orgName type="department">School of Mechanical and Mining Engineering</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<addrLine>St. Lucia</addrLine>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ranming</forename><forename type="middle">;</forename><surname>Niu</surname></persName>
+							<email>ranming.niu@sydney.edu.au</email>
+							<idno type="ORCID">0000-0001-8190-552X</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Australian Centre for Microscopy and Microanalysis , The University of Sydney , Sydney , NSW , Australia.</note>
+								<orgName type="laboratory">Australian Centre for Microscopy and Microanalysis</orgName>
+								<orgName type="institution">The University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> School of Aerospace, Mechanical and Mechatronic Engineering , The University of Sydney , Sydney , NSW , Australia.</note>
+								<orgName type="department">School of Aerospace, Mechanical and Mechatronic Engineering</orgName>
+								<orgName type="institution">The University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohamad</forename><forename type="middle">;</forename><surname>Bayat</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Department of Mechanical Engineering , Technical University of Denmark , Lyngby , Denmark.</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Technical University of Denmark</orgName>
+								<address>
+									<settlement>Lyngby</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ying</forename><forename type="middle">;</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>5</label> State IJR Center of Aerospace Design and Additive Manufacturing , Northwestern Polytechnical University , Xi&apos;an , China.</note>
+								<orgName type="department">State IJR Center of Aerospace Design and Additive Manufacturing</orgName>
+								<orgName type="institution">Northwestern Polytechnical University</orgName>
+								<address>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu</forename><forename type="middle">;</forename><surname>Yin</surname></persName>
+							<idno type="ORCID">0000-0002-2610-9288</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Mechanical and Mining Engineering , The University of Queensland , St. Lucia , QLD , Australia.</note>
+								<orgName type="department">School of Mechanical and Mining Engineering</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<addrLine>St. Lucia</addrLine>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qiyang</forename><forename type="middle">;</forename><surname>Tan</surname></persName>
+							<idno type="ORCID">0000-0003-2447-7586</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Mechanical and Mining Engineering , The University of Queensland , St. Lucia , QLD , Australia.</note>
+								<orgName type="department">School of Mechanical and Mining Engineering</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<addrLine>St. Lucia</addrLine>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shiyang</forename><forename type="middle">;</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Mechanical and Mining Engineering , The University of Queensland , St. Lucia , QLD , Australia.</note>
+								<orgName type="department">School of Mechanical and Mining Engineering</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<addrLine>St. Lucia</addrLine>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jesper</forename><forename type="middle">Henri</forename><surname>Hattel</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Department of Mechanical Engineering , Technical University of Denmark , Lyngby , Denmark.</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Technical University of Denmark</orgName>
+								<address>
+									<settlement>Lyngby</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">;</forename><surname>Henri</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Miaoquan</roleName><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Miaoquan</forename><surname>Li</surname></persName>
+							<affiliation key="aff5">
+								<note type="raw_affiliation"><label>6</label> School of Materials Science and Engineering , Northwestern Polytechnical University , Xi&apos;an , China.</note>
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Northwestern Polytechnical University</orgName>
+								<address>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaoxu</forename><surname>Huang</surname></persName>
+							<idno type="ORCID">0000-0002-4635-6112</idno>
+							<affiliation key="aff6">
+								<note type="raw_affiliation"><label>7</label> International Joint Laboratory for Light Alloys (Ministry of Education) , College of Materials Science and Engineering , Chongqing University , Chongqing , China.</note>
+								<orgName type="department">College of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">International Joint Laboratory for Light Alloys (Ministry of Education)</orgName>
+								<orgName type="institution">Chongqing University</orgName>
+								<address>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<note type="raw_affiliation"><label>8</label> Shenyang National Laboratory for Materials Science , Chongqing University , Chongqing , China.</note>
+								<orgName type="institution" key="instit1">Shenyang National Laboratory for Materials Science</orgName>
+								<orgName type="institution" key="instit2">Chongqing University</orgName>
+								<address>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Julie</forename><surname>Cairney</surname></persName>
+							<idno type="ORCID">0000-0003-4564-2675</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Australian Centre for Microscopy and Microanalysis , The University of Sydney , Sydney , NSW , Australia.</note>
+								<orgName type="laboratory">Australian Centre for Microscopy and Microanalysis</orgName>
+								<orgName type="institution">The University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> School of Aerospace, Mechanical and Mechatronic Engineering , The University of Sydney , Sydney , NSW , Australia.</note>
+								<orgName type="department">School of Aerospace, Mechanical and Mechatronic Engineering</orgName>
+								<orgName type="institution">The University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yi-Sheng</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0002-2607-4388</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Australian Centre for Microscopy and Microanalysis , The University of Sydney , Sydney , NSW , Australia.</note>
+								<orgName type="laboratory">Australian Centre for Microscopy and Microanalysis</orgName>
+								<orgName type="institution">The University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> School of Aerospace, Mechanical and Mechatronic Engineering , The University of Sydney , Sydney , NSW , Australia.</note>
+								<orgName type="department">School of Aerospace, Mechanical and Mechatronic Engineering</orgName>
+								<orgName type="institution">The University of Sydney</orgName>
+								<address>
+									<settlement>Sydney</settlement>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Easton</surname></persName>
+							<idno type="ORCID">0000-0002-9377-9572</idno>
+							<affiliation key="aff8">
+								<note type="raw_affiliation"><label>9</label> Centre for Additive Manufacturing , School of Engineering , RMIT University , Melbourne , VIC , Australia.</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="laboratory">Centre for Additive Manufacturing</orgName>
+								<orgName type="institution">RMIT University</orgName>
+								<address>
+									<settlement>Melbourne</settlement>
+									<region>VIC</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><surname>Hutchinson</surname></persName>
+							<email>christopher.hutchinson@monash.edu</email>
+							<idno type="ORCID">0000-0003-1025-4445</idno>
+							<affiliation key="aff9">
+								<note type="raw_affiliation"><label>10</label> Department of Materials Science and Engineering , Monash University , Clayton , VIC , Australia.</note>
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<settlement>Clayton</settlement>
+									<region>VIC</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ming-Xing</forename><surname>Zhang</surname></persName>
+							<email>mingxing.zhang@uq.edu.au</email>
+							<idno type="ORCID">0000-0001-8363-6968</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Mechanical and Mining Engineering , The University of Queensland , St. Lucia , QLD , Australia.</note>
+								<orgName type="department">School of Mechanical and Mining Engineering</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<addrLine>St. Lucia</addrLine>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Manufacturing of high strength and high conductivity copper with laser powder bed fusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-02-04">Feb 04, 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C7919E1D0057F900FBCF7DBBB65AF450</idno>
+					<idno type="DOI">10.1038/s41467-024-45732-y</idno>
+					<note type="submission">Received: 12 May 2023 Accepted: 1 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-04T19:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Additive manufacturing (AM), known as 3D printing, enables rapid fabrication of geometrically complex copper (Cu) components for electrical conduction and heat management applications.</s><s>However, pure Cu or Cu alloys produced by 3D printing often suffer from either low strength or low conductivity at room and elevated temperatures.</s><s>Here, we demonstrate a design strategy for 3D printing of high strength, high conductivity Cu by uniformly dispersing a minor portion of lanthanum hexaboride (LaB 6 ) nanoparticles in pure Cu through laser powder bed fusion (L-PBF).</s><s>We show that trace additions of LaB 6 to pure Cu results in an improved L-PBF processability, an enhanced strength, an improved thermal stability, all whilst maintaining a high conductivity.</s><s>The presented strategy could expand the applicability of 3D printed Cu components to more demanding conditions where high strength, high conductivity and thermal stability are required.</s></p><p><s>The ability to fabricate fully dense, highly conductive, and mechanically robust copper (Cu) components is essential for electrical conduction and heat management applications.</s><s>Additive manufacturing (AM) <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> , or 3D printing, offers unprecedented opportunities for producing Cu components with complex geometry and tailored performance which are inaccessible by conventional manufacturing processes.</s><s>However, pure Cu has a high reflectivity for infrared lasers and hence pure Cu components fabricated by the most commonly used laser AM machines often suffers from high porosity <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> , leading to poor mechanical and conductivity properties.</s><s>Although AM using green lasers or electron beams enables the fabrication of pure Cu components with relatively high density <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> , the intrinsically low strength of pure Cu at room temperature and its inability to resist thermal softening hinders the applications of additively manufactured Cu components in demanding mechanical loading and high temperature conditions.</s></p><p><s>Alloying Cu with elements such as Cr and Zr improves the laser absorptivity and strengthens the metal <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> , but this approach degrades the conductivity due to their high solid solubility in Cu 20 .</s><s>An alternative approach is to add immiscible foreign particles to reinforce the Cu while maintaining the high conductivity <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> .</s><s>In practice, it has proven exceedingly difficult to achieve a sufficiently well dispersed</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>and uniform distribution of externally added nanoparticles to obtain a significant strengthening increment, without particle agglomeration degrading the ductility and damage tolerance <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b22">23</ref> .</s><s>The challenge of simultaneously obtaining high strength and high conductivity in 3D printed Cu parts limits its applications where a good balance of mechanical and physical properties is required.</s></p><p><s>Here, we present a design strategy that enables laser AM of Cu parts with high density and high performance through the addition of minute amounts of lanthanum hexaboride (LaB 6 ) nanoparticles.</s><s>Our LaB 6 -doped Cu exhibits a yield strength of 347 ± 2 MPa (which is 3.7 times higher than pure Cu), together with an elongation to failure of 22.8 ± 1.2%, electrical conductivity of 98.4% IACS (International Annealed Copper Standard), thermal conductivity of 387 W m -1 K -1 and the ability to resist softening at 1050 °C.</s><s>Additionally, we further demonstrate the applicability of our design strategy to geometrically complex components.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design strategy</head><p><s>The key feature of our design strategy is that we select additives, of which the constituent elements have negligible solubility in solid Cu (and therefore have negligible detrimental effects on the conductivity), but will dissolve in the melt pools during laser melting (therefore not too high melting point) and subsequently re-precipitate with a very fine dispersion during solidification (and hence provide excellent strengthening).</s><s>Criteria are as follows:</s></p><p><s>(1) the constituent elements of the particles should have negligible solid solubility in Cu in order to minimize their detrimental influence on the conductivity <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> and to maximize the reprecipitation of nanoparticles; (2) particles should have a relatively low melting point <ref type="bibr" target="#b25">26</ref> , to maximize the chance of dissolution in the melt pool and to minimise coarsening of the re-precipitated nanoparticles during solidification; and (3) particles should possess a low wetting angle with liquid Cu <ref type="bibr" target="#b26">27</ref> , minimizing nanoparticle clustering in the liquid Cu.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microstructural characterization</head><p><s>Following this design strategy, we identified LaB 6 as a suitable additive candidate.</s><s>LaB 6 met the criteria due to its lower melting point, minimal solid solubility of constituent elements in Cu, and low wetting angle with molten Cu (see Supplementary Note 1).</s><s>The initial LaB 6 particles that were added to the pure Cu powder feedstock exhibited an irregular morphology and sizes up to 300 nm (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>The laser reflectivity test clearly demonstrates that pure Cu powder exhibits exceptionally high laser reflectivity within the infrared laser range (Fig. <ref type="figure" target="#fig_0">1b</ref>), specifically at a wavelength of 1060 nm, as used by the laser powder bed fusion (L-PBF) system in our study.</s><s>The reflectivity was noticeably decreased upon the incorporation of 1.0 weight per cent (wt%) LaB 6 nanoparticles.</s><s>This reduction can be attributed to two factors: the inherently low laser reflectivity of LaB 6 and the introduction of LaB 6 nanoparticles, which enhance the surface roughness of pure Cu particles, facilitating multiple reflections within the powder bed.</s></p><p><s>We then produced pure Cu parts using L-PBF and compared them with parts produced from Cu with 1 wt% LaB 6 nanoparticles (hereafter denoted as 1.0LaB 6 -Cu) (see Methods).</s><s>Despite the relatively high energy density being used for laser melting, the pure Cu parts produced by L-PBF shows discontinuous scanning tracks with a rough surface (Fig. <ref type="figure" target="#fig_0">1a</ref> 2 ), indicating a balling effect resulting from the high reflectivity of infrared lasers <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b27">28</ref> .</s><s>This leads to lack-offusion defects when successive layers are fused <ref type="bibr" target="#b28">29</ref> .</s><s>Micro-computed tomography (Micro-CT) shows pores with a diameter range of 10-130 μm (Supplementary Fig. <ref type="figure" target="#fig_1">2a</ref>, <ref type="figure">b</ref>).</s><s>In contrast, the 1.0LaB 6 -Cu part demonstrates well-defined scanning tracks and no obvious defects (Fig. <ref type="figure" target="#fig_0">1a</ref> 3 ), which were attributed to the increased laser absorptivity due to the LaB 6 addition (Fig. <ref type="figure" target="#fig_0">1b</ref>).</s><s>Micro-CT and electron backscatter diffraction (EBSD) confirm the much higher density (Supplementary Fig. <ref type="figure" target="#fig_1">2e</ref>, <ref type="figure">f</ref>) and relatively large grains of the 1.0LaB 6 -Cu as compared with pure Cu (Fig. <ref type="figure" target="#fig_0">1a</ref> 3 ).</s><s>With an improvement in laser processability, highly dense 1.0LaB 6 -Cu parts can be fabricated effectively over a broader laser power range, spanning 325 W to 400 W (Supplementary Fig. <ref type="figure" target="#fig_2">3</ref>).</s><s>Scanning electron microscopy (SEM) -energy-dispersive X-ray spectroscopy (EDS) mapping and X-ray diffraction (XRD) reveal that only LaB 6 nanoparticles are identified in the as-fabricated 1.0LaB 6 -Cu part (Fig. <ref type="figure" target="#fig_0">1a</ref> 3 , Supplementary Fig. <ref type="figure" target="#fig_3">4a</ref>, <ref type="figure">b</ref>).</s><s>We examined the LaB 6 nanoparticles using a focused ion beam (FIB) SEM at a 52° tilt, which allows for exposure of nanoparticles on the Cu matrix surface.</s><s>The LaB 6 nanoparticles are uniformly distributed within the grains without agglomeration (Fig. <ref type="figure" target="#fig_1">2a</ref>).</s><s>We further characterized the nanoparticles in transmission electron microscopy (TEM), which confirms the uniform dispersion of LaB 6 (Fig. <ref type="figure" target="#fig_1">2b</ref>, see details in Supplementary Note 2).</s><s>The LaB 6 nanoparticles exhibit a rectangular shape with an average size below 100 nm, and an incoherent interface with the Cu matrix (Fig. <ref type="figure" target="#fig_1">2b-d</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Elemental analysis</head><p><s>We subsequently performed compositional analysis of the 1.0LaB 6 -Cu using atom probe tomography (APT).</s><s>Only La and B clusters were identified.</s><s>Although the atomic ratio of B to La of the clusters appears less than 6:1 (Fig. <ref type="figure" target="#fig_2">3</ref>) due to the formation of surface boron hydride <ref type="bibr" target="#b29">30</ref> and the trajectory aberration <ref type="bibr" target="#b30">31</ref> caused by the different evaporation fields of the nanoparticles and Cu matrix, the APT data approximately shows the formation of nanoparticles rather than dissolved La and B solute in the Cu matrix (Fig. <ref type="figure" target="#fig_2">3</ref>, Supplementary Fig. <ref type="figure" target="#fig_4">5</ref>, See Supplementary Note 3).</s><s>It indicates that any dissolution of La and B in the Cu matrix is very limited, and this minimizes any detrimental effect of solid solution solutes on the conductivity.</s><s>This is further supported by the XRD analysis, which shows that the lattice parameter of the Cu matrix is the same as pure Cu, suggesting that negligible La or B are dissolved in the solid Cu matrix (Supplementary Fig. <ref type="figure" target="#fig_3">4c</ref>).</s><s>In general, the APT elemental analysis supports our hypothesis that La and B tend to in situ form La-B nanoparticles as negligible La and B were detected in the Cu matrix except for the La and B enrichment regions.</s><s>The XRD (Supplementary Fig. <ref type="figure" target="#fig_3">4</ref>) and TEM (Fig. <ref type="figure" target="#fig_1">2d</ref>) results confirm the nanoparticles are LaB 6 .</s><s>It can be concluded that the externally added LaB 6 particles that were irregular in shape and larger in size have dissolved in the melt pools during heating and the observed LaB 6 nanoparticles are the product of re-precipitation during solidification, as designed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evidence of re-precipitation during solidification</head><p><s>To prove that the re-precipitation of LaB 6 nanoparticles directly occurs during solidification and to exclude the possibility of solid-state phase transformation induced by thermal cycling, we performed additional single-track experiment using the 1.0LaB 6 -Cu feedstock and the same L-PBF processing parameters as the bulk sample.</s><s>Despite the fact that the size and density of LaB 6 nanoparticles in the single-track sample differ from those in the bulk sample due to layer-layer and track-track laser remelting that can potentially modify the size and density in the bulk sample, large number of rectangular-shaped nanoparticles are visible in the single-track sample (Fig. <ref type="figure" target="#fig_1">2e-g</ref>).</s><s>This confirms the reprecipitation of LaB 6 nanoparticles during solidification in the L-PBF process because there was no thermal cycling effect on the single-track sample to facilitate the precipitation from the solid Cu.</s><s>In addition, our crystallographic examination does not reveal any reproducible orientation relationship between the LaB 6 nanoparticles and the Cu matrix (Fig. <ref type="figure" target="#fig_1">2d</ref>, Supplementary Fig. <ref type="figure">6</ref>), which indicates an incoherent interface.</s><s>If the LaB 6 nanoparticles precipitated from the solid Cu, they would display either coherent or semi-coherent interfaces with the matrix to lower the interfacial energy.</s><s>As such, reproducible orientation relationships would be generally observed <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33</ref> .</s><s>Therefore, the LaB 6 nanoparticles precipitated directly from the Cu melt during solidification rather than from solid-state phase transformations.</s><s>To further verify this key conclusion, we repeated the experiment using micronsize LaB 6 particles as the additive.</s><s>All the LaB 6 microparticles disappeared and nanoparticles are observed (Supplementary Fig. <ref type="figure">7a</ref>, <ref type="figure">b</ref>), demonstrating that the observed LaB 6 nanoparticles are not the initial additives, but the product of re-precipitation from the liquid Cu during solidification after dissolving during laser melting.</s><s>In addition, we also examined the top surface of the L-PBF fabricated 1.0LaB 6 -Cu sample, where there is no extensive thermal cycling, and as we observed in other areas, we also found a large number of uniformly distributed LaB 6 nanoparticles (Supplementary Fig. <ref type="figure">8</ref>).</s><s>This observation, coupled with the results from the single-track experiment, suggests that the proposed design strategy is suitable for the geometrically complex components with fine structures due to the formation of uniformly dispersed nanoparticles during solidification.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical and conductivity properties</head><p><s>To evaluate the effect of the LaB 6 nanoparticles on the mechanical and conductivity properties, we performed tensile tests and electrical conductivity measurements on both the L-PBF fabricated pure Cu and 1.0LaB 6 -Cu.</s><s>Pure Cu delivers a yield strength of 73 ± 2 MPa, ultimate tensile strength of 121 ± 1 MPa and an elongation to failure of 10.8 ± 1.1% (Fig. <ref type="figure" target="#fig_3">4a</ref>), with an electrical conductivity of 88.3% IACS (Fig. <ref type="figure" target="#fig_3">4b</ref>).</s><s>The corresponding thermal conductivity is calculated to be 347 W m -1 K -1 based on the Wiedemann-Franz law (Methods).</s><s>The low strength and conductivity of the pure Cu are due to the presence of the high density of pores (Fig. <ref type="figure" target="#fig_0">1a</ref> 2 , Supplementary Fig. <ref type="figure" target="#fig_1">2a</ref>, <ref type="figure">b</ref>).</s><s>The 1.0LaB 6 -Cu exhibits a yield strength of 347 ± 2 MPa, ultimate tensile strength of 412 ± 7 MPa and elongation to failure of 22.8 ± 1.2%with an electrical conductivity of 98.4% IACS (Fig. <ref type="figure" target="#fig_3">4a</ref>, <ref type="figure">b</ref>).</s><s>The thermal conductivity is calculated to be 387 W m -1 K -1 .</s><s>While it is possible to create highly dense pure Cu parts through AM using green laser, the strength of these parts remains significantly lower than that achieved in our study <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> .</s><s>The significant strength enhancement is mainly attributed to dispersion strengthening from the LaB 6 nanoparticles (Supplementary Note 4).</s><s>The ductility improvement is partially due to the improvement in strain hardening resulting from the uniform dispersion of shear-resistant nanoparticles, and to the reduced porosity and defects.</s><s>The conductivity improvement arises from the higher density of the as-fabricated part and the minimal negative effects of the uniformly dispersed LaB 6 nanoparticles.</s><s>Overall, high strength and high ductility combined with high conductivity make the 1.0LaB 6 -Cu superior to the conventionally and additively manufactured Cu, Cu alloys and Cu matrix composites <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref> (Fig. <ref type="figure" target="#fig_3">4b</ref>, Supplementary Note 5).</s><s>For example, the 1.0LaB 6 -Cu shows a good balance of strength and ductility, and much higher electrical conductivity compared with Cu alloys produced by L-PBF, which typically require a post-AM annealing to restore the electrical conductivity</s></p><p><s>12,19,24,25,39,40 .</s><s>Even if Glenn Research Copper 42 (GRCop-42) alloy and GRCop-84 alloy, the niobium chromide (Cr 2 Nb) precipitation hardened alloys, have shown suitability for AM, their conductivity of 85% IACS and 75% IACS is still lower than the 1.0LaB 6 -Cu due to the solid solution of Cr and Nb in the Cu matrix <ref type="bibr" target="#b40">41</ref> .</s><s>In addition to the higher conductivity, the 1.0LaB 6 -Cu also exhibits higher strength compared to GRCop-42 and GRCop-84 alloys, with the latter alloys demonstrating a yield strength within the range of 172 to 208 MPa <ref type="bibr" target="#b40">41</ref> .</s><s>Furthermore, although 1.0LaB 6 -Cu shows comparable electrical conductivity to Cu matrix composites produced by conventional processes <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> , its unique combination of mechanical properties, coupled with the greater design freedom afforded by AM, is attractive for practical applications where mechanically robust, electrically/thermally conductive as well as geometrically complex Cu components are in demand.</s><s>It has been observed that graphenereinforced Cu matrix composites show slightly higher electrical conductivity and ductility <ref type="bibr" target="#b42">43</ref> .</s><s>However, the L-PBF produced 1.0LaB 6 -Cu can achieve higher strength and geometric complexity, at lower cost owing to the small addition level and much lower cost of LaB 6 .</s><s>In addition, the L-PBF fabricated 1.0LaB 6 -Cu using LaB 6 microparticles as additive to the feedstock also shows comparable mechanical response (Fig. <ref type="figure" target="#fig_3">4a</ref>).</s></p><p><s>In addition to the room-temperature mechanical properties, the 1.0LaB 6 -Cu also shows improved thermal stability at elevated temperatures.</s><s>Cu and its alloys are often used in elevated temperature environments (heating due to electrical currents, or heat management applications) <ref type="bibr" target="#b43">44</ref> .</s><s>After exposure to elevated temperatures, they may suffer from substantial strength loss, which can eventually lead to service failures.</s><s>Unlike Cu alloys and other oxide dispersionstrengthened Cu which show relatively low softening temperatures (typically below 600 °C) due to coarsening of the strengthening particles <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46</ref> , the 1.0LaB 6 -Cu part shows exceptional resistance to softening up to 1050 °C (Supplementary Fig. <ref type="figure">9</ref>).</s><s>Even after annealing at 1050 °C, 80% of the ultimate tensile strength is retained together with an elongation to failure of 28% (Supplementary Note 6).</s></p><p><s>As an example of a geometrically complex Cu component fabricated by 3D printing, we show the ability of the LaB 6 -doped Cu to bear compression loading in sheet-based gyroid lattice structures fabricated with L-PBF using both pure Cu and LaB 6 -doped Cu powder feedstock (Methods).</s><s>The pure Cu gyroid structure shows an inferior mechanical response to loading and undergoes dramatic post-yield softening at a strain range of 15-20% (Fig. <ref type="figure" target="#fig_4">5a</ref>), due to the formation of localized shear bands (Fig. <ref type="figure" target="#fig_4">5c</ref>).</s><s>In contrast, the addition of LaB 6 to Cu not only enhances the yield strength, but also resists shear band localization (Fig. <ref type="figure" target="#fig_4">5d</ref>), albeit a slight softening behavior occurs at high strains (between 25% and 30%) (Fig. <ref type="figure" target="#fig_4">5a</ref>). Figure <ref type="figure" target="#fig_4">5b</ref> summarizes the compressive yield strength of porous Cu parts versus relative lattice density <ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref> .</s><s>The lattice made of LaB 6 -doped Cu has a yield strength of 23 MPa at a relative lattice density of 0.3, which is 3.5 times higher than the strength of the same lattice made of pure Cu of the same relative lattice density.</s><s>This yield strength is comparable to other porous pure Cu lattices that have a much higher relative lattice density (0.439 and 0.485) <ref type="bibr" target="#b46">47</ref> .</s><s>This property is attractive for applications where the total mass or volume of lattice structures is the critical design criterion.</s><s>Overall, by combining the effect of LaB 6 in Cu with the design freedom afforded by AM, we achieve high strength and high conductivity, and can create geometrically complex components with the increased ability to resist compressive loading.</s></p><p><s>In summary, we have demonstrated a pathway for the reliable fabrication of highly dense Cu parts with high strength and high conductivity through minor addition of LaB 6 particles into the pure Cu feedstock for 3D printing.</s><s>The key to the approach is to introduce appropriate particles to pure Cu, which can dissolve in the melt pool and re-precipitate uniformly during solidification (Supplementary Note 7).</s><s>This newly developed 1.0LaB 6 -Cu by L-PBF fills a major gap in 3D printing of metal alloys and can be used in applications where demanding mechanical and electrically/thermally conductive properties are required.</s><s>Since uniformly dispersed nanoparticles are often used to strengthen metallic materials, this design strategy and the associated dissolution and reprecipitation during solidification could be extended to other alloy systems for the development of use-asprinted high-strength materials for AM.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laser powder bed fusion</head><p><s>Gas atomized oxygen-free Cu powder with a purity of at least 99.95 wt %, globally spherical in shape and particle size ranging from 15 µm to 53 µm was used as the feedstock.</s><s>The Cu powder exhibits D10, D50, and D90 values of 15 μm, 36 μm, and 54 μm, respectively.</s><s>High purity (99.9%)</s><s>LaB 6 nanoparticles with an average size of 100 nm (the maximum size was up to 300 nm) was used as the additive (Supplementary Fig. <ref type="figure" target="#fig_0">1a</ref>, <ref type="figure">b</ref>).</s><s>The LaB 6 powder demonstrates D10, D50, and D90 measurements of 54 nm, 85 nm, and 145 nm, respectively.</s><s>In this work, LaB 6 nanoparticles were first ultrasonically vibrated for 0.5 h using Retsch® UR 1 to dissociate agglomerates.</s><s>Subsequently, LaB 6 nanoparticles were mechanically mixed with pure Cu powder in a Turbula mixer for 0.5 h to ensure a homogeneous distribution <ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b52">53</ref> .</s><s>The addition level was optimized based on part density and tensile testing results.</s><s>After building samples with 0.5-2.0</s><s>wt% additions, we found that 1.0 wt% addition was the lowest addition to ensure the density over 99.5% measured using micro-computed tomography (micro-CT) analysis (Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>).</s><s>This was further confirmed through Archimedes' method.</s><s>In addition, this addition level also corresponds to the optimal strength and ductility compared to the lower addition of 0.5 wt% and higher addition of 2.0 wt% (Supplementary Fig. <ref type="figure">7c</ref>).</s><s>In contrast to 1.0LaB 6 -Cu, high density cannot be achieved in 0.5LaB 6 -Cu and the nanoparticle agglomeration was observed in the 2.0LaB 6 -Cu due to the excessive addition (Supplementary Fig. <ref type="figure">7d</ref>), leading to a reduction in the strength and ductility.</s><s>After the feedstock preparation, the powder mixture was characterized in a SEM (Hitachi SU3500) equipped with EDS.</s><s>LaB 6 nanoparticles electrostatically adhere to almost all Cu particles with uniform distribution (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>As a comparison to the experiment, high purity (99.9%)</s><s>TiB 2 nanoparticles with an average size of 100 nm were also mixed with pure Cu powder (Supplementary Fig. <ref type="figure" target="#fig_2">13a</ref>).</s><s>Furthermore, micrometrescaled LaB 6 powder with particle size ranging from 1 µm to 10 µm was also employed as the additive and mixed with pure Cu powder to show the microstructure and property response (Supplementary Fig. <ref type="figure">7a</ref>).</s></p><p><s>The laser reflectivity of the as-received powder and powder mixtures was measured using a double-beam UV-Visible-NIR Lambda 1050 Per-kinElmer spectrophotometer equipped with a 150 mm integrating sphere in the 400-2000 nm wavelength range.</s><s>Pure Cu powder and the powder mixtures were subsequently subjected to laser powder bed fusion (L-PBF) AM in an SLM125HL system and the processing parameters are listed in Supplementary Table <ref type="table">1</ref>.</s><s>The L-PBF fabricated dogbone-shaped blocks with gauge length of 10 mm, gauge width of 2.5 mm, and thickness of 40 mm were used for tensile testing <ref type="bibr" target="#b53">54</ref> .</s><s>The chemical compositions of the L-PBF fabricated samples were measured using inductively coupled plasma atomic emission spectroscopy (ICP-AES) for metallic elements and using LECO combustion analysis for non-metallic elements, as listed in Supplementary Table <ref type="table">2</ref>.</s><s>Moreover, in order to analyse the microstructure of directly solidified metal, single-track samples were prepared with the same L-PBF processing parameters as the bulk sample on a pure Cu substrate (Fig. <ref type="figure" target="#fig_1">2e</ref>).</s><s>In addition, the sheet-based gyroid lattice with porosity of 70% and overall dimension of 30 mm (length) × 30 mm (width) × 30 mm (height) was designed to contain 5 × 5 × 5 arrays of unit cells and fabricated by L-PBF using both pure Cu and LaB 6 nanoparticles doped Cu powder feedstocks for compression tests (Fig. <ref type="figure" target="#fig_4">5a</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Heat treatment</head><p><s>In order to show the thermal stability of the L-PBF fabricated 1.0LaB 6 -Cu, annealing treatments were performed at various temperatures ranging from 550 °C to 1050 °C for 1 h in a vacuum furnace, followed by furnace cooling at a cooling rate of 5 °C min -1 to ambient temperature.</s><s>Hardness of heat-treated samples was measured in a LECO Vickers hardness tester at a load of 3 kg and a dwell time of 12 s.</s><s>Six random positions were tested to obtain the average value for each sample.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microstructure characterization</head><p><s>All metallographic samples were firstly ground using SiC papers followed by polishing with Struers OP-S suspension and finally etching with 50 ml HCl, 20 ml Fe 3 Cl, and 30 ml C 2 H 5 OH for 3 s.</s><s>The microstructure was examined in a Hitachi SU3500A SEM.</s><s>Grain size, grain morphology and crystallographic orientation were characterized through electron backscatter diffraction (EBSD) analysis at a scan step size of 1.2 µm in a JEOL JSM-7800F field emission SEM and the corresponding geometrically necessary dislocation (GND) density was calculated.</s><s>The detailed description of the method used for GND density calculation can be found in ref. 55.</s><s>Prior to EBSD, surfaces of samples were electropolished in a Struers electrolyte D2.</s><s>In addition, typical element distributions in the samples were analysed using EDS in the SEM operated at an accelerating voltage of 20 kV.</s><s>To examine the nanoparticle distribution, the electropolished samples were etched with gallium ions using a focused ion beam (FIB), and SEM images were acquired at a 52° tilt to expose the nanoparticles in a FEI Scios FIB-SEM.</s><s>Phase analysis of the L-PBF fabricated samples was accomplished using XRD in a Brücker D8 Advance system at a scan rate of 1° min -1 and step size of 0.02° with the diffraction angle 2θ ranging from 20° to 100°.</s><s>FIB was used to prepare the TEM thin foils.</s><s>A Hitachi HF5000 TEM, equipped with a probe aberration corrector and symmetrically opposed dual EDS detectors and operated at an acceleration voltage of 200 kV, was used for in-depth characterization of the L-PBF fabricated 1.0LaB 6 -Cu.</s><s>The diondo d2 micro-CT system was used to analyse the micropores in the L-PBF fabricated samples.</s><s>2D slice image data were acquired through an X-ray source with the voltage of 120 kV and current of 100 µA.</s><s>The exposure time was 2000 ms with a spatial solution of 4 μm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Atom probe tomography</head><p><s>The nanoscale elemental distribution in the L-PBF fabricated 1.0LaB 6 -Cu was analysed using APT in a local electrode atom probe CAMECA LEAP 4000X SI, which has a detection rate of 57%.</s><s>APT matchstick specimens with dimension of 1.0 mm × 1.0 mm × 10 mm were first cut from the asbuilt sample, and then electropolished using alternating current under voltages of 5 V, 3 V and 1 V.</s><s>The electrolyte was 70% orthophosphoric acid in water, as suggested by ref. 31.</s><s>The electropolished APT samples were then annular polished using a Thermo Fisher G4 Plasma FIB-SEM.</s><s>A Xe + beam with a voltage of 5 kV and a current of 30 pA were used to finalize the APT sample preparation.</s><s>The laser APT experiment was conducted under a high vacuum of 2 × 10 -11 torr, at a temperature of 50 K, a laser pulse frequency of 200 kHz, and a laser pulse energy of 70 pJ.</s><s>The APT data was reconstructed using a CAMECA integrated visualization and analysis software (AP Suite version 6.1.0.29).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical property testing</head><p><s>The tensile specimens with gauge dimension of 10 mm (length) × 2.5 mm (width) × 2 mm (thickness) were cut from the as-built blocks <ref type="bibr" target="#b53">54</ref> .</s><s>Tensile testing was performed perpendicular to the building direction on an Instron 5584 universal testing machine equipped with an advanced Instron video extensometer at a constant strain rate of 0.001 s -1 .</s><s>Four tensile samples were tested for each L-PBF fabricated part with the same addition and heat treatment conditions, and the average value was used as the testing result.</s><s>After tensile testing, the fracture surface was examined in an SEM.</s><s>Uniaxial compression tests of the sheet-based gyroid lattices were conducted along the building direction on the same Instron machine.</s><s>During compression, the samples were centrally located between two pressure plates at a strain rate of 0.001 s -1 in accordance with standard ISO13314-2011.</s><s>The compression process was recorded using a video camera at a rate of 50 frames per second.</s><s>Frames extracted from these videos were then correlated with features in the associated stress-strain data, providing detailed information regarding the failure modes of both pure Cu and LaB 6 -doped Cu.</s><s>All lattices were compressed until densification.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Electrical conductivity testing</head><p><s>The resistance of pure Cu and 1.0LaB 6 -Cu was measured on three samples with dimension of 15 mm (length) × 2 mm (width) × 5 mm (height) using a four-point probe method on a ZEM-3 electric resistance measurement system at room temperature.</s><s>Because the length according to ASTM standard (300 mm) is far beyond the currently available L-PBF machine's capacity to build, the non-standard length was used <ref type="bibr" target="#b55">56</ref> .</s><s>The volume resistivity can be calculated as follows:</s></p><formula xml:id="formula_0">ρ ν = ðA=lÞr<label>ð1Þ</label></formula><p><s>where ρ v is the volume resistivity (Ω mm 2 m -1 ), A is the cross-sectional area (mm 2 ), l is the gage length (6 mm), and r is the measured resistance (Ω).</s><s>The volume resistivity was determined to be 0.019527 Ω mm 2 m -1 for the L-PBF fabricated pure Cu, and 0.017528 Ω mm 2 m -1 for 1.0LaB 6 -Cu.</s><s>The electrical conductivity σ can be expressed as follows:</s></p><formula xml:id="formula_1">σ = 1 ρ ν = l Ar<label>ð2Þ</label></formula><p><s>Accordingly, the electrical conductivity was calculated to be 5.121 × 10 7 S m -1 for the pure Cu, and 5.705 × 10 7 S m -1 for 1.0LaB 6 -Cu.</s><s>In addition, based on ASTM B193, 100% IACS (International Annealed Copper Standard) is defined as the electrical conductivity corresponding to a volume resistivity at 293 K of 0.017241 Ω mm 2 m -1 .</s><s>Therefore, it is 88.3% IACS for the L-PBF fabricated pure Cu, and 98.4% IACS for 1.0LaB 6 -Cu.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermal conductivity calculation</head><p><s>The thermal conductivity of the L-PBF fabricated pure Cu and 1.0LaB 6 -Cu can be calculated through their electrical conductivity based on the Wiedemann-Franz law <ref type="bibr" target="#b56">57</ref> .</s></p><formula xml:id="formula_2">κ=σ = KL<label>ð3Þ</label></formula><p><s>where κ is the thermal conductivity (W m -1 K -1 ), σ is the electrical conductivity (S m -1 ), K is the absolute temperature (K), and L is a Lorenz constant (W Ω K -2 ).</s><s>For the annealed pure Cu with the electrical conductivity of 5. 916 × 10 7 S m -1 and thermal conductivity of 401 W m -1 K -1 , Lorenz constant can be calculated to be 2.31 × 10 -8 W Ω K -2 .</s><s>Therefore, the thermal conductivity of the L-PBF fabricated pure Cu and 1.0LaB 6 -Cu can be estimated to be 347 W m -1 K -1 and 387 W m -1 K -1 , respectively.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 |</head><label>1</label><figDesc><div><p><s>Fig. 1 | Laser AM of Cu and LaB 6 -doped Cu. a A schematic diagram of laser AM process (a 1 ), and top surface morphology, cross-sectional EDS elemental mapping and EBSD inverse pole figure map of the L-PBF fabricated pure Cu (a 2 ) and 1.0LaB 6 -Cu (a 3 ).</s><s>The pores are visible in pure Cu and high density can be achieved after addition of LaB 6 .</s><s>b Laser reflectivity of pure Cu, LaB 6 and 1.0 wt% LaB 6 nanoparticles doped Cu powder feedstock at various laser wavelengths.</s><s>After introducing 1.0 wt% LaB 6 nanoparticles, the powder mixture shows lower laser reflectivity compared with pure Cu powder, indicating the increased laser absorptivity.</s><s>SD Scanning direction, BD Building direction.</s><s>Source data are provided as a Source Data file.</s></p></div></figDesc><graphic coords="3,126.40,460.10,354.28,221.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 |</head><label>2</label><figDesc><div><p><s>Fig. 2 | Characterization of LaB 6 nanoparticles.</s><s>a SEM image showing the homogeneous distribution of LaB 6 nanoparticles within one Cu grain in the L-PBF fabricated 1.0LaB 6 -Cu.</s><s>b Bright-field TEM image of LaB 6 nanoparticles across a high angle grain boundary (HAGB).</s><s>No particle agglomeration is found.</s><s>c High magnification bright-field TEM image showing the morphology of the LaB 6 nanoparticles.</s><s>Note that the initial irregular shape of the nanoparticles in the powder feedstock disappeared and rectangular-shaped LaB 6 nanoparticles are observed.</s><s>d Fourier-filtered high-resolution TEM image showing the interface between the LaB 6 nanoparticle and Cu matrix.</s><s>e SEM image of single-track sample.</s><s>f, g Higher magnification SEM images taken from the frame regions in (e, f) respectively.</s><s>Large number of rectangular-shaped nanoparticles are visible in the single-track sample which is free from thermal cycling during L-PBF, demonstrating that these nanoparticles formed in the Cu melt during solidification.</s></p></div></figDesc><graphic coords="4,119.92,57.50,361.24,352.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 |</head><label>3</label><figDesc><div><p><s>Fig. 3 | Atom probe tomography (APT) characterization of 1.0LaB 6 -Cu. a 3D reconstruction of Cu, La and B distribution in the L-PBF fabricated 1.0LaB 6 -Cu.</s><s>b Enlarged view of the precipitate-1 (P1).</s><s>c The 1-D concentration profile along the axis of the cylindrical volume-of-interest in (b).</s><s>d is the enlarged view of P2 and (e) is the 1-D concentration profile crossing P2.</s><s>Both concentration profiles showing depletion of La and B in Cu matrix.</s><s>La enrichment is spatially correlated with B. Note that the La and B enriched zones do not correspond to the real shape and dimension of the LaB 6 nanoparticles due to the significant different voltages required for the evaporation of LaB 6 and Cu during APT (see another dataset in Supplementary Fig.5).</s><s>The error bars denote the standard deviation of the mean.</s><s>M: Matrix, P: Precipitate.</s><s>Source data are provided as a Source Data file.</s></p></div></figDesc><graphic coords="5,60.46,54.98,480.12,266.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 |</head><label>4</label><figDesc><div><p><s>Fig. 4 | Tensile mechanical property and electrical conductivity.</s><s>a Tensile engineering stress-strain curves and the fracture surface morphology of the L-PBF fabricated pure Cu (a 1 ) and 1.0LaB 6 -Cu (a 2 ).</s><s>The error bars represent the standard deviation of the mean.</s><s>b Comparison of the yield strength, elongation to failure and electrical conductivity obtained in the present work with previously published data of high-performance Cu, Cu alloys and Cu matrix composites fabricated by L-PBF, L-PBF plus heat treatment and traditional processing<ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref> .</s><s>Note that the columns and corresponding values represent the electrical conductivity (IACS, International Annealed Copper Standard).</s><s>Source data are provided as a Source Data file.</s></p></div></figDesc><graphic coords="6,119.26,55.55,362.44,398.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 |</head><label>5</label><figDesc><div><p><s>Fig. 5 | Compressive mechanical property of geometrically complex components.</s><s>a Compressive engineering stress-strain curves of the L-PBF fabricated sheet-based gyroid lattices made of pure Cu and 1.0 wt% LaB 6 nanoparticles doped Cu powder feedstocks.</s><s>b Comparison of the compressive yield strength against relative lattice density between the present results and previously published data of lattices made of Cu, Cu alloys and Cu based composites 47-51 .</s><s>c Video camera frames during compression of pure Cu lattice.</s><s>d Video camera frames during compression of 1.0LaB 6 -Cu lattice.</s><s>The pure Cu lattice showed development of localized shear bands (identified by the arrows), which were not evident in 1.0LaB 6 -Cu lattice.</s><s>Source data are provided as a Source Data file.</s></p></div></figDesc><graphic coords="7,120.88,56.63,359.80,322.24" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><s>Nature Communications | (2024) 15:1283</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p><s>Acknowledgements This work was supported by the <rs type="funder">Australian Research Council (ARC</rs>, grant number: <rs type="grantNumber">DP210103162</rs>).</s><s>We thank <rs type="person">Meng Li</rs> of <rs type="affiliation">The University of Queensland</rs> for undertaking the electrical conductivity test.</s><s>M.B. acknowledge the funding from <rs type="funder">Independent Research Fund Denmark</rs>, <rs type="projectName">DIGI-3D</rs> project (Contract number: <rs type="grantNumber">0136-00210B</rs>).</s><s>The authors from <rs type="funder">Northwestern Polytechnical University</rs> thank the <rs type="funder">State Key Laboratory of Solidification Processing in NWPU</rs> for funding support (Grant number: <rs type="grantNumber">SKLSP202319</rs>).</s><s>The authors from <rs type="institution" subtype="infrastructure">The University of Queensland</rs> thank <rs type="institution" subtype="infrastructure">Australian Microscopy &amp; Microanalysis Research Facility</rs> at the <rs type="institution">Centre for Microscopy and Microanalysis (CMM)</rs>, <rs type="institution">The University of Queensland</rs> for the facilities and technical assistance.</s><s>The authors are grateful for the scientific and technical support from the <rs type="funder">Australian Centre for Microscopy and Microanalysis (ACMM)</rs> as well as the <rs type="institution">Microscopy Australia Node</rs> at the <rs type="institution">University of Sydney</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_ZBwk4XE">
+					<idno type="grant-number">DP210103162</idno>
+				</org>
+				<org type="funded-project" xml:id="_MPGeNd8">
+					<idno type="grant-number">0136-00210B</idno>
+					<orgName type="project" subtype="full">DIGI-3D</orgName>
+				</org>
+				<org type="funding" xml:id="_7szZ5aT">
+					<idno type="grant-number">SKLSP202319</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">The University of Queensland</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">Australian Microscopy &amp; Microanalysis Research Facility</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p><s>The experimental data generated in this study have been deposited in Dryad <ref type="bibr" target="#b57">58</ref> .</s><s>Source data are provided with this paper.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p><s>The authors declare no competing interests.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p><s>Y.L., J.Z., C.H. and M.-X.Z.</s><s>conceived the concept and designed the experiments.</s><s>M.-X.Z.</s><s>supervised the project.</s><s>Y.L. and J.Z. carried out the main experiments.</s><s>R.N., J.C. and Y.-S.C. conducted the APT characterization.</s><s>M.B. and J.H.H. contributed idea for the research.</s><s>Y.Z.</s><s>conducted data analysis and lattice experiment.</s><s>Q.T. and J.Z. prepared TEM samples and conducted the TEM characterization.</s><s>Y.Y., Y.L. and S.L. prepared EBSD samples and carried out the EBSD characterization.</s><s>Y.L., J.Z., Y.Z., M.L., X.H., M.E., C.H. and M.-X.Z.</s><s>wrote the manuscript.</s><s>All authors contributed to the discussion of the data.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary information</head><p><s>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41467-024-45732-y">https://doi.org/10.1038/s41467-024-45732-y</ref>.</s></p><p><s>Correspondence and requests for materials should be addressed to Ranming Niu, Christopher Hutchinson or Ming-Xing Zhang.</s></p><p><s>Peer review information Nature Communications thanks Raiyan Seede, Katsuyoshi Kondoh and the other, anonymous, reviewer for their contribution to the peer review of this work.</s><s>A peer review file is available.</s></p><p><s>Reprints and permissions information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/reprints</ref></s><s>Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of metallic componentsprocess, structure and properties</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="112" to="224" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DebRoy, T. et al. Additive manufacturing of metallic components - process, structure and properties. Prog. Mater. Sci. 92, 112-224 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">High-strength Damascus steel by additive manufacturing</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kürnsteiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">582</biblScope>
+			<biblScope unit="page" from="515" to="519" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kürnsteiner, P. et al. High-strength Damascus steel by additive manufacturing. Nature 582, 515-519 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Material-structure-performance integrated laser-metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">372</biblScope>
+			<biblScope unit="page">1487</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gu, D. et al. Material-structure-performance integrated laser-metal additive manufacturing. Science 372, eabg1487 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ultrastrong nanotwinned titanium alloys through additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1258" to="1262" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu, Y. et al. Ultrastrong nanotwinned titanium alloys through additive manufacturing. Nat. Mater. 21, 1258-1262 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Fatigue-resistant high-performance elastocaloric materials made by additive manufacturing</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="1116" to="1121" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hou, H. et al. Fatigue-resistant high-performance elastocaloric materials made by additive manufacturing. Science 366, 1116-1121 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Additively manufactured hierarchical stainless steels with high strength and ductility</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, Y. M. et al. Additively manufactured hierarchical stainless steels with high strength and ductility. Nat. Mater. 17, 63-71 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Metallurgy, mechanistic models and machine learning in metal printing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Milewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="48" to="68" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DebRoy, T., Mukherjee, T., Wei, H. L., Elmer, J. W. &amp; Milewski, J. O. Metallurgy, mechanistic models and machine learning in metal printing. Nat. Rev. Mater. 6, 48-68 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Critical instability at moving keyhole tip generates porosity in laser melting</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="1080" to="1086" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, C. et al. Critical instability at moving keyhole tip generates porosity in laser melting. Science 370, 1080-1086 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">3D printing of high-strength aluminium alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">549</biblScope>
+			<biblScope unit="page" from="365" to="369" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin, J. H. et al. 3D printing of high-strength aluminium alloys. Nature 549, 365-369 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of ultrafine-grained highstrength titanium alloys</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">576</biblScope>
+			<biblScope unit="page" from="91" to="95" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, D. et al. Additive manufacturing of ultrafine-grained high- strength titanium alloys. Nature 576, 91-95 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Designing against phase and property heterogeneities in additively manufactured titanium alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">4660</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, J. et al. Designing against phase and property hetero- geneities in additively manufactured titanium alloys. Nat. Commun. 13, 4660 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Surface modified copper alloy powder for reliable laser-based additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Jadhav</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">101418</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jadhav, S. D. et al. Surface modified copper alloy powder for reli- able laser-based additive manufacturing. Addit. Manuf. 35, 101418 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Laser-based powder bed fusion additive manufacturing of pure copper</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Jadhav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kinds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Hooreweder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vanmeensel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">101990</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jadhav, S. D., Goossens, L. R., Kinds, Y., Van Hooreweder, B. &amp; Vanmeensel, K. Laser-based powder bed fusion additive manu- facturing of pure copper. Addit. Manuf. 42, 101990 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">High-precision laser powder bed fusion processing of pure copper</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Qu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">102417</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qu, S. et al. High-precision laser powder bed fusion processing of pure copper. Addit. Manuf. 48, 102417 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Physical and geometrical properties of additively manufactured pure copper samples using a green laser source</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stepien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brueckner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leyens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">3642</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gruber, S., Stepien, L., López, E., Brueckner, F. &amp; Leyens, C. Physical and geometrical properties of additively manufactured pure cop- per samples using a green laser source. Materials 14, 3642 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Green laser powder bed fusion based fabrication and rate-dependent mechanical properties of copper lattices</title>
+		<author>
+			<persName><forename type="first">S. -G</forename><surname>Kang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="page">112023</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kang, S. -G. et al. Green laser powder bed fusion based fabrication and rate-dependent mechanical properties of copper lattices. Mater. Des. 231, 112023 (2023).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Developing processing windows for powder pre-heating in electron beam melting</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dadbakhsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rashid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="180" to="191" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin, Z., Dadbakhsh, S. &amp; Rashid, A. Developing processing windows for powder pre-heating in electron beam melting. J. Manuf. Process. 83, 180-191 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">In-situ synthesis via laser metal deposition of a lean Cu-3.4Cr-0.6Nb(at.%) conductive alloy hardened by Cr nano-scale precipitates and by Laves phase micro-particles</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Kini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="330" to="340" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kini, A. R. et al. In-situ synthesis via laser metal deposition of a lean Cu-3.4Cr-0.6Nb(at.%) conductive alloy hardened by Cr nano-scale precipitates and by Laves phase micro-particles. Acta Mater. 197, 330-340 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of selective laser melting process parameters and aging heat treatment on properties of CuCrZr alloy</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Guan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Express</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1165</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guan, P. et al. Effect of selective laser melting process parameters and aging heat treatment on properties of CuCrZr alloy. Mater. Res. Express 6, 1165 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Rositter</surname></persName>
+		</author>
+		<title level="m">The Electrical Resistivity of Metals and Alloys</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rositter, P. L. The Electrical Resistivity of Metals and Alloys. (Cam- bridge University Press, Cambridge, 1991).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Deformation mechanism and enhanced properties of Cu-TiB 2 composites evaluated by the in-situ tensile test and microstructure characterization</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bahador</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">847</biblScope>
+			<biblScope unit="page">156555</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bahador, A. et al. Deformation mechanism and enhanced proper- ties of Cu-TiB 2 composites evaluated by the in-situ tensile test and microstructure characterization. J. Alloy. Compd. 847, 156555 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effect of mechanical milling on nanocrystalline grain stability and properties of Cu-Al 2 O 3 composite prepared by thermo-chemical technique and hot extrusion</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ďurišinová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ďurišin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Orolínová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ďurišin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Szabó</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">618</biblScope>
+			<biblScope unit="page" from="204" to="209" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ďurišinová, K., Ďurišin, J., Orolínová, M., Ďurišin, M. &amp; Szabó, J. Effect of mechanical milling on nanocrystalline grain stability and prop- erties of Cu-Al 2 O 3 composite prepared by thermo-chemical tech- nique and hot extrusion. J. Alloy. Compd. 618, 204-209 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Nanostructured high-strength molybdenum alloys with unprecedented tensile ductility</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="344" to="350" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, G. et al. Nanostructured high-strength molybdenum alloys with unprecedented tensile ductility. Nat. Mater. 12, 344-350 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Evolution of microstructures and properties of SLM-manufactured Cu-15Ni-8Sn alloy during heat treatment</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">101599</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, J., Zhou, X. &amp; Li, J. Evolution of microstructures and prop- erties of SLM-manufactured Cu-15Ni-8Sn alloy during heat treat- ment. Addit. Manuf. 37, 101599 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties in QCr0.8 alloy produced by selective laser melting with different heat treatment</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">800</biblScope>
+			<biblScope unit="page" from="286" to="293" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, S. et al. Microstructure and properties in QCr0.8 alloy pro- duced by selective laser melting with different heat treatment. J. Alloy. Compd. 800, 286-293 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sunagawa</surname></persName>
+		</author>
+		<title level="m">Crystals Growth, Morphology and Perfection</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sunagawa I. Crystals Growth, Morphology and Perfection. (Cam- bridge University Press, Cambridge, 2005).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Processing and properties of magnesium containing a dense uniform dispersion of nanoparticles</title>
+		<author>
+			<persName><forename type="first">L.-Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">528</biblScope>
+			<biblScope unit="page" from="539" to="543" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, L.-Y. et al. Processing and properties of magnesium con- taining a dense uniform dispersion of nanoparticles. Nature 528, 539-543 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The production of copper parts using DMLR</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Pogson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>O'neill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid. Prototyp. J</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="334" to="343" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pogson, S. R., Fox, P., Sutcliffe, C. J. &amp; O&apos;Neill, W. The production of copper parts using DMLR. Rapid. Prototyp. J. 9, 334-343 (2003).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Defect generation and propagation mechanism during additive manufacturing by selective beam melting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bauereiß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Scharowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Körner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="2522" to="2528" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bauereiß, A., Scharowsky, T. &amp; Körner, C. Defect generation and propagation mechanism during additive manufacturing by selec- tive beam melting. J. Mater. Process. Technol. 214, 2522-2528 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">An atom-probe analysis of the LaB 6 (001) plane: II. Effect of hydrogen gas atmosphere</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Adachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="327" to="335" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murakami, K., Adachi, T., Kuroda, T. &amp; Nakamura, S. An atom-probe analysis of the LaB 6 (001) plane: II. Effect of hydrogen gas atmo- sphere. Surf. Sci. 176, 327-335 (1986).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Atom Probe Microscopy</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cairney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Ringer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gault, B., Moody, M. P., Cairney, J. M. &amp; Ringer, S. P. Atom Probe Microscopy. (Springer Science &amp; Business Media, New York, 2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Crystallographic features of phase transformations in solids</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1101" to="1170" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, M. X. &amp; Kelly, P. M. Crystallographic features of phase transformations in solids. Prog. Mater. Sci. 54, 1101-1170 (2009).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">On the crystallography of precipitation</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Weatherly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="181" to="292" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, W. Z. &amp; Weatherly, G. C. On the crystallography of pre- cipitation. Prog. Mater. Sci. 50, 181-292 (2005).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of pure copper manufactured by selective laser melting</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">789</biblScope>
+			<biblScope unit="page">139615</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yan, X. et al. Microstructure and mechanical properties of pure copper manufactured by selective laser melting. Mater. Sci. Eng. A 789, 139615 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Pure copper components fabricated by cold spray (CS) and selective laser melting (SLM) technology</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="page">125936</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, J. et al. Pure copper components fabricated by cold spray (CS) and selective laser melting (SLM) technology. Surf. Coat. Technol. 395, 125936 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Mechanical and electrical properties of selective lasermelted parts produced from surface-oxidized copper powder</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Jadhav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vleugels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vanmeensel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des. Process. Commun</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">94</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jadhav, S. D., Vleugels, J., Kruth, J.-P., Van Humbeeck, J. &amp; Van- meensel, K. Mechanical and electrical properties of selective laser- melted parts produced from surface-oxidized copper powder. Mater. Des. Process. Commun. 2, 94 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Enhanced strengthening and hardening via selfstabilized dislocation network in additively manufactured metals</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Today</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="79" to="88" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, Z. et al. Enhanced strengthening and hardening via self- stabilized dislocation network in additively manufactured metals. Mater. Today 50, 79-88 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Influence of carbon nanoparticle addition (and impurities) on selective laser melting of pure copper</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Jadhav</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">2469</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jadhav, S. D. et al. Influence of carbon nanoparticle addition (and impurities) on selective laser melting of pure copper. Materials 12, 2469 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Mechanical properties and microstructural characterization of Cu-4.3 pct Sn fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Ventura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="178" to="187" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ventura, A. P. et al. Mechanical properties and microstructural characterization of Cu-4.3 pct Sn fabricated by selective laser melting. Metall. Mater. Trans. A 48, 178-187 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The effect of aging on the microstructure of selective laser melted Cu-Ni-Si</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Ventura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="6070" to="6082" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ventura, A. P. et al. The effect of aging on the microstructure of selective laser melted Cu-Ni-Si. Metall. Mater. Trans. A 48, 6070-6082 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Gradl</surname></persName>
+		</author>
+		<title level="m">AIAA Propulsion and Energy</title>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>Forum AIAA Propulsion and Energy Forum ; American Institute of Aeronautics and Astronautics</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Gradl, P. R. et al. in AIAA Propulsion and Energy 2019 Forum AIAA Propulsion and Energy Forum (American Institute of Aeronautics and Astronautics, 2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Simultaneously enhancing the strength, ductility and conductivity of copper matrix composites with graphene nanoribbons</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Weng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carbon</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="250" to="260" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, M., Weng, L., Zhu, H., Fan, T. &amp; Zhang, D. Simultaneously enhancing the strength, ductility and conductivity of copper matrix composites with graphene nanoribbons. Carbon 118, 250-260 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A powder-metallurgy-based strategy toward threedimensional graphene-like network for reinforcing copper matrix composites</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2775</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, X. et al. A powder-metallurgy-based strategy toward three- dimensional graphene-like network for reinforcing copper matrix composites. Nat. Commun. 11, 2775 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Cuboidal γ&apos; phase coherent precipitationstrengthened Cu-Ni-Al alloys with high softening temperature</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">203</biblScope>
+			<biblScope unit="page">116458</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, Z. M. et al. Cuboidal γ&apos; phase coherent precipitation- strengthened Cu-Ni-Al alloys with high softening temperature. Acta Mater. 203, 116458 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Effects of Mg addition on the microstructure and softening resistance of Cu-Cr alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">776</biblScope>
+			<biblScope unit="page">139009</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, Y. et al. Effects of Mg addition on the microstructure and softening resistance of Cu-Cr alloys. Mater. Sci. Eng. A 776, 139009 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties at elevated temperature of a nano-Al 2 O 3 particles dispersion-strengthened copper base composite</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">435</biblScope>
+			<biblScope unit="issue">436</biblScope>
+			<biblScope unit="page" from="705" to="710" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tian, B. et al. Microstructure and properties at elevated temperature of a nano-Al 2 O 3 particles dispersion-strengthened copper base composite. Mater. Sci. Eng. A 435-436, 705-710 (2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Heat Transfer</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fluid Transport and Mechanical Properties of Porous Copper Manufactured by Lost Carbonate Sintering</title>
+		<meeting><address><addrLine>Liverpool</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Liverpool</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Xiao, Z. Heat Transfer, Fluid Transport and Mechanical Properties of Porous Copper Manufactured by Lost Carbonate Sintering. (Uni- versity of Liverpool, Liverpool, 2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Investigation on the mechanical properties of sintered porous copper compacts</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M Z</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Riad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Zaky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdel-Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M H</forename><surname>Shalabi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">China Particuol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="391" to="394" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahmed, Y. M. Z., Riad, M. I., Zaky, A. I., Abdel-Aziz, M. &amp; Shalabi, M. M. H. Investigation on the mechanical properties of sintered porous copper compacts. China Particuol. 5, 391-394 (2007).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">In-situ deposition of diamond on functionally graded copper scaffold for improved thermal conductivity and mechanical properties</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page">130050</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng, K. et al. In-situ deposition of diamond on functionally gra- ded copper scaffold for improved thermal conductivity and mechanical properties. Mater. Lett. 299, 130050 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Lattice structures of Cu-Cr-Zr copper alloy by selective laser melting: microstructures, mechanical properties and energy absorption</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page">108406</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ma, Z. et al. Lattice structures of Cu-Cr-Zr copper alloy by selective laser melting: microstructures, mechanical properties and energy absorption. Mater. Des. 187, 108406 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Topological ordered copper graphene composite foam: fabrication and compression properties study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Pandey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">257</biblScope>
+			<biblScope unit="page">126712</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Singh, G. &amp; Pandey, P. M. Topological ordered copper graphene composite foam: fabrication and compression properties study. Mater. Lett. 257, 126712 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of ceramic particlereinforced aluminum-based metal matrix composites: a review</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Karabulut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ünal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="19212" to="19242" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karabulut, Y. &amp; Ünal, R. Additive manufacturing of ceramic particle- reinforced aluminum-based metal matrix composites: a review. J. Mater. Sci. 57, 19212-19242 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">In-situ alloying in laser-based additive manufacturing processes: a critical review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Mosallanejad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Niroumand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aversa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saboori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">872</biblScope>
+			<biblScope unit="page">159567</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mosallanejad, M. H., Niroumand, B., Aversa, A. &amp; Saboori, A. In-situ alloying in laser-based additive manufacturing processes: a critical review. J. Alloy. Compd. 872, 159567 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of high strength copper alloy with heterogeneous grain structure through laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page">117311</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, Y. et al. Additive manufacturing of high strength copper alloy with heterogeneous grain structure through laser powder bed fusion. Acta Mater. 220, 117311 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">On the measurement of dislocations and dislocation substructures using EBSD and HRSD techniques</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Muránsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="297" to="313" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muránsky, O. et al. On the measurement of dislocations and dis- location substructures using EBSD and HRSD techniques. Acta Mater. 175, 297-313 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Ultrahigh strength and high electrical conductivity in copper</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="page" from="422" to="426" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lu, L., Shen, Y., Chen, X., Qian, L. &amp; Lu, K. Ultrahigh strength and high electrical conductivity in copper. Science 304, 422-426 (2004).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>March</surname></persName>
+		</author>
+		<title level="m">Theoretical Solid State Physics</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Courier Corporation</publisher>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones, W. &amp; March, N. H. Theoretical Solid State Physics. (Courier Corporation, New York, 1985).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Data from &quot;Manufacturing of high strength and high conductivity copper with laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.5061/dryad.9cnp5hqrp</idno>
+		<ptr target="https://doi.org/10.5061/dryad.9cnp5hqrp" />
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, Y. et al. Data from &quot;Manufacturing of high strength and high conductivity copper with laser powder bed fusion&quot; [Dataset]. Dryad https://doi.org/10.5061/dryad.9cnp5hqrp (2024).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

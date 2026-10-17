@@ -1,0 +1,1787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effect of Annealing Heat Treatment on the Microstructural Evolution and Mechanical Properties of Hot Isostatic Pressed 316L Stainless Steel Fabricated by Laser Powder Bed Fusion</title>
+				<funder>
+					<orgName type="full">New Brunswick Innovation Foundation</orgName>
+					<orgName type="abbreviated">NBIF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Natural Sciences and Engineering Research Council of Canada</orgName>
+					<orgName type="abbreviated">NSERC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Harrison McCain Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Canada Foundation for Innovation</orgName>
+					<orgName type="abbreviated">CFI</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-06-05">5 June 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Kanwal</forename><surname>Chadha</surname></persName>
+							<email>kchadha@unb.ca</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Planetary and Space Science Centre , University of New Brunswick , Fredericton , NB E3B 5A3 , Canada;</note>
+								<orgName type="department">Planetary and Space Science Centre</orgName>
+								<orgName type="institution">University of New Brunswick</orgName>
+								<address>
+									<postCode>E3B 5A3</postCode>
+									<settlement>Fredericton</settlement>
+									<region>NB</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuan</forename><surname>Tian</surname></persName>
+							<email>yuan.tian@voestalpine.com</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Voestalpine Additive Manufacturing Centre Ltd. , Mississauga , ON L5N 7Y3 , Canada;</note>
+								<orgName type="institution">Voestalpine Additive Manufacturing Centre Ltd</orgName>
+								<address>
+									<postCode>L5N 7Y3</postCode>
+									<settlement>Mississauga</settlement>
+									<region>ON</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">G</forename><surname>Spray</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Planetary and Space Science Centre , University of New Brunswick , Fredericton , NB E3B 5A3 , Canada;</note>
+								<orgName type="department">Planetary and Space Science Centre</orgName>
+								<orgName type="institution">University of New Brunswick</orgName>
+								<address>
+									<postCode>E3B 5A3</postCode>
+									<settlement>Fredericton</settlement>
+									<region>NB</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Clodualdo</forename><surname>Aranas</surname><genName>Jr</genName></persName>
+							<email>clod.aranas@unb.ca</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Department of Mechanical Engineering , University of New Brunswick , Fredericton , NB E3B 5A3 , Canada;</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of New Brunswick</orgName>
+								<address>
+									<postCode>E3B 5A3</postCode>
+									<settlement>Fredericton</settlement>
+									<region>NB</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effect of Annealing Heat Treatment on the Microstructural Evolution and Mechanical Properties of Hot Isostatic Pressed 316L Stainless Steel Fabricated by Laser Powder Bed Fusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-06-05">5 June 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">293204C25EDF2DB38174D5DDAD1A2E12</idno>
+					<idno type="DOI">10.3390/met10060753</idno>
+					<note type="submission">Received: 30 April 2020; Accepted: 2 June 2020;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T21:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>316L stainless steel</term>
+					<term>laser powder bed fusion</term>
+					<term>hot isostatic pressing</term>
+					<term>thermomechanical processing</term>
+					<term>microstructural evolution</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>In this work, the microstructural features and mechanical properties of an additively manufactured 316L stainless steel have been determined.</s><s>Three types of samples were characterized: (i) as printed (AP), (ii) annealing heat treated (AHT), and (iii) hot isostatic pressed and annealing heat treated (HIP + AHT).</s><s>Microstructural analysis reveals that the AP sample formed melt pool boundaries with nano-scale cellular structures.</s><s>These structures disappeared after annealing heat treatment and hot isostatic pressing.</s><s>The AP and AHT samples have similar grain morphologies; however, the latter has a lower dislocation density and contains precipitates.</s><s>Conversely, the HIP + AHT sample displays polygon-shaped grains with twin structures; a completely different morphology compared to the first two samples.</s><s>Optical micrography reveals that the application of hot isostatic pressing reduces the porosity generated after laser processing.</s><s>The tensile strengths of all the samples are comparable (about 600 MPa); however, the elongation of the HIP + AHT sample (48%) was superior to that of other two samples.</s><s>The enhanced ductility of the HIP + AHT sample, however, resulted in lower yield strength.</s><s>Based on these findings, annealing heat treatment after hot isostatic pressing was found to improve the ductility of as-printed 316L stainless steel by as much as 130%, without sacrificing tensile strength, but the sample may have a reduced (40%) yield strength.</s><s>The tensile strength determined here has been shown to be higher than that of the hot isostatic pressed, additively manufactured 316L stainless steel available from the literature.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Additive manufacturing (AM) technology is a layer-by-layer deposition technique to form a solid material using a computerized three-dimensional model <ref type="bibr" target="#b0">[1]</ref>.</s><s>The integration of this technology with various commercial applications represents one of the innovations of Industry 4.0 <ref type="bibr" target="#b1">[2]</ref>.</s><s>Various manufacturing sectors are aggressively exploring AM due to its benefits, such as reduced manufacturing steps, higher material utilization, and the capability of complex design <ref type="bibr" target="#b2">[3]</ref>.</s><s>Although there are numerous types of AM <ref type="bibr" target="#b3">[4]</ref>, laser powder bed fusion (LPBF) is one of the most common techniques being explored due to its ability to generate complex shapes and geometries <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>.</s><s>The method employs a laser gun to selectively melt metallic powders in a layer-by-layer fashion until a final product is achieved.</s><s>The LPBF process is being extensively studied to produce parts and components using nickel-based alloy, titanium alloys, aluminum alloys, steels, high-entropy alloys, shape memory alloys and copper alloys <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref>.</s><s>AM products currently produced by LPBF have a wide range of applications in the aerospace, defense, automotive, medical, and oil and gas sectors.</s></p><p><s>Austenitic stainless steel is one of the most commonly used alloys in the marine, biomedical and aerospace industries because of its superior ductility and superb corrosion resistance <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>.</s><s>Products using this material are widely fabricated using traditional manufacturing techniques, such as casting, forging, extrusion and machining.</s><s>However, such methods limit the manufacturing of objects with intricate features and they generate significant material waste.</s><s>Consequently, the manufacturing sector is actively exploring the use of AM technology to overcome these limitations.</s></p><p><s>To date, a significant amount of research has been done to produce 316L austenitic stainless steel via the LPBF process <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26]</ref>.</s><s>For example, the process parameters, such as laser power, scan speed, layer thickness, and hatch spacing, have been optimized to minimize the presence of porosity, which is detrimental to the mechanical properties of the material <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28]</ref>.</s><s>These process parameters can also be tailored to control the crystallographic texture during solidification <ref type="bibr" target="#b28">[29]</ref>.</s><s>Additively manufactured 316L stainless steel usually requires post-processing heat treatment cycles (i.e., recovery, homogenization, and annealing) to maximize the strength and ductility.</s><s>The application of heat treatment removes the melt pool boundaries and microsegregation in the as-printed alloy.</s><s>This process results in the improved mechanical properties of the material by modifying the microstructure.</s><s>However, despite the improvement of the properties, the heat treatment process is not presently designed to remove any porosity inherent in the AM process.</s></p><p><s>To date, although there are numerous studies related to post-processing techniques of as-printed 316L stainless steel <ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref>, there is very limited data available regarding the annealing heat treatment of a hot isostatic pressed sample.</s><s>This technique is known to increase the relative density of the material.</s><s>The goal of this work is to understand the effect of annealing heat treatment (AHT) after the hot isostatic pressing (HIP) of additively manufactured 316L stainless steel.</s><s>Although annealing heat treatment requires an additional manufacturing step, any improvement in the mechanical properties would potentially expand the application of AM 316L stainless steel to industries that require higher strength/ductility (combined with superior corrosion resistance).</s><s>Note that the mechanical properties of additively manufactured alloys remain an issue with respect to the certification of AM components.</s><s>This research is the initial step to explore the possibility of further increasing the mechanical properties of AM alloy following HIP.</s></p><p><s>In this work, as-printed 316L stainless steel samples were subjected to two types of post-processing: (i) annealing heat treatment, and (ii) a combination of HIP and AHT.</s><s>The effects of such post-processing techniques on the porosity, microstructures, mechanical properties and fracture mechanisms were evaluated.</s><s>The mechanical properties were then compared to the data from hot isostatic pressed, additively manufactured 316L stainless steel available from the literature.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head><p><s>Samples of 316L stainless steel used in this study were manufactured and supplied by the voestalpine Additive Manufacturing Center Ltd., Mississauga, ON, Canada (vAMC).</s><s>Gas atomized powders of the alloy, with diameters in the range of 15-25 µm, were processed by LPBF utilizing an EOS M290 machine (EOS, Krailling, Germany).</s><s>The chemical composition of the powder and the build is provided in Table <ref type="table" target="#tab_0">1</ref>.</s><s>This composition was confirmed using an inductively coupled plasma process following ASTM D1976-18Mod and ASTM E1019-18.</s><s>No significant changes in the composition were observed after manufacturing.</s></p><p><s>A scanning electron microscope (SEM) image of the powders is displayed in Figure <ref type="figure" target="#fig_1">1a</ref> using a Tescan Vega3 electron microscope (Tescan, Kohoutovice, Czech Republic).</s><s>The particle size distribution is also presented in Figure <ref type="figure" target="#fig_1">1b</ref>.</s><s>This information was obtained using digital image processing from CAMSIZER X2 Retsch Technology (Retsch Technology GmbH, Haan, Germany).</s><s>The Hall flow rate of the powders was 14.89 s per 50 g.</s><s>Printing was performed using a deposited volumetric energy density from 30 to 40 J/mm 3 employing a striped meander scanning with a rotation angle of 55 • and a stripe width of 12 mm.</s><s>The laser power was 350 W, laser speed 1000 mm/s, and the layer thickness 60 µm.</s><s>A hatch distance of 200 µm was employed.</s><s>The chamber was filled with argon gas to minimize oxidation.</s><s>Two types of samples were fabricated: (i) 10 mm cubes for the initial microstructural analysis, and (ii) cylindrical samples with lengths and diameters of 86 mm and 14 mm, respectively, for tensile testing.</s><s>For the cylindrical samples, two types were manufactured: (i) with lengths parallel to the building direction (BD), and (ii) with lengths parallel to the transverse direction (TD).</s><s>These samples allowed for the measurement of the physical properties in both directions.</s></p><p><s>The as-printed (AP) samples underwent two types of heat treatment: (i) annealing (AHT) at 900 °C for 2 h followed by nitrogen quenching at 5-6 bar until 65 °C, and (ii) hot isostatic pressing (HIP) at 1163 °C for 3 h at a pressure of ~1 Mbar followed by the same AHT process in (i) above.</s><s>Both heat treatment cycles utilized an argon gas atmosphere.</s><s>The AP, AHT and HIP + AHT samples were polished using silicon carbide papers with grit from 400 to 1200.</s><s>The rough polishing was followed by fine polishing using 3 and 1 μm diamond suspensions.</s><s>The samples for SEM imaging were electro etched by 10% oxalic acid with an applied voltage of 5 V for 10 s at room temperature to prepare the microstructures for analysis.</s><s>Another separate set of samples was subjected to final polishing using a Buehler Vibromet 2 polisher (Buehler, Lake Bluff, IL, USA) with 0.02 μm silica suspension for 24 h (for electron backscatter diffraction (EBSD) analysis).</s><s>Electron microscopy was carried out using a Thermo scientific Scios 2 electron microscope (Thermo Fisher Scientific Inc, Waltham, MA, USA) and a Hitachi SU70 (Hitachi, Tokyo, Japan) equipped with a HKL Channel 5 software (5.11.20405.0,</s><s>HKL Channel 5, Abingdon, United Kingdom).</s><s>The SEM images were obtained using secondary electron imaging mode employing 20 kV.</s><s>For all the EBSD images, a step size of 0.5 μm was used.</s></p><p><s>Optical micrographs were acquired using a Zeta Instruments optical microscope (KLA Corporation, California, USA).</s><s>ImageJ analysis software (1.52A, ImageJ, WI, USA) was utilized for the measurement of relative density using five images to verify the validity of the measurements.</s><s>The error bars were calculated based on the standard deviation from five measurements.</s><s>Two types of samples were fabricated: (i) 10 mm cubes for the initial microstructural analysis, and (ii) cylindrical samples with lengths and diameters of 86 mm and 14 mm, respectively, for tensile testing.</s><s>For the cylindrical samples, two types were manufactured: (i) with lengths parallel to the building direction (BD), and (ii) with lengths parallel to the transverse direction (TD).</s><s>These samples allowed for the measurement of the physical properties in both directions.</s></p><p><s>The as-printed (AP) samples underwent two types of heat treatment: (i) annealing (AHT) at 900 • C for 2 h followed by nitrogen quenching at 5-6 bar until 65 • C, and (ii) hot isostatic pressing (HIP) at 1163 • C for 3 h at a pressure of ~1 Mbar followed by the same AHT process in (i) above.</s><s>Both heat treatment cycles utilized an argon gas atmosphere.</s><s>The AP, AHT and HIP + AHT samples were polished using silicon carbide papers with grit from 400 to 1200.</s><s>The rough polishing was followed by fine polishing using 3 and 1 µm diamond suspensions.</s></p><p><s>The samples for SEM imaging were electro etched by 10% oxalic acid with an applied voltage of 5 V for 10 s at room temperature to prepare the microstructures for analysis.</s><s>Another separate set of samples was subjected to final polishing using a Buehler Vibromet 2 polisher (Buehler, Lake Bluff, IL, USA) with 0.02 µm silica suspension for 24 h (for electron backscatter diffraction (EBSD) analysis).</s><s>Electron microscopy was carried out using a Thermo scientific Scios 2 electron microscope (Thermo Fisher Scientific Inc, Waltham, MA, USA) and a Hitachi SU70 (Hitachi, Tokyo, Japan) equipped with a HKL Channel 5 software (5.11.20405.0,</s><s>HKL Channel 5, Abingdon, United Kingdom).</s><s>The SEM images were obtained using secondary electron imaging mode employing 20 kV.</s><s>For all the EBSD images, a step size of 0.5 µm was used.</s></p><p><s>Optical micrographs were acquired using a Zeta Instruments optical microscope (KLA Corporation, Milpitas, CA, USA).</s><s>ImageJ analysis software (1.52A, ImageJ, Madison, WI, USA) was utilized for the measurement of relative density using five images to verify the validity of the measurements.</s><s>The error bars were calculated based on the standard deviation from five measurements.</s></p><p><s>Tensile testing was performed in accordance with ASTM E8.</s><s>The yield strength was determined using the 0.2% offset method.</s><s>A total of five tests for each condition were performed to validate the accuracy of the results.</s><s>The fractured surface was analyzed using SEM imaging and EBSD analysis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>It is well known that porosity can significantly alter the mechanical properties of additively manufactured alloys <ref type="bibr" target="#b37">[38]</ref>.</s><s>Thus, optical micrographs of AP, AHT, and HIP + AHT samples were obtained to measure the relative density of the samples.</s><s>The AP and AHT samples displayed higher porosity compared to the HIP + AHT sample.</s><s>These observations are reflected in Figure <ref type="figure" target="#fig_2">2</ref>. The relative densities of the AP and AHT samples were 99.6% and 99.5%, respectively.</s><s>Although the AHT sample provided better overall mechanical properties than that of the AP sample, it appears that the relative density was not affected, which was consistent with previous work <ref type="bibr" target="#b38">[39]</ref>.</s><s>On the other hand, the HIP + AHT sample attained a relative density of 99.9%.</s><s>It appears that the applied pressure during HIP allows the material to flow and sinter at elevated temperatures.</s><s>Thus, the pores created by laser processing can be annihilated, which translates to a higher relative density of the material.</s></p><p><s>using the 0.2% offset method.</s><s>A total of five tests for each condition were performed to validate the accuracy of the results.</s><s>The fractured surface was analyzed using SEM imaging and EBSD analysis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>It is well known that porosity can significantly alter the mechanical properties of additively manufactured alloys <ref type="bibr" target="#b37">[38]</ref>.</s><s>Thus, optical micrographs of AP, AHT, and HIP + AHT samples were obtained to measure the relative density of the samples.</s><s>The AP and AHT samples displayed higher porosity compared to the HIP + AHT sample.</s><s>These observations are reflected in Figure <ref type="figure" target="#fig_2">2</ref>. The relative densities of the AP and AHT samples were 99.6% and 99.5%, respectively.</s><s>Although the AHT sample provided better overall mechanical properties than that of the AP sample, it appears that the relative density was not affected, which was consistent with previous work <ref type="bibr" target="#b38">[39]</ref>.</s><s>On the other hand, the HIP + AHT sample attained a relative density of 99.9%.</s><s>It appears that the applied pressure during HIP allows the material to flow and sinter at elevated temperatures.</s><s>Thus, the pores created by laser processing can be annihilated, which translates to a higher relative density of the material.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructural Characterization of as-Printed (AP) AM 316L Stainless Steel</head><p><s>Low-and high-magnification microstructures show cellular (Figure <ref type="figure" target="#fig_7">3a</ref>) and dendritic (Figure <ref type="figure" target="#fig_7">3b</ref>) structures due to the rapid solidification with a cooling rate of about 10 4 -10 6 °C/s <ref type="bibr" target="#b39">[40]</ref>.</s><s>This cooling rate restricts the formation of precipitates during solidification.</s><s>No evidence of the precipitates was found in the SEM images of the AP sample.</s><s>The microstructural properties in the SEM images are consistent with the findings in the literature <ref type="bibr" target="#b40">[41]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructural Characterization of as-Printed (AP) AM 316L Stainless Steel</head><p><s>Low-and high-magnification microstructures show cellular (Figure <ref type="figure" target="#fig_7">3a</ref>) and dendritic (Figure <ref type="figure" target="#fig_7">3b</ref>) structures due to the rapid solidification with a cooling rate of about 10 4 -10 6 • C/s <ref type="bibr" target="#b39">[40]</ref>.</s><s>This cooling rate restricts the formation of precipitates during solidification.</s><s>No evidence of the precipitates was found in the SEM images of the AP sample.</s><s>The microstructural properties in the SEM images are consistent with the findings in the literature <ref type="bibr" target="#b40">[41]</ref>.</s></p><p><s>Metals 2020, 10, x FOR PEER REVIEW 4 of 18</s></p><p><s>Tensile testing was performed in accordance with ASTM E8.</s><s>The yield strength was determined using the 0.2% offset method.</s><s>A total of five tests for each condition were performed to validate the accuracy of the results.</s><s>The fractured surface was analyzed using SEM imaging and EBSD analysis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p><s>It is well known that porosity can significantly alter the mechanical properties of additively manufactured alloys <ref type="bibr" target="#b37">[38]</ref>.</s><s>Thus, optical micrographs of AP, AHT, and HIP + AHT samples were obtained to measure the relative density of the samples.</s><s>The AP and AHT samples displayed higher porosity compared to the HIP + AHT sample.</s><s>These observations are reflected in Figure <ref type="figure" target="#fig_2">2</ref>. The relative densities of the AP and AHT samples were 99.6% and 99.5%, respectively.</s><s>Although the AHT sample provided better overall mechanical properties than that of the AP sample, it appears that the relative density was not affected, which was consistent with previous work <ref type="bibr" target="#b38">[39]</ref>.</s><s>On the other hand, the HIP + AHT sample attained a relative density of 99.9%.</s><s>It appears that the applied pressure during HIP allows the material to flow and sinter at elevated temperatures.</s><s>Thus, the pores created by laser processing can be annihilated, which translates to a higher relative density of the material.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructural Characterization of as-Printed (AP) AM 316L Stainless Steel</head><p><s>Low-and high-magnification microstructures show cellular (Figure <ref type="figure" target="#fig_7">3a</ref>) and dendritic (Figure <ref type="figure" target="#fig_7">3b</ref>) structures due to the rapid solidification with a cooling rate of about 10 4 -10 6 °C/s <ref type="bibr" target="#b39">[40]</ref>.</s><s>This cooling rate restricts the formation of precipitates during solidification.</s><s>No evidence of the precipitates was found in the SEM images of the AP sample.</s><s>The microstructural properties in the SEM images are consistent with the findings in the literature <ref type="bibr" target="#b40">[41]</ref>.</s><s>Metals 2020, 10, 753 5 of 18 EBSD analysis was performed on the plane containing the building direction (BD) to understand the microstructural evolution during solidification (see Figure <ref type="figure" target="#fig_9">4a-c</ref>).</s><s>The EBSD map in Figure <ref type="figure" target="#fig_9">4a</ref> displays columnar and elongate grains, with the growth direction aligned with the building direction.</s><s>It appears that the growth of the grains was affected by the melt pool boundaries, as depicted by the shape of the grains.</s><s>Visually, the grains do not have a preferred orientation despite having a growth direction during solidification.</s><s>The same EBSD results were used to analyze the dislocation density present in the material after printing.</s><s>Thus, grain boundary maps showing low angle (LAGBs) and high angle (HAGBs) grain boundaries were generated, as displayed in Figure <ref type="figure" target="#fig_9">4b</ref>.</s><s>The LAGBs represent those grains with misorientations between 2 • and 15 • .</s><s>These boundaries are associated with the dislocation density of the material <ref type="bibr" target="#b41">[42]</ref>.</s><s>On the other hand, the HAGBs define the boundary between each grain and are characterized by grain misorientations of greater than 15 • .</s><s>The LAGB fraction of the as-printed sample along the BD was 44.8%.</s><s>The crystallographic texture was also determined using an inverse pole figure (IPF) representation (Figure <ref type="figure" target="#fig_9">4c</ref>).</s><s>The reference direction for the map is the BD.</s><s>For consistency, the same reference direction was utilized in all the IPF maps in this work.</s><s>Although the (304) plane appears to be the preferred orientation after printing, note that the texture intensity factor was only 1.55.</s><s>This value is reasonably low; thus, the overall texture of the material is considered as random.</s></p><p><s>Metals 2020, 10, x FOR PEER REVIEW 5 of 18 EBSD analysis was performed on the plane containing the building direction (BD) to understand the microstructural evolution during solidification (see Figure <ref type="figure" target="#fig_9">4a-c</ref>).</s><s>The EBSD map in Figure <ref type="figure" target="#fig_9">4a</ref> displays columnar and elongate grains, with the growth direction aligned with the building direction.</s><s>It appears that the growth of the grains was affected by the melt pool boundaries, as depicted by the shape of the grains.</s><s>Visually, the grains do not have a preferred orientation despite having a growth direction during solidification.</s><s>The same EBSD results were used to analyze the dislocation density present in the material after printing.</s><s>Thus, grain boundary maps showing low angle (LAGBs) and high angle (HAGBs) grain boundaries were generated, as displayed in Figure <ref type="figure" target="#fig_9">4b</ref>.</s><s>The LAGBs represent those grains with misorientations between 2° and 15°.</s><s>These boundaries are associated with the dislocation density of the material <ref type="bibr" target="#b41">[42]</ref>.</s><s>On the other hand, the HAGBs define the boundary between each grain and are characterized by grain misorientations of greater than 15°.</s><s>The LAGB fraction of the as-printed sample along the BD was 44.8%.</s><s>The crystallographic texture was also determined using an inverse pole figure (IPF) representation (Figure <ref type="figure" target="#fig_9">4c</ref>).</s><s>The reference direction for the map is the BD.</s><s>For consistency, the same reference direction was utilized in all the IPF maps in this work.</s><s>Although the (304) plane appears to be the preferred orientation after printing, note that the texture intensity factor was only 1.55.</s><s>This value is reasonably low; thus, the overall texture of the material is considered as random.</s><s>A similar EBSD analysis was carried out on the plane normal to the BD, referred to here as the TD (transverse direction), as displayed in Figure <ref type="figure" target="#fig_9">4d-f</ref>.</s><s>The morphology of grains along the TD is A similar EBSD analysis was carried out on the plane normal to the BD, referred to here as the TD (transverse direction), as displayed in Figure <ref type="figure" target="#fig_9">4d-f</ref>.</s><s>The morphology of grains along the TD is more equiaxed, as shown in Figure <ref type="figure" target="#fig_9">4d</ref>.</s><s>The grains are also smaller.</s><s>This morphology corresponds to the cross-sectional area of the columnar grains in Figure <ref type="figure" target="#fig_9">4a</ref>.</s><s>Interestingly, there are localized areas with fine grain microstructures (with grain sizes of around 5 µm), which may be due to static and/or dynamic recrystallization.</s><s>The driving force for this phenomenon could be the residual stresses generated after printing as a result of rapid solidification <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>.</s><s>The grain boundary map of the same EBSD data is displayed in Figure <ref type="figure" target="#fig_9">4e</ref>.</s><s>The fraction of LAGBs is 47.7%.</s><s>This number is consistent with the one measured from the BD.</s><s>The IPF representation of grains in the TD direction is shown in Figure <ref type="figure" target="#fig_9">4f</ref>.</s><s>Similar to the results from the BD (Figure <ref type="figure" target="#fig_9">4c</ref>), the overall texture is considered as random due to the low-texture intensity factor (1.42), although the (001) and (214) planes appear to have the highest intensity.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Microstructural Evolution after Annealing Heat Treatment (AHT)</head><p><s>The as-printed sample was subjected to annealing heat treatment at 900 • C for 2 h (see Figure <ref type="figure" target="#fig_11">5a</ref>,<ref type="figure">b</ref>).</s><s>The annealing process did not significantly change the shape of the grains, although the melt pool boundaries, scan tracks and nano-scale cellular and dendritic structures disappeared.</s><s>Moreover, nano-scale precipitates, which nucleated along the grain boundaries are now evident.</s><s>For reference, the precipitates were marked with red arrows.</s><s>These precipitates played an important role in strengthening the alloy <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>.</s><s>There were also nano-scale twin-like structures; however, these were not detected in the EBSD analysis below.</s></p><p><s>pool boundaries, scan tracks and nano-scale cellular and dendritic structures disappeared.</s><s>Moreover, nano-scale precipitates, which nucleated along the grain boundaries are now evident.</s><s>For reference, the precipitates were marked with red arrows.</s><s>These precipitates played an important role in strengthening the alloy <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>.</s><s>There were also nano-scale twin-like structures; however, these were not detected in the EBSD analysis below.</s></p><p><s>The EBSD analysis after annealing heat treatment was displayed in Figure <ref type="figure" target="#fig_12">6</ref>.</s><s>The EBSD map of the BD (see Figure <ref type="figure" target="#fig_13">6a</ref>) has a similar morphology with the as-printed sample in Figure <ref type="figure" target="#fig_9">4a</ref>.</s><s>The grains have columnar and elongated features, with the growth direction aligned with the building direction.</s><s>The grain growth also appears to be affected by the presence of melt pools.</s><s>The fraction of LAGBs in Figure <ref type="figure" target="#fig_9">4b</ref> was determined, and the results show a lower value than that of the as-printed samples, which is 41%.</s><s>The overall crystallographic texture (see Figure <ref type="figure" target="#fig_9">4c</ref>) depicts a random orientation, as supported by the low-texture intensity factor of 1.52, although some planes are more apparent, such as (001) and ( <ref type="formula">102</ref>).</s></p><p><s>The EBSD-acquired microstructure was also obtained from the TD, as displayed in Figure <ref type="figure" target="#fig_13">6d-f</ref>.</s><s>Although the morphology of the grains in Figure <ref type="figure" target="#fig_13">6d</ref> is similar to that of the as-printed samples in Figure <ref type="figure" target="#fig_9">4d</ref>, there is a reduced region of fine grain structure.</s><s>The grain size is ~10 μm, and is larger than the AP condition due to the grain growth during AHT.</s><s>Similar to the microstructure of the asprinted sample, an equiaxed feature associated with the cross-sectional area of the elongated grains is observed (Figure <ref type="figure" target="#fig_13">6a</ref>).</s><s>The fraction of LAGBs in the TD is 36.8%</s><s>(see Figure <ref type="figure" target="#fig_13">6e</ref>).</s><s>This value is lower than the measured values in the as-printed condition since the heat treatment process is known to reduce the dislocation density in the alloy.</s><s>Thus, in this work, the AHT sample has a lower dislocation density than that of the AP sample.</s><s>In addition, although the (102) accounts for the highest orientation, the general crystallographic texture is random with a texture intensity factor of 1.75, see Figure <ref type="figure" target="#fig_13">6f</ref>.</s><s>The EBSD analysis after annealing heat treatment was displayed in Figure <ref type="figure" target="#fig_12">6</ref>.</s><s>The EBSD map of the BD (see Figure <ref type="figure" target="#fig_13">6a</ref>) has a similar morphology with the as-printed sample in Figure <ref type="figure" target="#fig_9">4a</ref>.</s><s>The grains have columnar and elongated features, with the growth direction aligned with the building direction.</s><s>The grain growth also appears to be affected by the presence of melt pools.</s><s>The fraction of LAGBs in Figure <ref type="figure" target="#fig_9">4b</ref> was determined, and the results show a lower value than that of the as-printed samples, which is 41%.</s><s>The overall crystallographic texture (see Figure <ref type="figure" target="#fig_9">4c</ref>) depicts a random orientation, as supported by the low-texture intensity factor of 1.52, although some planes are more apparent, such as (001) and ( <ref type="formula">102</ref>).</s></p><p><s>The EBSD-acquired microstructure was also obtained from the TD, as displayed in Figure <ref type="figure" target="#fig_13">6d-f</ref>.</s><s>Although the morphology of the grains in Figure <ref type="figure" target="#fig_13">6d</ref> is similar to that of the as-printed samples in Figure <ref type="figure" target="#fig_9">4d</ref>, there is a reduced region of fine grain structure.</s><s>The grain size is ~10 µm, and is larger than the AP condition due to the grain growth during AHT.</s><s>Similar to the microstructure of the as-printed sample, an equiaxed feature associated with the cross-sectional area of the elongated grains is observed (Figure <ref type="figure" target="#fig_13">6a</ref>).</s><s>The fraction of LAGBs in the TD is 36.8%</s><s>(see Figure <ref type="figure" target="#fig_13">6e</ref>).</s><s>This value is lower than the measured values in the as-printed condition since the heat treatment process is known to reduce the dislocation density in the alloy.</s><s>Thus, in this work, the AHT sample has a lower dislocation density than that of the AP sample.</s><s>In addition, although the (102) accounts for the highest orientation, the general crystallographic texture is random with a texture intensity factor of 1.75, see Figure <ref type="figure" target="#fig_13">6f</ref>.</s></p><p><s>Similar to that of the microstructure of the AHT sample, the presence of precipitates in the SEM images is evident (see red arrows).</s><s>However, note that the precipitates in the HIP + AHT sample are not constrained to grain boundaries.</s><s>It appears that the precipitates are more homogeneously distributed in the microstructure.</s><s>Note that the HIP process generates dislocation density inside the grains, which can act as nucleation sites of precipitation during the high-temperature post-processing treatment.</s><s>To better understand the microstructures, EBSD analysis was performed on the HIP + AHT sample.</s><s>The results are presented in Figure <ref type="figure" target="#fig_17">8</ref>.</s><s>The EBSD map in the BD direction confirms the polygonal morphology of the grains in the SEM image above (Figure <ref type="figure" target="#fig_18">8a</ref>).</s><s>There is also a significant fraction of twins as a result of the applied pressure during the HIP.</s><s>Interestingly, the fraction of LAGBs was only 2.3% (Figure <ref type="figure" target="#fig_18">8b</ref>).</s><s>The two-stage heat treatment process at 1163 °C and 900 °C assisted in the annihilation of dislocations that were generated after printing.</s><s>At an elevated temperature, the application of pressure, combined with the inherent residual stress due to printing, can induce the static and dynamic recrystallization <ref type="bibr" target="#b46">[47]</ref> of austenitic grains.</s><s>This phenomenon is</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Microstructural Evolution after Hot Isostatic Pressing and Annealing Heat Treatment (HIP + AHT)</head><p><s>The electron microscopy images of the sample after hot isostatic pressing followed by annealing heat treatment are depicted in Figure <ref type="figure" target="#fig_16">7a</ref>,b.</s><s>The morphology of the grains is completely different than that of the AP and AHT samples in Figure <ref type="figure" target="#fig_3">3</ref>; Figure <ref type="figure" target="#fig_10">5</ref>, respectively.</s><s>Polygon-shaped grains with sizes of up to 100 µm can be observed.</s><s>It also appears that there may be micro-scale twins that developed as a result of the applied pressure during the HIP process.</s><s>The nano-scale twin-like structure, similar to that of the AHT sample, is also evident.</s></p><p><s>Metals 2020, 10, x FOR PEER REVIEW 8 of 18</s></p><p><s>depicted by a fine grain size (&lt;10 μm).</s><s>The general texture in the BD was also obtained using an IPF representation (Figure <ref type="figure" target="#fig_18">8c</ref>).</s><s>The texture intensity factor (2.45) is higher than that of the AP and AHT samples in the BD, but the microstructure still possesses a reasonably random texture.</s><s>This might be due to the applied pressure that may lead to a slight rotation of grains.</s><s>The deformation allows rotation of the crystal structure, which results in a higher texture intensity factor.</s><s>The highest intensity has a (213) orientation.</s><s>Similar to that of the microstructure of the AHT sample, the presence of precipitates in the SEM images is evident (see red arrows).</s><s>However, note that the precipitates in the HIP + AHT sample are not constrained to grain boundaries.</s><s>It appears that the precipitates are more homogeneously distributed in the microstructure.</s><s>Note that the HIP process generates dislocation density inside the grains, which can act as nucleation sites of precipitation during the high-temperature post-processing treatment.</s></p><p><s>To better understand the microstructures, EBSD analysis was performed on the HIP + AHT sample.</s><s>The results are presented in Figure <ref type="figure" target="#fig_17">8</ref>.</s><s>The EBSD map in the BD direction confirms the polygonal morphology of the grains in the SEM image above (Figure <ref type="figure" target="#fig_18">8a</ref>).</s><s>There is also a significant fraction of twins as a result of the applied pressure during the HIP.</s><s>Interestingly, the fraction of LAGBs was only 2.3% (Figure <ref type="figure" target="#fig_18">8b</ref>).</s><s>The two-stage heat treatment process at 1163 • C and 900 • C assisted in the annihilation of dislocations that were generated after printing.</s><s>At an elevated temperature, the application of pressure, combined with the inherent residual stress due to printing, can induce the static and dynamic recrystallization <ref type="bibr" target="#b46">[47]</ref> of austenitic grains.</s><s>This phenomenon is depicted by a fine grain size (&lt;10 µm).</s><s>The general texture in the BD was also obtained using an IPF representation (Figure <ref type="figure" target="#fig_18">8c</ref>).</s><s>The texture intensity factor (2.45) is higher than that of the AP and AHT samples in the BD, but the microstructure still possesses a reasonably random texture.</s><s>This might be due to the applied pressure that may lead to a slight rotation of grains.</s><s>The deformation allows rotation of the crystal structure, which results in a higher texture intensity factor.</s><s>The highest intensity has a (213) orientation.</s></p><p><s>Metals 2020, 10, x FOR PEER REVIEW 8 of 18 depicted by a fine grain size (&lt;10 μm).</s><s>The general texture in the BD was also obtained using an IPF representation (Figure <ref type="figure" target="#fig_18">8c</ref>).</s><s>The texture intensity factor (2.45) is higher than that of the AP and AHT samples in the BD, but the microstructure still possesses a reasonably random texture.</s><s>This might be due to the applied pressure that may lead to a slight rotation of grains.</s><s>The deformation allows rotation of the crystal structure, which results in a higher texture intensity factor.</s><s>The highest intensity has a (213) orientation.</s><s>EBSD analysis was also performed in the TD section, and the EBSD map is presented in Figure <ref type="figure" target="#fig_18">8d</ref>.</s><s>Both the BD and TD sections have a similar grain morphology; thus, it resembles a material with isotropic properties.</s><s>The fraction of LAGBs is significantly higher than that of the BD, which is 21.1%.</s><s>Still, this number is significantly lower than the measurements taken from the AP and AHT samples.</s><s>The general crystallographic texture was also calculated (see Figure <ref type="figure" target="#fig_18">8f</ref>), in which the highest intensity has a (101) orientation.</s><s>However, the texture intensity factor is low (1.89); thus, the microstructure resembles randomly oriented grains.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Mechanical Properties of the Three Conditions</head><p><s>The effects of post-processing heat treatment on the yield strength, tensile strength and the ductility of additively manufactured 316L stainless steel were evaluated via tensile stress-strain curves (Figure <ref type="figure" target="#fig_19">9</ref>).</s><s>A representative of the curve from multiple measurements was shown here since the measured mechanical properties have less than a 3% difference.</s><s>In Figure <ref type="figure" target="#fig_20">9a</ref>, the stress-strain curves of the as-printed sample along the BD and TD are presented.</s><s>It is well known that the tensile strength along the TD was higher than that of the BD due to the epitaxial grain growth along the BD <ref type="bibr" target="#b47">[48]</ref>.</s><s>Although the present results validate the observations in the literature: the difference between their tensile strengths is only about 1%.</s><s>The TD has a tensile strength of 585 ± 20 MPa, while the BD has a tensile strength of 579 ± 10 MPa.</s><s>The elongations of both directions are 21% ± 2%.</s><s>The yield strengths at TD and BD are 445 ± 20 MPa and 439 ± 5 MPa, respectively.</s><s>Although the former has a slightly higher value, the numbers are comparable.</s></p><p><s>After annealing heat treatment, the tensile strengths along the TD and BD are 595 ± 10 MPa and 582 ± 5 MPa, respectively (see Figure <ref type="figure" target="#fig_20">9b</ref>).</s><s>As expected, the tensile strength along the TD is higher by about 2%.</s><s>Both directions have comparable elongations: 29 ± 2% and 31 ± 3% for TD and BD, respectively.</s><s>Similarly, the yield strengths are 370 ± 10 MPa (TD) and 365 ± 10 MPa (BD).</s><s>In general, the ductility significantly increased by about 45% without any compromise in tensile strength.</s><s>However, the yield strength decreased by approximately 15%.</s></p><p><s>The mechanical properties after hot isostatic pressing and annealing heat treatment were also measured (Figure <ref type="figure" target="#fig_20">9c</ref>).</s><s>Similar to the AP and AHT samples, the tensile strength of the HIP + AHT sample along the TD (611 ± 5 MPa) was slightly higher than the BD (592 ± 5 MPa) by about 3%.</s><s>The elongations were comparable in both directions, 48 ± 3% and 47 ± 3% along the TD and BD, respectively.</s><s>The yield strengths are 263 ± 5 MPa (TD) and 257 ± 5 MPa (BD).</s><s>In this sample, the ductility increased significantly by approximately 130% as compared to the AP sample.</s><s>The increase in ductility was also coupled with a slight increase in tensile strength by about 4%.</s><s>This sample clearly overcomes the strength-to-ductility trade-off in material science <ref type="bibr" target="#b48">[49]</ref>.</s><s>However, note that the yield strength of the HIP + AHT sample led to a decrease of about 40%.</s><s>Still, the benefit of increasing both the tensile strength and ductility is considered to be beneficial in designing components using additively manufactured alloys.</s><s>Based on the SEM and EBSD images above, it appears that the presence of both nano-scale and micro-scale twins played a role in improving the ductility of the HIP + AHT sample.</s></p><p><s>A comparison of the mechanical properties between the AP, AHT, and the HIP + AHT samples is presented in Figure <ref type="figure" target="#fig_20">9d</ref>,e for BD and TD, respectively.</s><s>It can be directly observed that the tensile strengths of all the samples are similar.</s><s>However, the ductility of the HIP + AHT sample is superior to those of the AP and AHT samples.</s><s>The slope of the elastic region (modulus of elasticity) significantly changes after post-processing.</s><s>For example, along the BD, the modulus of elasticity was initially 183 GPa after printing; then, it decreased to 166 GPa after AHT.</s><s>The modulus of elasticity further decreased after HIP and AHT, from 183 to 150 GPa.</s><s>The same trend was observed in the measurements along the TD, see Figure <ref type="figure" target="#fig_20">9e</ref>.</s></p><p><s>The mechanical properties acquired from this work are summarized in Table <ref type="table" target="#tab_2">2</ref>.</s><s>The raw data are presented in Table <ref type="table" target="#tab_1">A1</ref> in the Appendix A section.</s><s>The standard deviation from five measurements was taken and these were accounted for as an experimental error.</s><s>The mechanical properties obtained from this work were then compared with other similar works employing HIP to additively manufactured (via LPBF) 316L stainless steel, as shown in Table <ref type="table">3</ref>.</s><s>It can be observed that the tensile strength of the HIP samples from Lavery et al. <ref type="bibr" target="#b32">[33]</ref>, Saiedi <ref type="bibr" target="#b49">[50]</ref>, and Röttger et al. <ref type="bibr" target="#b31">[32]</ref> were 542, 570 and 563 MPa.</s><s>The present work (HIP + AHT) attained a maximum value of 611 MPa, at least 7% higher than the selected literature values that employed HIP alone.</s><s>The yield strength of the present work was also the highest, which is around 263 MPa (14% higher).</s><s>The elongation in this work (48%) was comparable to that of the literature values, though it is inferior to the values obtained by Röttger et al. <ref type="bibr" target="#b31">[32]</ref>, who reported an elongation of 81%.</s><s>The mechanical properties obtained from this work were then compared with other similar works employing HIP to additively manufactured (via LPBF) 316L stainless steel, as shown in Table <ref type="table">3</ref>.</s><s>It can be observed that the tensile strength of the HIP samples from Lavery et al. <ref type="bibr" target="#b32">[33]</ref>, Saiedi <ref type="bibr" target="#b49">[50]</ref>, and Röttger et al. <ref type="bibr" target="#b31">[32]</ref> were 542, 570 and 563 MPa.</s><s>The present work (HIP + AHT) attained a maximum value of 611 MPa, at least 7% higher than the selected literature values that employed HIP alone.</s><s>The yield strength of the present work was also the highest, which is around 263 MPa (14% higher).</s><s>The elongation in this work (48%) was comparable to that of the literature values, though it is inferior to the values obtained by Röttger et al. <ref type="bibr" target="#b31">[32]</ref>, who reported an elongation of 81%.</s></p><p><s>Table 3.</s><s>Comparison of the results (this work) with the published data on additively manufactured 316L steel.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Manufacturing History</head><p><s>Yield Strength, MPa Tensile Strength, MPa Elongation, % Lavery <ref type="bibr" target="#b32">[33]</ref> As-printed 385 534 22% Lavery <ref type="bibr" target="#b32">[33]</ref> HIP (1125 • C, 137 MPa) 227 542 41% Saiedi <ref type="bibr" target="#b49">[50]</ref> As-printed 456 703 45% Saiedi <ref type="bibr" target="#b49">[50]</ref> Annealed 419 674 51% Saiedi <ref type="bibr" target="#b49">[50]</ref> HIP 220 570 54% Röttger <ref type="bibr" target="#b31">[32]</ref> As-printed 427 ± 8 522 ± 5 15 ± 2 Röttger <ref type="bibr" target="#b31">[32]</ref> HIP (1150</s></p><p><s>• C, 150 MPa) 231 ± 4 563 ± 6 81 ± 7 This work As-printed 445 ± 20 585 ± 20 21 ± 2 This work Annealed 370 ± 10 595 ± 10 29 ± 2 This work HIP + annealed 263 ± 5 611 ± 5 48 ± 3</s></p><p><s>The fractured surface of the AP sample after tensile testing was characterized using electron microscopy (Figure <ref type="figure" target="#fig_21">10</ref>).</s><s>Three different magnifications were used for fractography in order to provide general and local features of the fractured surface.</s><s>Figure <ref type="figure" target="#fig_22">10a-c</ref> is associated with tests along the BD.</s><s>In the lowest magnification image (Figure <ref type="figure" target="#fig_22">10a</ref>), the scan tracks and layers during printing are evident, as shown by the overlapping linear strips on the cross-section of the fractured surface.</s><s>The stress applied along the building direction results in poor intralayer fusion, which then leads to fracture.</s><s>In the high magnification imaging in Figure <ref type="figure" target="#fig_22">10b</ref>,c, a combination of dimple structure and cleavage structure can be observed since the material has an appreciable elongation of about 21%.</s><s>The observations in the BD direction are similar to the fractured surface found in the TD (Figure <ref type="figure" target="#fig_22">10d-f</ref>).</s></p><p><s>Metals 2020, 10, x FOR PEER REVIEW 11 of 18</s></p><p><s>Table 3.</s><s>Comparison of the results (this work) with the published data on additively manufactured 316L steel.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference Manufacturing History</head><p><s>Yield Strength, MPa Tensile Strength, MPa Elongation, % Lavery <ref type="bibr" target="#b32">[33]</ref> As-printed 385 534 22% Lavery <ref type="bibr" target="#b32">[33]</ref> HIP (1125 °C, 137 MPa) 227 542 41% Saiedi <ref type="bibr" target="#b49">[50]</ref> As-printed 456 703 45% Saiedi <ref type="bibr" target="#b49">[50]</ref> Annealed 419 674 51% Saiedi <ref type="bibr" target="#b49">[50]</ref> HIP 220 570 54% Röttger <ref type="bibr" target="#b31">[32]</ref> As-printed 427 ± 8 522 ± 5 15 ± 2 Röttger <ref type="bibr" target="#b31">[32]</ref> HIP (1150 °C, 150 MPa) 231 ± 4 563 ± 6 81 ± 7 This work As-printed 445 ± 20 585 ± 20 21 ± 2 This work Annealed 370 ± 10 595 ± 10 29 ± 2 This work HIP + annealed 263 ± 5 611 ± 5 48 ± 3</s></p><p><s>The fractured surface of the AP sample after tensile testing was characterized using electron microscopy (Figure <ref type="figure" target="#fig_21">10</ref>).</s><s>Three different magnifications were used for fractography in order to provide general and local features of the fractured surface.</s><s>Figure <ref type="figure" target="#fig_22">10a-c</ref> is associated with tests along the BD.</s><s>In the lowest magnification image (Figure <ref type="figure" target="#fig_22">10a</ref>), the scan tracks and layers during printing are evident, as shown by the overlapping linear strips on the cross-section of the fractured surface.</s><s>The stress applied along the building direction results in poor intralayer fusion, which then leads to fracture.</s><s>In the high magnification imaging in Figure <ref type="figure" target="#fig_22">10b</ref>,c, a combination of dimple structure and cleavage structure can be observed since the material has an appreciable elongation of about 21%.</s><s>The observations in the BD direction are similar to the fractured surface found in the TD (Figure <ref type="figure" target="#fig_22">10df</ref>).</s><s>Fractography was also performed on the AHT sample (Figure <ref type="figure" target="#fig_23">11</ref>). Figure <ref type="figure" target="#fig_24">11a-c</ref> is for the fractured surfaces from the tensile tests along the BD, while Figure <ref type="figure" target="#fig_24">11d</ref>-f are for the TD.</s><s>The lower magnification images (Figure <ref type="figure" target="#fig_24">11a</ref>,<ref type="figure">d</ref>) display the scan tracks and layers that become unstable during testing.</s><s>The higher magnification images in Figure <ref type="figure" target="#fig_24">11b</ref>,c (BD), and Figure <ref type="figure" target="#fig_24">11e</ref>,f (TD) show a significantly higher amount of dimple structure as compared to the AP sample in Figure <ref type="figure" target="#fig_21">10</ref>.</s><s>This observation is due to the improved elongation of the AHT sample (30%) compared to the AP sample (21%).</s></p><p><s>Metals 2020, 10, x FOR PEER REVIEW 12 of 18</s></p><p><s>Fractography was also performed on the AHT sample (Figure <ref type="figure" target="#fig_23">11</ref>). Figure <ref type="figure" target="#fig_24">11a</ref>-c is for the fractured surfaces from the tensile tests along the BD, while Figure <ref type="figure" target="#fig_24">11d</ref>-f are for the TD.</s><s>The lower magnification images (Figure <ref type="figure" target="#fig_24">11a</ref>,<ref type="figure">d</ref>) display the scan tracks and layers that become unstable during testing.</s><s>The higher magnification images in Figure <ref type="figure" target="#fig_24">11b</ref>,c (BD), and Figure <ref type="figure" target="#fig_24">11e</ref>,f (TD) show a significantly higher amount of dimple structure as compared to the AP sample in Figure <ref type="figure" target="#fig_21">10</ref>.</s><s>This observation is due to the improved elongation of the AHT sample (30%) compared to the AP sample (21%).</s><s>The SEM images in Figure <ref type="figure" target="#fig_25">12</ref> depict the fractured surface of the HIP + AHT sample after the tensile testing.</s><s>The first three images (Figure <ref type="figure" target="#fig_26">12a-c</ref>) are for the tests along the BD, while the last three micrographs (Figure <ref type="figure" target="#fig_26">12d-f</ref>) are for the tests along the TD.</s><s>The low magnification images in Figure <ref type="figure" target="#fig_26">12a</ref> (BD) and Figure <ref type="figure" target="#fig_26">12d</ref> (TD) have different features than that of the AP and AHT samples.</s><s>Here, there are no unstable layers of material that can lead to premature failure.</s><s>Since the HIP + AHT sample has a lower porosity, the fractured surface illustrates a denser surface after failure.</s><s>By having a lower fraction of porosity, it allows for the delay of the coalescence of voids to form cracks that eventually propagate until fracture.</s><s>As a result, this sample had the highest elongation (46%).</s><s>The high magnification SEM images in Figure <ref type="figure" target="#fig_26">12b</ref>,c and Figure <ref type="figure" target="#fig_26">12e</ref>,f for the BD and TD, respectively, demonstrate mostly dimple structures, which is common for materials with high ductility.</s><s>Note that the dimple structures in this sample are far more evident compared to the microstructures in Figure <ref type="figure" target="#fig_21">10</ref> (AP sample) and Figure <ref type="figure" target="#fig_23">11</ref> (AHT sample).</s></p><p><s>The deformed samples were analyzed via EBSD to understand the behavior of grains during straining.</s><s>The results for the AP, AHT and the HIP + AHT samples are presented in Figure <ref type="figure" target="#fig_28">13a-c</ref>, respectively.</s><s>Note that the BD is parallel to the tensile direction.</s><s>The tensile direction is along the vertical direction of the image.</s><s>As expected, the grains become elongated as a result of applied stress.</s><s>The SEM images in Figure <ref type="figure" target="#fig_25">12</ref> depict the fractured surface of the HIP + AHT sample after the tensile testing.</s><s>The first three images (Figure <ref type="figure" target="#fig_26">12a-c</ref>) are for the tests along the BD, while the last three micrographs (Figure <ref type="figure" target="#fig_26">12d-f</ref>) are for the tests along the TD.</s><s>The low magnification images in Figure <ref type="figure" target="#fig_26">12a</ref> (BD) and Figure <ref type="figure" target="#fig_26">12d</ref> (TD) have different features than that of the AP and AHT samples.</s><s>Here, there are no unstable layers of material that can lead to premature failure.</s><s>Since the HIP + AHT sample has a lower porosity, the fractured surface illustrates a denser surface after failure.</s><s>By having a lower fraction of porosity, it allows for the delay of the coalescence of voids to form cracks that eventually propagate until fracture.</s><s>As a result, this sample had the highest elongation (46%).</s><s>The high magnification SEM images in Figure <ref type="figure" target="#fig_26">12b</ref>,c and Figure <ref type="figure" target="#fig_26">12e</ref>,f for the BD and TD, respectively, demonstrate mostly dimple structures, which is common for materials with high ductility.</s><s>Note that the dimple structures in this sample are far more evident compared to the microstructures in Figure <ref type="figure" target="#fig_21">10</ref> (AP sample) and Figure <ref type="figure" target="#fig_23">11</ref> (AHT sample).</s></p><p><s>less evident.</s><s>This may be due to the rotation of crystals during deformation at a preferred orientation.</s><s>For this reason, the IPF configuration is presented alongside the EBSD images.</s><s>Here it can be seen that the texture intensity factor increases, i.e., from 2.68 to 6.47, as the elongation increases, i.e., from 21% to 48%.</s><s>The (111) planes become more evident during deformation.</s><s>Note that the increase in elongation allows for more crystal orientation during deformation; thus, the textured material is depicted in Figure <ref type="figure" target="#fig_28">13c</ref>, with an intensity factor of 6.47 and a preferred (111) orientation.</s><s>The deformed samples were analyzed via EBSD to understand the behavior of grains during straining.</s><s>The results for the AP, AHT and the HIP + AHT samples are presented in Figure <ref type="figure" target="#fig_28">13a-c</ref>, respectively.</s><s>Note that the BD is parallel to the tensile direction.</s><s>The tensile direction is along the vertical direction of the image.</s><s>As expected, the grains become elongated as a result of applied stress.</s><s>The deformation allows the formation of twins in the AP (Figure <ref type="figure" target="#fig_28">13a</ref>) and the AHT (Figure <ref type="figure" target="#fig_28">13b</ref>) samples, which commonly occurs in both additively and conventionally manufactured 316L stainless steel <ref type="bibr" target="#b50">[51]</ref>.</s><s>However, for the HIP + AHT sample that has twins prior to tensile testing, the twins are less evident.</s><s>This may be due to the rotation of crystals during deformation at a preferred orientation.</s><s>For this reason, the IPF configuration is presented alongside the EBSD images.</s><s>Here it can be seen that the texture intensity factor increases, i.e., from 2.68 to 6.47, as the elongation increases, i.e., from 21% to 48%.</s><s>The (111) planes become more evident during deformation.</s><s>Note that the increase in elongation allows for more crystal orientation during deformation; thus, the textured material is depicted in Figure <ref type="figure" target="#fig_28">13c</ref>, with an intensity factor of 6.47 and a preferred (111) orientation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>In this work, LPBF-manufactured samples of 316L stainless steel were hot isostatically pressed and annealed.</s><s>The effect of annealing heat treatment on the microstructure, porosity, mechanical properties and fracture behavior was investigated.</s><s>The combination of hot isostatic pressing and annealing heat treatment significantly improved the ductility of the as-printed 316L stainless steel by as much as 130% without sacrificing tensile strength.</s><s>The presence of nano-scale and macro-scale twins appears to contribute to the improved ductility of the material.</s><s>Despite the improved elongation, this value is within the average values obtained from the literature that only employed HIP.</s><s>The main advantage of the present method is the increase in yield and tensile strengths by at least 14% and 7%, respectively, from values cited in the literature.</s><s>Since one of the issues in certifying AM components is the limited information concerning mechanical properties, this work provides additional post-processing data following HIP.</s><s>This contributes to our knowledge of the yield and tensile strengths of AM 316L stainless steel components.</s><s>Fracture surface analysis reveals that hot isostatic pressing and annealing heat treatment modifies the fracture mechanism of the material.</s><s>This post-processing technique facilitates the enhanced ductile failure of 316L stainless steel.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>In this work, LPBF-manufactured samples of 316L stainless steel were hot isostatically pressed and annealed.</s><s>The effect of annealing heat treatment on the microstructure, porosity, mechanical properties and fracture behavior was investigated.</s><s>The combination of hot isostatic pressing and annealing heat treatment significantly improved the ductility of the as-printed 316L stainless steel by as much as 130% without sacrificing tensile strength.</s><s>The presence of nano-scale and macro-scale twins appears to contribute to the improved ductility of the material.</s><s>Despite the improved elongation, this value is within the average values obtained from the literature that only employed HIP.</s><s>The main advantage of the present method is the increase in yield and tensile strengths by at least 14% and 7%, respectively, from values cited in the literature.</s><s>Since one of the issues in certifying AM components is the limited information concerning mechanical properties, this work provides additional post-processing data following HIP.</s><s>This contributes to our knowledge of the yield and tensile strengths of AM 316L stainless steel components.</s><s>Fracture surface analysis reveals that hot isostatic pressing and annealing heat treatment modifies the fracture mechanism of the material.</s><s>This post-processing technique facilitates the enhanced ductile failure of 316L stainless steel.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>(a) Scanning electron microscope image of the 316L powder; and (b) the powder size distribution.</s><s>Q3 refers to the cumulative size distribution while q3 indicates the particle size distribution.</s><s>The diameter of the powders was mostly in the range of 15-25 μm.</s></p></div></figDesc><graphic coords="3,274.06,249.10,200.16,146.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>(a) Scanning electron microscope image of the 316L powder; and (b) the powder size distribution.</s><s>Q 3 refers to the cumulative size distribution while q 3 indicates the particle size distribution.</s><s>The diameter of the powders was mostly in the range of 15-25 µm.</s></p></div></figDesc><graphic coords="3,123.94,247.66,150.12,147.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. The measured relative densities from the optical micrographs reveal that the hot isostatic pressing (HIP) + annealing heat-treated (AHT) sample has the highest relative density.</s><s>(n = 5).</s></p></div></figDesc><graphic coords="4,187.42,301.52,222.36,157.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Scanning electron microscopy images of the as-printed 316L sample taken from the plane normal to the building direction (BD) at (a) a lower magnification, and (b) at a higher magnification.</s></p></div></figDesc><graphic coords="4,111.58,503.12,374.04,129.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. The measured relative densities from the optical micrographs reveal that the hot isostatic pressing (HIP) + annealing heat-treated (AHT) sample has the highest relative density.</s><s>(n = 5).</s></p></div></figDesc><graphic coords="4,187.66,390.65,222.36,157.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. The measured relative densities from the optical micrographs reveal that the hot isostatic pressing (HIP) + annealing heat-treated (AHT) sample has the highest relative density.</s><s>(n = 5).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Scanning electron microscopy images of the as-printed 316L sample taken from the plane normal to the building direction (BD) at (a) a lower magnification, and (b) at a higher magnification.</s></p></div></figDesc><graphic coords="4,111.82,592.25,374.04,129.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Scanning electron microscopy images of the as-printed 316L sample taken from the plane normal to the building direction (BD) at (a) a lower magnification, and (b) at a higher magnification.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4.</s><s>The (a) electron backscatter diffraction (EBSD) inverse pole figure (IPF)-Z map, (b) the grain boundary distribution map, and (c) the IPF representation of grains of as-printed 316L samples taken from the building direction.</s><s>Similarly, the (d) EBSD IPF-Z map, (e) the grain boundary distribution map, and (f) the IPF representation of grains of as-printed 316L samples taken from the transverse direction.</s></p></div></figDesc><graphic coords="5,308.62,332.49,130.44,311.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4.</s><s>The (a) electron backscatter diffraction (EBSD) inverse pole figure (IPF)-Z map, (b) the grain boundary distribution map, and (c) the IPF representation of grains of as-printed 316L samples taken from the building direction.</s><s>Similarly, the (d) EBSD IPF-Z map, (e) the grain boundary distribution map, and (f) the IPF representation of grains of as-printed 316L samples taken from the transverse direction.</s></p></div></figDesc><graphic coords="5,155.38,331.41,132.24,314.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Scanning electron microscopy images of the heat-treated 316L sample taken from the plane normal to the building direction at (a) low magnification, and (b) high magnification.</s></p></div></figDesc><graphic coords="6,103.54,336.25,389.40,133.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Scanning electron microscopy images of the heat-treated 316L sample taken from the plane normal to the building direction at (a) low magnification, and (b) high magnification.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>The (a) EBSD IPF-Z map, (b) the grain boundary distribution map, and (c) the IPF representation of the grains of annealing heat-treated 316L samples taken from the building direction.</s><s>Similarly, the (d) EBSD IPF-Z map, (e) the grain boundary distribution map, and (f) the IPF representation of the grains of the annealing heat-treated samples taken from the transverse direction.</s></p></div></figDesc><graphic coords="7,312.46,90.74,135.24,324.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>The (a) EBSD IPF-Z map, (b) the grain boundary distribution map, and (c) the IPF representation of the grains of annealing heat-treated 316L samples taken from the building direction.</s><s>Similarly, the (d) EBSD IPF-Z map, (e) the grain boundary distribution map, and (f) the IPF representation of the grains of the annealing heat-treated samples taken from the transverse direction.</s></p></div></figDesc><graphic coords="7,146.98,90.74,133.92,323.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7.</s><s>The scanning electron microscopy images of the 316L sample after hot isostatic pressing and annealing heat treatment at (a) lower magnification, and (b) higher magnification.</s></p></div></figDesc><graphic coords="7,109.90,594.39,373.92,128.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7.</s><s>The scanning electron microscopy images of the 316L sample after hot isostatic pressing and annealing heat treatment at (a) lower magnification, and (b) higher magnification.</s></p></div></figDesc><graphic coords="7,145.18,767.31,145.20,345.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7.</s><s>The scanning electron microscopy images of the 316L sample after hot isostatic pressing and annealing heat treatment at (a) lower magnification, and (b) higher magnification.</s></p></div></figDesc><graphic coords="8,109.42,173.73,373.92,128.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8.</s><s>The (a) EBSD IPF-Z map, (b) the grain boundary distribution map, and (c) the IPF representation of the grains of hot isostatic pressing and annealing heat treatment taken from the building direction.</s><s>Similarly, the (d) EBSD IPF-Z map, (e) the grain boundary distribution map, and (f) the IPF representation of the grains of the sample after hot isostatic pressing and annealing heat treatment taken from the transverse direction.</s></p></div></figDesc><graphic coords="8,303.58,347.01,144.48,344.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8.</s><s>The (a) EBSD IPF-Z map, (b) the grain boundary distribution map, and (c) the IPF representation of the grains of hot isostatic pressing and annealing heat treatment taken from the building direction.</s><s>Similarly, the (d) EBSD IPF-Z map, (e) the grain boundary distribution map, and (f) the IPF representation of the grains of the sample after hot isostatic pressing and annealing heat treatment taken from the transverse direction.</s></p></div></figDesc><graphic coords="8,144.70,346.65,145.20,345.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9.</s><s>The engineering stress-strain curves of (a) the as-printed (AP) sample, (b) the AHT sample, and (c) the HIP + AHT sample.</s><s>The stress-strain curves of each condition are compared in (d) the BD, and (e) the transverse direction (TD).</s></p></div></figDesc><graphic coords="10,214.78,367.05,170.52,139.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9.</s><s>The engineering stress-strain curves of (a) the as-printed (AP) sample, (b) the AHT sample, and (c) the HIP + AHT sample.</s><s>The stress-strain curves of each condition are compared in (d) the BD, and (e) the transverse direction (TD).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>SEM images of the fractured surface of the AP sample tensile tested along the BD (a-c), and the TD (d-f).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>SEM images of the fractured surface of the AP sample tensile tested along the BD (a-c), and the TD (d-f).</s></p></div></figDesc><graphic coords="11,128.86,376.23,336.96,365.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>SEM images of the annealing heat-treated sample tensile tested along BD (a-c) and TD (d-f).</s></p></div></figDesc><graphic coords="12,109.90,183.15,375.96,372.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>SEM images of the annealing heat-treated sample tensile tested along BD (a-c) and TD (d-f).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Figure 12 .</head><label>12</label><figDesc><div><p><s>Figure 12.</s><s>SEM images of the hot isostatic pressed and annealing heat-treated sample tensile tested along the BD (a-c) and the TD (d-f).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>Figure 12 .</head><label>12</label><figDesc><div><p><s>Figure 12.</s><s>SEM images of the hot isostatic pressed and annealing heat-treated sample tensile tested along the BD (a-c) and the TD (d-f).</s></p></div></figDesc><graphic coords="13,104.86,91.40,385.44,391.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_27"><head>Figure 13 .</head><label>13</label><figDesc><div><p><s>Figure 13.</s><s>The EBSD IPF-Z map and IPF representation of tensile tested samples: (a) as-printed, (b) annealing heat treated, and (c) hot isostatic pressed and annealing heat treated.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_28"><head>Figure 13 .</head><label>13</label><figDesc><div><p><s>Figure 13.</s><s>The EBSD IPF-Z map and IPF representation of tensile tested samples: (a) as-printed, (b) annealing heat treated, and (c) hot isostatic pressed and annealing heat treated.</s></p></div></figDesc><graphic coords="14,151.30,224.85,294.96,273.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Chemical composition (wt%) of the 316L stainless steel powders.</s></p></div></figDesc><table><row><cell>Sample</cell><cell>Fe</cell><cell>Cr</cell><cell>Ni</cell><cell>Mo</cell><cell>Mn</cell><cell>Si</cell><cell>C</cell><cell>N</cell></row><row><cell>Powder</cell><cell>Bal.</cell><cell>17.3</cell><cell>13.9</cell><cell>2.79</cell><cell>1.51</cell><cell>0.24</cell><cell>0.008</cell><cell>0.07</cell></row><row><cell>Build</cell><cell>Bal.</cell><cell>16.9</cell><cell>13.8</cell><cell>2.56</cell><cell>1.52</cell><cell>0.24</cell><cell>0.008</cell><cell>0.05</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Chemical composition (wt%) of the 316L stainless steel powders.</s></p></div></figDesc><table><row><cell>Sample</cell><cell>Fe</cell><cell>Cr</cell><cell>Ni</cell><cell>Mo</cell><cell>Mn</cell><cell>Si</cell><cell>C</cell><cell>N</cell></row><row><cell>Powder</cell><cell>Bal.</cell><cell>17.3</cell><cell>13.9</cell><cell>2.79</cell><cell>1.51</cell><cell>0.24</cell><cell>0.008</cell><cell>0.07</cell></row><row><cell>Build</cell><cell>Bal.</cell><cell>16.9</cell><cell>13.8</cell><cell>2.56</cell><cell>1.52</cell><cell>0.24</cell><cell>0.008</cell><cell>0.05</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Summary of the mechanical properties of additively manufactured 316L stainless steel.</s><s>(n = 5).</s></p></div></figDesc><table><row><cell>Mechanical Property</cell><cell>AP (BD)</cell><cell>AP (TD)</cell><cell>AHT (BD)</cell><cell>AHT (TD)</cell><cell>HIP + AHT (BD)</cell><cell>HIP + AHT (TD)</cell></row><row><cell>Tensile Strength, MPa</cell><cell>579 ± 10</cell><cell>585 ± 20</cell><cell>582 ± 5</cell><cell>595 ± 10</cell><cell>592 ± 5</cell><cell>611 ± 5</cell></row><row><cell>Yield Strength, MPa</cell><cell>439 ± 5</cell><cell>445 ± 20</cell><cell>365 ± 10</cell><cell>370 ± 10</cell><cell>257 ± 5</cell><cell>263 ± 5</cell></row><row><cell>Elongation, %</cell><cell>21 ± 2</cell><cell>21 ± 2</cell><cell>31 ± 3</cell><cell>29 ± 2</cell><cell>47 ± 3</cell><cell>48 ± 3</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Summary of the mechanical properties of additively manufactured 316L stainless steel.</s><s>(n = 5).</s></p></div></figDesc><table><row><cell>Mechanical Property</cell><cell>AP (BD)</cell><cell>AP (TD)</cell><cell>AHT (BD)</cell><cell>AHT (TD)</cell><cell>HIP + AHT (BD)</cell><cell>HIP + AHT (TD)</cell></row><row><cell>Tensile Strength, MPa</cell><cell>579 ± 10</cell><cell>585 ± 20</cell><cell>582 ± 5</cell><cell>595 ± 10</cell><cell>592 ± 5</cell><cell>611 ± 5</cell></row><row><cell>Yield Strength, MPa</cell><cell>439 ± 5</cell><cell>445 ± 20</cell><cell>365 ± 10</cell><cell>370 ± 10</cell><cell>257 ± 5</cell><cell>263 ± 5</cell></row><row><cell>Elongation, %</cell><cell>21 ± 2</cell><cell>21 ± 2</cell><cell>31 ± 3</cell><cell>29 ± 2</cell><cell>47 ± 3</cell><cell>48 ± 3</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p><s>Funding: This research was funded by the <rs type="funder">Natural Sciences and Engineering Research Council of Canada (NSERC)</rs>, the <rs type="funder">Canada Foundation for Innovation (CFI)</rs>, the <rs type="funder">New Brunswick Innovation Foundation (NBIF)</rs> and the <rs type="funder">Harrison McCain Foundation</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p><s>The authors declare no conflict of interest.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Author Contributions: Conceptualization, C.A.J., Y.T. and K.C.; methodology, Y.T. C.A.J. and K.C.; software, C.A.J. and K.C..; validation, Y.T., C.A.J. and J.G.S.; formal analysis, K.C.; investigation, C.A.J, Y.T., J.G.S. and K.C.; resources, C.A.J., Y.T. and J.G.S.; data curation, K.C.; writing-original draft preparation, K.C., Y.T. and Author Contributions: Conceptualization, C.A.J., Y.T. and K.C.; methodology, Y.T. C.A.J. and K.C.; software, C.A.J. and K.C.; validation, Y.T., C.A.J. and J.G.S.; formal analysis, K.C.; investigation, C.A.J., Y.T., J.G.S. and K.C.; resources, C.A.J., Y.T. and J.G.S.; data curation, K.C.; writing-original draft preparation, K.C., Y.T. and C.A.J.; writing-review and editing, C.A.J., Y.T., and J.G.S.; visualization, C.A.J. and K.C.; supervision, C.A.J.; project administration, C.A.J.; funding acquisition, C.A.J.</s><s>All authors have read and agreed to the published version of the manuscript.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="table">2</ref> <p><s>Table <ref type="table">A1</ref> below summarizes the obtained elongation, yield strength, and the tensile strengths from five measurements along the TD and the BD:</s></p><p><s>Table A1.</s><s>Measured mechanical properties along the BD and the TD of the AP, AHT and the HIP + AHT samples.</s><s>Sample Yield Strength, MPa Tensile Strength, MPa Elongation, % TD BD TD BD TD BD AP-1 460 445 588 577 17.7 20.3 AP-2 431 433 586 584 21.1 18.7 AP-3 465 439 603 580 22.2 22.8 AP-4 452 441 596 588 22.7 23.0 AP-5 418 437 552 565 22.8 20.6 AHT-1 365 357 611 579 30.3 26.6 AHT-2 373 357 594 576 28.6 34.2 AHT-3 355 379 598 584 27.8 32.7 AHT-4 375 365 583 588 27.0 31.3</s><s>AHT-5 380 368 591 581 33.0 29 HIP-AHT-1 256 257 607 597 50.0 44.4 HIP-AHT-2 263 258 605 598 51.2 51.0 HIP-AHT-3 269 261 611 586 44.4 43.3 HIP-AHT-4 265 249 616 589 45.1 46.3 HIP-AHT-5 260 261 618 589 50.2 50.3</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_29"><figDesc><div><p><s>Appendix A. Raw Data Used in the Values of Mechanical Properties in Table</s></p></div></figDesc></figure>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Progress in additive manufacturing and rapid prototyping</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Leu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakagawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0007-8506(07)63240-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cirp Ann. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="525" to="540" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kruth, J.-P.; Leu, M.-C.; Nakagawa, T. Progress in additive manufacturing and rapid prototyping. Cirp Ann. Manuf. Technol. 1998, 47, 525-540. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Rationalization of microstructure heterogeneity in INCONEL 718 builds made by the direct laser additive manufacturing process</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcallister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Colijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Farson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nordin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Babu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-014-2370-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="4470" to="4483" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tian, Y.; McAllister, D.; Colijn, H.; Mills, M.; Farson, D.; Nordin, M.; Babu, S. Rationalization of microstructure heterogeneity in INCONEL 718 builds made by the direct laser additive manufacturing process. Metall. Mater. Trans. A 2014, 45, 4470-4483. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A critical review of powder-based additive manufacturing of ferrous alloys: Process parameters, microstructure and mechanical properties</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fayazfar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salarian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rogalsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sarker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Paserin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Toyserkani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2018.02.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="98" to="128" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fayazfar, H.; Salarian, M.; Rogalsky, A.; Sarker, D.; Russo, P.; Paserin, V.; Toyserkani, E. A critical review of powder-based additive manufacturing of ferrous alloys: Process parameters, microstructure and mechanical properties. Mater. Des. 2018, 144, 98-128. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">ASTM52900-15 Standard Terminology for Additive Manufacturing-General Principles-Terminology</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Astm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASTM Int. West Conshohockenpa</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Astm, I. ASTM52900-15 Standard Terminology for Additive Manufacturing-General Principles-Terminology. ASTM Int. West Conshohockenpa 2015, 3, 5.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Lattice Structures Manufactured by SLM: On the Effect of Geometrical Dimensions on Microstructure Evolution During Processing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schaper</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11663-014-0086-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. B</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1181" to="1185" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Niendorf, T.; Brenne, F.; Schaper, M. Lattice Structures Manufactured by SLM: On the Effect of Geometrical Dimensions on Microstructure Evolution During Processing. Metall. Mater. Trans. B 2014, 45, 1181-1185. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Saving weight with metallic lattice structures: Design challenges with a real-world example</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kantareddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Roh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dickman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lehtihet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Solid Freeform Fabrication Symposium (SFF)</title>
+		<meeting>the Solid Freeform Fabrication Symposium (SFF)<address><addrLine>Austin, TX, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2020-08">August 2020</date>
+			<biblScope unit="page" from="8" to="10" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kantareddy, S.; Roh, B.; Simpson, T.; Joshi, S.; Dickman, C.; Lehtihet, E. Saving weight with metallic lattice structures: Design challenges with a real-world example. In Proceedings of the Solid Freeform Fabrication Symposium (SFF), Austin, TX, USA, 13-15 August 2020; pp. 8-10.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Microstructure evolution of Inconel 738 fabricated by pulsed laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Muñiz-Lerma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gauvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brochu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40964-018-0062-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="97" to="107" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muñiz-Lerma, J.A.; Tian, Y.; Wang, X.; Gauvin, R.; Brochu, M. Microstructure evolution of Inconel 738 fabricated by pulsed laser powder bed fusion. Prog. Addit. Manuf. 2019, 4, 97-107. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Nickel-based superalloy microstructure obtained by pulsed laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muñiz-Lerma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brochu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchar.2017.07.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Charact</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="306" to="315" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tian, Y.; Muñiz-Lerma, J.; Brochu, M. Nickel-based superalloy microstructure obtained by pulsed laser powder bed fusion. Mater. Charact. 2017, 131, 306-315. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Additively-manufactured functionally graded Ti-6Al-4V lattice structures with high strength under static and dynamic loading: Experiments</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Song</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijimpeng.2017.09.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Impact Eng</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="255" to="272" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiao, L.; Song, W. Additively-manufactured functionally graded Ti-6Al-4V lattice structures with high strength under static and dynamic loading: Experiments. Int. J. Impact Eng. 2018, 111, 255-272. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Spatially dependent properties in a laser additive manufactured Ti-6Al-4V component</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Palanivel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Dutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Faierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mishra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.12.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">654</biblScope>
+			<biblScope unit="page" from="39" to="52" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Palanivel, S.; Dutt, A.K.; Faierson, E.J.; Mishra, R.S. Spatially dependent properties in a laser additive manufactured Ti-6Al-4V component. Mater. Sci. Eng. A 2016, 654, 39-52. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A mechanical property evaluation of graded density Al-Si10-Mg lattice structures manufactured by selective laser melting</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Maskery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Aboulkhair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Aremu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Wildman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J M</forename><surname>Hague</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2016.06.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">670</biblScope>
+			<biblScope unit="page" from="264" to="274" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maskery, I.; Aboulkhair, N.T.; Aremu, A.O.; Tuck, C.J.; Ashcroft, I.A.; Wildman, R.D.; Hague, R.J.M. A mechanical property evaluation of graded density Al-Si10-Mg lattice structures manufactured by selective laser melting. Mater. Sci. Eng. A 2016, 670, 264-274. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effect of strut orientation on the microstructure heterogeneities in AlSi10Mg lattices processed by selective laser melting</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Delroisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Simar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2017.07.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="32" to="35" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delroisse, P.; Jacques, P.J.; Maire, E.; Rigo, O.; Simar, A. Effect of strut orientation on the microstructure heterogeneities in AlSi10Mg lattices processed by selective laser melting. Scr. Mater. 2017, 141, 32-35. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Microstructural evolution and mechanical properties of a newly designed steel fabricated by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aranas</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>submitted</note>
+	<note type="raw_reference">Tian, R.P.; Aranas, C., Jr. Microstructural evolution and mechanical properties of a newly designed steel fabricated by laser powder bed fusion. Addit. Manuf. 2020. submitted.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microstructural of a newly designed steel manufactured by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Palad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chadha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aranas</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">Palad, Y.T.; Chadha, K.; Rodrigues, S.; Aranas, C., Jr. Microstructural of a newly designed steel manufactured by laser powder bed fusion. Mater. Lett.. (in press).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Characterization of single crystalline austenitic stainless steel thin struts processed by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muñiz-Lerma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sanchez-Mata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shandiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Brodusch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gauvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brochu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2018.12.032</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="51" to="56" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X.; Muñiz-Lerma, J.; Sanchez-Mata, O.; Shandiz, M.A.; Brodusch, N.; Gauvin, R.; Brochu, M. Characterization of single crystalline austenitic stainless steel thin struts processed by laser powder bed fusion. Scr. Mater. 2019, 163, 51-56. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Microstructure Evolution, Mechanical Properties and Deformation Behavior of an Additively Manufactured Maraging Steel</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chadha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bocher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Spray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aranas</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma13102380</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">2380</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chadha, K.; Tian, Y.; Bocher, P.; Spray, J.G.; Aranas, C. Microstructure Evolution, Mechanical Properties and Deformation Behavior of an Additively Manufactured Maraging Steel. Materials 2020, 13, 2380. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of additive manufactured copper alloy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Popovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sufiiarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Polozov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Borisov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Masaylo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Orlov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2016.05.064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="page" from="38" to="41" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Popovich, A.; Sufiiarov, V.; Polozov, I.; Borisov, E.; Masaylo, D.; Orlov, A. Microstructure and mechanical properties of additive manufactured copper alloy. Mater. Lett. 2016, 179, 38-41. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">350mW G-band medium power amplifier fabricated through a new method of 3D-copper additive manufacturing</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kazemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Griffith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kwiatkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2015 IEEE MTT-S International Microwave Symposium</title>
+		<meeting>the 2015 IEEE MTT-S International Microwave Symposium<address><addrLine>Phoenix, AZ, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-05">May 2015</date>
+			<biblScope unit="page" from="1" to="3" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kazemi, H.; Miller, D.; Mohan, A.; Griffith, Z.; Jin, Y.; Kwiatkowski, J.; Tran, L.; Crawford, M. 350mW G-band medium power amplifier fabricated through a new method of 3D-copper additive manufacturing. In Proceedings of the 2015 IEEE MTT-S International Microwave Symposium, Phoenix, AZ, USA, 17-22 May 2015; pp. 1-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of process parameters on non-modulated Ni-Mn-Ga alloy manufactured using powder bed fusion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nilsén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Ituarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Partanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Hannula</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2019.05.029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="262" to="274" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nilsén, F.; Ituarte, I.F.; Salmi, M.; Partanen, J.; Hannula, S.P. Effect of process parameters on non-modulated Ni-Mn-Ga alloy manufactured using powder bed fusion. Addit. Manuf. 2019, 28, 262-274. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Surface modification of additively manufactured 18% nickel maraging steel by ultrasonic vibration-assisted ball burnishing</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Ituarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Papula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hemming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coatanea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Virkkunen</surname></persName>
+		</author>
+		<idno type="DOI">10.1115/1.4046903</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page">71008</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ituarte, I.F.; Salmi, M.; Papula, S.; Huuki, J.; Hemming, B.; Coatanea, E.; Nurmi, S.; Virkkunen, I. Surface modification of additively manufactured 18% nickel maraging steel by ultrasonic vibration-assisted ball burnishing. J. Manuf. Process. 2020, 142, 071008. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Material issues in additive manufacturing: A review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramakrishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2016.11.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="185" to="200" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Singh, S.; Ramakrishna, S.; Singh, R. Material issues in additive manufacturing: A review. J. Manuf. Process. 2017, 25, 185-200. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Strength and ductility of 316L austenitic stainless steel strengthened by nano-scale twin bundles</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2011.11.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="1059" to="1071" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yan, F.K.; Liu, G.Z.; Tao, N.R.; Lu, K. Strength and ductility of 316L austenitic stainless steel strengthened by nano-scale twin bundles. Acta Mater. 2012, 60, 1059-1071. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Intragranular cellular segregation network structure strengthening 316L stainless steel prepared by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wikman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jnucmat.2015.12.034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nucl. Mater</title>
+		<imprint>
+			<biblScope unit="volume">470</biblScope>
+			<biblScope unit="page" from="170" to="178" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhong, Y.; Liu, L.; Wikman, S.; Cui, D.; Shen, Z. Intragranular cellular segregation network structure strengthening 316L stainless steel prepared by selective laser melting. J. Nucl. Mater. 2016, 470, 170-178. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">High Strength and Ductility of Additively Manufactured 316L Stainless Steel Explained</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shamsujjoha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Agnew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fitz-Gerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Newman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-018-4607-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="3011" to="3027" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shamsujjoha, M.; Agnew, S.R.; Fitz-Gerald, J.M.; Moore, W.R.; Newman, T.A. High Strength and Ductility of Additively Manufactured 316L Stainless Steel Explained. Metall. Mater. Trans. A 2018, 49, 3011-3027. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of stainless steel 316L vertical struts manufactured by laser powder bed fusion process</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Muñiz-Lerma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sánchez-Mata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shandiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brochu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2018.08.069</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">736</biblScope>
+			<biblScope unit="page" from="27" to="40" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X.; Muñiz-Lerma, J.A.; Sánchez-Mata, O.; Shandiz, M.A.; Brochu, M. Microstructure and mechanical properties of stainless steel 316L vertical struts manufactured by laser powder bed fusion process. Mater. Sci. Eng. A 2018, 736, 27-40. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Crystallographic-orientationdependent tensile behaviours of stainless steel 316L fabricated by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Muñiz-Lerma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shandiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sanchez-Mata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brochu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2019.138395</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">766</biblScope>
+			<biblScope unit="page">138395</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X.; Muñiz-Lerma, J.A.; Shandiz, M.A.; Sanchez-Mata, O.; Brochu, M. Crystallographic-orientation- dependent tensile behaviours of stainless steel 316L fabricated by laser powder bed fusion. Mater. Sci. Eng. A 2019, 766, 138395. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Mechanical properties and deformation behavior of additively manufactured lattice structures of stainless steel</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Köhnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Haase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bültmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schleifenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bleck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2018.02.062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="205" to="217" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Köhnen, P.; Haase, C.; Bültmann, J.; Ziegler, S.; Schleifenbaum, J.H.; Bleck, W. Mechanical properties and deformation behavior of additively manufactured lattice structures of stainless steel. Mater. Des. 2018, 145, 205-217. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Simultaneously enhanced strength and ductility for 3D-printed stainless steel 316L by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Tor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41427-018-0018-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPG Asia Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="127" to="136" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, Z.; Tan, X.; Tor, S.B.; Chua, C.K. Simultaneously enhanced strength and ductility for 3D-printed stainless steel 316L by selective laser melting. NPG Asia Mater. 2018, 10, 127-136. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Competing mechanisms and modeling of deformation in austenitic stainless steel single crystals with and without nitrogen</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sehitoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">I</forename><surname>Chumlyakov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1359-6454(01)00296-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="3919" to="3933" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karaman, I.; Sehitoglu, H.; Maier, H.J.; Chumlyakov, Y.I. Competing mechanisms and modeling of deformation in austenitic stainless steel single crystals with and without nitrogen. Acta Mater. 2001, 49, 3919-3933. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effects of process time interval and heat treatment on the mechanical and microstructural properties of direct laser deposited 316L stainless steel</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yadollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shamsaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Seely</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.07.056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">644</biblScope>
+			<biblScope unit="page" from="171" to="183" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yadollahi, A.; Shamsaei, N.; Thompson, S.M.; Seely, D.W. Effects of process time interval and heat treatment on the mechanical and microstructural properties of direct laser deposited 316L stainless steel. Mater. Sci. Eng. A 2015, 644, 171-183. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">An Investigation of the Microstructure and Fatigue Behavior of Additively Manufactured AISI 316L Stainless Steel with Regard to the Influence of Heat Treatment</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Blinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gläßner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Aurich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beck</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/met8040220</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metals</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">220</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blinn, B.; Klein, M.; Gläßner, C.; Smaga, M.; Aurich, J.C.; Beck, T. An Investigation of the Microstructure and Fatigue Behavior of Additively Manufactured AISI 316L Stainless Steel with Regard to the Influence of Heat Treatment. Metals 2018, 8, 220. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Comparison of microstructure and mechanical properties of 316L austenitic steel processed by selective laser melting with hot-isostatic pressed and cast material</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rottger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Geenen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Windmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Binner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Theisen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2016.10.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">678</biblScope>
+			<biblScope unit="page" from="365" to="376" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rottger, A.; Geenen, K.; Windmann, M.; Binner, F.; Theisen, W. Comparison of microstructure and mechanical properties of 316L austenitic steel processed by selective laser melting with hot-isostatic pressed and cast material. Mater. Sci. Eng. A 2016, 678, 365-376. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effects of hot isostatic pressing on the elastic modulus and tensile properties of 316L parts made by powder bed laser fusion</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cherry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehmood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Girling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sackett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sienz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.03.100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">693</biblScope>
+			<biblScope unit="page" from="186" to="213" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lavery, N.P.; Cherry, J.; Mehmood, S.; Davies, H.; Girling, B.; Sackett, E.; Brown, S.G.R.; Sienz, J. Effects of hot isostatic pressing on the elastic modulus and tensile properties of 316L parts made by powder bed laser fusion. Mater. Sci. Eng. A 2017, 693, 186-213. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Microstructure evolution of 316L produced by HP-SLM (high power selective laser melting)</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Montero-Sistiaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Godino-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Boschmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vanmeensel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.08.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="402" to="410" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montero-Sistiaga, K.L.; Godino-Martinez, M.; Boschmans, K.; Kruth, J.P.; Humbeeck, J.V.; Vanmeensel, K. Microstructure evolution of 316L produced by HP-SLM (high power selective laser melting). Addit. Manuf. 2018, 23, 402-410. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Corrosion behavior of 316L austenitic steel processed by selective laser melting, hot-isostatic pressing and casting</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Geenen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rottger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Theisen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/maco.201609210</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Corros</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="764" to="775" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Geenen, K.; Rottger, A.; Theisen, W. Corrosion behavior of 316L austenitic steel processed by selective laser melting, hot-isostatic pressing and casting. Mater. Corros. 2017, 68, 764-775. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of TiB2/316L stainless steel composites: The roles of powder preparation and hot isostatic pressing post-treatment</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Almangour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grzesiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.powtec.2016.12.073</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="37" to="48" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">AlMangour, B.; Grzesiak, D.; Yang, J.M. Selective laser melting of TiB2/316L stainless steel composites: The roles of powder preparation and hot isostatic pressing post-treatment. Powder Technol. 2017, 309, 37-48. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Manufacturing AISI316L components via selective laser melting coupled with hot isostatic pressing</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/MSF.675-677.853</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="page" from="853" to="856" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, Z.; Shi, Y.; Li, R.; Wei, Q.; Liu, J. Manufacturing AISI316L components via selective laser melting coupled with hot isostatic pressing. Mater. Sci. Forum 2011, 675-677, 853-856. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effect of selective laser melting (SLM) process parameters on microstructure and mechanical properties of 316L austenitic stainless steel</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Liverani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Toschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ceschini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fortunato</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2017.05.042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">249</biblScope>
+			<biblScope unit="page" from="255" to="263" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liverani, E.; Toschi, S.; Ceschini, L.; Fortunato, A. Effect of selective laser melting (SLM) process parameters on microstructure and mechanical properties of 316L austenitic stainless steel. J. Mater. Process. Technol. 2017, 249, 255-263. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Effect of scan strategy on density and metallurgical properties of 17-4PH parts printed by Selective Laser Melting (SLM)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Masood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Palanisamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Rahman Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brandt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2017.06.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">249</biblScope>
+			<biblScope unit="page" from="502" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rashid, R.; Masood, S.H.; Ruan, D.; Palanisamy, S.; Rahman Rashid, R.A.; Brandt, M. Effect of scan strategy on density and metallurgical properties of 17-4PH parts printed by Selective Laser Melting (SLM). J. Mater. Process. Technol. 2017, 249, 502-511. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Investigating laser rapid manufacturing for Inconel-625 components</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ganesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bhargava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Negi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nath</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.optlastec.2006.01.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Laser Technol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="800" to="805" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paul, C.P.; Ganesh, P.; Mishra, S.; Bhargava, P.; Negi, J.; Nath, A. Investigating laser rapid manufacturing for Inconel-625 components. Opt. Laser Technol. 2007, 39, 800-805. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Strong morphological and crystallographic texture and resulting yield strength anisotropy in selective laser melted tantalum</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L M</forename><surname>Sistiaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.04.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="4657" to="4668" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thijs, L.; Sistiaga, M.L.M.; Wauthle, R.; Xie, Q.; Kruth, J.-P.; Van Humbeeck, J. Strong morphological and crystallographic texture and resulting yield strength anisotropy in selective laser melted tantalum. Acta Mater. 2013, 61, 4657-4668. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">High dislocation density-induced large ductility in deformed and partitioned steels</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aan0177</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">357</biblScope>
+			<biblScope unit="page" from="1029" to="1032" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">He, B.; Hu, B.; Yen, H.; Cheng, G.; Wang, Z.; Luo, H.; Huang, M. High dislocation density-induced large ductility in deformed and partitioned steels. Science 2017, 357, 1029-1032. [CrossRef] [PubMed]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of Ni-based superalloys: The outstanding issues</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jennings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Carter</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/mrs.2016.211</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bull</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="758" to="764" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Attallah, M.M.; Jennings, R.; Wang, X.; Carter, L.N. Additive manufacturing of Ni-based superalloys: The outstanding issues. MRS Bull. 2016, 41, 758-764. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">AlSi12 in-situ alloy formation and residual stress reduction using anchorless selective laser melting</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mumtaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hopkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2015.06.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="12" to="19" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vora, P.; Mumtaz, K.; Todd, I.; Hopkinson, N. AlSi12 in-situ alloy formation and residual stress reduction using anchorless selective laser melting. Addit. Manuf. 2015, 7, 12-19. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Additively manufactured hierarchical stainless steels with high strength and ductility</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Voisin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Mckeown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Calta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Roehling</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat5021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, Y.M.; Voisin, T.; McKeown, J.T.; Ye, J.; Calta, N.P.; Li, Z.; Zeng, Z.; Zhang, Y.; Chen, W.; Roehling, T.T.; et al. Additively manufactured hierarchical stainless steels with high strength and ductility. Nat. Mater. 2018, 17, 63-71. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Grain boundary engineering for structure materials of nuclear reactors</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Busby</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jnucmat.2013.03.050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nucl. Mater</title>
+		<imprint>
+			<biblScope unit="volume">441</biblScope>
+			<biblScope unit="page" from="661" to="666" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tan, L.; Allen, T.R.; Busby, J.T. Grain boundary engineering for structure materials of nuclear reactors. J. Nucl. Mater. 2013, 441, 661-666. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Extreme austenite grain refinement due to dynamic recrystallization</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaspar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Distl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Pawelski</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/srin.198801535</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Steel Res</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="421" to="425" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaspar, R.; Distl, J.S.; Pawelski, O. Extreme austenite grain refinement due to dynamic recrystallization. Steel Res. 1988, 59, 421-425. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of metallic components -process, structure and properties</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Zuback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Milewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Beese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson-Heid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2017.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="112" to="224" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Debroy, T.; Wei, H.L.; Zuback, J.S.; Mukherjee, T.; Elmer, J.W.; Milewski, J.O.; Beese, A.M.; Wilson-Heid, A.; De, A.; Zhang, W. Additive manufacturing of metallic components -process, structure and properties. Prog. Mater. Sci. 2018, 92, 112-224. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Friction and wear mechanisms of 316L stainless steel in dry sliding contact: Effect of abrasive particle size</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jourani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bouvier</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10402004.2014.955229</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tribol. Trans</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="131" to="139" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jourani, A.; Bouvier, S. Friction and wear mechanisms of 316L stainless steel in dry sliding contact: Effect of abrasive particle size. Tribol. Trans. 2015, 58, 131-139. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Stainless Steels Fabricated by Laser Melting: Scaled-down Structural Hierarchies and Microstructural Heterogeneities</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saeidi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<pubPlace>Stockholm, Sweden</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Stockholm University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. Thesis</note>
+	<note type="raw_reference">Saeidi, K. Stainless Steels Fabricated by Laser Melting: Scaled-down Structural Hierarchies and Microstructural Heterogeneities. Ph.D. Thesis, Stockholm University, Stockholm, Sweden, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Grain boundary and microstructure engineering of Inconel 690 cladding on stainless-steel 316L using electron-beam powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Segura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Murr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Terrazas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bermudez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mireles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Injeti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wicker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmst.2018.09.059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="351" to="367" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Segura, I.; Murr, L.; Terrazas, C.; Bermudez, D.; Mireles, J.; Injeti, V.; Li, K.; Yu, B.; Misra, R.; Wicker, R. Grain boundary and microstructure engineering of Inconel 690 cladding on stainless-steel 316L using electron-beam powder bed fusion additive manufacturing. J. Mater. Sci. Technol. 2019, 35, 351-367. [CrossRef]</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

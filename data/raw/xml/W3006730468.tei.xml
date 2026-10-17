@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A deep learning-based model for defect detection in laser-powder bed fusion using in-situ thermographic monitoring</title>
+				<funder>
+					<orgName type="full">Projekt DEAL</orgName>
+				</funder>
+				<funder ref="#_AnxTfGG #_2F6hQaf">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_cANYtWK">
+					<orgName type="full">German Federal Ministry of Education and Research</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-02-18">18 February 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Hermann</forename><surname>Baumgartl</surname></persName>
+							<email>hermann.baumgartl@hs-aalen.de</email>
+							<idno type="ORCID">0000-0001-8918-3197</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Machine Learning Research Group , Aalen University , Beethovenstr. 1 , 73430 Aalen , Germany</note>
+								<orgName type="laboratory">Machine Learning Research Group</orgName>
+								<orgName type="institution">Aalen University</orgName>
+								<address>
+									<addrLine>Beethovenstr. 1</addrLine>
+									<postCode>73430</postCode>
+									<settlement>Aalen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Josef</forename><surname>Tomas</surname></persName>
+							<idno type="ORCID">0000-0002-9589-1840</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Institute for Virtual Product Development , Aalen University , Beethovenstr. 1 , 73430 Aalen , Germany</note>
+								<orgName type="department">Institute for Virtual Product Development</orgName>
+								<orgName type="institution">Aalen University</orgName>
+								<address>
+									<addrLine>Beethovenstr. 1</addrLine>
+									<postCode>73430</postCode>
+									<settlement>Aalen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ricardo</forename><surname>Buettner</surname></persName>
+							<idno type="ORCID">0000-0003-2263-6408</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Machine Learning Research Group , Aalen University , Beethovenstr. 1 , 73430 Aalen , Germany</note>
+								<orgName type="laboratory">Machine Learning Research Group</orgName>
+								<orgName type="institution">Aalen University</orgName>
+								<address>
+									<addrLine>Beethovenstr. 1</addrLine>
+									<postCode>73430</postCode>
+									<settlement>Aalen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Markus</forename><surname>Merkel</surname></persName>
+							<idno type="ORCID">0000-0003-4005-7354</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Institute for Virtual Product Development , Aalen University , Beethovenstr. 1 , 73430 Aalen , Germany</note>
+								<orgName type="department">Institute for Virtual Product Development</orgName>
+								<orgName type="institution">Aalen University</orgName>
+								<address>
+									<addrLine>Beethovenstr. 1</addrLine>
+									<postCode>73430</postCode>
+									<settlement>Aalen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A deep learning-based model for defect detection in laser-powder bed fusion using in-situ thermographic monitoring</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-02-18">18 February 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CCF3EB1C20BB15313C5C0241E0B858B9</idno>
+					<idno type="DOI">10.1007/s40964-019-00108-3</idno>
+					<note type="submission">Received: 4 September 2019 / Accepted: 24 December 2019 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-07T16:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Quality assurance</term>
+					<term>Machine learning</term>
+					<term>Additive manufacturing</term>
+					<term>Convolutional neural networks</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Additive manufacturing of metal components with laser-powder bed fusion is a very complex process, since powder has to be melted and cooled in each layer to produce a part.</s><s>Many parameters influence the printing process; however, defects resulting from suboptimal parameter settings are usually detected after the process.</s><s>To detect these defects during the printing, different process monitoring techniques such as melt pool monitoring or off-axis infrared monitoring have been proposed.</s><s>In this work, we used a combination of thermographic off-axis imaging as data source and deep learning-based neural network architectures, to detect printing defects.</s><s>For the network training, a k-fold cross validation and a hold-out cross validation were used.</s><s>With these techniques, defects such as delamination and splatter can be recognized with an accuracy of 96.80%.</s><s>In addition, the model was evaluated with computing class activation heatmaps.</s><s>The architecture is very small and has low computing costs, which means that it is suitable to operate in real time even on less powerful hardware.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p><s>In recent years, additive manufacturing (AM) as an industry has experienced enormous growth.</s><s>The layer-by-layer production process makes it easy to manufacture products with complex geometries and different materials.</s><s>The material segment of the industry reported a record growth in 2018, with metal materials in particular increasing by 41.9%.</s><s>A continuation of a 5-year growth phase of more than 40% per year was recorded in the latest edition of the annual Wohler's Report <ref type="bibr" target="#b0">[1]</ref>.</s><s>This growth demonstrates the need to find solutions that are better suited for mass manufacturing rather than rapid prototyping.</s><s>AM has significant potential in the medical field, particularly for custom designs, aerospace, and automotive for lightweight construction and functionally critical parts manufactured locally at distant locations <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>.</s><s>However, uncertainties regarding component quality currently delay the full introduction of AM technology in these areas.</s><s>The implementation of in-situ and real-time process monitoring is necessary to meet the high-quality requirements of these applications, particularly with metal powder.</s></p><p><s>Laser-powder bed fusion (L-PBF) is an AM process that uses metal powder material, which is dispensed in a layerby-layer fashion, to create geometries from digital files.</s><s>The digital parts are sliced into layers with a typical constant thickness between 20 and 100 µm.</s><s>During the printing process, a laser selectively melts successive layers of metal powder on the substrate plate.</s><s>After each melting cycle, a new layer of metal powder is applied upon the previous layer and a new melting cycle begins until the complete component is produced.</s><s>The manufactured parts have hundreds to thousands of layers with a production time ranging from hours to days dependent on the part dimensions <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>.</s></p><p><s>Despite the great development of the L-PBF process in recent years, the major breakthrough in the industry has yet to materialize due to process capabilities.</s><s>The process itself has many input parameters which influence the quality of the product.</s><s>Van Elsen has identified over 50 parameters which can influence the quality of printed components <ref type="bibr" target="#b6">[7]</ref>.</s><s>Many experimental studies have been conducted to evaluate the effects of energy density, scanning speed, hatch distance, and scanning strategy.</s><s>The defects like lack of fusion, balling, porosity, cracks, and inclusions negatively affect mechanical properties <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</s><s>Defects are usually examined after the process; porosity is measured using computer tomography, the Archimedes method, or metallographic imaging <ref type="bibr" target="#b10">[11]</ref>.</s><s>To measure Young's modulus of elasticity, hardness, ultimate tensile strength, etc., destructive component tests are used for many materials <ref type="bibr" target="#b11">[12]</ref>.</s><s>However, delamination, overhanging structures, unsuitable supports, and residual stresses are critical defects during the process <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref> and, thus, need to be tracked.</s></p><p><s>With the implementation of in-situ process monitoring, tracing of defects during the process becomes possible.</s><s>Generally, the process monitoring can be subdivided in three groups <ref type="bibr" target="#b14">[15]</ref>.</s><s>The first group uses melt pool monitoring to characterize the melt pool and the surroundings <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b15">16]</ref>.</s><s>The dimensions and temperature characteristics of the molten pool supply information on process reliability and the presence of local defects.</s><s>The second group looks at the analysis of the entire layer to detect errors in different areas of each layer.</s><s>The temperature distribution and surface after scanning is observed.</s><s>The third group considers the geometric growth of the build, from slice to slice.</s><s>The analysis from the second group is used repeatedly for every layer over the whole build of components.</s><s>Up to now, the printing process cannot be monitored and evaluated in real time, because the printing times vary greatly.</s><s>That is why, automatic in-situ monitoring and real-time defect detection are needed.</s></p><p><s>Machine learning (ML) is one of the possibilities for use in evaluating large amounts of data in real time <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>.</s><s>Over the last decades with more powerful hardware, more and better ML architectures were developed and refined.</s><s>ML methods are capable of identifying complex non-linear relationships in large amounts of data.</s><s>ML approaches are subdivided in three learning categories: supervised, semi-supervised and unsupervised <ref type="bibr" target="#b26">[27]</ref>.</s><s>Supervised approaches consist of two steps for training: In the first step, the data must be labeled as, e.g., "acceptable" and "not acceptable".</s><s>In the second step, the ML network is trained with the labeled data <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref>.</s><s>This means before learning, the user must know and identify the defects and label them.</s><s>An unsupervised approach is used without labeling of the data <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b27">28]</ref>.</s><s>An algorithm tries to identify defects itself.</s><s>Semi-supervised use supervised and unsupervised approaches at the same time <ref type="bibr" target="#b29">[30]</ref>.</s><s>This means that the ML algorithm utilizes both labeled and unlabeled data.</s></p><p><s>In this work, thermographic images were taken during the metal printing process.</s><s>The thermographic data were used to train a created convolutional neural network architecture with depthwise-separable convolutions.</s><s>For performance evaluation, k-fold cross and hold-out cross validation was used.</s><s>Heatmaps are utilized to show the exact positions of defects.</s></p><p><s>2 Related work ML has been successfully used in different defect detection scenarios during the AM process.</s><s>Gobert et al. <ref type="bibr" target="#b30">[31]</ref> used in-situ layerwise imaging with a digital single-lens reflex camera to take images for supervised ML defect detection during the L-PBF process.</s><s>CT scans were used to evaluate the results.</s><s>The resulting accuracy of defect detection during the process was up to 85%.</s><s>Scime and Beuth <ref type="bibr" target="#b31">[32]</ref> used grayscale imaging in visual range to classify powder bed anomaly classes.</s><s>These classes were used to develop an ML algorithm for in-situ process monitoring.</s><s>The algorithm is working, but before it can be used as in-situ monitoring environment, its classification accuracy needs to be improved.</s><s>Okaro et al. <ref type="bibr" target="#b32">[33]</ref> used photodiode measurements to develop a semi-supervised ML algorithm.</s><s>The accuracy of the algorithm was at 77% and reduced experimental data are needed for training compared to supervised ML.</s><s>Shevchik et al. <ref type="bibr" target="#b33">[34]</ref> and Ye et al. <ref type="bibr" target="#b34">[35]</ref> used acoustic signals for defect detection with ML.</s><s>The acoustic signals need more data preparation before they can be used in algorithm.</s><s>The accuracy using raw data is at 70% and goes up to 93% after performing a fast Fourier transformation.</s><s>Khanzadeh et al. <ref type="bibr" target="#b35">[36]</ref> used melt pool monitoring images as a source of comparison for different supervised ML techniques.</s><s>The best tested algorithm was k-nearest neighbor with an accuracy of about 98% for the detection of melt pool anomalies and potentially microstructure anomalies in real time.</s></p><p><s>Many works use ML architectures in combination with acoustics or visual monitoring for automatic defects detection during the printing process.</s><s>In this paper, the ML architecture is based on in-situ off-axis thermographic imaging.</s><s>A convolutional neural network has been trained and evaluated for automatic defects detection.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Methods</head><p><s>To utilize ML for error recognition, the thermographic imaging data from the laser-powder bed fusion process are used.</s><s>In Sect.</s><s>3.1, the in-situ measurement setup with the thermographic camera setup and manufacturing conditions of specimens are described.</s><s>Theoretical background on the convolutional neural networks is given in Sects.</s><s>3.2, 3.3, while Sect.</s><s>3.4 provides background knowledge about the advanced deep-learning techniques used in our architecture.</s><s>Data preprocessing and model evaluation are characterized in Sect.</s><s>3.5.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Measurement setup</head><p><s>The L-PBF process has been monitored using a thermographic camera to get the images of detectable errors.</s><s>An SLM 280HL (SLM Solutions AG, Lübeck, Germany) was used for the metal printing process.</s><s>The printing system has a 400 W Ytterbium fiber laser mounted and a building space of 280 mm × 280 mm × 350 mm with the heating up to 200 °C.</s><s>If a heating system up to 650 °C is used during the process, the building space reduces to Ø 90 mm × 100 mm.</s><s>The operating gas is Argon through the printing process.</s><s>The material of the specimens is 1.2344 (H13) and has been printed with a layer thickness of 30 µm.</s><s>The printing system manufacturer provided the remaining parameters.</s></p><p><s>T h e t h e r m o g r a p h i c c a m e r a P Y ROV I E W 640G/50 Hz/25° × 19°/compact + (DIAS Infrared GmbH, Dresden, Germany) is used for taking images in the middle infrared range.</s><s>The camera has 640 × 480 sensor elements (optical resolution) with a spectral range from 4.8 to 5.2 µm and takes up to 50 images per second.</s><s>The camera position is above the process chamber at an angle of 60° to the substrate plate.</s><s>Körperich and Merkel <ref type="bibr" target="#b36">[37]</ref> have measured emissivity at assigned temperatures for H13 material, which is needed for thermographic imaging during the process.</s><s>This measurement setup is a standard procedure for material analysis and process optimization.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Convolutional neural networks</head><p><s>In recent years, convolutional neural networks have become the prime algorithm for solving many complex computer vision problems <ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref>.</s><s>In the field of image recognition, the convolutional neural networks are among the latest deeplearning methods.</s><s>Convolutional neural networks are based on the multi-layered structure of real brain structures of the visual cortex and have shown remarkable results in many highly complex application scenarios <ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref>.</s></p><p><s>Classic ML approaches for image recognition consist of two separate steps.</s><s>In the first step, the so-called feature engineering, one tries to extract relevant data representations from the raw image data, using various algorithms, such as HOG <ref type="bibr" target="#b43">[44]</ref>, SURF <ref type="bibr" target="#b44">[45]</ref>, or HOUP <ref type="bibr" target="#b45">[46]</ref>.</s><s>In the second step, the so-called classification, a machine-learning algorithm tries to learn a pattern, which maps a-priori generated data representations and a target variable.</s><s>The algorithm can only learn these patterns if they have been extracted by feature engineering before.</s><s>In particular, manual extraction of the relevant data representations often leads to suboptimal classification results <ref type="bibr" target="#b42">[43]</ref>.</s></p><p><s>The fundamental difference between convolutional neural networks and classical ML approaches for computer vision is the combination of these two steps.</s><s>The classification automatically influences the feature engineering process, so that features that are more meaningful for the classification results are extracted.</s><s>Unimportant data are automatically excluded.</s><s>Therefore, convolutional neural networks can convert raw data, such as pixel data from images, into more meaningful data representations, the so-called feature maps, which in turn supports the final classification <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b46">47]</ref>.</s><s>These feature maps represent characteristic areas of images, e.g. a nose in face recognition.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">General convolutional neural network architectures</head><p><s>Common convolutional neural network architectures consist of multiple convolutional layers.</s><s>Each image is processed as a three-dimensional array.</s><s>By applying multiple small filter kernels onto the image array, the convolutional layers transform the original input into feature maps <ref type="bibr" target="#b46">[47,</ref><ref type="bibr" target="#b47">48]</ref>.</s><s>As shown in Fig. <ref type="figure" target="#fig_0">1</ref>, the filter matrices are applied to all areas of the original images, which preserve spatial information <ref type="bibr" target="#b42">[43]</ref>.</s><s>These feature maps are then passed through a non-linearity function like ReLU <ref type="bibr" target="#b48">[49]</ref>, a batch-normalization layer <ref type="bibr" target="#b49">[50]</ref>, convolutional layer, and a pooling layer <ref type="bibr" target="#b47">[48]</ref>.</s><s>By combining several convolutional, activation, batch normalization, and pooling layers, convolutional neural networks are able to automatically extract useful feature representation with fully connected layers from the raw image and optimize them to represent certain target classes <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b50">51]</ref>.</s><s>The huge advancements made in the development of convolutional neural networks are mainly driven by the ImageNet Large Scale Visual Recognition Competition (ILSVRC) <ref type="bibr" target="#b51">[52]</ref>.</s><s>The ImageNet competition is one of the most complex and interesting computer vision competitions.</s><s>Many of today's state-of-the-art techniques are based on famous ImageNet winning architecture, evolving from classical stacks of layers, such as AlexNet <ref type="bibr" target="#b52">[53]</ref>, VGG <ref type="bibr" target="#b53">[54]</ref>, to more sophisticated architectures, such as Inception <ref type="bibr" target="#b50">[51]</ref>, ResNet <ref type="bibr" target="#b41">[42]</ref>, Xception <ref type="bibr" target="#b40">[41]</ref>, MobileNetV2 <ref type="bibr" target="#b54">[55]</ref> or DenseNet <ref type="bibr" target="#b55">[56]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Depthwise-separable convolutions</head><p><s>Classical convolutional neural network architectures for deep learning typically consist of multiple layers of convolutional, max pooling, and normalization layers, followed by a classifier consisting of fully connected layers and dropout.</s><s>Until the development of the Inception modules, convolutional neural networks grew in size to learn more complex feature maps and achieve a better classification performance <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref>.</s><s>The disadvantage of this increase in network size is the strong increase in network parameters and the computational resources required <ref type="bibr" target="#b54">[55]</ref>.</s></p><p><s>In normal convolutional layers, the kernel must learn spatial feature representations and cross-channel representations simultaneously.</s><s>The Inception module divides this combined operation into separate steps, which handle cross-channel information and spatial information independently.</s><s>First, the cross-channel information is summarized by a 1 × 1 convolution, which maps the dimensions of the input data to a smaller feature space (feature map).</s><s>For example, the three color channels red-green-blue are combined to a mixed color channel.</s><s>The spatial information is then extracted with a standard 3 × 3 or 5 × 5 convolution <ref type="bibr" target="#b50">[51]</ref>.</s><s>In this paper, the 3 × 3 approach is implemented, because this makes the network smaller and reduces computational costs.</s><s>A simplified version of an Inception module is shown in Fig. <ref type="figure" target="#fig_1">2</ref>. The input is divided in three parts; each part goes through 1 × 1 convolution and then 3 × 3 convolution.</s><s>At the end, all parts join together in concatenation for further extraction of useful features.</s><s>Inception modules have enabled a significant improvement in classification performance while simultaneously reducing the number of model parameters <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b54">55]</ref>.</s></p><p><s>The depthwise-separable convolutions are based on the Inception modules.</s><s>However, the order between 1 × 1 convolution and 3 × 3 convolution is inverted.</s><s>Consequently, the spatial information is first extracted before a new feature map is created <ref type="bibr" target="#b40">[41]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Our network architecture</head><p><s>Our network architecture consists of three blocks of convolutional and batch-normalization layers.</s><s>Inspired by architectures in <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b54">55]</ref>, depthwise-separable convolutions were used in blocks 2 and 3, effectively reducing the amount of trainable parameters.</s><s>The convolutional blocks are followed by a global average pooling layer and a fully connected softmax layer for the final classification.</s></p><p><s>The first layer in our network is a regular convolutional layer, followed by a batch normalization layer (see Fig. <ref type="figure" target="#fig_2">3</ref>).</s><s>All consecutive convolutional layers are depthwise-separable convolutional layers.</s><s>The output shape of each layer block is given below.</s><s>The usage of depthwise-separable convolutions reduces the channel dimension, where the number of channels is equal to the number of filters in the layers.</s><s>A large fully connected classifier is not used, but, instead, dropout is used to control the overfitting and directly feed into a softmax layer.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">Evaluation and data preprocessing</head><p><s>The data set used to train and evaluate our convolutional neural network consisted of 4,314 RGB color images.</s><s>To extract the images, the proprietary IRDX files are converted into standard AVI video files without video compression and 1280 × 768 px (pixels) resolution.</s><s>From the original video, 18 short video sequences are extracted showing either delamination, splatters, or images without defects.</s><s>Each frame of these video files is extracted and saved as a lossless PNG image file.</s><s>The images are cropped to 270 × 270 px to remove unnecessary information like the camera manufacturer's logo, temperature scales, and borders.</s><s>For the performance evaluation of the predictor, a combination of k-fold cross validation and hold-out cross validation is used.</s><s>First, the entire data set was split into training and validation subsets.</s><s>The validation data set is never shown to the model during training, and is only used to calculate performance values after the training is finished.</s><s>To prevent information leakage, the data set was split into training and validation data sets before extracting frame-wise images.</s><s>Therefore, the model is prevented from overfitting on certain sequences of images.</s></p><p><s>The training data set was used to train the model using a k-fold cross validation, where the training data set is repeatedly split into training and test subsets.</s><s>At each split, the model is trained with the training data and the best model is selected using the test split.</s><s>After the model training is finished, the calculation of the performance metrics using the previously mentioned validation data set is carried out.</s><s>This approach allows clear identification of potential overfitting during the validation <ref type="bibr" target="#b56">[57]</ref>.</s></p><p><s>As for ML preprocessing, the images where resized to 224 × 244 px for faster processing and scaled to [0,1], also known as data normalization, to overcome different learning problems.</s><s>To improve the classification accuracy and decrease model overfitting <ref type="bibr" target="#b52">[53]</ref>, data augmentation techniques were applied to the training set images.</s><s>The images were rotated by 90 and 270°, flipped horizontally and vertically, and applied with random image noise and blur.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Results</head><p><s>Keras 2.1.5</s><s>package <ref type="bibr" target="#b57">[58]</ref> with Tensorflow 1.8 backend <ref type="bibr" target="#b58">[59]</ref> was used to train the convolutional neural network.</s><s>Training was conducted on an Nvidia GeForce GTX 1080 Ti for 10-folds and 20 epochs on each fold.</s><s>After each fold, the model was evaluated using the validation subset, averaging the results of all 10-folds arithmetically.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Performance evaluation</head><p><s>For model evaluation balanced accuracy, class averaged sensitivity (true positive ratio), precision (positive predictive value), and Cohen's Kappa score were used.</s><s>As shown in Table <ref type="table" target="#tab_0">1</ref>, our model achieves good performance values.</s></p><p><s>The results show that our convolutional neural network can identify delamination defects and splatters with a very good accuracy of 96.80%.</s><s>Cohen's Kappa score is 96.42%, while the true negative rate is at 91.04%.</s><s>These results Depthwise separable convolution Convolutional layer Batch normalization 54x54x16 Input 112x112x32 110x110x64 Global avg pooling Softmax 1x16 Dropout  underpin the good performance of our model.</s><s>As shown in Table <ref type="table" target="#tab_1">2</ref>, the model correctly identifies all delaminations as well as all cases of splashes.</s><s>Only 22 images were incorrectly classified as splatter cases, while in the actual image, no splatters can be seen.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Heatmaps</head><p><s>In addition, our model was evaluated with computing class activation heatmaps.</s><s>These heatmaps indicate the importance of spatial locations for a particular class.</s><s>Therefore, class activation heatmaps can be used to visually explain the class predicted by the network.</s><s>In particular, we used the gradient-weighted class activation mapping (Grad-CAM) algorithm <ref type="bibr" target="#b59">[60]</ref>.</s></p><p><s>The Grad-CAM heatmap in Fig. <ref type="figure" target="#fig_3">4</ref> indicated that our network considers the very hot part in the top part as relevant for assigning the class "delamination".</s><s>Furthermore, the heatmap also shows the importance of the colder image regions in the bottom and right part.</s><s>This indicated that our model considers the temperature difference between the delaminated part and a non-delaminated part as highly important for the final decision.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Discussion</head><p><s>As demonstrated in Table <ref type="table" target="#tab_0">1</ref>, our convolutional neural network performs very well and achieves excellent classification results.</s><s>These results were underpinned by the confusion matrix in Table <ref type="table" target="#tab_1">2</ref>.</s><s>The confusion matrix shows that all of the highly relevant delamination defects are correctly classified, while only 22 out of 1,987 images are falsely classified as splatters, where the correct label would be "OK".</s><s>However, the model correctly identified all cases of the more severe type of defect, the delaminations.</s><s>The evaluation of the Grad-CAM shows that the network considers the unusually heated parts of the thermographic images as highly relevant for the final decision.</s><s>This further underpins the good results, as shown in Table <ref type="table" target="#tab_0">1</ref>.</s></p><p><s>Previous studies have shown that machine learning can be deployed for defect detection in the L-PBF process, using various techniques like acoustic sensors <ref type="bibr" target="#b33">[34]</ref>, thermal <ref type="bibr" target="#b35">[36]</ref>, grayscale <ref type="bibr" target="#b31">[32]</ref>, or high-resolution imaging <ref type="bibr" target="#b30">[31]</ref>.</s><s>While the current benchmarks range from 77 to 98% accuracy in detecting errors, they rely on either extensive data preprocessing or upon additional imaging techniques.</s></p><p><s>With a mean balanced accuracy of 96.80% and a top balanced accuracy of 98.80%, our model outperforms all the current benchmarks for in-situ defect detection during the L-PBF process.</s><s>Most of the current image-based algorithms use classical feature extraction in combination with a shallow machine-learning algorithm.</s><s>The results in Tables <ref type="table" target="#tab_0">1</ref> and <ref type="table" target="#tab_1">2</ref> show the benefit of using the convolutional neural networks.</s><s>In comparison to <ref type="bibr" target="#b31">[32]</ref>, we process the entire image instead of processing the image pixel-wise.</s><s>Therefore, we can evaluate whether the entire image shows a defect, instead of classifying if a certain pixel shows a potential defect.</s><s>As compared to melt pool monitoring or pixel-wise classification, we can detect larger defect types like metal splatters, which can only be detected when monitoring the entire image.</s><s>Our model also does not need extensive data preprocessing and is not dependent upon additional imaging sources like X-ray, but is able to identify defects from thermographic images directly.</s></p><p><s>Furthermore, our model is very small and light on computational costs.</s><s>As shown in Fig. <ref type="figure" target="#fig_2">3</ref>, our model is relatively small in comparison to well-known architectures such as VGG <ref type="bibr" target="#b53">[54]</ref> or ResNet <ref type="bibr" target="#b41">[42]</ref>.</s><s>These large models are capable of solving very complex object recognition tasks such as the ImageNet competition, but do have a strong tendency to overfit on less complex problems.</s><s>Small models are usually more specialized for the given task and provide high accuracy values, while being light on computational resources <ref type="bibr" target="#b39">[40]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Conclusions</head><p><s>In this work, it could be shown that a convolutional neural deep network can be used to detect and identify defects during printing processes with an average balanced accuracy of 96.80%.</s><s>Our model is very small and light on computational costs that achieves fast compilation and training without a need for powerful hardware.</s><s>For training and testing, thermographic images were used, which were taken during in-situ off-axis monitoring in the printing process of H13 steel specimens.</s><s>One geometrical shape, a critical defect delamination and an uncritical defect splatter were chosen for the training of the network.</s><s>In addition to deciding on the type and position of error, the network can also output a heatmap.</s></p><p><s>Our model is well suited for in-situ defect detection of L-PBF processes and can be easily adopted to other defect types, material systems, and geometric shapes.</s><s>Since our model is only based on a single source of information, it is easy to adopt to other defect types and materials, without the need to carry out additional evaluations using expensive and time-consuming methods like X-ray or CT.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1">Limitations</head><p><s>This convolutional neuronal network can only detect defects such as splatter and delamination.</s><s>However, other defect types such as cracks, pores, balling, and unfused powder have not been evaluated in the current experimental setup.</s><s>Further tests are necessary to fully evaluate the generalizability of our model towards other types of defects.</s><s>Additionally, only one geometrical shape and H13 material were used for the training and evaluation of our current model.</s><s>Since different materials have different temperature fields, which directly influence the thermographic imaging, further tests using other materials are necessary.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2">Future work</head><p><s>In future work, we will re-evaluate the performance of our network using a broader variety of materials and geometric shapes, thereby showing the models performance in more potential applications, while other errors should also be recognizable.</s></p><p><s>Furthermore, we will re-evaluate our work by conducting additional experiments on a broader variety of defect types such as cracks, pores, overheating, or balling defects.</s><s>Additionally, we plan to evaluate the runtime performance of our model using an embedded hardware platform and low-powered computing devices like a Raspberry Pi to assess the runtime performance of our model on limited computational resources.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc><div><p><s>Fig.1Example of a typical convolutional neural network architecture, in which the network consists of multiple blocks of convolutional layers followed by pooling layers and one or more fully connected layers at the end for classification</s></p></div></figDesc><graphic coords="3,53.77,564.68,82.70,82.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc><div><p><s>Fig.2Simplified version of the Inception module from<ref type="bibr" target="#b40">[41]</ref></s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc><div><p><s>Fig.3Our final model architecture</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc><div><p><s>Fig. 4 Heatmap for one example of a delamination defect: a the original thermographic image; b the class activation heatmap of our network where important spatial areas are highlighted, with the red circles indicating the area of high importance in the Grad-CAM heatmap</s></p></div></figDesc><graphic coords="6,204.17,545.66,340.08,169.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Evaluation metrics of our convolutional neural network, all performance metrics are based on the validation data set only, and the results of all 10-folds are averaged arithmetically</s></p></div></figDesc><table><row><cell>Performance indicator</cell><cell>Mean (%)</cell><cell>STD (%)</cell></row><row><cell>Accuracy</cell><cell>97.87</cell><cell>0.93</cell></row><row><cell>Balanced accuracy</cell><cell>96.80</cell><cell>2.81</cell></row><row><cell>True positive rate</cell><cell>96.80</cell><cell>2.81</cell></row><row><cell>True negative rate</cell><cell>98.95</cell><cell>0.55</cell></row><row><cell>Positive predictive value</cell><cell>96.52</cell><cell>1.72</cell></row><row><cell>Prevalence</cell><cell>33.33</cell><cell>-</cell></row><row><cell>Kappa</cell><cell>96.42</cell><cell>1.55</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc><div><p><s>Confusion matrix of fold 4 at accuracy of 98.90%Bold values indicate the diagonal of the confusion matrix and the correctly classified examples, underpinning the good results.</s></p></div></figDesc><table><row><cell>Predicted</cell><cell>Actual</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Delamination</cell><cell>Splatters</cell><cell>OK</cell></row><row><cell>Delamination</cell><cell>840</cell><cell>0</cell><cell>0</cell></row><row><cell>Splatters</cell><cell>0</cell><cell>899</cell><cell>22</cell></row><row><cell>OK</cell><cell>0</cell><cell>0</cell><cell>226</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p><s>Acknowledgements Open Access funding provided by <rs type="funder">Projekt DEAL</rs>.</s><s>The authors acknowledge support by the <rs type="funder">German Federal Ministry of Education and Research</rs> within the program "<rs type="projectName">FH-Impuls</rs>" (<rs type="projectName">Project SmartPro, subproject AddFunK</rs>, Grant no.</s><s><rs type="grantNumber">13FH4I04IA</rs> and subproject <rs type="grantName">PreMo-LiB Grant</rs> no.</s><s><rs type="grantNumber">13FH4E03IA</rs>).</s><s>On behalf of all authors, the corresponding author states that there is no conflict of interest.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_cANYtWK">
+					<orgName type="project" subtype="full">FH-Impuls</orgName>
+				</org>
+				<org type="funded-project" xml:id="_AnxTfGG">
+					<idno type="grant-number">13FH4I04IA</idno>
+					<orgName type="grant-name">PreMo-LiB Grant</orgName>
+					<orgName type="project" subtype="full">Project SmartPro, subproject AddFunK</orgName>
+				</org>
+				<org type="funding" xml:id="_2F6hQaf">
+					<idno type="grant-number">13FH4E03IA</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Wohlers report 2019: 3D printing and additive manufacturing state of the industry</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Wohlers Associates Inc</publisher>
+			<pubPlace>Fort Collins, Colorado</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wohlers Associates (2019) Wohlers report 2019: 3D printing and additive manufacturing state of the industry. Wohlers Associates Inc, Fort Collins, Colorado</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Metal based additive layer manufacturing: variations, correlations and process control</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>O'regan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prickett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Setchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procs.2016.08.134</idno>
+		<ptr target="https://doi.org/10.1016/j.procs.2016.08.134" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Comput Sci</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="216" to="224" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Regan P, Prickett P, Setchi R et al (2016) Metal based additive layer manufacturing: variations, correlations and process control. Proc Comput Sci 96:216-224. https ://doi.org/10.1016/j.procs .2016.08.134</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Electron beam freeform fabrication for cost effective near-net shape manufacturing</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Taminger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hafley</surname></persName>
+		</author>
+		<ptr target="https://hdl.handle.net/2060/20080013538" />
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taminger KM, Hafley RA (2006) Electron beam freeform fabrica- tion for cost effective near-net shape manufacturing. https ://hdl. handl e.net/2060/20080 01353 8</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Additive manufacturing technologies: 3D printing, rapid prototyping and direct digital manufacturing</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>Springer</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed</note>
+	<note type="raw_reference">Gibson I, Rosen DW, Stucker B (2015) Additive manufacturing technologies: 3D printing, rapid prototyping and direct digital manufacturing, 2nd ed. Springer, New York</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effect of scan strategy on density and metallurgical properties of 17-4PH parts printed by selective laser melting (SLM)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Masood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ruan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2017.06.023</idno>
+		<ptr target="https://doi.org/10.1016/j.jmatprotec.2017.06.023" />
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Process Technol</title>
+		<imprint>
+			<biblScope unit="volume">249</biblScope>
+			<biblScope unit="page" from="502" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rashid R, Masood SH, Ruan D et al (2017) Effect of scan strat- egy on density and metallurgical properties of 17-4PH parts printed by selective laser melting (SLM). J Mater Process Technol 249:502-511. https ://doi.org/10.1016/j.jmatp rotec .2017.06.023</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The status, challenges, and future of additive manufacturing in engineering</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ramanujan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cad.2015.04.001</idno>
+		<ptr target="https://doi.org/10.1016/j.cad.2015.04.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput Aided Des</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="65" to="89" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gao W, Zhang Y, Ramanujan D et al (2015) The status, challenges, and future of additive manufacturing in engineering. Comput Aided Des 69:65-89. https ://doi.org/10.1016/j.cad.2015.04.001</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Elsen</surname></persName>
+		</author>
+		<ptr target="https://lirias.kuleuven.be/retrieve/67187" />
+		<title level="m">Complexity of selective laser melting: a new optimisation approach</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van Elsen M (2007) Complexity of selective laser melting: a new optimisation approach. https ://liria s.kuleu ven.be/retri eve/67187</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The metallurgy and processing science of metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Sames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>List</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pannala</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09506608.2015.1116649</idno>
+		<ptr target="https://doi.org/10.1080/09506608.2015.1116649" />
+	</analytic>
+	<monogr>
+		<title level="j">Int Mater Rev</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="315" to="360" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sames WJ, List FA, Pannala S et al (2016) The metallurgy and processing science of metal additive manufacturing. Int Mater Rev 61(5):315-360. https ://doi.org/10.1080/09506 608.2015.11166 49</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Effect of manufacturing defects on the fatigue behaviour of Ti-6Al-4V specimens fabricated Using selective laser melting</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elambasseril</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">11th international fatigue congress proceedings</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="1519" to="1524" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu QC, Elambasseril J, Sun SJ et al (2014) The Effect of manu- facturing defects on the fatigue behaviour of Ti-6Al-4V specimens fabricated Using selective laser melting. In: 11th international fatigue congress proceedings, pp 1519-1524</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Influence of defects on mechanical properties of Ti-6Al-4V components produced by selective laser melting and electron beam melting</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2015.07.147</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2015.07.147" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Des</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="545" to="554" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gong H, Rafi K, Gu H et al (2015) Influence of defects on mechanical properties of Ti-6Al-4V components produced by selective laser melting and electron beam melting. Mater Des 86:545-554. https ://doi.org/10.1016/j.matde s.2015.07.147</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Comparison of density measurement techniques for additive manufactured metallic parts</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Spierings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eggenberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/13552541111156504</idno>
+		<ptr target="https://doi.org/10.1108/13552541111156504" />
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="380" to="386" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spierings AB, Schneider M, Eggenberger R (2011) Comparison of density measurement techniques for additive manufactured metallic parts. Rapid Prototyp J 17(5):380-386. https ://doi. org/10.1108/13552 54111 11565 04</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A review of metal fabricated with laser-and powder-bed based additive manufacturing techniques: process, nomenclature, materials, achievable properties, and its utilization in the medical sector</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hitzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Merkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hall</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.201700658</idno>
+		<ptr target="https://doi.org/10.1002/adem.201700658" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hitzler L, Merkel M, Hall W et al (2018) A review of metal fab- ricated with laser-and powder-bed based additive manufacturing techniques: process, nomenclature, materials, achievable prop- erties, and its utilization in the medical sector. Adv Eng Mater 20(5):1. https ://doi.org/10.1002/adem.20170 0658</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A review on process monitoring and control in metal-based additive manufacturing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tapia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elwany</surname></persName>
+		</author>
+		<idno type="DOI">10.1115/1.4028540</idno>
+		<ptr target="https://doi.org/10.1115/1.4028540" />
+	</analytic>
+	<monogr>
+		<title level="j">J Manuf Sci Eng</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">60801</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tapia G, Elwany A (2014) A review on process monitoring and control in metal-based additive manufacturing. J Manuf Sci Eng 136(6):60801. https ://doi.org/10.1115/1.40285 40</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">In situ quality control of the selective laser melting process using a high-speed, realtime melt pool monitoring system</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Clijsters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buls</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-014-6214-8</idno>
+		<ptr target="https://doi.org/10.1007/s00170-014-6214-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Adv Manuf Technol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1089" to="1101" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clijsters S, Craeghs T, Buls S et al (2014) In situ quality control of the selective laser melting process using a high-speed, real- time melt pool monitoring system. Int J Adv Manuf Technol 75(5):1089-1101. https ://doi.org/10.1007/s0017 0-014-6214-8</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Review of insitu process monitoring and in-situ metrology for metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Everton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stravroulakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2016.01.099</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2016.01.099" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Des</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="431" to="445" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Everton SK, Hirsch M, Stravroulakis P et al (2016) Review of in- situ process monitoring and in-situ metrology for metal additive manufacturing. Mater Des 95:431-445. https ://doi.org/10.1016/j. matde s.2016.01.099</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Design of an optical system for the in situ process monitoring of selective laser melting (SLM)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schleifenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Meiners</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phpro.2011.03.085</idno>
+		<ptr target="https://doi.org/10.1016/j.phpro.2011.03.085" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys Proc</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="683" to="690" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lott P, Schleifenbaum H, Meiners W et al (2011) Design of an optical system for the in situ process monitoring of selective laser melting (SLM). Phys Proc 12:683-690. https ://doi.org/10.1016/j. phpro .2011.03.085</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mindful Machine Learning</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heidenreich</surname></persName>
+		</author>
+		<idno type="DOI">10.1027/1015-5759/a000312</idno>
+		<ptr target="https://doi.org/10.1027/1015-5759/a000312" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Psychol Assess</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="6" to="13" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sauer S, Buettner R, Heidenreich T et al (2018) Mindful Machine Learning. Eur J Psychol Assess 34(1):6-13. https ://doi. org/10.1027/1015-5759/a0003 12</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">High-performance detection of alcoholism by unfolding the amalgamated EEG spectra using the Random Forests method</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rieg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Frick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hitzler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">HICSS-52 proceedings</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="3769" to="3777" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rieg T, Frick J, Hitzler M et al (2019) High-performance detec- tion of alcoholism by unfolding the amalgamated EEG spectra using the Random Forests method. In: HICSS-52 proceedings, pp 3769-3777</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Efficient machine learning based detection of heart disease</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE healthcom 2019 proceedings</title>
+		<meeting><address><addrLine>Bogotá, Colombia</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">Buettner R, Schunter M (2019) Efficient machine learning based detection of heart disease. In: IEEE healthcom 2019 proceedings. IEEE, Bogotá, Colombia (in press)</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Real-time prediction of user performance based on pupillary assessment via eye-tracking</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Maier</surname></persName>
+		</author>
+		<idno type="DOI">10.17705/1thci.00103</idno>
+		<ptr target="https://doi.org/10.17705/1thci.00103" />
+	</analytic>
+	<monogr>
+		<title level="j">AIS THCI</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="26" to="60" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buettner R, Sauer S, Maier C et al (2018) Real-time prediction of user performance based on pupillary assessment via eye-tracking. AIS THCI 10(1):26-60. https ://doi.org/10.17705 /1thci .00103</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Robust user identification based on facial action units unaffected by users&apos; emotions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">HICSS-51 proceedings</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="265" to="273" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buettner R (2018) Robust user identification based on facial action units unaffected by users&apos; emotions. In: HICSS-51 proceedings, pp 265-273</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Towards high-performance differentiation between Narcolepsy and Idiopathic Hypersomnia in 10 minute EEG recordings using a novel machine learning approach</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fuhrmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kolb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE healthcom 2019 proceedings</title>
+		<meeting><address><addrLine>Bogotá, Colombia</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">Buettner R, Fuhrmann J, Kolb L (2019) Towards high-perfor- mance differentiation between Narcolepsy and Idiopathic Hyper- somnia in 10 minute EEG recordings using a novel machine learning approach. In: IEEE healthcom 2019 proceedings. IEEE, Bogotá, Colombia (in press)</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">High-performance exclusion of schizophrenia using a novel machine learning method on EEG data</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hirschmiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schlosser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE healthcom 2019 proceedings</title>
+		<meeting><address><addrLine>Bogotá, Colombia</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">Buettner R, Hirschmiller M, Schlosser K et al (2019) High-per- formance exclusion of schizophrenia using a novel machine learn- ing method on EEG data. In: IEEE healthcom 2019 proceedings. IEEE, Bogotá, Colombia (in press)</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">High-performance diagnosis of sleep disorders: a novel, accurate and fast machine learning approach using electroencephalographic data</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grimmeisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gotschlich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">HICSS-53 proceedings</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="3246" to="3255" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buettner R, Grimmeisen A, Gotschlich A (2020) High-perfor- mance diagnosis of sleep disorders: a novel, accurate and fast machine learning approach using electroencephalographic data. In: HICSS-53 proceedings, pp 3246-3255</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Development of a machine learning based algorithm to accurately detect schizophrenia based on one-minute EEG recordings</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Beil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scholtz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">HICSS-53 proceedings</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="3216" to="3225" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buettner R, Beil D, Scholtz S et al (2020) Development of a machine learning based algorithm to accurately detect schizophre- nia based on one-minute EEG recordings. In: HICSS-53 proceed- ings, pp 3216-3225</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">High-performance detection of epilepsy in seizure-free EEG recordings: A novel machine learning approach using very specific epileptic EEG sub-bands</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Frick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rieg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICIS 2019 proceedings</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1" to="16" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buettner R, Frick J, Rieg T (2019) High-performance detection of epilepsy in seizure-free EEG recordings: A novel machine learn- ing approach using very specific epileptic EEG sub-bands. In: ICIS 2019 proceedings, paper ID 2536, pp 1-16</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Hardcore Gamer Profiling: Results from an unsupervised learning approach to playing behavior on the Steam platform</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Emmert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Baumgartl</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procs.2018.08.078</idno>
+		<ptr target="https://doi.org/10.1016/j.procs.2018.08.078" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Comput Sci</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1289" to="1297" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumann F, Emmert D, Baumgartl H et al (2018) Hardcore Gamer Profiling: Results from an unsupervised learning approach to playing behavior on the Steam platform. Proc Comput Sci 126:1289-1297. https ://doi.org/10.1016/j.procs .2018.08.078</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Supervised and unsupervised discretization of continuous features</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dougherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kohavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sahami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICML 1995 proceedings</title>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="page" from="194" to="202" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dougherty J, Kohavi R, Sahami M (1995) Supervised and unsu- pervised discretization of continuous features. In: ICML 1995 proceedings, pp 194-202</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Personality as a predictor of business social media usage: An empirical investigation of XING usage patterns</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">PACIS 2016 proceedings</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page">163</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buettner R (2016) Personality as a predictor of business social media usage: An empirical investigation of XING usage patterns. In: PACIS 2016 proceedings, p 163</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Semi-supervised learning</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Chapelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Scholkopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Zien</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TNN.2009.2015974</idno>
+		<ptr target="https://doi.org/10.1109/TNN.2009.2015974" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Neural Netw Learn Syst</title>
+		<editor>
+			<persName><forename type="first">O</forename><surname>Chapelle</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">542</biblScope>
+			<date type="published" when="2006">2009. 2006</date>
+		</imprint>
+	</monogr>
+	<note>Book reviews</note>
+	<note type="raw_reference">Chapelle O, Scholkopf B, Zien EA (2009) Semi-supervised learning (Chapelle, O. et al., Eds.; 2006) [Book reviews]. IEEE Trans Neural Netw Learn Syst 20(3):542. https ://doi.org/10.1109/ TNN.2009.20159 74</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Application of supervised machine learning for defect detection during metallic powder bed fusion additive manufacturing using high resolution imaging</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Reutzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Petrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.04.005</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2018.04.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="517" to="528" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gobert C, Reutzel EW, Petrich J et al (2018) Application of supervised machine learning for defect detection during metallic powder bed fusion additive manufacturing using high resolution imaging. Addit Manuf 21:517-528. https ://doi.org/10.1016/j. addma .2018.04.005</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Anomaly detection and classification in a laser powder bed additive manufacturing process using a trained computer vision algorithm</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Scime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2017.11.009</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2017.11.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="114" to="126" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scime L, Beuth J (2018) Anomaly detection and classification in a laser powder bed additive manufacturing process using a trained computer vision algorithm. Addit Manuf 19:114-126. https ://doi. org/10.1016/j.addma .2017.11.009</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Automatic fault detection for laser powder-bed fusion using semi-supervised machine learning</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Okaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jayasinghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2019.01.006</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2019.01.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="42" to="53" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Okaro IA, Jayasinghe S, Sutcliffe C et al (2019) Automatic fault detection for laser powder-bed fusion using semi-super- vised machine learning. Addit Manuf 27:42-53. https ://doi. org/10.1016/j.addma .2019.01.006</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Acoustic emission for in situ quality monitoring in additive manufacturing using spectral convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shevchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kenel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leinenbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2017.11.012</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2017.11.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="598" to="604" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shevchik SA, Kenel C, Leinenbach C et al (2018) Acoustic emis- sion for in situ quality monitoring in additive manufacturing using spectral convolutional neural networks. Addit Manuf 21:598-604. https ://doi.org/10.1016/j.addma .2017.11.012</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Defect detection in selective laser melting technology by acoustic signals with deep belief networks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-018-1728-0</idno>
+		<ptr target="https://doi.org/10.1007/s00170-018-1728-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Adv Manuf Technol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2791" to="2801" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ye D, Hong GS, Zhang Y et al (2018) Defect detection in selec- tive laser melting technology by acoustic signals with deep belief networks. Int J Adv Manuf Technol 96(5):2791-2801. https ://doi. org/10.1007/s0017 0-018-1728-0</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Porosity prediction: supervised-learning of thermal history for direct laser deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khanzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marufuzzaman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmsy.2018.04.001</idno>
+		<ptr target="https://doi.org/10.1016/j.jmsy.2018.04.001" />
+	</analytic>
+	<monogr>
+		<title level="j">J Manuf Syst</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="69" to="82" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khanzadeh M, Chowdhury S, Marufuzzaman M et al (2018) Porosity prediction: supervised-learning of thermal history for direct laser deposition. J Manuf Syst 47:69-82. https ://doi. org/10.1016/j.jmsy.2018.04.001</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Thermographic analysis of the building height impact on the properties of tool steel in selective laser beam melting</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Körperich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Merkel</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/mawe.201800010</idno>
+		<ptr target="https://doi.org/10.1002/mawe.201800010" />
+	</analytic>
+	<monogr>
+		<title level="j">Materialwiss Werkstofftech</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="689" to="695" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Körperich JP, Merkel M (2018) Thermographic analysis of the building height impact on the properties of tool steel in selective laser beam melting. Materialwiss Werkstofftech 49(5):689-695. https ://doi.org/10.1002/mawe.20180 0010</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Development of a highly precise place recognition module for effective human-robot interactions in changing lighting and viewpoint conditions</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Baumgartl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">HICSS-53 proceedings</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="563" to="572" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumgartl H, Buettner R (2020) Development of a highly precise place recognition module for effective human-robot interactions in changing lighting and viewpoint conditions. In: HICSS-53 pro- ceedings, pp 563-572</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A novel deeplearning approach for automated non-destructive testing in quality assurance based on convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Baumgartl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACEX 2019 proceedings</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumgartl H, Tomas J, Buettner R et al (2019) A novel deep- learning approach for automated non-destructive testing in qual- ity assurance based on convolutional neural networks. In: ACEX 2019 proceedings</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A Highly effective deep learning based escape route recognition module for autonomous robots in crisis and emergency situations</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Baumgartl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">HICSS-52 proceedings</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="659" to="666" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buettner R, Baumgartl H (2019) A Highly effective deep learning based escape route recognition module for autonomous robots in crisis and emergency situations. In: HICSS-52 proceedings, pp 659-666</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Xception: deep learning with depthwise separable convolutions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE CVPR 2017 proceedings</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="1800" to="1807" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chollet F (2017) Xception: deep learning with depthwise sepa- rable convolutions. In: IEEE CVPR 2017 proceedings, IEEE, pp 1800-1807</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Deep residual learning for image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE CVPR 2016 proceedings</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">He K, Zhang X, Ren S et al (2016) Deep residual learning for image recognition. In: IEEE CVPR 2016 proceedings, IEEE, pp 770-778</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature14539</idno>
+		<ptr target="https://doi.org/10.1038/nature14539" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="issue">7553</biblScope>
+			<biblScope unit="page" from="436" to="444" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LeCun Y, Bengio Y, Hinton G (2015) Deep learning. Nature 521(7553):436-444. https ://doi.org/10.1038/natur e1453 9</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Histograms of oriented gradients for human detection</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dalal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Triggs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE CVPR 2005 proceedings</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="886" to="893" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dalal N, Triggs B (2005) Histograms of oriented gradients for human detection. In: IEEE CVPR 2005 proceedings, IEEE, pp 886-893</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">SURF: speeded up robust features</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tuytelaars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Gool</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ECCV 2006 proceedings</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="volume">3951</biblScope>
+			<biblScope unit="page" from="404" to="417" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bay H, Tuytelaars T, van Gool L (2006) SURF: speeded up robust features. In: ECCV 2006 proceedings, vol 3951. Springer, pp 404-417</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Histogram of oriented uniform patterns for robust place recognition and categorization</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fazl-Ersi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Tsotsos</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0278364911434936</idno>
+		<ptr target="https://doi.org/10.1177/0278364911434936" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Robot Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="468" to="483" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fazl-Ersi E, Tsotsos JK (2012) Histogram of oriented uniform pat- terns for robust place recognition and categorization. Int J Robot Res 31(4):468-483. https ://doi.org/10.1177/02783 64911 43493 6</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">How transferable are features in deep neural networks?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yosinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clune</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">NIPS 2014 proceedings</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="3320" to="3328" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yosinski J, Clune J, Bengio Y et al (2014) How transferable are features in deep neural networks? In: NIPS 2014 proceedings, pp 3320-3328</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Gradient-based learning applied to document recognition</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bottou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/5.726791</idno>
+		<ptr target="https://doi.org/10.1109/5.726791" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc IEEE</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2278" to="2324" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LeCun Y, Bottou L, Bengio Y et al (1998) Gradient-based learn- ing applied to document recognition. Proc IEEE 86(11):2278- 2324. https ://doi.org/10.1109/5.72679 1</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Rectified linear units improve restricted Boltzmann machines</title>
+		<author>
+			<persName><forename type="first">Vinod</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICML-10 proceedings</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="807" to="814" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vinod Nair, Geoffrey E. Hinton (2010) Rectified linear units improve restricted Boltzmann machines. In: ICML-10 proceed- ings, pp 807-814</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Batch normalization: accelerating deep network training by reducing internal covariate shift</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ioffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICML&apos;15 proceedings</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="448" to="456" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ioffe S, Szegedy C (2015) Batch normalization: accelerating deep network training by reducing internal covariate shift. In: ICML&apos;15 proceedings, pp 448-456</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Going deeper with convolutions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE CVPR 2015 proceedings</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Szegedy C, Liu W, Jia Y et al (2015) Going deeper with convolu- tions. In: IEEE CVPR 2015 proceedings. IEEE, pp 1-9</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">ImageNet large scale visual recognition challenge</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Russakovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Su</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11263-015-0816-y</idno>
+		<ptr target="https://doi.org/10.1007/s11263-015-0816-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Vis</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="211" to="252" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russakovsky O, Deng J, Su H et al (2015) ImageNet large scale visual recognition challenge. Int J Comput Vis 115(3):211-252. https ://doi.org/10.1007/s1126 3-015-0816-y</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">ImageNet classification with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krizhevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">NIPS 2012 proceedings</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="1097" to="1105" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krizhevsky A, Sutskever I, Hinton GE (2012) ImageNet classi- fication with deep convolutional neural networks. In: NIPS 2012 proceedings, pp 1097-1105</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Very deep convolutional networks for large-scale image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simonyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICLR 2015 proceedings</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simonyan K, Zisserman A (2015) Very deep convolutional networks for large-scale image recognition. In: ICLR 2015 proceedings</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">MobileNetV2: inverted residuals and linear bottlenecks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE CVPR 2018 proceedings</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="4510" to="4520" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sandler M, Howard A, Zhu M et al (2018) MobileNetV2: inverted residuals and linear bottlenecks. In: IEEE CVPR 2018 proceed- ings, IEEE, pp 4510-4520</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Densely connected convolutional networks</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Der Maaten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE CVPR 2017 proceedings</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="2261" to="2269" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang G, Liu Z, van der Maaten L et al (2017) Densely connected convolutional networks. In: IEEE CVPR 2017 proceedings, IEEE, pp 2261-2269</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">A survey of cross-validation procedures for model selection</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arlot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Celisse</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1214/09-SS054</idno>
+		<ptr target="https://doi.org/10.1214/09-SS054" />
+	</analytic>
+	<monogr>
+		<title level="j">Stat Surv</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="40" to="79" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arlot S, Celisse A (2010) A survey of cross-validation pro- cedures for model selection. Stat Surv 4:40-79. https ://doi. org/10.1214/09-SS054</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+		<ptr target="https://keras.io" />
+		<title level="m">Keras</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chollet F et al (2015) Keras. https ://keras .io</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">TensorFlow: a system for large-scale machine learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">USENIX-OSDI 2016 proceedings</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="265" to="283" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abadi M, Barham P, Chen J et al (2016) TensorFlow: a system for large-scale machine learning. In: USENIX-OSDI 2016 proceed- ings, pp 265-283</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Grad-CAM: visual explanations from deep Networks via gradient-based localization</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Selvaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cogswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE ICCV 2017 proceedings</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="618" to="626" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Selvaraju RR, Cogswell M, Das A et al (2017) Grad-CAM: visual explanations from deep Networks via gradient-based localization. In: IEEE ICCV 2017 proceedings, IEEE, pp 618-626</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

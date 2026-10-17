@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Determination of the effect of scan strategy on residual stress in laser powder bed fusion additive manufacturing</title>
+				<funder ref="#_MDmdg2y">
+					<orgName type="full">EPSRC Centre</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>09 July 2018 2214</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><surname>Robinson</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">School of Engineering , University of Liverpool , Liverpool , L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">I</forename><surname>Ashton</surname></persName>
+							<email>ian.ashton@liverpool.ac.uk</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">School of Engineering , University of Liverpool , Liverpool , L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Fox</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">School of Engineering , University of Liverpool , Liverpool , L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Jones</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">School of Engineering , University of Liverpool , Liverpool , L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Sutcliffe</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">School of Engineering , University of Liverpool , Liverpool , L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Determination of the effect of scan strategy on residual stress in laser powder bed fusion additive manufacturing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">09 July 2018 2214</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D814815A9E81603FC55CD18D3C492047</idno>
+					<idno type="DOI">10.1016/j.addma.2018.07.001</idno>
+					<note type="submission">Received 12 February 2018; Received in revised form 18 June 2018; Accepted 9 July 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-19T23:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Additive manufacturing Laser powder bed fusion Selective laser melting Residual stress Post-process measurement</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Any literature investigation of Laser Powder Bed Fusion (L-PBF) manufacturing of metal parts would reveal that the development of internal stresses is a serious limitation in the application of this technology.</s><s>Researchers have used a variety of different methods to quantify this stress and investigate scanning strategies aimed at reducing or distributing this stress more evenly in the part.</s><s>The most common methods used to assess the levels of stress in parts are deflection based.</s><s>These techniques provide a rapid method to give a quantitative comparison of scan strategies and parameters.</s><s>Although studies have calculated the levels of stress relieved by the measured deflection, these studies often neglect the stresses that remain in the part after release.</s><s>This study shows that these stresses can still be considerable.</s><s>Non-destructive diffraction based methods can be used to calculate the profile of stress in a part but these are often prohibitively expensive or difficult to use on a large scale.</s><s>This study presents a methodology which combines deflection based methods with either the hole drilling or contour methods.</s><s>Results show that these experiments can be completed in a cost effective manner, with standard lab based equipment to generate a through thickness measurement of residual stress.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Laser Powder Bed Fusion (L-PBF) is an additive manufacturing technology which uses a laser to selectively melt thin layers of metal powder sequentially forming complex three-dimensional parts.</s><s>The melting and subsequent freezing of these thin layers creates significant thermal gradients resulting in the generation of residual stresses when the parts cool <ref type="bibr" target="#b0">[1]</ref>.</s><s>Residual stresses can lead to deformation and failure of parts both within the additive process and in subsequent post processing steps.</s><s>As L-PBF is scaled for mass production, these deformations provide challenges for engineers as they try to meet the process capability and dimensional tolerance constraints required for mass production.</s></p><p><s>Understanding the distribution of stresses within a part is a vital step in surmounting this challenge.</s><s>Previous studies have approached the analysis of residual stresses from two directions: quantifying the distortion caused by the stresses in manufactured geometries or evaluating the stresses within the material by measuring changes induced in the crystal lattice parameters.</s></p><p><s>Generally, in the distortion based experiments, stress measurement is achieved by the manufacture of a known geometry.</s><s>Examples of this include: a Multi-Support Deflection Bridge (MSDB) <ref type="bibr" target="#b0">[1]</ref>, the bridge curvature method (BCM) first reported by Kruth <ref type="bibr" target="#b1">[2]</ref>, the Three Prong Method (TPM) <ref type="bibr" target="#b2">[3]</ref>, thin plates as descried by Pohl <ref type="bibr" target="#b3">[4]</ref>, as well as variations on a cantilever structure first used by Zaeh and adapted by Buchbinder and Yadroitsava <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>.</s><s>Once manufactured these parts are either partially or fully separated from the substrate and the resulting deflection measured.</s><s>Methods such as this allow for the rapid quantitative comparison of the effect of scanning strategies and processing parameters on the deflections caused by residual stresses.</s></p><p><s>Furthermore, these methods allow inference of the level of stress in the parts as well as the calculation of the stresses that would have caused the measured deflections.</s><s>The aforementioned methods do not allow for the calculation of the stress that remains within the part after cutting and, consequently, do not allow for determination of the full state of stress.</s><s>Also by the nature of how these methods work they require the building of special geometry often at a scale much smaller than the production parts being manufactured.</s></p><p><s>The second group of methods use the measurement of the angle of diffraction, Bragg angle, of either high energy electromagnetic rays or neutrons as they pass through the material <ref type="bibr" target="#b9">[10]</ref>.</s><s>This enables the determination of the lattice planar spacings using the Bragg equation, which can then be used in determining the residual strain.</s><s>The depth of penetration and resolution of these methods is dependent on the interactions and energy of the rays being used.</s><s>X-Ray diffraction (XRD), for example, can typically only penetrate between 5-30 μm <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>, whereas radiation from high energy neutron or synchrotron beam lines can penetrate up to 50 mm in steel <ref type="bibr" target="#b11">[12]</ref> with an accuracy of 5-20 MPa <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b12">13]</ref>.</s><s>While these methods allow the generation of through thickness stress profiles <ref type="bibr" target="#b13">[14]</ref>, numerous limitations make the methods complicated to use.</s><s>Due to the low penetration of the XRD technique, the surface finish of a component also directly affects the measurements.</s><s>In order to avoid these affects, the top 120 μm of material must be removed prior to measurement <ref type="bibr" target="#b10">[11]</ref>.</s><s>Furthermore, to determine the full state of stress within a material using these methods, measurements of strain in six directions must be measured and reliable values for the unstrained lattice planar spacing is required <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b12">13]</ref>.</s><s>When combined with the need for beamline time, the above factors can make the regular application of these techniques prohibitively expensive.</s></p><p><s>The effect that scan strategies have on the residual stress has been investigated by numerous authors <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16]</ref>.</s><s>The results of these studies do not all lead to the same conclusions, with different measurement strategies, materials, and parameters being used throughout.</s><s>The early studies into L-PBF <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b15">16]</ref> suggested that the greatest residual stress was generated perpendicular to the scan direction.</s><s>The finding was largely contradicted by the more recent works, which state that the greatest stress is parallel to the scan vectors <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b14">15]</ref>.</s><s>Regardless of the direction of principal stress, it is clear that the use of unidirectional scan vectors that are aligned layer after layer will give a very anisotropic state of stress.</s><s>The use of chequerboard or alternating scan strategies are common for the distribution and reduction of residual stress.</s><s>Zaeh <ref type="bibr" target="#b4">[5]</ref>, for example, compared the use of chequerboard, unidirectional, and alternating scanning strategies.</s><s>His work concluded that chequerboard gave the lowest level of stress and alternating gave a middle ground between the two unidirectional strategies.</s><s>This is contradicted by Sillars <ref type="bibr" target="#b2">[3]</ref> who shows that chequerboard also sits between the two unidirectional scanning strategies.</s><s>The following study includes a range of these scanning strategies to capture any effects they have on the residual stress distribution throughout the part.</s></p><p><s>This paper investigates the combination of deflection based methods as well as the contour and hole drilling methods on larger solid geometries which are more representative of production scale geometries.</s><s>The aim of these experiments is to provide the level of detail afforded by neutron or synchrotron diffraction with the ease of application of the deflection based methods.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head><p><s>All samples were manufactured on a reactive material L-PBF additive manufacturing machine, M2 Cusing (Concept Laser GmbH, De).</s><s>The parts were printed in a single build using commercially pure Titanium (CpTi) powder on 30 bespoke CpTi mini-substrates, 65 mm X 22 mm X 10 mm.</s><s>Each individual mini-substrate was attached to a 245 mm X 245 mm X 15 mm 316 L stainless steel substrate by two M4 screws.</s><s>Finally, the top surface was machined ensuring surface planarity between samples, Fig. <ref type="figure" target="#fig_0">1A</ref>.</s><s>This methodology enabled the tests to capture the stresses relieved when the parts were removed from the master substrate by measuring the loosening torque and back face deflection of the mini-substrate whilst also allowing subsequent analysis by other techniques.</s></p><p><s>The L-PBF test geometries, dimensions 50 mm X 20 mm X 15 mm (depth), were built centrally on each of the mini-substrates using the parameters shown in Table <ref type="table" target="#tab_0">1</ref> which produce parts with density &gt; 99.9%.</s><s>Seven scanning strategies were used with four repeats of each per plate.</s><s>Build files were prepared using Magics (Materialise, Be) allowing the use of the following scanning strategies, a schematic of these scan strategies is shown in Fig. <ref type="figure" target="#fig_1">2:</ref> • all scan vectors along the longer dimension (All X), • all scan vectors along the shorter dimension (All Y),</s></p><p><s>• alternating X and Y vectors on consecutive layers (XYA), • 2.5 mm chequerboard with 1 mm offset on consecutive layers (2.5 mm CB),</s></p><p><s>• 5 mm chequerboard with 1 mm offset on consecutive layers (5 mm CB),</s></p><p><s>• 5 mm chequerboard with no offset on consecutive layers (5 mm   CBNO) and</s></p><p><s>• 20 mm chequerboard with 1 mm offset on consecutive layers (20 mm CB).</s></p><p><s>The scanning strategies described above were chosen to determine the direction of principal stress, make comparisons with known simple scans and investigate more complex strategies reported as being advantageous in the amelioration of residual stress <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b15">16]</ref>.</s><s>Typical chequerboard sizes quoted in the literature are 2.5 mm and 5 mm <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b15">16]</ref>.</s><s>20 mm chequerboard was also used as it allowed the differentiation of the effects of scan vector orientation and scan vector length.</s><s>The scan vectors length with this strategy match the 20 mm vectors for All Y.</s></p><p><s>It has been shown that, for some machines, position on the build can affect the quality and mechanical properties of the parts <ref type="bibr" target="#b16">[17]</ref>.</s><s>To reduce this systematic error, the location of the four repeats of each strategy were randomized across the build area.</s><s>An ANOVA test was also carried out on the difference between the measured result and the average across the samples within the single build.</s><s>The results showed that there was no measurable and statistically significant effect of part location on the residual stress measured by any method reported here.</s><s>The use of independent mini-substrates minimized any effect on measured stress that might arise from the proximity of adjacent samples.</s><s>The independent mini-substrates also meant that no further post processing was required before the analysis could be completed, as powder could simply be brushed from the parts post build.</s><s>The completed build can be seen in Fig. <ref type="figure" target="#fig_0">1B</ref>.</s><s>Several analysis techniques were applied as explained below.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Torque removal</head><p><s>A digital torque meter, MGT50 (Mark 10, USA), was used to measure the removal torque of the mini-substrate bolts.</s><s>Following measurement the bolts were subsequently tightened back to the loosening torque minimising the effect that loosening one substrate would have on the values recorded for the other samples.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Deflection measurement</head><p><s>An optical laser surface profiler OSP100 (Uniscan, UK) was used for the deflection measurements.</s><s>Measurements were taken on a grid spacing of 50 μm in X and 125 μm in Y, with Z deflection being recorded.</s><s>Initial measurements of the top surface showed significant noise due to surface roughness with the maximum peak to trough measurements, R t , approaching the maximum deflection.</s><s>Due to the noise from the top surface, all deflection measurements were taken from the machined base of the mini-substrate; this adjustment reduced the noise significantly.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Initial stress calculations</head><p><s>The following steps were performed on the collected deflection data providing an approximation of the levels of stress relieved due to the deformation of the samples. <ref type="bibr" target="#b0">1</ref> The tilt was removed from the data by fitting the data to a best fit plane [18] 2 The raw data was smoothed using a least-squares bivariate spline approximation <ref type="bibr" target="#b18">[19]</ref> with a knot spacing of 1 mm (Fig. <ref type="figure" target="#fig_2">3</ref>) 3 A structured FEA mesh was created (Fig. <ref type="figure" target="#fig_3">4</ref>) 4 Nodal displacements of the bottom surface were interpolated from the processed displacement data 5 The inverse of the displacement was applied to the base of the part to simulating removing the measured deflection.</s><s>These deformations are applied to an un-deformed model as described by Prime <ref type="bibr" target="#b17">[18]</ref>.</s><s>Prime reports that this is a reasonable approximation if deformations are less than 1% of the characteristic length, which they were in this case.</s><s>6 Material properties for additively manufactured CpTi determined by Mullen <ref type="bibr" target="#b19">[20]</ref> (E of 95 GPa and ʋ 0.36) were applied to the part 7 An Abaqus input file was created and solved using Abaqus (Dassault Systemes, Fr) 8 The results were processed in the Abaqus GUI and extracted for further analysis using the python interface</s></p><p><s>To reduce user input into the model, an automated meshing algorithm was implemented which produced a structured hexahedral mesh limited to element sizes that were factors of the key dimensions of the sample.</s><s>A mesh dependence study was run based on cubic elements of 1 mm, Fig. <ref type="figure" target="#fig_3">4</ref>, (29,080 elements with 32,510 nodes and 97,530 DoF), and 0.5 mm (29,080 elements with 32,510 nodes and 97,530 DoF).</s><s>The output data at the cell sizes chosen was found to be mesh independent to within the standard deviation of the experimental data.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Hole drilling</head><p><s>Residual stress measurement by hole drilling followed the ASTM standard ASTM E837 <ref type="bibr" target="#b20">[21]</ref>.</s><s>One test block from each strategy was chosen and strain gauges were attached to the centre of the part on the top surface with measurement grids aligned to the X and Y directions of the part.</s><s>The part was secured during drilling using a clamp attached to the feet of the RS-200 Milling Guide (Vishay Measurement Group, USA).</s><s>Holes were drilled at 50 μm increments and the results were then analysed using the H-Drill software (Schajer, CA).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Contour method</head><p><s>The hole drilling method only allows the stress in the top 1 mm of the centre of the part to be evaluated.</s><s>In order to fully understand the stress distribution, it was investigated through the part thickness, using the contour method as described by Prime <ref type="bibr" target="#b17">[18]</ref>.</s><s>One sample from each scanning strategy was securely clamped symmetrically about the centre and wire cut across the YZ plane centerline.</s><s>Parts were cut using an A320D wire cutting machine (Sodick, USA) as shown in Fig. <ref type="figure" target="#fig_4">5</ref>.</s><s>The deflection of the cut surface was measured using the optical surface profiler.</s><s>The data was smoothed using least-squares bivariate spline and analysed using the method outlined by Prime <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b18">19]</ref>.</s><s>Smoothing was achieved using a knot spacing of 0.2 mm in the Z direction and 11 mm in the Y direction, an approach selected following experimentation to reduce the influence of cut artefacts.</s><s>The smaller knot spacing in the Z direction was chosen following observations of the measured data and analysis of the stress profiles predicted by Mercelis <ref type="bibr" target="#b10">[11]</ref>.</s><s>The changes in stress at the boundary between the part and the substrate were expected to be large and therefore a sufficiently small knot spacing was required to capture deformations, whilst also remaining sufficiently large to ensure removal of noise.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Experimental results</head><p><s>The following section describes the experimental results.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Stress estimation based on the removal torque</head><p><s>Previous work indicates that in L-PBF, residual stress acts to bend the part towards the laser <ref type="bibr" target="#b0">[1]</ref> serving to increase the load on the screws securing the mini-substrates and, consequently, increase the loosening torque for the screws.</s><s>The removal torque is proportional to the stress within the sample.</s><s>As such, the measurement of the torque provides a quantitative comparison of the stress level within the samples.</s></p><p><s>The torque required to remove the screws varied across the samples; such variance is shown in Fig. <ref type="figure" target="#fig_5">6</ref>.</s><s>To understand if the variation between scanning strategies was statistically significant, Minitab and the ANOVA statistical test at 95% confidence was used.</s><s>Results of the analyses revealed that the all X parts were statistically different from all other parts.</s><s>However, the all Y parts showed statistically lower removal torque at 95% confidence than did the chequerboard samples.</s><s>Yet, the chequerboard samples were not statistically different to the XYA samples.</s><s>The maximum and minimum removal torques were for the scan vectors in the X and Y direction respectively with trends suggesting that the XY alternating strategy gives results that fall between the two unidirectional strategies but is closer to the all Y than the all X.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Stress estimation based on deflection of samples</head><p><s>The effect of internal stress on the deformation of parts is discussed in detail in the literature and this deformation is commonly used as a method for the determination of the stress [1,2,4,5,7,8].</s><s>Specific geometries are usually used to "amplify" or concentrate this stress and the use of these specially developed geometries may play a significant role in the final result.</s><s>Deformation is generally based on shapes that may affect the measurements (i.e., supported cantilevers and bridges).</s><s>It was clear from both the torques measured in the previous section and the visual appearance of the samples when they were removed from the steel plate, that there was a measurable variation in the deflection of the samples along the long axis of the parts.</s><s>Measuring this deflection provided an additional data point that is independent of any errors caused by the screw geometry or loosing of the samples.</s><s>Furthermore, the measurement data could be used later for the calculation of the stresses that were relieved as the parts were released from the substrate.</s></p><p><s>One indication of the levels of residual stress within the parts is the amount by which they deform when removed from the base substrate.</s></p><p><s>The difference in deformation between some scan strategies was large.</s><s>Fig. <ref type="figure" target="#fig_6">7</ref> shows the All Y strategy compared to the All X strategy and depicts that the All Y strategy (max deflection 0.05 mm or 1 layer thickness) is much smaller than the All X (0.2 mm or 4 layer thicknesses).</s><s>A quantitative comparison using data from these surfaces is difficult due to the nature of the data.</s><s>To simplify comparison, the difference in z position of the outside in comparison to the centre in both the X and Y directions was measures from the OSP data, as shown in Fig. <ref type="figure" target="#fig_7">8</ref>.</s></p><p><s>Fig. <ref type="figure" target="#fig_7">8</ref> shows that deformations in the X direction are significantly larger than those in the Y direction.</s><s>Such a discrepancy is a feature of the elongated rectangular shape of the sample, which, because of the rectangular nature of the samples amplifies X deflections selectively.</s><s>Therefore, this bulk change in shape should not be interpreted as directionality in the residual stresses contained within the build samples.</s><s>However, clear differences can be seen showing a link between the scanning strategies and the distribution of internal stresses generated:</s></p><p><s>• deformation is greatest when the scan vectors are aligned parallel to the direction of measurement as seen with the All X,</s></p><p><s>• deformation is smallest when the scan vectors are aligned normal to the direction of measurement as seen with the All Y,</s></p><p><s>• XY Alternating provides a middle ground between the extremes of all X and all Y and • chequerboard scans show larger deflections than XY alternating.</s><s>The deflections decrease with increasing chequerboard size.</s></p><p><s>The process described in section 2.3 was used to determine the 3D state of stress that would cause these measured deformations.</s><s>Fig. <ref type="figure" target="#fig_8">9</ref> shows the stress distribution in a part made with all X scan vectors, which indicate a maximum tensile stress at the upper surface and a maximum compressive stress at the lower surface of the mini-substrate.</s><s>To provide comparison between the samples, the stress in the top centre element was calculated in both the X and Y direction (Fig. <ref type="figure" target="#fig_9">10</ref>).</s><s>These are the stresses that were relieved when the part was un-bolted.</s><s>To calculate the total stresses prior to release, the stresses that remain in the part after bending on unbolting must be calculated.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Stress estimation based on Hole drilling</head><p><s>The deflection method analysed the stress in the whole part (including the mini-substrate) that was relieved when the parts were unfastened from the main substrate.</s><s>The hole drilling method allows the stresses present in the built part after release to be measured thereby allowing the stress before release to be calculated.</s><s>The ability to calculate this measurement is vital when comparing the effect of scan strategies on residual stress accumulation within the part.</s></p><p><s>During the analysis of the strain data captured during hole drilling, the stress profile was assumed to be constant in the first 1 mm of the top surface of the part.</s><s>This was determined to be reasonable considering the slope of the stress distributions from the FEA analysis as shown in Fig. <ref type="figure" target="#fig_8">9</ref>.</s><s>The stresses calculated by hole drilling are shown in Fig. <ref type="figure" target="#fig_10">11</ref>; these are the stresses that remain in the part after releasing it from the substrate.</s><s>The stresses in the Y direction, for the all Y and XYA strategies are much higher than the X direction stresses and are comparable to the stress in the X direction for the chequerboard strategies.</s><s>A result of this nature is to be expected given that the stresses relieved by the bending of the part on release were primarily the stresses in the X direction, Fig. <ref type="figure" target="#fig_9">10</ref>.</s><s>These stresses, having already been relieved through the deformation of the part, cannot be observed in the hole drilling method when completed after the part was removed from the master substrate.</s></p><p><s>To calculate the 'in part' stresses post manufacture, the results from the deflection reverse FEA (Fig. <ref type="figure" target="#fig_9">10</ref>) and from the hole drilling (Fig. <ref type="figure" target="#fig_10">11</ref>) must be summed as shown in Fig. <ref type="figure" target="#fig_11">12</ref>.</s><s>The results for the all X and all Y further confirm that the greatest residual stress is generated parallel to the scanning direction of the part.</s><s>However, if the direction was the only factor then it would be expected that the all X and all Y would be the same but rotated by 90 degrees.</s><s>It is proposed that both the aspect ratio of the part and the direction of the scanning vectors affect the levels of residual stress.</s><s>It can also be observed from Fig. <ref type="figure" target="#fig_11">12</ref> that the difference between the stresses in the X and Y directions is much larger for chequerboard samples than for XY alternating.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Stress estimation based on the contour method</head><p><s>The hole drilling method allowed for the stress in the top of the part both before and after release from the substrate to be measured.</s><s>Information as to the state of stress through the thickness of the part is not provided.</s><s>The use of the contour method allows the full state of stress normal to the cut plane to be determined.</s></p><p><s>After cutting and measurement, the results showed that the cut profile of each part follows the same trend (Fig. <ref type="figure" target="#fig_12">13</ref>) with the surface deforming into the part at the top and the bottom.</s><s>Such a finding implied a tensile stress at the top and bottom and a compressive stress in the centre portions (Fig. <ref type="figure" target="#fig_13">14</ref>).</s></p><p><s>The stress profile through the cut surface (YZ plane) can be seen in Fig. <ref type="figure" target="#fig_14">15</ref>.</s><s>The profile illustrates that the stress is tensile in the top of the part, with an intermediate tensile region, then a further tensile peak and a steep transition to a compressive stress at the junction between  the substrate and the part.</s><s>The stress then reverts to a tensile stress in the bottom of the substrate.</s><s>The trend is similar for all the samples, as shown in Fig. <ref type="figure" target="#fig_15">16</ref>.</s><s>The location of these key features are very similar but the magnitudes of the stress differ for the various scanning strategies.</s></p><p><s>To understand the stresses that were present in the part before they were released, the contour method utilizing multiple cuts, proposed by Pagliaro, was used <ref type="bibr" target="#b21">[22]</ref>.</s><s>In this case the stresses from the contour method and the reverse FEA of deflection described in Section 2.3 are combined to give the state of stress before the part was released from the substrate.</s><s>Fig. <ref type="figure" target="#fig_16">17</ref> shows these combined stresses.</s></p><p><s>The general shape of the stress profile in the 'as built' parts is similar for all strategies.</s><s>The highest and lowest level of stress at the surface of the component was found in the all X parts and the all Y respectively.</s><s>The XY alternating and the chequerboard samples have a similar level of stress at the surface.</s><s>However, the stress drops off much faster in the XY alternating as it moves further from the top surface of the part.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p><s>All the experimental methods used in this study show large residual stresses in the parts after manufacture as well as demonstrate that the magnitude and directionality of these stresses can be affected through the use of different scanning strategies.</s><s>The following section will compare the results from these different methods, the benefits and limitations of each, and the ways in which they can be combined to generate a full picture of the state of stress within a part post-manufacture.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Comparison of different measurement techniques</head><p><s>The torque required to remove the bolts from the part and the measured deflection of the back surface of the samples provided a quick measure of the residual stress within the part.</s><s>Such methods are inherently very similar to the defection based methods that were discussed in the introduction <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8]</ref> and provide an effective way of ranking different processing conditions.</s></p><p><s>The current paper proposed an extension to these methods by utilizing the deflection data and a finite element model to determine the stresses that were relieved through the process of removing the parts from the master substrate.</s><s>The results demonstrated that a large proportion of the stress within a part is relieved as it is removed from the substrate.</s><s>It is therefore important to consider these stresses at later analysis steps to have a full understanding of the state of stress within the part.</s><s>w deviation of samples with the same parameters randomly positioned across the plate shows that part position has little effect on residual stress.</s><s>Any differences that are created are small in comparison to the differences between parts manufactured using other strategies.</s></p><p><s>The use of hole drilling to calculate the residual stress in a part is a well-documented and standardised method.</s><s>The limitations of this method are also well discussed; the standard on this method <ref type="bibr" target="#b20">[21]</ref> details that, as the stresses approach and exceed 60% of the yield stress, the accuracy of the results decreases.</s><s>The yield stress in L-PBF CpTi was comprehensively studied by Robinson et al. <ref type="bibr" target="#b0">[1]</ref> with the reported yield strength of 488 MPa and ultimate tensile strength of 593 MPa.</s><s>Although the samples in this study were manufactured on different equipment using different parameters, the raw powder used and resultant density of material were equivalent.</s><s>If this value for yield strength is used, then the 60% limit is placed at 293 MPa.</s><s>Therefore, although the measured  values are close to this limit, the requirement to be below this is met.</s><s>This factor should be remembered in future applications of hole drilling especially if the measurements are to be taken before the parts are removed from the substrate.</s><s>Fig. <ref type="figure" target="#fig_11">12</ref> showed that the stresses in the top of the part before it was released from the substrate were close to the yield stress of the material and so much greater than this 60% limit.</s></p><p><s>The contour method showed that deformation and stress profiles have the same trends and shapes, independent of the scanning strategy used to make the blocks.</s><s>Thus, the profile of the stress is likely a function of the nature of the L-PBF manufacturing process and not of   the specific scanning strategy.</s><s>The stress levels, however, are variable depending on the scanning strategy.</s></p><p><s>The stress profile through the thickness of a component is not often reported in the literature, especially not to the fidelity presented here.</s><s>Most articles concentrate in the near top surface stress or on the calculation of stress at finite locations through the part using neutron diffraction.</s><s>The data collected as part of this study can be compared with the theoretical models proposed by Mercelis and Shiomi <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b14">15]</ref>.</s><s>The theory proposed gives a stress profile vertically through a part.</s><s>To enable the comparison with this work, their equations have been used with the parameters of these experiments.</s><s>However, the theoretical models assume that no external forces act on the system.</s><s>Such an assumption is not possible when these parts were built as they were bolted down to a large substrate, which in turn was itself bolted down to the top of the piston.</s><s>To attempt to mitigate the effects, Fig. <ref type="figure" target="#fig_17">18A</ref> considers the case for an unrestrained 10 mm substrate which is similar to these parts after release.</s><s>Fig. <ref type="figure" target="#fig_17">18B</ref> considers the situation where a thicker substrate is used, in this case a 25 mm substrate, which accounts for the extra 15 mm of substrate to which the small parts were bolted.</s></p><p><s>The stress profiles measured using the contour method do show similarities to those proposed in the literature, with the general trends being of the same order.</s><s>The stress profile in the part appears to be less linear than the theoretical model predicted, with the stress gradient from the top surface being much steeper.</s><s>It is proposed that this is due to the subsequent layers heating the already built part and relieving some of the stresses by creating localised plastic strain.</s><s>Roberts <ref type="bibr" target="#b22">[23]</ref> showed that the temperature in the layer below the formed layer could approach 1200 °C, considerably above the annealing temperature for CpTi, with successive layers reaching temperatures that would be able to relieve some of the stresses.</s><s>An effect of this nature, would explain why the measured stresses in layers below the top surface are lower than those predicted by the theoretical model.</s></p><p><s>Both the hole drill and contour method show that residual stresses in the part after release are still significant.</s><s>This is most likely due to the geometry of the sample and the presence of the mini-substrate which restrains the parts restricting the deformation.</s><s>It is important to consider these stresses when completing any further manufacturing steps on the sample, such as heat treatment or machining.</s><s>The presence of these stresses may cause additional deformation affecting the dimensional tolerance of the part.</s></p><p><s>When the stresses calculated by either the hole drilling or the contour method were combined with those from the deflection, calculations showed that there were very large stresses in the part after manufacture.</s><s>It should be noted that the predicted stress for these parts in many cases is approaching or in excess of the yield stress calculated by Robinson <ref type="bibr" target="#b0">[1]</ref>.</s><s>In addition the stress in the all X, determined by the contour method, is in excess of the ultimate tensile strength (UTS) of the material.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Comparison of different scanning strategies</head><p><s>To enable the comparison of the different scanning strategies analysed with a range of techniques, Fig. <ref type="figure" target="#fig_8">19</ref> shows a comparison of the results from all of the methods of analysis used.</s><s>To allow a comparison between hole drilling and contour cut, the results depict the average stress measured in the top 1 mm in the centre of each part.</s><s>The differences between the results from the experiments could be explained due to the error caused by plasticity when stresses close to the yield stress are measured.</s><s>The contour method also has larger errors at the boundary due to the difficulty of fitting a surface to the deformation profile at the edge of the part.</s><s>The trends however are very similar across all measurement techniques.</s></p><p><s>All the test methods demonstrated that the all X showed greater stress than the all Y in measurement direction.</s><s>As expected, the primary residual stress is generated parallel to the direction of scanning,  confirming results in the literature <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b14">15]</ref> and giving credence to these measurement methods.</s><s>The results from the 20 mm chequerboard confirm that it is the direction of the scan vector, and not its length, that causes this result.</s><s>Therefore, unidirectional scan vectors create high stresses in the parallel direction and low stresses in the perpendicular direction.</s><s>Consequently, this strategy is unsuitable unless a high level of consideration to part geometry is maintained.</s></p><p><s>The XY alternating scanning strategy and the chequerboard strategies were also shown to provide an intermediate level of stress.</s><s>In all tests, the stresses in the chequerboard samples were either greater than or equivalent to the XY alternating results.</s><s>The use of chequerboard scanning on the geometries manufactured in this study shows no perceived benefit over the XY alternating strategy which is currently employed.</s><s>The deviation between the results makes comparisons of the different chequerboard sizes difficult.</s><s>Nonetheless, a trend may be apparent, although not supported statistically, which shows that an increase in chequerboard size relates to a drop in the residual stress.</s><s>A proposition of this sort is supported by the fact that, as the chequerboard size increases, results tend towards the XY alternating strategy, which has the lowest measured residual stress for a multi-directional scan.</s></p><p><s>Furthermore, the results from the hole drilling experiments presented in Fig. <ref type="figure" target="#fig_11">12</ref> show a clear difference in the levels of stress in the X and Y directions for the chequerboard strategy.</s><s>The cause is unclear from these experiments.</s><s>On every layer, the length of the hatch vectors in each direction is equal and, if the part is considered as a whole, then the length of vectors in each direction should be essentially the same as the XY alternating part.</s><s>Further experimentation or simulation would be required to understand this in more detail.</s><s>A mismatch in the levels of stress should be avoided when manufacturing parts as it may cause distortion in a preferential direction.</s><s>It is therefore recommended that, of the measured strategies, the XY alternating be used as it provides the lowest and most even level of residual stress.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>The intention of this study was to determine the residual stress in L-PBF parts manufactured with commercially available scanning strategies and analysed with either ASTM standardised techniques or methods that are widely discussed in the literature.</s><s>The following conclusions and suggestions for future work can be drawn from this study:</s></p><p><s>• The agreement between the torque removal, deflection, hole dril- ling, and contour method allowed conclusions on the effect that scanning strategies to be drawn with confidence.</s></p><p><s>• It was found that the residual stress in SLM components manu- factured with unidirectional vectors is primarily orientated in the scanning direction.</s><s>A stress of approximately half the magnitude in the direction normal to the scan vectors exists which should not be neglected in the design of parts or scan strategies.</s></p><p><s>• The use of chequerboard scanning strategies was shown to have little benefit in reducing the residual stress or making the stress less isotropic in the parts tested.</s></p><p><s>• The XY alternating strategy gave the most uniform distribution and the lowest measured residual stress for a multi-directional scan strategy.</s></p><p><s>• The methods used for the analysis of residual stress all had separate merits.</s><s>The torque required to remove the supporting bolts provided an easy initial indication of the levels of stress.</s><s>The errors in the experiment made the determination of small differences difficult and so this method was not recommended as a definitive guide to the levels of stress.</s><s>The deviation in deflection between separate samples made with the same parameters was smaller and, as a result, there was a greater confidence in the results of this analysis technique.</s><s>The torque method, however, did not give any indication on the magnitude of the stress in the components, whereas the hole drilling and contour methods allowed the levels of stress after the release of the components to be calculated.</s></p><p><s>• Hole drilling was beneficial due to the standardisation of the tech- nique and the availability of software to simplify the analysis process.</s><s>The levels of stress in a component have a direct effect on the accuracy of the hole drilling method: if the stress is greater than 60% of the yield stress of the material then the analysis requires that plasticity be considered.</s><s>The release of the parts prior to hole drilling meant that this was valid for these experiments.</s></p><p><s>• The contour method gave a full two dimensional state of stress through the thickness of the component using equipment that is readily available in a lab setting.</s><s>Once the measurement technique and models were generated the processing of additional data was relatively straight forward.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future Work</head><p><s>• The effect of newer scan strategies, not commercially available at the time of this work, which have been shown to give increasingly uniform levels of stress, such as the 74-degree hatch rotation described by Robinson <ref type="bibr" target="#b0">[1]</ref> should be studied using these methods.</s></p><p><s>• The stress profiles calculated using a combination of the contour and reverse FEA model from the deflection data allowed a comparison with the analytical methods discussed in the literature.</s><s>The trends shown were similar with a sharp change in the residual stress at the boundary between the part and the substrate.</s><s>However, the analytical models did not accurately predict the levels of the stress when the part was released from the substrate.</s><s>Further work should be done comparing the results of these experimental methods with those produced by the increasingly common L-PBF simulation packages.</s></p><p><s>Fig. <ref type="figure" target="#fig_8">19</ref>.</s><s>Comparison of the stress in the top centre element before release measured by the contour and hole drilling methods and also the removal torque and deflection data with error bars showing the error calculated from the strain readings, smoothing values.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>A: CAD of Mini-Substrate System Comprising a Stainless-Steel Main-Substrate and Separate CpTi Mini-Substrates, B: Residual stress test bars built on top of the mini-substrates manufactured by the M2 Cusing.</s></p></div></figDesc><graphic coords="2,118.26,619.65,358.70,99.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. Schematic of scanning strategies used.</s></p></div></figDesc><graphic coords="2,324.79,161.69,214.70,224.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. Raw and smoothed measurements of the inverted deformation of samples.</s></p></div></figDesc><graphic coords="4,118.89,57.03,357.55,176.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig.4.</s><s>FEA grid created by the automated meshing software written in Python and displayed using ABAQUS.</s></p></div></figDesc><graphic coords="4,147.69,584.11,299.95,144.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. Schematic showing clamp fixture designed to securely hold the samples while being cut using wire EDM in preparation for measurement by the contour method.</s></p></div></figDesc><graphic coords="4,324.40,264.30,215.42,108.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6.</s><s>Torque required to remove the fasteners for the individual substrates built with different parameters with error bars indicating the standard deviation between samples of the same scan strategy.</s></p></div></figDesc><graphic coords="5,55.33,57.03,215.57,126.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. Smoothed profile of deformation parts made with all Y scan vectors (left) and all X scan vectors (right).</s></p></div></figDesc><graphic coords="5,118.09,549.87,359.13,178.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. Centre line Z Deflection in the X and Y direction error bars indicate the standard deviation between samples of the same scan strategy.</s></p></div></figDesc><graphic coords="6,147.97,57.03,299.37,167.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig.9.</s><s>3D cross section of a part scanned with vectors all in the X direction, showing the stresses in the X direction.</s></p></div></figDesc><graphic coords="6,147.69,582.58,299.95,146.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 10 .</head><label>10</label><figDesc><div><p><s>Fig. 10.</s><s>Stress relieved by the deformation of samples after the release from the substrate with error bars showing the standard deviation between samples of the same scan strategy.</s></p></div></figDesc><graphic coords="7,148.08,57.03,299.09,165.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig. 11.</s><s>Stress in the centre of the top 1 mm of the part after the release from the substrate, assuming a uniform stress field calculated by the hole drilling method with error bars showing the error calculated from the strain readings.</s></p></div></figDesc><graphic coords="7,147.97,262.32,299.37,177.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 12 .</head><label>12</label><figDesc><div><p><s>Fig.12.</s><s>Stress in the centre of the top 1 mm of the part before release from the substrate calculated by combining the hole drilling and reverse FEA methods with error bars showing the combined error calculated from the strain readings and FEA models.</s></p></div></figDesc><graphic coords="7,147.97,542.04,299.37,176.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 13 .</head><label>13</label><figDesc><div><p><s>Fig. 13.</s><s>Displacement profile up the centre of each part after cutting, measurement, averaging and smoothing.</s></p></div></figDesc><graphic coords="8,147.97,57.03,299.37,194.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 14 .</head><label>14</label><figDesc><div><p><s>Fig.14.</s><s>Averaged defection profile of the superimposed scans of a part built with the all X scanning strategy and smoothed with a knot spacing of 0.2 mm in the Z direction and 11 mm in the Y direction.</s><s>Negative deflections indicate the surface has defected away from the cut plane caused by tensile stresses normal to the cut plane.</s><s>Positive deflections are caused by compressive stresses normal to the cut plane.</s></p></div></figDesc><graphic coords="8,55.62,281.25,214.99,165.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 15 .</head><label>15</label><figDesc><div><p><s>Fig.15.</s><s>The component of stress in the S11, X direction, normal to the surface of the cut in a part manufactured using the all X scanning strategy and analyzed using the contour method.</s></p></div></figDesc><graphic coords="9,148.42,57.03,298.37,234.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 16 .</head><label>16</label><figDesc><div><p><s>Fig. 16.</s><s>Stresses up the centre of each part after release from the substrate.</s></p></div></figDesc><graphic coords="9,147.97,331.03,299.37,197.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Fig. 17 .</head><label>17</label><figDesc><div><p><s>Fig.17.</s><s>Stress along the centre of the part before release calculated by superimposing the stresses which are calculated from the curvature of the samples after release and profile measured by the contour cut.</s></p></div></figDesc><graphic coords="10,147.97,57.03,299.37,200.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig. 18 .</head><label>18</label><figDesc><div><p><s>Fig.18.</s><s>Comparison of theoretical stress profiles defined by Mercelis<ref type="bibr" target="#b10">[11]</ref> and measured all X stress profiles.</s><s>(A) Theoretical profile (Part/mini-substrate) compared to the stresses in part after release, determined using the contour method.</s><s>(B) Theoretical profile (Part/mini-substrate/base plate) compared to the stresses in the part before release, determined using the combined contour and base curvature results.</s></p></div></figDesc><graphic coords="10,148.08,315.61,299.09,393.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Process parameters for the creation of residual stress test blocks.</s></p></div></figDesc><table><row><cell>Parameter</cell><cell>Solid</cell><cell>Border</cell></row><row><cell>Power [W]</cell><cell>180</cell><cell>100</cell></row><row><cell>Scan Speed [mm/s]</cell><cell>1000</cell><cell>450</cell></row><row><cell>Hatch Distance [μm]</cell><cell>105</cell><cell>N/A</cell></row><row><cell>Hatch Offset [μm]</cell><cell>80</cell><cell>N/A</cell></row><row><cell>Slice Thickness [μm]</cell><cell>50</cell><cell>50</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgment</head><p><s>This work was supported by the <rs type="funder">EPSRC Centre</rs> <rs type="grantName">for Innovative Manufacturing in Laser-based Production Processes [Grant</rs> number <rs type="grantNumber">EP/ K030884/1</rs>].</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_MDmdg2y">
+					<idno type="grant-number">EP/ K030884/1</idno>
+					<orgName type="grant-name">for Innovative Manufacturing in Laser-based Production Processes [Grant</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The effect of Hatch angle rotation on parts manufactured using selective laser melting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/RPJ-06-2017-0111</idno>
+		<ptr target="https://doi.org/10.1108/RPJ-06-2017-0111" />
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp. J</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Robinson, I. Ashton, E. Jones, P. Fox, C. Sutcliffe, The effect of Hatch angle ro- tation on parts manufactured using selective laser melting (In Press), Rapid Prototyp. J. (2018), https://doi.org/10.1108/RPJ-06-2017-0111.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Assessing and comparing influencing factors of residual stresses in selective laser melting using a novel analysis method</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deckers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0954405412437085</idno>
+		<ptr target="https://doi.org/10.1177/0954405412437085" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Inst. Mech. Eng. Part B J. Eng. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page" from="980" to="991" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-P. Kruth, J. Deckers, E. Yasa, R. Wauthle, Assessing and comparing influencing factors of residual stresses in selective laser melting using a novel analysis method, Proc. Inst. Mech. Eng. Part B J. Eng. Manuf. 226 (2012) 980-991, https://doi.org/ 10.1177/0954405412437085.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The threeprong method: a novel assessment of residual stress in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Sillars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Philo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sienz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Lavery</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17452759.2017.1392682</idno>
+		<ptr target="https://doi.org/10.1080/17452759.2017.1392682" />
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="20" to="25" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A. Sillars, C.J. Sutcliffe, A.M. Philo, S.G.R. Brown, J. Sienz, N.P. Lavery, The three- prong method: a novel assessment of residual stress in laser powder bed fusion, Virtual Phys. Prototyp. 13 (2018) 20-25, https://doi.org/10.1080/17452759.2017. 1392682.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Thermal stresses in direct metal laser sintering</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Simchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Issa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. SFF Symp</title>
+		<meeting>SFF Symp</meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="366" to="372" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Pohl, A. Simchi, M. Issa, H. Dias, Thermal stresses in direct metal laser sintering, Proc. SFF Symp. (2001), pp. 366-372.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Investigations on residual stresses and deformations in selective laser melting</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Zaeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Branner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11740-009-0192-y</idno>
+		<ptr target="https://doi.org/10.1007/s11740-009-0192-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Prod. Eng</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="35" to="45" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.F. Zaeh, G. Branner, Investigations on residual stresses and deformations in se- lective laser melting, Prod. Eng. 4 (2009) 35-45, https://doi.org/10.1007/s11740- 009-0192-y.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Investigation on reducing distortion by preheating during manufacture of aluminum components using selective laser melting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Buchbinder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Meiners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pirch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wissenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schrage</surname></persName>
+		</author>
+		<idno type="DOI">10.2351/1.4828755</idno>
+		<ptr target="https://doi.org/10.2351/1.4828755" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">12004</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Buchbinder, W. Meiners, N. Pirch, K. Wissenbach, J. Schrage, Investigation on reducing distortion by preheating during manufacture of aluminum components using selective laser melting, J. Laser Appl. 26 (2014) 012004, https://doi.org/10. 2351/1.4828755.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Residual stress in SLM Ti6Al4V alloy specimens</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grewar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hattingh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/MSF.828-829.305</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">828</biblScope>
+			<biblScope unit="issue">829</biblScope>
+			<biblScope unit="page" from="305" to="310" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Yadroitsava, S. Grewar, D. Hattingh, I. Yadroitsev, Residual stress in SLM Ti6Al4V alloy specimens, Mater. Sci. Forum 828-829 (2015) 305-310 Doi: 10.4028/ www.scientific.net/MSF.828-829.305.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Untersuchung zur Reduzierung des Verzugs durch Vorwärmung bei der Herstellung von Aluminiumbauteilen mittels SLM</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Buchbinder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Meiners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pirch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wissenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RTe J. Forum Fur Rapid Technol</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Buchbinder, G. Schilling, W. Meiners, N. Pirch, K. Wissenbach, Untersuchung zur Reduzierung des Verzugs durch Vorwärmung bei der Herstellung von Aluminiumbauteilen mittels SLM., RTe J. Forum Fur Rapid Technol. (2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Selective Laser Melting: Direct Manufacturing of 3D-Objects by Selective lAser Melting of Metal powders/Igor Yadroitsev</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Saarbrücken</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Lambert Academic Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Yadroitsev, Saarbrücken, Selective Laser Melting: Direct Manufacturing of 3D- Objects by Selective lAser Melting of Metal powders/Igor Yadroitsev, Lambert Academic Publishing, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Draft standard for the measurement of residual stresses by neutron diffraction</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Youtsos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ohms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Wimpory</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/0-306-48410-2_44</idno>
+		<ptr target="https://doi.org/10.1007/0-306-48410-2_44" />
+	</analytic>
+	<monogr>
+		<title level="j">Recent Adv. Exp. Mech</title>
+		<imprint>
+			<biblScope unit="page" from="467" to="476" />
+			<date type="published" when="2002">2002</date>
+			<publisher>Kluwer Academic Publishers</publisher>
+			<pubPlace>Dordrecht</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G.A. Webster, A.G. Youtsos, C. Ohms, R.C. Wimpory, Draft standard for the mea- surement of residual stresses by neutron diffraction, Recent Adv. Exp. Mech. Kluwer Academic Publishers, Dordrecht, 2002, pp. 467-476, https://doi.org/10.1007/0- 306-48410-2_44.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Residual stresses in selective laser sintering and selective laser melting</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mercelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/13552540610707013</idno>
+		<ptr target="https://doi.org/10.1108/13552540610707013" />
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp. J</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="254" to="265" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Mercelis, J.-P. Kruth, Residual stresses in selective laser sintering and selective laser melting, Rapid Prototyp. J. 12 (2006) 254-265, https://doi.org/10.1108/ 13552540610707013.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Recent advances in residual stress measurement</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Turski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Bouchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Buttle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.IJPVP.2007.10.007</idno>
+		<ptr target="https://doi.org/10.1016/J.IJPVP.2007.10.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Press. Vessel. Pip</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="118" to="127" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P.J. Withers, M. Turski, L. Edwards, P.J. Bouchard, D.J. Buttle, Recent advances in residual stress measurement, Int. J. Press. Vessel. Pip. 85 (2008) 118-127, https:// doi.org/10.1016/J.IJPVP.2007.10.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Neutron diffraction assisted residual stress analysis in welded structures</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ohms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Youtsos</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/0-306-48410-2_49</idno>
+		<ptr target="https://doi.org/10.1007/0-306-48410-2_49" />
+	</analytic>
+	<monogr>
+		<title level="j">Recent Adv. Exp. Mech</title>
+		<imprint>
+			<biblScope unit="page" from="515" to="526" />
+			<date type="published" when="2002">2002</date>
+			<publisher>Kluwer Academic Publishers</publisher>
+			<pubPlace>Dordrecht</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Ohms, A.G. Youtsos, Neutron diffraction assisted residual stress analysis in welded structures, Recent Adv. Exp. Mech. Kluwer Academic Publishers, Dordrecht, 2002, pp. 515-526, https://doi.org/10.1007/0-306-48410-2_49.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Neutron residual stress measurement and numerical modeling in a curved thin-walled structure by laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Spinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Stoica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.MATDES.2017.09.018</idno>
+		<ptr target="https://doi.org/10.1016/J.MATDES.2017.09.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="122" to="132" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. An, L. Yuan, L. Dial, I. Spinelli, A.D. Stoica, Y. Gao, Neutron residual stress measurement and numerical modeling in a curved thin-walled structure by laser powder bed fusion additive manufacturing, Mater. Des. 135 (2017) 122-132, https://doi.org/10.1016/J.MATDES.2017.09.018.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Residual stress within metallic model made by selective laser melting process</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shiomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Osakada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamashita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Abe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0007-8506(07)60677-5</idno>
+		<ptr target="https://doi.org/10.1016/S0007-8506(07)60677-5" />
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Ann.-Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="195" to="198" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Shiomi, K. Osakada, K. Nakamura, T. Yamashita, F. Abe, Residual stress within metallic model made by selective laser melting process, CIRP Ann.-Manuf. Technol. 53 (2004) 195-198, https://doi.org/10.1016/S0007-8506(07)60677-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of iron-based powder</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Froyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Vaerenbergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mercelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rombouts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lauwers</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2003.11.051</idno>
+		<ptr target="https://doi.org/10.1016/j.jmatprotec.2003.11.051" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="616" to="622" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-P. Kruth, L. Froyen, J. Van Vaerenbergh, P. Mercelis, M. Rombouts, B. Lauwers, Selective laser melting of iron-based powder, J. Mater. Process. Technol. 149 (2004) 616-622, https://doi.org/10.1016/j.jmatprotec.2003.11.051.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Material and design considerations for rapid manufacturing</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mansour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Saleh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Prod. Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="4691" to="4708" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Hague, S. Mansour, N. Saleh, Material and design considerations for rapid manufacturing, Int. J. Prod. Res. 42 (2004) 4691-4708.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Cross-sectional mapping of residual stresses by measuring the surface contour after a cut</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Prime</surname></persName>
+		</author>
+		<idno type="DOI">10.1115/1.1345526</idno>
+		<ptr target="https://doi.org/10.1115/1.1345526" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Eng. Mater. Technol</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page">162</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.B. Prime, Cross-sectional mapping of residual stresses by measuring the surface contour after a cut, J. Eng. Mater. Technol. 123 (2001) 162, https://doi.org/10. 1115/1.1345526.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Laser surfacecontouring and spline data-smoothing for residual stress measurement</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Prime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Sebring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Webster</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02428177</idno>
+		<ptr target="https://doi.org/10.1007/BF02428177" />
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Mech</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="176" to="184" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.B. Prime, R.J. Sebring, J.M. Edwards, D.J. Hughes, P.J. Webster, Laser surface- contouring and spline data-smoothing for residual stress measurement, Exp. Mech. 44 (2004) 176-184, https://doi.org/10.1007/BF02428177.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The Characterisation and Structural Optimisation of Additivly Fabricated Porous Componenets Specifically for Use in Orthopaedic Applications</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Liverpool</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Mullen, Liverpool, The Characterisation and Structural Optimisation of Additivly Fabricated Porous Componenets Specifically for Use in Orthopaedic Applications (2009).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">837-13a, Standard Test Method for Determining Residual Stresses by the Hole-Drilling Strain-Gage Method</title>
+		<author>
+			<persName><surname>Astm E</surname></persName>
+		</author>
+		<idno type="DOI">10.1520/E0837</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ASTM Int</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ASTM E837-13a, Standard Test Method for Determining Residual Stresses by the Hole-Drilling Strain-Gage Method, ASTM Int. (2013). Doi: 10.1520/E0837.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Measuring multiple residualstress components using the contour method and multiple cuts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pagliaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Prime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zuccarello</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11340-009-9280-3</idno>
+		<ptr target="https://doi.org/10.1007/s11340-009-9280-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Mech</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="187" to="194" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Pagliaro, M.B. Prime, H. Swenson, B. Zuccarello, Measuring multiple residual- stress components using the contour method and multiple cuts, Exp. Mech. 50 (2010) 187-194, https://doi.org/10.1007/s11340-009-9280-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A three-dimensional finite element analysis of the temperature field during laser melting of metal powders in additive layer manufacturing</title>
+		<author>
+			<persName><surname>Ia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Esterlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stanford</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mynors</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmachtools.2009.07.004</idno>
+		<ptr target="https://doi.org/10.1016/j.ijmachtools.2009.07.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mach. Tools Manuf</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="916" to="923" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ia. Roberts, C.J. Wang, R. Esterlein, M. Stanford, D.J. Mynors, A three-dimensional finite element analysis of the temperature field during laser melting of metal powders in additive layer manufacturing, Int. J. Mach. Tools Manuf. 49 (2009) 916-923, https://doi.org/10.1016/j.ijmachtools.2009.07.004.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,3318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ADDITIVE MANUFACTURING FOR MEDICAL APPLICATIONS Additive Manufacturing of NiTi Shape Memory Alloy for Biomedical Applications: Review of the LPBF Process Ecosystem</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-10-26">October 26, 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Keyvan</forename><surname>Safaei</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hossein</forename><surname>Abedi</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammadreza</forename><surname>Nematollahi</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fatemeh</forename><surname>Kordizadeh</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hediyeh</forename><surname>Dabbaghi</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Parisa</forename><surname>Bayati</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Reza</forename><surname>Javanbakht</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ahmadreza</forename><surname>Jahadakbar</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammad</forename><surname>Elahinia</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Behrang</forename><surname>Poorganji</surname></persName>
+							<email>behrang.poorganji@utoledo.edu</email>
+							<idno type="ORCID">0000-0001-8696-4297</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> .- Department of MIME , University of Toledo , Toledo , USA.</note>
+								<orgName type="department">Department of MIME</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> .</note>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ADDITIVE MANUFACTURING FOR MEDICAL APPLICATIONS Additive Manufacturing of NiTi Shape Memory Alloy for Biomedical Applications: Review of the LPBF Process Ecosystem</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-10-26">October 26, 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2FA667527A115BBBAE513659F23358F5</idno>
+					<idno type="DOI">10.1007/s11837-021-04937-y</idno>
+					<note type="submission">Received July 1, 2021; accepted September 21, 2021;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-05T13:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>NiTi shape memory alloys (SMAs) are used in a broad range of biomedical applications because of their unique properties including biocompatibility and high corrosion and wear resistance as well as functional properties such as superelasticity and the shape memory effect.</s><s>The combination of SMAs and additive manufacturing can lead to revolutionary changes to the uses of SMAs in the biomedical industry.</s><s>This article discusses the potential biomedical applications of NiTi that benefit from the AM process.</s><s>We share the lessons learned in processing NiTi alloys with a focus on the laser powder bed fusion (LPBF) technique.</s><s>The manufacturability, build quality, stable phases and transformation temperatures, microstructure, thermomechanical properties, microstructure tailoring, and functional properties of NiTi alloys produced via AM processing are reviewed.</s><s>Current challenges such as expanding the process window, controlling the chemistry, and the performance and property responses are discussed, and potential opportunities including alloy design are discussed.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p><s>Shape memory alloys (SMAs) are notably different from traditional alloys due to unique features such as their superelasticity, shape memory effect, elastocaloric effect, and biocompatibility.This combination of characteristics along with their good mechanical properties such as high corrosion resistance, <ref type="bibr" target="#b0">1</ref> good damping properties, <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> low stiffness, <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> and excellent strength and ductility (tensile elongation &gt; 30% <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> ) make these materials useful for a vast range of applications.</s><s>These characteristics have enabled the integration of these materials in many biomedical applications such as stents, sensors, orthodontic arch-wires, eyeglass frames, and miniature grippers.</s><s><ref type="bibr" target="#b9">10</ref> To provide the ability to enhance the characteristics and applicability of SMAs, one of the main challenges is their effective fabrication.</s><s>Casting is the most common method applied, followed by postmachining to obtain the final part.</s><s>The formation of unwanted secondary phases such Ni 3 Ti, Ti 2 Ni (Ti 4 Ni 2 O x ), and TiC due to segregation and impurity pickup is a challenge with this method that can degrade the functionality of the material.</s><s><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref> Moreover, the high wear-tool and temperature sensitivity of NiTi make them very challenging alloys to machine.</s><s>Although the conventional powder-metallurgy technique can address some of these casting challenges, it cannot form parts with complex shapes.</s><s><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> However, additive manufacturing (AM) technologies have been shown great capability to fabricate SMA materials due to their high flexibility and freeform capability, opening opportunities to eliminate or minimize the processing problems facedwhen using conventional approaches.</s><s><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METALLURGY AND BIOCOMPATIBILITY OF NITI SMAS</head><p><s>The shape memory effect and superelasticity are the two fundamental features of SMAs.</s><s>Briefly, the (one-way) shape memory effect is a phenomenon through which a mechanically deformed material returns to its original shape after heating, whereas superelasticity is the phenomenon by which the unloaded material recovers after considerable amounts of inelastic deformation.</s><s>These effects result from a reversible microstructure transformation.</s></p><p><s>NiTi alloys have three temperature-dependent phases: austenite, martensite, and R-phases.</s><s><ref type="bibr" target="#b20">21</ref> Austenite is a hard, strong, high-temperature phase with B2 cubic crystal structure, being considered to be the parent phase.</s><s>The ordered B2 structure has a body-centered cubic (BCC)-type unit cell built from two interpenetrating cubic sublattices.</s><s>These unit cells represent the smallest portion of a crystal lattice, repeating to form the entire crystal structure (or phase).</s><s>The B2 structure can be determined by a 50:50 atomic distribution.</s><s><ref type="bibr" target="#b21">22</ref> Martensite is ductile, soft, low-temperature or daughter phase with monoclinic B19¢ structure.</s><s>The B19¢ structure is basically a transformation of B2 into B19 in the first step, then monoclinic martensite is derived by applying shearing forces on B19.</s><s><ref type="bibr" target="#b22">23</ref> As shown in Fig. <ref type="figure">1</ref> and starting with the austenite phase (Fig. <ref type="figure">1a</ref>) followed by high-temperature transformation to the martensitic phase after cooling (Figs.</s><s><ref type="figure" target="#fig_10">11</ref>, <ref type="figure" target="#fig_1">2</ref>), the particular feature of SMA material is its ability to accommodate strain in such a as way to create a twinned martensite structure (Fig. <ref type="figure">1b</ref>).</s><s>Then, in the case of external mechanical load, the twinned martensitic microstructure deforms through reorientation and detwinning of the lattice structure (Fig. <ref type="figure">1c</ref>), which leads to macroscopic material deformation (Fig. <ref type="figure">1</ref>, 2, 3).</s><s>At this point, if the martensitic structure (twinned or detwinned) is subjected to subsequent thermal flux, the lowsymmetry martensitic microstructure transforms again into the well-ordered, high-symmetry austenite form (Fig. <ref type="figure">1d</ref>, <ref type="figure" target="#fig_2">3</ref>, <ref type="figure" target="#fig_3">4</ref>).</s><s>Such a transformation occurs with microscopic deformation, leading the material to return to its original shape.</s><s>In the superelasticity effect, starting again at high-temperature, highsymmetry, well-ordered austenite phase (Fig. <ref type="figure">1e</ref>), the material turns into the lower-symmetry martensitic (Fig. <ref type="figure">1F</ref>) phase by the application of external load (Fig. <ref type="figure">1</ref> , 5, 6).</s><s>This transformation occurs in a temperature range in which the martensitic phase is unstable without loading, thus the phase turns back to the original austenitic form upon unloading, in turn reversing the deformation (Fig. <ref type="figure">1</ref> , 6, 7).</s></p><p><s>Biocompatibility is another main characteristic of SMA material.</s><s>The biocompatibility of NiTi alloys has been widely investigated in three different regards: corrosion resistance, Ni-ion release, and cytotoxicity.</s><s>Due to the formation of a natural Ti oxide layer on their surface, NiTi alloys exhibit excellent corrosion resistance comparable to that of Ti and Ti-6Al-4V alloys.</s><s>This oxide layer, which can be thickened via passivation procedures, acts as a protective layer that prevents toxic and allergic reactions such as Ni-ion release.</s><s><ref type="bibr" target="#b23">24</ref> It has been shown that laser irradiation can increase the oxide layer on the surface of the NiTi alloys and improve the corrosion resistance.</s><s><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ADDITIVE MANUFACTURING OF NITI SMA</head><p><s>Additive manufacturing (AM) is a technique to build three-dimensional (3D) parts by consolidating materials by melting and joining layers of material on top of each other using a high-power energy source.</s><s>The AM (also known as 3D printing) method opens the opportunity to fabricate a wide range of structures and complex geometries from a computer-aided design (CAD) model with less waste, freedom of design, and at the same time high control over the build process by adopting a computercontrolled approach.</s><s><ref type="bibr" target="#b9">10</ref> Several AM methods have been developed to manufacture various structures with fine desired quality.</s><s>The main AM approaches that can be considered to process NiTi SMAs are laser powder bed fusion (LPBF), electron beam powder bed fusion (EPBF), wire-arc additive manufacturing (WAAM), ultrasonic additive manufacturing (UAM), and directed energy deposition (DED).</s><s><ref type="bibr" target="#b9">10</ref> The LPBF process is an attractive AM technology for metallic components with complex structures that require a higher feature resolution as well as a better-quality surface finish.</s><s><ref type="bibr" target="#b27">28</ref> For this reason, our research group has mainly focused on LPBF of SMAs over the past 10 years.</s></p><p><s>The LPBF process usually starts with the deposition of a thin layer of powder onto a substrate from a powder container.</s><s>This layer, typically 20 lm to 75 lm thick, is then heated and melted by scanning a laser beam.</s><s>As soon as the first layer is scanned, the platform moves downward along the z-axis by the thickness of a single layer to allow the despoition of a new layer of powder.</s><s>The laser beam then continues to melt the new powder layer selectively, and this process is repeated until the last layer has been processed.</s><s>The entire process is controlled by a chamber purged with inert gas (typically argon) to prevent oxidation during manufacturing.</s><s><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref> The laser power (P), scanning speed (V), hatch spacing (H), and layer thickness (L) are the main effective process parameters.</s><s>The volumetric energy density (VED) and linear energy density can be defined as</s></p><formula xml:id="formula_0">VED ¼ P= VHL ð Þ J mm 3</formula><p><s>representing the amount of energy interacting with the material.</s><s>This parameter is key to the control of defects and the microstructure of the processed alloys.</s><s>The LPBF process has received increasing attention for the fabrication of intricate NiTi parts in comparison with other techniques.</s><s>AM offers flexible processing to achieve near-net-shape parts with little to no postprocessing by providing a vast number of controllable parameters to tailor the final properties of the material.</s><s><ref type="bibr" target="#b30">31</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additive Manufacturing of NiTi Shape Memory Alloy for Biomedical Applications: Review of the LPBF Process Ecosystem</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BIOMEDICAL APPLICATIONS OF AM NITI</head><p><s>One of the major and most important applications of conventionally fabricated NiTi is to form selfexpanding stents that enable transcatheter and minimally invasive solutions.</s><s>Most cardiovascular stents have a mesh structure and provide the overall geometry of an artery or vein (similar to a thin, hollow tube).</s><s>Thanks to their superelastic property, NiTi self-expanding stents can be compressed to fit through a small catheter.</s><s>Using a minimally invasive procedure, a physician can insert the catheter into a defective blood vessel, then the embedded NiTi stent expands at the exact desired location to provide additional support to the artery/vein.</s><s>The main challenges in fabricating selfexpanding NiTi stents are achieving the fine geometry of the parts as well as high superelasticity at body temperature.</s><s>The successful use of additive manufacturing facilitates the product development procedure and enables the fabrication of patientspecific solutions.</s><s>In addition, it has the capacity to reduce the required postprocessing, including heat treatment, by controlling numerous factors including build and process parameters to tailor the quality, microstructure, and properties of the asbuilt component (see ''Microstructure Section'').</s><s>In comparison with stents manufactured by laser  cutting a solid tube, additive manufacturing can reduce the material waste and increase the production speed.</s><s>Recently, two groups reported successful proofs of concept of the use of additive manufacturing for the fabrication of self-expanding NiTi stents.</s><s><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35</ref> Besides cardiovascular stents, researchers have also explored the possibility of using AM-fabricated NiTi for orthopedic implants, including artificial bone grafts (also called bone grafts or scaffolds) and bone fixation plates.</s><s>Unlike cardiovascular stents, bone fixation plates and bone grafts are not conventionally made of NiTi, mainly because of the limitations of conventional fabrication techniques when using this alloy.</s><s>Additive manufacturing eliminates these limitations and enables the fabrication of these components as well as more complex geometries such as lattice structures and parts that include engineered porosity.</s><s>In addition to biocompatibility, scaffolds must be capable of letting cells migrate and attach to surfaces.</s><s>This lowers the risk of an immune system response and minimizes the risk of inflammation or infection.</s><s>AM-fabricated NiTi has shown promising results in terms of bone ingrowth and cell adhesion.</s><s><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> The mechanical properties of scaffolds are another important characteristic that should be designed in such a way as to prevent or reduce stress shielding.</s><s>Stress shielding implies the removal of the typical stress applied to bone tissue as required by bone remodeling theory (also called Wolff's law), leading to a reduction in bone density (osteopenia) or bone resorption.</s><s>It has been shown that the use of high-stiffness implants may lead to  Additive Manufacturing of NiTi Shape Memory Alloy for Biomedical Applications: Review of the LPBF Process Ecosystem stress shielding and bone resorption.</s><s><ref type="bibr" target="#b37">38</ref> The combination of the unique properties of NiTi (superelasticity, low stiffness, high corrosion resistance, and biocompatibility) and the manufacturing flexibility of AM methods (the possibility to manufacture parts with engineered porosity) allows the introduction of bone implants with modulated stiffness to mimic bone behavior and minimize this stress shielding effect.</s><s>In addition to modulating the stiffness, scaffolds with interconnected pore structures allow adequate diffusion of nutrients to cells and the growth of tissue and blood vessels.</s><s>The possibility of fabricating NiTi structures with interconnected engineered porosity that can be used in bioscaffolds has been investigated in several studies.</s><s><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> Like artificial bone grafts (scaffolds), reconstruction bone fixation plates used for immobilizing two pieces of bone can also lead to stress shielding and bone resorption.</s><s>It has been shown that NiTi bone fixation plates with a modulated level of stiffness can be designed and fabricated using AM.</s><s><ref type="bibr" target="#b39">40</ref> The required level of stiffness is calculated using medical images (e.g., computed tomography scan data) and finite element (FE) simulations, and the stiffness modulation is achieved by defining the required level and type of porosity in the digital (e.g., CAD) file describing the bone fixation plate.</s><s>Additive manufacturing is then used to fabricate the parts.</s><s>Following fabrication, aging and solution annealing can be applied for further modulation of the mechanical properties.</s><s>Finally, chemical and electrochemical methods can be used to remove unmelted powder particles fused to unreachable internal surfaces of porous sections.</s><s><ref type="bibr" target="#b40">41</ref> Figure <ref type="figure" target="#fig_1">2</ref> summarizes a demonstration of the design process of patient-specific, stiffness-modulated bone implants.</s></p><p><s>As NiTi medical devices are susceptible to corrosion after implantation in vivo, corrosion resistance and biocompatibility optimization and testing are obligatory to both enhance and evaluate the longterm performance of the material.</s><s>Nickel has been shown to cause metal ion toxicity, kidney failure, and pseudotumors, <ref type="bibr" target="#b41">42</ref> and there is no known safe threshold to prevent a hypersensitivity response.</s><s>While corrosion is related to biocompatibility assessment, <ref type="bibr" target="#b42">43</ref> they are not identical.</s><s>Hemocompatibility is the detection and evaluation of the thrombus response caused by a foreign organ or foreign material (e.g., NiTi) that comes into contact with blood.</s><s>Considering NiTi-based biomaterials, sodium citrate and heparin are widely used as anticoagulants.</s><s><ref type="bibr" target="#b43">44</ref> The lysis and thrombogenicity test is applied to check the tendency for clot formation due to an implanted NiTi material when exposed to blood.</s><s><ref type="bibr" target="#b44">45</ref> Cytotoxicity testing using the methyl thiazol tetrazolium (MTT) assay is a quantitative chemical analysis to measure the metabolic activity of cells in response to an implanted material.</s><s><ref type="bibr" target="#b45">46</ref> For corrosion resistance, potentiodynamic testing in Ringer's solution, <ref type="bibr" target="#b46">47</ref> ASTM F21296 ''Standard Test Method for Conducting Cyclic Potentiodynamic Polarization Measurements to Determine the Corrosion Susceptibility of Small Implant Devices'', <ref type="bibr" target="#b47">48</ref> and ASTM standard G5-14'' Standard Reference Test Method for Making Potentiodynamic Anodic Polarization Measurements'' are performed for NiTi material.</s><s><ref type="bibr" target="#b48">49</ref> A major current line of research is to optimize the fabrication and surface finish of NiTi material to achieve higher corrosion resistance and biocompatibility.</s><s>This area has been less well studied due to the complex thermomechanical processes that NiTi alloys undergo, the high cost of postprocessing, and the assumption that optimization of other NiTi properties was more crucial.</s><s><ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48</ref> Several works have studied the effect of pulsed laser parameters, in particular the laser power, pulse frequency, laser irradiation density, and laser surface area, on the biocompatibility and corrosion resistance of NiTi.</s><s><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> As LPBF uses a laser to treat the material, it opens the opportunity to tailor the aforementioned properties by selecting appropriate process parameters.</s><s><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b49">50</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MANUFACTURABILITY AND MICROSTRUCTURE DEFECTS OF AM-FABIRCATED NITI</head><p><s>In general, the LPBF AM process offers design flexibility, albeit it suffers from the potential to form unintended local anomalies that may be severe enough to be deemed unacceptable (defects).</s><s><ref type="bibr" target="#b50">51</ref> These general irregularities are significantly related to material chemistry and can mainly be categorized into four types: solidification, homogenization, environmental, and solid-state phenomena.</s><s><ref type="bibr" target="#b50">51</ref> These may occur within each deposited bead, or intermittently based on process variations or other external factors.</s><s>The formation of defects such as porosity, cracking, and delamination is a common issue among different SMA alloy systems fabricated by AM.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>POROSITY</head><p><s>Pores with irregular or spherical shape are two common types that are formed in LPBF-processed parts.</s><s>The lack of sufficient energy to fuse the powder is the main reason for irregular pore formation, also known as lack-of-fusion porosity.</s><s>Basically, single laser beads or tracks vary when changing the laser parameters, mainly the power and scan speed.</s><s>Each track has a width and depth, which should be greater than the hatch spacing and layer thickness, respectively, to achieve dense parts and minimize pores.</s><s>It has been shown that higher laser power and lower scan speed result in larger melt pools, so the hatch space should be considered accordingly to achieve a macropore-free structure.</s><s><ref type="bibr" target="#b51">52</ref> However, not all parameter settings result in a continuous laser track; For example, discontinuous tracks may be observed at low laser power and high scan speed, while very low scan speed results in wavy structures, thus defining two process parameter windows that are suitable for further consideration.</s><s><ref type="bibr" target="#b15">16</ref> Figure <ref type="figure" target="#fig_2">3a</ref> shows an example process map where only the process parameter settings in a narrow window may result in macrodefect-free parts.</s><s>Further investigation of the manufacture of dense parts from loose powder by LPBF has shown that there is a minimum required input energy.</s><s>As shown in Figure <ref type="figure" target="#fig_2">3b</ref>, as the energy density increases, pore formation due to the lack-of-fusion mechanism decreases, but a further increase enhances the chance of spherical porosity formation.</s><s>The decrease at very high energy densities can be attributed to the formation of keyholing porosity.</s><s><ref type="bibr" target="#b52">53</ref> Keyholing in AM of NiTi alloys has not yet been investigated, but the interested reader is encouraged to consult Refs.</s><s>53-58 for details on the formation of this type of porosity.</s><s>Very high and low energy densities can result in porosity, thus intermediate energy density levels are recommended for AM of dense parts from many alloys, including NiTi alloys.</s><s><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref> Note also that, although a minimum energy is required to achieve dense, defect-free parts, there is discrepancy in the literature regarding the value of this energy.</s><s><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b64">65</ref> A first possible reason for this may be differences among different research papers.</s><s>More importantly, the energy density has been shown to be not a suitable parameter to assess the printability of metallic parts since experiments showed single tracks with a fixed energy density, but different sets of process parameters resulted in different characteristics.</s><s><ref type="bibr" target="#b62">63</ref> Such limitations on the energy density have also been reported for other alloys.</s><s><ref type="bibr" target="#b65">66</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DELAMINATION AND MICROCRACKS</head><p><s>Stresses that build up during the LPBF process can cause defects.</s><s>When the stress exceeds the ultimate yield strength of the material, cracking occurs.</s><s>The high temperature gradient and high cooling rate during the LPBF process are the major factors resulting in residual stress and cracks.</s><s>Besides interlayer residual stresses, the elongated nonsymmetric shape of the melt pool also induces an inhomogeneous thermal gradient and shrinkage along the melt track, leading to local residual stresses.</s><s><ref type="bibr" target="#b67">68</ref> Reducing the scanned area in each layer by orientating the part and using a shorter scan vector by implementing an island scanning strategy can reduce such residual stresses and cracking.</s><s><ref type="bibr" target="#b68">69</ref> However, no studies have been carried out yet on the effect of the scanning strategy on the printability of NiTi alloys.</s><s>Another source of cracking is insufficient bonding between subsequent layers, which results in delamination.</s><s>Figure <ref type="figure" target="#fig_3">4</ref> shows crack formation during LPBF of NiTi-based alloys.</s></p><p><s>Experimental process optimization has shown that the power and scan speed are the dominant factors affecting the susceptibility of parts to cracking, and certain combinations of process parameters can result in crack-free samples while processing outside these regions will produce parts with macroor microcracks.</s><s>As shown from Fig. <ref type="figure" target="#fig_4">5a</ref>, both high laser power with lower scan speed and low laser power with high scan speed are unsuitable regions for manufacturing NiTi by the LPBF process.</s><s>In other words, region A does not supply enough energy for material bonding and parts cannot be fabricated, whereas in region C the chance of cracking is too high.</s><s>Figure <ref type="figure" target="#fig_4">5b</ref> shows that the hatch spacing is not a significant factor affecting the manufacturability of NiTi alloys and cracking may still occur for any value of H.</s><s>More importantly, the linear energy density (E L ), defined as the ratio of the power to the scan speed, is found to be an informative design parameter to assess the manufacturability of defect-free NiTi parts by the LPBF process.</s><s>As shown in Fig. <ref type="figure" target="#fig_4">5 (b</ref>), E L values above 0.5 J/mm are suggested to produce defect-free parts while the use of E L values below 0.4 J/mm increases the likelihood of defects.</s><s>In the range of 0.4&lt; E L &lt; 0.5, there is the risks of defect formation, as explained above.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BALLING</head><p><s>Balling is another common defect during LPBF of metals.</s><s>The use of a nonoptimal process parameter combination, especially high laser power and scan speed, can result in melt-pool instabilities and thus the balling effect in which the liquid scan track breaks up and produces spherically shape particles.</s><s>In another type of balling effect, a low laser input, for example, due to low laser power, results in insufficient liquid and poor wetting, thus causing discontinuous scan tracks.</s><s><ref type="bibr" target="#b71">72</ref> Poor surface roughness, porosity, and delamination can occur as a result of the balling effect.</s><s><ref type="bibr" target="#b72">73</ref> While little has been reported on the balling effect during LPBF of NiTi, Xue et al. presented a framework for the printability of NiTi alloys and defined a criterion for the balling effect in the region where the length to width ratio of the melt pool exceeds 2. <ref type="bibr" target="#b51">52</ref> In a similar study by Zhu et al., pW L &gt; ffiffiffiffiffiffiffiffi 2=3 p (where W and L are the width and length of the melt pool, respectively) was used as the criterion for balling, and it was found that decreasing the hatch space can reduce the occurrence of balling.</s><s><ref type="bibr" target="#b71">72</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Surface Roughness</head><p><s>Surface roughness is not categorized as a defect, but it is an essential parameter for LPBF-fabricated part quality.</s><s>Partially melted powder, the balling effect, spattering, and an unstable melt pool can influence the surface roughness.</s><s>Different secondary surface treatments (mechanical, chemical, and electrochemical processes) can be employed as surface modification techniques.</s><s>However, all of these technologies increase the manufacturing cost and time.</s><s>The surface roughness can also be tailored by controlling the process and build parameters.</s><s><ref type="bibr" target="#b73">74</ref> In the processing map, as the process parameters approach the keyholing boundary and move far away from the balling effect, there is a higher chance of forming a smoother surface, but the chance of keyholing is increased.</s><s>Moreover, utilizing appropriate build parameters such as the scanning strategy remarkably affects the surface roughness.</s><s>For instance, having a contour with optimized parameters can improve the surface quality.</s><s>In addition, the build orientation of the sample is a key factor, specifically when making channels, because of the staircase effect.</s><s>Besides controlling the process parameters, selective laser remelting (SLRM) is a novel approach that can be used in the LPBF process to smoothen upfacing surfaces.</s><s><ref type="bibr" target="#b74">75</ref> Remelting is also a useful technique for increasing the density and reducing the porosity (Fig. <ref type="figure" target="#fig_5">6</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MICROSTRUCTURE OF NITI ALLOY PROCESSED BY LPBF: GRAIN MORPHOLOGY, TEXTURE, AND PRECIPITATION</head><p><s>Due to the high thermal gradient in the build direction, epitaxial grain growth in this direction is the typical solidification mechanism that occurs in LPBF additively manufactured parts.</s><s>The solidification process starts from a single molten pool.</s><s>As shown in Fig. <ref type="figure" target="#fig_6">7a</ref>, the elongated grains grow perpendicular to the semicircular melt-pool boundary and toward the centerline of the melt pool, which is the hottest point <ref type="bibr" target="#b75">76</ref> When processing of a whole part, each point in the part experiences several remelting processes during the process because of the neighboring tracks and subsequent layers.</s><s>This repetitive remelting overgrows the elongated grains in the build direction with the highest temperature gradient.</s><s><ref type="bibr" target="#b76">77</ref> The columnar grains may cross several layers and reach hundreds of microns in length.</s><s><ref type="bibr" target="#b77">78</ref> Changing the scanning strategy in each layer can lead to a zigzag growth pattern (Fig. <ref type="figure" target="#fig_6">7b</ref>).</s><s>Moreover, near open surfaces and the melt-pool boundaries experiencing higher cooling rates, equiaxed grains with no preferred orientation can also be found (Fig. <ref type="figure" target="#fig_6">7c</ref>, <ref type="figure">d</ref>).</s><s><ref type="bibr" target="#b78">79,</ref><ref type="bibr" target="#b79">80</ref> Besides the grain morphology, the grain orientation is also influenced by the thermal history resulting from the AM process.</s><s>Crystals with cubic structure have an easy growth direction toward &lt;100&gt; 81 during solidification.</s><s>Therefore, additively manufactured NiTi-based alloys with BCC crystal structure typically have columnar grain morphology in the build direction with preferred &lt;001&gt; crystallographic orientation.</s><s><ref type="bibr" target="#b81">82</ref> However, the process parameters and building parameters (e.g., build direction and scanning strategy) significantly influence the grain morphology and orientation because of their effect on the thermal history.</s><s><ref type="bibr" target="#b82">83</ref> Figure <ref type="figure" target="#fig_7">8a</ref> shows electron backscattered diffraction (EBSD) results for AM-processed NiTi parts with three different hatch spacings while the other AM parameters remain the same.</s><s><ref type="bibr" target="#b83">84</ref> The hatch spacing of 80 lm results in strong texture in [001] direction, while more random grain orientation is observed for the hatch spacing of 120 lm and 180 lm.</s><s>It is well reported that high scanning speed and small hatch spacing result in strong&lt;001&gt; texture, while other fiber textures such as &lt;011&gt; and &lt;111&gt; or randomly oriented grains occur for slower speed and larger hatch distance.</s><s><ref type="bibr" target="#b80">81</ref> Such grain growth behavior relies on the melt-pool shape and the temperature gradient during the solidification process.</s><s>As depicted in Fig. <ref type="figure" target="#fig_6">7a</ref>, grains in a single melt pool grow perpendicular to the melt-pool boundary toward the centerline of the melt pool.</s><s>The grains that nucleate from the very bottom of the semicircular shape of the melt pool have a greater tendency for the favorable &lt;001&gt; orientation.</s><s>Besides, high scanning speed can lead to high cooling rates that increase the chance of growth with &lt;001&gt; orientation.</s><s><ref type="bibr" target="#b80">81</ref> On the other hand, the hatch spacing determines the level of overlap between two adjacent melt pools, which leads to recrystallization during the remelting process.</s><s>During the remelting process, misoriented grains become aligned toward the&lt;001&gt; build direction.</s><s>Therefore, the lower the hatch spacing, the more the melt pools overlap and the stronger the &lt;001&gt; texture.</s><s>The layer thickness has the same effect and results in the same trend in the crystallographic texture.</s><s><ref type="bibr" target="#b84">85</ref> As shown in Fig. <ref type="figure" target="#fig_7">8b</ref>, the orientation of the parts in the build plate remarkably affects their crystallographic texture.</s><s><ref type="bibr" target="#b79">80</ref> Although the orientation of the parts does not affect the strong &lt;001&gt; texture formed parallel to the build direction, it does alter the texture along the load direction, thus profoundly affecting the thermomechanical behavior.</s></p><p><s>Besides the main phases (B2 and B19'), Ni/Ti precipitates as a secondary phase have been seen in as-fabricated LPBF NiTi parts.</s><s>Ti 2 Ni, Ti 4 Ni 2 O x , Ni 3 Ti, and Ni 4 Ti 3 are the most common phases to precipitate during the LPBF process.</s><s>Ti 2 Ni is the most widely reported precipitate, mainly forming in the Ti-rich or near-equiatomic NiTi alloy system.</s><s><ref type="bibr" target="#b70">71,</ref><ref type="bibr" target="#b85">86</ref> Depending on the process parameters and starting composition, the morphological structure of Ti 2 Ni precipitates can be formed in interdendritic regions (Fig. <ref type="figure" target="#fig_8">9a</ref>) or uniformly dispersed in the matrix, more likely at grain boundaries (Fig. <ref type="figure" target="#fig_8">9b-e</ref>).</s><s>Ti-rich Ti 2 Ni precipitates have also been observed in parts fabricated from Ni-rich powder.</s><s>This phenomenon can be explained by two mechanisms: (i) Ni evaporation during the AM process and (ii) the rapid formation kinetics of Ti 2 Ni.</s><s>Regarding the former mechanism, the high energy input from the laser beam results in Ni loss during the process, thus shifting the NiTi matrix to the Ti-rich region.</s><s>In the absence of Ni, the chance of Ti-rich precipitations increases, with Ti 2 Ni precipitates appearing as a secondary phase in the NiTi matrix.</s><s>On the other hand, due to the rapid formation kinetics of Ti 2 Ni phase and oxygen stabilization, they can also be found in the Ni-rich NiTi matrix.</s><s>In the presence of sufficient oxygen and reaction time, Ti 4 Ni 2 O x is derived from the reaction between Ti 2 Ni and oxygen.</s><s><ref type="bibr" target="#b86">87</ref> Ni 3 Ti and Ni 4 Ti 3 phases compose the main Nirich precipitates that can form during aging heat treatments or manufacturing processes.</s><s><ref type="bibr" target="#b87">88</ref> For the LPBF process, the repeated passage of the laser and corresponding reheating processes provide a semiaging effect in which the part is held at temperatures between 200°C to 700°C for a while, being suitable for the formation of the metastable phase of Ni 4 Ti 3 precipitates.</s><s><ref type="bibr" target="#b88">89</ref> Ni 4 Ti 3 precipitates play an eminent role in improving the shape memory effect and superelasticity of NiTi alloys.</s><s>The hardening effect of Ni 4 Ti 3 impedes the occurrence of, and leads to an increase in the critical stress, for austenite slip.</s><s><ref type="bibr" target="#b89">90</ref> This improves the martensite transformation strain by decreasing the chance of plastic deformation.</s><s>Despite the beneficial effect of Ni 4 Ti 3 , there are limited studies showed the presence of Ni 4 Ti 3 precipitates in as-fabricated NiTi parts processed by LPBF.</s><s>In Ref. 91, it was shown that the process parameters influence the content and morphology of Ni 4 Ti 3 precipitates.</s><s>In parts fabricated using low energy density (40 J/mm 3 to 80 J/mm 3 ), fine Ni 4 Ti 3 particles are dispersed uniformly and coherently in the main matrix, while as the energy density increases, the Ni 4 Ti 3 particles become noncoherent, coarse particles with low volume fraction, as illustrated in Fig. <ref type="figure" target="#fig_9">10a-f</ref>.</s><s>From the thermodynamic point of view, the formation of the metastable Ni 4 Ti 3 phase is more likely to occur at lower temperature (below 600°C), so lenticular Ni 4 Ti 3 particles are more dominant in parts that are fabricated using lower energy input and thus experience lower temperatures.</s><s>On the other hand, a high energy input results in Ni loss from the matrix and decreases the chance of formation of Ni-rich precipitates.</s><s><ref type="bibr" target="#b90">91</ref> The Ni 3 Ti intermetallic phase is less reported for NiTi alloys processed by LPBF since it can mostly be observed in very Ni-rich NiTi alloys with high Ni concentration (&gt; 51 at.%) close to the eutectic point.</s><s><ref type="bibr" target="#b91">92</ref> However, some works have reported the presence of Ni 3 Ti in Ni-lean NiTi alloy processed by LPBF.</s><s><ref type="bibr" target="#b92">93</ref> Ni segregation occurring during the process would be the main reason for Ni 3 Ti formation, even in a slightly Ti-rich NiTi matrix.</s><s>Unlike Ni 4 Ti 3 phase, Ni 3 Ti is a nonpreferable soft, incoherent phase that cannot play a part in hardening NiTi alloys.</s><s><ref type="bibr" target="#b16">17</ref> However, the presence of such a nontransforming Ni 3 Ti phase in the main NiTi matrix may lead to an alteration of the thermomechanical behavior, such as stress hysteresis.</s><s><ref type="bibr" target="#b91">92</ref> Many studies in literature report no Ni 4 Ti 3 precipitate formation in LPBF processing of NiTi parts.</s><s><ref type="bibr">52,71 84,89,94</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PHASE TRANSFORMATION TEMPERATURES</head><p><s>Phase transformation temperatures are one of the important features of NiTi alloys, being mainly affected by the chemical composition of the material.</s><s>The transformation temperatures (TTs) of Nirich NiTi (50 at.% to 51 at.%</s><s>Ni) are strongly dependent on the Ni/Ti ratio in the NiTi matrix, although this dependence becomes weaker for Tirich NiTi alloys (Ni&lt; 50 at.%).</s><s>In Ni-rich NiTi, a 1% change in the nickel content alters the transformation temperatures by 100°C.</s><s>Besides the composition, stress is another factor that can change the TTs in NiTi material based on the Clausius-Clapeyron relationship.</s></p><p><s>The extent of Ni evaporation is a function of the heat input, which is defined by the process parameters.</s><s>The volume energy density (E v ) is a wellreported factor influencing the TTs, revealing a general rising trend as the energy density increases.</s><s>To illustrate the effect of the energy density on the TTs, datasets from several major studies have been extracted and are shown in Fig. <ref type="figure" target="#fig_10">11</ref>.</s><s><ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b83">84,</ref><ref type="bibr" target="#b90">91,</ref><ref type="bibr" target="#b93">[94]</ref><ref type="bibr" target="#b94">[95]</ref><ref type="bibr" target="#b95">[96]</ref><ref type="bibr" target="#b96">[97]</ref><ref type="bibr" target="#b97">[98]</ref> The data mining focused only on Ni-rich NiTi compositions (Ni &gt; 50.5 at.%) since they are more sensitive to the energy density.</s><s>The increasing trend of TTs versus energy density saturates at very high levels of energy density, as demonstrated in Fig. <ref type="figure" target="#fig_10">11</ref>.</s><s>High energy densities result in excessive Ni evaporation and shift the NiTi matrix to Ti-rich compositions in which the TTs are less affected by the Ni content.</s><s>In the region of low to medium energy densities, a wide variation in the data can be seen, even within the same study.</s><s>This indicates that adopting the energy density as the main factor impacting the TTs may not be an effective way to explain all the phenomena.</s><s>Besides Ni loss, precipitation occurrding in the LPBF process remarkably changes the TTs.</s><s>As discussed above, the formation of Ni/Ti-rich precipitates drives the NiTi matrix to an Ti/Ni-rich composition, thus increasing/decreasing the TTs, respectively.</s><s>Concerning the pick-up of impurities, and oxygen (O 2 ) in particular, the oxygen level of the chamber plays an important role in the occurrence of Ti-rich oxidation (e.g., Ti 4 Ni 2 O x ).</s><s>With increasing oxygen level, a higher chance of oxidation and lower TTs are expected, assuming that the process parameters are kept constant.</s><s><ref type="bibr" target="#b95">96,</ref><ref type="bibr" target="#b98">99</ref> The presence of dislocations and thermally induced residual stress are the other factors contributing to altering the TTs of as-fabricated NiTi.</s><s>In the LPBF technique, due to localized high heating/cooling rates, the as-built parts experience residual stress.</s><s><ref type="bibr">100</ref> Based on the Clausius-Clapeyron relationship, the induced internal stress shifts the TTs to higher temperatures.</s><s>Moreover, the heterogeneous microstructure (i.e., composition, precipitates, and internal stress) of as-built NiTi parts that results from the nonuniform thermal distribution during the LPBF process may broaden the transformation peaks.</s><s>These effects can be suppressed after proper solution treatment.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>THERMOMECHANICAL BEHAVIOR OF LPBF NITI ALLOY</head><p><s>The mechanical properties of AM parts are strongly linked to the microstructure, defects, and residual stress.</s><s>The thermomechanical behavior is the last chain of the process-structure-properties relationship, which is highly affected by both the process and microstructure.</s><s>Achieving a defect-free part with high relative density is the primary goal of any AM process, but the mechanical performance of the as-fabricated part is also of great importance.</s><s>The recovery strain and thermomechanical stability of additively manufactured NiTi alloys are the main factors that can be tailored via the LPBF process.</s><s>Asfabricated NiTi parts show anisotropic thermomechanical behavior under different stress states.</s><s>Like conventional NiTi, lower stress-induced transformation (SIM), higher recovery strain, and flatter plateau have been observed for NiTi under tension with respect to compression.</s><s><ref type="bibr">101,</ref><ref type="bibr">102</ref> Besides the anisotropic behavior seen in different stress states, the preferred grain orientation of LPBF parts also leads to remarkable anisotropy.</s><s><ref type="bibr" target="#b79">80,</ref><ref type="bibr" target="#b83">84</ref> As described above, the NiTi microstructure resulting from the LPBF process typically comprises columnar grains with the favorable &lt;001&gt; orientation.</s><s>Such a microstructural texture results in anisotropic thermomechanical behavior that is unsuitable for most applications involving multiaxial loading.</s><s>The theoretical transformation strain shows that the texture direction of&lt;001&gt; is favorable for compression but a hard orientation with a small transformation strain under tension.</s><s><ref type="bibr">103,</ref><ref type="bibr">104</ref> NiTi samples processed by LPBF show good agreement with the theoretical transformation strain for the&lt;001&gt; direction in the compression mode, but this is not the case in the tension mode.</s><s><ref type="bibr" target="#b79">80,</ref><ref type="bibr" target="#b83">84,</ref><ref type="bibr">105</ref> In tensile loading, defects caused by AM significantly affect the mechanical behavior of NiTi parts.</s><s>The presence of such defects in NiTi tensile samples results in premature failure, lower fatigue life, and higher irrecoverable strain.</s><s><ref type="bibr">106,</ref><ref type="bibr">107</ref> The type, size, and location of defects play a key role in the performance of LPBF-processed NiTi alloys.</s><s>We have shown that, in parts with a vertical build direction, failure occurs sooner in comparison with samples fabricated horizontally.</s><s><ref type="bibr" target="#b32">33</ref> Vertical samples with a higher number of layers compared with horizontal parts are more susceptible to premature failure due to the greater chance of defect formation.</s><s>Moreover, in vertical samples, the loading direction is perpendicular to the porosity and has a more detrimental effect.</s><s>Concerning the fatigue life of as-fabricated samples, the surface defects negatively affect the performance of parts.</s><s><ref type="bibr">107</ref> LPBF-fabricated NiTi alloys show brittle behavior under tension with elongation normally less than 8%.</s><s><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b79">80,</ref><ref type="bibr" target="#b96">97</ref> However, some studies recently succeeded in achieving elongation of more than 15% by adopting optimized process and building parameters.</s><s><ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b77">78</ref> The brittle oxide phase Ti 4 Ni 2 O x formed during the LPBF process degrades the performance of as-built samples.</s><s>It is thus essential to keep the oxygen level in the chamber as low as possible to reduce the chance of oxidation.</s><s><ref type="bibr" target="#b86">87</ref> Most literature studies have focused on the uniaxial compression/ tension behavior of LPBF NiTi parts, while the torsional behavior of NiTi-based alloys is becoming of interest due to the application of torque tubes.</s><s>Recently, and motivated by the growing interest in SMA torque tubes, we studied the torsional behavior of NiTi tubes.</s><s><ref type="bibr" target="#b86">87</ref> We showed that surface defects and oxides have detrimental impacts on the thermomechanical performance of the tubes.</s><s>Porous NiTi can enhance bone growth and improve fluid transportation because of its high surface area and low density.</s><s>The superelastic response of LPBF porous samples with porosity levels of 32% to 58% has been examined at body temperature.</s><s>It was demonstrated that the level of porosity can affect the mechanical properties of the parts, such as their superelasticity and strain recovery.</s><s>Acceptable superelastic behavior of around 3.5% to 4% at the first cycle has been observed for parts with porosity levels of 32% and 45% at body temperature.</s><s>It has been shown that a higher porosity level leads to lower elastic modulus and compressive strength.</s><s><ref type="bibr">108,</ref><ref type="bibr">109</ref> The design of SMA components with porous structure for medical devices requires the characterization of material performance on small scales to assess the local properties effectively.</s><s>Indentation characterization is an approach to probe the macro-, micro-, and nanoscale mechanical properties of SMAs such as the Young's modulus, hardness, strain-hardening coefficient, indentation hardness, depth recovery ratio, and superelasticity.</s><s><ref type="bibr">110</ref> For superelastic SMAs, the deformation imposed by spherical indenters can be almost fully recovered upon unloading, while the depth caused by the Berkovich indenter shows only partial recovery.</s><s><ref type="bibr">111</ref> The instrumented indentation method can be used to demonstrate the indentation-induced two-way shape memory effect <ref type="bibr">112,</ref><ref type="bibr">113</ref> as well as to determine the phase transformations.</s><s><ref type="bibr">114</ref> The load-displacement curve, work/depth recovery, and remnant depth recovery as functions of temperature are typically used to characterize the transformation temperature and superelasticity.</s><s><ref type="bibr">115</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p><s>Processing of NiTi alloy, which is a promising candidate for use in many biomedical applications such as stents, dental braces, and bone fixation implants, was reviewed with a focus on the LPBF technique.</s><s>The processability, microstructure, and thermomechanical properties of the alloy were reviewed and attempts made to link them and highlight the process-structure-properties interrelationship.</s><s>We summarize below our findings and discuss the challenges and a possible pathway to tackling these challenges:</s></p><p><s>The capability of fabricating complex shapes and porous structures via the LPBF method gives practitioners the flexibility to design patientspecific components.</s><s>Despite the great potential of the LPBF technique for processing NiTi biomedical components, there are still no commercial NiTi components on the market.</s><s>The lack of a standard framework defining the pathway from processing to application is a major roadblock.</s><s>Moreover, the repeatability of the process remains a main challenge.</s><s>The volume/linear energy density plays a dominant role in the printability of NiTi.</s><s>It is well agreed that the intermediate range of energy density is the window resulting in dense parts with few defects.</s><s>Insufficient energy density leads to the formation of lack-of-fusion porosity, while high energy density results in keyholing and hot cracking.</s><s>Performing single-track experiments is an efficient way to assess printability before printing coupons.</s><s>In this method, single-track experiments are performed for a wide range of laser powers and scanning speeds.</s><s>Based on the size and shape of the molten tracks, they can be classified into acceptable and failed.</s><s>The evaluation criteria are defined based on various defect types such as lack-of-fusion, keyholing, and balling effect.</s><s>After narrowing down the process parameters, standard coupons can be printed for further characterization.</s><s>Similar to other alloys with cubic structure, NiTi shows the iconic microstructure with columnar grains and strong texture in the build direction.</s><s>The LPBF technique represents a powerful tool to tailor the microstructure and texture by controlling the process and build parameters.</s><s>Based on the target application, the microstructure can be modified to favor the development of a specific texture or to suppress the strong texture by producing fine and randomly oriented grain structures.</s><s>The transformation temperatures (TTs) are important properties of NiTi alloys that can be tailored via the LPBF process.</s><s>Ni loss that occurs during the process is the main source of TT changes.</s><s>The formation of precipitates and dislocations along with thermally induced residual stress plays an important role in tailoring the TTs.</s><s>The localized and heterogeneous microstructure induced by the LPBF process leads to broadening of the differential scanning calorimetry (DSC) peaks.</s><s>Solution treatment can resolve some of the inhomogeneous microstructure and residual stress.</s><s>Besides common AM challenges such as porosity and crack formation, unwanted Ni loss and impurity pick-up remain big challenges for additive manufacturing of NiTi.</s><s>It has been reported that oxygen pick-up and Ti-rich oxidation may occur even at low oxygen levels (&lt; 500 ppm).</s><s>On the other hand, to address such Ni loss, some studies have suggested starting with a higher Ni content.</s><s>We believe that this may be a possible solution to address the issue of Ni loss, although it may also increase the chance of cracking due to the higher Ni concentration.</s><s>The thermomechanical properties of NiTi alloys are highly microstructure dependent.</s><s>Such a textured microstructural feature results in anisotropic thermomechanical properties that are not preferred for many applications.</s><s>In most applications, the component experiences a multiaxial loading scenario, so fine and randomly oriented grains are preferred.</s><s>However, for applications such as implants with a dominant loading direction (e.g., compression) or torque tubes with dominant torsion loading, a textured microstructure can be a game-changer.</s></p><p><s>In conclusion, in the early stages of research on AM of NiTi SMAs, most effort was spent on machinespecific process optimization for a range of process parameters that was basically limited by the capability of the machine.</s><s>In most such work, the first criteria were to achieve a dense part with minimum defects, with the performance of the resulting part being relegated to second place.</s><s>The final goal of all such studies mostly focused on using AM to produce NiTi parts with thermomechanical properties and performance comparable to those of conventionally made NiTi alloys.</s><s>Such studies provided the foundation for the current stage of research on processing NiTi SMAs via AM techniques and helped the research community better understand the challenges of the process.</s><s>Recently, metal AM research has exhibited a paradigm shift toward adopting new strategies and addressing the aforementioned challenges.</s><s>The current paradigm is not focused on producing perfect AM parts comparable to conventional wrought materials, but on designing a repeatable and high-fidelity route to produce qualified and consistent components that meet the qualification and certification (Q&amp;C) needs of specific applications.</s><s>Recently, and motivated by the aforementioned challenges, several research groups have started to develop an efficient and robust framework for processing NiTi alloys via LPBF.</s><s>Designing an alloy that is appropriate for the LPBF method is the first step toward processing such new alloys.</s><s>Moreover, processing an alloy without a target application in mind can result in wasted time and money.</s><s>Therefore, we believe that an efficient framework should follow an application/alloy-oriented strategy that is appropriate for the LPBF method.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECLARATIONS CONFLICT OF INTEREST</head><p><s>On behalf of all authors, the corresponding author states that there are no conflicts of interest.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>, 33 Fig. 1 .</head><label>331</label><figDesc><div><p><s>Fig. 1.</s><s>(a) Shape memory effect and (b) superelasticity demonstration.</s><s>Stress-temperature graphs showing the stress and temperature state of the material at each state; Steps 1-4 show a complete shape memory cycle: (1) NiTi wire in original shape, (2) deformed NiTi wire after loading/ unloading, (3) heating the deformed NiTi wire and reforming the initial shape, (4) NiTi wire returned to its original shape.</s><s>Steps 5-7 show a complete superelastic cycle: (5) NiTi stent in the original shape, (6) deformed stent after loading, (7) Stent turned back to the original shape after unloading.</s><s>(A, E, G) Austenite microstructure, (B, D) twinned martensite microstructure, (C, F) detwinned martensite (Adapted from Refs.</s><s>14,27).</s></p></div></figDesc><graphic coords="3,92.01,66.90,425.95,288.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. Demonstration of design process of patient-specific, stiffness-modulated bone implants (adapted from Refs.</s><s>40,41).</s></p></div></figDesc><graphic coords="3,60.78,424.57,488.38,229.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. (a) Schematic process parameter map showing regions with different defects as well as an acceptable region with no major defects.</s><s>(b) Effect of input energy density on density of NiTi fabricated by LPBF (reprinted with permission from Ref. 67).</s></p></div></figDesc><graphic coords="4,76.42,66.90,425.95,126.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Crack formation in LPBF: (a) Ni-rich NiTi, (b) Ti-rich, and (c) Ni-rich NiTiHf (reprinted with permission from Refs.</s><s>31,63,70)</s></p></div></figDesc><graphic coords="4,76.42,236.30,425.95,308.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. (a) Parts fabricated using various laser powers and scan speeds; the results suggest that region B contains suitable combinations of P and V to fabricate macrosize defect-free parts, while choosing P and V values in regions A and C may result in failure and defects (reprinted with permission from Ref. 71).</s><s>(b) It has been shown that E L (= power/scan speed) is a more suitable parameter compared with E v to assess the likelihood of successful fabrication.</s><s>E L values above 0.5 J/mm have been shown to result in successful printing (reprinted with permission from Ref. 63).</s></p></div></figDesc><graphic coords="5,61.00,66.90,487.87,172.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6.</s><s>Schematics of melt-pool morphology and possible defects (a) without and (b) with remelting (reprinted with permission from Ref. 75)</s></p></div></figDesc><graphic coords="5,92.01,309.03,425.95,198.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. (a) Process of grain growth during LPBF, starting from a single melt pool in which grains grow toward the maximum temperature and that are overgrown epitaxially in the build direction as subsequent layers are built up (reprinted with permission from Ref. 80).</s><s>(b) A zigzag columnar grain of LPBF NiTi passes several layers in the LPBF process (reprinted with permission from Ref. 78).</s><s>(c) Fine grains with no preferred orientation formed at the outer surface of an NiTi part due to the high cooling rate in this region (reprinted with permission from Ref. 79).</s><s>(d) Presence of fine equiaxed grains at the melt-pool boundary having a high cooling rate (reprinted with permission from Ref. 80)</s></p></div></figDesc><graphic coords="6,48.42,66.90,481.87,274.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. EBSD maps of NiTi parts fabricated by LPBF process: (a) effect of hatch spacing (80 lm, 120 lm, and 160 lm) on the crystallographic texture (reprinted from Ref. 84 under the terms of the Creative Commons CC BY 4.0); (b) effect of building orientation (0 ; 45 ; and 90 ) on texture in loading direction (reprinted with permission from Ref. 80)</s></p></div></figDesc><graphic coords="9,60.78,340.44,488.38,357.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig. 9. SEM images of NiTi parts fabricated by LPBF: (a) Ti 2 Ni secondary phases formed at grain boundaries (reprinted with permission from Ref. 71); (b-e) Ti-rich precipitates formed at grain boundaries result in Ni-rich regions in the middle of grains (reprinted with permission from Ref. 87)</s></p></div></figDesc><graphic coords="10,45.18,450.77,488.38,247.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 10 .</head><label>10</label><figDesc><div><p><s>Fig.10.</s><s>Ni 4 Ti 3 precipitate formation and morphology in NiTi parts processed by LPBF at energy density of (a, d) 37.88 J/mm 3 , (b , e) 79.37 J/ mm 3 , and (c , f) 104.17 J/mm 3 , revealing an increase in the size but decrease in the volume fraction of precipitates with increasing energy density (reprinted with permission from Ref.91)</s></p></div></figDesc><graphic coords="11,96.38,66.90,417.06,276.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig. 11.</s><s>Effect of energy density on austenite finish temperature of as-built NiTi alloys processed by LPBF.</s><s>Datasets collated from Refs.</s><s>52,63,84,91,94-98</s></p></div></figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rondelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">2003</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Rondelli, Biomaterials 17, 2003. (1995).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Van Humbeeck, J. Alloys Compd. 355, 58. (2003).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kustov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Smart Mater. Struct</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Van Humbeeck and S. Kustov, Smart Mater. Struct. 14, (2005).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L P</forename><surname>Haghdoust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinquemani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Lo</forename><surname>Conte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page">11</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. L. P. Haghdoust, S. Cinquemani, A. Lo Conte, 11 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haghdoust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lo Conte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinquemani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lecis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Smart Mater. Struct</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">105012</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Haghdoust, A. Lo Conte, S. Cinquemani, and N. Lecis, Smart Mater. Struct. 27, 105012 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sehitoglu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Plast</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wang, and H. Sehitoglu, Int. J. Plast. 61, 17. (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page">154</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Liu, and H. Xiang, J. Alloys Compd. 270, 154. (1998).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Plast</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">37</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Kato, and K. Sasaki, Int. J. Plast. 50, 37. (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Miyazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kohiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Otsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Duerig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">58</biblScope>
+			<biblScope unit="page">765</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Miyazaki, Y. Kohiyama, K. Otsuka, and T.W. Duerig, Mater. Sci. Forum 56-58, 765. (1991).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hashemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tabesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Bhaduri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">911</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.H. Elahinia, M. Hashemi, M. Tabesh, and S.B. Bhaduri, Prog. Mater. Sci. 57, 911. (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Haberland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Frenzel</surname></persName>
+		</author>
+		<title level="m">ASME 2012 Conf. Smart Mater. Adapt. Struct. Intell. Syst. SMASIS</title>
+		<imprint>
+			<date type="published" when="2012">2012. 2012</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">97</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Haberland, H. Meier, and J. Frenzel, ASME 2012 Conf. Smart Mater. Adapt. Struct. Intell. Syst. SMASIS 2012 1, 97 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Biermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kahleyss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Upmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Eng. Perform</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">745</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Biermann, F. Kahleyss, E. Krebs, and T. Upmeier, J. Mater. Eng. Perform. 20, 745. (2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="page">285</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.H. Wu, Mater. Sci. Forum 394-395, 285. (2002).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dadbakhsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Speirs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bull</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">765</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Dadbakhsh, M. Speirs, J. Van Humbeeck, and J.P. Kruth, MRS Bull. 41, 765. (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saedi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page">170</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Saedi, 170 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Haberland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taheri Andani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Intell. Mater. Syst. Struct</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">2653</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Walker, C. Haberland, M. Taheri Andani, H. E. Karaca, D. Dean, M. Elahinia (2016), J. Intell. Mater. Syst. Struct 27: 2653.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Khanlari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ramezani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Indian Inst. Met</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">781</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Khanlari, M. Ramezani, and P. Kelly, Trans. Indian Inst. Met. 71, 781. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shayesteh Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taheri Andani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amerinatanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Haberland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomanufacturing Rev</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Shayesteh Moghaddam, M. Taheri Andani, A. Ameri- natanzi, C. Haberland, S. Huff, M. Miller, M. Elahinia, and D. Dean, Biomanufacturing Rev. 1, 1 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Andani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shayesteh Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Haberland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">4058</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. T. Andani, N. Shayesteh Moghaddam, C. Haberland, D. Dean, M. J. Miller, and M. Elahinia, Acta Biomater. 10, 4058 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Leu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mech. Eng</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">215</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Guo, and M.C. Leu, Front. Mech. Eng. 8, 215. (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sewak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Dey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Sewak, and C.C. Dey, Sci. Rep. 9, 1. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tewari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Harish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vishwanadh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Dey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Banerjee</surname></persName>
+		</author>
+		<title level="m">Intermetallics and Alloys for High Temperature Applications</title>
+		<imprint>
+			<publisher>Elsevier Inc</publisher>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Tewari, N. K. Sarkar, D. Harish, B. Vishwanadh, G. K. Dey, and S. Banerjee, Intermetallics and Alloys for High Temperature Applications (Elsevier Inc., 2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Otsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sawamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shimizu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Solidi</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">457</biblScope>
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Otsuka, T. Sawamura, and K. Shimizu, Phys. Status Solidi 5, 457. (1971).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Muhonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Heikkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Danilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tuukkanen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Mater. Med</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">959</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Muhonen, R. Heikkinen, A. Danilov, T. Ja ¨msa ¨, and J. Tuukkanen, J. Mater. Sci. Mater. Med. 18, 959. (2007).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Man</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Yue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">1447</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.C. Man, Z.D. Cui, and T.M. Yue, Scr. Mater. 45, 1447. (2001).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Man</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coatings Technol</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page">347</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z.D. Cui, H.C. Man, and X.J. Yang, Surf. Coatings Technol. 192, 347. (2005).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Noebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Noebe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Mater. Rev</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">257</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Ma, I. Karaman, R.D. Noebe, J. Ma, I. Karaman, and R.D. Noebe, Int. Mater. Rev. 55, 257. (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bourell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">270</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Zhang, B. Song, Q. Wei, D. Bourell, and Y. Shi, J. Mater. Sci. Technol. 35, 270. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Bimber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taheri Andani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page">55</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. F. Hamilton, B. A. Bimber, M. Taheri Andani, and M. Elahinia, J. Mater. Process. Technol. 250, 55 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ming Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stuttg)</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page">163842</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Optik</note>
+	<note type="raw_reference">W. neng Zhang, L. zhi Wang, Z. xue Feng, and Y. ming Chen, Optik (Stuttg). 207, 163842 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Toker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Saghaian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Baghbaderani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Benafan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Karaca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page">361</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G.P. Toker, M. Nematollahi, S.E. Saghaian, K.S. Bagh- baderani, O. Benafan, M. Elahinia, and H.E. Karaca, Scr. Mater. 178, 361. (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ashrafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amerinatanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Saebi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shayesteh Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mehrabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mech. Mater</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page">26</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. Ashrafi, A. Amerinatanzi, Z. Saebi, N. Shayesteh Moghaddam, R. Mehrabi, H. Karaca, and M. Elahinia, Mech. Mater. 125, 26 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shayesteh Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Saghaian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amerinatanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ibrahim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Toker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">724</biblScope>
+			<biblScope unit="page">220</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Shayesteh Moghaddam, S. E. Saghaian, A. Ameri- natanzi, H. Ibrahim, P. Li, G. P. Toker, H. E. Karaca, and M. Elahinia, Mater. Sci. Eng. A 724, 220 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hendrixson</surname></persName>
+		</author>
+		<ptr target="https://www.Additivemanufacturing.Media/Articles/3d-Printed-Nitinol-Opens-New-Possibilities-for-Arterial-Stents" />
+		<imprint>
+			<date type="published" when="2020">Sept. 23 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Hendrixson, Https//https://www.Additivemanufactur ing.Media/Articles/3d-Printed-Nitinol-Opens-New-Possibili ties-for-Arterial-Stents (Access Date Sept. 23 2020) (n.d.).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">V</forename><surname>Listek</surname></persName>
+		</author>
+		<ptr target="Https//3dprint.Com/268395/Collaborative-" />
+		<title level="m">Research-to-Develop-Custom-3d-Printed-Nitinol-Stents-for-Children</title>
+		<imprint>
+			<date type="published" when="2020">DateJune 10 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Listek, Https//3dprint.Com/268395/Collaborative-Re- search-to-Develop-Custom-3d-Printed-Nitinol-Stents-for- Children/ (Access DateJune 10 2020) (n.d.).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Habijan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Haberland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Frenzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wittsiepe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wuwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Greulich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Schildhauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ko ¨ller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">419</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Habijan, C. Haberland, H. Meier, J. Frenzel, J. Witt- siepe, C. Wuwer, C. Greulich, T.A. Schildhauer, and M. Ko ¨ller, Mater. Sci. Eng. C 33, 419. (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Strauß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dudziak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barcikowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fliess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Israelowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kracht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kuhbier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Radtke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Reimers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">51264</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Strauß, S. Dudziak, R. Hagemann, S. Barcikowski, M. Fliess, M. Israelowitz, D. Kracht, J. W. Kuhbier, C. Radtke, and K. Reimers, PLoS One 7, e51264 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pfeifer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Mu ¨ller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hurschler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaierle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Wesling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haferkamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Cirp</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">253</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Pfeifer, C.W. Mu ¨ller, C. Hurschler, S. Kaierle, V. Wes- ling, and H. Haferkamp, Procedia Cirp 5, 253. (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jahadakbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amerinatanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plast. Reconstr. Surg. Glob. Open</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. S. Moghaddam, A. Jahadakbar, A. Amerinatanzi, M. Elahinia, M. Miller, and D. Dean, Plast. Reconstr. Surg. Glob. Open 4, (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jahadakbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shayesteh Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amerinatanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioengineering</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Jahadakbar, N. Shayesteh Moghaddam, A. Ameri- natanzi, D. Dean, H. E. Karaca, and M. Elahinia, Bio- engineering 3, 36 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jahadakbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Safaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dabbaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metals (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">151</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Jahadakbar, M. Nematollahi, K. Safaei, P. Bayati, G. Giri, H. Dabbaghi, D. Dean, and M. Elahinia, Metals (Basel). 10, 151. (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Thyssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Linneberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Menne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Johansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contact Dermatitis</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">287</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.P. Thyssen, A. Linneberg, T. Menne ´, and J.D. Johansen, Contact Dermatitis 57, 287. (2007).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rahimipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Salahinejad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sharifi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nosrati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tayebi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">506</biblScope>
+			<biblScope unit="page">144657</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Rahimipour, E. Salahinejad, E. Sharifi, H. Nosrati, and L. Tayebi, Appl. Surf. Sci. 506, 144657 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mulinti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lervick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Pullan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Brooks</surname></persName>
+		</author>
+		<title level="m">Hemocompatibility Biomater. Clin. Appl. (Elsevier</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="253" to="278" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Mulinti, J. E. Brooks, B. Lervick, J. E. Pullan, and A. E. Brooks, in Hemocompatibility Biomater. Clin. Appl. (Else- vier, 2018), pp. 253-278.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Sarode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev. Med. Devices</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">603</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D.N. Sarode, and S. Roy, Expert Rev. Med. Devices 16, 603. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bahuguna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Bajpai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bangladesh. J. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">115</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Bahuguna, I. Khan, V.K. Bajpai, and S.C. Kang, | Bangladesh. J. Pharmacol. 12, 115. (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Es-Souni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Es-Souni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fischer-Brandies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">2887</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Es-Souni, M. Es-Souni, and H. Fischer-Brandies, Bio- materials 23, 2887. (2002).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Sena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Di</forename><surname>Prima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P J</forename><surname>Mater</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Degrad</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G.M. Sena, S. Sivan, J.D. Weaver, M. Di Prima, and N.P.J. Mater, Degrad. 4, 1. (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E C</forename><surname>Vidyasagar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kalyanasundaram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">1661</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K.E.C. Vidyasagar, A. Rana, and D. Kalyanasundaram, Mater. Manuf. Process. 35, 1661. (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khademzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zanini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brunelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Bariani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Carmignato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cirp</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">575</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Khademzadeh, F. Zanini, J. Rocco, K. Brunelli, P.F. Bariani, S. Carmignato, and CIRP, , J. Manuf. Sci. Tech- nol. 31, 575. (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Poorganji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kelkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wessman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jamshidinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jom</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">561</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Poorganji, E. Ott, R. Kelkar, A. Wessman, and M. Jamshidinia, Jom 72, 561. (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Atli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Picak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elwany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arroyave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karaman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="page">117017</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Xue, K. C. Atli, S. Picak, C. Zhang, B. Zhang, A. Elwany, R. Arroyave, and I. Karaman, Acta Mater. 117017 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Calta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Depond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Fong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Thampy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Stone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.A. Martin, N.P. Calta, S.A. Khairallah, J. Wang, P.J. Depond, A.Y. Fong, V. Thampy, G.M. Guss, A.M. Kiss, and K.H. Stone, Nat. Commun. 10, 1. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.A. Khairallah, A.T. Anderson, A. Rubenchik, and W.E. King, Acta Mater. 108, 36. (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bayat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thanki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Witvrouw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thorborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Tiedje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hattel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">100835</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Bayat, A. Thanki, S. Mohanty, A. Witvrouw, S. Yang, J. Thorborg, N. S. Tiedje, and J. H. Hattel, Addit. Manuf. 30, 100835 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Paulson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gould</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Greco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">101213</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. H. Paulson, B. Gould, S. J. Wolff, M. Stan, and A. C. Greco, Addit. Manuf. 34, 101213 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Shrestha, T. Starr, and K. Chou, J. Manuf. Sci. Eng. 141, (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Scime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">151</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Scime, and J. Beuth, Addit. Manuf. 25, 151. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Pistorius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Beuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">39</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Tang, P.C. Pistorius, and J.L. Beuth, Addit. Manuf. 14, 39. (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Koutiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pessard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Amlou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">De</forename><surname>Terris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page">536</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Koutiri, E. Pessard, P. Peyre, O. Amlou, and T. De Terris, J. Mater. Process. Technol. 255, 536. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">442</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Mukherjee, and T. DebRoy, J. Manuf. Process. 36, 442. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Plessis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">100871</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. du Plessis, Addit. Manuf. 30, 100871 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahmoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tapia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Franco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arroyave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elwany</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">672</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Mahmoudi, G. Tapia, B. Franco, J. Ma, R. Arroyave, I. Karaman, and A. Elwany, J. Manuf. Process. 35, 672. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Toker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Saghaian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Salazar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahtabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Benafan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Shape Mem. Superelasticity</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">113</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Nematollahi, G. Toker, S.E. Saghaian, J. Salazar, M. Mahtabi, O. Benafan, H. Karaca, and M. Elahinia, Shape Mem. Superelasticity 5, 113. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amerinatanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinojos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramazani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kundin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N.S. Moghaddam, S. Saedi, A. Amerinatanzi, A. Hinojos, A. Ramazani, J. Kundin, M.J. Mills, H. Karaca, and M. Ela- hinia, Sci. Rep. 9, 1. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Bertoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wolfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><forename type="middle">R</forename><surname>Delplanque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schoenung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page">331</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U.S. Bertoli, A.J. Wolfer, M.J. Matthews, J.-P.R. Delplan- que, and J.M. Schoenung, Mater. Des. 113, 331. (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">P</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Tor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page">152</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Wang, X.P. Tan, Z. Du, S. Chandra, Z. Sun, C.W.J. Lim, S.B. Tor, C.S. Lim, and C.H. Wong, J. Mater. Process. Technol. 271, 152. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Zuback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Milewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Beese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson-Heid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">112</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. DebRoy, H.L. Wei, J.S. Zuback, T. Mukherjee, J.W. El- mer, J.O. Milewski, A.M. Beese, A. Wilson-Heid, A. De, and W. Zhang, Prog. Mater. Sci. 92, 112. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deckers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wauthle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Inst. Mech. Eng. Part B J. Eng. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page">980</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-P. Kruth, J. Deckers, E. Yasa, and R. Wauthle ´, Proc. Inst. Mech. Eng. Part B J. Eng. Manuf. 226, 980 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hassanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J E</forename><surname>Adkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Essa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Li, H. Hassanin, M.M. Attallah, N.J.E. Adkins, and K. Essa, Acta Mater. 105, 75. (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">817</biblScope>
+			<biblScope unit="page">153288</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Zhao, H. Liang, S. Luo, J. Yang, and Z. Wang, J. Alloys Compd. 817, 153288 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Borisov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Farber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J M</forename><surname>Hermans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Popovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">101802</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. N. Zhu, E. Borisov, X. Liang, E. Farber, M. J. M. Her- mans, and V. A. Popovich, Addit. Manuf. 38, 101802 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">1025</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Li, J. Liu, Y. Shi, L. Wang, and W. Jiang, Int. J. Adv. Manuf. Technol. 59, 1025. (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mingear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hartl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elwany</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">565</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Mingear, B. Zhang, D. Hartl, and A. Elwany, Addit. Manuf. 27, 565. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Safaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jahadakbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yadollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahtabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">347</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Bayati, K. Safaei, M. Nematollahi, A. Jahadakbar, A. Yadollahi, M. Mahtabi, and M. Elahinia, Int. J. Adv. Manuf. Technol. 112, 347. (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b75">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page">116591</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Wang, C. Yu, L. Xing, K. Li, J. Chen, W. Liu, J. Ma, and Z. Shen, J. Mater. Process. Technol. 281, 116591 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b76">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>To</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Liu, and A.C. To, Addit. Manuf. 16, 58. (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">2238</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Xiong, Z. Li, Z. Sun, S. Hao, Y. Yang, M. Li, C. Song, P. Qiu, and L. Cui, J. Mater. Sci. Technol. 35, 2238. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b78">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Farjam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Andani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mahtabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">3145</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Farjam, M. Nematollahi, M.T. Andani, M.J. Mahtabi, and M. Elahinia, Int. J. Adv. Manuf. Technol. 107, 3145. (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b79">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Saghaian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Safaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bassani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Biffi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tuissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">873</biblScope>
+			<biblScope unit="page">159791</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Nematollahi, S. E. Saghaian, K. Safaei, P. Bayati, P. Bassani, C. Biffi, A. Tuissi, H. Karaca, and M. Elahinia, J. Alloys Compd. 873, 159791 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b80">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Higashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ozaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page">108588</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Higashi and T. Ozaki, Mater. Des. 191, 108588 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b81">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page">107771</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Nagase, T. Hori, M. Todai, S.-H. Sun, and T. Nakano, Mater. Des. 173, 107771 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b82">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Dehoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Kirka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Sames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bilheux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Tremsin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Babu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">931</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.R. Dehoff, M.M. Kirka, W.J. Sames, H. Bilheux, A.S. Tremsin, L.E. Lowe, and S.S. Babu, Mater. Sci. Technol. 31, 931. (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b83">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shayesteh Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amerinatanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinojos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramazani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kundin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karaca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Shayesteh Moghaddam, S. Saedi, A. Amerinatanzi, A. Hinojos, A. Ramazani, J. Kundin, M. J. Mills, H. Karaca, and M. Elahinia, Sci. Rep. 9, 1 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b84">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Andreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Koutiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Penot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Saintier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pessard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>De Terris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dupuy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baudin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Andreau, I. Koutiri, P. Peyre, J.-D. Penot, N. Saintier, E. Pessard, T. De Terris, C. Dupuy, and T. Baudin, J. Mater. Process. Technol. 264, 21. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b85">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Laser Technol</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page">106374</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Fu, Z. Hu, X. Song, W. Zhai, Y. Long, H. Li, and M. Fu, Opt. Laser Technol. 131, 106374 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b86">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Safaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dabbaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Benafan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eng. Struct</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page">111383</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Safaei, M. Nematollahi, P. Bayati, H. Dabbaghi, O. Benafan, and M. Elahinia, Eng. Struct. 226, 111383 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b87">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Otsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wayman</surname></persName>
+		</author>
+		<title level="m">Shape Memory Materials</title>
+		<imprint>
+			<publisher>Cambridge university press</publisher>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Otsuka and C. M. Wayman, Shape Memory Materials (Cambridge university press, 1999).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b88">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Franco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tapia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Karayagiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arroyave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elwany</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Ma, B. Franco, G. Tapia, K. Karayagiz, L. Johnson, J. Liu, R. Arroyave, I. Karaman, and A. Elwany, Sci. Rep. 7, 1. (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b89">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Patriarca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sehitoglu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Plast</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">152</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Chowdhury, L. Patriarca, G. Ren, and H. Sehitoglu, Int. J. Plast. 81, 152. (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b90">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Che</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">869</biblScope>
+			<biblScope unit="page">159338</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Gan, L. Duan, F. Li, Y. Che, Y. Zhou, S. Wen, and C. Yan, J. Alloys Compd. 869, 159338 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b91">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Simsek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stasak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Al Hasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">1116</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Hou, E. Simsek, T. Ma, N. S. Johnson, S. Qian, C. Cisse ´, D. Stasak, N. Al Hasan, L. Zhou, and Y. Hwang, Science (80-. ). 366, 1116 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b92">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Khanlari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">107273</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Q. Shi, Y. Zhang, C. Tan, X. Mao, K. Khanlari, and X. Liu, Intermetallics 136, 107273 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b93">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amerinatanzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Karaca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page">552</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Saedi, N.S. Moghaddam, A. Amerinatanzi, M. Elahinia, and H.E. Karaca, Acta Mater. 144, 552. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b94">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bormann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mu ¨ller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schinhammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thalmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">De</forename><surname>Wild</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Charact</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">189</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Bormann, B. Mu ¨ller, M. Schinhammer, A. Kessler, P. Thalmann, and M. De Wild, Mater. Charact. 94, 189. (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b95">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Speirs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Baelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dadbakhsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Shape Mem. Superelasticity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">310</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Speirs, X. Wang, S. Van Baelen, A. Ahadi, S. Dad- bakhsh, J.-P. Kruth, and J. Van Humbeeck, Shape Mem. Superelasticity 2, 310. (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b96">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">763</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Z. Lu, C. Yang, X. Luo, H. W. Ma, B. Song, Y. Y. Li, and L. C. Zhang, Mater. Sci. Eng. A 763, (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b97">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">X</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">804</biblScope>
+			<biblScope unit="page">220</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Yang, J.B. Zhan, Z.Z. Sun, H.L. Wang, J.X. Lin, Y.J. Liu, and L.C. Zhang, J. Alloys Compd. 804, 220. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Toward structural fatigue analysis of horizontally-fabri-cated NiTi via selective laser melting</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dabbaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Safaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cavaleiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Schell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ocana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M B</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Delaey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Baghbaderani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bayatimalayeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dabbaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jahadakbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sehitoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">I</forename><surname>Chumlyakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Kireeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><forename type="middle">C</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Han ; I. Karaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chumlyakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jahadakbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Safaie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nematollahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dabbaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haghshenas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahtabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Karaca</surname></persName>
+		</author>
+		<idno>ArXiv2006.15659</idno>
+	</analytic>
+	<monogr>
+		<title level="m">International Manufacturing Science and Engineering Conference</title>
+		<meeting><address><addrLine>Basel</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Society of Mechanical Engineers</publisher>
+			<date type="published" when="1998">2020. 2018. 1998. 2020. 1999. 2010. 2000. 2020. 2020. 2018</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">109</biblScope>
+		</imprint>
+	</monogr>
+	<note>Acta Mater. Acta Mater. Acta Mater. Acta Mater. Materials Scr. Mater. Int. J. Mech. Sci.</note>
+	<note type="raw_reference">H. Dabbaghi, K. Safaei, M. Nematollahi, P. Bayati, and M. Elahinia, Materials (Basel). 13, (2020). 100. J.P. Oliveira, A.J. Cavaleiro, N. Schell, A. Stark, R.M. Miranda, J.L. Ocana, and F.M.B. Fernandes, Scr. Mater. 152, 122. (2018). 101. Y. Liu, Z. Xie, J. Van Humbeeck, and L. Delaey, Acta Mater. 46, 4325. (1998). 102. K. S. Baghbaderani, M. Nematollahi, P. Bayatimalayeri, H. Dabbaghi, A. Jahadakbar, and M. Elahinia, ArXiv Prepr. ArXiv2006.15659 (2020). 103. K. Gall, H. Sehitoglu, Y.I. Chumlyakov, and I.V. Kireeva, Acta Mater. 47, 1203. (1999). 104. S.C. Mao, J.F. Luo, Z. Zhang, M.H. Wu, Y. Liu, and X.D. Han, Acta Mater. 58, 3357. (2010). 105. H. Sehitoglu, I. Karaman, R. Anderson, X. Zhang, K. Gall, H.J. Maier, and Y. Chumlyakov, Acta Mater. 48, 3311. (2000). 106. P. Bayati, A. Jahadakbar, K. Safaie, M. Nematollahi, H. Dabbaghi, M. Haghshenas, M. Mahtabi, and M. Elahinia, Toward structural fatigue analysis of horizontally-fabri- cated NiTi via selective laser melting, in International Manufacturing Science and Engineering Conference (American Society of Mechanical Engineers, 2020), vol. 84256, p. V001T01A044. 107. P. Bayati, A. Jahadakbar, M. Barati, M. Nematollahi, L. Saint-Sulpice, M. Haghshenas, S. A. Chirani, M. J. Mah- tabi, and M. Elahinia, Int. J. Mech. Sci. 185, (2020). 108. S. Saedi, S.E. Saghaian, A. Jahadakbar, N.S. Moghaddam, M.T. Andani, S.M. Saghaian, Y.C. Lu, M. Elahinia, and H.E. Karaca, J. Mater. Sci. Mater. Med. 29, 1. (2018). 109. N. Sabahi, W. Chen, C.-H. Wang, J.J. Kruzic, and X. Li, Jom 72, 1229. (2020). 110. K. Gall, K. Juntunen, H.J. Maier, H. Sehitoglu, and Y.I. Chumlyakov, Acta Mater. 49, 3205. (2001). 111. W. Ni, Y.-T. Cheng, and D.S. Grummon, Appl. Phys. Lett. 82, 2811. (2003). 112. Y. Zhang, Y.-T. Cheng, and D.S. Grummon, J. Mater. Res. 22, 2851. (2007). 113. Y. Zhang, Y.-T. Cheng, and D. S. Grummon, Appl. Phys. Lett. 88, 131904 (2006). 114. L. Qian, S. Zhang, D. Li, and Z. Zhou, J. Mater. Res. 24, 1082. (2009). 115. A.J.M. Wood, S. Sanjabi, Y.Q. Fu, Z.H. Barber, and T.W. Clyne, Surf. Coatings Technol. 202, 3115. (2008).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

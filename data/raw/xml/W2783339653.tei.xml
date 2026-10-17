@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Additive manufacturing of magnetic shielding and ultrahigh vacuum flange for cold atom sensors</title>
+				<funder ref="#_kwpKd5q">
+					<orgName type="full">EPSRC</orgName>
+				</funder>
+				<funder ref="#_nctd3dj">
+					<orgName type="full">DSTL</orgName>
+				</funder>
+				<funder ref="#_FZZs7hH">
+					<orgName type="full">the European Commission</orgName>
+				</funder>
+				<funder ref="#_yBsGARw">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_z7gQ83E">
+					<orgName type="full">Future and Emerging Technologies (</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Jamie</forename><surname>Vovrosh</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Physics and Astronomy , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Georgios</forename><surname>Voulazeris</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Physics and Astronomy , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Magnetic Shields Limited , Staplehurst , UK.</note>
+								<orgName type="institution">Magnetic Shields Limited</orgName>
+								<address>
+									<settlement>Staplehurst</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Plamen</forename><forename type="middle">G</forename><surname>Petrov</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Physics and Astronomy , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ji</forename><surname>Zou</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> School of Metallurgy and Materials , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Metallurgy and Materials</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Youssef</forename><surname>Gaber</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> School of Metallurgy and Materials , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Metallurgy and Materials</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><surname>Benn</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Magnetic Shields Limited , Staplehurst , UK.</note>
+								<orgName type="institution">Magnetic Shields Limited</orgName>
+								<address>
+									<settlement>Staplehurst</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Woolger</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Magnetic Shields Limited , Staplehurst , UK.</note>
+								<orgName type="institution">Magnetic Shields Limited</orgName>
+								<address>
+									<settlement>Staplehurst</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Moataz</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> School of Metallurgy and Materials , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Metallurgy and Materials</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vincent</forename><surname>Boyer</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Physics and Astronomy , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kai</forename><surname>Bongs</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Physics and Astronomy , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Michael</forename><surname>Holynski</surname></persName>
+							<email>m.holynski@bham.ac.uk</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> School of Physics and Astronomy , University of Birmingham , Birmingham , B15 2TT , UK.</note>
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Additive manufacturing of magnetic shielding and ultrahigh vacuum flange for cold atom sensors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">84E51CA0C8EA46B80A9D4CFAA09F598E</idno>
+					<idno type="DOI">10.1038/s41598-018-20352-x</idno>
+					<note type="submission">Received: 1 November 2017 Accepted: 12 January 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-19T04:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Recent advances in the understanding and control of quantum technologies, such as those based on cold atoms, have resulted in devices with extraordinary metrological performance.</s><s>To realise this potential outside of a lab environment the size, weight and power consumption need to be reduced.</s><s>Here we demonstrate the use of laser powder bed fusion, an additive manufacturing technique, as a production technique relevant to the manufacture of quantum sensors.</s><s>As a demonstration we have constructed two key components using additive manufacturing, namely magnetic shielding and vacuum chambers.</s><s>The initial prototypes for magnetic shields show shielding factors within a factor of 3 of conventional approaches.</s><s>The vacuum demonstrator device shows that 3D-printed titanium structures are suitable for use as vacuum chambers, with the test system reaching base pressures of 5 ± 0.5 × 10 -10 mbar.</s><s>These demonstrations show considerable promise for the use of additive manufacturing for cold atom based quantum technologies, in future enabling improved integrated structures, allowing for the reduction in size, weight and assembly complexity.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Quantum technologies utilising atom clouds are highly promising tools for creating ever more sensitive devices with applications in a vast array of areas ranging from geophysical type applications <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> to satellite independent navigation <ref type="bibr" target="#b2">3</ref> .</s><s>The exceptional performance of lab based systems <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref> has lead to recent work focused on transforming lab based atomic systems into compact transportable versions <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> .</s><s>To produce ever more compact and transportable devices the latest advances in micro-manufacturing technology are being used including waveguide writing <ref type="bibr" target="#b10">11</ref> and reactive ion beam etching <ref type="bibr" target="#b11">12</ref> .</s><s>Using these manufacturing methods has allowed for the miniaturisation of quantum technologies such as integrated atom chip based systems <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> .</s></p><p><s>An emerging technology capable of allowing further miniaturisation of cold atom based sensors is additive manufacturing, such as 3D-printing.</s><s>The freedom of design <ref type="bibr" target="#b14">15</ref> offered during production by 3D-printing allows for rapid development of complex, individually bespoke components and the potential to tune material properties during production <ref type="bibr" target="#b15">16</ref> .</s><s>3D-printing has been used for a variety of applications ranging from fast compact laser shutters <ref type="bibr" target="#b16">17</ref> to the realisation of complex magnetic field configurations <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> .</s><s>The focus of 3D-printing technologies in regards to cold atom based sensors, thus far has been on magnetic field generation <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> , while little attention has been given to environmental isolation.</s><s>Here we report on two demonstrators of crucial environmental isolation technologies needed for the realisation of portable and compact quantum technologies developed with 3D-printing, namely magnetic shielding and vacuum components.</s></p><p><s>Magnetic shielding is an essential component of atom based quantum technologies necessary to provide a suitable magnetic environment and enable sensitive measurements.</s><s>Currently the best available materials for magnetic shielding are soft magnetic alloys, such as mu-metal <ref type="bibr" target="#b21">22</ref> .</s><s>Despite mu-metal shields being widely used, they are characterised by a relatively high weight and the inflexibility to adapt to more complex geometries, due to manufacturing limitations.</s><s>While simple shapes such as cylinders can be easily manufactured, linking shields together without loss of performance is challenging <ref type="bibr" target="#b22">23</ref> .</s><s>Existing shielding is thus heavy and bulky, limiting the advancement of quantum technology towards portable and miniaturised systems.</s><s>The majority of production is currently realised through hand machining in workshops which limits the ability to create complicated geometries.</s><s>In contrast, by using 3D-printing it is possible to design bespoke complex shielding for each application.</s><s>However to achieve the best possible magnetic shields the additive process used to create the shields need to be optimised to reduce cracking and porosity in the printed structure, which reduces the effectiveness of the magnetic shields.</s><s>Combining this with post processing of the 3D-printed structure, the ability to produce magnetic shields with complex compact and light weight geometries closer to the structure to be shielded should be realised.</s></p><p><s>Vacuum technology is another prominent component of cold atom systems, used to isolate atoms from background gasses.</s><s>For example, a typical measurement rate in an atom interferometer is on the order of 1 Hz.</s><s>In order to not be limited by background gas collisions, this requires a pressure of the order of 10 -9 mbar <ref type="bibr" target="#b23">24</ref> .</s><s>For compact quantum sensors it is ideal that ultra high vacuum environments are achieved and maintained over long time periods.</s><s>Since 3D-printing is an additive process, it is possible that small voids and leak channels can form in the material during the printing process.</s><s>These voids could trap gases which would later vent slowly into the vacuum, making the part unsuitable for ultrahigh vacuum environments <ref type="bibr" target="#b24">25</ref> .</s><s>Selection of the material which components are made out of has been shown to reduce these issues in 3D-printed components inside vacuums <ref type="bibr" target="#b25">26</ref> .</s><s>Here we show that by optimising the 3D-printing parameters and materials, 3D-printing techniques can be used to produce vacuum components.</s><s>The production of 3D-printed vacuum parts allows for the time and cost to build complicated, specialised geometries to be drastically reduced.</s></p><p><s>Here, for the first time, we report on the design, manufacture and characterisation of both 3D-printed magnetic shielding and vacuum flange demonstrator devices.</s><s>We evaluate the performance of these demonstrator devices and an equivalent traditionally produced component of the 3D-printed equivalent.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Magnetic Shielding.</head><p><s>To investigate the potential for 3D-printing to be used in the fabrication of magnetic shields the test pieces shown in Fig. <ref type="figure" target="#fig_0">1</ref> were produced.</s><s>The magnetic shield was designed using computer aided design (CAD) and 3D-printed using the selective laser melting (SLM) process <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> .</s><s>This method utilises a high-power scanning laser to locally melt powdered metal, in our case a Ni-5Mo-15Fe alloy (or permalloy-80), allowing for a 3D structure to be built layer by layer.</s><s>The SLM process allows for optimal customisation and experimentation on the alloy composition, with the printing parameters affecting the micro-structural characteristics of the material, and hence its magnetic properties <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> .</s></p><p><s>The defects in terms of voids and cracking can retard and hinder the magnetic domain wall motion <ref type="bibr" target="#b29">30</ref> .</s><s>As a result more energy is required to magnetise or demagnetise the material, degrading its permeability.</s><s>The porosity and cracking within the fabricated structure is a function of the energy density (ED) input to the material surface during the printing process <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> .</s><s>The energy density is a semi-empirical quantity describing the consolidation heat input given to the powder.</s><s>Each material has a threshold level to achieve full consolidation <ref type="bibr" target="#b32">33</ref> .</s><s>With the increase in densification and reduction of structural defects, the material is capable of delivering better magnetic shielding.</s><s>Several samples were prepared with different ED values to minimise such unwanted defects.</s><s>Each of the samples where characterised by cutting the sample into thin slices which were polished and then examined with a scanning electron microscope (SEM).</s><s>Pictures where taken from different sections and analysed by imaging software which estimates the percentage of porosity.</s><s>This method allowed the analysis of the structural uniformity and to see what effect the printing conditions had on the samples produced.</s><s>Figure <ref type="figure" target="#fig_1">2</ref> shows an example of pictures captured by the SEM.</s><s>The sample shown in Fig. <ref type="figure" target="#fig_1">2A</ref> was printed with ED = 1.4 J/mm 2 and has a structure characterised by a large number of pores with unconsolidated particles and cracks.</s><s>In contrast, the sample shown in Fig. <ref type="figure" target="#fig_1">2B</ref> was printed under ED = 4.9 J/mm 2 and showed the best results with negligible porosity and only few cracks.</s></p><p><s>In addition, phase assemblage and crystallographic texture of the as-fabricated permalloy were characterised using X-ray diffraction (XRD).</s><s>This revealed a variation in the crystallographic texture in the two different planes (see Fig. <ref type="figure" target="#fig_2">3</ref>).</s><s>From the XRD pattern, it can be seen that a (001) grain orientation exists in both axes of the magnetic shields.</s><s>The (001) is the hard axis for an Ni enriched alloy, such as the permalloy-80 used to create the magnetic shields.</s><s>The hard axis is energetically unfavourable for magnetisation.</s><s>Therefore presence of the (001) grain orientation will have a negative impact on the shielding factor of the shields <ref type="bibr" target="#b33">34</ref> .</s><s>The nature of powder bed melting process means that grains tend to solidify and grow along the [001] direction, which is the favourable growth direction in Ni <ref type="bibr" target="#b34">35</ref> .</s><s>Therefore the powder bed melting process is likely to generate an orientation that is magnetically unfavourable.</s><s>With further optimisation of the SLM process used there is scope to reduce the percentage of the material with the (001) grain orientation.</s><s>However for the purposes of creating a magnetic shield the crystallographic properties look favourable in the transverse direction (XY-plane) which is the plane of interest for these experiments.</s></p><p><s>To characterise the magnetic shielding performance the amplitude ratio of the magnetic field without the presence of the shield B out , over the residual field measured at the same point after the shield installation B in is used.</s><s>This ratio is known as the shielding factor = S B B / t o ut in , where the subscript t indicates the magnetising field orientation along the transverse shield axis.</s><s>The magnetic shielding factors from both before and after annealing the test pieces, when using a test field of 50 μ T magnetic field, can be seen in Fig. <ref type="figure" target="#fig_3">4A</ref> and <ref type="figure">B</ref>. It can be seen that the maximum magnetic shielding factors obtained before annealing for the open and closed pieces were 14 ± 0.1 and 30 ± 0.3 respectively.</s><s>These maximum values were then increased significantly with the application of the annealing process for both the open and closed pieces to 206 ± 13 and 542 ± 64 respectively.</s></p><p><s>To see whether further treatment could improve the performance, heat treatment under hot isostatic pressing (HIP) was also investigated.</s><s>HIP is often performed during manufacture to release internal stresses within the materials used <ref type="bibr" target="#b35">36</ref> .</s><s>The effect of applying HIP treatment prior to annealing on a 3D-printed test piece can be seen in Fig. <ref type="figure" target="#fig_3">4C</ref>.</s><s>The details of the HIP cycle parameters can be found in the Methods section.</s><s>It can be seen that the shielding factor increased by a factor of 7 after the HIP treatment, reaching a value of ≈ S 150 t at the cylinder central region.</s><s>This factor was then doubled after annealing, reaching a shielding factor of ≈ S 260 t , approximately at the centre of the shield.</s><s>It can be seen in Fig. <ref type="figure" target="#fig_3">4B</ref> the test piece which did not undergo HIP treatment demonstrated very similar performance, suggesting that although HIP as an intermediate step is important for optimising structural integrity it might not be necessary for magnetic shielding applications.</s><s>In that case, opting to follow only one heat treatment instead of two, could reduce potential production cost in the future.</s><s>Alternatively, it is possible that further optimisation of the HIP parameters may also lead to further improvements.</s></p><p><s>The performance of the 3D-printed open ended test piece was compared to that of a mu-metal control shield with the same dimensions, fabricated using standard techniques.</s><s>These were both processed using the same procedure, which is optimised based upon the mu-metal shield.</s><s>A comparison of the magnetic shielding factors can be seen in Fig. <ref type="figure" target="#fig_3">4D</ref>.</s><s>The shielding factor of the test piece is found to be a factor of 2.75 smaller than the control shield, showing that 3D-printing is a viable method in which the creation of high performance magnetic shields is possible.</s><s>In particular, this would be of benefit in the creation of complex geometries, which may allow for substantial geometric improvements in the shield design to enable considerably better shielding per unit weight.</s><s>Furthermore, optimisation of the fabrication and post-processing may yield further improvements.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vacuum components.</head><p><s>Many materials that are commonly used in ultra high vacuum (UHV) are also 3D-printable materials, such as silver, gold, stainless steel and titanium.</s><s>The low vapour pressures of metals make them ideal for vacuum applications, however this is not the only consideration in determining UHV compatibility.</s><s>The processes used in 3D-printing metals could potentially give rise to several adverse effects, such as introducing trapped gases resulting in virtual leaks, and micro-leak channels.</s><s>In addition, the resulting surface roughness and porosity of the printed part can greatly increase effective surface area and therefore out gassing load.</s><s>These problems must be ruled out if 3D-printed materials are to be used to create UHV systems.</s><s>Additionally it is important to determine if any special surface cleaning or passivation steps are necessary before 3D-printed vacuum parts can be used.</s><s>Currently the vacuum compatibility of 3D-printed materials has been shown for small components that sit inside a vacuum system, such as for Al-Si10-Mg, titanium and silver <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b36">37</ref> and to make low vacuum KF vacuum parts <ref type="bibr" target="#b37">38</ref> .</s><s>However here we will show that 3D-printed parts can be used to construct high vacuum chambers, through acting as the vacuum wall and sealing to peripheral components, using indium sealing.</s></p><p><s>The 3D-printed part was designed using CAD software and titanium (Ti) was chosen as it is a common vacuum material and readily 3D-printed.</s><s>Furthermore, its non-magnetic properties are well-suited to cold atomic physics.</s><s>The test piece was printed using direct metal laser sintering of alloy Ti-6Al-4V.</s><s>The surface face of the test piece was smoothed with a milling machine to allow for indium sealing to the system and cleaned ultrasonically with acetone.</s><s>The inside of the 3D-printed part was not smoothed.</s><s>When connected to a vacuum the seal was done by indium wire with 1 mm diameter.</s><s>The test piece and the method of sealing to a DN40CF can be seen in Fig. <ref type="figure" target="#fig_4">5</ref>.</s></p><p><s>The experimental set up used to test the 3D-printed flange can be seen in Fig. <ref type="figure" target="#fig_5">6</ref>.</s><s>The set up consists of two branches which can be independently sealed off from each other and the rest of the chamber.</s><s>The test branch contains the test piece, while the reference branch contains a control flange, produced by traditional methods (CFB70, MDC Vacuum LDC made of 304 stainless steel).</s><s>The setup is pumped by an ion pump and the pumping speed for the two branches is the same due to the same conductance to the ion pump.</s></p><p><s>Pumping was provided by a triode configuration ion pump (Agilent technologies, Vaclon Plus 20 StarCell) and the pressure was measured using a cold cathode gauge (Pfeiffer, IKR 270).</s><s>Moderate bake-out temperatures were achieved using heater tapes (SWH Series, Omega UK) and adjustable transformers (EA-STT 2000B-4.5 A, Farnell), providing a stable temperature of 130 ± 1 °C for 160 hours.</s><s>The analogue output from the gauge controller was recorded every 0.5 s.</s><s>The pressure during bakeout and cooling down can be seen in Fig. <ref type="figure" target="#fig_6">7</ref>.</s><s>The data has been smoothed using a median filter to remove noise spikes.</s><s>The ultimate pressure achieved after baking was 5 ± 0.5 × 10 -10 mbar.</s><s>The same base pressure was achieved when both the reference and test branches were isolated from each other.</s><s>From this it can be seen that the minimum achievable pressure in the vacuum system is not limited by the test flange</s></p><p><s>The performance of the test flange was assessed via pressure rise tests.</s><s>The results of these tests can be seen in Fig. <ref type="figure" target="#fig_7">8</ref>.</s><s>The test branch was isolated from the reference branch and a pressure rise test preformed by turning the ion pump off (cyan trace in Fig. <ref type="figure" target="#fig_7">8</ref>).</s><s>Second, the reference branch of the setup was isolated and the same pressure rise test was performed for the test branch (red trace in Fig. <ref type="figure" target="#fig_7">8</ref>).</s><s>In addition, the pressure rise test was performed for the whole setup (blue trace in Fig. <ref type="figure" target="#fig_7">8</ref>) and for the pump and gauge only (green trace in Fig. <ref type="figure" target="#fig_7">8</ref>).</s></p><p><s>From the rate of rise tests the out gassing rate for the reference branch was measured to be 5 × 10 -12 mbar l s -1 cm -2 while for the test branch it was measured to be 4 × 110 -12 mbar l s -1 cm -2 , showing that the outgassing rate from the test flange does not exceed the control flange in the pressure ranges examined.</s><s>The performance of the test flange and control flange during pump down is shown in Fig. <ref type="figure" target="#fig_8">9</ref> and measured by isolating each part of the system in turn and turning on the ion pump.</s><s>The test flange and control flange both decreased in pressure by two orders of magnitude in 16.5 hours, reaching pressures of the order 1 × 10 -9 mbar.</s><s>In addition to this the vacuum chamber has remained at UHV with no deterioration in performance over 2 years, showing great promise for the vacuum compatibility of 3D-printed titanium vacuum components and chambers.</s></p><p><s>The pressure achieved in the system is not limited by the 3D-printed flange in the pressure range investigated, but rather the system out gassing due to a limited baking temperature of 130 ± 1 °C, which is in turn limited by the use of an indium seal.</s><s>If a 3D-printed knife edge could be realised, higher bake out pressures could be achieved and low pressure regimes could be investigated.</s><s>It is possible that at lower pressures than studied here that the performance of the test and reference flange will deviate.</s><s>However, the results demonstrated here show that 3D-printed titanium vacuum parts are suitable for use in the creation of UHV chambers and that no surface finishing is needed on the inside of the vacuum parts to achieve vacuum levels of interest for cold atom quantum sensors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p><s>The use of 3D-printing for the creation of both magnetic shielding and vacuum chambers has been demonstrated.</s><s>Initial prototypes for 3D-printed magnetic shields show shielding factors within a factor of 3 of conventional approaches.</s><s>While this may be enhanced further through optimisation of the fabrication and post-processing techniques, the main benefit that this brings is to enable the manufacture of more complex and compact shields, allowing a higher shielding factor per unit weight.</s><s>This promises to drastically reduce the weight of quantum technology based sensors, where the magnetic shielding can occupy up to 50% of the weight.</s><s>The vacuum test pieces have shown that 3D-printed titanium structures are suitable for use as vacuum walls, as a sealing surface, and by association chambers in the pressure ranges examined.</s><s>The test system reached base pressures of ± .</s><s>× - 5 0 5 10 10 mbar and showed no signs of limiting the system.</s><s>This has been achieved without post-processing or surface finishing of the internal walls.</s><s>Combining the ability to 3D-print both magnetic shielding and vacuum systems will allow for a step change in the compactness and weight of quantum devices and facilitate greater systems integration.</s><s>This potential for greater systems integration in cold atom systems is promising for applications where compactness is key, such as space based systems <ref type="bibr" target="#b38">39</ref> .</s><s>There is also the potential to benefit wider applications, in particular in sectors which require low weight shielding such as aerospace.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Magnetic Shielding Production details.</head><p><s>The powder used to produce the magnetic shielding samples presented here was a Ni-5Mo-15Fe alloy (or permalloy-80), purchased from the TLS Technik company.</s><s>All testing samples were produced on a 400-W powered Concept Laser M2 Cusing system, operating in an argon atmosphere using gas atomised powders in the size range 15-53 microns.</s><s>Once printed special heat treatments are used to enhance the physical properties of printed material.</s><s>Two different types of heat treatment were applied to the samples produced by SLM manufacturing of permalloy-80.</s><s>Chamber pressure of the entire system vs time, after equalisation at a bake-out temperature of 130 ±1 °C.</s><s>The temperature for the bake out was kept below that of the melting point of indium (~157 °C).</s><s>After 160 hours the bake out ended and the temperature of the system returned to room temperature (~21 °C), and the pressure in the chamber reduced by roughly an order of magnitude.</s></p><p><s>The process parameters for the first method, hot isostatic pressing (HIP), are shown in the time-temperature diagram in Fig. <ref type="figure" target="#fig_9">10</ref>.</s><s>The selected cycle for this design of experiments is typically used for 3D-printed materials of similar composition, predominantly to eliminate structural defects.</s></p><p><s>The second method is annealing in pure dry hydrogen, which was undertaken at the Magnetic Shields Ltd. facilities.</s><s>This cycle is used commercially by the company for bringing mu-metal shields to optimum magnetic performance as the final step after manufacturing.</s><s>The relevant parameters are shown in Fig. <ref type="figure" target="#fig_10">11</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Magnetic Shielding Measurements.</head><p><s>In preparation for testing the shielding performance, all the shields were demagnetised after production using a small degausser (Eclipse Magnetics, DA955 demagnetiser).</s><s>The measurements of the magnetic shielding factors where performed using a Stefan Mayer 1-axis Fluxgate Magnetometer Fluxmaster which was fixed at the centre of the coils, while the shield was moved around it.</s><s>This was achieved by a rail base that allowed the shield to slide from the one side to the other, through the coils, encompassing the sensor.</s><s>The applied magnetic field strength in all experiments was 50 μT applied in the transverse orientation configuration.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3D-printed flange production details.</head><p><s>The 3D-printed test flange was prepared for printing using Solid Works and i.materialise.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>The 3D-printed magnetic shield structures used as test pieces.</s><s>(A) A cross section of the Z-Y plane showing the closed ended magnetic shield dimensions and a photo of the 3D-printed structure.</s><s>(B) A cross section of the Z-Y plane showing the open ended magnetic shield dimensions and a photo of the 3D-printed structure.</s></p></div></figDesc><graphic coords="2,155.64,46.50,360.00,275.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Pictures captured by a SEM on different 3D-printed samples revealing structural defects.</s><s>(A) Sample printed under non-optimal parameters with ED = 1.4 J/mm 2 and shows a large number of defects.</s><s>(B) Sample produced with under optimum parameters with ED = 4.9 J/mm 2 showing minimal defects.</s></p></div></figDesc><graphic coords="3,155.64,46.50,240.00,342.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3.</s><s>Comparison of the results from XRD tests on the unprocessed permalloy-80 powder and the sample produced with ED = 4.9 J/mm 2 along the XY and YZ-plane, respectively.</s><s>The z axis is defined as the vertical axis of the sample.</s><s>Each peak represents the intensity of the detected regions with the same crystallographic orientation.</s><s>Although both phases are almost equally distributed on the YZ-plane, the (200) orientation dominates in the XY plane.</s></p></div></figDesc><graphic coords="4,155.64,46.50,240.00,155.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Measured shielding factors along the test and control shields longitudinal axes (z axes), under an external magnetic field of 50 μT in the transverse (Y plane) of the shields.</s><s>The dashed lines show the position of the open ends of the shields, while the solid lines shows the closed ends.</s><s>(A) Open ended test shield (B) Closed ended test shield (C) Closed ended test shield which underwent HIP treatment.</s><s>The increase in shielding factor towards the open end of the test shield has been seen in 3D-printed shields that have not received the HIP treatment and therefore is not an effect of the HIP treatment.</s><s>It is believed that the rise is an caused by edge effects related to the increased amount of material in that region.</s><s>(D) Comparison of the open ended test shield and the control shield.</s><s>The inserted image shows the replica mu-metal shield.</s><s>The mu-metal replica was annealed in pure dry hydrogen under the same conditions as the 3D-printed samples.</s><s>The maximum magnetic shielding factor measured in the control shield was 568 ± 102.</s></p></div></figDesc><graphic coords="5,98.64,46.50,456.00,294.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. (A) Digital render of the vacuum flange structure with components for vacuum sealing.</s><s>The test piece was designed with a top hat profile with a diameter of 70 mm and indium sealed onto a stainless steel flange.</s><s>The stainless steel flange had a bore hole of 30 mm in the centre and 6 M6 tapped holes to apply pressure to the indium seal.</s><s>Once sealed the DN40CF flange is attached to the chamber using a standard copper gasket.</s><s>The holes in test piece are compatible with a DN40CF flange.</s><s>(B) The DN40 CF flange and test piece prior to Assembly.</s></p></div></figDesc><graphic coords="6,155.64,46.50,240.00,360.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>The experimental set up for testing the performance of the 3D-printed flange compared to a commercial equivalent.</s></p></div></figDesc><graphic coords="7,155.64,46.50,240.00,243.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7.Chamber pressure of the entire system vs time, after equalisation at a bake-out temperature of 130 ±1 °C.</s><s>The temperature for the bake out was kept below that of the melting point of indium (~157 °C).</s><s>After 160 hours the bake out ended and the temperature of the system returned to room temperature (~21 °C), and the pressure in the chamber reduced by roughly an order of magnitude.</s></p></div></figDesc><graphic coords="7,155.64,351.01,240.00,155.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. Rate of rise curves for the different sections of the vacuum system.</s><s>The pressure before the rate of rise curve is not representative of the minimum achievable pressures but instead of the pressure in the chamber before the test was carried out.</s></p></div></figDesc><graphic coords="8,155.64,46.50,240.00,155.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9.</s><s>The pressure for the different branches in the vacuum system as a function of time, when the chamber is pumping down.</s></p></div></figDesc><graphic coords="8,155.64,267.01,240.00,158.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Hot isostatic pressing process cycle in argon atmosphere at a pressure of 118 MPa, used for the 3D-printed sample in Fig. 4D.</s></p></div></figDesc><graphic coords="8,155.64,477.02,240.00,145.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Annealing treatment cycle in pure hydrogen atmosphere used for all the 3D-printed magnetic shield samples and mu metal shield.</s></p></div></figDesc><graphic coords="9,155.64,46.50,240.00,146.64" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><s>Scientific REPORTS | (2018) 8:2023 | DOI:10.1038/s41598-018-20352-x</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>The authors would like to acknowledge funding from <rs type="funder">EPSRC</rs> through grant <rs type="grantNumber">EP/M013294</rs>, <rs type="funder">DSTL</rs> through contract <rs type="grantNumber">DSTLX-1000095040</rs>, and the financial support of the <rs type="funder">Future and Emerging Technologies (</rs><rs type="programName">FET) programme</rs> within the <rs type="programName">7th Framework Programme for Research of</rs> <rs type="funder">the European Commission</rs>, under <rs type="programName">FET</rs> grant number: <rs type="grantNumber">FP7-ICT-601180</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_kwpKd5q">
+					<idno type="grant-number">EP/M013294</idno>
+				</org>
+				<org type="funding" xml:id="_nctd3dj">
+					<idno type="grant-number">DSTLX-1000095040</idno>
+				</org>
+				<org type="funding" xml:id="_z7gQ83E">
+					<orgName type="program" subtype="full">FET) programme</orgName>
+				</org>
+				<org type="funding" xml:id="_FZZs7hH">
+					<orgName type="program" subtype="full">7th Framework Programme for Research of</orgName>
+				</org>
+				<org type="funding" xml:id="_yBsGARw">
+					<idno type="grant-number">FP7-ICT-601180</idno>
+					<orgName type="program" subtype="full">FET</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Data availability statement.</s><s>Supporting data can be provided if requested.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests:</head><p><s>The authors declare that they have no competing interests.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p><s>M.H., K.B. and V.B. conceived the experiments and supervised the research.</s><s>J.V., G.V. and P.P. tested and characterised the vacuum and magnetic shielding pieces and analysed the results.</s><s>J.Z. and Y.G. fabricated the 3D-printed shield and characterised their structure, supervised by M.M.A., L.B. and D.W. performed the heat treatments and made the control shield.</s><s>J.V. wrote the paper with help from all the other co-authors.</s><s>All authors reviewed the manuscript.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional Information</head><p><s>Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Capability assessment and challenges for quantum technology gravity sensors for near surface terrestrial geophysical surveying</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boddice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Metje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tuckwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Geophysics</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="149" to="159" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boddice, D., Metje, N. &amp; Tuckwell, G. Capability assessment and challenges for quantum technology gravity sensors for near surface terrestrial geophysical surveying. Journal of Applied Geophysics 146, 149-159 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Quantum technology: the second quantum revolution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Dowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Milburn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences</title>
+		<imprint>
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="page" from="1655" to="1674" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dowling, J. P. &amp; Milburn, G. J. Quantum technology: the second quantum revolution. Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences 361, 1655-1674 (2003).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Fifteen years of cold matter on the atom chip: promise, realizations, and prospects</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of modern optics</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1840" to="1885" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keil, M. et al. Fifteen years of cold matter on the atom chip: promise, realizations, and prospects. Journal of modern optics 63, 1840-1885 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Quantum superposition at the half-metre scale</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kovachy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">528</biblScope>
+			<biblScope unit="page" from="530" to="533" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kovachy, T. et al. Quantum superposition at the half-metre scale. Nature 528, 530-533 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">An optical lattice clock with accuracy and stability at the 10-18 level</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Bloom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">506</biblScope>
+			<biblScope unit="page" from="71" to="75" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bloom, B. J. et al. An optical lattice clock with accuracy and stability at the 10-18 level. Nature 506, 71-75.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Magnetoencephalography with a chip-scale atomic magnetometer</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Sander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="981" to="990" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sander, T. H. et al. Magnetoencephalography with a chip-scale atomic magnetometer. Biomed. Opt. Express 3, 981-990 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A portable magneto-optical trap with prospects for atom interferometry in civil engineering</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil. Trans. R. Soc. A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page">20160238</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hinton, A. et al. A portable magneto-optical trap with prospects for atom interferometry in civil engineering. Phil. Trans. R. Soc. A 375, 20160238 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The investigation of a μ gal-level cold atom gravimeter for field applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metrologia</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">452</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, B. et al. The investigation of a μ gal-level cold atom gravimeter for field applications. Metrologia 51, 452 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">First gravity measurements using the mobile atom interferometer gain</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hauth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics B</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="49" to="55" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hauth, M. et al. First gravity measurements using the mobile atom interferometer gain. Applied Physics B 113, 49-55 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Dual-wavelength laser source for onboard atom interferometry</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ménoret</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optics Letters</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="4128" to="4130" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ménoret, V. et al. Dual-wavelength laser source for onboard atom interferometry. Optics Letters 36, 4128-4130 (2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Silica-on-silicon waveguide quantum circuits</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Politi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Cryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Rarity</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>O'brien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="646" to="649" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Politi, A., Cryan, M. J., Rarity, J. G., Yu, S. &amp; O&apos;brien, J. L. Silica-on-silicon waveguide quantum circuits. Science 320, 646-649 (2008).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Atom chip for BEC interferometry</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sewell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics B: Atomic, Molecular and Optical Physics</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">51003</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sewell, R. et al. Atom chip for BEC interferometry. Journal of Physics B: Atomic, Molecular and Optical Physics 43, 051003 (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Interferometry with bose-einstein condensates in microgravity</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Müntinga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">93602</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Müntinga, H. et al. Interferometry with bose-einstein condensates in microgravity. Phys. Rev. Lett. 110, 093602 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Two-dimensional grating magneto-optical trap</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Imhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">33636</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Imhof, E. et al. Two-dimensional grating magneto-optical trap. Phys. Rev. A 96, 033636 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<monogr>
+		<ptr target="https://www.economist.com/news/technology-quarterly/21662653-components-become-more-elegant-software-produces-most-efficient" />
+		<title level="m">Wonderful widgets</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>The Economist</note>
+	<note type="raw_reference">Wonderful widgets. The Economist https://www.economist.com/news/technology-quarterly/21662653-components-become-more- elegant-software-produces-most-efficient (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<monogr>
+		<ptr target="https://www.economist.com/news/science-and-technology/21722820-think-spiderweb-floors-denser-skyscrapers-and-ultra-thin-bridges-3d-printing-and" />
+		<title level="m">3D printing and clever computers could revolutionise construction</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>The Economist</note>
+	<note type="raw_reference">3D printing and clever computers could revolutionise construction. The Economist https://www.economist.com/news/science-and- technology/21722820-think-spiderweb-floors-denser-skyscrapers-and-ultra-thin-bridges-3d-printing-and (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Note: Fast compact laser shutter using a direct current motor and threedimensional printing</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Braverman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kawasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vuletić</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">126105</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, G. H., Braverman, B., Kawasaki, A. &amp; Vuletić, V. Note: Fast compact laser shutter using a direct current motor and three- dimensional printing. Review of Scientific Instruments 86, 126105 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Big area additive manufacturing of high performance bonded NdFeB magnets</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, L. et al. Big area additive manufacturing of high performance bonded NdFeB magnets. Scientific Reports 6 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">3d print of polymer bonded rare-earth magnets, and 3d magnetic field scanning with an end-user 3d printer</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">162401</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huber, C. et al. 3d print of polymer bonded rare-earth magnets, and 3d magnetic field scanning with an end-user 3d printer. Applied Physics Letters 109, 162401 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Design of magneto-optical traps for additive manufacture by 3D printing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1704.00430</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Zhou, Y. et al. Design of magneto-optical traps for additive manufacture by 3D printing. arXiv preprint arXiv:1704.00430 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">3D-printed components for quantum devices</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Saint</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1704.01813</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Saint, R. et al. 3D-printed components for quantum devices. arXiv preprint arXiv:1704.01813 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Advanced materials and design for electromagnetic interference shielding</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Tong</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>CRC press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tong, X. C. Advanced materials and design for electromagnetic interference shielding (CRC press, 2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A high-performance magnetic shield with large length-to-diameter ratio</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dickerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">65108</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dickerson, S. et al. A high-performance magnetic shield with large length-to-diameter ratio. Review of Scientific Instruments 83, 065108 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Collisional decoherence observed in matter wave interferometry</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hornberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">160401</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hornberger, K. et al. Collisional decoherence observed in matter wave interferometry. Phys. Rev. Lett. 90, 160401 (2003).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Producing metal parts with selective laser sintering/hot isostatic pressing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wohlert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Beaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bourell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM Journal of The Minerals, Metals and Materials Society</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="17" to="20" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Das, S., Wohlert, M., Beaman, J. J. &amp; Bourell, D. L. Producing metal parts with selective laser sintering/hot isostatic pressing. JOM Journal of The Minerals, Metals and Materials Society 50, 17-20 (1998).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Vacuum compatibility of 3D-printed materials</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Povilus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Wurden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Vendeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baquero-Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fajans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Vacuum Science &amp; Technology A: Vacuum, Surfaces, and Films</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">33001</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Povilus, A. P., Wurden, C. J., Vendeiro, Z., Baquero-Ruiz, M. &amp; Fajans, J. Vacuum compatibility of 3D-printed materials. Journal of Vacuum Science &amp; Technology A: Vacuum, Surfaces, and Films 32, 033001 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Additive manufacturing of nickel based superalloys for aerospace applications</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Parimi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Birmingham</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. thesis</note>
+	<note type="raw_reference">Parimi, L. L. Additive manufacturing of nickel based superalloys for aerospace applications. Ph.D. thesis, University of Birmingham (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Comparison of additive technologies for gradient aerospace part fabrication from nickel-based superalloys</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Shishkovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Nazarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Kotoban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Kakovkina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Superalloys</title>
+		<imprint>
+			<publisher>InTech</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shishkovsky, I. V., Nazarov, A. P., Kotoban, D. V. &amp; Kakovkina, N. G. Comparison of additive technologies for gradient aerospace part fabrication from nickel-based superalloys. In Superalloys (InTech, 2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Laser additive processing of Ni-Fe-V and Ni-Fe-Mo permalloys: Microstructure and magnetic properties</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mikler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Letters</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="9" to="11" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mikler, C. et al. Laser additive processing of Ni-Fe-V and Ni-Fe-Mo permalloys: Microstructure and magnetic properties. Materials Letters 192, 9-11 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Peculiarities of selective laser melting process for permalloy powder</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Shishkovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Saphronov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Letters</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="208" to="211" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shishkovsky, I. &amp; Saphronov, V. Peculiarities of selective laser melting process for permalloy powder. Materials Letters 171, 208-211 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The influence of the laser scan strategy on grain structure and cracking behaviour in slm powder-bed fabricated nickel superalloy</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">615</biblScope>
+			<biblScope unit="page" from="338" to="347" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carter, L. N., Martin, C., Withers, P. J. &amp; Attallah, M. M. The influence of the laser scan strategy on grain structure and cracking behaviour in slm powder-bed fabricated nickel superalloy. Journal of Alloys and Compounds 615, 338-347 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A new estimation of the axial shielding factors for multishell cylindrical shields</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Paperno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Koide</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sasada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="5959" to="5961" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paperno, E., Koide, H. &amp; Sasada, I. A new estimation of the axial shielding factors for multishell cylindrical shields. Journal of Applied Physics 87, 5959-5961 (2000).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Process optimisation of selective laser melting using energy density model for nickel based superalloys</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Carter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="657" to="661" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carter, L. N. et al. Process optimisation of selective laser melting using energy density model for nickel based superalloys. Materials Science and Technology 32, 657-661 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>O'handley</surname></persName>
+		</author>
+		<title level="m">Modern Magnetic Materials: Principles and Applications</title>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Handley, R. Modern Magnetic Materials: Principles and Applications (Wiley, 1999).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Weld Integrity and Performance: A Source Book Adapted from ASM International Handbooks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lampman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>International</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference Proceedings, and Technical Books</title>
+		<title level="s">ASM Handbook Series</title>
+		<imprint>
+			<publisher>ASM International</publisher>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lampman, S. &amp; International, A. Weld Integrity and Performance: A Source Book Adapted from ASM International Handbooks, Conference Proceedings, and Technical Books. ASM Handbook Series (ASM International, 1997).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Larker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Larker</surname></persName>
+		</author>
+		<title level="m">Hot Isostatic Pressing</title>
+		<imprint>
+			<publisher>Wiley-VCH Verlag GmbH &amp; Co. KGaA</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Larker, H. T. &amp; Larker, R. Hot Isostatic Pressing (Wiley-VCH Verlag GmbH &amp; Co. KGaA, 2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Vacuum compatibility of silver and titanium parts made using threedimensional printing</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Gans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Jobbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Kandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Vacuum Science &amp; Technology A: Vacuum, Surfaces, and Films</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">23201</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gans, A. R., Jobbins, M. M., Lee, D. Y. &amp; Alex Kandel, S. Vacuum compatibility of silver and titanium parts made using three- dimensional printing. Journal of Vacuum Science &amp; Technology A: Vacuum, Surfaces, and Films 32, 023201 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Study of the suitability of 3D printing for ultra-high vacuum applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jenzer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Conference Series</title>
+		<imprint>
+			<biblScope unit="volume">874</biblScope>
+			<biblScope unit="page">12097</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jenzer, S. et al. Study of the suitability of 3D printing for ultra-high vacuum applications. Journal of Physics: Conference Series 874, 012097 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">STE-QUEST-test of the universality of free fall using cold atom interferometry</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Aguilera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Classical and Quantum Gravity</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">115010</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aguilera, D. N. et al. STE-QUEST-test of the universality of free fall using cold atom interferometry. Classical and Quantum Gravity 31, 115010 (2014).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

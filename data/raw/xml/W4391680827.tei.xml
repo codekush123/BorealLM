@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of the Processing Parameters on the Microstructure and Mechanical Properties of 316L Stainless Steel Fabricated by Laser Powder Bed Fusion</title>
+				<funder>
+					<orgName type="full">Tecnologico de Monterrey</orgName>
+				</funder>
+				<funder ref="#_bdbFrdW">
+					<orgName type="full">SENESCYT</orgName>
+				</funder>
+				<funder ref="#_nrMNTU3">
+					<orgName type="full">ANID FONDECYT</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-02-09">9 February 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Germán</forename><forename type="middle">Omar</forename><surname>Barrionuevo</surname></persName>
+							<email>gobarrionuevo@espe.edu.ec</email>
+							<idno type="ORCID">0000-0002-4613-3234</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Departamento de Ciencias de la Energía y Mecánica , Universidad de las Fuerzas Armadas ESPE , Sangolquí 171103 , Ecuador</note>
+								<orgName type="department">Departamento de Ciencias de la Energía y Mecánica</orgName>
+								<orgName type="institution">Universidad de las Fuerzas Armadas ESPE</orgName>
+								<address>
+									<postCode>171103</postCode>
+									<settlement>Sangolquí</settlement>
+									<country key="EC">Ecuador</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Mechanical and Metallurgical Engineering , School of Engineering , Pontificia Universidad Católica de Chile , Av. Vicuña Mackenna 4860 , Santiago 8320165 , Chile</note>
+								<orgName type="department" key="dep1">Department of Mechanical and Metallurgical Engineering</orgName>
+								<orgName type="department" key="dep2">School of Engineering</orgName>
+								<orgName type="institution">Pontificia Universidad Católica de Chile</orgName>
+								<address>
+									<addrLine>Av. Vicuña Mackenna 4860</addrLine>
+									<postCode>8320165</postCode>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jorge</forename><forename type="middle">Andrés</forename><surname>Ramos-Grez</surname></persName>
+							<idno type="ORCID">0000-0002-9293-3275</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Mechanical and Metallurgical Engineering , School of Engineering , Pontificia Universidad Católica de Chile , Av. Vicuña Mackenna 4860 , Santiago 8320165 , Chile</note>
+								<orgName type="department" key="dep1">Department of Mechanical and Metallurgical Engineering</orgName>
+								<orgName type="department" key="dep2">School of Engineering</orgName>
+								<orgName type="institution">Pontificia Universidad Católica de Chile</orgName>
+								<address>
+									<addrLine>Av. Vicuña Mackenna 4860</addrLine>
+									<postCode>8320165</postCode>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xavier</forename><surname>Sánch-Sánchez</surname></persName>
+							<idno type="ORCID">0000-0001-6128-464X</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Departamento de Ciencias de la Energía y Mecánica , Universidad de las Fuerzas Armadas ESPE , Sangolquí 171103 , Ecuador</note>
+								<orgName type="department">Departamento de Ciencias de la Energía y Mecánica</orgName>
+								<orgName type="institution">Universidad de las Fuerzas Armadas ESPE</orgName>
+								<address>
+									<postCode>171103</postCode>
+									<settlement>Sangolquí</settlement>
+									<country key="EC">Ecuador</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Zapata-Hidalgo</surname></persName>
+							<idno type="ORCID">0000-0001-6128-464X</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Departamento de Ciencias de la Energía y Mecánica , Universidad de las Fuerzas Armadas ESPE , Sangolquí 171103 , Ecuador</note>
+								<orgName type="department">Departamento de Ciencias de la Energía y Mecánica</orgName>
+								<orgName type="institution">Universidad de las Fuerzas Armadas ESPE</orgName>
+								<address>
+									<postCode>171103</postCode>
+									<settlement>Sangolquí</settlement>
+									<country key="EC">Ecuador</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">José</forename><forename type="middle">Luis</forename><surname>Mullo</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Mechanical and Metallurgical Engineering , School of Engineering , Pontificia Universidad Católica de Chile , Av. Vicuña Mackenna 4860 , Santiago 8320165 , Chile</note>
+								<orgName type="department" key="dep1">Department of Mechanical and Metallurgical Engineering</orgName>
+								<orgName type="department" key="dep2">School of Engineering</orgName>
+								<orgName type="institution">Pontificia Universidad Católica de Chile</orgName>
+								<address>
+									<addrLine>Av. Vicuña Mackenna 4860</addrLine>
+									<postCode>8320165</postCode>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Grupo de Ingeniería Automotriz, Movilidad y Transporte (GiAUTO) , Carrera de Ingeniería Automotriz-Campus Sur , Universidad Politécnica Salesiana , Quito 170702 , Ecuador</note>
+								<orgName type="department" key="dep1">Grupo de Ingeniería Automotriz, Movilidad y Transporte (GiAUTO)</orgName>
+								<orgName type="department" key="dep2">Carrera de Ingeniería Automotriz-Campus Sur</orgName>
+								<orgName type="institution">Universidad Politécnica Salesiana</orgName>
+								<address>
+									<postCode>170702</postCode>
+									<settlement>Quito</settlement>
+									<country key="EC">Ecuador</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Santiago</forename><forename type="middle">D</forename><surname>Puma-Araujo</surname></persName>
+							<email>santiago.puma@tec.mx</email>
+							<idno type="ORCID">0000-0003-3130-5520</idno>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> School of Engineering and Sciences , Tecnologico de Monterrey , Monterrey 64849 , Mexico</note>
+								<orgName type="department">School of Engineering and Sciences</orgName>
+								<orgName type="institution">Tecnologico de Monterrey</orgName>
+								<address>
+									<postCode>64849</postCode>
+									<settlement>Monterrey</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of the Processing Parameters on the Microstructure and Mechanical Properties of 316L Stainless Steel Fabricated by Laser Powder Bed Fusion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-02-09">9 February 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">081F651577188488E2687E29C118931E</idno>
+					<idno type="DOI">10.3390/jmmp8010035</idno>
+					<note type="submission">Received: 29 November 2023 Revised: 16 January 2024 Accepted: 18 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T23:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>laser powder bed fusion</term>
+					<term>process optimization</term>
+					<term>material characterization</term>
+					<term>microstructural evolution</term>
+					<term>mechanical properties</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Complex thermo-kinetic interactions during metal additive manufacturing reduce the homogeneity of the microstructure of the produced samples.</s><s>Understanding the effect of processing parameters over the resulting mechanical properties is essential for adopting and popularizing this technology.</s><s>The present work is focused on the effect of laser power, scanning speed, and hatch spacing on the relative density, microhardness, and microstructure of 316L stainless steel processed by laser powder bed fusion.</s><s>Several characterization techniques were used to study the microstructure and mechanical properties: optical, electron microscopies, and spectrometry.</s><s>A full-factorial design of experiments was employed for relative density and microhardness evaluation.</s><s>The results derived from the experimental work were subjected to statistical analysis, including the use of analysis of variance (ANOVA) to determine both the main effects and the interaction between the processing parameters, as well as to observe the contribution of each factor on the mechanical properties.</s><s>The results show that the scanning speed is the most statistically significant parameter influencing densification and microhardness.</s><s>Ensuring the amount of volumetric energy density (125 J/mm 3 ) used to melt the powder bed is paramount; maximum densification (99.7%) is achieved with high laser power and low scanning speed, while hatch spacing is not statistically significant.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Metal additive manufacturing (AM), also known as 3D metal printing, is a cutting-edge manufacturing technology that has revolutionized the creation of intricate and complex metal components.</s><s>Unlike traditional subtractive manufacturing methods, which involve cutting and shaping metal from a solid block, metal AM builds objects layer by layer, offering unparalleled design freedom and efficiency <ref type="bibr" target="#b0">[1]</ref>.</s><s>In the realm of metal AM, powdered metal alloys are meticulously deposited layer upon layer, fused together using various techniques, such as laser or electron beam melting, to construct intricate parts and assemblies with remarkable precision <ref type="bibr" target="#b1">[2]</ref>.</s><s>This transformative technology has found applications across numerous industries, including aerospace, automotive, and healthcare <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>, pushing the boundaries of what is possible regarding material performance, geometric complexity, and customization.</s></p><p><s>Laser-based powder bed fusion (LPBF) is a metal AM technology that utilizes highpower lasers to selectively melt and fuse metal powder layers, building up a threedimensional object layer by layer, using data from CAD software.</s><s>Homogenizing the microstructure of additively manufactured samples stands out as a pivotal challenge in enhancing the technology's robustness and cost-effectiveness <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>.</s><s>LPBF leads to the development of anisotropic microstructures caused by a wide range of applied thermo-kinetics.</s><s>This includes intricate process influences like reheating within individual layers and due to adding new layers, elemental segregations, and creating residual stresses, often leading to an anisotropic response <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9]</ref>.</s></p><p><s>It is essential to optimize the processing parameters to achieve components with superior mechanical properties compared to those conventionally produced.</s><s>Defects emerge when the values of these processing parameters are inadequately chosen <ref type="bibr" target="#b9">[10]</ref>.</s><s>Typical flaws include porosities, incomplete fusion holes, delamination, and cracks <ref type="bibr" target="#b10">[11]</ref>.</s><s>Pores negatively affect the performance of additively manufactured components <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>.</s><s>According to Al-Maharma et al. <ref type="bibr" target="#b14">[15]</ref>, surface porosity affects corrosion resistance, subsurface porosity fatigue strength, spherical porosity stiffness, and irregular porosity mechanical strength.</s></p><p><s>The need to find a processing window to avoid phenomena like unmelted material and spatter from molten material indicates a limitation in controlling the LPBF process, which is a function of the laser energy density (Equation ( <ref type="formula" target="#formula_0">1</ref>)).</s></p><formula xml:id="formula_0">VED = P v × h × l , (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>where VED is the volumetric energy density (J mm -3 ), P is the laser power (W), v is the scanning speed (mm s -1 ), h is the hatch distance (mm), and l is the layer thickness (mm).</s><s>Several studies have been developed to evaluate the effect of the processing parameters on the microstructure of parts processed by LPBF <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>.</s><s>As stainless steel (SS) exhibits adequate processability, good mechanical properties, and excellent corrosion resistance, it is one of the most used materials in LPBF <ref type="bibr" target="#b13">[14]</ref>.</s><s>Nevertheless, due to the high thermal gradient and cooling rate, a much finer structure is achieved than the one obtained by casting or forging <ref type="bibr" target="#b19">[20]</ref>.</s><s>In this context, Laleh et al. <ref type="bibr" target="#b20">[21]</ref> reported an average grain size of around 6 µm for additively manufactured 316L SS samples, compared to over 15 µm for conventionally processed SS.</s><s>Lin et al. <ref type="bibr" target="#b21">[22]</ref> concluded that grain refinement improves the mechanical properties of the manufactured pieces.</s><s>Therefore, the parts manufactured by LPBF should have greater resistance and hardness <ref type="bibr" target="#b22">[23]</ref>.</s></p><p><s>One of the most prominent features of laser-processed materials is the cellular/columnar microstructure.</s><s>The formation of the cellular colonies results from constitutional supercooling, related to the diffusion of elements in liquid and solid phases.</s><s>Enrichment of cell walls with Cr and Mo segregation has been observed in austenitic stainless steel <ref type="bibr" target="#b23">[24]</ref>.</s><s>Rotating successively deposited layers improves cell connections between molten pools <ref type="bibr" target="#b24">[25]</ref>.</s><s>In addition, the average cell size varies from the scanning strategy.</s><s>According to Salman et al. <ref type="bibr" target="#b25">[26]</ref>, the stripe strategy leads to a lower average cell size linked to a smaller grain size.</s></p><p><s>The solidification process has a direct influence on microstructure formation.</s><s>Grain growth, morphology, and orientation depend highly on the temperature gradient (G) and solidification rate (R) <ref type="bibr" target="#b26">[27]</ref>.</s><s>The solidification speed ratio (G/R) in laser-based material processing is high enough to facilitate planar and cellular growth <ref type="bibr" target="#b27">[28]</ref>.</s><s>Furthermore, as the magnitude of G×R increases, a refinement of the resulting grain is obtained.</s></p><p><s>The mechanical properties are intricately linked to the microstructure, particularly in laser powder bed fusion (LPBF).</s><s>The rapid heating and cooling cycles induced by laser-material interactions in LPBF give rise to challenging-to-control mechanisms.</s><s>These include the dimensions of the molten pool, Marangoni convection, unfused material, oxidation of the base material, and various other factors <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b28">29]</ref>.</s><s>This behavior is repeated layer by layer, resulting in anisotropy.</s></p><p><s>On the other hand, one of the main requirements for using parts manufactured by LPBF is to obtain the highest relative density.</s><s>Table <ref type="table" target="#tab_0">1</ref> summarizes the relative density response of 316L SS fabricated by LPBF, highlighting the processing parameters, energy density, and machines/models.</s><s>It is worth noting that previous work shows that both power and scanning speed are key factors in obtaining higher relative density <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref>.</s><s>In addition to the manufacturing parameters and scanning strategy, the base material properties are of great importance.</s><s>The morphology of the powder is a crucial factor for its processability, where a spherical shape is preferred as it improves its fluidity and adhesion between layers.</s><s>Yap et al. <ref type="bibr" target="#b2">[3]</ref> found that an important parameter to consider is the laser absorption of the base material since it can be completely different from bulk materials compared to powder materials.</s><s>In the case of aluminum and copper, due to their high reflectivity and thermal conductivity, irregularities are generated in the molten zone, generating residual stresses that cause the material to contract and, in combination with existing porosities, cause cracking and delamination <ref type="bibr" target="#b26">[27]</ref>.</s><s>Given that 316L SS powder has adequate properties for its processability and excellent resistance to oxidation and corrosion, it is one of the most used materials in AM.</s></p><p><s>With the motivation to determine the effect of laser power, scanning speed, and hatch spacing over the relative density, microhardness, and microstructure, a full factorial study was designed and statistically analyzed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head><p><s>Austenite stainless steel metallic powders grade AISI 316L was provided by General Electric Additive, with a powder size distribution from 20 to 50 µm, an average of 31 µm; the nominal composition is detailed in Table <ref type="table" target="#tab_1">2</ref>. Prismatic samples measuring 15.8 × 10.2 × 6.35 mm³ (Figure <ref type="figure" target="#fig_0">1</ref>) were fabricated using a Concept Laser equipment model MLAB 200R through laser powder bed fusion (LPBF).</s><s>The equipment has a 200 W (Nb: YAG) fiber laser featuring a focused beam diameter of approximately 80 µm and a wavelength of 1070 nm.</s><s>The working chamber was sealed during operation and supplied high-purity nitrogen, reducing the oxygen content to less than 800 ppm.</s><s>The powders were deposited on a 16 mm thick 316L stainless-steel support plate of 100 mm × 100 mm in area.</s><s>The processing parameters are reported in Table <ref type="table">3</ref>.</s><s>A meander scan pattern was employed, with the scan direction rotated by 67 • in each successive layer.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fe</head><p><s>Cr Ni Mo Mn Si C P S Bal.</s></p><p><s>16.5-18 10-13 2-2.5 0-2 0-1 0-0.03 0-0.04 0-0.03</s></p><p><s>Prismatic samples measuring 15.8 × 10.2 × 6.35 mm³ (Figure <ref type="figure" target="#fig_0">1</ref>) were fabricated using a Concept Laser equipment model MLAB 200R through laser powder bed fusion (LPBF).</s><s>The equipment has a 200 W (Nb: YAG) fiber laser featuring a focused beam diameter of approximately 80 µm and a wavelength of 1070 nm.</s><s>The working chamber was sealed during operation and supplied high-purity nitrogen, reducing the oxygen content to less than 800 ppm.</s><s>The powders were deposited on a 16 mm thick 316L stainless-steel support plate of 100 mm × 100 mm in area.</s><s>The processing parameters are reported in Table <ref type="table">3</ref>.</s><s>A meander scan pattern was employed, with the scan direction rotated by 67° in each successive layer.</s><s>A full factorial study of three factors at three levels was designed (Table <ref type="table">3</ref>); the design of experiment (DOE) levels was obtained based on previous work <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b9">10]</ref> to maximize relative density.</s><s>A constant layer thickness of 30 µm was employed since it coincides with the average size distribution of the powder.</s><s>Two replicates of each experimental run were carried out to ensure the reliability of the results.</s></p><p><s>The results derived from the experimental work were assessed using <ref type="bibr">Minitab 19</ref> ® .</s><s>An analysis of variance (ANOVA) was performed to identify the primary effects, analyze their interaction graphs, and assess the contribution of each factor.</s><s>Table 3. Factors and levels of the design of experiments.</s><s>Factors Levels -1 0 1 Laser power (W) 120 140 160 Scanning speed (mm/s) 700 900 1100 Hatch spacing (µm) 40 60 80</s></p><p><s>A full factorial study of three factors at three levels was designed (Table <ref type="table">3</ref>); the design of experiment (DOE) levels was obtained based on previous work <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b9">10]</ref> to maximize relative density.</s><s>A constant layer thickness of 30 µm was employed since it coincides with the average size distribution of the powder.</s><s>Two replicates of each experimental run were carried out to ensure the reliability of the results.</s></p><p><s>The results derived from the experimental work were assessed using <ref type="bibr">Minitab 19</ref> ® .</s><s>An analysis of variance (ANOVA) was performed to identify the primary effects, analyze their interaction graphs, and assess the contribution of each factor.</s></p><p><s>The surface roughness (Ra) of the printed samples was measured on each face using a roughness tester (SRT-6200, Merit-mi) with a resolution of 0.001 µm.</s></p><p><s>The chemical composition of the printed samples was determined by glow discharge emission spectrometry (GDOES) bulk analysis (GDA 750 HR, Spectruma Analytik GmbH, Hof, Germany).</s><s>The average of three spots on three samples was recorded.</s></p><p><s>The relative density (RD) of each sample was determined using Archimedes' principle on distilled water by Equation (2):</s></p><formula xml:id="formula_2">RD (%) = m a × ρ w m a -m w 100 ρ SS<label>(2)</label></formula><p><s>where m a is the mass of the sample in the air, ρ w is the density of the distilled water, m w is the mass of the distilled water, and ρ SS is the theoretical density of 316L SS.</s></p><p><s>For the metallographic analysis, the samples were first ground using SiC paper for metallographic inspection, starting from 120 down to 2000 grit, and then finely polished using diamond paste.</s><s>The microstructure was revealed by chemical etching immersion in Aqua regia solution (20 mL HNO 3 and 60 mL HCl) for 50 s.</s><s>Surface morphology was inspected by optical microscopy (OM) (MEIJI IM 7200).</s><s>For the analysis by scanning electron microscopy (SEM), (TESCAN-MIRA 3) equipped with energy-dispersive spectroscopy (EDS) was used.</s><s>The OM and SEM micrographs were processed and analyzed using Fiji software (National Institutes of Health, MD, USA) to study microstructural features and evaluate porosity through the threshold tool <ref type="bibr" target="#b39">[40]</ref>.</s></p><p><s>Microhardness was evaluated using a Vickers automated hardness tester (TUKON 2500), using 500 g force and 10 s dwell time, applying the ASTM E384 standard.</s><s>Mean values were recorded through five measurements.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Surface Roughness</head><p><s>Figure <ref type="figure" target="#fig_4">2a</ref> shows the printed samples, where the first characteristic that stands out is the poor surface quality.</s><s>Figure <ref type="figure" target="#fig_4">2b</ref>,c show a magnification of 5 and 60×, respectively, to appreciate the balling formation on the surface of the additively manufactured specimens.</s><s>The as-built roughness (Ra) at the surfaces was around 10 ± 2 µm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Relative Density Assessment</head><p><s>The sample with the highest densification (98.3%) was produced with the following parameters: laser power of 160 W, scanning speed of 700 mm/s, and a hatch spacing of 40 µm.</s><s>The specimens manufactured at a lower scanning speed have a higher relative density (RD).</s><s>The average RD at 700 m/s is 96.29 ± 1.02%, the RD at 900 mm/s is 94.62 ± 1.24%, and the RD at the highest speed was 93.64 ± 1.55%.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Relative Density Assessment</head><p><s>The sample with the highest densification (98.3%) was produced with the following parameters: laser power of 160 W, scanning speed of 700 mm/s, and a hatch spacing of 40 µm.</s><s>The specimens manufactured at a lower scanning speed have a higher relative density (RD).</s><s>The average RD at 700 m/s is 96.29 ± 1.02%, the RD at 900 mm/s is 94.62 ± 1.24%, and the RD at the highest speed was 93.64 ± 1.55%.</s></p><p><s>Figure <ref type="figure" target="#fig_5">3</ref> shows a representative image of the porosity level, illustrating the scanning speed effect on the processed samples.</s><s>At the same laser power (160 W) and hatch spacing (40 µm) but at different scanning speeds, at a scanning speed of 1100 mm/s, there were irregular porosities due to insufficient VED to melt the metal powders, which can compromise the mechanical properties and integrity of the parts (Figure <ref type="figure" target="#fig_6">3a</ref>). Figure <ref type="figure" target="#fig_6">3b</ref> shows round porosities associated with gas entrapped inside the metal powder, which can also affect the structural performance of the samples <ref type="bibr" target="#b40">[41]</ref>.</s><s>Finally, Figure <ref type="figure" target="#fig_6">3c</ref> shows a more homogenous surface topography (700 mm/s).</s><s>The cross-section porosity measured by image analysis shows a relative density of 96.68%, 97.41%, and 99.70%, respectively.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Relative Density Assessment</head><p><s>The sample with the highest densification (98.3%) was produced with the following parameters: laser power of 160 W, scanning speed of 700 mm/s, and a hatch spacing of 40 µm.</s><s>The specimens manufactured at a lower scanning speed have a higher relative density (RD).</s><s>The average RD at 700 m/s is 96.29 ± 1.02%, the RD at 900 mm/s is 94.62 ± 1.24%, and the RD at the highest speed was 93.64 ± 1.55%.</s></p><p><s>Figure <ref type="figure" target="#fig_5">3</ref> shows a representative image of the porosity level, illustrating the scanning speed effect on the processed samples.</s><s>At the same laser power (160 W) and hatch spacing (40 µm) but at different scanning speeds, at a scanning speed of 1100 mm/s, there were irregular porosities due to insufficient VED to melt the metal powders, which can compromise the mechanical properties and integrity of the parts (Figure <ref type="figure" target="#fig_6">3a</ref>). Figure <ref type="figure" target="#fig_6">3b</ref> shows round porosities associated with gas entrapped inside the metal powder, which can also affect the structural performance of the samples <ref type="bibr" target="#b40">[41]</ref>.</s><s>Finally, Figure <ref type="figure" target="#fig_6">3c</ref> shows a more homogenous surface topography (700 mm/s).</s><s>The cross-section porosity measured by image analysis shows a relative density of 96.68%, 97.41%, and 99.70%, respectively.</s><s>Figure <ref type="figure" target="#fig_7">4</ref> shows that a higher relative density is obtained as the volumetric energy density increases.</s><s>It is worth noting that despite having VED with close values, the relative Figure <ref type="figure" target="#fig_7">4</ref> shows that a higher relative density is obtained as the volumetric energy density increases.</s><s>It is worth noting that despite having VED with close values, the relative density results vary.</s><s>This is because some processing parameters have a greater influence on the relative density, as detailed in Table <ref type="table" target="#tab_2">4</ref>.</s><s>It should be noted that these results are specific to the manufacturing equipment used.</s><s>Therefore, higher VED can be obtained with the same scanning speed and hatch spacing parameters in higher-power laser equipment.</s><s>In addition, the geometry and the scanning strategy also influence the densification of the specimens.</s></p><p><s>Table <ref type="table" target="#tab_2">4</ref> shows the results of the analysis of variance (ANOVA), where the scanning speed appears as the only statistically significant factor (p-value &lt; 0.005).</s><s>These results validate the observations presented in Figure <ref type="figure" target="#fig_5">3</ref>. density results vary.</s><s>This is because some processing parameters have a greater influence on the relative density, as detailed in Table <ref type="table" target="#tab_2">4</ref>.</s><s>It should be noted that these results are specific to the manufacturing equipment used.</s><s>Therefore, higher VED can be obtained with the same scanning speed and hatch spacing parameters in higher-power laser equipment.</s><s>In addition, the geometry and the scanning strategy also influence the densification of the specimens.</s><s>Table <ref type="table" target="#tab_2">4</ref> shows the results of the analysis of variance (ANOVA), where the scanning speed appears as the only statistically significant factor (p-Value &lt; 0.005).</s><s>These results validate the observations presented in Figure <ref type="figure" target="#fig_5">3</ref>. Figure <ref type="figure" target="#fig_10">5</ref> illustrates the effect of each factor on the relative density and the interaction between processing parameters.</s><s>Figure <ref type="figure" target="#fig_12">5a</ref> shows that the slope of speed is steeper with respect to power and hatch.</s><s>Therefore, its effect on the relative density is greater.</s><s>With regard to the effect of hatching, it is observed that the slope does not change and maintains the trend, i.e., the lower the hatch, the higher the density.</s><s>As for the power, when it increases from 140 to 160 W, there is an increase in slope, becoming a main effect.</s><s>Figure <ref type="figure" target="#fig_12">5b</ref> presents the interaction between factors.</s><s>The only visible interaction is between power and speed.</s><s>However, the trend is clear: the higher the power and the lower the speed, the higher the relative density.</s><s>Figure <ref type="figure" target="#fig_10">5</ref> illustrates the effect of each factor on the relative density and the interaction between processing parameters.</s><s>Figure <ref type="figure" target="#fig_12">5a</ref> shows that the slope of speed is steeper with respect to power and hatch.</s><s>Therefore, its effect on the relative density is greater.</s><s>With regard to the effect of hatching, it is observed that the slope does not change and maintains the trend, i.e., the lower the hatch, the higher the density.</s><s>As for the power, when it increases from 140 to 160 W, there is an increase in slope, becoming a main effect.</s><s>Figure <ref type="figure" target="#fig_12">5b</ref> presents the interaction between factors.</s><s>The only visible interaction is between power and speed.</s><s>However, the trend is clear: the higher the power and the lower the speed, the higher the relative density.</s><s>(a) (b) Figure <ref type="figure" target="#fig_14">6</ref> shows the contour plots of the interaction between scanning speed with power and hatch spacing.</s><s>In Figure <ref type="figure" target="#fig_16">6a</ref>, the highest relative density was obtained wi lowest speed and the highest power.</s><s>In Figure <ref type="figure" target="#fig_16">6b</ref>, the highest relative density wa tained with the lowest speed and hatch spacing.</s><s>Figure <ref type="figure" target="#fig_14">6</ref> shows the contour plots of the interaction between scanning speed with laser power and hatch spacing.</s><s>In Figure <ref type="figure" target="#fig_16">6a</ref>, the highest relative density was obtained with the lowest speed and the highest power.</s><s>In Figure <ref type="figure" target="#fig_16">6b</ref>, the highest relative density was obtained with the lowest speed and hatch spacing.</s><s>(a) (b)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Microstructure Evaluation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 5 shows the chemical composition results by GDOES and EDS technique</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Microstructure Evaluation</head><p><s>Table <ref type="table" target="#tab_4">5</ref> shows the chemical composition results by GDOES and EDS techniques.</s><s>OM micrograph is presented in Figure <ref type="figure" target="#fig_17">7</ref>, where the stacking of molten pools and elongated grains of the sample with the highest relative density is observed.</s><s>It can be distinguished that the grains grow parallel to the building direction, and in some cases, these columnar grains grow for distances of more than 300 µm, which is consistent with similar reports by several authors <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref>; this is observed more clearly in the SEM images (Figure <ref type="figure" target="#fig_19">8</ref>).</s></p><p><s>Figure <ref type="figure" target="#fig_20">8a</ref> shows a representative SEM micrograph of the molten pool.</s><s>Within each molten pool (Figure <ref type="figure" target="#fig_20">8b</ref>), it is possible to observe the formation of both cellular and columnar sub-grains.</s><s>The green arrows indicate the direction of growth of the columnar grains.</s><s>Epitaxial growth is favored by the direction of the thermal gradient, which leads to the formation of large columnar grains, as shown in Figure <ref type="figure" target="#fig_17">7</ref>.</s></p><p><s>OM micrograph is presented in Figure <ref type="figure" target="#fig_17">7</ref>, where the stacking of molten pools and elongated grains of the sample with the highest relative density is observed.</s><s>It can be distinguished that the grains grow parallel to the building direction, and in some cases, these columnar grains grow for distances of more than 300 µm, which is consistent with similar reports by several authors <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref>; this is observed more clearly in the SEM images (Figure <ref type="figure" target="#fig_19">8</ref>). Figure <ref type="figure" target="#fig_20">8a</ref> shows a representative SEM micrograph of the molten pool.</s><s>Within each molten pool (Figure <ref type="figure" target="#fig_20">8b</ref>), it is possible to observe the formation of both cellular and columnar sub-grains.</s><s>The green arrows indicate the direction of growth of the columnar grains.</s><s>Epitaxial growth is favored by the direction of the thermal gradient, which leads to the formation of large columnar grains, as shown in Figure <ref type="figure" target="#fig_17">7</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Microhardness</head><p><s>The microstructure of a material is directly connected to its mechanical properties.</s><s>In the context of additively manufactured samples, the yield strength, microhardness, and wear resistance are significantly influenced by the characteristics of the grains and subgrains, as recently reported in <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b46">47]</ref>.</s><s>Figure <ref type="figure" target="#fig_21">9</ref> shows a representative indentation response of the austenitic stainless steel beneath a molten pool.</s></p><p><s>The average microhardness obtained was around 237 ± 9 HV0.5.</s><s>These results agree with those reported in <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b47">48]</ref>.</s><s>Moreover, microhardness shows a linear relationship with relative density, i.e., the higher the density, the higher the microhardness (Figure <ref type="figure" target="#fig_23">10</ref>) <ref type="bibr" target="#b48">[49]</ref>.</s><s>It is worth noting that, despite having relative densities with close values, the microhardness results vary.</s><s>This is because some processing parameters have a greater influence on the microhardness, as detailed in Table <ref type="table" target="#tab_5">6</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Microhardness</head><p><s>The microstructure of a material is directly connected to its mechanical properties.</s><s>In the context of additively manufactured samples, the yield strength, microhardness, and wear resistance are significantly influenced by the characteristics of the grains and sub-grains, as recently reported in <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b46">47]</ref>.</s><s>Figure <ref type="figure" target="#fig_21">9</ref> shows a representative indentation response of the austenitic stainless steel beneath a molten pool.</s></p><p><s>The average microhardness obtained was around 237 ± 9 HV0.5.</s><s>These results agree with those reported in <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b47">48]</ref>.</s><s>Moreover, microhardness shows a linear relationship with relative density, i.e., the higher the density, the higher the microhardness (Figure <ref type="figure" target="#fig_23">10</ref>) <ref type="bibr" target="#b48">[49]</ref>.</s><s>It is worth noting that, despite having relative densities with close values, the microhardness results vary.</s><s>This is because some processing parameters have a greater influence on the microhardness, as detailed in Table <ref type="table" target="#tab_5">6</ref>.</s><s>The average microhardness obtained was around 237 ± 9 HV 0.5 .</s><s>These results agree with those reported in <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b47">48]</ref>.</s><s>Moreover, microhardness shows a linear relationship with relative density, i.e., the higher the density, the higher the microhardness (Figure <ref type="figure" target="#fig_23">10</ref>) <ref type="bibr" target="#b48">[49]</ref>.</s><s>It is worth noting that, despite having relative densities with close values, the microhardness results vary.</s><s>This is because some processing parameters have a greater influence on the microhardness, as detailed in Table <ref type="table" target="#tab_5">6</ref>.</s><s>Table <ref type="table" target="#tab_5">6</ref> shows the ANOVA results, where each factor's significance is determined using the p-value; a p-value of less than 0.05 indicates that the factors are statistically significant.</s><s>Therefore, and under the experimental design employed, the scanning speed is the only statistically significant factor (p-Value ≤ 0.005).</s><s>Figure <ref type="figure" target="#fig_25">11</ref> shows the effect of each factor on the microhardness and the interaction between factors.</s><s>Again, speed appears as the factor with the steepest slope and, therefore, the greatest contribution of its effect on microhardness (Figure <ref type="figure" target="#fig_26">11a</ref>).</s><s>Figure <ref type="figure" target="#fig_26">11b</ref> presents the interaction between factors.</s><s>The only visible interaction is between power and speed: the higher the power and the lower the speed, the higher the microhardness.</s><s>Table <ref type="table" target="#tab_5">6</ref> shows the ANOVA results, where each factor's significance is determined using the p-value; a p-value of less than 0.05 indicates that the factors are statistically significant.</s><s>Therefore, and under the experimental design employed, the scanning speed is the only statistically significant factor (p-value ≤ 0.005).</s><s>Figure <ref type="figure" target="#fig_25">11</ref> shows the effect of each factor on the microhardness and the interaction between factors.</s><s>Again, speed appears as the factor with the steepest slope and, therefore, the greatest contribution of its effect on microhardness (Figure <ref type="figure" target="#fig_26">11a</ref>).</s><s>Figure <ref type="figure" target="#fig_26">11b</ref> presents the interaction between factors.</s><s>The only visible interaction is between power and speed: the higher the power and the lower the speed, the higher the microhardness.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p><s>The results have shown that the densification of the 316L stainless steel manufactured by LPBF is governed by the speed (v) of the laser beam.</s><s>If the v used is more than 700 mm/s, the heat source (laser) cannot completely melt the metal powders, causing a lack of fusion.</s><s>It was shown that the different types of porosity are linked to the processing</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p><s>The results have shown that the densification of the 316L stainless steel manufactured by LPBF is governed by the speed (v) of the laser beam.</s><s>If the v used is more than 700 mm/s, the heat source (laser) cannot completely melt the metal powders, causing a lack of fusion.</s><s>It was shown that the different types of porosity are linked to the processing parameters.</s><s>When insufficient VED is supplied (&lt;100 J/mm 3 ), irregular porosities are generated, even with unmelted powder particles.</s><s>It was also observed that entrapped gas porosity was associated with the porosity of the feedstock <ref type="bibr" target="#b13">[14]</ref>.</s><s>In most cases, spherical porosity was observed (Figure <ref type="figure" target="#fig_5">3</ref>) with an average diameter of less than 9 ± 2 µm.</s></p><p><s>There are two ways to ensure the proper fusion of the powder bed: (1) reducing the speed and (2) increasing the laser power.</s><s>For instance, a VED higher than 125 J/mm 3 is recommended.</s><s>However, to make this technology cost-effective, reducing the scanning speed implies a longer manufacturing time, reducing its competitiveness.</s><s>For this reason, using a higher-power heat source is recommended; in this work, 160 W was chosen as the maximum power; however, a power of up to 200 W could be used according to the manufacturer's limitations.</s><s>In order to corroborate this statement, additional experiments were carried out.</s><s>When a power of 180 W was used, the relative density increased to 99.41 ± 0.23%.</s><s>However, at higher powers (&gt;180 W), the relative density started to decrease again to &lt;98% due to overheating of the molten pool.</s></p><p><s>In addition to laser power and scanning speed, the effect of the hatch spacing was also evaluated.</s><s>According to the statistical analysis, it was found that the smaller the hatch, the higher the densification.</s><s>Nevertheless, this parameter has a similar effect to speed, where reducing the hatch implies a longer printing time, that is, the competitiveness of this technology is reduced.</s><s>In the contour plots (Figure <ref type="figure" target="#fig_14">6</ref>), it can be observed that the difference between using a hatch of 40 and 60 µm is minimal, so it is suggested to use a hatch spacing of 60 µm.</s></p><p><s>Processing parameters influence molten pool dimensions.</s><s>By examining Figure <ref type="figure" target="#fig_27">12</ref>, it is possible to infer that when the hatch spacing is excessively large, and the supplied volumetric energy density (VED) is insufficient, the molten pool width fails to surpass the hatch.</s><s>Consequently, a lack of fusion occurs due to insufficient VED, as indicated near the red molten pools.</s><s>Conversely, when there is an excess of VED, the occurrence of balling is observed as the molten pool becomes excessively large or deep <ref type="bibr" target="#b26">[27]</ref>, as denoted by the yellow molten pools.</s><s>It is essential for the molten pool depth to be adequate to penetrate the layer thickness and melt a percentage of the previous layers (illustrated by the orange molten pool), while the molten pool depth serves as a determinant of melting efficiency.</s><s>Typically, the width exceeds the diameter of the laser beam.</s><s>In the case of a layer thickness of around 30 µm, the depth is recommended to fall within the range of 50 to 80 µm to ensure proper anchoring to the layer below.</s><s>Additionally, the width should not be less than the laser focus, for instance, 100 µm.</s><s>parameters.</s><s>When insufficient VED is supplied (&lt;100 J/mm 3 ), irregular porosities are generated, even with unmelted powder particles.</s><s>It was also observed that entrapped gas porosity was associated with the porosity of the feedstock <ref type="bibr" target="#b13">[14]</ref>.</s><s>In most cases, spherical porosity was observed (Figure <ref type="figure" target="#fig_5">3</ref>) with an average diameter of less than 9 ± 2 µm.</s></p><p><s>There are two ways to ensure the proper fusion of the powder bed: (1) reducing the speed and (2) increasing the laser power.</s><s>For instance, a VED higher than 125 J/mm 3 is recommended.</s><s>However, to make this technology cost-effective, reducing the scanning speed implies a longer manufacturing time, reducing its competitiveness.</s><s>For this reason, using a higher-power heat source is recommended; in this work, 160 W was chosen as the maximum power; however, a power of up to 200 W could be used according to the manufacturer's limitations.</s><s>In order to corroborate this statement, additional experiments were carried out.</s><s>When a power of 180 W was used, the relative density increased to 99.41 ± 0.23%.</s><s>However, at higher powers (&gt;180 W), the relative density started to decrease again to &lt;98% due to overheating of the molten pool.</s></p><p><s>In addition to laser power and scanning speed, the effect of the hatch spacing was also evaluated.</s><s>According to the statistical analysis, it was found that the smaller the hatch, the higher the densification.</s><s>Nevertheless, this parameter has a similar effect to speed, where reducing the hatch implies a longer printing time, that is, the competitiveness of this technology is reduced.</s><s>In the contour plots (Figure <ref type="figure" target="#fig_14">6</ref>), it can be observed that the difference between using a hatch of 40 and 60 µm is minimal, so it is suggested to use a hatch spacing of 60 µm.</s></p><p><s>Processing parameters influence molten pool dimensions.</s><s>By examining Figure <ref type="figure" target="#fig_27">12</ref>, it is possible to infer that when the hatch spacing is excessively large, and the supplied volumetric energy density (VED) is insufficient, the molten pool width fails to surpass the hatch.</s><s>Consequently, a lack of fusion occurs due to insufficient VED, as indicated near the red molten pools.</s><s>Conversely, when there is an excess of VED, the occurrence of balling is observed as the molten pool becomes excessively large or deep <ref type="bibr" target="#b26">[27]</ref>, as denoted by the yellow molten pools.</s><s>It is essential for the molten pool depth to be adequate to penetrate the layer thickness and melt a percentage of the previous layers (illustrated by the orange molten pool), while the molten pool depth serves as a determinant of melting efficiency.</s><s>Typically, the width exceeds the diameter of the laser beam.</s><s>In the case of a layer thickness of around 30 µm, the depth is recommended to fall within the range of 50 to 80 µm to ensure proper anchoring to the layer below.</s><s>Additionally, the width should not be less than the laser focus, for instance, 100 µm.</s><s>It is worth noting that the scanning strategy plays a fundamental role in the densification of parts manufactured by LPBF.</s><s>The thermal gradient and the solidification rate can be altered depending on this.</s><s>If a constant strategy is used (without rotations), an ordered stacking of molten pools would be obtained and a completely anisotropic It is worth noting that the scanning strategy plays a fundamental role in the densification of parts manufactured by LPBF.</s><s>The thermal gradient and the solidification rate can be altered depending on this.</s><s>If a constant strategy is used (without rotations), an ordered stacking of molten pools would be obtained and a completely anisotropic material would be designed, as observed in the results obtained by Yang et al. <ref type="bibr" target="#b49">[50]</ref>.</s><s>The studies of Bahshwan et al. <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b51">52]</ref> highlighted that the sudden changes in laser energy density occur at the end of the laser path, causing more porosity at the beginning and end of scan lines.</s><s>In addition, Salman et al. <ref type="bibr" target="#b25">[26]</ref> conclude that the highest densification is obtained with a unidirectional pattern as long as the contour is previously scanned since the contour acts as a limit for heat transfer.</s><s>It is important to consider that heat transfer varies depending on the part's geometry to be manufactured.</s><s>Hence, a more detailed study of its effect is necessary.</s></p><p><s>The molten pool shows the solidification behavior in the plane parallel to the building direction (Figure <ref type="figure" target="#fig_20">8a</ref>), but it should also be considered that the solidification occurs in the three dimensions.</s><s>Temperature gradients (G) and solidification rates (R) are pivotal parameters in solidification.</s><s>It is worth noting that both the G and the R are linked to the processing parameters, especially the laser power, scanning speed, and scanning strategy <ref type="bibr" target="#b7">[8]</ref>.</s><s>In laser powder bed fusion, the generation of high thermal gradients (10 6 K/m) and ultra-fast cooling rates (10 6 K/s) <ref type="bibr" target="#b5">[6]</ref> manifests as cellular/dendritic microstructures, exemplified in Figure <ref type="figure" target="#fig_20">8b</ref>.</s><s>The cellular microstructure favors the accumulation of dislocations in the subgrains, which increases the strength and hardness of the materials processed by LPBF <ref type="bibr" target="#b45">[46]</ref>.</s></p><p><s>Due to the high crystallization rate, a boundary layer enriched with solute develops ahead of the solid-liquid interface, approaching conditions conducive to constitutional supercooling.</s><s>In LPBF, the solid-liquid interface within the melt pool exhibits a complex shape since the temperature gradient continuously changes along with the interface.</s><s>The maximum temperature gradient is observed at the bottom of the melt pool, gradually diminishing along the interface towards the ends and sides of the molten pool.</s><s>Conversely, the solidification rate is minimal at the bottom but reaches its peak at the ends and sides of the molten pool <ref type="bibr" target="#b52">[53]</ref>.</s><s>When the temperature gradient is steep, the material undergoes crystallization in a cellular fashion.</s><s>Conversely, if G is gently sloping, it leads to the direct solidification of dendrites with well-developed arms.</s></p><p><s>Figure <ref type="figure" target="#fig_29">13</ref> shows the crystallization process of 316L stainless steel processed by LPBF.</s><s>Initially, the nuclei appear stochastically (green color), then they serve as a substrate for other nuclei to grow around them (blue color).</s><s>As the temperature decreases, grains with different orientations start to crystallize.</s><s>Epitaxial nucleation has been reported for austenitic steels, aluminum, and nickel alloy processing <ref type="bibr" target="#b53">[54]</ref>.</s><s>Epitaxial growth involves the initiation of new grains on a polycrystalline substrate, inheriting their crystallographic orientation from parental grains, as illustrated in Figures <ref type="figure" target="#fig_18">7</ref> and <ref type="figure" target="#fig_19">8</ref>.</s><s>These grains develop with a favored crystallographic orientation and align with the heat flow direction due to a high solidification rate <ref type="bibr" target="#b54">[55]</ref>.</s><s>In LPBF, there is a dynamic interplay between the alignment of various crystallographic directions with the build direction and the competition between thermal gradient-driven and epitaxial growth <ref type="bibr" target="#b55">[56]</ref>.</s></p><p><s>During the solidification process, various types of defects are also produced, such as pores that act as stress concentrators affecting the mechanical response, as shown in Figure <ref type="figure" target="#fig_23">10</ref>.</s><s>When there is a near full dense material, a maximum microhardness (248 HV) is reached, while when there is high porosity, the microhardness drops to 222 HV.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>This work evaluates relative density, microhardness, and microstructure evolution in the LPBF process.</s><s>The main results can be summarized as follows:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head></head><p><s>It has been found that there is a direct relationship between scanning speed and the porosity level.</s><s>Enough volumetric energy (125 J/mm 3 ) density must be provided to avoid fusion errors and balling phenomena to obtain pieces with maximum relative density.</s><s>Within the levels evaluated in the design of experiments, it was found that scanning speed is the most statistically significant factor that affects the relative density and microhardness of the 316L SS processed by LPBF.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head></head><p><s>The maximum densification reached was 99.41%, obtained with Archimedes' principle, equivalent to 99.9% by image correlation, utilizing 180 W of laser power, 700 mm/s of scanning speed, and a hatch spacing of 40 µm.</s><s>To increase productivity, it is recommended to use a laser power greater than 160 W and a hatch spacing of 60 µm.</s><s> Microstructurally, it was found that the samples are composed of stacked molten pools, one on top of the other, aligned in the build direction; columnar sub-grains can be distinguished within the elongated grains with an extension that sometimes exceeds 300 µm.</s><s> Densification in additive manufacturing processes has reached porosity levels comparable to conventional processes (&gt;99%).</s><s>Therefore, the laser powder bed fusion technique is suitable for manufacturing mechanical elements.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p><s>This work evaluates relative density, microhardness, and microstructure evolution in the LPBF process.</s><s>The main results can be summarized as follows:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>It has been found that there is a direct relationship between scanning speed and the porosity level.</s><s>Enough volumetric energy (125 J/mm 3 ) density must be provided to avoid fusion errors and balling phenomena to obtain pieces with maximum relative density.</s><s>Within the levels evaluated in the design of experiments, it was found that scanning speed is the most statistically significant factor that affects the relative density and microhardness of the 316L SS processed by LPBF.</s></p><p><s>• The maximum densification reached was 99.41%, obtained with Archimedes' principle, equivalent to 99.9% by image correlation, utilizing 180 W of laser power, 700 mm/s of scanning speed, and a hatch spacing of 40 µm.</s><s>To increase productivity, it is recommended to use a laser power greater than 160 W and a hatch spacing of 60 µm.</s></p><p><s>• Microstructurally, it was found that the samples are composed of stacked molten pools, one on top of the other, aligned in the build direction; columnar sub-grains can be distinguished within the elongated grains with an extension that sometimes exceeds 300 µm.</s></p><p><s>•</s></p><p><s>Densification in additive manufacturing processes has reached porosity levels comparable to conventional processes (&gt;99%).</s><s>Therefore, the laser powder bed fusion technique is suitable for manufacturing mechanical elements.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Schematic diagram of the experimental procedure of the LPBF process: (a) feedstock; (b) studied processing parameters; (c) scanning strategy of the fabricated sample.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Schematic diagram of the experimental procedure of the LPBF process: (a) feedstock; (b) studied processing parameters; (c) scanning strategy of the fabricated sample.</s></p></div></figDesc><graphic coords="4,40.77,164.58,513.21,336.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. (a) Top view of the printed samples (printing area of 100 mm × 100 mm); (b) 5×; (c) 60× magnification.</s></p></div></figDesc><graphic coords="5,169.55,472.39,371.76,248.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. (a) Top view of the printed samples (printing area of 100 mm × 100 mm); (b) 5×; (c) 60× magnification.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. (a) Top view of the printed samples (printing area of 100 mm × 100 mm); (b) 5×; (c) 60× magnification.</s></p></div></figDesc><graphic coords="6,168.23,0.00,364.32,52.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Optical microscopy images of samples produced at different scanning speeds: (a) 1100 mm/s; (b) 900 mm/s; (c) 700 mm/s.</s><s>Laser power of 160 W and hatch spacing of 40 µm.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Optical microscopy images of samples produced at different scanning speeds: (a) 1100 mm/s; (b) 900 mm/s; (c) 700 mm/s.</s><s>Laser power of 160 W and hatch spacing of 40 µm.</s></p></div></figDesc><graphic coords="6,40.52,294.85,513.21,128.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Relative density as a function of the energy density in 316L stainless steel processed by LPBF.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Relative density as a function of the energy density in 316L stainless steel processed by LPBF.</s></p></div></figDesc><graphic coords="7,162.56,83.62,323.04,226.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>J</head><figDesc><div><p><s>. Manuf.</s><s>Mater.</s><s>Process.</s><s>2024, 8, x FOR PEER REVIEW 8 of 19 (a)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Cont.</s></p></div></figDesc><graphic coords="7,161.39,497.20,339.12,233.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Summary of the effects of processing parameters over relative density in 316L sta steel processed by LPBF: (a) main effects plot; (b) interactions plot.</s></p></div></figDesc><graphic coords="8,162.92,454.45,396.48,267.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Summary of the effects of processing parameters over relative density in 316L stainless steel processed by LPBF: (a) main effects plot; (b) interactions plot.</s></p></div></figDesc><graphic coords="8,160.96,77.12,396.24,262.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>J</head><figDesc><div><p><s>. Manuf.</s><s>Mater.</s><s>Process.</s><s>2024, 8, x FOR PEER REVIEW (a)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Cont.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Contour plot of interaction between scanning speed and (a) laser power and (b) hat spacing.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>Contour plot of interaction between scanning speed and (a) laser power and (b) hatch spacing.</s></p></div></figDesc><graphic coords="9,161.50,82.85,397.44,265.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7.</s><s>The optical micrograph of the 316L stainless steel processed by LPBF shows the molten pools' stacking and the columnar grain growth.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7.</s><s>The optical micrograph of the 316L stainless steel processed by LPBF shows the molten pools' stacking and the columnar grain growth.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. SEM micrograph of the 316L stainless steel processed by LPBF: (a) molten pool detail; (b) sub-grains (cellular and columnar).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 8 .</head><label>8</label><figDesc><div><p><s>Figure 8. SEM micrograph of the 316L stainless steel processed by LPBF: (a) molten pool detail; (b) sub-grains (cellular and columnar).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Microhardness evaluation of the 316L stainless steel processed by LPBF.Figure 9. Microhardness evaluation of the 316L stainless steel processed by LPBF.</s></p></div></figDesc><graphic coords="11,170.61,90.29,301.92,187.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 9 .</head><label>9</label><figDesc><div><p><s>Figure 9. Microhardness evaluation of the 316L stainless steel processed by LPBF.Figure 9. Microhardness evaluation of the 316L stainless steel processed by LPBF.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Microhardness as a function of the relative density in 316L stainless steel processed by LPBF.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Figure 10 .</head><label>10</label><figDesc><div><p><s>Figure 10.</s><s>Microhardness as a function of the relative density in 316L stainless steel processed by LPBF.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Effects of processing parameters over microhardness in 316L stainless steel processed by LPBF: (a) main effects plot; (b) interactions plot.</s></p></div></figDesc><graphic coords="12,161.82,452.01,394.43,263.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>Figure 11 .</head><label>11</label><figDesc><div><p><s>Figure 11.</s><s>Effects of processing parameters over microhardness in 316L stainless steel processed by LPBF: (a) main effects plot; (b) interactions plot.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_27"><head>Figure 12 .</head><label>12</label><figDesc><div><p><s>Figure 12.</s><s>Schematic representation of the effect of molten pool dimensions on the densification process.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_28"><head>Figure 12 .</head><label>12</label><figDesc><div><p><s>Figure 12.</s><s>Schematic representation of the effect of molten pool dimensions on the densification process.</s></p></div></figDesc><graphic coords="13,170.11,594.13,385.79,113.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_29"><head>Figure 13 .</head><label>13</label><figDesc><div><p><s>Figure 13.</s><s>Schematic crystal nucleation and grain growth representation during laser-based powder bed fusion solidification: (a) nuclei of crystallization; (b) crystal growing; (c) grain formation; (d) grain boundaries.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_30"><head>Figure 13 .</head><label>13</label><figDesc><div><p><s>Figure 13.</s><s>Schematic crystal nucleation and grain growth representation during laser-based powder bed fusion solidification: (a) nuclei of crystallization; (b) crystal growing; (c) grain formation; (d) grain boundaries.</s></p></div></figDesc><graphic coords="15,166.93,91.04,272.40,332.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p><s>Summary of literature data of processing parameters on relative density response of 316L SS fabricated by LPBF.</s></p></div></figDesc><table><row><cell>Power (W)</cell><cell>Speed (mm/s)</cell><cell>Hatch (µm)</cell><cell>Layer Thickness (µm)</cell><cell>Energy Density (J/mm 3 )</cell><cell>Machine/ Model</cell><cell>Relative (%) Density</cell><cell>Reference</cell></row><row><cell>200</cell><cell>750-1000</cell><cell>50</cell><cell>110</cell><cell>35-50</cell><cell>-</cell><cell>97.97</cell><cell>[2]</cell></row><row><cell>120-160</cell><cell>800-1200</cell><cell>60-80</cell><cell>20-40</cell><cell>32-130</cell><cell>Concept Laser Mlab200</cell><cell>96.6</cell><cell>[7]</cell></row><row><cell>150</cell><cell>400-800</cell><cell>40</cell><cell>80</cell><cell>60-120</cell><cell>Self-developed 500W</cell><cell>96.82</cell><cell>[22]</cell></row><row><cell>80-100</cell><cell>300-1700</cell><cell>20</cell><cell>40-120</cell><cell>20-400</cell><cell>EP-M100T</cell><cell>98.77</cell><cell>[30]</cell></row><row><cell>150-300</cell><cell>700-1300</cell><cell>20</cell><cell>60-120</cell><cell>36-350</cell><cell>FS271M</cell><cell>98.52</cell><cell>[31]</cell></row><row><cell>100</cell><cell>111-250</cell><cell>50</cell><cell>110-120</cell><cell>66-400</cell><cell>SLM 125</cell><cell>96.00</cell><cell>[32]</cell></row><row><cell>150-200</cell><cell>446-1667</cell><cell>30</cell><cell>80-140</cell><cell>20-180</cell><cell>SLM 280HL</cell><cell>98.59</cell><cell>[33]</cell></row><row><cell>125-175</cell><cell>180-260</cell><cell>40</cell><cell>20-60</cell><cell>200-1200</cell><cell>RENISHAW AM 400</cell><cell>98.62</cell><cell>[34]</cell></row><row><cell>220</cell><cell>960</cell><cell>40</cell><cell>80</cell><cell>70</cell><cell>BLT S200</cell><cell>95.61</cell><cell>[35]</cell></row><row><cell>100</cell><cell>400-600</cell><cell>30</cell><cell>30-150</cell><cell>40-280</cell><cell>REALIZER SLM 100</cell><cell>96.50</cell><cell>[36]</cell></row><row><cell>70-130</cell><cell>700-1200</cell><cell>20</cell><cell>60</cell><cell>50-150</cell><cell>MYSINT100</cell><cell>96.84</cell><cell>[37]</cell></row><row><cell>175</cell><cell>668</cell><cell>30</cell><cell>120</cell><cell>70</cell><cell>SLM 250 HL</cell><cell>99.05</cell><cell>[26]</cell></row><row><cell>150</cell><cell>125-200</cell><cell>50</cell><cell>90</cell><cell>160-260</cell><cell>RENISHAW 125</cell><cell>96.40</cell><cell>[38]</cell></row><row><cell>200</cell><cell>2000</cell><cell>30</cell><cell>60</cell><cell>55</cell><cell>AFS-M120</cell><cell>97.38</cell><cell>[39]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc><div><p><s>Nominal chemical composition of the AISI 316L stainless steel powders.</s></p></div></figDesc><table><row><cell></cell><cell></cell><cell></cell><cell cols="2">Elements (wt%)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fe</cell><cell>Cr</cell><cell>Ni</cell><cell>Mo</cell><cell>Mn</cell><cell>Si</cell><cell>C</cell><cell>P</cell><cell>S</cell></row><row><cell>Bal.</cell><cell>16.5-18</cell><cell>10-13</cell><cell>2-2.5</cell><cell>0-2</cell><cell>0-1</cell><cell>0-0.03</cell><cell>0-0.04</cell><cell>0-0.03</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4 .</head><label>4</label><figDesc><div><p><s>ANOVA results for the relative density assessment.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell>Adj MS</cell><cell>F-Value</cell><cell>p-Value</cell></row><row><cell>Laser Power (W)</cell><cell>2</cell><cell>0.02534</cell><cell>0.01267</cell><cell>1.22</cell><cell>0.317</cell></row><row><cell>Scanning speed (mm/s)</cell><cell>2</cell><cell>0.20629</cell><cell>0.10315</cell><cell>9.91</cell><cell>0.001</cell></row><row><cell>Hatch spacing (um)</cell><cell>2</cell><cell>0.05160</cell><cell>0.02580</cell><cell>2.48</cell><cell>0.109</cell></row><row><cell>Error</cell><cell>20</cell><cell>0.20815</cell><cell>0.01041</cell><cell></cell><cell></cell></row><row><cell>Total</cell><cell>26</cell><cell>0.49138</cell><cell></cell><cell></cell><cell></cell></row></table><note><p><s>DF: degrees of freedom; SS: sum of squares; MS: mean square; F and p-value: statistics.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc><div><p><s>ANOVA results for the relative density assessment.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell>Adj MS</cell><cell>F-Value</cell><cell>p-Value</cell></row><row><cell>Laser Power (W)</cell><cell>2</cell><cell>0.02534</cell><cell>0.01267</cell><cell>1.22</cell><cell>0.317</cell></row><row><cell>Scanning speed (mm/s)</cell><cell>2</cell><cell>0.20629</cell><cell>0.10315</cell><cell>9.91</cell><cell>0.001</cell></row><row><cell>Hatch spacing (um)</cell><cell>2</cell><cell>0.05160</cell><cell>0.02580</cell><cell>2.48</cell><cell>0.109</cell></row><row><cell>Error</cell><cell>20</cell><cell>0.20815</cell><cell>0.01041</cell><cell></cell><cell></cell></row><row><cell>Total</cell><cell>26</cell><cell>0.49138</cell><cell></cell><cell></cell><cell></cell></row></table><note><p><s>DF: degrees of freedom; SS: sum of squares; MS: mean square; F and p-value: statistics.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc><div><p><s>Chemical composition of the fabricated AISI 316L stainless steel determined by GDOES and EDS.</s></p></div></figDesc><table><row><cell></cell><cell cols="5">Glow Discharge Emission Spectrometry (GDOES)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Element (wt%)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fe</cell><cell>Cr</cell><cell>Ni</cell><cell>Mo</cell><cell>Si</cell><cell>Mn</cell><cell>Co</cell></row><row><cell>Bal.</cell><cell>18.9 ± 1.6</cell><cell>12.5 ± 0.9</cell><cell>2.7 ± 0.2</cell><cell>0.9 ± 0.2</cell><cell>0.5 ± 0.03</cell><cell>0.1 ± 0.01</cell></row><row><cell></cell><cell></cell><cell cols="3">Energy Dispersive Spectroscopy (EDS)</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Element (wt%)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fe</cell><cell>Cr</cell><cell>Ni</cell><cell>Mo</cell><cell>Si</cell><cell>Mn</cell><cell>Co</cell></row><row><cell>Bal.</cell><cell>16.98</cell><cell>11.14</cell><cell>2.10</cell><cell>0.56</cell><cell>0.75</cell><cell>0.65</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6 .</head><label>6</label><figDesc><div><p><s>ANOVA results for the microhardness assessment.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell>Adj MS</cell><cell>F-Value</cell><cell>p-Value</cell></row><row><cell>Power (W)</cell><cell>2</cell><cell>9.74</cell><cell>4.870</cell><cell>0.18</cell><cell>0.836</cell></row><row><cell>Speed (mm/s)</cell><cell>2</cell><cell>380.51</cell><cell>190.257</cell><cell>7.06</cell><cell>0.005</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 6 .</head><label>6</label><figDesc><div><p><s>ANOVA results for the microhardness assessment.</s></p></div></figDesc><table><row><cell>Source</cell><cell>DF</cell><cell>Adj SS</cell><cell>Adj MS</cell><cell>F-Value</cell><cell>p-Value</cell></row><row><cell>Power (W)</cell><cell>2</cell><cell>9.74</cell><cell>4.870</cell><cell>0.18</cell><cell>0.836</cell></row><row><cell>Speed (mm/s)</cell><cell>2</cell><cell>380.51</cell><cell>190.257</cell><cell>7.06</cell><cell>0.005</cell></row><row><cell>Hatch (um)</cell><cell>2</cell><cell>89.46</cell><cell>44.732</cell><cell>1.66</cell><cell>0.215</cell></row><row><cell>Error</cell><cell>20</cell><cell>538.65</cell><cell>26.932</cell><cell></cell><cell></cell></row><row><cell>Total</cell><cell>26</cell><cell>1018.37</cell><cell></cell><cell></cell><cell></cell></row></table><note><p><s>DF: degrees of freedom; SS: sum of squares; MS: mean square; F and p-value: statistics.</s></p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><s>J. Manuf.</s><s>Mater.</s><s>Process.</s><s>2024, 8, 35.</s><s>https://doi.org/10.3390/jmmp8010035</s><s>https://www.mdpi.com/journal/jmmp</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p><s>J. Manuf.</s><s>Mater.</s><s>Process.</s><s>2024, 8, x FOR PEER REVIEW</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p><s>The authors gratefully acknowledge the <rs type="institution">Research Center for Nanotechnology and Advanced Materials (CIEN-UC)</rs>, <rs type="institution">Centro de Nanociencia y Nanotecnologia (CENCINAT)</rs>, and <rs type="institution">Tecnologico de Monterrey</rs>.</s></p></div>
+			</div>
+			<div type="funding">
+<div><p><s>Funding: This research was funded by <rs type="funder">SENESCYT</rs> grant number <rs type="grantNumber">ARSEQ-BEC-000329-2017</rs>, <rs type="funder">ANID FONDECYT</rs> grant number <rs type="grantNumber">1201068</rs> project, and the APC was funded by <rs type="funder">Tecnologico de Monterrey</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_bdbFrdW">
+					<idno type="grant-number">ARSEQ-BEC-000329-2017</idno>
+				</org>
+				<org type="funding" xml:id="_nrMNTU3">
+					<idno type="grant-number">1201068</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p><s>Data are available upon request from the corresponding authors.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p><s>The authors declare no conflicts of interest.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Author Contributions: Conceptualization, G.O.B. and J.A.R.-G.; data curation, D.Z.-H.</s><s>and J.L.M.; formal analysis, X.S.-S.</s><s>and S.D.P.-A.; funding acquisition, J.A.R.-G.; investigation, G.O.B.; methodology, G.O.B. and X.S.-S.; supervision, J.A.R.-G.</s><s>and S.D.P.-A.; validation, D.Z.-H.</s><s>and J.L.M.; writing-original draft, G.O.B.; writing-review and final editing, S.D.P.-A., J.L.M. and D.Z.-H.</s><s>All authors have read and agreed to the published version of the manuscript.</s></p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Research status of laser additive manufacturing for metal: A review</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmrt.2021.08.050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res. Technol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="855" to="884" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gong, G.; Ye, J.; Chi, Y.; Zhao, Z.; Wang, Z.; Xia, G.; Du, X.; Tian, H.; Yu, H.; Chen, C. Research status of laser additive manufacturing for metal: A review. J. Mater. Res. Technol. 2021, 15, 855-884. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Influence of energy density on energy demand and porosity of 316L stainless steel fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40684-018-0006-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Precis. Eng. Manuf. Green Technol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="55" to="62" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peng, T.; Chen, C. Influence of energy density on energy demand and porosity of 316L stainless steel fabricated by selective laser melting. Int. J. Precis. Eng. Manuf. Green Technol. 2018, 5, 55-62. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Review of selective laser melting: Materials and applications</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Loh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4935926</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">41101</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yap, C.Y.; Chua, C.K.; Dong, Z.L.; Liu, Z.H.; Zhang, D.Q.; Loh, L.E.; Sing, S.L. Review of selective laser melting: Materials and applications. Appl. Phys. Rev. 2015, 2, 041101. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Progress in additive manufacturing on new materials: A review</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blackburn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmst.2018.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="242" to="269" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, N.; Huang, S.; Zhang, G.; Qin, R.; Liu, W.; Xiong, H.; Shi, G.; Blackburn, J. Progress in additive manufacturing on new materials: A review. J. Mater. Sci. Technol. 2019, 35, 242-269. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of steels: A review of achievements and challenges</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Haghdadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Primig</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10853-020-05109-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="64" to="107" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haghdadi, N.; Laleh, M.; Moyle, M.; Primig, S. Additive manufacturing of steels: A review of achievements and challenges. J. Mater. Sci. 2021, 56, 64-107. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Microstructure simulation and experimental evaluation of the anisotropy of 316L stainless steel manufactured by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Barrionuevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Ramos-Grez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sánchez-Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Debut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Haro</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/RPJ-04-2022-0127</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp. J</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="425" to="436" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barrionuevo, G.O.; Ramos-Grez, J.A.; Walczak, M.; Sánchez-Sánchez, X.; Guerra, C.; Debut, A.; Haro, E. Microstructure simulation and experimental evaluation of the anisotropy of 316L stainless steel manufactured by laser powder bed fusion. Rapid Prototyp. J. 2023, 29, 425-436. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Comparative analysis and experimental validation of statistical and machine learning-based regressors for modeling the surface roughness and mechanical properties of 316L stainless steel specimens produced by selective laser melting</title>
+		<author>
+			<persName><forename type="first">La</forename><surname>Fé-Perdomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ramos-Grez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Jeria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barrionuevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2022.06.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="666" to="682" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">La Fé-Perdomo, I.; Ramos-Grez, J.A.; Jeria, I.; Guerra, C.; Barrionuevo, G.O. Comparative analysis and experimental validation of statistical and machine learning-based regressors for modeling the surface roughness and mechanical properties of 316L stainless steel specimens produced by selective laser melting. J. Manuf. Process 2022, 80, 666-682. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Multiphysics multi-scale computational framework for linking process-structure-property relationships in metal additive manufacturing: A critical review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Pantawane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Radhakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mazumder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Dahotre</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09506608.2023.2169501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Mater. Rev</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="943" to="1009" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sharma, S.; Joshi, S.S.; Pantawane, M.V.; Radhakrishnan, M.; Mazumder, S.; Dahotre, N.B. Multiphysics multi-scale computational framework for linking process-structure-property relationships in metal additive manufacturing: A critical review. Int. Mater. Rev. 2023, 68, 943-1009. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A review on metal additive manufacturing: Modeling and application of numerical simulation for heat and mass transfer and microstructure evolution</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s41230-021-1119-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">China Foundry</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="317" to="334" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, C.M.; Gao, H.B.; Li, L.Y.; Wang, J.D.; Guo, C.H.; Jiang, F.C. A review on metal additive manufacturing: Modeling and application of numerical simulation for heat and mass transfer and microstructure evolution. China Foundry 2021, 18, 317-334. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Comparative evaluation of supervised machine learning algorithms in the prediction of the relative density of 316L stainless steel fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Barrionuevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ramos-Grez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Betancourt</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-021-06596-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="419" to="433" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barrionuevo, G.; Ramos-Grez, J.; Walczak, M.; Betancourt, C. Comparative evaluation of supervised machine learning algorithms in the prediction of the relative density of 316L stainless steel fabricated by selective laser melting. Int. J. Adv. Manuf. Technol. 2021, 113, 419-433. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mitigation of lack of fusion defects in powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2018.10.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="442" to="449" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mukherjee, T.; DebRoy, T. Mitigation of lack of fusion defects in powder bed fusion additive manufacturing. J. Manuf. Process 2018, 36, 442-449. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A critical review on the effects of process-induced porosity on the mechanical properties of alloys fabricated by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N S</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10853-022-06990-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="9818" to="9865" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kan, W.H.; Chiu, L.N.S.; Lim, C.V.S.; Zhu, Y.; Tian, Y.; Jiang, D.; Huang, A. A critical review on the effects of process-induced porosity on the mechanical properties of alloys fabricated by laser powder bed fusion. J. Mater. Sci. 2022, 57, 9818-9865. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A review and a statistical analysis of porosity in metals additively manufactured by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yan</surname></persName>
+		</author>
+		<idno type="DOI">10.29026/oea.2022.210058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Opto-Electron. Adv</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="210058" to="210061" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, D.; Han, H.; Sa, B.; Li, K.; Yan, J.; Zhang, J.; Liu, J.; He, Z.; Wang, N.; Yan, M. A review and a statistical analysis of porosity in metals additively manufactured by laser powder bed fusion. Opto-Electron. Adv. 2022, 5, 210058-210061. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microstructural porosity in additive manufacturing: The formation and detection of pores in metal parts fabricated by powder bed fusion</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nouri</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/amp2.10021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Adv. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">10021</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sola, A.; Nouri, A. Microstructural porosity in additive manufacturing: The formation and detection of pores in metal parts fabricated by powder bed fusion. J. Adv. Manuf. Process. 2019, 1, e10021. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Effects of porosity on the mechanical properties of additively manufactured components: A critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Al-Maharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Patil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Markert</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2053-1591/abcc5d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Express</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">122001</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Al-Maharma, A.Y.; Patil, S.P.; Markert, B. Effects of porosity on the mechanical properties of additively manufactured components: A critical review. Mater. Res. Express 2020, 7, 122001. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Experimental Optimization of Fused Deposition Modelling Processing Parameters: A Design-for-Manufacturing Approach</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alafaghani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Qattawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Alrawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guzman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.promfg.2017.07.079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Manuf</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="791" to="803" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alafaghani, A.; Qattawi, A.; Alrawi, B.; Guzman, A. Experimental Optimization of Fused Deposition Modelling Processing Parameters: A Design-for-Manufacturing Approach. Procedia Manuf. 2017, 10, 791-803. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Influence of processing parameters on the fabrication of a Cu-Al-Ni-Mn shape-memory alloy by selective laser melting</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gustmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Neves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kühn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gargarella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Kiminami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bolfarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pauly</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2016.04.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="23" to="31" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gustmann, T.; Neves, A.; Kühn, U.; Gargarella, P.; Kiminami, C.S.; Bolfarini, C.; Eckert, J.; Pauly, S. Influence of processing parameters on the fabrication of a Cu-Al-Ni-Mn shape-memory alloy by selective laser melting. Addit. Manuf. 2016, 11, 23-31. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Numerical analysis of the effect of processing parameters on the microstructure of stainless steel 316L manufactured by laser-based powder bed fusion</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Barrionuevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ramos-Grez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">La</forename><surname>Fé-Perdomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matpr.2021.10.209</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Today Proc</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="93" to="100" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barrionuevo, G.O.; Ramos-Grez, J.; Walczak, M.; La Fé-Perdomo, I. Numerical analysis of the effect of processing parameters on the microstructure of stainless steel 316L manufactured by laser-based powder bed fusion. Mater Today Proc. 2021, 59, 93-100. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Influence of SLM process parameters on the surface finish, porosity rate and fatigue behavior of as-built Inconel 625 parts</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Koutiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pessard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Amlou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>De Terris</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2017.12.043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process Technol</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="536" to="546" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koutiri, I.; Pessard, E.; Peyre, P.; Amlou, O.; De Terris, T. Influence of SLM process parameters on the surface finish, porosity rate and fatigue behavior of as-built Inconel 625 parts. J. Mater. Process Technol. 2018, 255, 536-546. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Strengthening of stainless steel by titanium carbide addition and grain refinement during selective laser melting</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Almangour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Baek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grzesiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.11.126</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<biblScope unit="page" from="812" to="818" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">AlMangour, B.; Baek, M.S.; Grzesiak, D.; Lee, K.A. Strengthening of stainless steel by titanium carbide addition and grain refinement during selective laser melting. Mater. Sci. Eng. A 2018, 712, 812-818. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Unexpected erosion-corrosion behaviour of 316L stainless steel produced by selective laser melting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2019.04.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="67" to="74" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laleh, M.; Hughes, A.E.; Xu, W.; Gibson, I.; Tan, M.Y. Unexpected erosion-corrosion behaviour of 316L stainless steel produced by selective laser melting. Corros. Sci. 2019, 155, 67-74. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Selective laser melting processing of 316L stainless steel: Effect of microstructural differences along building direction on corrosion behavior</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ge</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-019-04136-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="2669" to="2679" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin, K.; Gu, D.; Xi, L.; Yuan, L.; Niu, S.; Lv, P.; Ge, Q. Selective laser melting processing of 316L stainless steel: Effect of microstructural differences along building direction on corrosion behavior. Int. J. Adv. Manuf. Technol. 2019, 104, 2669-2679. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Microhardness and wear resistance in materials manufactured by laser powder bed fusion: Machine learning approach for property prediction</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Barrionuevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ramos-Grez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sánchez-Sánchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cirpj.2023.03.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP J. Manuf. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="106" to="114" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barrionuevo, G.O.; Walczak, M.; Ramos-grez, J.; Sánchez-sánchez, X. Microhardness and wear resistance in materials manufac- tured by laser powder bed fusion: Machine learning approach for property prediction. CIRP J. Manuf. Sci. Technol. 2023, 43, 106-114. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Plessis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Macdonald</surname></persName>
+		</author>
+		<title level="m">Fundamentals of Laser Powder Bed Fusion of Metals</title>
+		<meeting><address><addrLine>Amsterdam, The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yadroitsev, I.; Yadroitsava, I.; Plessis, A.D.; MacDonald, E. Fundamentals of Laser Powder Bed Fusion of Metals; Elsevier: Amsterdam, The Netherlands, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effect of building directions on the surface roughness, microstructure, and tribological properties of selective laser melted Inconel 625</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Khanlari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fenineche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2020.116878</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page">116878</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yan, X.; Gao, S.; Chang, C.; Huang, J.; Khanlari, K.; Dong, D.; Ma, W.; Fenineche, N.; Liao, H.; Liu, M. Effect of building directions on the surface roughness, microstructure, and tribological properties of selective laser melted Inconel 625. J. Mater. Process. Technol. 2021, 288, 116878. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Impact of the scanning strategy on the mechanical behavior of 316L steel synthesized by selective laser melting</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">O</forename><surname>Salman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Prashanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scudino</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmapro.2019.07.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Process</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="255" to="261" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salman, O.O.; Brenne, F.; Niendorf, T.; Eckert, J.; Prashanth, K.G.; He, T.; Scudino, S. Impact of the scanning strategy on the mechanical behavior of 316L steel synthesized by selective laser melting. J. Manuf. Process 2019, 45, 255-261. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A review of selective laser melting of aluminum alloys: Processing, microstructure, property and developing trends</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bourell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmst.2018.09.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="270" to="284" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, J.; Song, B.; Wei, Q.; Bourell, D.; Shi, Y. A review of selective laser melting of aluminum alloys: Processing, microstructure, property and developing trends. J. Mater. Sci. Technol. 2019, 35, 270-284. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhong</surname></persName>
+		</author>
+		<title level="m">Sub-Grain Structure in Additive Manufactured Stainless Steel 316</title>
+		<meeting><address><addrLine>Stockholm, Sweden</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+		<respStmt>
+			<orgName>Stockolm University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">L. Ph.D. Thesis</note>
+	<note type="raw_reference">Zhong, Y. Sub-Grain Structure in Additive Manufactured Stainless Steel 316L. Ph.D. Thesis, Stockolm University, Stockholm, Sweden, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Microstructure evolution during selective laser melting of metallic materials: A review</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Yocom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liao</surname></persName>
+		</author>
+		<idno type="DOI">10.2351/1.5085206</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">31201</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, X.; Yocom, C.J.; Mao, B.; Liao, Y. Microstructure evolution during selective laser melting of metallic materials: A review. J. Laser Appl. 2019, 31, 031201. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effect of selective laser melting process parameters on microstructure and mechanical properties of 316L stainless steel helical micro-diameter spring</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-019-03928-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">2154</biblScope>
+			<biblScope unit="page" from="2117" to="2131" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, M.; Zhang, Z.; Chen, P. Effect of selective laser melting process parameters on microstructure and mechanical properties of 316L stainless steel helical micro-diameter spring. Int. J. Adv. Manuf. Technol. 2019, 2154, 2117-2131. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Collaborative optimization of density and surface roughness of 316L stainless steel in selective laser melting</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma13071601</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1601</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deng, Y.; Mao, Z.; Yang, N.; Niu, X.; Lu, X. Collaborative optimization of density and surface roughness of 316L stainless steel in selective laser melting. Materials 2020, 13, 1601. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Effect of energy density and scanning strategy on densification, microstructure and mechanical properties of 316L stainless steel processed via selective laser melting</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Larimian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grzesiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Almangour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Borkar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2019.138455</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">770</biblScope>
+			<biblScope unit="page">138455</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Larimian, T.; Kannan, M.; Grzesiak, D.; AlMangour, B.; Borkar, T. Effect of energy density and scanning strategy on densification, microstructure and mechanical properties of 316L stainless steel processed via selective laser melting. Mater. Sci. Eng. A 2020, 770, 138455. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Investigation of effects of process parameters on microstructure and hardness of SLM manufactured SS316</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Tucho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Lysne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Austbø</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sjolyst-Kverneland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.01.098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">L. J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">740</biblScope>
+			<biblScope unit="page" from="910" to="925" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tucho, W.M.; Lysne, V.H.; Austbø, H.; Sjolyst-Kverneland, A.; Hansen, V. Investigation of effects of process parameters on microstructure and hardness of SLM manufactured SS316L. J. Alloys Compd. 2018, 740, 910-925. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Process planning of L-PBF of AISI 316L for improving surface quality and relating part integrity with microstructural characteristics</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ramirez-Cedillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Uddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sandoval-Robles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Mirshams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ruiz-Huerta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Siller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.surfcoat.2020.125956</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">396</biblScope>
+			<biblScope unit="page">125956</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ramirez-Cedillo, E.; Uddin, M.J.; Sandoval-Robles, J.A.; Mirshams, R.A.; Ruiz-Huerta, L.; Rodriguez, C.A.; Siller, H.R. Process planning of L-PBF of AISI 316L for improving surface quality and relating part integrity with microstructural characteristics. Surf. Coat. Technol. 2020, 396, 125956. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Comprehensive effects of placement orientation and scanning angle on mechanical properties and behavior of 316L stainless steel based on the selective laser melting process</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2019.03.082</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">791</biblScope>
+			<biblScope unit="page" from="166" to="175" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, Z.; Chu, B.; Wang, L.; Lu, Z. Comprehensive effects of placement orientation and scanning angle on mechanical properties and behavior of 316L stainless steel based on the selective laser melting process. J. Alloys Compd. 2019, 791, 166-175. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Comparison of microstructure and mechanical properties of 316L austenitic steel processed by selective laser melting with hot-isostatic pressed and cast material</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Röttger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Geenen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Windmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Binner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Theisen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2016.10.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">678</biblScope>
+			<biblScope unit="page" from="365" to="376" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Röttger, A.; Geenen, K.; Windmann, M.; Binner, F.; Theisen, W. Comparison of microstructure and mechanical properties of 316L austenitic steel processed by selective laser melting with hot-isostatic pressed and cast material. Mater. Sci. Eng. A 2016, 678, 365-376. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The effects of hot isostatic pressing (HIP) and solubilization heat treatment on the density, mechanical properties, and microstructure of austenitic stainless steel parts produced by selective laser melting (SLM)</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Liverani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H A</forename><surname>Lutey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ascari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fortunato</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-020-05072-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="109" to="122" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liverani, E.; Lutey, A.H.A.; Ascari, A.; Fortunato, A. The effects of hot isostatic pressing (HIP) and solubilization heat treatment on the density, mechanical properties, and microstructure of austenitic stainless steel parts produced by selective laser melting (SLM). Int. J. Adv. Manuf. Technol. 2020, 107, 109-122. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Sliding wear characteristics and corrosion behaviour of selective laser melted 316L stainless steel</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moroz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Alrbaey</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11665-013-0784-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Eng. Perform</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="518" to="526" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, Y.; Moroz, A.; Alrbaey, K. Sliding wear characteristics and corrosion behaviour of selective laser melted 316L stainless steel. J. Mater. Eng. Perform. 2014, 23, 518-526. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Effect of powder feedstock on microstructure and mechanical properties of the 316L stainless steel fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liao</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/met8090729</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metals</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">729</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, W.; Yin, G.; Feng, Z.; Liao, X. Effect of powder feedstock on microstructure and mechanical properties of the 316L stainless steel fabricated by selective laser melting. Metals 2018, 8, 729. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Pore Extractor 2D: An ImageJ toolkit for quantifying cortical pore morphometry on histological bone images, with application to intraskeletal and regional patterning</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Dominguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Agnew</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ajpa.24618</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Biol. Anthropol</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="page" from="365" to="385" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cole, M.E.; Stout, S.D.; Dominguez, V.M.; Agnew, A.M. Pore Extractor 2D: An ImageJ toolkit for quantifying cortical pore morphometry on histological bone images, with application to intraskeletal and regional patterning. Am. J. Biol. Anthropol. 2022, 179, 365-385. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Defect Formation Mechanisms in Selective Laser Melting: A Review</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Bai</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10033-017-0121-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chin. J. Mech. Eng. (Engl. Ed</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="515" to="527" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, B.; Li, Y.; Bai, Q. Defect Formation Mechanisms in Selective Laser Melting: A Review. Chin. J. Mech. Eng. (Engl. Ed.) 2017, 30, 515-527. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">On the microstructure, mechanical properties and wear resistance of an additively manufactured Ti64/metallic glass composite</title>
+		<author>
+			<persName><forename type="first">X.-J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.12.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="499" to="510" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shen, X.-J.; Zhang, C.; Yang, Y.-G.; Liu, L. On the microstructure, mechanical properties and wear resistance of an additively manufactured Ti64/metallic glass composite. Mater. Des. 2016, 25, 499-510. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Heat treatment effect on the microstructure, mechanical properties, and wear behaviors of stainless steel 316L prepared via selective laser melting</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2021.140805</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">806</biblScope>
+			<biblScope unit="page">140805</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shin, W.S.; Son, B.; Song, W.; Sohn, H.; Jang, H.; Kim, Y.J.; Park, C. Heat treatment effect on the microstructure, mechanical properties, and wear behaviors of stainless steel 316L prepared via selective laser melting. Mater. Sci. Eng. A 2021, 806, 140805. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Effect of heat treatment on mechanical properties and microstructure of selective laser melting 316L stainless steel</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S I N</forename><surname>Kamariah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S W</forename><surname>Harun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Z</forename><surname>Khalil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Ismail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharif</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1757-899X/257/1/012021</idno>
+	</analytic>
+	<monogr>
+		<title level="m">IOP Conference Series: Materials Science and Engineering</title>
+		<meeting><address><addrLine>Bristol, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>IOP Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">257</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kamariah, M.S.I.N.; Harun, W.S.W.; Khalil, N.Z.; Ahmad, F.; Ismail, M.H.; Sharif, S. Effect of heat treatment on mechanical properties and microstructure of selective laser melting 316L stainless steel. In IOP Conference Series: Materials Science and Engineering; IOP Publishing: Bristol, UK, 2017; Volume 257. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Microstructure evolution of 316L produced by HP-SLM (high power selective laser melting)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Montero-Sistiaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Godino-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Boschmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vanmeensel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.08.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="402" to="410" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montero-Sistiaga, M.L.; Godino-Martinez, M.; Boschmans, K.; Kruth, J.P.; Van Humbeeck, J.; Vanmeensel, K. Microstructure evolution of 316L produced by HP-SLM (high power selective laser melting). Addit. Manuf. 2018, 23, 402-410. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Microstructure effect on sliding wear of 316L stainless steel selectively laser melted</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Barrionuevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ramos-Grez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mendez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Debut</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/02670836231217393</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="page">02670836231217393</biblScope>
+			<date type="published" when="2024">2024</date>
+			<pubPlace>UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barrionuevo, G.O.; Walczak, M.; Ramos-grez, J.; Mendez, P.; Debut, A. Microstructure effect on sliding wear of 316L stainless steel selectively laser melted. Mater. Sci. Technol. (UK) 2024, 02670836231217393. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Tensile/Compressive Response of 316L Stainless Steel Fabricated by Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Barrionuevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">La</forename><surname>Fé-Perdomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cáceres-Brito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Navas-Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename></persName>
+		</author>
+		<idno type="DOI">10.17163/ings.n31.2024.01</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ingenius Rev. De Cienc. Y Tecnol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barrionuevo, G.O.; La Fé-perdomo, I.; Cáceres-Brito, E.; Navas-Pinto, W. Tensile/Compressive Response of 316L Stainless Steel Fabricated by Additive Manufacturing. Ingenius Rev. De Cienc. Y Tecnol. 2024, 31, 9-18. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Improved tribological performance of AISI 316L stainless steel by a combined surface treatment: Surface texturing by selective laser melting and plasma nitriding</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kovacı</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Seçer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.surfcoat.2020.126178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">400</biblScope>
+			<biblScope unit="page">126178</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kovacı, H.; Seçer, Y. Improved tribological performance of AISI 316L stainless steel by a combined surface treatment: Surface texturing by selective laser melting and plasma nitriding. Surf. Coat. Technol. 2020, 400, 126178. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effect of metallurgical defect and phase transition on geometric accuracy and wear resistance of iron-based parts fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/jmr.2016.132</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1477" to="1490" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, H.; Gu, D. Effect of metallurgical defect and phase transition on geometric accuracy and wear resistance of iron-based parts fabricated by selective laser melting. J. Mater. Res. 2016, 31, 1477-1490. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Wear anisotropy of selective laser melted 316L stainless steel</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Khonsari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wear.2019.04.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wear</title>
+		<imprint>
+			<biblScope unit="volume">428</biblScope>
+			<biblScope unit="page" from="376" to="386" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, Y.; Zhu, Y.; Khonsari, M.M.; Yang, H. Wear anisotropy of selective laser melted 316L stainless steel. Wear 2019, 428, 376-386. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The role of microstructure on wear mechanisms and anisotropy of additively manufactured 316L stainless steel in dry sliding</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bahshwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Myant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reddyhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Pham</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2020.109076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="page">109076</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bahshwan, M.; Myant, C.W.; Reddyhoff, T.; Pham, M.S. The role of microstructure on wear mechanisms and anisotropy of additively manufactured 316L stainless steel in dry sliding. Mater. Des. 2020, 196, 109076. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">In situ observation of anisotropic tribological contact evolution in 316L steel formed by selective laser melting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bahshwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Myant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reddyhoff</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wear.2021.204193</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wear</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page">204193</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bahshwan, M.; Gee, M.; Nunn, J.; Myant, C.W.; Reddyhoff, T. In situ observation of anisotropic tribological contact evolution in 316L steel formed by selective laser melting. Wear 2022, 490, 204193. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Effect of fluid convection on dendrite arm spacing in laser deposition</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nordin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Farson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11663-014-0054-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. B Process Metall. Mater. Process. Sci</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1520" to="1529" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, Y.; Nordin, M.; Babu, S.S.; Farson, D.F. Effect of fluid convection on dendrite arm spacing in laser deposition. Metall. Mater. Trans. B Process Metall. Mater. Process. Sci. 2014, 45, 1520-1529. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Numerical investigation of effects of nucleation mechanisms on grain structure in metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.commatsci.2018.06.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="159" to="169" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, X.; Tan, W. Numerical investigation of effects of nucleation mechanisms on grain structure in metal additive manufacturing. Comput. Mater. Sci. 2018, 153, 159-169. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Grain growth in IN718 superalloy fabricated by laser additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hou</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02670836.2020.1740864</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="765" to="769" />
+			<date type="published" when="2020">2020</date>
+			<pubPlace>UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cao, Y.; Bai, P.; Liu, F.; Hou, X. Grain growth in IN718 superalloy fabricated by laser additive manufacturing. Mater. Sci. Technol. (UK) 2020, 36, 765-769. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Texture evolution in stainless steel processed by selective laser melting and annealing</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Fergani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brotan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bambach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Pérez-Prado</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02670836.2018.1523518</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="2223" to="2230" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fergani, O.; Brotan, V.; Bambach, M.; Pérez-Prado, M.T. Texture evolution in stainless steel processed by selective laser melting and annealing. Mater. Sci. Technol. 2018, 34, 2223-2230. [CrossRef</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content</title>
+	</analytic>
+	<monogr>
+		<title level="m">Disclaimer/Publisher&apos;s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Disclaimer/Publisher&apos;s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

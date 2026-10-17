@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Automatic fault detection for laser powder-bed fusion using semi-supervised machine learning</title>
+				<funder ref="#_bNdsjxj">
+					<orgName type="full">EPSRC</orgName>
+				</funder>
+				<funder ref="#_8zVH8tR">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>11 February 2019 2214</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Ikenna</forename><forename type="middle">A</forename><surname>Okaro</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Institute for Risk and Uncertainty , University of Liverpool , Chadwick Building , Peach Street , Liverpool L69 7ZF , United Kingdom</note>
+								<orgName type="department">Institute for Risk and Uncertainty</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Chadwick Building Peach Street</addrLine>
+									<postCode>L69 7ZF</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> School of Engineering , University of Liverpool , Harrison Hughes Building , Liverpool L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Harrison Hughes Building</addrLine>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sarini</forename><surname>Jayasinghe</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> School of Engineering , University of Liverpool , Harrison Hughes Building , Liverpool L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Harrison Hughes Building</addrLine>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chris</forename><surname>Sutcliffe</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> School of Engineering , University of Liverpool , Harrison Hughes Building , Liverpool L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Harrison Hughes Building</addrLine>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Renishaw Plc , Brooms Road , Stone Business Park , Stone ST15 0SH , United Kingdom</note>
+								<orgName type="institution">Renishaw Plc</orgName>
+								<address>
+									<addrLine>Brooms Road Stone Business Park</addrLine>
+									<postCode>ST15 0SH</postCode>
+									<settlement>Stone</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kate</forename><surname>Black</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> School of Engineering , University of Liverpool , Harrison Hughes Building , Liverpool L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Harrison Hughes Building</addrLine>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Institute for Risk and Uncertainty , University of Liverpool , Chadwick Building , Peach Street , Liverpool L69 7ZF , United Kingdom.</note>
+								<orgName type="department">Institute for Risk and Uncertainty</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Chadwick Building Peach Street</addrLine>
+									<postCode>L69 7ZF</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paolo</forename><surname>Paoletti</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Institute for Risk and Uncertainty , University of Liverpool , Chadwick Building , Peach Street , Liverpool L69 7ZF , United Kingdom</note>
+								<orgName type="department">Institute for Risk and Uncertainty</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Chadwick Building Peach Street</addrLine>
+									<postCode>L69 7ZF</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> School of Engineering , University of Liverpool , Harrison Hughes Building , Liverpool L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Harrison Hughes Building</addrLine>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Peter</forename><forename type="middle">L</forename><surname>Green</surname></persName>
+							<email>plgreen@liverpool.ac.uk</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Institute for Risk and Uncertainty , University of Liverpool , Chadwick Building , Peach Street , Liverpool L69 7ZF , United Kingdom</note>
+								<orgName type="department">Institute for Risk and Uncertainty</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Chadwick Building Peach Street</addrLine>
+									<postCode>L69 7ZF</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> School of Engineering , University of Liverpool , Harrison Hughes Building , Liverpool L69 3GH , United Kingdom</note>
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution">University of Liverpool</orgName>
+								<address>
+									<addrLine>Harrison Hughes Building</addrLine>
+									<postCode>L69 3GH</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Automatic fault detection for laser powder-bed fusion using semi-supervised machine learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">11 February 2019 2214</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">072347032BA9171F516C2909C41FF328</idno>
+					<idno type="DOI">10.1016/j.addma.2019.01.006</idno>
+					<note type="submission">Received 14 August 2018; Received in revised form 6 December 2018; Accepted 23 January 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-23T00:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Laser powder-bed fusion Process control Semi-supervised machine Learning Randomised</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>singular value decomposition</head><p><s>A B S T R A C T Risk-averse areas such as the medical, aerospace and energy sectors have been somewhat slow towards accepting and applying Additive Manufacturing (AM) in many of their value chains.</s><s>This is partly because there are still significant uncertainties concerning the quality of AM builds.</s></p><p><s>This paper introduces a machine learning algorithm for the automatic detection of faults in AM products.</s><s>The approach is semi-supervised in that, during training, it is able to use data from both builds where the resulting components were certified and builds where the quality of the resulting components is unknown.</s><s>This makes the approach cost efficient, particularly in scenarios where part certification is costly and time consuming.</s></p><p><s>The study specifically analyses Laser Powder-Bed Fusion (L-PBF) builds.</s><s>Key features are extracted from large sets of photodiode data, obtained during the building of 49 tensile test bars.</s><s>Ultimate tensile strength (UTS) tests were then used to categorise each bar as 'faulty' or 'acceptable'.</s><s>Using a variety of approaches (Receiver Operating Characteristic (ROC) curves and 2-fold cross-validation), it is shown that, despite utilising a fraction of the available certification data, the semi-supervised approach can achieve results comparable to a benchmark case where all data points are labelled.</s><s>The results show that semi-supervised learning is a promising approach for the automatic certification of AM builds that can be implemented at a fraction of the cost currently required.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>There is a growing demand for efficient manufacturing technologies <ref type="bibr" target="#b0">[1]</ref>.</s><s>Additive Manufacturing (AM) has huge potential in healthcare for custom implants and in aerospace for lightweight designs <ref type="bibr" target="#b1">[2]</ref>.</s><s>However, uncertainties surrounding part quality prevent the full adoption of AM technology in such sectors.</s><s>Moreover, certification of AM parts is challenging (as faults may occur internal to the parts) and often requires expensive CT scans.</s></p><p><s>This paper specifically considers Laser Powder-Bed Fusion (L-PBF).</s><s>L-PBF is an AM technology that has become very popular in recent times due to its ability to produce complex metal geometries, relative to traditional methods.</s><s>The L-PBF process involves layer-by-layer construction of a build by repeatedly channelling laser beams onto a thin layer of metal powder deposited on a fusion bed <ref type="bibr" target="#b2">[3]</ref>.</s><s>Powder deposition and sintering are repeated until a desired product is made to specification.</s></p><p><s>For the work detailed herein, data related to the L-PBF process was gathered using high precision photodiodes, which were installed axial to the laser.</s><s>These sensors were placed behind filters that were designed to eliminate the reflected laser light, thus allowing the reflected light intensity to be measured during the builds.</s><s>The photodiodes provide process measurements from which, potentially, it may be possible to determine the quality of AM products.</s><s>1 Understanding the correlations between this data and build quality is a challenging area.</s><s>However, advances in machine learning have made it possible to create and apply intelligent algorithms to large datasets for decision making <ref type="bibr" target="#b3">[4]</ref>.</s><s>Such algorithms can identify patterns in large data, after being trained.</s><s>The current work is based on the hypothesis that, using large amounts of process measurements from L-PBF machines, machine learning can be used to quickly and cheaply classify the success of L-PBF builds.</s></p><p><s>Classification algorithms can be broadly categorised as supervised, semi-supervised or unsupervised (for a theoretical review of these methods, <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> are recommended).</s><s>With a supervised approach, the algorithm is presented with labelled data -a set of input vectors, each of which is associated with an observed output value (or 'label').</s><s>Unsupervised learning can be thought of as finding patterns in only unlabelled data (clustering, for example, is one form of unsupervised learning).</s><s>With a semi-supervised approach, the user provides some labelled data and some unlabelled data at the same time.</s><s>The model may then attempt to establish a decision boundary and classifies the data into clusters; based on the characteristics of the provided labelled and unlabelled information <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>.</s></p><p><s>In the current context, input vectors consist of data that was gathered during AM builds and the labels are used to indicate whether each particular build was 'acceptable' or 'faulty' (in this paper, for example, labels are defined based on ultimate tensile strength values).</s><s>Consequently, before the application of supervised machine learning, one would have to conduct and certify a large number of AM builds (see <ref type="bibr" target="#b9">[10]</ref>, for example, where 100s of parts were produced to generate the data needed to train a support vector machine).</s><s>This procedure would have to be repeated per new type of component or material.</s><s>However, in many practical applications, completely labelled information is not available <ref type="bibr" target="#b10">[11]</ref>.</s><s>It is more common to find few labelled data and relatively large amounts of unlabelled data.</s><s>In the current study, for instance, process measurements are generated whenever a component is manufactured, but cost constraints prevent 'labels' from being assigned to most of this data.</s><s>This study explores how machine learning could help to automatically detect defects in situations where there is a large amount of unlabelled data (builds that were not certified) and a small amount of labelled data (builds that were certified).</s><s>Furthermore, it illustrates the application of a probabilistic methodologyan important aspect of the approach which allows one to quantify the uncertainties associated with machine-learnt assessments of AM builds.</s></p><p><s>The paper makes 3 main contributions:</s></p><p><s>1.</s><s>It is illustrated how a Randomised Singular Value Decomposition can be used to extract key features from large sets of L-PBF process measurements.</s><s>2. The feasibility of using machine learning to detect unsuccessful L-PBF builds from process measurements is demonstrated.</s><s>This highlights how signal-based process monitoring, which is adopted in risk analysis and industrial statistics frameworks <ref type="bibr" target="#b11">[12]</ref>, could be extended to AM applications.</s><s>3. It is shown that, using semi-supervised learning, the number of costly certification experiments associated with such an approach can be significantly reduced.</s></p><p><s>It is important to note that this study does not aim to draw links between specific L-PBF process parameters and the quality of the resulting builds.</s><s>Rather, it details a purely data-based approach whereby a machine learning algorithm is used to classify L-PBF build quality based only on the patterns that are contained within sets of photodiode measurements.</s></p><p><s>The paper is structured as follows; Section 2 discusses current stateof-the-art and highlights the contributions of the paper, Section 3 discusses the semi-supervised model derivation and formulation, Section 4 demonstrates the model using a case study and Section 5 is the conclusion of the work.</s><s>It is noted that Section 3 is included so that the machine learning approach is not presented as a 'black box'.</s><s>Section 3 can, however, be skipped by those who are purely interested in the case study.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Literature review</head><p><s>This section highlights key relevant contributions before establishing where the current paper fits amongst other literature in the field.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Key process parameters</head><p><s>Local defects may occur during layer by layer construction of an AM part.</s><s>The root causes could be traced to improper process parameters, insufficient supports, a non-homogeneous powder deposition, improper heat exchanges and/or material contaminations <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14]</ref>.</s><s>The effects of process parameters, namely; laser power, scanning speed, hatch spacing, layer thickness and powder temperature, on the tensile strength of AM products are reported in <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>.</s><s>Specifically for L-PBF, it has been shown that four key parameters, namely; part bed temperature, laser power, scan speed, and scan spacing, have significant effect on the mechanical properties and quality of an L-PBF product <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>.</s><s>Sensitivity analyses of L-PBF process parameters have revealed that both the scan speed of the laser and scan spacing can be used to facilitate effective improvement in mechanical properties <ref type="bibr" target="#b19">[20]</ref>.</s></p><p><s>The type of laser employed determines, to a great extent, the behaviour of the powdered particles during L-PBF processing <ref type="bibr" target="#b20">[21]</ref>.</s><s>This dependence is attributed to the dependence of material laser absorptivity on the wavelength of the laser type used.</s><s>It has also been discovered that particle size, size distribution, tap density, oxide film thickness, surface chemistry and impurity concentration has little effect on the sintering behaviour of aluminium powders <ref type="bibr" target="#b21">[22]</ref>.</s><s>Debroy et al. <ref type="bibr" target="#b14">[15]</ref> pointed out that during laser sintering of metals, the alloying elements vaporise from the surface of the molten pool and, as a result, the surface area-to-volume ratio is one of the crucial factors for determining the magnitude of composition change.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Monitoring approaches</head><p><s>A significant research effort has been made in recent years to develop monitoring techniques capable of detecting build defects during the build process itself.</s><s>Such techniques can be broadly classified into two families: off-axial and co-axial.</s></p><p><s>Techniques belonging to the first family use sensors placed outside the optical path, and typically use cameras to analyse what is happening on the build plate before and after the layer scans.</s><s>For example, image segmentation can be used to detect where the outline of the melted region in the layer differ from the nominal position <ref type="bibr" target="#b22">[23]</ref>.</s><s>A combination of cameras and projectors can also be used to reconstruct 3D topography after each layer scan using fringe analysis <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref>.</s></p><p><s>Co-axial sensing technologies typically use a combination of pyrometers and cameras, using the optical path of the melting laser to monitor the melt pool.</s><s>For example, in the setup described in <ref type="bibr" target="#b25">[26]</ref>, a near-infrared camera was used to monitor geometry and temperature distribution of the melt pool while a photodiode measured melt pool intensity.</s><s>Similarly, in <ref type="bibr" target="#b26">[27]</ref>, a camera and a pyrometers were used to monitor the melt pool, but using an additional co-axial source of illumination.</s><s>Two pyrometers where used in <ref type="bibr" target="#b27">[28]</ref> to capture melt pool emissions at different wavelengths, while a CCD camera measured the image brightness profiles along the transversal and longitudinal directions.</s><s>An alternative approach, based on interferometry, is described in <ref type="bibr" target="#b28">[29]</ref> as well.</s></p><p><s>For a comprehensive review of different approaches used to monitor the build process and classify defects, interested readers are referred to reference <ref type="bibr" target="#b29">[30]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Towards feedback control for L-PBF</head><p><s>While much work has been conducted to identify key parameters that affect L-PBF build quality, it can still be difficult to relate this knowledge to the development of effective control strategies.</s><s>This is particularly evident when one considers developing control strategies for new materials.</s><s>While proof-of-concept controllers have been developed in <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref> (using measurements from high-speed cameras and/ or photodiodes to control laser power) and the works <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref> detail an approach whereby geometrical accuracy was improved by varying beam offset and scan speed, the adaptability of these methods to new materials can be prohibitively time consuming and/or expensive.</s><s>In <ref type="bibr" target="#b32">[33]</ref>, for example, it is stated that 'the benchmarking process is time consuming' and that 'a change of material used will require identification of a new process benchmark as the properties of different materials influence the fabrication parameters in the process'.</s></p><p><s>It is worth noting that Finite Element models can, potentially, aid controller development by relating key process parameters to the microstructure of builds (see <ref type="bibr" target="#b34">[35]</ref>, for example).</s><s>Unfortunately, these models tend to be very specific in terms of part design and can take a long time to develop and/or implement.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Machine learning approaches</head><p><s>Through data-based approaches, facilitated by machine learning algorithms, it may be possible to overcome the challenges associated with inferring build quality from knowledge of key parameters and/or the results of Finite Element models.</s><s>Work has shown that data-driven methods can, from build data, model how process parameters affect the quality of final parts <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref>.</s><s>Approaches that utilise build data are advantageous because they provide great opportunities for digitalisation and smart process control, otherwise known as 'smart manufacturing' <ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref>.</s></p><p><s>Broadly, machine-learning approaches can be categorised as being either 'supervised' or 'unsupervised'.</s><s>Supervised approaches involve training an algorithm on a set of data, whereby each training point has a 'label' attached to it.</s><s>This label indicates the particular class that the training point belongs to (for example, in the current context, the label could indicate whether a particular set of build data corresponds to a build that had been found to be 'acceptable' or 'faulty').</s><s>Supervised algorithms then attempt to infer decision boundaries that separate these classes.</s><s>Unsupervised approaches, on the other hand, are used to identify key patterns in data that is unlabelled (cluster analysis, for example, is a well-known example of unsupervised learning).</s><s>The following 2 subsections highlight relevant applications of unsupervised and supervised approaches within the context of L-PBF.</s><s>Particular attention is given to describing the data acquisition process and/or assumptions involved in each example, as this motivates the use of semisupervised learning in the current study (Section 2.5).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1.">Unsupervised learning</head><p><s>In <ref type="bibr" target="#b41">[42]</ref>, to automatically detect local overheating phenomenon, the k-means algorithm was used to cluster features that had been extracted from images (in the visible spectrum) of L-PBF builds.</s><s>This unsupervised approach clustered the data before further assumptions were used to relate the results to build quality.</s><s>(It was, for example, assumed that data from 'normal' and 'abnormal' builds would be best represented by 2 and 3 clusters respectively).</s><s>The authors of <ref type="bibr" target="#b42">[43]</ref> used an unsupervised cluster-based approach to relate melt pool characteristics to build porosity.</s><s>As with <ref type="bibr" target="#b41">[42]</ref>, a set of assumptions were then used to relate the clustering results to build quality (specifically, it was assumed that the number of 'abnormal' melt pools would be small compared to the number of 'normal' melt pools).</s></p><p><s>In a recent study <ref type="bibr" target="#b43">[44]</ref>, anomaly detection and classification of SLM specimens was implemented using an unsupervised machine learning algorithm operating on a training database of image patches.</s><s>The algorithm functioned well as a post-build analysis tool, allowing a user to identify failure modes and locate regions within a final part that may contain millimeter-scale flaws.</s><s>However, the algorithm was not designed to classify a mixture of labelled images and unlabelled images simultaneously.</s><s>The image patches were manually selected from a secondary database; based on a pre-determined rule which clearly distinguished the patches.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2.">Supervised learning</head><p><s>Ref. <ref type="bibr" target="#b44">[45]</ref> describes a variety of approaches that can be used to infer a relationship between melt pool characteristics and part porosity.</s><s>To label melt pool data, 3D CT scans were used to empirically locate part defects before algorithm training could begin.</s><s>In <ref type="bibr" target="#b45">[46]</ref> a Gaussian process was used to infer a mapping between laser power and scan speed to part porosity.</s><s>To facilitate this approach, data was generated by conducting experiments across a grid of laser power and scan speed values before porosity was measured using Archimedes' principle.</s><s>In <ref type="bibr" target="#b46">[47]</ref>, a support vector machine was used to classify images of build layers that had been obtained using a high-resolution digital camera.</s><s>Training data was obtained using 3D CT scans, which were used to identify discontinuities in parts post-build.</s><s>It is worth noting that, whilst optical methods have been gaining popularity in recent times, the feasibility of applying supervised learning to acoustic emission data for in-situ quality monitoring has also been investigated.</s><s><ref type="bibr" target="#b47">[48]</ref>, for example, used neural networks to classify features of in-build acoustic signals to one of three quality ratings (defined based on part porosity).</s><s>To generate data for algorithm training, a SLM build was conducted using different laser scanning parameters which, through a visual analysis, were shown to influence porosity.</s><s><ref type="bibr" target="#b48">[49]</ref> used acoustic signals to train deep belief networks (a neural network algorithm, sometimes referred to under the banner of 'deep learning').</s><s>During data acquisition, process parameters were varied to deliberately induce different types of build flaw, leading to 5 different classes ('balling', 'slight balling', 'normal', 'slight overheating' and 'overheating').</s><s>This labelled data was then used to train the parameters of the neural network.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Contribution of the current work</head><p><s>The works listed above highlight the advantages and disadvantages that can be encountered when implementing both supervised and unsupervised approaches.</s></p><p><s>Supervised approaches require sufficient quantities of labelled data.</s><s>Unfortunately, the assignment of labels to data often requires a significant amount of additional resources.</s><s><ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b46">47]</ref>, for example, assigned labels based on the outcomes of CT scans while <ref type="bibr" target="#b45">[46]</ref> utilised the results from component porosity tests.</s><s>To circumvent the requirement for such additional testing, <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b48">49]</ref> used pre-existing knowledge regarding the relationship between process parameters and build defects to label data.</s><s>Such an approach, however, relies on the availability of relatively indepth knowledge regarding process-defect relationships.</s><s>This information may be difficult to obtain, particularly when new materials are being analysed.</s></p><p><s>Unsupervised approaches do not need labelled data and, consequently, are often cheaper to implement.</s><s>However, the relationship between the results of an unsupervised analysis and build quality has to be built upon an additional set of assumptions.</s><s>For example, both <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b42">43]</ref> had to make assumptions about the number / relative size of the data clusters revealed by their analyses.</s><s>While the results reported in <ref type="bibr" target="#b41">[42]</ref> and <ref type="bibr" target="#b42">[43]</ref> are encouraging, it is likely that the validity of these assumptions will come into question if such an approach was used to guarantee build quality for applications in risk-averse disciplines.</s><s><ref type="bibr" target="#b43">[44]</ref> used an unsupervised approach, but only after image data had been manually selected from a database -a process which, it must be assumed, was fairly time consuming.</s></p><p><s>In the current work it is suggested that an efficient approach should be able to utilise data that is both labelled and unlabelled as, in the author's experience, developing new materials and/or components in L-PBF often leads to a large amount of unlabelled data and a small amount of labelled data.</s><s>For example, because of the difficulties associated with identifying flaws in AM builds, a set of witness components are usually built alongside the real part.</s><s>Testing of the witness components then provides a set of labelled data.</s><s>Clearly, by having more labelled data, it is possible to generate a more reliable analysis of the build-process variability.</s><s>Testing of the witness components, however, can be expensive and time consuming (particularly if fatigue tests or CT scans are being utilised).</s><s>Moreover, the destructive nature of some testing approaches makes it impossible to apply the full set of available testing procedures to each individual witness component.</s><s>These restrictions lead to many of the witness components being 'unlabelled' with regard to certain testing procedures i.e. there exists sets of process measurements for components that were not subject to specific material tests.</s></p><p><s>The work herein hypothesises that the large amounts of unlabelled data (i.e.</s><s>process measurements where the final build has not been certified/tested in a particular manner) should not be wasted and, should be analysed alongside the more limited set of labelled data.</s><s>This semi-supervised approach is especially suited to situations where there are few labelled data and much unlabelled data.</s><s>It therefore has the potential to reduce the number of costly and time consuming certification experiments that are required in the development of machinelearnt models of L-PBF build quality.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Model derivation and formulation</head><p><s>The proposed semi-supervised method uses a Gaussian Mixture Model (GMM) to classify 'acceptable' and 'faulty' AM builds.</s><s>GMMs are often relatively time-efficient as their parameters can be estimated with the Expectation Maximization (EM) algorithm <ref type="bibr" target="#b49">[50,</ref><ref type="bibr" target="#b50">51]</ref> (described briefly in Section 3.2.1).</s><s>A description of GMMs is covered here for the sake of completeness and to highlight the application of semi-supervised learning in the current context.</s><s>For more information on GMMs the book <ref type="bibr" target="#b51">[52]</ref> is recommended.</s></p><p><s>Essentially, a GMM algorithm clusters data based on the assumption that each data point is a sample from a mixture of Gaussian distributions, such that the probability distribution over each data point can be described as a weighted sum of Gaussian components <ref type="bibr" target="#b52">[53]</ref>.</s><s>This is elaborated further below, where we first describe how a GMM can be applied to labelled data (supervised learning), before then describing its application to unlabelled data (unsupervised learning).</s><s>This then helps to establish how a GMM can be used to address situations involving both labelled and unlabelled data.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Supervised learning with a GMM</head><p><s>In the following, we use x to represent an input vectora vector of features that have been extracted from the process measurements of an SLM build.</s><s>As stated previously, a GMM assumes that each vector, x, was sampled from a mixture of Gaussian distributions <ref type="bibr" target="#b51">[52]</ref> such that</s></p><formula xml:id="formula_0">∑ = = x xμ p π Σ ( ) ( ; , ) k K k k k 1 (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>where μ = {μ 1 , …, μ K } represents the means of the Gaussians, Σ = {Σ 1 , …, Σ K } are covariance matrices of the Gaussians and π = {π 1 , …, π K } are referred to as the mixture proportions.</s><s>N is the number of available data points and K represents the number of Gaussian distributions that are considered in the mixture.</s><s>The model parameters that need to be estimated during algorithm training are</s></p><formula xml:id="formula_2">= θ μ π Σ , ,<label>(2)</label></formula><p><s>For supervised learning, each input vector, x, is already labelled -in other words, the user already knows which of the Gaussians in the mixture was used to generate each sample.</s><s>In such a circumstance, identifying the parameters θ is very easy -it is shown here for illustrative purposes and to establish notation.</s><s>Using X k to denote the set of N k samples that were generated from the kth Gaussian, the mean of each Gaussian can be estimated by</s></p><formula xml:id="formula_3">∑ = ∈ μ x N 1 x k k Xk (<label>3</label></formula><formula xml:id="formula_4">)</formula><p><s>The covariance matrices are estimated using</s></p><formula xml:id="formula_5">∑ = - - ∈ x μ x μ N Σ 1 ( )( ) x k k X k k T k (<label>4</label></formula><formula xml:id="formula_6">)</formula><p><s>while the mixture proportions are set according to</s></p><formula xml:id="formula_7">= π N N k k (<label>5</label></formula><formula xml:id="formula_8">)</formula><p><s>where N, as before, represents the total number data points (such that N = ∑ k N k ).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Unsupervised learning</head><p><s>With unsupervised learning each data point is unlabelled.</s><s>For a GMM model this means that, while it is assumed that each point is a sample from one of the Gaussian distributions in the mixture, the specific Gaussian distribution from which each data point was sampled is not known.</s><s>In such a case the labels are described as latent variables, as they are hidden to the user when an analysis is conducted.</s><s>This makes the problem much more difficult relative to the supervised case as now it is necessary to estimate both the parameters of the Gaussian distributions in the mixture and the labels associated with each data point.</s><s>Difficulties arise because the parameters of the Gaussian distributions and the labels must be correlatedthe geometry of the Gaussian distributions can only be estimated if the labels are known while the labels can only be estimated if the geometry of the Gaussian distributions are known.</s></p><p><s>At this point, it is convenient to write the latent variables using what is known as a 1-of-K representation.</s><s>Specifically, each data point (x i , for example) is associated with a K-dimensional vector, z i .</s><s>One element of z i is always equal to 1 while all the other elements of z i are set equal to zero.</s><s>This means that, by stating that z ik = 1 indicates that x i was generated from the kth Gaussian in the mixture, the set Z = {z 1 , …, z N } can be used to represent the latent variables in the problem.</s><s>Further analysis can be used to show that the mixture proportions can be defined as</s></p><formula xml:id="formula_9">= = π z Pr(<label>1</label></formula><formula xml:id="formula_10">) k ik (<label>6</label></formula><formula xml:id="formula_11">)</formula><p><s>(see <ref type="bibr" target="#b51">[52]</ref> for example) while the probability of observing the point x i conditional on z i and θ is</s></p><formula xml:id="formula_12">∏ = = x z θ x μ p Σ ( | , ) ( ; , ) z i i k K i k k 1 ik (7)</formula><p><s>Assuming uncorrelated samples, one can then write that</s></p><formula xml:id="formula_13">∏ ∏ = = = X Z θ x μ p Σ ( | , ) ( ; , ) i N k K i k k z 1 1 ik<label>(8)</label></formula><p><s>where X = {x 1 , …, x N } is the set of all observed data.</s><s>Furthermore, the posterior probability of Z can be derived using Bayes' theorem:</s></p><formula xml:id="formula_14">= ∑ ∈ Z X θ X Z θ Z θ X Z θ Z θ p p p p p ( | , ) ( | , ) ( | ) ( | , ) ( | ) Z z (<label>9</label></formula><formula xml:id="formula_15">)</formula><p><s>Eq. ( <ref type="formula" target="#formula_13">8</ref>) allows the maximum likelihood θ to be identified, conditional on the latent variables.</s><s>Likewise, Eq. ( <ref type="formula" target="#formula_14">9</ref>) allows a probabilistic analysis of the latent variables, conditional on θ.</s><s>This allows estimates of θ and Z to be estimated in a two-step procedure, known as the Expectation Maximization (EM) algorithm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Expectation Maximization</head><p><s>As the name implies, the EM algorithm starts with an expectation step.</s><s>Simplifying matters slightly, this is essentially where the model parameters θ are held fixed and the expected values of the latent variables Z are computed.</s><s>Using equation (( <ref type="formula" target="#formula_14">9</ref>)) it can be shown that</s></p><formula xml:id="formula_16">= ∑ = x μ x μ z π π Σ Σ E[ ] ( ; , ) ( ; , ) i k k k j K i j j j ik 1 (<label>10</label></formula><formula xml:id="formula_17">)</formula><p><s>This step is followed by the maximization step, where the latent variables Z are held equal to their expected values and the maximum likelihood of the model parameters, θ, are computed.</s><s>Evaluating the derivative of Eq. (( <ref type="formula" target="#formula_13">8</ref>)) and setting the resulting expression equal to 0 then, subject to the appropriate constraints, it can be shown that the maximum likelihood parameters are</s></p><formula xml:id="formula_18">∑ = = N z E[ ] k i N 1 ik (<label>11</label></formula><formula xml:id="formula_19">) = ∑ = μ x z N E[ ] k i N i k 1 ik (<label>12</label></formula><formula xml:id="formula_20">) = ∑ - - = x μ x μ z N Σ E[ ]( )<label>(</label></formula><formula xml:id="formula_21">) k i N i k i k T k 1 ik (<label>13</label></formula><formula xml:id="formula_22">) = π N N k k (<label>14</label></formula><formula xml:id="formula_23">)</formula><p><s>The sequence of EM steps is repeated until convergence of the likelihood, Eq. ( <ref type="formula" target="#formula_13">8</ref>), is observed.</s><s>The reader may consult <ref type="bibr" target="#b51">[52,</ref><ref type="bibr" target="#b53">54]</ref> for more details about the EM algorithm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Semi-supervised model formulation</head><p><s>In semi-supervised learning, the full data set consists of labelled and unlabelled data.</s><s>The aim is to classify future data using the labelled information, while also using information contained in the unlabelled data.</s><s>This approach is essentially a combination of the supervised and unsupervised formulations described in the previous sections.</s></p><p><s>For the labelled data, it is now convenient to introduce a 1-of-K representation of each label.</s><s>Specifically, each labelled point x i is associated with a vector y i where, in a similar manner to our definition of the latent variables, one element of y i is always equal to 1 while all the other elements of y i are set equal to 0 (thus indicating the Gaussian that was used to generate the data point).</s><s>For simplicity it is assumed that the data is ordered such that the first L points are labelled, while the remaining points are unlabelled.</s><s>This allows the sets of labelled and unlabelled data to be written as</s></p><formula xml:id="formula_24">≡ = X Y x y { , } { , } l i i i L 1<label>(15)</label></formula><p><s>and</s></p><formula xml:id="formula_25">≡ = + X Z x z { , } { , } u i i i L N 1<label>(16)</label></formula><p><s>respectively.</s><s>The probability of witnessing the data conditional on the GMM parameters is therefore:</s></p><formula xml:id="formula_26">= X Y X Z θ X Y θ X Z θ p p p ( , , , | ) ( , | ) ( , | ) l u l u (<label>17</label></formula><formula xml:id="formula_27">)</formula><p><s>from which it is possible to show that the maximum likelihood values of θ are</s></p><formula xml:id="formula_28">∑ ∑ = + = = + N y z E[ ] k i L i L N 1 ik Labelleddata 1 ik Unlabelled data         (<label>18</label></formula><formula xml:id="formula_29">) ∑ ∑ = + = = + μ x x N y N z 1 1 E[ ] k k i L n k i L N n 1 ik Labelled data 1 ik Unlabelled data               (<label>19</label></formula><formula xml:id="formula_30">) ∑ = - - = x μ x μ N y Σ 1 ( ) (<label>)</label></formula><formula xml:id="formula_31">k k i L i k i k T 1 ik Labelled data       ∑ + - - = + x μ x μ N z 1 E[ ]( )(<label>)</label></formula><formula xml:id="formula_32">k i L N i k i k T 1 ik Unlabelled data        (<label>20</label></formula><formula xml:id="formula_33">) = π N N k k (<label>21</label></formula><formula xml:id="formula_34">)</formula><p><s>where underbraces have been used to highlight which parts of Eqs. ( <ref type="formula" target="#formula_28">18</ref>)-( <ref type="formula" target="#formula_32">20</ref>) arise because of the labelled and unlabelled data.</s><s>The expected values of the latent variables, conditional on θ, are found using Eq. ( <ref type="formula" target="#formula_16">10</ref>) whereby the summation is only applied to the unlabelled data.</s><s>Consequently, the EM algorithm can be applied in this context (whereby the expected labels and maximum likelihood parameter estimates are updated sequentially, over a number of iterations).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Case study</head><p><s>A Renishaw RenAM 500M L-PBF machine was used to construct two builds, each consisting of 25 individual tensile test bars.</s><s>Each build involved the printing of approximately 3600 layers.</s><s>Herein, these builds are referred to as B4739 and B4741 respectively.</s></p><p><s>All samples for this study were produced from a single batch of Inconel 718.</s><s>Inconel 718 has a nickel mass fraction of up to 55% alloyed with iron up to 21% and chromium up to 21%.</s><s>Typical properties include high strength, excellent corrosion resistance and a working temperature range between -250 °C and 650 °C.</s><s>It has a wide range of applications within industry and is suitable for applications where good tensile, creep, and rupture strength is required.</s><s>In particular, it is often used in situations where corrosion and oxidation resistance at high temperatures is needed.</s><s>Its excellent welding characteristics and resistance to cracking makes it an ideal material for AM.</s></p><p><s>Fig. <ref type="figure" target="#fig_0">1</ref> shows a schematic of the machine and optical system used to control the movement of the nominal 80 μm diameter focused laser spot.</s><s>Samples were built in a layer-wise fashion on a substrate plate.</s><s>The plate is connected to an elevator which moves vertically downwards, allowing the controlled deposition of powder layers at 60 μm intervals.</s></p><p><s>A commercially available laser processing parameter set (supplied by Renishaw) was used throughout the experiments.</s><s>These were derived from standard process optimisation methods used in the AM industry.</s><s>Post build, the test pieces were removed from the substrate plates using wire erosion.</s><s>The tensile test bars were machined to ASTM E8-15a specification to a nominal diameter of 6.0mm and parallel length equal to 36.0 mm.</s></p><p><s>Each specimen was instrumented with a dual averaging extensometer and tested at ambient temperature using an Instron tensile test machine.</s><s>Tests were conducted with a 100 kN load cell under strain rate control at the first rate (0.005 strain/min) to beyond yield at which point the second rate (0.05 strain/min) was adopted, following the removal of the extensometry equipment.</s></p><p><s>Fig. <ref type="figure" target="#fig_0">1</ref> illustrates the photodiode sensing system (MeltVIEW) that was used during each build.</s><s>Light from the melt pool enters the optical mirror before being reflected into the MeltVIEW module by the galvanometer mirror.</s><s>A semi-transparent mirror is then used to reflect light to photodiode 1 (labelled as 4 in Fig. <ref type="figure" target="#fig_0">1</ref>) before a fully opaque mirror reflects light to photodiode 2 (labelled as 5 in Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>Photodiode 1 is designed to detect plasma emissions (between 700 and 1050 nm) while photodiode 2 is designed to detect thermal radiation from the melt pool (between 1100 and 1700 nm).</s><s>Time histories of the photodiode measurements and laser position were output to a series of DAT files.</s><s>Each DAT file corresponded to a layer of the build and contained approximately 115 KB of data.</s><s>During processing, no missing values were identified.</s></p><p><s>Using the MeltVIEW sensing system, the task is to extract significant information about build quality from the photodiode measurements.</s><s>In this work, quality is defined using the results from an Ultimate Tensile Strength (UTS) test of each bar.</s><s>Here, a UTS value of 1400 MPa represents an acceptable part while UTS values below 1400 MPa represent a faulty part (this definition is sufficient for demonstrating the feasibility of the proposed approach although it is noted that more complex criteria can be utilised in the future).</s><s>Fig. <ref type="figure" target="#fig_1">2</ref> shows the x-y coordinates of the laser during the build of a single layer on the fusion bed.</s></p><p><s>Regarding the choice of sensing system, the general consensus amongst current literature is that data regarding melt pool characteristics will be closely related to build quality.</s><s>Photodiode data is used in the current work as it is known to be closely correlated to properties of the melt pool (see <ref type="bibr" target="#b31">[32]</ref>, for example).</s><s>While it has been hypothesised that, relative to thermal imaging systems, photodiodes may be able to capture data from a larger zone around the melt pool, the significance of this difference is currently unclear and could be investigated as future work.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Feature extraction</head><p><s>As described previously, two L-PBF builds were conducted as part of the study.</s><s>This led to the construction of a total of 50 tensile test bars (i.e. 25 bars per build).</s><s>During each build, the x and y position of the laser was collected alongside time history measurements from 2 photodiodes sensors (sample frequency equal to 100 kHz, resulting in approximately 400 GB of data per build).</s><s>Here it is described how, from these large data, key features were extracted.</s><s>This was based on the hypothesis that, from the photodiode measurements, it would be possible to extract relatively low dimensional features that give a statistically significant indication of build quality.</s><s>It is also demonstrated how, because of the size of the data being utilised, feature extraction from L-PBF process measurements must be conducted using methods that are appropriate for large data sets.</s></p><p><s>Initial data processing/reduction was conducted in two steps.</s><s>Fig. <ref type="figure" target="#fig_2">3</ref> graphically demonstrates this process for a single build (noting that the same procedure was applied to measurements from both photodiodes, Fig. <ref type="figure" target="#fig_2">3</ref> illustrates the process for data from a single photodiode only).</s><s>In Step 1, a downsampling procedure was used such that only the data from every 10th layer of the build was used in subsequent analyses.</s><s><ref type="foot" target="#foot_0">2</ref>Note that only measurements taken when the laser was active were considered.</s><s>In Step 2, for each layer that was analysed, the x-y position of the laser was used to identify which parts of each photodiode measurement time history corresponded to the building of a particular tensile test bar.</s><s>This data was then collected together into an m × n data matrix, A, where the first column of A corresponded to measurements associated with bar one, the second column of A corresponded to measurements associated with bar two etc.</s><s>The transpose of A is illustrated graphically at the bottom of Fig. <ref type="figure" target="#fig_2">3</ref>.</s></p><p><s>In the final step of the feature extraction procedure the intention was to apply a Singular Value Decomposition (SVD) to the data matrix, allowing A to be written as the product of 3 matrices:</s></p><formula xml:id="formula_35">= A UDV T (<label>22</label></formula><formula xml:id="formula_36">)</formula><p><s>where U is an m × n orthogonal matrix, V is an n × n orthogonal matrix and</s></p><formula xml:id="formula_37">= … D σ σ diag( , , ) m 1 (<label>23</label></formula><formula xml:id="formula_38">)</formula><p><s>where σ 1 , σ 2 , … are constants (given by the eigenvalues of A T A) that, typically, are ordered such that σ 1 ≥ σ 2 ≥ ⋯ ≥ σ m .</s><s>The SVD allows each of the columns in A to be written as a linear combination of basis vectors.</s><s>Specifically, writing B = DV T , it can be shown that</s></p><formula xml:id="formula_39">∑ = ⟶ = = A UB a u B j p n p 1 pj (<label>24</label></formula><formula xml:id="formula_40">)</formula><p><s>where a j is the jth column in A and u p is the pth column in U. From Eq. ( <ref type="formula" target="#formula_39">24</ref>) it can be seen that each column of A is now associated with n constants (a j is associated with B 1j , B 2j , …, B nj etc.)</s><s>It is these constants that can be used as featuresinputs to the machine learning algorithm.</s><s>In fact, by ordering the SVD results such that σ 1 ≥ σ 2 ≥ ⋯ ≥ σ m , close approximations of A can be realised without using the full set of basis vectors.</s><s>Specifically, if a new matrix, A ˜, is formed whose jth column is</s></p><formula xml:id="formula_41">∑ = &lt; = a u B n n ˜, ˜ j p n p 1 ˜pj (<label>25</label></formula><formula xml:id="formula_42">)</formula><p><s>then A ˜will form a low-rank approximation of A. Using A ˜instead of A can therefore facilitate a reduction in the size of the feature space (in other words, the number of constants associated with each column of A ˜ will be less than the number of constants associated with each column of A).</s></p><p><s>Unfortunately it was found that the matrix A was prohibitively large for analysis via standard SVD.</s><s>To circumvent this issue A was, instead, decomposed using a Randomised SVD.</s><s>A brief outline of this procedure is given in the following text, however, for more information, readers may consult <ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref>.</s></p><p><s>A Randomised SVD first involves the generation of an orthogonal projection matrix G, which, when applied to the data matrix, reduces dimensionality while approximately preserving the pairwise distances between each of the projected vectors.</s><s>To avoid the large computational costs that can be associated with this procedure, the columns of the projection matrix are sampled from a zero-mean unit-variance multivariate Gaussian distribution.</s><s>This ensures that, on average, the required properties of the projection matrix are obtained.</s><s>Once G has been formed, A is projected onto G to realise the matrix H (such that H = AG).</s><s>An iterative procedure, described in <ref type="bibr" target="#b55">[56]</ref>, is then used to increase the differences between the large and small singular values of H.</s><s>This decreases the computational cost of the next stage of the process, whereby a QR-decomposition is used to orthonormalise the column vectors of H.</s><s>The QR-decomposition is used to account for the fact that, potentially, the randomly generated projection matrix G may not be perfectly orthonormal.</s><s>Having been orthonormalised, H is then used to realise a final, low rank approximation of A, denoted A′.</s><s>A standard SVD is then applied to A′.</s></p><p><s>In the current work, for each tensile test bar, the time history of measurements from photodiodes 1 and 2 were each projected onto a single basis vector only.</s><s>As a consequence, each specimen becomes associated with a 2-dimensional 'feature vector'.</s><s>The first element of the feature vector represents the projection of measurements from photodiode 1 onto a single basis vector while the second element of the feature vector is the projection of measurements from photodiode 2 onto a single basis vector.</s><s>Inevitably, some information is lost in this projection process.</s><s>Figs. <ref type="figure" target="#fig_3">4</ref> and <ref type="figure" target="#fig_4">5</ref> respectively compare a segment of the measurements from photodiodes 1 and 2, for a single specimen, before and after the projection onto a single basis vector.</s><s>If this level of information loss was deemed unsatisfactory one could choose to project these measurement time histories onto a greater number of basis vectors (although this would, in turn, increase the dimensionality of the space within which the machine learning algorithm must be applied).</s><s>In the current study, however, it was found that projecting onto a single basis vector made it possible to distinguish between acceptable and faulty builds with sufficient accuracythe potential benefits of projecting onto more than one basis vector will be investigated in future work.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Semi-supervised learning application</head><p><s>Tensile tests were performed on the builds using a standard Instron  tensile machine at room temperature.</s><s>As detailed in Section 4.1, the ultimate tensile strength (UTS) of the bars were used to define each bar as 'acceptable' or 'faulty'.</s><s>Semi-supervised learning was applied to the features extracted from each of the bars.</s><s>However, bar 22 from build B4741 was not considered because its ultimate tensile strength could not be obtained.</s><s>As a result, 49 specimens were considered in this analysis.</s><s>Fig. <ref type="figure" target="#fig_5">6</ref> shows the position of each specimen in the feature space and the associated labels.</s><s>With the aim of distinguishing between 'acceptable' and 'faulty' cases, a GMM with two Gaussian distributions was employed.</s></p><p><s>In the following, when assessing new data, specimens are labelled as faulty if the probability that they are faulty is greater than 0.5.</s><s>This was considered sufficient for analysing the feasibility of the approach such that, once established, future work can aim to further exploit the uncertainty information contained in such probabilistic outputs.</s><s>In the author's opinion, it is important that an uncertainty quantification framework is built into the proposed approach from the onset as, for approaches that are purely data based, knowing when a diagnosis is uncertain and where human intervention may be required will be crucial.</s></p><p><s>It is noted that, in the following, the algorithm is always initialised using the results of a purely supervised approach.</s><s>Specifically, the first iteration ignores unlabelled samples and produces an initial estimate of the GMM parameters using the labelled samples only (employing Eqs. ( <ref type="formula" target="#formula_18">11</ref>)-( <ref type="formula" target="#formula_22">14</ref>)).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Results</head><p><s>Initial runs concentrated on a single case where 25 of the specimens were labelled while the remaining 24 were unlabelled.</s><s>For this case, the unlabelled points were selected randomly, leading to the training data shown in Fig. <ref type="figure" target="#fig_6">7</ref>.</s><s>The semi-supervised GMM was then trained, before being used to classify all 49 specimens.</s><s>Using the training data shown in Fig. <ref type="figure" target="#fig_6">7</ref>, faulty specimens were identified with a 77% success rate.</s><s>These results are illustrated in Fig. <ref type="figure">8</ref>, where red and green contours illustrate the positions of the two Gaussians in the mixture model, circle represents the true labels that were assigned to each specimen and triangles show the labels inferred by the algorithm.</s><s>Note that the inferred labels are colour-coded depending on the probabilities that were assigned by the algorithmpurely green triangles correspond to the probability of a faulty specimen equal to zero while purely red triangles correspond to the probability of a faulty specimen equal to one.</s></p><p><s>The results in Fig. <ref type="figure">8</ref> represent the algorithm's outputs for a single set of training data only.</s><s>To better gauge overall performance, a Monte Carlo analysis was conducted -1000 analyses were undertaken where, at each Monte Carlo iteration, the 24 unlabelled points were selected randomly.</s><s>The resulting positions of the two Gaussian distributions were found to be relatively insensitive to the choice of unlabelled points.</s><s>This is illustrated in Fig. <ref type="figure">9</ref>, which shows the results that were obtained for six runs of the Monte Carlo analysis.</s><s>Furthermore, the algorithm success rate was also found to be relatively insensitive to the assignment of unlabelled data; the histogram in Fig. <ref type="figure" target="#fig_7">10</ref> shows success rates that are closely clustered around 77%.</s><s>It is important to note that, by giving a probabilistic estimate of each specimen's label, uncertainty quantification is embedded into the approach.</s><s>This is useful as it can illustrate, to the user, when a particular specimen is difficult to label (i.e. when it is not clear which cluster the data point belongs to).</s></p><p><s>To analyse how the algorithm's performance degrades as less labelled data is used, similar Monte Carlo simulations were conducted using different amounts of labelled and unlabelled data.</s><s>Fig. <ref type="figure" target="#fig_8">11</ref> shows   results ranging from the case where there are 48 labelled points (and 1 unlabelled point) to the case where there are 20 label points (and 28 unlabelled points).</s><s>While lower success rates are more frequently observed when the number of labelled data appoints is reduced (as one would expect), it is encouraging to note that algorithm performance does not drop off sharply.</s><s>It can be seen, for example, that the number of labelled data points can be halved without significantly altering the resulting success rates.</s><s>While, in the example, labels were relatively cheap to obtain (using tensile tests) the cost savings associated with the semi-supervised approach will clearly increase when more thorough and/or expensive certification methods are used.</s><s>For example, in the Fig. <ref type="figure">8</ref>. Example semi-supervised learning results.</s><s>Red and green contours show the inferred geometry of the two Gaussian distributions in the mixture.</s><s>Circles represent the true labels that were assigned to each specimen, while triangles show the inferred labels.</s></p><p><s>Fig. <ref type="figure">9</ref>. Semi-supervised learning results obtained for 6 runs of a Monte Carlo simulation where, for each run, 24 unlabelled points are selected randomly.</s><s>author's experience, a CT scan of a typical component usually costs between £ 500 and £ 1000.</s></p><p><s>The next set of analyses aimed to illustrate the additional information that can be acquired through the inclusion of the unlabelled data.</s><s>Specifically, for the case where 16 of the data points were labelled, the success rate of the semi-supervised approach was compared with that of a purely supervised approach (where, in other words, a Gaussian Mixture Modal was fitted only to the 16 labelled data).</s><s>Again, a Monte Carlo analysis was used to consider variability in the selection of labelled data points.</s><s>Fig. <ref type="figure" target="#fig_9">12</ref> shows the resulting histograms of percentage success rate for (a) the semi-supervised case and (b) the supervised case.</s><s>The vertical red line indicates the benchmark result i.e. the result that can be obtained if all 49 of the data points were labelled and used to train the Gaussian Mixture Model.</s><s>Relative to the supervised approach, the semi-supervised approach is more clustered around the benchmark result.</s></p><p><s>For each experiment used to create the results in Fig. <ref type="figure" target="#fig_9">12</ref>, a Receiver Operating Characteristic (ROC) curve was also calculated.</s><s>ROC curves are applicable when a classification algorithm outputs the probability of each data point belonging to a specific class (as is the case here).</s><s>ROC curves involve analysing the performance of the proposed classification algorithm for a variety of 'threshold probabilities'.</s><s>In the current case, for example, success rate was defined based on a threshold probability of 0.5 as it was assumed that a specimen would be classified as 'Faulty' if the probability that it belonged to the corresponding 'Faulty' cluster exceeded 0.5.</s><s>To create an ROC curve, a classifier's False Positive Rate (FPR) and True Positive Rate (TPR) are recorded for a range of different threshold probabilities before the resulting TPR and FPR outputs are plotted against one-another.</s><s>In the context of the current example, the TPR is defined as the ratio of the number of successfully identified faulty specimens, relative to the total number of identified faulty specimens.</s><s>Likewise, the FPR is defined as the ratio of the number of falsely identified faulty specimens, relative to the total number of identified acceptable specimens.</s><s>The closer a ROC curve is to the top-left corner of an ROC plot, the better the classifier is judged to be.</s></p><p><s>Fig. <ref type="figure" target="#fig_10">13</ref> shows the ensemble of ROC curves that were realised for the same set of Monte Carlo experiments used to create Fig. <ref type="figure" target="#fig_9">12</ref> (where there were 16 labelled points and 33 unlabelled points).</s><s>To aid visualisation, the individual ROC curve evaluations are plotted using markers, where blue stars represent results obtained using a semi-supervised approach and black circles represent results obtained using a supervised approach, applied to the 16 labelled data points.</s><s>The red ROC curve represents the baseline case, where all 49 of the data points were labelled and used to train the Gaussian Mixture Model.</s><s>Similarly to the results shown in Fig. <ref type="figure" target="#fig_9">12</ref>, the ensemble of results using the semi-supervised approach cluster the benchmark result more closely than those realised using the supervised approach.</s></p><p><s>To complete a comparison of the supervised and semi-supervised approaches, 2-fold cross validation was performed.</s><s>In other words, the data was divided into two 'training' and 'testing' data sets of 25 and 24 points respectively.</s><s>This data separation allowed us to analyse the ability of the algorithm to classify data in the testing set, based only on information from the training set.</s><s>To complete the 2-fold validation, the role of the two datasets was reversed (such that the training data became the testing data and so on), such that a second analysis could be performed.</s><s>The success rates for these two analyses were then averaged, to obtain a measure of algorithm performance.</s></p><p><s>As one would expect, the differences between the semi-supervised and supervised approaches become more pronounced as the ratio of unlabelled training data to labelled training data increases.</s><s>For this reason, for illustrative purposes, Fig. <ref type="figure" target="#fig_11">14</ref> represents results obtained for the case where only 6 of the training data points were labelled.</s><s>As before, to account for variations that may arise in the selection of labelled training points, Monte Carlo experiments were performed where, at each iteration, the labelled data was randomly selected from the available training data.</s><s>Fig. <ref type="figure" target="#fig_11">14(a</ref>) and (b) shows the ensemble of results that were obtained for the semi-supervised and supervised cases respectfully.</s><s>Once again, the semi-supervised results are clustered towards a higher average success rate than the supervised results.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion and future work</head><p><s>Additive Manufacturing (AM) is a digital approach for manufacturing highly customised components.</s><s>However, uncertainties surrounding part quality hinders the adoption of AM technology in many risk-averse sectors.</s><s>This paper is the outcome of a feasibility study wherein a semi-supervised machine learning algorithm was developed and applied to a large amount of AM process data (photodiode measurements, generated during L-PBF builds of tensile test bars).</s><s>Key features were extracted from these large datasets using a Randomised Singular Value Decomposition, before a Gaussian Mixture Model was trained to recognise builds that had been identified as 'faulty'.</s><s>The semi-supervised approach allowed this to be conducted using a reduced number of certification experiments and, through Receiver Operating Characteristic (ROC) curves and 2-fold cross-validation, was shown to outperform a supervised approach that did not use the unlabelled data that was available for training.</s><s>Key contributions are summarised as follows:</s></p><p><s>1.</s><s>In this work it was demonstrated how, when using machine learning to infer part quality from L-PBF process measurements, the large quantity of available data can prevent the application of 'conventional' feature extraction methods.</s><s>It was illustrated how this challenge can be overcome using methods that are suitable for large datasets (a Randomised Singular Value Decomposition in this case).</s><s>2. By successfully classifying 'successful' builds with a 77% success rate, the feasibility of identifying faulty L-PBF builds using a purely data-based approach analysis of photodiode measurement time histories has been demonstrated.</s><s>3. It has been demonstrated that, through a semi-supervised approach, the number of costly certification experiments required in the implementation of machine-learnt build classification can be significantly reduced.</s></p><p><s>The paper has led to several avenues of future work.</s><s>Firstly, the authors are currently investigating whether the results reported in the current manuscript can be improved through the use of additional basis vectors.</s><s>This will reduce the amount of information lost during feature extraction but will also increase the dimensionality of the feature space within which machine learning must be performed.</s><s>Secondly, with regard to sensing systems, the current paper utilised data from photodiodes sensors (which has been shown to be closely related properties of the melt pool <ref type="bibr" target="#b31">[32]</ref>).</s><s>Future work aims to investigate whether classification can be improved through the use of additional, complimentary sensing systems (acoustic sensors and thermal imaging cameras, for example).</s><s>Finally, the authors are currently developing a version of the semi-supervised algorithm described in the current paper that is suitable for layer-by-layer defect detection, using data provided from CT scans.</s><s>Ultimately, the aim of this work is to establish machine-learnt control strategies that can de-risk AM Technology, facilitate its wider adoption and reduce the time associated with new materials innovation.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>Schematic of Renishaw RenAM 500M L-PBF machine and optical sensing system (image reproduced with permission from the Renishaw Brochure 'InfiniAM Spectral', available at http://www.renishaw.com/en/infiniam-spectral-42310).</s></p></div></figDesc><graphic coords="6,147.69,57.03,300.00,209.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. x-y coordinates of the laser as a single layer of a build is being constructed.</s><s>Red areas indicate the positions of the 25 tensile test bars while blue represents the laser path.</s><s>Note that x-y coordinates are calculated from galvanometer measurements and that, for confidentiality reasons, units of position have been left as arbitrary.</s></p></div></figDesc><graphic coords="6,312.09,306.14,240.24,162.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3. Initial analysis of data from a single photodiode sensor, for a single build.</s></p></div></figDesc><graphic coords="7,147.69,57.03,300.00,196.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Outputs for photodiode 1, for the first tensile test bar of build B4739.</s><s>Black represents the uncompressed measurements, red represents measurements after they have been projected onto a single basis vector.</s><s>Note that, for confidentiality reasons, unitless photodiode measurements are shown here.</s></p></div></figDesc><graphic coords="7,312.09,517.27,240.24,182.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. Outputs for photodiode 2, for the first tensile test bar of build B4739.</s><s>Black represents the uncompressed measurements, red represents measurements after they have been projected onto a single basis vector.</s><s>Note that, for confidentiality reasons, unitless photodiode measurements are shown here.</s></p></div></figDesc><graphic coords="8,43.09,57.03,240.24,177.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6.</s><s>The position of each specimen in the feature space.</s><s>The triangular points are for bars from build B4741 and the circular points are for bars from build B4739.</s><s>The colour green represents acceptable specimens and red represents faulty specimens.</s></p></div></figDesc><graphic coords="8,43.09,293.16,240.24,185.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7. Training data.</s><s>Example labelled and unlabelled specimens, in the feature space, before the application of semi-supervised learning.</s></p></div></figDesc><graphic coords="8,312.09,57.03,240.24,231.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 10 .</head><label>10</label><figDesc><div><p><s>Fig.10.</s><s>Histogram of algorithm success rates, obtained over 1000 runs of Monte Carlo simulation where, for each run, 24 unlabelled points are selected randomly.</s></p></div></figDesc><graphic coords="9,312.09,57.03,240.24,180.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig. 11.</s><s>Histogram of algorithm success rates, obtained over 1000 runs of Monte Carlo simulation, as a function of the number of labelled data points.</s></p></div></figDesc><graphic coords="10,43.09,57.03,240.24,182.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 12 .</head><label>12</label><figDesc><div><p><s>Fig. 12. Histogram of algorithm success rates the (a) semi-supervised, and (b) supervised only approach.</s><s>Results are shown for the case where 16 of the data points were labelled.</s><s>The red line indicates the benchmark result (supervised learning when all 49 points are labelled).</s></p></div></figDesc><graphic coords="10,43.09,520.44,240.24,179.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 13 .</head><label>13</label><figDesc><div><p><s>Fig. 13.</s><s>ROC curves for the ensemble of experiments analysed in Fig. 12.</s><s>The red line indicates the benchmark result (supervised learning when all 49 points are labelled).</s></p></div></figDesc><graphic coords="10,312.09,57.03,240.24,179.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 14 .</head><label>14</label><figDesc><div><p><s>Fig. 14. 2-fold cross validation where (a) are results realised using a semi-supervised approach and (b) are results using a supervised approach.</s></p></div></figDesc><graphic coords="11,43.09,57.03,240.24,186.19" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p><s>This step was taken simply to reduce the size of the data that needed to be processed.</s><s>Further studies showed that using every layer did not significantly alter the results presented here.</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>This work was conducted in the feasibility study '<rs type="projectName">Towards Additive Manufacturing Process Control using Semi-Supervised Machine Learning</rs>' that was funded through the <rs type="funder">EPSRC</rs> <rs type="grantName">Network Plus Grant</rs>: <rs type="projectName">Industrial Systems in the Digital Age</rs> <rs type="grantNumber">EP/P001246/1</rs>, <ref type="url" target="https://connectedeverything.ac.uk/">https://  connectedeverything.ac.uk/</ref>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_bNdsjxj">
+					<orgName type="grant-name">Network Plus Grant</orgName>
+					<orgName type="project" subtype="full">Towards Additive Manufacturing Process Control using Semi-Supervised Machine Learning</orgName>
+				</org>
+				<org type="funded-project" xml:id="_8zVH8tR">
+					<idno type="grant-number">EP/P001246/1</idno>
+					<orgName type="project" subtype="full">Industrial Systems in the Digital Age</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Intelligent pattern recognition of a SLM machine process and sensor data</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Uhlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pontes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Laghmouchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bergmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="464" to="469" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Uhlmann, R. Pontes, A. Laghmouchi, A. Bergmann, Intelligent pattern recogni- tion of a SLM machine process and sensor data, Procedia CIRP 62 (2017) 464-469.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Metal based additive layer manufacturing: variations, correlations and process control</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>O'regan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prickett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Setchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hankins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="216" to="224" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. O&apos;Regan, P. Prickett, R. Setchi, G. Hankins, N. Jones, Metal based additive layer manufacturing: variations, correlations and process control, Procedia Comput. Sci. 96 (2016) 216-224.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effect of scan strategy on density and metallurgical properties of 17-4ph parts printed by Selective Laser Melting (SLM)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Palanisamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brandt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">249</biblScope>
+			<biblScope unit="page" from="502" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Rashid, S. Masood, D. Ruan, S. Palanisamy, R. Rashid, M. Brandt, Effect of scan strategy on density and metallurgical properties of 17-4ph parts printed by Selective Laser Melting (SLM), J. Mater. Process. Technol. 249 (2017) 502-511.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Development of an adaptive, self-learning control concept for an additive manufacturing process</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Renken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Goch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Neef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Emmelmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP J. Manuf. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="57" to="61" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Renken, S. Albinger, G. Goch, A. Neef, C. Emmelmann, Development of an adaptive, self-learning control concept for an additive manufacturing process, CIRP J. Manuf. Sci. Technol. 19 (2017) 57-61.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Quality prediction in interlinked manufacturing processes based on supervised &amp; unsupervised machine learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Konrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deuse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="193" to="198" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Lieber, M. Stolpe, B. Konrad, J. Deuse, K. Morik, Quality prediction in interlinked manufacturing processes based on supervised &amp; unsupervised machine learning, Procedia CIRP 7 (2013) 193-198.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Observational data-driven modeling and optimization of manufacturing processes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sadati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chinnam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nezhad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Syst. Appl</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="456" to="464" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Sadati, R. Chinnam, M. Nezhad, Observational data-driven modeling and opti- mization of manufacturing processes, Expert Syst. Appl. 93 (2018) 456-464.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Semi-supervised multi-graph classification using optimal feature selection and extreme learning machine</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="89" to="100" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Pang, Y. Gu, J. Xu, G. Yu, Semi-supervised multi-graph classification using op- timal feature selection and extreme learning machine, Neurocomputing 277 (2018) 89-100.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Automatic segmentation for brain MR images via a convex optimized segmentation and bias field correction coupled model</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Magn. Reson. Imaging</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="941" to="955" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Chen, B. Zhao, J. Zhang, Y. Zheng, Automatic segmentation for brain MR images via a convex optimized segmentation and bias field correction coupled model, Magn. Reson. Imaging 32 (7) (2014) 941-955.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A robust modified Gaussian mixture model with rough set for image segmentation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="550" to="565" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Ji, Y. Huang, Y. Xia, Y. Zheng, A robust modified Gaussian mixture model with rough set for image segmentation, Neurocomputing 266 (2017) 550-565.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Support vector machines for quality monitoring in a plastic injection molding process</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ribeiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst. Man Cybern. Part C: Appl. Rev</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="401" to="410" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Ribeiro, Support vector machines for quality monitoring in a plastic injection molding process, IEEE Trans. Syst. Man Cybern. Part C: Appl. Rev. 35 (3) (2005) 401-410.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">MsLRR: a unified multiscale low-rank representation for image segmentation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Image Process</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2159" to="2167" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Liu, Q. Xu, J. Ma, H. Jin, Y. Zhang, MsLRR: a unified multiscale low-rank re- presentation for image segmentation, IEEE Trans. Image Process. 23 (5) (2014) 2159-2167.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Montgomery</surname></persName>
+		</author>
+		<title level="m">Statistical Quality Control</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Montgomery, Statistical Quality Control vol. 7, Wiley, New York, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The metallurgy and processing science of metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>List</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pannala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dehoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Babu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Mater. Rev</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="315" to="360" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Sames, F. List, S. Pannala, R. Dehoff, S. Babu, The metallurgy and processing science of metal additive manufacturing, Int. Mater. Rev. 61 (5) (2016) 315-360.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">In-process sensing in selective laser melting (SLM) additive manufacturing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Spears</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr. Mater. Manuf. Innov</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Spears, S. Gold, In-process sensing in selective laser melting (SLM) additive manufacturing, Integr. Mater. Manuf. Innov. 5 (1) (2016) 2.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of metallic componentsprocess, structure and properties</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zuback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Milewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson-Heid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. DebRoy, H. Wei, J. Zuback, T. Mukherjee, J. Elmer, J. Milewski, A. Beese, A. Wilson-Heid, A. De, W. Zhang, Additive manufacturing of metallic components- process, structure and properties, Prog. Mater. Sci. (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Computational intelligence for smart laser materials processing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Casalino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Laser Technol</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="165" to="175" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Casalino, Computational intelligence for smart laser materials processing, Opt. Laser Technol. 100 (2018) 165-175.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Determining the effect of sintering conditions on mechanical properties of laser sintered glass filled polyamide parts using RSM</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Negi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dhiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sharma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Measurement</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="205" to="218" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Negi, S. Dhiman, R. Sharma, Determining the effect of sintering conditions on mechanical properties of laser sintered glass filled polyamide parts using RSM, Measurement 68 (2015) 205-218.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effect of process parameters on the selective laser melting (SLM) of tungsten</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Enneti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Atre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="315" to="319" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Enneti, R. Morgan, S. Atre, Effect of process parameters on the selective laser melting (SLM) of tungsten, Int. J. Refract. Met. Hard Mater. 71 (2018) 315-319.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Influences of processing parameters on surface roughness of hastelloy x produced by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tomus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rometsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="103" to="112" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Tian, D. Tomus, P. Rometsch, X. Wu, Influences of processing parameters on surface roughness of hastelloy x produced by selective laser melting, Addit. Manuf. 13 (2017) 103-112.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">An overview of powder granulometry on feedstock and part performance in the selective laser melting process</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dalgarno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Tan, W. Wong, K. Dalgarno, An overview of powder granulometry on feedstock and part performance in the selective laser melting process, Addit. Manuf. (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A review on selective laser sintering/ melting (SLS/SLM) of aluminium alloy powders: processing, microstructure, and properties</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Olakanmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cochrane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dalgarno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="401" to="477" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Olakanmi, R. Cochrane, K. Dalgarno, A review on selective laser sintering/ melting (SLS/SLM) of aluminium alloy powders: processing, microstructure, and properties, Prog. Mater. Sci. 74 (2015) 401-477.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Wear behavior of Al-Sn alloys with different distribution of Sn dispersoids manipulated by mechanical alloying and sintering</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wear</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="issue">11-12</biblScope>
+			<biblScope unit="page" from="1857" to="1863" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Liu, M. Zeng, Y. Ma, M. Zhu, Wear behavior of Al-Sn alloys with different distribution of Sn dispersoids manipulated by mechanical alloying and sintering, Wear 265 (11-12) (2008) 1857-1863.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Characterization of in-situ measurements based on layerwise imaging in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caltanissetta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Colosimo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.09.017</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2018.09.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="183" to="199" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Caltanissetta, M. Grasso, S. Petr, B.M. Colosimo, Characterization of in-situ measurements based on layerwise imaging in laser powder bed fusion, Addit. Manuf. 24 (2018) 183-199, https://doi.org/10.1016/j.addma.2018.09.017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">In situ surface topography of laser powder bed fusion using fringe projection</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ziegert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Farahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davies</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2016.08.001</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2016.08.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="100" to="107" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Zhang, J. Ziegert, F. Farahi, A. Davies, In situ surface topography of laser powder bed fusion using fringe projection, Addit. Manuf. 12 (2016) 100-107, https://doi. org/10.1016/j.addma.2016.08.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">In situ 3D monitoring of geometric signatures in the powder-bed-fusion additive manufacturing process via vision sensing methods</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s18041180</idno>
+		<ptr target="https://doi.org/10.3390/s18041180" />
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Li, X. Liu, S. Wen, P. He, K. Zhong, Q. Wei, Y. Shi, S. Liu, In situ 3D monitoring of geometric signatures in the powder-bed-fusion additive manufacturing process via vision sensing methods, Sensors 18 (4) (2018), https://doi.org/10.3390/ s18041180.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">In situ quality control of the selective laser melting process using a high-speed, real-time melt pool monitoring system</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Clijsters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">5-8</biblScope>
+			<biblScope unit="page" from="1089" to="1101" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Clijsters, T. Craeghs, S. Buls, K. Kempen, J. Kruth, In situ quality control of the selective laser melting process using a high-speed, real-time melt pool monitoring system, Int. J. Adv. Manuf. Technol. 75 (5-8) (2014) 1089-1101.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Process observation in fiber laser-based selective laser melting</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Thombansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gatej</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pereira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Eng</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">11008</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. Thombansen, A. Gatej, M. Pereira, Process observation in fiber laser-based se- lective laser melting, Opt. Eng. 54 (1) (2014) 011008.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of Ti6Al4V alloy for biomedical applications: temperature monitoring and microstructural evolution</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krakhmalev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2013.08.183</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2013.08.183" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">583</biblScope>
+			<biblScope unit="page" from="404" to="409" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Yadroitsev, P. Krakhmalev, I. Yadroitsava, Selective laser melting of Ti6Al4V alloy for biomedical applications: temperature monitoring and microstructural evolution, J. Alloys Compd. 583 (2014) 404-409, https://doi.org/10.1016/j. jallcom.2013.08.183.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">In situ morphology-based defect detection of selective laser melting through inline coherent imaging</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kanko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Sibley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2015.12.024</idno>
+		<ptr target="https://doi.org/10.1016/j.jmatprotec.2015.12.024" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="page" from="488" to="500" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.A. Kanko, A.P. Sibley, J.M. Fraser, In situ morphology-based defect detection of selective laser melting through inline coherent imaging, J. Mater. Process. Technol. 231 (2016) 488-500, https://doi.org/10.1016/j.jmatprotec.2015.12.024.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Process defects and in situ monitoring methods in metal powder bed fusion: a review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Colosimo</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-6501/aa5c4f</idno>
+		<ptr target="https://doi.org/10.1088/1361-6501/aa5c4f" />
+	</analytic>
+	<monogr>
+		<title level="j">Meas. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Grasso, B.M. Colosimo, Process defects and in situ monitoring methods in metal powder bed fusion: a review, Meas. Sci. Technol. 28 (4) (2017), https://doi.org/10. 1088/1361-6501/aa5c4f.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Feedback control of layerwise laser melting using optical sensors</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bechmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Berumen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Procedia</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="505" to="514" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Craeghs, F. Bechmann, S. Berumen, J. Kruth, Feedback control of layerwise laser melting using optical sensors, Phys. Procedia 5 (2010) 505-514.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Feedback control of selective laser melting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mercelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Vaerenbergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3rd International conference on Advanced Research in Virtual and Rapid Prototyping</title>
+		<meeting>the 3rd International conference on Advanced Research in Virtual and Rapid Prototyping</meeting>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="521" to="527" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Kruth, P. Mercelis, J. Van Vaerenbergh, T. Craeghs, Feedback control of selective laser melting, Proceedings of the 3rd International conference on Advanced Research in Virtual and Rapid Prototyping (2007) 521-527.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A six-sigma approach for benchmarking of RP &amp;M processes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Loh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="374" to="387" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Mahesh, Y. Wong, J. Fuh, H. Loh, A six-sigma approach for benchmarking of RP &amp;M processes, Int. J. Adv. Manuf. Technol. 31 (3-4) (2006) 374-387.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">An approach to minimize build errors in direct metal laser sintering</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Loh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Autom. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="73" to="80" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Ning, Y. Wong, J. Fuh, H. Loh, An approach to minimize build errors in direct metal laser sintering, IEEE Trans. Autom. Sci. Eng. 3 (1) (2006) 73-80.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A coupled thermal-mechanical analysis of ultrasonic bonding mechanism</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. B</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="196" to="207" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Zhang, L. Li, A coupled thermal-mechanical analysis of ultrasonic bonding me- chanism, Metall. Mater. Trans. B 40 (2) (2009) 196-207.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Data-driven decision making under uncertainty integrating robust optimization with principal component analysis and kernel smoothing methods</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>You</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Chem. Eng</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Ning, F. You, Data-driven decision making under uncertainty integrating robust optimization with principal component analysis and kernel smoothing methods, Comput. Chem. Eng. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A data-driven approach to robust control of multivariable systems by convex optimization</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kammer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Automatica</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="227" to="233" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Karimi, C. Kammer, A data-driven approach to robust control of multivariable systems by convex optimization, Automatica 85 (2017) 227-233.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Digital twin-driven product design, manufacturing and service with big data</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Tao, J. Cheng, Q. Qi, M. Zhang, H. Zhang, F. Sui, Digital twin-driven product design, manufacturing and service with big data, Int. J. Adv. Manuf. Technol. (2017) 1-14.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Review on data-driven modeling and monitoring for plant-wide industrial processes</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemom. Intell. Lab. Syst</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Ge, Review on data-driven modeling and monitoring for plant-wide industrial processes, Chemom. Intell. Lab. Syst. (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Deep learning for smart manufacturing: methods and applications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Syst</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wang, Y. Ma, L. Zhang, R. Gao, D. Wu, Deep learning for smart manufacturing: methods and applications, J. Manuf. Syst. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A survey of the advancing use and development of machine learning in smart manufacturing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sharp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hedberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Syst</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Sharp, R. Ak, T. Hedberg, A survey of the advancing use and development of machine learning in smart manufacturing, J. Manuf. Syst. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">In-process monitoring of selective laser melting: spatial detection of defects via image data analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Laguzza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Semeraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Colosimo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">51001</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Grasso, V. Laguzza, Q. Semeraro, B. Colosimo, In-process monitoring of selective laser melting: spatial detection of defects via image data analysis, J. Manuf. Sci. Eng. 139 (5) (2017) 051001.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">In-situ monitoring of melt pool images for porosity prediction in directed energy deposition processes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khanzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tschopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Doude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marufuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IISE Trans</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Khanzadeh, S. Chowdhury, M. Tschopp, H. Doude, M. Marufuzzaman, L. Bian, In-situ monitoring of melt pool images for porosity prediction in directed energy deposition processes, IISE Trans. (2018) 1-19.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Anomaly detection and classification in a laser powder bed additive manufacturing process using a trained computer vision algorithm</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Scime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="114" to="126" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Scime, J. Beuth, Anomaly detection and classification in a laser powder bed additive manufacturing process using a trained computer vision algorithm, Addit. Manuf. 19 (2018) 114-126.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Porosity prediction: supervised-learning of thermal history for direct laser deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khanzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marufuzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tschopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="69" to="82" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Khanzadeh, S. Chowdhury, M. Marufuzzaman, M. Tschopp, L. Bian, Porosity prediction: supervised-learning of thermal history for direct laser deposition, J. Manuf. Syst. 47 (2018) 69-82.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Prediction of porosity in metal-based additive manufacturing using spatial Gaussian process models</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tapia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elwany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="282" to="290" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Tapia, A. Elwany, H. Sang, Prediction of porosity in metal-based additive man- ufacturing using spatial Gaussian process models, Addit. Manuf. 12 (2016) 282-290.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Application of supervised machine learning for defect detection during metallic powder bed fusion additive manufacturing using high resolution imaging</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Reutzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Petrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nassar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Phoha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="517" to="528" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Gobert, E. Reutzel, J. Petrich, A. Nassar, S. Phoha, Application of supervised machine learning for defect detection during metallic powder bed fusion additive manufacturing using high resolution imaging, Addit. Manuf. 21 (2018) 517-528.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Acoustic emission for in situ quality monitoring in additive manufacturing using spectral convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shevchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kenel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leinenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="598" to="604" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Shevchik, C. Kenel, C. Leinenbach, K. Wasmer, Acoustic emission for in situ quality monitoring in additive manufacturing using spectral convolutional neural networks, Addit. Manuf. 21 (2018) 598-604.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Defect detection in selective laser melting technology by acoustic signals with deep belief networks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y H</forename><surname>Fuh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manuf. Technol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Ye, G.S. Hong, Y. Zhang, K. Zhu, J.Y.H. Fuh, Defect detection in selective laser melting technology by acoustic signals with deep belief networks, Int. J. Adv. Manuf. Technol. (2018) 1-11.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mclachlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Krishnan</surname></persName>
+		</author>
+		<title level="m">The EM Algorithm and Extensions</title>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">382</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. McLachlan, T. Krishnan, The EM Algorithm and Extensions vol. 382, John Wiley &amp; Sons, 2007.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">On convergence and parameter selection of the Em and DA-EM algorithms for Gaussian mixtures</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chaomurilige</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognit</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="188" to="203" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Yu, C. Chaomurilige, M. Yang, On convergence and parameter selection of the Em and DA-EM algorithms for Gaussian mixtures, Pattern Recognit. 77 (2018) 188-203.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Pattern Recognition and Machine Learning</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bishop</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Bishop, Pattern Recognition and Machine Learning, Springer-Verlag, New York, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Multi-model multivariate Gaussian process modelling with correlated noises</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Process Control</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="11" to="22" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Hong, B. Huang, Y. Ding, F. Guo, L. Chen, L. Ren, Multi-model multivariate Gaussian process modelling with correlated noises, J. Process Control 58 (2017) 11-22.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Expectation maximization estimation algorithm for Hammerstein models with non-Gaussian noise and random time delay from dual-rate sampled-data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Digit. Signal Process</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="135" to="144" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Ma, J. Chen, W. Xiong, F. Ding, Expectation maximization estimation algorithm for Hammerstein models with non-Gaussian noise and random time delay from dual-rate sampled-data, Digit. Signal Process. 73 (2018) 135-144.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Database-friendly random projections: Johnson-Lindenstrauss with binary coins</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Achlioptas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Syst. Sci</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="671" to="687" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Achlioptas, Database-friendly random projections: Johnson-Lindenstrauss with binary coins, J. Comput. Syst. Sci. 66 (4) (2003) 671-687.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">An algorithm for the principal component analysis of large data sets</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Halko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Martinsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shkolnisky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tygert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM J. Sci. Comput</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2580" to="2594" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Halko, P. Martinsson, Y. Shkolnisky, M. Tygert, An algorithm for the principal component analysis of large data sets, SIAM J. Sci. Comput. 33 (5) (2011) 2580-2594.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Approximate nearest neighbors: towards removing the curse of dimensionality</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Indyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Motwani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Thirtieth Annual ACM Symposium on Theory of Computing</title>
+		<meeting>the Thirtieth Annual ACM Symposium on Theory of Computing</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="page" from="604" to="613" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Indyk, R. Motwani, Approximate nearest neighbors: towards removing the curse of dimensionality, Proceedings of the Thirtieth Annual ACM Symposium on Theory of Computing, ACM, 1998, pp. 604-613.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

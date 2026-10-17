@@ -1,0 +1,105 @@
+{
+  "openalex_id": "https://openalex.org/W2942539847",
+  "source_text": "data\\processed\\debug\\W2942539847_body_citation_aware_v1.txt",
+  "source_sha256": "57d21191c3e92e8fcbfd4d564898aea41431d1860ad5ab8db8ac69b12822a249",
+  "issue_count": 8,
+  "review_status": "pending",
+  "issues": [
+    {
+      "issue_id": "W2942539847-001",
+      "issue_type": "joined_words",
+      "start_char": 357,
+      "end_char": 368,
+      "original_text": "liquidsolid",
+      "context": "nder such extreme thermal regimes. Here, we elucidate the mechanism of pore formation and liquidsolid interface dynamics during typical laser powder bed fusion conditions using in situ X-ray",
+      "status": "pending_verification",
+      "pdf_page": null,
+      "corrected_text": null,
+      "resolution": null
+    },
+    {
+      "issue_id": "W2942539847-002",
+      "issue_type": "joined_words",
+      "start_char": 1909,
+      "end_char": 1921,
+      "original_text": "LPBFproduced",
+      "context": "to concerns over component quality and consistency. Reports of mechanical properties for LPBFproduced components vary widely, which presents a significant challenge for designers and certific",
+      "status": "pending_verification",
+      "pdf_page": null,
+      "corrected_text": null,
+      "resolution": null
+    },
+    {
+      "issue_id": "W2942539847-003",
+      "issue_type": "joined_words",
+      "start_char": 2160,
+      "end_char": 2172,
+      "original_text": "laserinduced",
+      "context": "ses from both the unusual thermal history and rapid solidification of material imposed by laserinduced heating as well as defects introduced during the process. To improve the confidence in co",
+      "status": "pending_verification",
+      "pdf_page": null,
+      "corrected_text": null,
+      "resolution": null
+    },
+    {
+      "issue_id": "W2942539847-004",
+      "issue_type": "split_word",
+      "start_char": 1054,
+      "end_char": 1066,
+      "original_text": "L aser-based",
+      "context": "pproaches to improve confidence in components produced by laser powder bed fusion. BODY L aser-based additive manufacturing (AM) approaches such as laser powder bed fusion (LPBF) hold the po",
+      "status": "pending_verification",
+      "pdf_page": null,
+      "corrected_text": null,
+      "resolution": null
+    },
+    {
+      "issue_id": "W2942539847-005",
+      "issue_type": "plot_text",
+      "start_char": 8939,
+      "end_char": 8955,
+      "original_text": "0 10 600 mm s -1",
+      "context": "ed (Fig. 2b). While nearly all pores associated with the turn point form during this time 0 10 600 mm s -1 800 mm s -1 Bare plate Bare plate Powder 1000 mm s -1 Bare plate Powder 5 100 200 300 Las",
+      "status": "pending_verification",
+      "pdf_page": null,
+      "corrected_text": null,
+      "resolution": null
+    },
+    {
+      "issue_id": "W2942539847-006",
+      "issue_type": "embedded_caption",
+      "start_char": 30256,
+      "end_char": 30288,
+      "original_text": "Fig. 7 Quality of LPBF-AM tracks",
+      "context": "Top-down Side-on Side-on Turn point c 100 W, constant power 100 W, mitigation a d b Pores Fig. 7 Quality of LPBF-AM tracks in Ti-6Al-4V. a, b Top-down optical image and side-on X-ray image of a LPBF-AM track in t",
+      "status": "pending_verification",
+      "pdf_page": null,
+      "corrected_text": null,
+      "resolution": null
+    },
+    {
+      "issue_id": "W2942539847-007",
+      "issue_type": "missing_equation",
+      "start_char": 25771,
+      "end_char": 25791,
+      "original_text": "is equal to\n\n, where",
+      "context": "al with normalized enthalpy under varied laser conditions. The normalized enthalpy ΔH h s is equal to , where ΔH is the specific enthalpy, h s is the enthalpy at melting, A is the absorptivity of the",
+      "status": "pending_verification",
+      "pdf_page": null,
+      "corrected_text": null,
+      "resolution": null
+    },
+    {
+      "issue_id": "W2942539847-008",
+      "issue_type": "publisher_footer",
+      "start_char": 39373,
+      "end_char": 39396,
+      "original_text": "NATURE COMMUNICATIONS |",
+      "context": "to 400 mm s -1 to ensure the simulation stayed within bounds (see Supplementary Fig. 3). NATURE COMMUNICATIONS | (2019) 10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommun",
+      "status": "pending_verification",
+      "pdf_page": null,
+      "corrected_text": null,
+      "resolution": null
+    }
+  ]
+}

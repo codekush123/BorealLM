@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder>
+					<orgName type="full">U.S. Department of Energy</orgName>
+				</funder>
+				<funder ref="#_RXNpQps">
+					<orgName type="full">Lawrence Livermore National Laboratory</orgName>
+				</funder>
+				<funder ref="#_jsUygAA">
+					<orgName type="full">Laboratory Directed Research and Development</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Materials Science Division , Physical and Life Sciences Directorate , Lawrence Livermore National Laboratory , 7000 East Avenue , Livermore , California , 94550 , USA.</note>
+								<orgName type="department" key="dep1">Materials Science Division</orgName>
+								<orgName type="department" key="dep2">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<addrLine>7000 East Avenue</addrLine>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Laser Science and Systems Engineering , NIF and Photon Sciences Directorate , Lawrence Livermore National Laboratory , 7000 East Avenue , Livermore , California , 94550 , USA.</note>
+								<orgName type="department">NIF and Photon Sciences Directorate</orgName>
+								<orgName type="laboratory">Laser Science and Systems Engineering</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<addrLine>7000 East Avenue</addrLine>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Computational Engineering, Engineering Directorate , Lawrence Livermore National Laboratory , 7000 East Avenue , Livermore , California , 94550 , USA.</note>
+								<orgName type="department">Computational Engineering, Engineering Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<addrLine>7000 East Avenue</addrLine>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Laser Systems Engineering Operations , Engineering Directorate , Lawrence Livermore National Laboratory , 7000 East Avenue , Livermore , California , 94550 , USA.</note>
+								<orgName type="department">Engineering Directorate</orgName>
+								<orgName type="laboratory">Laser Systems Engineering Operations</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<addrLine>7000 East Avenue</addrLine>
+									<postCode>94550</postCode>
+									<settlement>Livermore</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">768C3232F5241B66E8933E847A536E68</idno>
+					<idno type="DOI">10.1038/s41598-017-04237-z</idno>
+					<note type="submission">Received: 1 February 2017 Accepted: 11 May 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-20T07:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Hydrodynamic studies of vapor jet streams have been pursued in support of numerous practical applications in science and engineering <ref type="bibr" target="#b0">1</ref> .</s><s>Entrainment occurs as the vapor jet interacts with its surroundings, pulling in and accelerating ambient gas toward the jet stream.</s><s>The ambient gas flow can sweep up particles along its path acting as a primary transport mechanism for a collection of particles.</s><s>Vapor-driven entrainment of particles has been used to explain important geophysical phenomena <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> , spur new basic energy research <ref type="bibr" target="#b3">4</ref> , establish novel materials synthesis methods <ref type="bibr" target="#b4">5</ref> , and for the development of various industrial applications <ref type="bibr" target="#b5">6</ref> .</s><s>For example, in material deposition processing, the entrainment of micron-size particles in a gas stream is a basis for new microplasma coating technologies <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> .</s></p><p><s>Processing of micron scale metal powders is important to several applications in metallurgy (e.g.</s><s>sintering, cold casting) but also in more recent fields such as magnetorheological polishing, personal body warmers, and metal 3D printing.</s><s>In the field of metal 3D printing, there is extensive ongoing research in laser powder bed fusion additive manufacturing (PBFAM) process to fabricate high quality, high density metal parts with unique functionality and excellent mechanical properties <ref type="bibr" target="#b8">9</ref> .</s><s>The use of high powered lasers to fully melt layers of ~30 μm sized powder also bring about complex hydrodynamics involving multiphase interactions between vapor plume, atmospheric gas and material that are not well understood.</s><s>During melting of the powder, one can often observe directly very bright particles ejected from the melt pool, having the appearance similar to welding sparks, commonly referred to as spatter <ref type="bibr" target="#b9">10</ref> .</s><s>Spatter generation is generally considered to be a detrimental process in PBFAM.</s><s>Research has shown that droplets ejected can undergo oxidation and change the chemical composition during flight, leading to contamination of the powder bed with different microstructures and particle sizes <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> .</s><s>A large number of droplets that fall back on the substrate can increase the surface roughness during melting of each layer <ref type="bibr" target="#b12">13</ref> , enhance process-induced porosity <ref type="bibr" target="#b13">14</ref> , or increase the layer thickness <ref type="bibr" target="#b14">15</ref> resulting in lack of fusion in the built material <ref type="bibr" target="#b15">16</ref> .</s><s>Understanding the ejection formation and general fluid-particle interaction during the PBFAM process is important to predict layer quality, morphology, and density of the final part.</s></p><p><s>The generally accepted explanation for melt pool dynamics and droplet ejection in laser PBFAM is based on understanding of a phenomenon known as recoil pressure <ref type="bibr" target="#b16">17</ref> .</s><s>When the temperature of the metal surface approaches and exceeds the vaporization temperature, a metallic vapor jet will be formed.</s><s>A high recoil pressure (&gt;10 <ref type="bibr" target="#b3">4</ref> Pa) produces a downward force on the melt pool causing rapid melt pool motion and leading to liquid metal ejected away from the melt pool.</s><s>Up until now, this recoil pressure model formed the basis for understanding material expulsion from the metallic melt pool in PBFAM processes.</s><s>However, it was previously shown that the displacement of powder particles through vapor jet entrainment is the principal cause of powder layer denudation (removal) adjacent to a melt track <ref type="bibr" target="#b17">18</ref> , a surface feature first described by Yadroitsev <ref type="bibr" target="#b18">19</ref> .</s><s>Denudation driven void structures are known to degrade metal component properties and performance, requiring careful choice of laser scan strategies for PBFAM builds <ref type="bibr" target="#b19">20</ref> .</s><s>While evidence was presented in our previous work to support vapor entrainment-driven denudation, the underlying physics and broader impact on other observables -most notably molten spatter generation -is only now more fully understood.</s></p><p><s>The central aim of our present study is to elucidate what is realized now to be the driving mechanism for material redistribution in the PBFAM process, thus clarifying the source of several defect-generating phenomena.</s><s>We will show that the dominant mechanism leading to particle ejection is from vapor-driven entrainment of micro-particles and not vapor recoil pressure as is universally understood.</s><s>Little attention has been paid on the potential effect of a local entrainment process and no clear description of its effect on material redistribution has been given.</s><s>Although the physics involved is somewhat specific to PBFAM technology, a better understanding of micro-particle entrainment processes, in particular in the presence of strong pressure and temperature gradients, can help shed light on entrainment in other applications.</s></p><p><s>The experiments presented here are conducted with 316 L stainless steel (SS316L) and Titanium alloy Ti-6Al-4V (Ti64) powder layers and plates, materials that are relevant to PBFAM.</s><s>We describe the dominant physical effects associated with micro-droplet spatter generation, the interaction of the powder particles with surrounding gas dominated by an entrainment process, droplet thermal transients and material ejection processes.</s><s>To help elucidate the experimental results, we model the laser-melt pool interaction with a multiphysics finite element code (ALE3D) <ref type="bibr" target="#b20">21</ref> .</s><s>We discuss the combination of the experimental and computational results with simple physical estimates, providing a holistic picture of the hydrodynamic effects related to metal AM and other particle-fluid microsystems.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recoil pressure-driven spatter.</head><p><s>The underlying mechanisms and effects of melt pool ejection have been investigated extensively in welding processes for a wide range of conditions <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref> , while studies for PBFAM are more limited <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref> .</s><s>Welding -a joining process -uses a relatively slow-moving (or stationary), high energy density laser with a large spot size (~1 mm) to melt a deep channel of a few millimeters on a bare metal plate.</s><s>PBFAM -a deposition process -uses a fast scanning (~1 m/s), smaller laser beam size (typically 50-200 µm) to melt particles (tens of microns) in a powder bed.</s><s>Consequently, the melt pool hydrodynamics for both situations can be quite different.</s><s>To clarify the differences, we recorded ultra-high speed image sequences of the laser-driven melt pool motion for tracks produced on a flat metal substrate and compare them to those recorded for a substrate covered by a layer of metal powder.</s></p><p><s>Figure <ref type="figure" target="#fig_1">1a</ref>,b shows a macroscopic view of spatter generated from SS316L powder when irradiated with two processing parameter sets: (a) laser power P = 150 W and scan speed u = 0.5 m/s, and (b) P = 200 W and u = 1.5 m/s (see Methods for additional details).</s><s>The camera is placed approximately 90° to both the laser processing beam and scan path, collecting images at 100,000 frames per second (100 kfps) as the laser is scanned horizontally left to right.</s><s>Both experiments were performed at 760 Torr of Ar gas. Figure <ref type="figure" target="#fig_1">1a</ref> shows a column of droplets rising nearly vertically from the melt pool while Fig. <ref type="figure" target="#fig_1">1b</ref> shows a similar amount of droplets ejecting at approximately 47° from the vertical.</s><s>In contrast, for the bare plate shown on Fig. <ref type="figure" target="#fig_1">1c</ref>,d under the same processing conditions, droplets are not visible in the frame shown and only a large plume is observed.</s><s>We hypothesize that the smaller plume for the powder case is related to plume energy loss to the stream of particles traveling through the plume as we discuss in more detail below.</s><s>In a sequence of 2000 frames sampled over 20 ms, no droplet ejection was observed for the bare plate, while ~20 droplets/ms were observed for the powder layer sample under the same camera exposure time.</s><s>Videos corresponding to Fig. <ref type="figure" target="#fig_1">1a-d</ref> are provided in Supplementary Movie <ref type="url" target="http://1">1</ref>.</s><s>These results illustrate the importance of the powder in the PBFAM spatter generation process and point to a particle motion mechanism as described later.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ejection velocity and ejection angle.</head><p><s>The projected ejection velocity magnitude was characterized using particle image velocimetry (PIV) (see Methods for details).</s><s>Figure <ref type="figure" target="#fig_1">1e</ref>,f shows the velocity profile averaged from a subset consisting of 120 image pairs (240 total frames).</s><s>For both parameter cases, the velocity is highest at the center of the plume and decreases away from the center.</s><s>At P = 150 W, u = 0.5 m/s, the maximum velocity is 9.8 m/s, and the mean velocity is 8.3 m/s.</s><s>The mean velocity has a small horizontal component of 1 m/s and a dominant vertical component of 8.2 m/s.</s><s>At 200 W, 1.5 m/s, the maximum velocity is 7.8 m/s and the mean velocity is 6.3 m/s.</s><s>The velocity components are distributed more evenly with a horizontal component of 4.5 m/s and a vertical component of 4.4 m/s which gives the angle a tilt.</s></p><p><s>There is considerable difference between the ejection angles for the two processing parameter cases (see also Supplementary Figure <ref type="figure" target="#fig_1">1</ref>).</s><s>The ejection angle depends on the geometry of the melt pool, which is largely governed by the laser power and scan speed.</s><s>The melt pool vapor pressure change will scale with the peak temperature rise at the melt pool surface which can be approximated as ∆ ∝ T P u / <ref type="bibr" target="#b32">33</ref> .</s><s>Thus, with increasing P or decreasing u, a higher vapor pressure is expected.</s><s>To explain the difference in ejection patterns in more detail, a finite element simulation was performed (Fig. <ref type="figure" target="#fig_1">1g</ref>,<ref type="figure">h</ref>) with the same experimental laser parameters.</s><s>When the laser intensity is high enough to evaporate the metal, a depression region forms under the laser spot due to the recoil pressure.</s><s>A metal vapor plume is emitted normal to the boiling surface regions located at the melt pool bottom and just forward of the bottom along the scan path.</s><s>For P = 150 W and u = 0.5 m/s, the laser heating is high at this slow scan speed and causes a deep, vertical depression (i.e., keyhole) (Fig. <ref type="figure" target="#fig_1">1g</ref>).</s><s>The vapor restricted by the keyhole walls escapes mostly in the vertical direction, consistent with experimental data in Fig. <ref type="figure" target="#fig_1">1a</ref>.</s><s>At P = 200 W and u = 1.5 m/s, the recoil pressure is lower and not sufficient to form a deep keyhole, but high enough to form a depression in the melt pool (Fig. <ref type="figure" target="#fig_1">1h</ref>).</s><s>The high temperature region at the depression is thinner than the previous case, and spreads out mostly toward the front of the depression.</s><s>The vapor plume tends to face backwards, in the direction normal to the depression.</s><s>The maximum temperature achieved is limited by the boiling temperature of the liquid metal (for a given ambient pressure).</s><s>By comparing the two simulation cases, there is more liquid melt with temperatures above 2000 K in Fig. <ref type="figure" target="#fig_1">1g</ref> than is shown in Fig. <ref type="figure" target="#fig_1">1h</ref>, and also the length of the boiling surface in Fig. <ref type="figure" target="#fig_1">1g</ref>, which defines a deeper melt pool, is greater than that in Fig. <ref type="figure" target="#fig_1">1h</ref>.</s><s>The increase in the inclination angle as the scan speed becomes higher is also observed in welding studies <ref type="bibr" target="#b33">34</ref> .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Droplet ejection from a bare plate.</head><p><s>In order to understand the formation of droplet ejection from the melt pool region, a series of experiments coupled with simulations of increasing physics complexity were performed.</s><s>Figure <ref type="figure" target="#fig_2">2a-c</ref> is composed of experimental snapshots derived from frames of high speed video at 1 million frames per second (Mfps) showing a droplet ejection due to recoil pressure from a SS316L bare plate melt pool (see Supplementary Movie <ref type="url" target="http://2">2</ref>).</s><s>The laser parameters used here is P = 600 W and u = 3.0 m/s.</s><s>The background is dark due to the illumination laser being off while the melt pool appears bright from incandescence: (a) at the front of the melt pool, a protuberance can be observed, (b) the connection between the melt pool and the elongated 'necked' portion thins out, and finally (c) a droplet of diameter ~8 μm breaks away at 25° clockwise from the center of the depression, and travels at approximately 18 m/s.</s><s>This particular spatter generation event is completed in 2 μs.</s></p><p><s>To explain the experimental observation of droplet ejection from the melt pool, we begin with a simulation of a SS316L bare plate irradiated with a laser beam normal to the surface.</s><s>The powder is first excluded in the simulation in order to dissociate the effect of the powder from that of the plate.</s><s>The simulation parameters used are P = 200 W and u = 1.5 m/s.</s><s>The middle row of Fig. <ref type="figure" target="#fig_2">2</ref> shows simulation results that describe the spatter forming as a significant topological change that originates at the rim of the depression under the laser spot.</s><s>The red region corresponds to temperatures close to the boiling point ~3300 K. Figure <ref type="figure" target="#fig_2">2d</ref> shows a large droplet forming at 45° clockwise at the front of the melt pool; the melt connection thins out in Fig. <ref type="figure" target="#fig_2">2e</ref>, and escapes in Fig. <ref type="figure" target="#fig_2">2f</ref>.</s><s>The side view in Fig. <ref type="figure" target="#fig_2">2g</ref> shows the relative location of the spatter, about 25° from the surface of the plate.</s><s>The simulation agrees well with the experimental data in reproducing the elements of droplet formation and ejection mechanisms associated with melt pool breakup effects.</s><s>Although the simulation parameters used here differ from the experimental parameters, we note that very similar ejection patterns are experimentally observed across different power and scan speed.</s></p><p><s>We note that a complex and strong dynamical flow is characteristic of the high temperature liquid melt subjected to high thermal gradients.</s><s>The simulations in Fig. <ref type="figure" target="#fig_2">2d-f</ref> show the liquid flowing vertically mainly at the front of the depression, as indicated by the velocity vector field, but possessing a rotational component along the sides (Fig. <ref type="figure" target="#fig_2">2g</ref>).</s><s>Spatter forms when the liquid at the rim of the depression acquires enough kinetic energy to escape the pull of the surface tension.</s><s>The liquid motion is directly related to the strength of the vapor recoil force which depends on how much laser energy is being deposited.</s></p><p><s>For molten micro-droplets to escape, the kinetic energy (dynamic pressure) of the melt must exceed the capillary pressure, which can be expressed as <ref type="bibr" target="#b21">22</ref> :</s></p><formula xml:id="formula_0">ρ α &gt; u R (<label>1</label></formula><formula xml:id="formula_1">) L 2</formula><p><s>where α is the surface tension, ρ L is the liquid metal mass density and R is the melt radius of curvature.</s><s>For R = 200 μm and α = 1.5 N/m, the escape velocity for a SS316L melt pool is found to be approximately 1 m/s, in agreement with estimates by Kaplan et al. <ref type="bibr" target="#b21">22</ref> .</s><s>With the increase of P or reduction in u, the temperature and recoil pressure also increase, which leads to a deeper depression.</s><s>He et al. demonstrated for the case of laser welding that doubling the laser power can increase the ejected particle diameter and broaden the size distribution.</s><s>We note that the temperature rise also reduces the surface tension and reduces the required kinetic energy for droplet breakup per Equation (1).</s><s>However, from Equation (1), ejection of droplets smaller than 8 μm is typically not expected since this would require the melt flow to travel in excess of 5 m/s which is somewhat larger than that observed from our measurements (about 1-3 m/s).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Simulation of droplet ejection involving a powder layer.</head><p><s>The addition of a powder layer to a bare plate adds more complexity to the melt pool dynamics and affects the forward flow motion (Fig. <ref type="figure" target="#fig_3">3</ref>).</s><s>In Fig. <ref type="figure" target="#fig_3">3a-c</ref> and Supplementary Movie <ref type="url" target="http://3">3,</ref> the illumination laser is on and powder in the background is visible.</s><s>A protuberance forms at the rim of the depression in (a), the elongated neck thins out in (b), and a spherical droplet is ejected in (c), similar to the ejection behavior from a bare plate.</s><s>The presence of powder hinders the forward flow motion since the recoil momentum has a small component along the beam scanning direction (with a pressure of ~7.5 kPa close to boiling), leading to a buildup of liquid molten material ahead of the laser beam.</s><s>Ejections from forward plowing liquid buildup are typically very large ~25-100 μm. Figure <ref type="figure" target="#fig_3">3d-f</ref> and Supplementary Movie <ref type="url" target="http://4">4  shows a large, 30 μm spherical droplet ejected in front of the melt pool with a velocity of ~5 m/s. Also visible in  Supplementary Movies 3 and 4</ref> are entrained particles which are swept backwards, a process we will describe in more detail below.</s><s>As laser scan speed increases, the deposited energy per unit volume decreases and the depression becomes shallower.</s><s>The incline angle with the beam direction decreases, hence the recoil pressure's component along the beam direction increases (as sin (α), where α is the angle between the front incline and the scanning direction), which enhances the horizontal component of the spatter velocity.</s><s>Eventually, the amount of spatter is expected to plateau and then disappear, since the deposited laser energy will be insufficient to boil the liquid and create an effective recoil force.</s></p><p><s>For the simulation in Fig. <ref type="figure" target="#fig_3">3g</ref>, the droplet forms at the rim of the depression with recoil forces pushing the molten droplet forward.</s><s>The droplet size increases in Fig. <ref type="figure" target="#fig_3">3h</ref>,i as its volume grows due to the addition of cooler liquid from recently melted powder.</s><s>In Fig. <ref type="figure" target="#fig_3">3j</ref>, the spatter has already acquired enough forward momentum that it escapes and lands a short distance ahead.</s></p><p><s>Through both experiments and simulations, we observe sub-threshold ejection events where protrusions from the melt pool do not completely eject and are instead absorbed back into the melt pool.</s><s>The action of the recoil vapor pressure of the liquid is evident as the laser causes heating to boiling temperatures with peak simulated temperatures above 3000 K.</s><s>The radial pressure violently flattens one side of the droplet relative to the laser spot center, as indicated by the arrow in Fig. <ref type="figure" target="#fig_3">3k</ref>.</s><s>The nascent droplet is entrained by the strong rotational melt flow in Fig. <ref type="figure" target="#fig_3">3l</ref>,m, and it is swept toward the back where it merges into the melt pool in Fig. <ref type="figure" target="#fig_3">3n</ref>.</s><s>Spatter can still escape in the backward direction if the kinetic energy is greater than the surface tension.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Entrainment-driven spatter.</head><p><s>From high speed movies (Supplementary Movies <ref type="url" target="http://3">3</ref> and <ref type="url" target="http://4">4</ref>), in addition to observing liquid droplets ejecting directly from the melt (Figs <ref type="figure" target="#fig_2">2</ref> and <ref type="figure" target="#fig_3">3</ref>), a strikingly different behavior is also observed.</s><s>As the laser is scanned across the powder bed, many particles are observed being swept away, upward and rearward relative to the scanning direction.</s><s>The motion of these particles is due to vapor driven entrainment <ref type="bibr" target="#b17">18</ref> and this effect is found to be an even more dominant mechanism for spatter formation than laser induced recoil pressure.</s><s>The observation of entrainment-driven spatter is the key finding of this study, and is described in detail below.</s></p><p><s>Currently, it is computationally challenging and expensive for our simulation code to adequately treat multi-phase flow, fluid-structure interactions and contact mechanics involved in laser-vapor-driven particle entrainment.</s><s>Particle entrainment by gas flow on granular bed has been studied before <ref type="bibr" target="#b34">35</ref> however the main difference here is that the jet size is comparable to the particle size, which allows us to observe entrainment of single particles and not ensemble averages.</s><s>In lieu of finite element simulations to rationalize the experimental results, we will turn to basic physics formalisms to guide us.</s><s>Initially the powder particles are at rest in the powder layer prior to the vapor flow field associated with the melt pool coming in contact with them.</s><s>Due to the requirement that powder have good 'flowability' in powder bed fusion systems, the powder particles are easily detached from the surface and each other.</s><s>The drag force that leads to detachment and eventual entrainment is given by the Stokes formula <ref type="bibr" target="#b35">36</ref> :</s></p><formula xml:id="formula_2">ρ π πη = - a dv dt v v a 4 3 6( ) (<label>2</label></formula><formula xml:id="formula_3">) p g p 3</formula><p><s>where v p is the particle velocity, v g is the gas velocity, ρ p is the density of a solid particle with radius a and gas viscosity η.</s><s>The solution of this equation with v p = 0 at t = 0 is given by expression,</s></p><formula xml:id="formula_4">τ ρ η = - = τ - v v e a (1 ); 2 9 (<label>3</label></formula><formula xml:id="formula_5">) p g t p 2</formula><p><s>where τ is the entrainment time.</s><s>For stainless steel particles (ρ p ~ 8000 kg/m 3 ), the entrainment time in ms is simplified as τ = ba 2 .</s><s>At T = 3000 K corresponding to the vapor temperature, η ≈ 6.9 × 10 -4 g/cm-s and b = 25 ms/ μm 2 such that for a = 10 μm, τ ≈ 2.5 ms.</s><s>Assuming the vapor jet is comparable with the laser beam diameter, the particle dwell time in the jet is t = d/u = 50 µs for a D4σ Gaussian laser beam diameter of d = 50 µm and scan speed u = 1 m/s.</s><s>Given t ≪ τ, equation (3) can be estimated by ≈ τ v v p g t and the particle velocity increases linearly with time.</s></p><p><s>From Supplementary Movies <ref type="url" target="http://3">3</ref> and <ref type="url" target="http://4">4,</ref> particles are affected by the wake of the jet stream 3-4 beam diameters away so the effective entrainment distance extends to 150-200 µm.</s><s>The vapor jet velocity from our simulations for SS316L is up to 700 m/s for the case of P = 225 W and u = 1.4 m/s <ref type="bibr" target="#b17">18</ref> .</s><s>The entraining gas velocity and temperature field magnitudes gradually decreases with increasing distance from the jet center.</s><s>For particles with radius a = 10 µm and a vapor temperature of 3000 K, the maximal entrainment velocity is v p ≈ 0.06 v g and for a gas velocity of a few hundreds m/s, the particle velocities can be in excess of 10 m/s.</s><s>Furthermore, the entrainment velocity is inversely proportional to particle density such that for less dense materials such as titanium, higher velocities and more spatter is expected as compared with stainless steel.</s><s>Experimental comparisons of spatter ejections associated with these two material systems are shown below, which support this conclusion.</s></p><p><s>Figure <ref type="figure" target="#fig_4">4</ref> and Supplementary Movie <ref type="url" target="http://5">5</ref> shows a sequence of this entrainment process over time for a track irradiated at P = 300 W, u = 1.5 m/s.</s><s>The movie is shown with the illumination laser off to best capture two distinct types of moving particles, dark and bright, in the images.</s><s>At 80 μs, the particles circled in blue in Fig. <ref type="figure" target="#fig_4">4</ref> rise from the powder bed with an initial velocity of about 1 m/s and once entrained by the gas, are swept opposite to the laser motion and upward with a velocity of ~4 m/s.</s><s>Note that these particles, displaying negligible incandescence, do not interact with the laser.</s><s>The incandescent, hot particles at 80 μs (circled in red in Fig. <ref type="figure" target="#fig_4">4</ref>) are initially dark but become entrained by the gas flow, and pass through the laser path and are rapidly heated to emit bright incandescence.</s><s>The dark particles initially have a velocity of 0.5-1 m/s but increase their speed to about 4 m/s once fully entrained at a height level of ~20 μm from the plate surface.</s><s>Once the dark particles cross the laser path, they are irradiated and rapidly turn into bright particles in less than 10 μs while their velocities increase to 6-15 m/s with maximum values observed near 20 m/s.</s><s>The sudden increase in velocity over a short 100 μs time span corresponds to an acceleration of greater than &gt;10 6 m/s 2 .</s><s>Not all entrained particles are ejected -in fact, a portion are subsumed into the melt pool and contribute to the PBFAM deposition process (it should be noted that, prior to this study, the contribution of entrained particles to the formation of melt tracks in PBFAM was completely unknown and unexpected).</s><s>Based on analysis of 120 videos with power ranging from 200-300 W and scan speed from 1.5-2.0</s><s>m/s, we concluded that 60% of the total spatter generated is from hot ejections, 25% from cold ejections, and 15% from recoil pressure induced ejections.</s><s>From these measurements we thus conclude that the spatter observed in Fig. <ref type="figure" target="#fig_1">1</ref> are mostly hot ejections from entrainment.</s><s>While the conditions and materials vary among commercial PBFAM systems, we propose here that the vast majority of what is observed as spatter is also mostly generated by the entrainment process described here.</s></p><p><s>Mechanism involved in the entrainment of particles.</s><s>Figure <ref type="figure" target="#fig_5">5</ref> summarizes the interaction of the powder particles with the evaporation-driven Ar gas flow.</s><s>Figure <ref type="figure" target="#fig_5">5a</ref> depicts the case for a stationary beam (or similarly a scanned beam viewed head-on).</s><s>The metal vapor flux from the melt pool induces an inward gas flow that pulls the particle along the vapor flow direction, similar to the physics of a submerged jet described in ref. 37.</s><s>The entrained particles are accelerated by the gas flow resulting from the vapor jet toward the melt pool and depending on the local trajectories will be subject to at least three main outcomes: (1) pulled into the melt pool and become subsumed, (2) travel toward the vapor jet but miss the laser beam and eject as cold particles or (3) travel toward the vapor jet, intersect the laser beam leading to rapid heating and ultimate ejection as hot, bright particles that are observed on the macroscopic scale as molten spatter or sparks.</s><s>Entrainment for a stationary beam is shown in Supplementary Movie <ref type="url" target="http://6">6</ref>.</s><s>We note that the effect of a vertically-oriented metal vapor jet causing a low pressure region and pulling in the surrounding gas is a common phenomenon akin to the situation of a firestorm at the macroscale.</s><s>The heated air entrains ember and soot particles upward toward the cooler atmosphere and the influx of surrounding air provides both oxygen and entrained material for combustion <ref type="bibr" target="#b1">2</ref> .</s></p><p><s>For a moving beam, the onset of the gas flow around the vapor jet takes some time and hence the laser beam motion establishes a flow field elongated along the scan direction (Fig. <ref type="figure" target="#fig_5">5b</ref>).</s><s>Particles initially attached to the surface through van der Waals forces are detached from the powder bed and accelerated mainly in the wake of the jet stream that extends toward the rear of the melt pool.</s></p><p><s>Since the thermal conduction time τ <ref type="url" target="http://S1">C = a 2 /4D ~ 25 μs across a steel particle is much longer than the heating  time of 6 µs (Supplementary Equation S1</ref>), there are conditions under which only a portion of the particle is in the boiling state.</s><s>Partial illumination on the side of a particle can lead to it being "side swiped" back into the melt pool where it is subsumed (Supplementary Movie <ref type="url" target="http://7">7</ref>).</s></p><p><s>Particle-particle collisions will also have an effect on the particle dynamics.</s><s>A large transfer of momentum occurs between two colliding particles and the motion of each changes abruptly (Supplementary Movie <ref type="url" target="http://7">7</ref>).</s><s>For collisions between two hot droplets, the particles may merge to form a large droplet (Supplementary Movie <ref type="url" target="http://8">8</ref>).</s><s>This merging process and the resulting large particle formed after cooling can potentially lead to lack-of-fusion defects in subsequent build layers in a PBFAM process <ref type="bibr" target="#b37">38</ref> .</s></p><p><s>Hot particles can also undergo very fast acceleration due to the spatial non-uniformity of the laser irradiation.</s><s>From Supplementary Equation <ref type="url" target="http://S2">S2,</ref> for p = 300 kPa and for a = 10 µm this corresponds to an acceleration of 3 × 10 6 m/s 2 , which is consistent with estimates derived from the experimental results of Fig. <ref type="figure" target="#fig_4">4</ref> and Supplementary Movie <ref type="url" target="http://5">5</ref>.</s></p><p><s>Once outside the laser beam, the spatter droplets move through the surrounding Ar gas and cool down.</s><s>The Reynolds number Re = ρvp a/η is nearly 1, and the flow around the ejected droplet is laminar.</s><s>In vacuum, a particle ejected upward with velocity v = 1 m/s drops back in 2 v/g seconds ~200 ms (g is the gravitational constant).</s><s>In Ar, the drag forces decrease the height that the particle reaches but do not change the flight time appreciably.</s><s>The time t c ≈ 13 ms (Supplementary Equation <ref type="figure" target="#fig_3">S3</ref>) is much shorter than the flight time and most of the droplets fall down as solid spherical particles, preserving the shape developed during flight.</s></p><p><s>To further analyze the spatter characteristics, we tracked the ejected motion frame-by-frame using MtrackJ (see Methods for details).</s><s>As previously noted, it is not possible to resolve the angular trajectories completely using one camera, and therefore the velocities calculated here are stereographic projections of velocities onto the plane perpendicular to the camera line of sight.</s><s>Figure <ref type="figure" target="#fig_6">6a</ref> shows a velocity-size distribution for SS316L at P = 200 W and u = 1.5 m/s.</s><s>The hot particle ejections due to entrainment had projected velocities in the range 6-20 m/s dependent on particle size which is determined by taking 1D intensity line-out profile and fitted to a FWHM Gaussian diameter.</s><s>The hot particle velocities are consistent with the PIV data in Fig. <ref type="figure" target="#fig_1">1e</ref>,f.</s><s>For cold particle ejections due to entrainment, the velocities range from 2-4 m/s and do not appear to vary much with particle size.</s><s>Melt pool ejections from vapor recoil pressure (and not involving an entrainment effect) are 3-8 m/s inversely dependent on the size.</s><s>Figure <ref type="figure" target="#fig_6">6b</ref> displays velocities for SS316L and Ti64 as function of the scan speed  for different powers.</s><s>The velocities for Ti64 were observed to be higher than SS316L at the same scan speed due to the lower density as predicted by Equation (3).</s></p><p><s>While the velocity-size data corresponding to each type nearly crosses at ~30 μm, the dependence over diameter shows different behavior for the three types of spatter.</s><s>In addition, although recoil pressure driven droplets only account for a small portion of the total spatter, the diameters of the particles are larger with a broader size distribution.</s><s>The largest diameter particle is likely the most important source of contamination since melting of a subsequent layer may not melt spattered particles with diameter greater than the layer thickness.</s><s>Ideally the spatter ejection would be high velocity and at most in the size range of the powder bed particles themselves, to avoid pore defect formation and allow ejected spatter to be carried far away from the build area.</s><s>Entrained particles typically have sizes in the range of powder bed particle sizes, however, there are cases where the particles are larger (one example is two hot particles merging together as shown in Supplementary Movie <ref type="url" target="http://8">8</ref>).</s></p><p><s>While it is also important to know the temperature profiles of the various types of ejected particles, it is difficult to accurately quantify them since the recoil pressure driven droplets and hot, entrained particles are both in the boiling state &gt;3000 K.</s><s>However, the surface temperatures associated with the different ejection processes can be different, and is worth investigating in future studies, particularly one in which we have a full, two-phase flow simulation to accompany the high speed observations.</s></p><p><s>As a consistency test to the entrainment mechanism, in Fig. <ref type="figure" target="#fig_7">7</ref> we compared the ejection rates for a powder substrate in near vacuum and Ar gas at a fixed camera exposure time of 8 μs.</s><s>Based on brightness level for the ejected particles, there is a noticeable decrease in spattering at 10 -3 Torr (Fig. <ref type="figure" target="#fig_7">7c</ref>) vs 760 Torr (Fig. <ref type="figure" target="#fig_7">7b</ref>) for SS316L.</s><s>Figure <ref type="figure" target="#fig_7">7a</ref> compares the total number of ejections for SS316L and Ti64 over a 5 ms time span.</s><s>For SS316L, the total ejections drop from 122 at 760 Torr Ar to 24 at 10 -3 Torr, with a 2 × drop in brightness.</s><s>It is not clear if the decrease in brightness is incidental or due to pressure conditions.</s><s>Comparing SS316L to Ti64, spatter generation from titanium are 1.5 × brighter.</s><s>The heat capacity of Ti64 is almost two times smaller than that for SS316L, and for the same P and u we expect a higher melt pool temperature and more intensive spatter generation.</s><s>Although more related to recoil pressure driven spatter, the general trend is consistent with previous studies of laser welding which show that spatter is generated more easily for titanium than stainless steel <ref type="bibr" target="#b38">39</ref> .</s></p><p><s>However, what appears puzzling is that spatter generation is still observed even in the near absence of ambient gas flow entrainment.</s><s>Although we have no clear answer for this (due to the fact we could not record high resolution images at low pressure), we propose a few explanations.</s><s>From collisions, some particles can be pushed into the vapor jet and accelerated into the laser beam generating spatter, an effect that has been observed previously which shows particle colliding with the surrounding powder to form a denudation zone <ref type="bibr" target="#b17">18</ref> .</s><s>Particles in the path of the laser can also become spatter when heated.</s><s>Another explanation is that residual air trapped between particles, or gas desorbed from the metal surface, can be heated up and expand which pushes particles upward into the laser beam <ref type="bibr" target="#b39">40</ref> .</s><s>Further experiments are needed to validate these hypotheses.</s><s>The loss of material from the track forming region associated with spatter generation can be important for practical reasons.</s><s>For the case of recycled powder, knowing the relative amount of material in the powder bed that is a result of spatter could help predict the limits of recycling since spattered particles can affect the powder size distribution and/or composition which can prevent effective spreading and/or produce precipitated inclusions.</s></p><p><s>The mass per unit length of material solidified in building one track is approximately w t × h × ρ solid where w t and h are the width and height of the track respectively, and ρ solid is the density of the solidified material.</s><s>Not all particles are used to form the track -some are ejected away and land elsewhere on the powder bed.</s><s>The total mass per unit length of powder involved during the track formation is given by w d × l × ρ pow for a layer thickness l (~60 µm), powder density ρ pow (~0.5ρ solid assuming a 50% porosity), and width of the denudation zone w d .</s><s>For Ti64 at P = 75 W and u = 0.5 m/s, the dimensions of the solidified track were measured to give h ~ 60 µm, w t ~ 150 µm, and w d ~ 350 µm <ref type="bibr" target="#b17">18</ref> .</s><s>The percent of material used in building a single track (w t hρ solid /w d lρ pow ) is approximately 85% while the remaining 15% are particles that are redistributed across the powder bed and get redeposited.</s><s>The calculations here are based on one parameter case as an example and are expected to vary with processing conditions.</s><s>We also note that in an actual build, the first track will have the most surrounding powder as compared with subsequent adjacent layers.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p><s>In conclusion, we have presented experimental and simulation results which have elucidated the physics of the spatter generation and role of micro-particle entrainment in PBFAM processes.</s><s>Simulations of melt pool ejections agree well with high speed video of liquid droplet ejections from laser induced recoil pressure.</s><s>However, we have discovered a more dominant process related to metal vapor-driven particle entrainment that leads to more efficient material ejection for PBFAM processes.</s><s>Experiments showing the relatively large spatter generation rates associated with powder layers as compared with bare plates under the same laser parameters support this conclusion.</s><s>The entrainment process leads to both local denudation and the distribution of molten droplets across the powder bed, each potential sources of defects in PBFAM.</s><s>We conclude that 60% are hot entrainment ejections with velocities of 6-20 m/s, 25% are cold entrainment ejections with velocities of 2-4 m/s, and 15% are recoil pressure induced droplet breakup ejections with velocities of 3-8 m/s.</s><s>The results presented here should stimulate further development of new multi-phase flow models to address the detailed physics of laser-vapor-driven particle entrainment in order to better understand process conditions which can lead to PBFAM component defects.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental setup.</head><p><s>A 600 W fiber laser (JK lasers, model JK600FL) is directed through a 3-axis galvanometer scanner (Nutfield technologies) and into a 15 × 15 × 15 cm 3 vacuum chamber through a high purity fused silica window.</s><s>The ~f/20 optical system results in a focused D4σ diameter of ~50 μm at the sample.</s><s>The vacuum chamber is evacuated using a turbomolecular pump and purged with Ar.</s><s>Residual oxygen content is measured using a photoluminescence quenching meter (Ocean Optics Neo Fox) and the concentration of oxygen is below 0.01%, the lower limit of the oxygen sensor's measurement range.</s><s>Experiments are performed at 1 × 10 -3 Torr or 760 Torr Ar.</s><s>Pressure is controlled using a combination of purge and pumping rates.</s><s>An ultra-high-speed camera with microscope optics (Mitutoyo 10x/0.28NA,</s><s>Infinity K2) is placed outside the chamber to image the melt pool.</s><s>Imaging is performed at up to 100 kfps frames per second (fps) using a Photron SA-X2 or up to 1 Mfps using Shimadzu HPV-2, with an optical resolution of ~5 μm.</s><s>For illumination of the surface, either a 700 mW, 638 nm CW diode laser (Thorlabs, model L638P700M) or a low coherence 810 nm, pulsed laser with 500 W peak power (Cavitar, model Cavilux HF) are employed.</s><s>Due to the limited field of view from imaging with a single camera, out of plane components of the velocity could not be determined, such that all velocity measurements are in-plane projections.</s><s>A 25.4 mm diameter, 3.2 mm thick build plate of the same composition as the powder is used with a bead-blasted and ultrasonic cleaned surface.</s></p><p><s>Characterization of average particle velocity is performed using PIVlab <ref type="bibr" target="#b40">41</ref> , an image correlation algorithm written in Matlab.</s><s>Each image frame is divided into many small interrogation windows, and the particle trajectory is determined from cross correlation of the interrogation windows from a pair of image using fast Fourier transforms.</s><s>The correlation comprised of 2 passes with the 1 st pass comprised of an initial 64 × 64 pixel interrogation area for a coarse velocity calculation, followed by a 32 × 32 smaller interrogation area for finer vector resolution.</s><s>Tracking of individual particle trajectory is performed using MtrackJ, an ImageJ plugin <ref type="bibr" target="#b41">42</ref> by analyzing particle displacement frame by frame.</s><s>This has the advantage of tracking single particle ejections and their emission angles.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials.</head><p><s>Powders used are stainless steel type 316 L (SS316L, CL20ES, Concept Lasers) and Titanium alloy Ti-6Al-4V (Ti64, AM64gr5, Additive Metal Alloys).</s><s>Bare plate substrates were obtained from McMaster Carr.</s><s>Wire EDM was used to machine the 1/8″ thick stock into 1″ diameter discs matching the sample holder size.</s><s>The discs were lightly bead blasted on the side where powder is spread to provide a rough surface to aid in preparing uniform layers of powder.</s><s>The discs are washed in soap and water before use.</s><s>Powders were manually applied using a stainless steel razor edge to simulate the spreading process in a production machine.</s><s>Diameters of the powder particles for SS316L and Ti64 samples were 30 ± 10 μm.</s><s>Nominal thicknesses for the metal powder layers for all measurements were ~60 μm.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc><div><p><s>Metal vapor micro-jet controls material redistribution in laser powder bed fusion additive manufacturing Sonny Ly 1 , Alexander M. Rubenchik 2 , Saad A. Khairallah 3 , Gabe Guss 4 &amp; Manyalibo J. Matthews 1 The results of detailed experiments and finite element modeling of metal micro-droplet motion associated with metal additive manufacturing (AM) processes are presented.</s><s>Ultra high speed imaging of melt pool dynamics reveals that the dominant mechanism leading to micro-droplet ejection in a laser powder bed fusion AM is not from laser induced recoil pressure as is widely believed and found in laser welding processes, but rather from vapor driven entrainment of micro-particles by an ambient gas flow.</s><s>The physics of droplet ejection under strong evaporative flow is described using simulations of the laser powder bed interactions to elucidate the experimental results.</s><s>Hydrodynamic drag analysis is used to augment the single phase flow model and explain the entrainment phenomenon for 316 L stainless steel and Ti-6Al-4V powder layers.</s><s>The relevance of vapor driven entrainment of metal micro-particles to similar fluid dynamic studies in other fields of science will be discussed.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Spatter ejection associated with a SS316L powder layer (a,b) and for a SS316L plate (c,d) for two parameter cases: 150 W, 0.5 m/s and 200 W, 1.5 m/s.</s><s>The camera frame rate was 100 kfps with an exposure time of 8 μs.</s><s>Laser scanning is performed from left to right.</s><s>Both cases are in an Ar environment.</s><s>(e,f) Particle Image Velocimetry (PIV) was used to quantitatively measure projected velocities.</s><s>Average velocities of &gt;9 m/s are observed at the center of the plume for the 150 W, 0.5 m/s case and &gt;7 m/s for the 200 W, 1.5 m/s case.</s><s>Black arrows show actual particle path data and orange arrows are interpolated data.</s><s>(g,h) Simulations showing regions above boiling in the melt pool depression for a bare plate.</s><s>The arrows indicate the expected direction of the vapor plume.</s></p></div></figDesc><graphic coords="3,98.64,46.50,456.00,243.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Comparison between experiment (a-c) and simulation (d-g) of the laser-driven spatter process for a bare SS316L plate, showing good qualitative agreement.</s><s>The experiment consists of three experimental snapshots recorded at 1 Mfps in the top region which shows droplet formation and ejection.</s><s>In (a-c), the illumination laser is off resulting in self-illumination of the melt pool and surrounding region through incandescence.</s><s>The spatter forms as a protuberance in (a), elongated neck in (b) and escapes as a spherical droplet in (c).</s><s>Experimental parameters: P = 600 W, u = 3.0 m/s.</s><s>(d-f) Simulation of three snapshots that represent the experimental data.</s><s>(g) Semi-transparent side view of the simulation in (f) showing the depression at the front of the melt pool with complex liquid flow and droplet ejection angle relative to the surface of the plate.</s><s>Simulation parameters: P = 200 W, u = 1.5 m/s.</s></p></div></figDesc><graphic coords="4,155.64,46.50,396.00,278.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3.</s><s>Comparison between experiment (a-f) and simulation (g-n) of the laser-driven spatter process in powder, showing good qualitative agreement.</s><s>The experiment consists of experimental snapshots showing droplet formation and ejection.</s><s>The illumination laser (Cavilux with filter in a-c; Thorlabs, no filter in d-f) is on and the powder can be observed in the background.</s><s>(a-c) illustrates a small 10 μm droplet forming and ejecting away from the melt similar to a bare plate.</s><s>The melt pool is highlighted with blue dashed lines.</s><s>The spatter forms as a protuberance in (a), elongated neck thins out in (b) and escapes as a spherical droplet in (c) (circled in red).</s><s>(d-f) illustrates a larger droplet forming from liquid buildup at the front of the melt due to the presence of powder (circled in red).</s><s>The melt collects in front of the depression in (d) and is plowed forward in (e) while collecting mass and escapes the melt pool in (f) to land a short distance.</s><s>The simulation (g-j) shows four snapshots representing the droplet ejection in (d-f).</s><s>Snapshots (k-n) shows a sub-threshold ejection event.</s><s>The droplet is flattened on the left side in (k), is entrained by the rotation flow towards the back and subsumed by the melt pool (l-n).</s><s>Experimental parameters Ti6-4, P = 300 W and u = 1. 5 m/s for (a-c) and SS316L, P = 200 W, u = 2.0 m/s for (d-f) and simulation parameters SS316L, P = 200 W, u = 1.5 m/s.</s></p></div></figDesc><graphic coords="5,155.64,46.50,396.00,319.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. High resolution imaging of the melt pool formation at 500 kfps.</s><s>To more clearly observe the rapid heating and incandescence of the entrained particles, the external illumination source is turned off.</s><s>The laser power for the time sequence shown is P = 300 W and u = 1.5 m/s.</s><s>The series of images show the time progression from 80 µs to 174 µs.</s><s>As the laser is scanned from left to right, particles are observed being swept up and backward with the arrow denoting the movement.</s><s>The first image at 80 µs shows the location of the laser spot (green arrow) at the front of the melt pool.</s><s>Hot particles are white in the image (circled in red) and cold particles are black (circled in blue).</s><s>At 88 µs, the cold particles are lifted up and swept in a motion depicted by the blue arrows.</s><s>Similarly hot particles that exit the laser beam is swept in a motion depicted by the red arrows.</s><s>At 146 µs, new cold and hot particles are being entrained and the process repeats.</s></p></div></figDesc><graphic coords="7,155.64,46.50,396.00,232.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure5.</s><s>(a) Schematic depicting particle entrainment of the powder bed by an induced argon gas flow for a stationary laser beam.</s><s>A vapor jet creates a low pressure zone which leads to an inward gas flow that entrains particles and leads to three distinct trajectories: particles with low vertical momentum are swept into the melt pool and subsumed (1), particles with higher vertical momentum but originating &gt;2 melt pool widths away are swept into the trailing portion of the vapor jet and ejected as cold particles (3) and particles with roughly the same vertical momentum as (2) but originating closer to the point of laser irradiation (&lt;2 melt pool widths) are swept into or near the laser beam itself rapidly heat and are ejected as incandescent, hot particles.</s><s>(b) For a moving laser beam, a non-uniform jet stream wakefield is induced and extends 3-4 beam diameters away.</s></p></div></figDesc><graphic coords="8,155.64,46.50,396.00,189.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>(a) Velocity-size distribution for SS316L at P = 200 W, u = 1.5 m/s.</s><s>Hot-entrained ejections (black squares) had projected velocities ranging from ~6 m/s for 30 µm particles to ~20 m/s for 10 µm particles.</s><s>Coldentrained ejections (red circles) had projected velocities ranging from 2 to 4 m/s.</s><s>Melt pool ejections (from recoil pressure and not involving an entrainment effect) had projected velocities ranging from 3 to 8 m/s.</s><s>(b) Velocity as function of scan speed for SS316L and Ti64 at different laser powers.</s></p></div></figDesc><graphic coords="8,155.64,351.01,396.00,157.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7 .</head><label>7</label><figDesc><div><p><s>Figure 7.</s><s>Comparison of spatter ejection for SS316L and Ti64 powder in 10 -3 Torr Vac and 760 Torr Ar over 5 ms time frame.</s><s>(a) Histogram of brightness which is taken as the sum of the total number photons ("N total") above the background with bin size = 255.</s><s>"Mean, Std, Min, Max" on the Table, indicates the mean, standard deviation, minimum and maximum brightness.</s><s>For SS316L, in Ar, there are 5 × more ejections that appear with 2 × higher intensity.</s><s>Ti64 had more ejections than SS316L in Ar and vacuum.</s><s>Experimental images recorded for SS316L and shown in (b) argon and (c) vacuum were taken at a camera frame rate of 100 kfps and an exposure time of 8 μs.</s><s>Laser power P = 200 W, scan speed u = 1.5 m/s.</s></p></div></figDesc><graphic coords="9,155.64,46.50,396.00,240.96" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><s>Scientific RepoRts | 7: 4085 | DOI:10.1038/s41598-017-04237-z</s><s>www.nature.com/scientificreports</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p><s>Scientific RepoRts | 7: 4085 | DOI:10.1038/s41598-017-04237-z</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>The authors wish to acknowledge <rs type="person">Dr. Wayne E. King</rs> for guidance and insightful discussions.</s><s>This work was funded through a <rs type="funder">Laboratory Directed Research and Development</rs> grant <rs type="grantNumber">15-ERD-037</rs> and performed under the auspices of the <rs type="funder">U.S. Department of Energy</rs> by <rs type="funder">Lawrence Livermore National Laboratory</rs> under contract <rs type="grantNumber">DE-AC52-07NA27344</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jsUygAA">
+					<idno type="grant-number">15-ERD-037</idno>
+				</org>
+				<org type="funding" xml:id="_RXNpQps">
+					<idno type="grant-number">DE-AC52-07NA27344</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement.</head><p><s>The datasets generated during and/or analysed during the current study are available from the corresponding author on reasonable request.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests:</head><p><s>The authors declare that they have no competing interests.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p><s>S.L. and M.J.M. conceived the experiments.</s><s>S.L. and G.G. conducted and analyzed the laser scanning experiments, including the optical imaging.</s><s>S.A.K. performed the FEA simulations.</s><s>A.M.R. developed the analytical drag model.</s><s>S.L. wrote the manuscript.</s><s>All the authors contributed to and read the final manuscript.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional Information</head><p><s>Supplementary information accompanies this paper at doi<ref type="url" target="http://dx.doi.org/10.1038/s41598-017-04237-z">:10.1038/s41598-017-04237-z</ref></s><s>Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Bäuerle</surname></persName>
+		</author>
+		<title level="m">Laser Processing and Chemistry</title>
+		<imprint>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bäuerle, D. W. Laser Processing and Chemistry. (Springer Science &amp; Business Media, 2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Entrainment regimes and flame characteristics of wildland fires</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weise</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Wildland Fire</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="127" to="140" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nelson, R., Butler, B. &amp; Weise, D. Entrainment regimes and flame characteristics of wildland fires. Int. J. Wildland Fire 21, 127-140 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The Physics of Explosive Volcanic Eruptions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S J</forename><surname>Sparks</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>Geological Society</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gilbert, J. S. &amp; Sparks, R. S. J. The Physics of Explosive Volcanic Eruptions. (Geological Society of London, 1998).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fluidized Bed Gasification as a Mature And Reliable Technology for the Production of Bio-Syngas and Applied in the Production of Liquid Transportation Fuels-A Review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Siedlecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jong</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Verkooijen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energies</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="389" to="434" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siedlecki, M., De Jong, W. &amp; Verkooijen, A. H. M. Fluidized Bed Gasification as a Mature And Reliable Technology for the Production of Bio-Syngas and Applied in the Production of Liquid Transportation Fuels-A Review. Energies 4, 389-434 (2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Electric-Field-Enhanced Condensation on Superhydrophobic Nanostructured Surfaces</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Miljkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Preston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Enright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="11043" to="11054" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miljkovic, N., Preston, D. J., Enright, R. &amp; Wang, E. N. Electric-Field-Enhanced Condensation on Superhydrophobic Nanostructured Surfaces. ACS Nano 7, 11043-11054 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Numerical and experimental investigations on supersonic ejectors</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bartosiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Aidoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Desevaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mercadier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat Fluid Flow</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="56" to="70" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bartosiewicz, Y., Aidoun, Z., Desevaux, P. &amp; Mercadier, Y. Numerical and experimental investigations on supersonic ejectors. Int. J. Heat Fluid Flow 26, 56-70 (2005).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Superhydrophobic Ceramic Coatings by Solution Precursor Plasma Spray</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Azimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mostaghimi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">24670</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cai, Y., Coyle, T. W., Azimi, G. &amp; Mostaghimi, J. Superhydrophobic Ceramic Coatings by Solution Precursor Plasma Spray. Sci. Rep. 6, 24670 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Thin-film deposition with high pressure capillary micro-discharges under different supersonic flow and shock regimes</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Koh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gordon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">495204</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koh, T. L. &amp; Gordon, M. J. Thin-film deposition with high pressure capillary micro-discharges under different supersonic flow and shock regimes. J. Phys. Appl. Phys. 46, 495204 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of metals</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Seyda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wycisk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Emmelmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="371" to="392" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herzog, D., Seyda, V., Wycisk, E. &amp; Emmelmann, C. Additive manufacturing of metals. Acta Mater. 117, 371-392 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>John</surname></persName>
+		</author>
+		<title level="m">Laser Processing of Engineering Materials</title>
+		<imprint>
+			<publisher>Butterworth-Heinemann</publisher>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John, I. Laser Processing of Engineering Materials. (Butterworth-Heinemann, 2005).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A study on the laser spatter and the oxidation reactions during selective laser melting of 316L stainless steel, Al-Si10-Mg, and Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simonelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="3842" to="3851" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simonelli, M. et al. A study on the laser spatter and the oxidation reactions during selective laser melting of 316L stainless steel, Al- Si10-Mg, and Ti-6Al-4V. Metall. Mater. Trans. A 46, 3842-3851 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">On the oxidation of stainless steel particles in the plasma jet</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Syed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Denoirjean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fauchais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Labbe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="4368" to="4382" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Syed, A. A., Denoirjean, A., Fauchais, P. &amp; Labbe, J. C. On the oxidation of stainless steel particles in the plasma jet. Surf. Coat. Technol. 200, 4368-4382 (2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of thin wall parts using pulse shaping</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Mumtaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hopkinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="279" to="287" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mumtaz, K. A. &amp; Hopkinson, N. Selective laser melting of thin wall parts using pulse shaping. J. Mater. Process. Technol. 210, 279-287 (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effect of Process Control and Powder Quality on Inconel 718 Produced Using Electron Beam Melting</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Sames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Dehoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">8th Int. Symp. Superalloy 718 Deriv</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="409" to="423" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sames, W. J., Medina, F., Peter, W. H., Babu, S. S. &amp; Dehoff, R. R. Effect of Process Control and Powder Quality on Inconel 718 Produced Using Electron Beam Melting. 8th Int. Symp. Superalloy 718 Deriv. 409-423 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Influence of the shielding gas flow on the removal of process byproducts in the selective laser melting process</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ladewig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schlick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fisser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Glatzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ladewig, A., Schlick, G., Fisser, M., Schulze, V. &amp; Glatzel, U. Influence of the shielding gas flow on the removal of process by- products in the selective laser melting process. Addit. Manuf. 10, 1-9 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Factor analysis of selective laser melting process parameters and geometrical characteristics of synthesized single tracks</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bertrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smurov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp. J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="201" to="208" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yadroitsev, I., Yadroitsava, I., Bertrand, P. &amp; Smurov, I. Factor analysis of selective laser melting process parameters and geometrical characteristics of synthesized single tracks. Rapid Prototyp. J 18, 201-208 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Gladush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smurov</surname></persName>
+		</author>
+		<title level="m">Physics of Laser Materials Processing</title>
+		<meeting><address><addrLine>Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">146</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gladush, G. G. &amp; Smurov, I. Physics of Laser Materials Processing. 146, (Springer Berlin Heidelberg, 2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Denudation of metal powder layers in laser powder bed fusion processes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="33" to="42" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthews, M. J. et al. Denudation of metal powder layers in laser powder bed fusion processes. Acta Mater. 114, 33-42 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Single track formation in selective laser melting of metal powders</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gusarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yadroitsava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smurov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="1624" to="1631" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yadroitsev, I., Gusarov, A., Yadroitsava, I. &amp; Smurov, I. Single track formation in selective laser melting of metal powders. J. Mater. Process. Technol. 210, 1624-1631 (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A study of the microstructural evolution during selective laser melting of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verhaeghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Craeghs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="3303" to="3312" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thijs, L., Verhaeghe, F., Craeghs, T., Humbeeck, J. V. &amp; Kruth, J.-P. A study of the microstructural evolution during selective laser melting of Ti-6Al-4V. Acta Mater. 58, 3303-3312 (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">ALE3D: arbitrary lagrange eulerian three-and two dimensional modeling and simulation capability</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mccallen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">LLNL</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCallen, C. ALE3D: arbitrary lagrange eulerian three-and two dimensional modeling and simulation capability. LLNL (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Spatter in laser welding</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F H</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaplan, A. F. H. &amp; Powell, J. Spatter in laser welding. J. Laser Appl. 23 (2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Liquid metal expulsion during laser spot welding of 304 stainless steel</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Fuerschbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">525</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">He, X., Norris, J. T., Fuerschbach, P. W. &amp; DebRoy, T. Liquid metal expulsion during laser spot welding of 304 stainless steel. J. Phys. Appl. Phys. 39, 525 (2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Elucidation of melt flows and spatter formation mechanisms during high power laser welding of pure titanium</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawahito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nishimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katayama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakamura, H., Kawahito, Y., Nishimoto, K. &amp; Katayama, S. Elucidation of melt flows and spatter formation mechanisms during high power laser welding of pure titanium. J. Laser Appl. 27 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Observation of spatter formation mechanisms in high-power fiber laser welding of thick plate</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Deng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="868" to="875" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, M. J., Chen, G. Y., Zhou, Y., Li, S. C. &amp; Deng, H. Observation of spatter formation mechanisms in high-power fiber laser welding of thick plate. Appl. Surf. Sci. 280, 868-875 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Spatter formation in laser beam welding using laser beam oscillation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hugger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dobler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Weld. World</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="165" to="172" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hugger, F., Hofmann, K., Kohl, S., Dobler, M. &amp; Schmidt, M. Spatter formation in laser beam welding using laser beam oscillation. Weld. World 59, 165-172 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Characteristics of spatter formation under the effects of different laser parameters during laser drilling</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K Y</forename><surname>Low</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Corfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="179" to="186" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Low, D. K. Y., Li, L. &amp; Corfe, A. G. Characteristics of spatter formation under the effects of different laser parameters during laser drilling. J. Mater. Process. Technol. 118, 179-186 (2001).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Characterization of spatter in underwater wet welding by X-ray transmission method</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="156" to="161" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo, N., Xu, C., Guo, W., Du, Y. &amp; Feng, J. Characterization of spatter in underwater wet welding by X-ray transmission method. Mater. Des. 85, 156-161 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Relationship between spatter formation and dynamic molten pool during high-power deep-penetration laser welding</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">303</biblScope>
+			<biblScope unit="page" from="481" to="488" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, S., Chen, G., Katayama, S. &amp; Zhang, Y. Relationship between spatter formation and dynamic molten pool during high-power deep-penetration laser welding. Appl. Surf. Sci. 303, 481-488 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Investigation into spatter behavior during selective laser melting of AISI 316L stainless steel powder</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="797" to="806" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, Y., Yang, Y., Mai, S., Wang, D. &amp; Song, C. Investigation into spatter behavior during selective laser melting of AISI 316L stainless steel powder. Mater. Des. 87, 797-806 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">On the role of melt flow into the surface structure and porosity development during selective laser melting</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="72" to="79" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qiu, C. et al. On the role of melt flow into the surface structure and porosity development during selective laser melting. Acta Mater. 96, 72-79 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A Computational Simulation of Thermal and Spattering Phenomena and Microstructure in Selective Laser</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ozel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phpro.2016.08.149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Melting of Inconel</title>
+		<imprint>
+			<biblScope unit="volume">625</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ozel, T. &amp; Y. M. A Computational Simulation of Thermal and Spattering Phenomena and Microstructure in Selective Laser Melting of Inconel 625, doi:10.1016/j.phpro.2016.08.149.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Observation of keyhole-mode laser melting in laser powder-bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="2915" to="2925" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">King, W. E. et al. Observation of keyhole-mode laser melting in laser powder-bed fusion additive manufacturing. J. Mater. Process. Technol. 214, 2915-2925 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Experimental study of the dynamical coupling between the induced vapour plume and the melt pool for Nd-Yag CW laser welding</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fabbro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Slimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Doudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Coste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Briand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">394</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fabbro, R., Slimani, S., Doudet, I., Coste, F. &amp; Briand, F. Experimental study of the dynamical coupling between the induced vapour plume and the melt pool for Nd-Yag CW laser welding. J. Phys. Appl. Phys. 39, 394 (2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<author>
+			<persName><forename type="first">R</forename><surname>Haehnel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Particle Entrainment Under the Influence of an Impinging Jet</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haehnel, R. Physics of Particle Entrainment Under the Influence of an Impinging Jet (PDF Download Available) (2008).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">V</forename><surname>Levich</surname></persName>
+		</author>
+		<title level="m">Physicochemical Hydrodynamics</title>
+		<imprint>
+			<publisher>Prentice Hall</publisher>
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levich, V. Physicochemical Hydrodynamics. (Prentice Hall, 1962).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Landau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Lifshitz</surname></persName>
+		</author>
+		<title level="m">Fluid Mechanics</title>
+		<imprint>
+			<publisher>Butterworth-Heinemann</publisher>
+			<date type="published" when="1987">1987</date>
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+	<note>Second Edition</note>
+	<note type="raw_reference">Landau, L. D. &amp; Lifshitz, E. M. Fluid Mechanics, Second Edition: Volume 6. (Butterworth-Heinemann, 1987).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Reducing lack of fusion during selective laser melting of CoCrMo alloy: Effect of laser power on geometrical features of tracks</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Darvish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pasang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="357" to="366" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Darvish, K., Chen, Z. W. &amp; Pasang, T. Reducing lack of fusion during selective laser melting of CoCrMo alloy: Effect of laser power on geometrical features of tracks. Mater. Des. 112, 357-366 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">High quality welding of stainless steel with 10 kW high power fibre laser</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawahito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katayama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Technol. Weld. Join</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="288" to="294" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kawahito, Y., Mizutani, M. &amp; Katayama, S. High quality welding of stainless steel with 10 kW high power fibre laser. Sci. Technol. Weld. Join. 14, 288-294 (2009).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Ablation phenomena and instabilities under laser melting of powder layers</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chivel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">LANE</title>
+		<imprint>
+			<biblScope unit="page">2014</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chivel, Y. Ablation phenomena and instabilities under laser melting of powder layers. LANE2014 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">PIVlab -Towards User-friendly, Affordable and Accurate Digital Particle Image Velocimetry in MATLAB</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Thielicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stamhuis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Open Res. Softw</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thielicke, W. &amp; Stamhuis, E. PIVlab -Towards User-friendly, Affordable and Accurate Digital Particle Image Velocimetry in MATLAB. J. Open Res. Softw. 2 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Methods for cell and particle tracking</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meijering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Dzyubachyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">504</biblScope>
+			<biblScope unit="page" from="183" to="200" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meijering, E., Dzyubachyk, O. &amp; Smal, I. Methods for cell and particle tracking. Methods Enzymol. 504, 183-200 (2012).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

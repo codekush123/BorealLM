@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influences of powder morphology and spreading parameters on the powder bed topography uniformity in powder bed fusion metal additive manufacturing</title>
+				<funder>
+					<orgName type="full">European Regional Development Fund</orgName>
+				</funder>
+				<funder ref="#_nMjDRGb">
+					<orgName type="full">Science Foundation Ireland</orgName>
+					<orgName type="abbreviated">SFI</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>25 December 2020 2214</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Andre</forename><surname>Mussatto</surname></persName>
+							<email>andre.mussatto2@mail.dcu.ie</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> School of Mechanical and Manufacturing Engineering , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">School of Mechanical and Manufacturing Engineering</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> I-Form Advanced Manufacturing Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">I-Form Advanced Manufacturing Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Advanced Processing Technology Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">Advanced Processing Technology Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Groarke</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> School of Mechanical and Manufacturing Engineering , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">School of Mechanical and Manufacturing Engineering</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> I-Form Advanced Manufacturing Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">I-Form Advanced Manufacturing Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Advanced Processing Technology Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">Advanced Processing Technology Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aidan</forename><surname>O'neill</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> Castolin Eutectic , Magna Business Park , Citywest , Dublin 24 , Ireland</note>
+								<orgName type="department">Castolin Eutectic</orgName>
+								<address>
+									<addrLine>Magna Business Park</addrLine>
+									<postCode>24</postCode>
+									<settlement>Citywest Dublin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ahmed</forename><surname>Muhannad</surname></persName>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">School of Mechanical and Manufacturing Engineering , Dublin City University , Glasnevin , Ireland.</note>
+								<orgName type="department">School of Mechanical and Manufacturing Engineering</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Obeidi</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> School of Mechanical and Manufacturing Engineering , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">School of Mechanical and Manufacturing Engineering</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> I-Form Advanced Manufacturing Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">I-Form Advanced Manufacturing Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Advanced Processing Technology Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">Advanced Processing Technology Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yan</forename><surname>Delaure</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> School of Mechanical and Manufacturing Engineering , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">School of Mechanical and Manufacturing Engineering</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> I-Form Advanced Manufacturing Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">I-Form Advanced Manufacturing Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Advanced Processing Technology Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">Advanced Processing Technology Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dermot</forename><surname>Brabazon</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> School of Mechanical and Manufacturing Engineering , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">School of Mechanical and Manufacturing Engineering</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> I-Form Advanced Manufacturing Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">I-Form Advanced Manufacturing Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Advanced Processing Technology Research Centre , Dublin City University , Glasnevin , Ireland</note>
+								<orgName type="department">Advanced Processing Technology Research Centre</orgName>
+								<orgName type="institution">Dublin City University</orgName>
+								<address>
+									<settlement>Glasnevin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influences of powder morphology and spreading parameters on the powder bed topography uniformity in powder bed fusion metal additive manufacturing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">25 December 2020 2214</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FD6E7BC15C8A3822D1876ED7AEB5E92B</idno>
+					<idno type="DOI">10.1016/j.addma.2020.101807</idno>
+					<note type="submission">Received 10 July 2020; Received in revised form 3 November 2020; Accepted 20 December 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-24T01:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Powder spreadability Powder rheology Particle segregation Selective laser melting Stainless steel</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Powder spreading is a crucial step in the powder bed fusion process, which controls the quality of powder bed and consequently affects the quality of printed parts.</s><s>To date, however, powder spreadability has received very little attention and substantial fundamental work is still needed, largely because of the lack of experimental studies.</s><s>Therefore, the focus of the present study addresses the influences of powder morphology, spreading velocity and layer thickness on the powder bed topography uniformity.</s><s>The experiments were conducted with a laser powder bed fusion printer and the powder layers were spread systematically and comprehensively assessed.</s><s>In summary, it was found that particle sphericity and surface texture dictates the degree of impact that the spreader velocity and the layer thickness exert on the quality of powder bed topography in spread layers.</s><s>The spreader velocity has substantial influence on powder bed uniformity, such that better uniformity is achieved with low spreading velocities, ≤ 80 mm/s.</s><s>Powders with a wide particle distribution and containing large number of fine particles (&lt; 25 µm) enabled formation of uniform and dense powder beds, however such powders were found to be more affected by segregation.</s><s>In addition to these observed effects, for the first time, the major process related challenges to powder spreadability and powder bed quality are reported in this study.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p><s>Selective laser melting (SLM) is as known as the laser powder bed fusion (PBF) technique for metal additive manufacturing (AM) which allows the printing of three dimensional parts by spreading and selectively melting powder in a layer by layer fashion <ref type="bibr" target="#b0">[1]</ref>.</s><s>In comparison with conventional manufacturing techniques, SLM offers near net shape production of complex geometries and capability for pointwise control of microstructure, as well as a high degree of control over the physical and mechanical properties of parts <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>.</s><s>However, the SLM process is very complex and governed by numerous factors and physical mechanisms <ref type="bibr" target="#b3">[4]</ref>.</s><s>For this reason, substantial research has been conducted in recent years in order to gain further understanding of the underlying physical mechanisms which are strongly material and process parameter-dependant, and ultimately optimise the process and properties of fabricated parts <ref type="bibr" target="#b4">[5]</ref>.</s></p><p><s>The powder properties and the powder bed quality are key factors governing the numerous physical mechanisms and hence properties of printed parts <ref type="bibr" target="#b5">[6]</ref>.</s><s>Therefore, it is important to understand how powder is spread across the build area and understand the formation of powder layers, in order to accurately predict powder bed quality <ref type="bibr" target="#b6">[7]</ref>.</s><s>A powder must possess suitable rheology properties in order to form thin, dense and uniform powder layers <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>.</s><s>However, the ability of a powder to flow well is highly influenced by the shape, size, size distribution, surface texture, porosity, chemical composition, moisture content, density, electrostatic charge and stiffness of its particles <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>.</s><s>Therefore, powders having values for these and other characteristics inclined towards optimisation of their flowability are preferable <ref type="bibr" target="#b13">[14]</ref>.</s><s>In terms of spreadability, a powder which has ideal flow characteristics for SLM does not alone ensure the formation of good quality powder layers, as spreadability is also governed by other factors such as spreader speed, spreader pressure, spreader material type and powder temperature.</s><s>Nonetheless, flowability is an essential powder property towards the achievement of uniformly spread powder layers <ref type="bibr" target="#b14">[15]</ref>.</s></p><p><s>The powder spreading process is also governed by the spreader system (roller or blade), spreading parameters, powder supply factor and powder layer thickness <ref type="bibr" target="#b15">[16]</ref>.</s><s>During powder spreading, particles undergo particle-particle and particle-spreader interactions which can lead to electrostatic charging and particle morphological changes, which can prevent the formation of high quality powder layers <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref>.</s><s>The spreading of powder onto a non-uniform and unstable layer which was previously spread and a very rough built surface as well as the presence of large spatter particles on the powder bed can be challenging for the formation of uniform consecutive layers.</s><s>Additionally, the powder bed can also be affected by the inert gas flow system which functions to remove by-products and ensure a safe process atmosphere.</s><s>An excessive flowrate and velocity of inert gas has been shown to remove particles from spread layers and hence compromise the powder bed quality <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref>.</s></p><p><s>Recently, it was reported the lack of standard test methods for spreadability that provide guidance for quantitative assessment of powder spreadability <ref type="bibr" target="#b25">[26]</ref>.</s><s>Unfortunately, today measuring and quantifying powder spreadability is identified as a crucial knowledge gap in the SLM process <ref type="bibr" target="#b26">[27]</ref>.</s><s>However, research efforts are now being seen in this area in terms of in situ investigations and simulations.</s><s>Nevertheless, there exist numerous challenges such as complex part architecture, rough environment inside the building chamber of SLM systems and the lack of physical results against which to validate powder spreading simulations.</s></p><p><s>The discrete element method has been a useful numerical tool for studying powder flow dynamics in PBF AM <ref type="bibr" target="#b27">[28]</ref>.</s><s>Recently, it has been also exploited by a number of researchers to study powder spreading dynamics.</s><s>A recent study reported that a small amount (vol%, 1.5) of fine particles (20 µm &lt; d &lt; 40 µm) added to the baseline powder (45 µm &lt; d &lt; 150 µm) can slightly improve the quality of the powder bed in terms of packing density and surface roughness.</s><s>However, the spreadability increased and then decreased with adding fines <ref type="bibr" target="#b28">[29]</ref>.</s><s>It was also reported that powders with mean diameter ≤ 17 µm are highly influenced by cohesive forces such that it dominates the gravity forces.</s><s>The use of such powders resulted in the formation of powder layers of poor quality <ref type="bibr" target="#b29">[30]</ref>.</s><s>Chen et al. concluded from their study that the influence of Van der Waals force rises and dominates with increasing fine particle content.</s><s>This also resulted in poor powder flowability and in turn powder spreadability.</s><s>On the other hand, powders with particle radius &gt; 21.8 µm were more favourable for powder flowability and presented lower particle friction coefficients, resulting in a denser and more uniform powder bed layer <ref type="bibr" target="#b30">[31]</ref>.</s><s>In terms of spreaders, Haeri utilised discrete element method simulations to optimise the geometry of blade spreaders while assuming a super elliptic edge profile and varying its height, width and overall shape.</s><s>The results showed that the optimised blade can generate a bed with packing density very close to roller systems and can translate to higher production rate (velocity) than the non-optimised blade with limited impact on the powder bed quality <ref type="bibr" target="#b31">[32]</ref>.</s><s>However, to fully demonstrate the effectiveness of the optimised blade design, it should be tested on an actual PBF system.</s><s>In a different study, the spreading of non-spherical particles was also simulated using the discrete element method <ref type="bibr" target="#b32">[33]</ref>.</s><s>The results suggested that larger particle aspect ratios or higher spreader translational velocities resulted in smaller packing density and higher surface roughness of spread layers.</s><s>Therefore, this study highlights the importance of particle sphericity and spreader velocity on the quality of powder bed.</s><s>Nan et al. investigated the effect of layer thickness on transient particle jamming using discrete element method simulations <ref type="bibr" target="#b33">[34]</ref>.</s><s>They found that small layer thicknesses are influenced by powder segregation and can form empty patches on spread powder layers due to particle jamming.</s><s>The collapse of jammed particles during spreading was then reported in some instances to lead to the particle burst into the spreading layer, deteriorating even further spread layers.</s></p><p><s>Other studies focused purely on the experimental side of powder spreadability.</s><s>Snow et al. developed a powder spreadability test rig to assess powder spreadability.</s><s>They reported that the angle of repose is one of the most influential input factors in powder spreadability.</s><s>Powders with lower angle of repose were more flowable and provided higher deposition rate, whereas powders with high angle of repose formed a poor powder coverage and powder aggregates.</s><s>Increasing the spreader velocity from 50 to 150 mm/s increased the powder deposition rate.</s><s>However, those powders with angle of repose &gt; 40 • exhibited poor flowability for high spreading velocities and based on the rate of change of the avalanching angle were unable to improve spreadability <ref type="bibr" target="#b26">[27]</ref>.</s><s>Another study investigating the effect of powder moisture on spreadability reported that powder morphology had a large influence on moisture absorption and flow behaviour.</s><s>From the investigated powders, Aluminium alloys were found to be extremely sensitive to oxygen and moisture uptake in comparison to Inconel and titanium alloys.</s><s>The spreading of moisture-containing powders showed their tendency for agglomeration formation and segregation of particles during the spreading.</s><s>Additionally, the authors also reported that the spreading of such powders was characterised by scratches on the powder bed <ref type="bibr" target="#b34">[35]</ref>.</s><s>Lerma et al. concluded from their study that powders with morphological characteristics towards sphericity and surficial smoothness led to an almost 50% increase in packing density.</s><s>In addition, they also reported particle segregation during the powder spreading.</s><s>Large particles segregated near the beginning of spreading while smaller particles segregated towards the end of the build platform <ref type="bibr" target="#b35">[36]</ref>.</s><s>However, another study reported the opposite segregation behaviour and found higher packing densities near the beginning of spreading and a decline of the packing density near the end of the build platform <ref type="bibr" target="#b36">[37]</ref>.</s></p><p><s>The reviewed literature demonstrates the importance of powder spreadability for PBF systems and the influence of various powder characteristics, spreading parameters and intrinsic mechanisms on the powder bed quality.</s><s>To date, powder spreadability has received very little attention, with conflicting observations.</s><s>Therefore, substantial fundamental work on this topic is still needed.</s><s>Hence, experimental approaches are the best way forward to thoroughly understand spreadability and validate numerical models.</s><s>The focus of the present study addresses the influences of powder morphology, spreading velocity and layer thickness on the powder bed topology uniformity.</s><s>Briefly, the powder samples underwent a series of investigations to enable the correlation of their characteristics to their observed spreadability.</s><s>A three-level full factorial design was employed in order to obtain a comprehensive understanding of the influence of each of the three factors and their levels on the powder bed topographical quality.</s><s>Uniformity, profile height and profile void volume were studied from the powder bed topography.</s><s>Additionally, particle segregation and process inherent challenges were examined and are presented in order to expand the understanding of powder spreadability and its implications to part quality.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nomenclature</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p><s>Flowability is the ability of a powder to flow.</s></p><p><s>• Spreadability is the spreading behavior of a powder.</s></p><p><s>• D-values are metrics used to describe the particle size distribution.</s><s>SLM Selective laser melting.</s><s>PBF Powder bed fusion.</s><s>AM Additive manufacturing.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Powder characterization</head><p><s>Three AISI 316 L stainless steel powders obtained from Alfa Aesar (powder A), not supplied for metal AM, and from Castolin Eutectic (powder B) and Carpenter Additive (powder C), which were designed for metal AM.</s><s>The powders physical characteristics were analysed using a scanning electron microscope (SEM) Zeiss EVO LS-15 and a Malvern Mastersizer 3000 particle size analyser.</s><s>A Micromeritics AccuPyc 1330 Helium Pycnometer was used to assess the density of the powders, and the flow properties of the powders were investigated using a Freeman FT4 powder rheometer.</s><s>The powders angle of avalanche was measured using the in-house developed system based on the Revolution Powder Analyzer and the angle of repose was measured using the Hall Flowmeter funnel set up as recommended by the ASTM F3049 standard <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b38">39]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Powder spreading and experimental design</head><p><s>In order to ensure the relevance of the spreadability test to the actual laser PBF process, the experiments were conducted inside the laser PBF build chamber of an Aconity Mini (Aconity3D, Germany).</s><s>To minimise the electrostatic charging of the powder during the spreading process, the powder spreader system of the printer was fitted with an anti-static carbon fibre brush.</s><s>A powder supply factor typical of metal AM processing on the Aconity of two was employed which means that twice the amount of powder required for the set layer thickness was spread.</s><s>This was to ensure that there is enough powder to cover the printing area while avoiding excessive and unnecessary use of powder.</s><s>The experiments were conducted using extreme parameter levels as well as levels that are typically used in powder bed metal printing (as per the design illustrated in Table <ref type="table" target="#tab_0">1</ref>) in order to understand the effect of the various powder morphologies, rheological characteristics and spreading parameters on the spreading of uniform powder beds.</s><s>A 20 mm by 20 mm by 5 mm depth container was placed within the powder bed to capture the powder bed samples.</s><s>This was filled with powder while embedded within the powder bed.</s><s>When filled, a further five layers of powder were spread according to the automated spreader operation.</s><s>The sample container was then carefully extracted in order to not disturb the powder surface before surface profile measurement.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Powder bed topography assessment</head><p><s>Precise measurement of the spread powder topographies was conducted using a Keyence VHX2000E optical 3D digital microscope.</s><s>A magnification of 300x was found to be suitable for this analysis as it enabled a good balance between area of coverage and degree of detail visible.</s><s>The set-up for a depth resolution of 1 µm was employed in order to accurately capture and report the topographical characteristics of powder bed samples such as peaks, pores and agglomerations.</s><s>Eight profile measurements within this area of 800 µm by 1102.3 µm were taken for each powder sample, which was based on the sample original area.</s><s>This was to measure powder bed topography variations to allow to draw a more precise conclusion about the investigated parameters.</s><s>The sample size, n, was chosen based on the profile void volume and profile height responses as per equation n = (1.96σ/e) 2 , where σ is the standard deviation and e is the sampling error.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Particle segregation evaluation</head><p><s>Powder C was used in this study as it has better all-around properties (physical and flow) and because it performed better than powder A and B in the spreadability studies.</s><s>100 layers each having 50 µm thickness were spread with a powder supply factor of two using a spreader velocity of 80 mm/s.</s><s>The powder samples were then collected from the begin, middle and end of the build platform and assessed using the Malvern Mastersizer 3000 particle size analyser.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Morphologies challenging powder spreadability</head><p><s>Four 5 × 5 × 5 mm cubes were printed using the parameters of sample five, Table <ref type="table" target="#tab_0">1</ref>.</s><s>The Aconity Mini (Aconity3D, Germany) laser PBF machine was used to print these samples.</s><s>The hatch spacing was held constant at 60 µm and the focus diameter was set to 80 µm.</s><s>The parts were exposed with a laser power of 140 W at a scanning speed of 800 mm/s.</s><s>Argon was used as protective gas and the oxygen content inside the chamber was kept below 50 ppm.</s><s>The morphology of the powder bed with the printed samples were then investigated using a Keyence VHX2000E optical 3D digital microscope.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Powders morphology and flow characteristics</head><p><s>The three powders investigated in this study are shown in the images in Fig. <ref type="figure" target="#fig_0">1</ref>.</s><s>Powder A is deemed morphologically unsuitable for selective laser melting.</s><s>The reason for using this powder was to help to assess the spreadability of the other two powders.</s><s>This powder consists of nonspherical and elongated irregularly shaped particles.</s><s>On the contrary, powder B has a good particle sphericity and a small number of elongated particles.</s><s>However, its particles present a consistent surface texture.</s><s>Powder C has a higher degree of sphericity.</s><s>However, irregular, fines and satellite particles are present.</s><s>The optical images to the right handside of the micrographs show the pouring characteristics of each of the powders.</s><s>Powder A presented poor flowability for PBF applications mainly due to substantial particle mechanical interlocking.</s><s>The flowability of powder C also seems to have some degree of restriction due to particle mechanical interlocking.</s><s>However, powder B apparent to be a free flowing powder.</s></p><p><s>The particle size distributions of the powders under investigation are shown in Fig. <ref type="figure" target="#fig_2">2</ref>. As expected, powder A has the wider particle size distribution.</s><s>It is comprised of very large particles (≈100 µm) and a considerable number of fines.</s><s>Powder B presented a gaussian type of distribution which is generally considered optimal for the SLM process.</s></p><p><s>A similar distribution is seen in powder C.</s><s>However, the distribution is shifted to the left and approximately half of the particles contained in this powder is sized below 30 µm.</s><s>Fine particles (&lt; 20 µm) are known to have a tendency for agglomeration and high level of cohesiveness therefore impacting on its powder flowability.</s><s>Table <ref type="table" target="#tab_1">2</ref> compares the morphological, physical and rheological characteristics of the powders that are fundamental for understanding their spreadability.</s><s>The up and down arrow directions seen in the table indicate the favourable trend to maximise spreadability.</s><s>Powder B and C presented similar circularity (circularity is a measure of the particles sphericity).</s><s>However, Powder C presented 10% higher sphericity than powder B and this can be considered an advantage towards a better flowability.</s><s>In addition, powder C also presented the best length to width relationship (aspect ratio).</s><s>This is also seen in the micrographs of  powders is seen in Table <ref type="table" target="#tab_1">2</ref>.</s><s>As shown by the bulk density measurements, powder A presented a large void volume fraction of packed powder, whereas the spherical powders B and C were seen to achieve a more efficient packing.</s><s>The avalanche and repose angle results suggest that the flowability of powder A is largely restricted by its irregular particles morphologies.</s><s>Therefore, this powder lacks in a vital requirement for achieving good powder spreadability.</s><s>On the other hand, both powder B and C presented very similar angles to those powders suitable for PBF <ref type="bibr" target="#b39">[40]</ref>.</s><s>The specific energy measurements which were obtained assuming flow in a low stress environment identified powder B as having the lowest cohesion in comparison to the other two powders.</s><s>This is mainly because of its superior physical properties such as particle size, shape and texture.</s><s>All the three powders presented low flow rate sensitivity.</s><s>However, powder B presented the lowest sensitivity to flow rate and there is enough evidence to suggest that this is related to its free flowing behaviour and to the fact that its particles are slightly coarser.</s><s>Furthermore, identifiable from the powder particle micrographs, the particle surface smoothness of powder B particles was key in determining this powder flowability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Powder bed topography</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Profile height</head><p><s>The profile height measured from the powder bed topography quantified the difference between the lowest valley to the highest peak of powder.</s><s>Hence, it is an indication of the non-uniformity of a powder layer height which due to lack (valleys) and excess (peaks) of powder.</s><s>When present in excess these defects are typically found in large quantities and randomly dispersed over the powder bed area.</s><s>A powder bed having a high profile height would certainly lead to problems such as discontinuous and variable meltpool volumes and defects due to lack of fusion.</s><s>Therefore, to avoid these and other resulting problems the profile height should be as close to 0 µm as possible.</s><s>The profile height measured from the various powder beds, which were generated using the conditions of Table <ref type="table" target="#tab_0">1</ref> is shown in Fig. <ref type="figure" target="#fig_3">3</ref>. Samples 19-27 correspond to Powder A. The effect of this powder's morphology on the profile height is clear.</s><s>Therefore, based on the results found for powder B and C, it can be said that particle sphericity and smoothness are significant factors in powder flowability and thus they enabled the formation of more uniform powder layers.</s><s>However, this is more evident for those samples of powder C, namely samples 3, 4, 5 and 9.</s><s>The results from these samples suggest that the layer thickness and spreader velocity have a large influence on the profile height.</s><s>Therefore, it can be said that these two parameters are very relevant for powders with high flowability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Profile void volume</head><p><s>The profile void volume measured from the powder bed topography was defined in this study as the volume required to fill out the valleys up to the highest peak of the powder profile.</s><s>Fig. <ref type="figure" target="#fig_4">4</ref> shows the profile void volume measured from the investigated area (800 × 1102.3 µm) of the powder bed samples.</s><s>The high profile void volume obtained from the samples of powder A can be correlated to its particles shape and roughness which caused substantial mechanical interlocking and interparticle friction during the spreading.</s><s>When particle morphology is more spherical (powders B and C), mechanical interlocking is less influential as particles are more likely to glance past one another during spreading.</s><s>However, their net interaction is still influenced by mechanisms such as friction and static charges, which one are also highly influenced by the spreading conditions.</s><s>In contrast, the below powder samples 4, 5, 8 and 9 presented the lowest profile void volume and this is mainly because Powder C has better all-around characteristics (sphericity, size distribution, texture, etc.) for spreadability and consequently reduced net interaction.</s></p><p><s>Analysis of variance (ANOVA) was used to assist in understanding the fundamentals of powder spreadability, to evaluate the influence of the parameters on the profile void volume and to find a way to further reduce the profile void volume within the powder bed topography.</s><s>The analysis was performed using the commercial Design-Expert software v11.</s><s>Table <ref type="table" target="#tab_2">3</ref> shows the summary of the ANOVA.</s><s>The F-value of 10.98 implies the model is significant.</s><s>There is only a 0.01% chance that an Fvalue this large could occur due to noise.</s><s>P-values less than 0.05 indicate model terms are significant.</s><s>The Predicted R 2 is in reasonable agreement with the Adjusted R 2 , the difference is less than 0.2.</s><s>The Adequate Precision measures the signal to noise ratio, and a ratio greater than 4 is desirable.</s><s>The obtained ratio of 11.312 indicates an adequate signal.</s></p><p><s>Fig. <ref type="figure" target="#fig_5">5</ref>(a) shows the impact on the profile void volume when spreading with an irregular shaped powder.</s><s>The plot suggests that lower layer thickness and spreading velocities favour profile void volume reduction.</s><s>However, a such trend only exists because of three factors; low layer thicknesses (&lt; D 50 size of the powder) restrict the spread of large particles, lower spreading velocities aid the spread of the powder's fine particles first and the fact that the spreader transported twice the volume of powder that is actually required to form the layer.</s><s>Powder B and C, due to their greater sphericity, showed substantial reduction in profile void volume on their powder bed topographies.</s><s>When correlating  the results presented in Fig. <ref type="figure" target="#fig_0">1</ref> and Table <ref type="table" target="#tab_1">2</ref> with the results of Fig. <ref type="figure" target="#fig_5">5(b-c</ref>), the following can be said.</s><s>Powder B displayed superior rheological performance.</s><s>However, Powder C enabled the spreading of layers with lower profile void volume.</s><s>This is due to its wider particle size distribution and higher number of fine particles.</s><s>However, it is seen that as the amount of fine particles increases the effect of layer thickness on   spreadability decrease.</s><s>Furthermore, the results suggest that the spreading velocity has substantial influence on the profile void volume, where low spreading velocities (≤80 mm/s) resulted in profile void volume reduction.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">Layer uniformity</head><p><s>This particular study focused on providing an understanding of the powder spreadability process step which is difficult to quantitatively analyse.</s><s>The uniformity of the powder bed topographies was determined by assessing the ratios between powder peaks and valleys and their dispersion on the powder bed.</s><s>The images of the powder bed samples can be found in the supplementary material.</s><s>Fig. <ref type="figure" target="#fig_6">6</ref> shows the results of this study.</s><s>There is no clear evidence of interrelation of the parameters at any of the three levels.</s><s>It can be said that the three powders appear to be similarly influenced by interparticle forces.</s><s>Furthermore, the powders arrangement behaviour is also influenced by the particle size and particle morphology.</s><s>Therefore, from the three powders, powder C appears to be slightly less influenced, potentially due to its better allaround morphological properties.</s><s>Nevertheless, to better comprehend such behaviour of particles when forming powder layers, further studies enveloping a broad range of influencing factors is required.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.4.">Factors affecting the results</head><p><s>The three commercial powders used in this study were supplied having the same particle size distribution.</s><s>Still, prior to carrying out the experimental work, these powders underwent sieving to remove the variable of different particle size distribution to enable an accurate study of the investigated factors and correlation between their physical and flow characteristics.</s><s>However, as seen in Fig. <ref type="figure" target="#fig_2">2</ref> there was still exist a small difference between the powders particle size distributions and their volume densities.</s><s>As can be seen, it is difficult to remove these two variables completely when comparing powders.</s><s>Nevertheless, their influence on the responses can be minimised via sieving as addressed in this study.</s></p><p><s>An anti-static carbon fibre brush was used in the spreading of the powders to minimise any static charge within the spreading mechanism from being transferred to the powder particles.</s><s>However, almost all of the PBF machines and the one used in this study have their chamber and spreading mechanism protected with an anti-static coating material.</s><s>The carbon fibre type of brush is often used and for very specific applications and in this study it was chosen and used to reinforce the anti-static barrier from the spreading mechanism to the spreading particles.</s><s>Therefore, the results presented here are also applicable to other blade materials such as rubber lip.</s></p><p><s>At the magnification used in this work the microscope provided a repeatability of 1 µm.</s><s>Investigations into the ability of the microscope to reproduce the same measurement revealed a coefficient of variation (standard deviation/mean) of 0.031 for the profile height and 0.026 for the profile void volume.</s><s>In summary, the measurement error introduced by the microscope is very small having no significant impact in the reported measurements.</s></p><p><s>The careful and gentle sample removal from the test bed to the microscope did not show any sign of powder bed disturbance or particles rearrangement.</s><s>A recommendation for an alternative way of assessing the powder bed topography is the optimisation and incorporation of a system within PBF machine right above the printing area such as an ultrahigh accuracy 3D laser profilometer.</s><s>For example, the hyperspectral interferometry technique has the potential of covering features small as 0.025 µm and real-time surface inspections <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b41">42]</ref>.</s><s>Other non-contact techniques such as ultrasonic and capacitive are also useful for specifying surface parameters <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Particle segregation</head><p><s>In order to characterize the uniformity of the spread powder layer, particle segregation resulting from the powder spreading process was also investigated in this study.</s><s>Fig. <ref type="figure" target="#fig_7">7</ref> shows the particle segregation across the length of the powder bed build platform area.</s><s>Small particles were deposited preferentially at the start of the build platform (as measured from where the powder spreader crosses into the build area) while larger particles were deposited towards the end of the build platform.</s><s>In fact, the degree of fine particle segregation and deposition was higher at the beginning than when the spreader reached the middle of the build platform, thereby not leaving as many fine particles within the spreading powder toward the end of the build platform.</s><s>The points X, Y and Z indicated in Fig. <ref type="figure" target="#fig_7">7</ref> show clearly the preference of the fine particles contained in the powder deposited initially.</s><s>The effect of such segregation behaviour resulted in a new particle size distribution in the powder bed length between 70 and 140 mm, where the D-values for this region differ from the D-values of the same powder before its spreading.</s><s>A powder size density ratio between the original and the powder from this last region of the deposition of close to 3:2 resulted as it seen from Dv 10 to Dv 50 and Dv 50 to Dv 90 .</s><s>This is mainly due to percolation segregation occurring within the dynamic powder avalanching during spreading.</s><s>While small particles move downwards through the mass filling spaces between the large particles and at the same time the larger particles move upwards due to the Brazil Nut effect <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>.</s><s>It was previously reported that the main contributors to segregation are particle size, particle size distribution, concentration of fines, particle shape and density <ref type="bibr" target="#b46">[47]</ref>.</s><s>However, the layer thickness and the spreading velocity are also considerable contributors to particle segregation <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b48">49]</ref>.</s><s>In addition, the results here showed that particle segregation also occurs to those powders with narrow particle size distribution.</s><s>Therefore, a convenient approach to minimise segregation would be to optimise the spreading parameters and layer thickness as well as strategically position parts on the build platform in areas less affected by segregation.</s><s>Particle segregation within a powder bed should be avoided as it produces local variations of the powder bed density and can cause process instabilities in terms of meltpool signature <ref type="bibr" target="#b49">[50,</ref><ref type="bibr" target="#b50">51]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Characteristics of laser scanned layers</head><p><s>In selective laser melting, the spreading of powder layers is much more complex than simply spreading one new layer of powder on top of another.</s><s>Laser processed two-dimensional geometries have very unique textures and laser scanned powder bed layers contain unwanted micro structures inherited from the interaction of the laser with the powder, in addition to other process intrinsic defects.</s><s>Fig. <ref type="figure" target="#fig_8">8(a)</ref> shows spatter particles ejected from the meltpool that fell onto the powder bed.</s><s>Such spatter particles are likely to become fused with particles from the powder bed.</s><s>Therefore, when spreading consecutive layers these fused particles can either cause flow separation, be pushed by the spreader scratching the powder bed or cause particle jamming resulting in particles which then collapse and burst into the spreading layer.</s><s>Fig. <ref type="figure" target="#fig_8">8(b)</ref> shows the topography of the powder bed, heat affected particles and the scanned geometry.</s><s>The spreading of homogeneous consecutive layers in this case is challenging as the volume of powder required to fill the consecutive layer would be different in each of the three zones.</s><s>In addition, the spreading of powder onto the scanned geometry would certainly led to localised segregation in the powder bed due to its greater depth.</s><s>Also, it should be understood that the scanned geometry is fixed to the build platform while particles are loose and the powder bed is compressible.</s><s>Fig. <ref type="figure" target="#fig_8">8(c</ref>) shows the presence of defects on the topography of the scanned geometry.</s><s>The observed swelling, warping and balling features are common defects in PBF processing geometries.</s><s>These and   similar defects challenge the spreading of subsequent quality layers.</s><s>The problem with such defects intensifies further when the structures resulting from them pass above the consecutive layer thickness.</s><s>This is because the contact of the spreader blade with such structures cause localised wear in the blade resulting in non-uniform powder distribution over the powder beds <ref type="bibr" target="#b51">[52]</ref>.</s><s>Defects onto the built surface such as those encountered and reported here can be mitigated by optimisation of the processing parameters such as laser power, scanning speed and hatch spacing as well as using high quality powders <ref type="bibr" target="#b52">[53]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p><s>In this work, the spreadability of metal powders was experimentally investigated using a commercial PBF printer.</s><s>The effect of powder morphology and the role of the spreading parameters on the quality of powder layer topography is demonstrated in this contribution.</s><s>To thoroughly understand the influence of the spreading parameters on powder spreadability, a three-level full factorial design was employed.</s><s>Particle segregation is also reported in this work as well as the major process related challenges to powder spreadability.</s><s>The main conclusions from the presented work are summarised as follows:</s></p><p><s>(1) The flowability of the highly spherical powder (powder C) containing satellites were slightly lower compared to the less spherical and smoother powder (powder B).</s><s>This was because of the higher mechanical interlocking of satellite particles, hence naturally resisting to flow.</s><s>Powders containing large number of fine particles (&lt; 25 µm) presented higher specific energy and higher flow rate sensitivity due to the cohesive forces.</s><s>(2) The profile height of the powder bed topography is primarily based on the powder flow characteristics, and in this study the profile height was further reduced by optimising the layer thickness and the spreader velocity.</s><s>Therefore, it can be concluded that these two parameters are very important for powders with high flowability, and deserve careful consideration.</s><s>(3) The profile void volume of the powder bed topography is influenced by the powder morphology, spreading conditions and the interaction of the particles.</s><s>Powder B exhibited higher rheological performance.</s><s>However, Powder C enabled the spreading of layers with lower profile void volume due to its wider particle size distribution and higher fine particle content.</s><s>However, as the amount of fine particles increase the effect of layer thickness on spreadability decreases.</s><s>Furthermore, the results suggest that the spreading velocity has substantial influence on the profile void volume.</s><s>Where low spreading velocities (≤ 80 mm/s) resulted in profile void volume reduction.</s><s>In conclusion, the best uniformity of the powder bed topography was achieved with powder C when spread at 80 mm/s in a layer thickness of 50 µm.</s><s>Based on this, it can also be concluded that the largest particles (D90, and those above it) dictate the minimum layer thickness.</s><s>(4) Particle segregation is unavoidable when spreading powders with wide particle size distribution using a spreading blade system.</s><s>Mitigation of this problem is possible by using tailored powder characteristics (such as particle size distribution, concentration of fines and particle shape) and optimisation of the spreading parameters and layer thickness.</s><s>Strategically positioning parts on the build platform in areas less affected by segregation also helps to mitigate this problem.</s><s>(5) Laser processed two-dimensional geometries have very unique textures and laser scanned powder bed layers contain unwanted micro structures inherited from the interaction of the laser with the powder, in addition to other process intrinsic defects.</s><s>Therefore, the uniformity and homogeneity of consecutive layers is very complicated to predict well.</s><s>For this, the relationship of the in-printing characteristics, including scanned geometry, to powder spreadability need to be considered.</s></p><p><s>The results presented herein are suitable for validating numerical models and they extend beyond the fundamentals of powder spreadability, providing guidelines and recommendations to PBF operators.</s><s>An accurate prediction of the quality of each spread layer is possible and achievable via powder spreadability simulation coupled with process monitoring.</s><s>However, for this to come into existence, substantial work is still required around modelling powder dynamics during spreading and a substantial amount of experimental results are needed to validate powder spreading simulations.</s></p><p><s>The experimental approach used in this work may be referred to as deep powder bed studies (a powder layer spreader onto existing powder layers).</s><s>Deep powder beds are relevant when printing typically produced parts which contain supports, overhangs, bridges and/or angled facets.</s><s>The other aspect of powder bed, yet to be researched, is thin powder layer powder spreading (i.e. the spreading of powder layers onto built surfaces).</s><s>A challenge to this is that every single built surface will have its own characteristics i.e. roughness and geometry.</s><s>However, comprehensive studies into both, deep powder bed and thin powder layer will be required in order to acquire powder spreadability data for validating numerical models developed for this process.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>The effect of particle morphology on the bulk density of the</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>SEM micrographs of the 316 L stainless steel powder (a) A, (b) B and (c) C. The optical images on the right hand side compares the pouring characteristics of the powders.</s></p></div></figDesc><graphic coords="4,86.79,55.41,421.66,564.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. Particle size distribution of the powders, as measured by laser diffraction.</s></p></div></figDesc><graphic coords="5,43.14,55.42,240.05,192.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3.</s><s>The maximum profile height measured (from the lowest valley to the highest peak of powder) from the powder bed topography, n = 8.</s></p></div></figDesc><graphic coords="6,87.59,55.41,420.05,203.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. The profile void volume measured from the powder bed topography (the volume of powder required to fill out valleys with powder up to the highest peak of powder), n = 8.</s></p></div></figDesc><graphic coords="6,87.59,297.58,420.05,194.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc><div><p><s>Fig. 5. Summary of the analysis of variance showing the effect of each factor on the profile void volume of the powder bed topography for powder (a) A, (b) B and (c) C.</s></p></div></figDesc><graphic coords="7,43.14,55.40,240.05,611.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig.6.</s><s>Ratio between peaks and valleys and their dispersion in the powder bed topography, n = 8.</s><s>Peak ratio is the ratio between peak count and valley count.</s><s>A good peak ratio has equal count of powder peaks and valleys.</s><s>Peak dispersion refers to the dispersion of powder peaks.</s><s>A good peak dispersion is when peaks and valleys are dispersed uniformly.</s></p></div></figDesc><graphic coords="8,87.59,55.41,420.05,211.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig.7.</s><s>Particle segregation for powder C in the powder bed measured from the begin to end length of the build platform.</s><s>The highlighted points X, Y and Z shows the distance from the begin of the build platform where the D-values of the spread powder equal those of the same powder before the spreading, n = 3.</s></p></div></figDesc><graphic coords="8,43.14,535.84,240.05,161.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig.8.</s><s>Morphologies challenging powder spreadability in consecutive layers.</s><s>Large spatters fused with particles of the powder bed profiling above the layer height (a), Height differences at the interface between the scanned two-dimensional geometry and its powder bed (b) and warping, balling and swelling defects in scanned geometries compromise powder spreadability and the life of powder spreading blades (c).</s></p></div></figDesc><graphic coords="9,117.64,55.44,360.00,626.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Experimental design.</s></p></div></figDesc><table><row><cell>Sample</cell><cell>Run</cell><cell>Layer thickness (µm)</cell><cell>Spreader velocity (mm/s)</cell><cell>Powder</cell></row><row><cell>1</cell><cell>17</cell><cell>70</cell><cell>160</cell><cell>C</cell></row><row><cell>2</cell><cell>22</cell><cell>50</cell><cell>160</cell><cell>C</cell></row><row><cell>3</cell><cell>4</cell><cell>30</cell><cell>160</cell><cell>C</cell></row><row><cell>4</cell><cell>12</cell><cell>70</cell><cell>80</cell><cell>C</cell></row><row><cell>5</cell><cell>6</cell><cell>50</cell><cell>80</cell><cell>C</cell></row><row><cell>6</cell><cell>14</cell><cell>30</cell><cell>80</cell><cell>C</cell></row><row><cell>7</cell><cell>16</cell><cell>70</cell><cell>10</cell><cell>C</cell></row><row><cell>8</cell><cell>25</cell><cell>50</cell><cell>10</cell><cell>C</cell></row><row><cell>9</cell><cell>18</cell><cell>30</cell><cell>10</cell><cell>C</cell></row><row><cell>10</cell><cell>13</cell><cell>70</cell><cell>160</cell><cell>B</cell></row><row><cell>11</cell><cell>21</cell><cell>50</cell><cell>160</cell><cell>B</cell></row><row><cell>12</cell><cell>27</cell><cell>30</cell><cell>160</cell><cell>B</cell></row><row><cell>13</cell><cell>11</cell><cell>70</cell><cell>80</cell><cell>B</cell></row><row><cell>14</cell><cell>24</cell><cell>50</cell><cell>80</cell><cell>B</cell></row><row><cell>15</cell><cell>8</cell><cell>30</cell><cell>80</cell><cell>B</cell></row><row><cell>16</cell><cell>26</cell><cell>70</cell><cell>10</cell><cell>B</cell></row><row><cell>17</cell><cell>1</cell><cell>50</cell><cell>10</cell><cell>B</cell></row><row><cell>18</cell><cell>10</cell><cell>30</cell><cell>10</cell><cell>B</cell></row><row><cell>19</cell><cell>20</cell><cell>70</cell><cell>160</cell><cell>A</cell></row><row><cell>20</cell><cell>9</cell><cell>50</cell><cell>160</cell><cell>A</cell></row><row><cell>21</cell><cell>23</cell><cell>30</cell><cell>160</cell><cell>A</cell></row><row><cell>22</cell><cell>3</cell><cell>70</cell><cell>80</cell><cell>A</cell></row><row><cell>23</cell><cell>15</cell><cell>50</cell><cell>80</cell><cell>A</cell></row><row><cell>24</cell><cell>5</cell><cell>30</cell><cell>80</cell><cell>A</cell></row><row><cell>25</cell><cell>2</cell><cell>70</cell><cell>10</cell><cell>A</cell></row><row><cell>26</cell><cell>19</cell><cell>50</cell><cell>10</cell><cell>A</cell></row><row><cell>27</cell><cell>7</cell><cell>30</cell><cell>10</cell><cell>A</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc><div><p><s>Comparison of the important morphological, physical and rheological characteristics of the powders for spreadability.</s></p></div></figDesc><table><row><cell>Measurement</cell><cell>Powder A</cell><cell>Powder B</cell><cell>Powder C</cell><cell>Instrument</cell></row><row><cell>Size, Dv 90</cell><cell>55.5 µm</cell><cell>61.6 µm</cell><cell>42.4 µm</cell><cell>Malvern particle</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>sizer</cell></row><row><cell>Size, Dv 50</cell><cell>31.8 µm</cell><cell>36.7 µm</cell><cell>28.0 µm</cell><cell></cell></row><row><cell>Size, Dv 10</cell><cell>15.6 µm</cell><cell>25.7 µm</cell><cell>18.3 µm</cell><cell></cell></row><row><cell>Circularity, ↑</cell><cell>0.37</cell><cell>0.76</cell><cell>0.87</cell><cell>SEM/ImageJ</cell></row><row><cell>Elongation, ↓</cell><cell>0.40</cell><cell>0.22</cell><cell>0.09</cell><cell></cell></row><row><cell>Helium Density</cell><cell>7.77 g/ cm 3</cell><cell>7.81 g/ cm 3</cell><cell>7.83 g/ cm 3</cell><cell>Pycnometry</cell></row><row><cell>Bulk Density</cell><cell>2.85 g/ cm 3</cell><cell>4.36 g/ cm 3</cell><cell>4.56 g/ cm 3</cell><cell>FT4</cell></row><row><cell>Specific Energy, ↓</cell><cell>3.10 mJ/g</cell><cell>1.86 mJ/g</cell><cell>2.51 mJ/g</cell><cell>Powder</cell></row><row><cell>Flow Rate Index,</cell><cell>1.09</cell><cell>1.05</cell><cell>1.18</cell><cell>Rheometer</cell></row><row><cell>↓</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Avalanche Angle,</cell><cell>54.6 •</cell><cell>36.1 •</cell><cell>38.5 •</cell><cell>Rotating Drum</cell></row><row><cell>↓</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Repose Angle, ↓</cell><cell>48.2 •</cell><cell>30.3 •</cell><cell>28.2 •</cell><cell>Hall Flowmeter</cell></row><row><cell cols="3">↑: index to maximise, ↓: index to minimise</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc><div><p><s>ANOVA for 2FI model of the profile void volume.</s></p></div></figDesc><table><row><cell>Source</cell><cell>Sum of squares</cell><cell>df</cell><cell>Mean square</cell><cell>F-value</cell><cell>P-value</cell><cell></cell></row><row><cell>Model</cell><cell>4.99E + 14</cell><cell>9</cell><cell>5.55E + 13</cell><cell>10.98455</cell><cell>1.74E-05</cell><cell>significant</cell></row><row><cell>A-Layer Thickness</cell><cell>5.77E + 12</cell><cell>1</cell><cell>5.77E + 12</cell><cell>1.142889</cell><cell>0.299988</cell><cell></cell></row><row><cell>B-Spreader Velocity</cell><cell>5.74E + 13</cell><cell>1</cell><cell>5.74E + 13</cell><cell>11.37335</cell><cell>0.003617</cell><cell></cell></row><row><cell>C-Powder</cell><cell>3.9E + 14</cell><cell>2</cell><cell>1.95E + 14</cell><cell>38.65011</cell><cell>4.74E-07</cell><cell></cell></row><row><cell>AB</cell><cell>6.13E + 11</cell><cell>1</cell><cell>6.13E + 11</cell><cell>0.121444</cell><cell>0.731753</cell><cell></cell></row><row><cell>AC</cell><cell>4.41E + 13</cell><cell>2</cell><cell>2.2E + 13</cell><cell>4.365363</cell><cell>0.02951</cell><cell></cell></row><row><cell>BC</cell><cell>9.71E + 11</cell><cell>2</cell><cell>4.86E + 11</cell><cell>0.096154</cell><cell>0.908814</cell><cell></cell></row><row><cell>Residual</cell><cell>8.58E + 13</cell><cell>17</cell><cell>5.05E + 12</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Cor Total</cell><cell>5.85E + 14</cell><cell>26</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fit Statistics R 2 Adjusted R 2 Predicted R 2</cell><cell>Value 0.853272 0.775593 0.701581</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Adequate Precision</cell><cell>11.31158</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p><s>This publication has emanated from research supported by a research grant from <rs type="funder">Science Foundation Ireland (SFI)</rs> under Grant Number <rs type="grantNumber">16/RC/3872</rs> and is co-funded under the <rs type="funder">European Regional Development Fund</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_nMjDRGb">
+					<idno type="grant-number">16/RC/3872</idno>
+				</org>
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>CRediT authorship contribution statement Andre Mussatto: Conceptualization, Methodology, Investigation, Formal analysis, Writing -review &amp; editing, Project administration.</s><s>Robert Groarke: Formal analysis, Writing -review &amp; editing.</s><s>Muhannad Ahmed Obeidi: Resources.</s><s>Aidan O'Neill: Resources.</s><s>Yan Delaure: Formal analysis.</s><s>Dermot Brabazon: Funding acquisition, Writing -review &amp; editing.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supporting information</head><p><s>Supplementary data associated with this article can be found in the online version at <ref type="url" target="https://doi.org/10.1016/j.addma.2020.101807">doi:10.1016/j.addma.2020.101807</ref>.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Experimental observation of stress formation during selective laser melting using in situ X-ray diffraction</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schmeiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Krohmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Schell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Uhlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Reimers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">101028</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Schmeiser, E. Krohmer, N. Schell, E. Uhlmann, W. Reimers, Experimental observation of stress formation during selective laser melting using in situ X-ray diffraction, Addit. Manuf. 32 (2020), 101028.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Additive Manufacturing Technologies: 3D Printing, Rapid Prototyping, and Direct Digital Manufacturing</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Gibson, D. Rosen, B. Stucker. Additive Manufacturing Technologies: 3D Printing, Rapid Prototyping, and Direct Digital Manufacturing, Springer, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Near net shape manufacture of titanium alloy components from powder and wire: a review of state-of-the-art process routes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Childerhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jackson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metals</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">689</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Childerhouse, M. Jackson, Near net shape manufacture of titanium alloy components from powder and wire: a review of state-of-the-art process routes, Metals 9 (6) (2019), 689.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Consolidation phenomena in laser and powder-bed based layered manufacturing</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Klocke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H C</forename><surname>Childs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Ann</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="730" to="759" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-P. Kruth, G. Levy, F. Klocke, T.H.C. Childs, Consolidation phenomena in laser and powder-bed based layered manufacturing, CIRP Ann. 56 (2) (2007) 730-759.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Physical aspects of process control in selective laser sintering of metals</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="701" to="711" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Das, Physical aspects of process control in selective laser sintering of metals, Adv. Eng. Mater. 5 (10) (2003) 701-711.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">On the role of powder flow behavior in fluid thermodynamics and laser processability of Ni-based composites by selective laser melting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mach. Tools Manuf</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="67" to="78" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gu, M. Xia, D. Dai, On the role of powder flow behavior in fluid thermodynamics and laser processability of Ni-based composites by selective laser melting, Int. J. Mach. Tools Manuf. 137 (2019) 67-78.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Revealing particle-scale powder spreading dynamics in powder-bed-based additive manufacturing process by high-speed x-ray imaging</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Escano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Parab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Everhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.I. Escano, N.D. Parab, L. Xiong, Q. Guo, C. Zhao, K. Fezzaa, W. Everhart, T. Sun, L. Chen, Revealing particle-scale powder spreading dynamics in powder-bed-based additive manufacturing process by high-speed x-ray imaging, Sci. Rep. 8 (1) (2018) 1-11.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Narayan</surname></persName>
+		</author>
+		<title level="m">Rapid Prototyping of Biomaterials: Techniques in Additive Manufacturing</title>
+		<imprint>
+			<publisher>Woodhead Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Narayan. Rapid Prototyping of Biomaterials: Techniques in Additive Manufacturing, Woodhead Publishing, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Baughman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Godfrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wiener</surname></persName>
+		</author>
+		<title level="m">Additive Manufacturing of Metals: The Technology, Materials, Design and Production</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Yang, K. Hsu, B. Baughman, D. Godfrey, F. Medina, M. Menon, S. Wiener. Additive Manufacturing of Metals: The Technology, Materials, Design and Production, Springer, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Evaluation via powder metallurgy of nano-reinforced iron powders developed for selective laser melting applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mussatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Groarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>A-Hameed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">U I</forename><surname>Ahad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Vijayaraghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcnally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Delaure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brabazon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page">108046</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Mussatto, R. Groarke, A. A-Hameed, I.U.I. Ahad, R.K. Vijayaraghavan, A. O&apos;Neill, P. McNally, Y. Delaure, D. Brabazon, Evaluation via powder metallurgy of nano-reinforced iron powders developed for selective laser melting applications, Mater. Des. 182 (2019), 108046.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Influence of particle morphology and size distribution on the powder flowability and laser powder bed fusion manufacturability of Ti-6Al-4V alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Brika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Letenneur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Dion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brailovski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">100929</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.E. Brika, M. Letenneur, C.A. Dion, V. Brailovski, Influence of particle morphology and size distribution on the powder flowability and laser powder bed fusion manufacturability of Ti-6Al-4V alloy, Addit. Manuf. 31 (2020), 100929.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Influence of powder characteristics and additive manufacturing process parameters on the microstructure and mechanical behaviour of Inconel 625 fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pleass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jothi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="419" to="431" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Pleass, S. Jothi, Influence of powder characteristics and additive manufacturing process parameters on the microstructure and mechanical behaviour of Inconel 625 fabricated by selective laser melting, Addit. Manuf. 24 (2018) 419-431.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Influence of powder characteristics on processability of AlSi12 alloy fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Baitimerov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lykov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Radionova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shultc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Prashanth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">742</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Baitimerov, P. Lykov, D. Zherebtsov, L. Radionova, A. Shultc, K.G. Prashanth, Influence of powder characteristics on processability of AlSi12 alloy fabricated by selective laser melting, Materials 11 (2018), 742.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Spheroidisation of metal powder by pulsed electron beam irradiation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simonelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Speidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Clare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="100" to="106" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.W. Murray, M. Simonelli, A. Speidel, D.M. Grant, A.T. Clare, Spheroidisation of metal powder by pulsed electron beam irradiation, Powder Technol. 350 (2019) 100-106.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Adhesion effects on spreading of metal powders in selective laser melting</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Wang, E.L. Li, H. Shen, R.P. Zou, A.B. Yu, Z.Y. Zhou, Adhesion effects on spreading of metal powders in selective laser melting, Powder Technol. (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Influence of powder deposition on powder bed and specimen properties</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Beitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Uerlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bokelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vietor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kwade</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">297</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Beitz, R. Uerlich, T. Bokelmann, A. Diener, T. Vietor, A. Kwade, Influence of powder deposition on powder bed and specimen properties, Materials 12 (2) (2019), 297.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Influence of powder bed characteristics on material quality in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vervoort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-W</forename><surname>Mindt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Megahed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BHM Berg Hüttenmännische Monatshefte</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="192" to="198" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Zielinski, S. Vervoort, H.-W. Mindt, M. Megahed, Influence of powder bed characteristics on material quality in additive manufacturing, BHM Berg Hüttenmännische Monatshefte 162 (5) (2017) 192-198.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Analysis of tribo-charging during powder spreading in selective laser sintering: assessment of polyamide 12 powder ageing effects on charging behavior</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dechet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S G</forename><surname>Bonilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lübbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bück</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Peukert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polymers</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">609</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Hesse, M.A. Dechet, J.S.G. Bonilla, C. Lübbert, S. Roth, A. Bück, J. Schmidt, W. Peukert, Analysis of tribo-charging during powder spreading in selective laser sintering: assessment of polyamide 12 powder ageing effects on charging behavior, Polymers 11 (4) (2019), 609.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Powder-spreading mechanisms in powder-bed-based additive manufacturing: experiments and computational modeling</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="page" from="158" to="171" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Chen, Q. Wei, Y. Zhang, F. Chen, Y. Shi, W. Yan, Powder-spreading mechanisms in powder-bed-based additive manufacturing: experiments and computational modeling, Acta Mater. 179 (2019) 158-171.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Simulation of forming process of powder bed for additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Xiang, M. Yin, Z. Deng, X. Mei, G. Yin, Simulation of forming process of powder bed for additive manufacturing, J. Manuf. Sci. Eng. 138 (8) (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Discrete Particle Simulation of the Spreading Process in Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Shaheen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Thornton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weinhart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceeding of the 8th International Conference on Discrete Element Methods (DEM8)</title>
+		<meeting>eeding of the 8th International Conference on Discrete Element Methods (DEM8)<address><addrLine>Netherlands</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.Y. Shaheen, A.R. Thornton, S. Luding, T. Weinhart, Discrete Particle Simulation of the Spreading Process in Additive Manufacturing, in: Proceeding of the 8th International Conference on Discrete Element Methods (DEM8), Netherlands, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Development of micro selective laser melting: the state of the art and future perspectives</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nagarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Engineering</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="702" to="720" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Nagarajan, Z. Hu, X. Song, W. Zhai, J. Wei, Development of micro selective laser melting: the state of the art and future perspectives, Engineering 5 (4) (2019) 702-720.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of magnesium and magnesium alloy powders: a review</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manakari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Parande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metals</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Manakari, G. Parande, M. Gupta, Selective laser melting of magnesium and magnesium alloy powders: a review, Metals 7 (1) (2017), 2.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Fluid and particle dynamics in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bidare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bitharas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Attallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="107" to="120" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Bidare, I. Bitharas, R.M. Ward, M.M. Attallah, A.J. Moore, Fluid and particle dynamics in laser powder bed fusion, Acta Mater. 142 (2018) 107-120.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Metal vapor microjet controls material redistribution in laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ly, A.M. Rubenchik, S.A. Khairallah, G. Guss, M.J. Matthews, Metal vapor micro- jet controls material redistribution in laser powder bed fusion additive manufacturing, Sci. Rep. 7 (1) (2017) 1-12.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Standardization Roadmap for Additive Manufacturing: PM2 Spreadability</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+		<respStmt>
+			<orgName>American National Standards Institute</orgName>
+		</respStmt>
+	</monogr>
+	<note>version 2</note>
+	<note type="raw_reference">American National Standards Institute, Standardization Roadmap for Additive Manufacturing: PM2 Spreadability, version 2, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">On the development of powder spreadability metrics and feedstock requirements for powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Snow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Martukanitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Joshi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="78" to="86" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Snow, R. Martukanitz, S. Joshi, On the development of powder spreadability metrics and feedstock requirements for powder bed fusion additive manufacturing, Addit. Manuf. 28 (2019) 78-86.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A DEM study of powder spreading in additive layer manufacturing</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Fouda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Bayly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Granul. Matter</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y.M. Fouda, A.E. Bayly, A DEM study of powder spreading in additive layer manufacturing, Granul. Matter 22 (1) (2019), 10.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Numerical simulation of the effect of fine fraction on the flowability of powders in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Philips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cunningham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page" from="608" to="621" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Ma, T.M. Evans, N. Philips, N. Cunningham, Numerical simulation of the effect of fine fraction on the flowability of powders in additive manufacturing, Powder Technol. 360 (2020) 608-621.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Critical influences of particle size and adhesion on the powder layer uniformity in metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Weissbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="484" to="501" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Meier, R. Weissbach, J. Weinberg, W.A. Wall, A.J. Hart, Critical influences of particle size and adhesion on the powder layer uniformity in metal additive manufacturing, J. Mater. Process. Technol. 266 (2019) 484-501.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Flow behavior of powder particles in layering process of selective laser melting: numerical modeling and experimental verification based on discrete element method</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mach. Tools Manuf</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="146" to="159" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Chen, Q. Wei, S. Wen, Z. Li, Y. Shi, Flow behavior of powder particles in layering process of selective laser melting: numerical modeling and experimental verification based on discrete element method, Int. J. Mach. Tools Manuf. 123 (2017) 146-159.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Optimisation of blade type spreaders for powder bed preparation in additive manufacturing using DEM simulations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haeri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page" from="94" to="104" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Haeri, Optimisation of blade type spreaders for powder bed preparation in additive manufacturing using DEM simulations, Powder Technol. 321 (2017) 94-104.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Discrete element simulation and experimental study of powder spreading process in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ghita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="page" from="45" to="54" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Haeri, Y. Wang, O. Ghita, J. Sun, Discrete element simulation and experimental study of powder spreading process in additive manufacturing, Powder Technol. 306 (2017) 45-54.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Jamming during particle spreading in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pasha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bonakdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Zafar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nadimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghadiri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="253" to="262" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Nan, M. Pasha, T. Bonakdar, A. Lopez, U. Zafar, S. Nadimi, M. Ghadiri, Jamming during particle spreading in additive manufacturing, Powder Technol. 338 (2018) 253-262.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Measuring the spreadability of pre-treated and moisturized powders for laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cordova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tinga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">101082</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Cordova, T. Bor, M. de Smit, M. Campos, T. Tinga, Measuring the spreadability of pre-treated and moisturized powders for laser powder bed fusion, Addit. Manuf. 32 (2020), 101082.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A comprehensive approach to powder feedstock characterization for powder bed fusion additive manufacturing: a case study on AlSi7Mg</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Muñiz-Lerma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nommeots-Nomm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Waters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brochu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">2386</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.A. Muñiz-Lerma, A. Nommeots-Nomm, K.E. Waters, M. Brochu, A comprehensive approach to powder feedstock characterization for powder bed fusion additive manufacturing: a case study on AlSi7Mg, Materials 11 (12) (2018), 2386.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Powder bed layer characteristics: the overseen first-order process input</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Mindt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Megahed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Lavery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G R</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3811" to="3822" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.W. Mindt, M. Megahed, N.P. Lavery, M.A. Holmes, S.G.R. Brown, Powder bed layer characteristics: the overseen first-order process input, Metall. Mater. Trans. A 47 (8) (2016) 3811-3822.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Standard Guide for Characterizing Properties of Metal Powders Used for Additive Manufacturing Processes</title>
+		<author>
+			<persName><surname>Astm F</surname></persName>
+		</author>
+		<idno>3049-14</idno>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>ASTM International</publisher>
+			<pubPlace>West Conshohocken, PA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ASTM F3049-14, Standard Guide for Characterizing Properties of Metal Powders Used for Additive Manufacturing Processes, ASTM International, West Conshohocken, PA, 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<monogr>
+		<title level="m">Standard Test Methods for Flow Rate of Metal Powders Using the Hall Flowmeter Funnel</title>
+		<meeting><address><addrLine>West Conshohocken, PA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ASTM International</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>ASTM B213-13</note>
+	<note type="raw_reference">ASTM B213-13, Standard Test Methods for Flow Rate of Metal Powders Using the Hall Flowmeter Funnel, ASTM International, West Conshohocken, PA, 2013.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Measuring the flowing properties of powders and grains</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lumay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boschini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Traina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bontempi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Remy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cloots</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vandewalle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="page" from="19" to="27" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Lumay, F. Boschini, K. Traina, S. Bontempi, J.-C. Remy, R. Cloots, N. Vandewalle, Measuring the flowing properties of powders and grains, Powder Technol. 224 (2012) 19-27.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Nine-hundred-channel single-shot surface roughness measurement using hyperspectral interferometry</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Reichold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Huntley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Meas. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">45014</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T.V. Reichold, P.D. Ruiz, J.M. Huntley, Nine-hundred-channel single-shot surface roughness measurement using hyperspectral interferometry, Meas. Sci. Technol. 31 (4) (2020), 045014.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">2500-channel single-shot areal profilometer using hyperspectral interferometry with a pinhole array</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Reichold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Huntley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lasers Eng</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="37" to="48" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T.V. Reichold, P.D. Ruiz, J.M. Huntley, 2500-channel single-shot areal profilometer using hyperspectral interferometry with a pinhole array, Opt. Lasers Eng. 122 (2019) 37-48.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A new measurement method for ultrasonic surface roughness measurements</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Forouzbakhsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Rezanejad</forename><surname>Gatabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Rezanejad</forename><surname>Gatabi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Measurement</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="702" to="705" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Forouzbakhsh, J. Rezanejad Gatabi, I. Rezanejad Gatabi, A new measurement method for ultrasonic surface roughness measurements, Measurement 42 (5) (2009) 702-705.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">In-process surface roughness prediction using displacement signals from spindle motion</title>
+		<author>
+			<persName><forename type="first">H.-K</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mach. Tools Manuf</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1021" to="1026" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.-K. Chang, J.-H. Kim, I.H. Kim, D.Y. Jang, D.C. Han, In-process surface roughness prediction using displacement signals from spindle motion, Int. J. Mach. Tools Manuf. 47 (6) (2007) 1021-1026.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Size separation of granular particles</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Möbius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Lauderdale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Nagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Jaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">414</biblScope>
+			<biblScope unit="issue">6861</biblScope>
+			<biblScope unit="page">270</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.E. Möbius, B.E. Lauderdale, S.R. Nagel, H.M. Jaeger, Size separation of granular particles, Nature 414 (6861) (2001), 270.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Experimental evidence of mixture segregation by particle size distribution</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Devriendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gatumel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Berthiaux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Part. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="653" to="657" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Devriendt, C. Gatumel, H. Berthiaux, Experimental evidence of mixture segregation by particle size distribution, Part. Sci. Technol. 31 (6) (2013) 653-657.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Methods for minimizing segregation: a review</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Puri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Part. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="321" to="337" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Tang, V.M. Puri, Methods for minimizing segregation: a review, Part. Sci. Technol. 22 (4) (2004) 321-337.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Numerical simulation of particle flow and segregation during roller spreading process in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pasha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghadiri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page" from="811" to="821" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Nan, M. Pasha, M. Ghadiri, Numerical simulation of particle flow and segregation during roller spreading process in additive manufacturing, Powder Technol. 364 (2020) 811-821.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The influence of spreading metal powders with different particle size distributions on the powder bed density in laser-based powder bed fusion processes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">U</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Donmez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NIST Pubs</title>
+		<imprint>
+			<biblScope unit="page" from="100" to="117" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Jacob, C.U. Brown, M.A. Donmez, The influence of spreading metal powders with different particle size distributions on the powder bed density in laser-based powder bed fusion processes, NIST Pubs (2018) 100-117.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Uncertainty analysis of microsegregation during laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mahmoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elwany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arroyave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Allaire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Model. Simul. Mater. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34002</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ghosh, M. Mahmoudi, L. Johnson, A. Elwany, R. Arroyave, D. Allaire, Uncertainty analysis of microsegregation during laser powder bed fusion, Model. Simul. Mater. Sci. Eng. 27 (3) (2019), 034002.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Calculation of laser absorption by metal powders in additive manufacturing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Boley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rubenchik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Opt</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2477" to="2482" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.D. Boley, S.A. Khairallah, A.M. Rubenchik, Calculation of laser absorption by metal powders in additive manufacturing, Appl. Opt. 54 (9) (2015) 2477-2482.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Multi-Blade Recoater</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pat. WO</title>
+		<imprint>
+			<biblScope unit="volume">2017143145</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2017">2017</date>
+			<publisher>UCT Additive Manufacturing Center Pte. Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.Z. Liu, D. Zhang, L.P. Lam, W.H. Ng, Multi-Blade Recoater, Pat. WO2017143145A1, UCT Additive Manufacturing Center Pte. Ltd., 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Comprehensive assessment of spatter material generated during selective laser melting of stainless steel</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Ahmed</forename><surname>Obeidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mussatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Groarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Vijayaraghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Conway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kaschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clarkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brabazon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Today Commun</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">101294</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Ahmed Obeidi, A. Mussatto, R. Groarke, R.K. Vijayaraghavan, A. Conway, F. Rossi Kaschel, E. McCarthy, O. Clarkin, R. O&apos;Connor, D. Brabazon, Comprehensive assessment of spatter material generated during selective laser melting of stainless steel, Mater. Today Commun. 25 (2020), 101294.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

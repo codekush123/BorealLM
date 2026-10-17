@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Exploring the fabrication limits of thin-wall structures in a laser powder bed fusion process</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-08-11">11 August 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Ziheng</forename><surname>Wu</surname></persName>
+							<email>zihengw@andrew.cmu.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Materials Science &amp; Engineering , Carnegie Mellon University , 5000 Forbes Ave , Pittsburgh , PA 15213 , USA</note>
+								<orgName type="department">Department of Materials Science &amp; Engineering</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<addrLine>5000 Forbes Ave</addrLine>
+									<postCode>15213</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sneha</forename><forename type="middle">Prabha</forename><surname>Narra</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Mechanical Engineering , Worcester Polytechnic Institute , 100 Institute Road , Worcester , MA 01609 , USA</note>
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Worcester Polytechnic Institute</orgName>
+								<address>
+									<addrLine>100 Institute Road</addrLine>
+									<postCode>01609</postCode>
+									<settlement>Worcester</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><surname>Rollett</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Materials Science &amp; Engineering , Carnegie Mellon University , 5000 Forbes Ave , Pittsburgh , PA 15213 , USA</note>
+								<orgName type="department">Department of Materials Science &amp; Engineering</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<addrLine>5000 Forbes Ave</addrLine>
+									<postCode>15213</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Exploring the fabrication limits of thin-wall structures in a laser powder bed fusion process</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-08-11">11 August 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">635D542753502872AFAF160121366B88</idno>
+					<idno type="DOI">10.1007/s00170-020-05827-4</idno>
+					<note type="submission">Received: 26 March 2020 / Accepted: 23 July 2020 #</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-20T11:34+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Additive manufacturing (AM)</term>
+					<term>Laser powder bed fusion (LPBF)</term>
+					<term>Thin wall</term>
+					<term>Design guidelines</term>
+					<term>Porosity</term>
+					<term>X-ray computed tomography (XCT) Abbreviations AM Additive manufacturing LPBF Laser powder bed fusion μSXCT Synchrotron-based X-ray micro-tomography CAD Computer-aided design μHX Micro-heat exchanger XCT X-ray computed tomography EDM Electrical discharge machining APS Advanced Photon</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Although additive manufacturing (AM) is becoming increasingly popular for various applications, few studies have addressed design and potential problems in thin wall fabrication for the laser powder bed fusion (LPBF) process.</s><s>In the LPBF process, rapid cooling induces thermal shrinkage, which in turn, results in high residual stress and complicates thin wall fabrication.</s><s>The minimum wall thickness is limited by the parameters and machine settings while the dimensional accuracy is controlled by the powder size, scan strategy, and part geometry.</s><s>The ability to fabricate thin-wall components is important for applications such as heat exchangers (HX).</s><s>This study explores the performance of the LPBF process by fabricating thin walls with extreme geometries in different processing conditions and alloys using an EOS M290 LPBF machine.</s><s>Results show that the material, part design, and scanning strategy contribute to the variation in thin wall dimensions.</s><s>A maximum inclination angle of 60° and a minimum wall thickness of ~ 100 μm in Ti-6Al-4V, Inconel 718, and AlSi10Mg were achieved using optimized part design and processing conditions.</s><s>The effects of part design and material on the thermal distortion and surface finish of thin walls were also investigated leading to a discussion on how the scan mode assigned by the EOS software affects design and fabrication.</s><s>Additionally, synchrotron-based X-ray micro-tomography (μSXCT) was utilized to quantify the porosity in thin-wall structures and to correlate it with the integrity of the structures.</s><s>Comprehensive design guidelines presented in this work can increase the success rate of fabricating thin-wall geometries.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1">Additive manufacturing</head><p><s>Additive manufacturing (AM) is a fast-emerging technology in which parts are fabricated by joining materials together based on a 3D computer-aided design (CAD) model <ref type="bibr" target="#b0">[1]</ref>.</s><s>Via layer-by-layer building, AM enables fabrication of complex geometries, which are important for design flexibility and lightweight requirements.</s><s>Compared with conventional manufacturing, AM has the potential to reduce material waste and tooling cost and shorten the product development cycle.</s></p><p><s>Metal AM processes can be categorized by energy source and material feedstock.</s><s>Common energy sources include electric arc, electron beam, and laser, and commonly available material feedstock is in the form of powder or wire.</s><s>The powder bed process is one of the most developed classes of AM technologies in which a rake or recoater blade deposits powder from the powder reservoir onto the build plate to create a powder layer.</s><s>An energy source then selectively melts the fresh layer of powder based on the 2D layer cross-section of the input 3D CAD model.</s><s>After each scan, the build platform moves down by a distance equal to the layer thickness to offer space for the deposition of the next powder layer.</s><s>This process repeats until the part fabrication is complete.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">Laser powder bed fusion</head><p><s>The powder bed fusion process is best suited for parts with small volume and fine features.</s><s>Compared with the electron beam powder bed fusion process, where an electron beam is the energy source, laser powder bed fusion (LPBF) can fabricate finer features by utilizing lower platform temperature and smaller powder size.</s><s>The lower platform temperature reduces the melt pool size, and the smaller powder size compared with an electron beam powder bed fusion process improves the surface finish and enables fabrication with smaller layer thickness.</s><s>Thus, LPBF was chosen among the current powder bed fusion AM technologies to explore the lower limits of thin wall fabrication.</s><s>A significant issue remains, however, as rapid cooling resulting from large thermal gradients produces residual stress in as-built LPBF parts, meaning appropriate support structures and stress relief heat treatment are critical to prevent thermal distortion.</s></p><p><s>Typical powder used in LPBF process has spherical morphology and size range from 15 to 45 μm <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>.</s><s>In this work, we present results for Ti-6Al-4V, Inconel 718, and AlSi10Mg alloys.</s><s>Additional commercially available materials for use in the EOS M290 equipment include stainless steel, maraging steel, and cobalt chrome alloy.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3">Micro-heat exchanger</head><p><s>Micro-heat exchangers (μHXs) are widely used in fields that require compact thermal energy transfer solutions, such as microelectronics, aerospace, bioengineering, automotive, refrigeration, and air conditioning <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>.</s><s>Traditionally, μHXs are manufactured by micro-machining, diffusion bonding, stereolithography, or chemical etching, among other methods <ref type="bibr" target="#b5">[6]</ref>.</s><s>Micro-machining and diffusion bonding are the most common techniques as they can be applied to a broad range of materials which have weak etching response and low electrical conductivity.</s><s>Micro-machining is a process that involves cutting, deforming, and removing materials to make features from thin sheets of metal.</s><s>After that, diffusion bonding, a solid-state diffusion process, is used to join thin sheets at high temperatures (0.5-0.8 of melting temperature) and external pressure <ref type="bibr" target="#b5">[6]</ref>.</s><s>The bonding interfaces are generally weak and are prone to the formation of cracks and voids.</s><s>Discrete microvoids were observed at diffusion-bonded joints where fatigue crack initiation occurs <ref type="bibr" target="#b11">[12]</ref>.</s></p><p><s>Using AM, weak interfaces from diffusion bonding are avoided and additional advantages are realized during μHX manufacturing.</s><s>For instance, AM improves the flexibility of μHX design by allowing for more complex structures, e.g., lattices and embedded cooling channels.</s><s>The performance of a μHX is normally evaluated by the heat transfer rate and the pressure drop.</s><s>Saltzman et al. <ref type="bibr" target="#b6">[7]</ref> reported improvement in the heat transfer of an aircraft oil cooler by about 10% after switching from traditional manufacturing to AM.</s><s>The friction factor which controls the pressure drop has been shown to be influenced by the surface roughness of the AM part <ref type="bibr" target="#b12">[13]</ref>.</s><s>Thus, it is important to understand the effect of the geometry of thin walls and process parameters on the resulting surface.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4">. Thin wall fabrication in AM</head><p><s>Some literatures <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> have investigated the printability of thin walls in various LPBF processes and different alloys.</s><s>Wang et al. <ref type="bibr" target="#b16">[17]</ref> surveyed the printability of thin walls in 316L stainless steel across three different LPBF platforms and observed the instability when fabricating walls thinner than 200 μm.</s><s>Yang et al. <ref type="bibr" target="#b17">[18]</ref> developed a process map of vertical thin walls in Inconel 718 and demonstrated the capability of using keyhole parameters in the fabrication, which motivated the parameter selection in this study.</s><s>In an EOS M270 and a Concept Laser M2, Kranz et al. <ref type="bibr" target="#b18">[19]</ref> showed the capability to fabricate thin walls in Ti-6Al-4V down to 400 μm.</s><s>They studied the impact of adjusting the wall angle with respect to the recoater blade and to the platform on achievable wall dimensions.</s><s>However, few of the thin walls reported between 200 and 300 μm survived due to the process instability and thermal distortion.</s><s>This study focuses on this particular thickness range, i.e., &lt; 400 μm, which was not studied in detail in the prior literature, and demonstrates the possibility of improving the feature resolution of different thin-wall geometries by altering the print settings.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.5">Porosity</head><p><s>Porosity can strongly influence the structural integrity of AM parts and is nearly inevitable for powder-based AM process <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>.</s><s>Being able to quantify porosity is important to evaluate process parameters, determine appropriate postprocessing steps, and assess part quality against safety requirements.</s><s>Although porosity in bulk specimens and powders has been examined in past studies, porosity in AM thin walls remains relatively unexplored.</s></p><p><s>In powder-based AM processes, pores can be categorized as either processing defects or raw material defects.</s><s>Porosity from processing can be the result of lack of fusion <ref type="bibr" target="#b7">[8]</ref> or keyholing <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>.</s><s>Lack-of-fusion porosity is generally nonspherical and exists between melt tracks or layers where powder remains unmelted due to insufficient laser power and/or insufficient melt track overlap.</s><s>Keyhole porosity is spherical and typically occurs near the bottom of the melt pool when the unstable keyholing mode causes the vapor cavity to collapse <ref type="bibr" target="#b24">[25]</ref>.</s><s>Raw material porosity comes from entrapped gas in powder after the gas atomization process.</s><s>The entrapped gas porosity typically exhibits spherical morphology and their sizes may be limited by the powder size distribution <ref type="bibr" target="#b25">[26]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.6">X-ray computed tomography</head><p><s>Among the common techniques for porosity characterization, e.g., the Archimedes method <ref type="bibr" target="#b26">[27]</ref> and optical/SEM micrographs, X-ray computed tomography (XCT) is the only nondestructive option for revealing spatial distribution, size, and morphology of porosity in 3D with sub-micron resolution.</s><s>Additionally, thin walls are too fragile for destructive methods and may have significant amounts of open porosity that cannot be detected using the Archimedes method.</s></p><p><s>The usage of XCT in AM generally focuses on porosity measurement <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref> and dimensional measurement <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b31">32]</ref>.</s><s>The joint application of the two technologies started in the 1990s in the medical field <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>.</s><s>Thanks to the advancement of synchrotron-based X-ray micro-tomography (μSXCT), the current resolution reaches &lt; 100 nm because the high flux provided by the synchrotron source enables fast acquisition of radiographs and offers fine spatial resolution and short scan time <ref type="bibr" target="#b34">[35]</ref>.</s><s>Attenuation-based XCT is used for porosity characterization in this paper; however, beyond attenuation imaging, XCT methods can also be used to obtain phase information <ref type="bibr" target="#b35">[36]</ref>.</s><s>In XCT, a high-energy X-ray beam illuminates a rotating sample, leaving a projection on the detector at each rotation angle.</s><s>Differences in atomic mass and density of the material lead to different X-ray absorption levels, which provide contrast between different phases, e.g., void and solid.</s><s>The projections are then reconstructed layer by layer to obtain 3D volumetric information <ref type="bibr" target="#b36">[37]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">. Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Experiment</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1">Build file preparation</head><p><s>The CAD design of each thin wall was prepared in Materialise Magics as a separate part file.</s><s>The individual file preparation strategy is necessary to investigate different process parameters and to control the build sequence to avoid heat buildup between adjacent parts.</s><s>Additionally, if a part fails during the build, this strategy allows the fabrication to be aborted for that particular part thus minimizing further damage caused by the debris.</s><s>Although an EOS M290 was used for this work, these fabrication principles can be applied to any LPBF process, especially when testing the limits of processing conditions and designs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2">. Test geometries</head><p><s>The lower fabrication limit of the LPBF process was explored through fabricating thin walls (Fig. <ref type="figure" target="#fig_0">1</ref>) using different alloys, parameters, and designs.</s><s>Figure <ref type="figure" target="#fig_1">2</ref> shows the configurations of thin-wall colonies with three different wall geometries.</s><s>A series of vertical/inclined thin walls with thicknesses varying from 100 to 960 μm were aligned on a 2-mm-thick base which kept the colony together after sectioning by electrical discharge machining (EDM) (see Fig. <ref type="figure" target="#fig_1">2a</ref>, <ref type="figure">b</ref>).</s><s>These walls are 40 mm wide and 15 mm tall and separated by a spacing of 2 mm to minimize the heating from neighboring scans.</s><s>The inclined walls were rotated by 30°, 45°, and 60° from a vertical wall, as shown in Fig. <ref type="figure" target="#fig_1">2b</ref>. Figure <ref type="figure" target="#fig_1">2c</ref> shows the overhang structures in Ti-6Al-4V with thicknesses from 100 to 500 μm. 1 mm supports pinned down all open edges and centerlines to minimize the risk of thermal distortion.</s></p><p><s>Additional precautions were applied to avoid possible build failures.</s><s>A soft brush recoater blade was used to minimize the external force experienced by thin walls during powder spreading.</s><s>The colonies were rotated 10° around the build direction (Fig. <ref type="figure" target="#fig_0">1</ref>) such that the longer edge of the thin-wall structure was not aligned with the spreading direction.</s><s>This rotation prevented any debris from landing back on the same melt track when a part was damaged due to contact with the recoater blade.</s><s>Parts with a higher probability of failure, e.g., with extreme geometry and dimension, were arranged at the downstream of the argon flow and towards the end of the spreading direction to minimize possible collateral damage caused by the debris.</s><s>Standard EOS Ti-6Al-4V, Inconel 718, and AlSi10Mg powders were used with the preheat temperatures of 35 °C, 80 °C, and 200 °C, respectively.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.3">Parameter selection</head><p><s>When approaching the resolution limit, EOS software switches the scan mode from raster to single-bead mode as will be discussed in Section 3.1.</s><s>Tables <ref type="table" target="#tab_0">1</ref> and <ref type="table" target="#tab_1">2</ref> show the parameters used for thin wall fabrication in the two scan modes.</s><s>Since the melt pool width mostly controls the wall thickness in the single-bead scan mode, the Rosenthal analytical solution shown below <ref type="bibr" target="#b37">[38]</ref> was used to calculate processing parameter values for a given wall thickness:</s></p><formula xml:id="formula_0">T f ¼ T o þ Qϵ 2πkr exp - V ξ þ r ð Þ 2α</formula><p><s>where T f is the melting temperature of the material, T o is the build plate temperature, Q is the power of the laser beam, V is the laser scan speed, α is the thermal diffusivity, k is the thermal conductivity, and ϵ is the absorptivity (see Table <ref type="table">3</ref>).</s><s>The melt pool geometry is described by ξ and r, where ξ is the distance from the heat source measured along the centerline and r is the radius from the centerline.</s><s>Test parameters were spread across the parameter space including the keyholing region to explore the feasible processing window for thin wall fabrication.</s><s>Another criterion for parameter selection was that the parameters should generate sufficient melt pool depth, i.e., larger than the powder layer thickness, to remelt the material underneath and mitigate lack-of-fusion defects.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Characterization</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1">Dimensional accuracy</head><p><s>EDM cut thin walls were mounted in epoxy and polished with silicon carbide paper, diamond paste, and colloidal silica, consecutively.</s><s>Measurement of thin wall thickness was performed on cross-section images shown in Fig. <ref type="figure" target="#fig_2">3</ref> captured using a Leica DM750M optical microscope.</s><s>The average wall thickness was calculated based on at least 30 measurements from three different cross-sections of the same thin wall.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2">Synchrotron-based X-ray micro-tomography</head><p><s>μSXCT scans were performed at the 2-BM beamline of the Advanced Photon Source (APS) at Argonne National Lab.</s><s>Thin-wall samples were cut into ~1-mm strips using a wire EDM.</s><s>A monochromatic beam was used to characterize Ti-6Al-4V and AlSi10Mg with 0.5-s and 0.2-s exposures, respectively.</s><s>Because nickel alloys are less transparent to X-rays, a higher energy "pink" beam was used for Inconel 718 with a 0.024-s exposure.</s><s>The setup at 2-BM provided a 1.55 (L) × 1.55 (W) × 1.41 (H)mm 3 imaging volume with a spatial resolution of 0.69 μm/pixel using a × 5 objective.</s><s>1500 radiographs were captured as the sample rotated through 180°, using a 0.12° angular step and a frame rate of 3.268 fps.</s><s>TomoPy 0.0.3 was used for reconstruction <ref type="bibr" target="#b36">[37]</ref> and FEI Avizo 9.1.1 was used for segmentation, visualization, and analysis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3">Surface metrology</head><p><s>As discussed in Section 1.3, one useful application of thin-wall structures is for heat exchangers, where surface roughness affects heat transfer <ref type="bibr" target="#b6">[7]</ref>.</s><s>The roughness parameter, developed interfacial area ratio S dr , was selected to quantify the roughness as per ISO 25178 [39]:</s></p><formula xml:id="formula_1">S dr ¼ 1 A ∬ A ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 1 þ ∂z x; y ð Þ ∂x 2 þ ∂z x; y ð Þ ∂y 2 " # v u u t -1 0 @ 1 A dxdy 2 4 3 5</formula><p><s>where A is the area on a plane, (x, y) is the coordinate of each measured point on the 2D plane, z is the corresponding height at location (x, y), and the double integral is the true surface area.</s><s>S dr is a good indicator <ref type="bibr" target="#b38">[40,</ref><ref type="bibr" target="#b39">41]</ref> of the overall surface roughness and total surface area, which in many situations controls the performance of a heat exchanger, e.g., corrosion rate and heat transfer rate.</s><s>The surface profiles of thin walls were characterized using an Alicona InfiniteFocus with a × 10 objective, 0.5-μm vertical resolution, and ~1-μm lateral resolution.</s><s>The coordinate correction was applied to the raw profile to separate the form profile from the primary profile, where the roughness measurement was performed.</s><s>Because the 1-mm × 1-mm image area made the waviness negligible, a maximum wavelength threshold was not applied on the primary profile prior to the measurement.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Results and discussion</head><p><s>The most extreme sizes and geometries tested in this study are summarized in this section along with fabrication guidelines for part geometry, design, and parameter selection.</s><s>Furthermore, results of thin walls' dimension, surface roughness, porosity, and thermal distortion are discussed to show the effects from process parameters and part geometry.</s><s>These can help readers to assess and reduce the risk associated with fabrication of thin features using LPBF process.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Laser scan strategy</head><p><s>An important finding is that the EOS software switches between two laser scan modes, raster mode and single-bead mode, depending on the feature dimension in CAD when fabricating thin-wall structures.</s><s>As shown in Fig. <ref type="figure">4</ref>, the laser has unique scan paths in the two scan modes.</s><s>The raster mode first fills the interior region by using raster scan, i.e., short  parallel scan paths separated by unit hatch spacing, and then uses two contour scans to improve the surface finish by remelting the solid-powder interface.</s><s>Two contour scan paths usually have different inward offsets which refer to different distances between the centerline of the contour scan path and the actual solid-powder interface.</s><s>If the feature is smaller than the transition size, the software activates the single-bead mode which simply uses a single-bead melt track to fill every layer of the component with no contours.</s><s>The transition thickness is around 300 μm for Ti-6Al-4V and Inconel 718 and around 350 μm for AlSi10Mg.</s></p><p><s>Other than part dimension, the thickness of the generated scan paths also depends on the alloy system.</s><s>The scan path thickness refers to the distance between the outer contour paths in Fig. <ref type="figure">4</ref> and linearly correlates with the designed wall thickness in CAD as shown by the colored dash lines in Fig. <ref type="figure">6</ref>.</s><s>They are parallel to the 1:1 ratio line but offset downward to varying degrees in the three alloys.</s><s>The offset may be negligible while fabricating thick components, but it can be critical for fine features.</s><s>Additionally, the scan path thickness is not dependent on the inclination angle or processing parameters.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Fabrication</head><p><s>The first Ti-6Al-4V thin wall build (Fig. <ref type="figure" target="#fig_0">1a</ref>) failed due to severe thermal distortion.</s><s>Failure analysis indicated that the CAD model of the thin wall and its support had insufficient overlap, i.e., freestanding thin walls, in the Magics file which led to unfused joints in the actual fabrication.</s><s>As discussed in Section 3.6, Ti-6Al-4V thin walls experienced distortion even when the walls were properly supported.</s><s>Without anchoring by supports, freestanding thin walls suffered more severe distortion which eventually led to the build failure.</s><s>This issue was resolved in the later builds by ensuring overlap between thin walls and supports in the Magics software.</s></p><p><s>Figure <ref type="figure">5</ref> presents the parameter selection by plotting all the parameters used in thin wall fabrication on process maps.</s><s>The labels highlight the minimum wall thickness and the maximum inclination angle achieved in this study using a specific power and speed combination.</s><s>For instance, the label 101 μm [60°] indicates that the minimum wall thickness is 101 μm and the maximum inclination angle is 60°.</s><s>As discussed in Section 3.1, the software switches from raster mode to single-bead mode when the CAD model of a wall is thinner than the transition thickness.</s><s>That being said, the minimum wall thickness achieved using a parameter set labeled as raster mode was the result of using a 350-μm-thick CAD model.</s></p><p><s>To have a sufficiently large melt pool size to fabricate thin walls &gt; 200 μm in single-bead scan mode, some selected parameters inevitably fall in the keyholing region.</s><s>The success of using high-energy parameters expanded the process window for thin wall fabrication despite the risk of keyhole porosity.</s><s>The keyhole boundaries from the literature in Fig. <ref type="figure">5</ref> were a useful reference when selecting parameters but it also needs to be recognized that they were measured on bulk samples which have substantially different thermal conditions compared with thin features, i.e., more heat buildup in thin walls during fabrication because of the low thermal conductivity of the surrounding powder bed.</s></p><p><s>Parameters in the lack-of-fusion region can be used to further reduce the minimum wall dimension since some walls were built successfully using low-energy settings.</s><s>However, the risk is that the melt pool size is too small to remelt the already solidified metal.</s><s>Three failure cases for AlSi10Mg (Fig. <ref type="figure">5c</ref>) were examples of insufficient remelting where the melt pool depth approached the layer thickness.</s><s>Table 3 Room-temperature thermophysical properties of Ti-6Al-4V, Inconel 718, and AlSi10Mg used in the Rosenthal analytical solution Absorptivity Melting temperature (K) Thermal conductivity (W/m-K) Density (kg/m 3 ) Heat capacity (J/kg-K) Ti-6Al-4V [8] 0 .</s><s>5[ 9] 1913 6.7 4430 526 Inconel 718 [10] 0.32[11] 1643 11.4 8220 435 AlSi10Mg [8] 0 .</s><s>3 2[ 8] 849 110 2670 915 164 µm [45ᵒ] 218 µm [60ᵒ] 278 µm [60ᵒ] 99 µm [45ᵒ] 150 µm [45ᵒ] 225 µm [45ᵒ] 296 µm [45ᵒ] 100 µm [0ᵒ] 80 µm [0ᵒ] 66 µm [0ᵒ] 134 µm [60ᵒ] 164 µm [60ᵒ] 0 50 100 150 200 250 300 0 200 400 600 800 1000 1200 1400 Power (W) Scanning Speed (mm/s) H . G o n g e t a l .</s><s>( 2 0 1 4 ) K e y -h o l i n g 101 µm [60ᵒ] 144 µm [60ᵒ] 183 µm [60ᵒ] 247 µm [60ᵒ] 125 µm [45ᵒ] 160 µm [45ᵒ] 201 µm [45ᵒ] 219 µm [45ᵒ] 160 µm [0ᵒ] 0 50 100 150 200 250 300 350 400 0 250 500 750 1000 1250 1500 1750 Power (W) Scanning Speed (mm/s) K e y -h o li n g K .</s><s>K e m p e n e t a l. ( 2 0 1 5 ) 107 µm [45ᵒ] 161 µm [45ᵒ] 121 µm [45ᵒ] 195 µm [45ᵒ] 0 50 100 150 200 250 300 350 0 200 400 600 800 1000 1200 1400 Power (W) Scanning Speed (mm/s) K e y -h o li n g C .</s><s>M o n tg o m e r y e t a l. ( 2 0 1 5 ) Single-bead mode Raster mode Part failure Minor distortion a) b) c) 163 µm [60°] 141 µm [45°] 153 µm [60°] 146 µm [45°] 279 µm [45°] 252 µm [45°] 255 µm [45°] maximum inclination angle and the minimum wall thickness achieved at a particular power and speed combination CAD Design Single-bead Laser Spot Melt Pool Design Thickness Melt Pool Width Feature Thickness Inward 2 1 a) b) Hatch Spacing Fig. 4 Schematics of scan paths (green) and thin-wall CAD model (blue) in a raster and b singlebead scan mode</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Dimensional analysis of thin wall</head><p><s>Figure <ref type="figure">6</ref> shows the wall thickness measured from the 45° inclined walls which have the minimum wall thicknesses of 99 ± 19 μm in Ti-6Al-4V, 129 ± 16 μm in Inconel 718, and 155 ± 30 μm in AlSi10Mg.</s><s>The vertical black dashed line highlights the scan mode transition thickness which separates the measurements of single-bead thin walls on the left and rastered thin walls on the right.</s><s>The dimensions of singlebead thin walls were measured from cases using the optimum parameters, which resulted in wall thickness closest to the target thickness.</s><s>The dimension of the rastered thin walls was measured from walls fabricated using the nominal process parameters in each alloy.</s><s>As mentioned above, the input energy-related melt pool size dictates the thickness of a single-bead thin wall.</s><s>The Rosenthal analytical solution <ref type="bibr" target="#b37">[38]</ref> was then used to estimate the expected wall thickness which is represented by the 1:1 ratio line in the single-bead mode region in Fig. <ref type="figure">6</ref>.</s><s>The actual thickness of the single-bead wall is always slightly larger than the estimated wall thickness.</s><s>The enlargement of thickness was expected as surrounding powder delayed the heat dissipation due to the lower thermal conductivity compared with that in bulk material.</s><s>Vasinonta et al. <ref type="bibr" target="#b42">[44]</ref> confirmed this observation as they reported a 39% increase of melt pool size when switching from bulk geometries to thin features.</s><s>The transition of scan mode between 300 and 400 μm decreased the dimensional accuracy especially in Ti-6Al-4V and AlSi10Mg.</s><s>In raster mode, both the scan path width and melt pool size control the wall thickness.</s><s>Note that the raster scan path is shorter when the wall thickness is just above the transition thickness, meaning that the path thickness (Fig. <ref type="figure">4a</ref>) is small; this potentially leads to excessive heat input when the laser turns around and starts the adjacent raster scan.</s><s>The excessive heat input at the turnaround enlarged the melt pool size which led to a larger wall dimension and a more significant mismatch with the software planned scan path width between 300 and 600 μm.</s><s>As the dimension increases, the actual wall thickness converges with the scan path width which implies a decreasing influence from the size of a single melt track.</s><s>Different material shrinkages and thermal properties also affected the final wall dimension.</s><s>Note that the actual wall thickness profiles in Ti-6Al-4V and AlSi10Mg are similar despite their planned scan path profiles have different offsets (see Fig. <ref type="figure">6</ref>).</s><s>Each whisker in Fig. <ref type="figure">6</ref> represents the standard deviation of wall thicknesses calculated from 30 measurements of a thinwall specimen.</s><s>The standard deviations of thickness are around ± 25 μm for the single-bead walls and can be as high as ± 65 μm for the rastered walls in Inconel 718.</s><s>The variation shows no dependency on the wall thickness which means that it imposes a more significant impact on the fabrication of thin walls with thicknesses at the lower end.</s></p><p><s>Figure <ref type="figure" target="#fig_4">7</ref> reveals how the inclination angles affect the wall thicknesses at the same process parameters.</s><s>The black dashed line provides a reference where the actual wall thickness is equal to the designed wall thickness.</s><s>The thin walls with different inclination angles have similar minimum thickness using the same process parameters in single-bead scan mode.</s></p><p><s>Fig. <ref type="figure">6</ref> The actual wall thickness and the planned scan path width with respect to the designed wall thickness in CAD model It also shows that wall thickness depends on inclination angles in all alloys in raster scan mode.</s><s>As the wall thickness increases, the difference in dimension between walls with different inclination angles increases especially in Ti-6Al-4V and AlSi10Mg cases, i.e., a smaller inclination angle led to a larger wall dimension.</s><s>The staircase effect and the infiltration effect at the bottom surface of inclined walls played an important role in this deviation.</s><s>As shown in Fig. <ref type="figure" target="#fig_8">12</ref>, the bottom surface of an inclined wall is partially an overhang structure.</s><s>A larger portion of a thin wall turns into overhang structure as the inclination angle increases.</s><s>Due to the absence of solid substrate in overhang region, the laser scan can cause more severe powder spattering which results in less volume of successfully deposited solid.</s><s>Although molten metal can diffuse into powder bed due to the infiltration effect and attaches partially melted powder particles onto the surface of a thin wall, these powder particles neither were included in the thickness measurement nor contribute to the overall strength of a thin wall.</s><s>Thus, thin walls with a larger inclination angle are smaller in thickness when the designed thickness is the same.</s><s>It is important to compensate for this deviation by using a thicker CAD model when fabricating walls with a larger inclination angle.</s><s>On the other hand, the partially melted particles contribute to surface roughness which will be discussed later in Section 3.5.</s></p><p><s>Overhangs were only built in Ti-6Al-4V with two sets of parameters in this study.</s><s>The low-power and low-speed parameters used for 100-500 μm overhangs are 70 W and 400 mm/s and 50 W and 200 mm/s.</s><s>The melt pool in overhang was expected to be larger owing to the lower thermal conductivity of the powder bed compared with that in bulk geometries.</s><s>Figure <ref type="figure" target="#fig_5">8</ref> shows that the measured and design thickness of overhangs are linearly correlated.</s><s>Compared with the vertical/inclined walls, the variances of thicknesses of overhang walls are significantly larger due to the poorer surface finish, especially the bottom surface, caused by the staircase effect <ref type="bibr" target="#b44">[46]</ref>.</s><s>As a result, the minimum achievable thickness for overhang is ~ Note that horizontal offsets were applied on data points with the same CAD thickness but different inclination angles for better visualization 300 μm.</s><s>Additionally, some unfused regions were observed on the cross-section of an overhang (see Fig. <ref type="figure">9b</ref>).</s><s>Since these unfused regions cannot provide a solid foundation for melting or during recoating, they led to upward tilting, Fig. <ref type="figure">9a</ref>, which is a common failure mode observed in overhang as the part experiences residual stress during fabrication.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Porosity</head><p><s>Figure <ref type="figure" target="#fig_6">10</ref> shows the porosity within thin walls in three alloys, two scan modes, and two geometries using processing parameters shown in Tables <ref type="table" target="#tab_2">4</ref> and <ref type="table">5</ref> shows the corresponding porosity percentages.</s><s>The single-bead thin walls with ~150-μm thickness and the rastered thin walls with ~400-μm thickness were used in the characterization.</s><s>Owing to the limited characterization volume of μSXCT, the measured porosity may not be representative of the quality of thin walls; nevertheless, the goal of the porosity study is to illustrate variations in the porosity within thin walls and the potential impact on structural integrity.</s><s>The porosity in Fig. <ref type="figure" target="#fig_6">10</ref> is distinguished by two different colors where blue represents more spherical pores (anisotropy &lt; 0.5) which can be inherited from entrapped gas in powder or caused by keyholing, and red represents pores with irregular morphology (anisotropy &gt; 0.5) which are more likely to originate from processing, particularly lack of fusion.</s><s>The concentration of closed pores is relatively low (&lt; 0.1%) in single-bead thin walls with no significant amount of irregularly shaped pores present except the 45° inclined wall in Ti-6Al-4V.</s><s>Figure <ref type="figure" target="#fig_6">10b</ref> shows that the thin wall has a significant density of open pores that penetrate the thin-wall structure.</s><s>Insufficient overlap of single-bead melt tracks could be responsible for the formation of open pores, although the melt pool size estimated by the Rosenthal equation should be sufficient to remelt the previous layer as mentioned in Section 2.1.3.</s><s>As the inclination angle increases, the problem of insufficient overlap can be more significant since each single-bead melt track deviates more with respect to the melt track at the previous layer.</s><s>That is to say, increasing melt pool size may reduce open pores, but attention needs to be paid to the potential of inducing keyhole porosity.</s></p><p><s>Figure <ref type="figure" target="#fig_6">10c</ref> and d demonstrate a significant amount of irregularly shaped pores formed in the Ti-6Al-4V rastered thin walls.</s><s>Similarly, Fig. <ref type="figure" target="#fig_6">10h</ref> demonstrates the irregularly shaped pores in inclined Inconel 718 rastered thin wall.</s><s>The major concern is that the raster scan paths are short in a 400-μmthick thin wall as discussed in Section 3.2; meanwhile, the 200 µm 50 mm a) b)</s></p><p><s>Fig. <ref type="figure">9</ref> Ti-6Al-4V overhang tilts up in a due to thermal distortion highlighted in the red box and b the cross-section of overhang structure showing the unfused regions melting happened on the cross-section of the thin wall that was surrounded by powder with relatively low thermal conductivity <ref type="bibr" target="#b45">[47]</ref>.</s><s>As a result, excessive energy may accumulate within the limited cross-sectional area which led to the formation of pores akin to the end-of-track porosity <ref type="bibr" target="#b46">[48,</ref><ref type="bibr" target="#b47">49]</ref>.</s><s>The problem of processing defects in Ti-6Al-4V rastered thin walls is more severe compared with others (see Fig. <ref type="figure" target="#fig_6">10c</ref>, <ref type="figure">d</ref>).</s><s>The porosity reduces the structural (anisotropy &lt; 0.5) and red (anisotropy &gt; 0.5).</s><s>Surface roughness was removed for better visualization of porosity</s></p><p><s>integrity of the walls and could potentially cause the failure in the first build when thin-wall structures were not fully supported.</s><s>By contrast, few irregularly shaped pores were found in the vertical Inconel 718 rastered thin walls, suggesting geometry may affect the thermal condition of a part.</s><s>Porosity control in thin walls is not addressed in this study.</s><s>It is likely to be more difficult than for bulk prints since the melt pool size is less predictable in these extreme geometries.</s><s>The existing process maps <ref type="bibr" target="#b40">[42,</ref><ref type="bibr" target="#b41">43,</ref><ref type="bibr" target="#b48">[50]</ref><ref type="bibr" target="#b49">[51]</ref><ref type="bibr" target="#b50">[52]</ref> may be used as reference and yet, optimization is necessary to reduce porosity in thin walls.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Surface roughness</head><p><s>The surface roughness of single-bead thin walls (~150 μm thick) was quantified using developed interfacial area ratio S dr .</s><s>As Calignano et al. <ref type="bibr" target="#b51">[53]</ref> pointed out, the staircase effect during slicing the StereoLithography Interface (SLI) or Standard Triangulation Language (STL) file influences the roughness of both top and bottom surfaces; however, the bottom surface has more similar building condition to overhang which leads to higher and more scattered roughness measurements in general compared with the top surfaces.</s><s>For instance, the whiskers in Fig. <ref type="figure" target="#fig_7">11</ref> shows that the standard deviation of the bottom surface on highly inclined AlSi10Mg walls varies up to ± 75% in S dr .</s><s>Meanwhile, S dr of the bottom surface increases with increasing inclination angle in all three alloys; in contrast, its effect on the top surface is less noticeable since more surface area from the bottom surface is exposed as overhang when the inclination angle increases (Fig. <ref type="figure" target="#fig_7">11</ref>).</s><s>Thus, the largest roughness difference between the top and bottom surface appears on the wall with the largest inclination angle in each alloy.</s><s>Note that the surface roughness is different among the alloys even though the geometry is the same with alloy Inconel 718 showing the lowest, Ti6Al4V the intermediate, and AlSi10Mg the highest values.</s><s>The different hatch spacings, powder size distributions, and layer thicknesses are responsible for this variation.</s></p><p><s>The staircase effect is responsible for the surface roughness variation on an inclined wall; however, assuming that it is the only source may oversimplify the problem.</s><s>Han et al. <ref type="bibr" target="#b43">[45]</ref> have proposed some simple schematics to illustrate the potential source of surface roughness in AM strut fabrication.</s><s>A similar idea can be used in the current study to explain the contribution of the staircase effect and infiltration effect to the surface roughness.</s></p><p><s>As shown in Fig. <ref type="figure" target="#fig_8">12a</ref>, the theoretical developed interfacial area ratio S dr0 of a thin wall with an inclination angle of ⍺ can be calculated by taking the ratio of surface area accounting for the staircase effect L and its projected surface area L p <ref type="bibr" target="#b43">[45]</ref>:</s></p><formula xml:id="formula_2">S dr0 ¼ L L p -1 ¼ sin 90°-α ð Þ tan 90°-α ð Þ þ sin 90°-α ð Þ</formula><p><s>As shown in the above equation, S dr0 is only inclination angle-dependent.</s><s>As labeled in Fig. <ref type="figure" target="#fig_7">11</ref>, the S dr0 values for 30°, 45°, and 60° inclined walls are about 36.6%, 41.4%, and 36.6%,</s><s>respectively.</s><s>The S dr measurements shown in Fig. <ref type="figure" target="#fig_7">11</ref> are significantly larger than the theoretical value S dr0 .</s><s>The result implies that the staircase effect is not the only source for the roughness of the bottom surface.</s><s>Instead, the infiltration effect controls the surface roughness as the inclination angle increases.</s><s>As mentioned before, larger inclination angle leads to larger bottom surface area which is considered as an overhang.</s><s>Since the powder bed has lower thermal conductivity compared with the solid substrate, melt pool persists longer as the laser scans through the overhang.</s><s>As a result, molten metal infiltrated further into powder gaps driven by gravitational force and partially melted more powder particles onto the bottom surface of a thin wall (Fig. <ref type="figure" target="#fig_10">13</ref>).</s><s>These partially melted powder particles eventually contributed to the higher surface roughness on the bottom surfaces.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">Thermal distortion</head><p><s>Thermal stress due to rapid cooling (~10 5 K/s) in LPBF process is one of the biggest challenges especially for the fabrication of thin structures.</s><s>The accumulation of (mainly shrinkage) strain causes stress and distorts still-building components away from their prescribed position on the fly.</s><s>Depending on the direction of thermal stress, different damage modes can develop and eventually lead to part failure.</s><s>For example, an upwardly warped component increases the risk of contacting the recoater blade and a horizontally warped component fails to provide a solid foundation to the subsequent deposition.</s><s>The standard solution is to properly support the parts.</s><s>The failure of the first Ti-6Al-4V build motivated the support spacing study to reveal the correlation between thermal distortion and support spacing by fabricating vertical walls in a trapezoidal colony (see Fig. <ref type="figure" target="#fig_9">14a</ref>).</s><s>All the walls were fabricated in single-bead mode using nominal parameters with a thickness of ~200 μm.</s></p><p><s>The support spacing ranges from 30 to 125 mm, and the distortion distance was measured at the centerline of each vertical wall by comparing the actual and prescribed wall position.</s><s>Figure <ref type="figure" target="#fig_9">14b</ref> shows that the distortion in AlSi10Mg walls is minor even when the support spacing is at 125 mm while</s></p><p><s>0 50 100 150 200 250 300 350</s></p><p><s>Ti6Al4V top Ti6Al4V bottom Inconel 718 top Inconel 718 bottom AlSi10Mg top AlSi10Mg bottom Developed Interfacial Area Ratio S dr (%) Vertical 30 degree 45 degree 60 degree S dr0 [45 o ] S dr0 [30 o , 60 o ]  the distortion increases dramatically when support spacing is &gt; 60 mm in Ti-6Al-4V.</s><s>Thus, a support spacing &lt; 60 mm is recommended to minimize distortion for thin wall fabrication in Ti-6Al-4V.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7">Design guidelines</head><p><s>The following design guidelines were developed based on the systematic study performed in this work.</s><s>The goal is to improve the feature accuracy and minimize the occurrence of failure in a thin wall build.</s><s>The scope of the investigation means that the guidelines have certain limitations.</s><s>For instance, the scan strategy, parameter selection, and wall thickness calibration are very specific to the particular AM machine and alloy systems investigated.</s><s>On the other hand, some guidelines, such as support spacing and geometry design, are likely to be applicable to other laser powder bed fusion processing equipment and materials when fabricating thin walls.</s><s>The two scan modes in EOS M290 provided a continuous thickness range down to ~100 μm for thin wall fabrication.</s><s>Walls can be classified into three different categories based on their final thickness and the transition thickness from singlebead to raster scan mode, namely small size, medium size, and large size range.</s><s>The range of each category varies in different alloy systems.</s></p><p><s>&amp; Small size range (Ti-6Al-4V: &lt; 141 μm; Inconel 718: &lt; 252 μm; AlSi10Mg: &lt; 146 μm): Thin walls in this size range are beyond the capability of raster mode and can only be built using single-bead mode where the wall thickness is solely controlled by the melt pool size instead of the wall dimension in the CAD file.</s><s>In other words, thin walls with the correct dimension can be fabricated using appropriate power and speed combination in single-bead mode.</s><s>&amp; Medium size range (Ti-6Al-4V: between 141 and 300 μm; Inconel 718: between 252 and 300 μm; AlSi10Mg: between 146 and 350 μm): Thin walls in this size range can be fabricated using both single-bead and raster modes; however, single-bead mode is recommended for this thickness range because the raster path width is limited when the feature dimension is small.</s><s>It potentially turns raster pattern into pulse welding pattern which makes the geometry difficult to predict and leads the occurrence of unmelted region.</s><s>The results from Fig. <ref type="figure">5</ref> demonstrate that keyhole process parameters can be used in the fabrication of thin walls without causing failure.</s><s>This is critical since using keyhole parameters in single-bead mode may be the only solution for fabricating a thin wall in this thickness range.</s><s>&amp; Large size range (Ti-6Al-4V: &gt; 300 μm; Inconel 718: &gt; 300 μm; AlSi10Mg: &gt; 350 μm): Thin walls in this size range can be easily built using raster mode; however, the thickness of the CAD model should be greater than the desired thickness according to the calibration results shown in Fig. <ref type="figure">6</ref> so as to compensate for the effects of scan path and material shrinkage.</s><s>Note that the final wall dimension is also inclination angle-dependent and alloydependent (see Fig. <ref type="figure" target="#fig_4">7</ref>).</s></p><p><s>Parameters in the lack-of-fusion regime were not used in raster scan mode in this study.</s><s>However, some of them were successfully tested using single-bead mode.</s><s>The main criterion for using these parameters is to ensure that the melt pool size is large enough to remelt the previous layers and create a solid foundation for the following deposition.</s><s>Nevertheless, parameters in the lack-of-fusion regime are not recommended especially for the raster mode.</s><s>Supporting all the delicate features is crucial for the success of the build, especially on all the open edges.</s><s>A support spacing &lt; 60 mm for Ti-6Al-4V is suggested to prevent excessive thermal distortion.</s><s>All builds in this study used a 2-mm sample spacing which showed no significant issue of heat accumulation.</s><s>Where possible, a larger sample spacing is recommended to reduce the damage from chain reaction caused by the failure of one part in the build.</s><s>Using separate CAD models in fabrication and placing specimens with extreme geometry or parameters at the downstream of gas flow/end of spreading direction are also useful for damage control.</s><s>As discussed in Section 2.1.1,</s><s>this study adopted these two approaches in the fabrication which allowed the failed parts, e.g., AlSi10Mg thin walls using lower energy input shown in Fig. <ref type="figure">5</ref>, to be terminated and to avoid further damage to the neighboring components.</s><s>Lastly, using a soft brush recoater blade and applying angular misalignment between the long edge of a thin wall and the spreading direction can reduce the external force experienced by the thin features and minimize collateral damage caused by the debris.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Conclusions</head><p><s>Design guidelines are presented for optimizing thin wall fabrication in the laser powder bed fusion process.</s><s>The process resolution of LPBF is alloy-dependent.</s><s>The minimum thin wall thicknesses are 99 ± 19 μm for Ti-6Al-4V, 101 ± 19 μm for AlSi10Mg, and 107 ± 10 μm for Inconel 718.</s><s>They were limited by the minimum achievable melt pool size without inducing lack of fusion between layers.</s><s>Overhang structures can attain a minimum thickness of ~300 μm in Ti-6Al-4V using low-power and low-speed parameters.</s></p><p><s>The maximum inclination angle successfully built is 60° in Ti-6Al-4V and AlSi10Mg.</s><s>Only a 45° inclination angle has been tested in Inconel 718, but it is believed that a wall inclined at 60° may also be feasible to build.</s></p><p><s>The study identified two scan modes used in thin wall fabrication by EOS M290 and revealed their significance for wall thickness control.</s><s>It is important to utilize the two scan modes to enable full thickness range down to 100 μm.</s><s>Different thermal properties, material shrinkage, and inclination angles are the other main factors controlling the dimension of the thin wall.</s></p><p><s>Porosity was mainly found in Ti-6Al-4V thin walls.</s><s>Also, increasing the inclination angle led to more severe processing defects.</s><s>Process maps developed for bulk specimens may not be directly applicable to thin wall fabrication owing to the different thermal conditions caused by extreme geometry.</s></p><p><s>Surface roughness, particularly the developed interfacial area ratio S dr , of thin walls is inclination angle-dependent and material-dependent.</s><s>Most of the bottom surfaces are rougher than the top surfaces and more sensitive to changes in the wall geometry.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc><div><p><s>Fig. 1 Demonstration of test geometries for thin walls in a Ti-6Al-4V, b Ti-6Al-4V, c Ti-6Al-4V, d AlSi10Mg, and e Inconel 718</s></p></div></figDesc><graphic coords="3,51.02,604.86,493.59,95.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc><div><p><s>Fig. 2 Schematics of a vertical wall colony, b inclined wall colony, and c overhang colony reveal the configuration of thin walls and supports</s></p></div></figDesc><graphic coords="5,51.22,580.43,493.00,101.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc><div><p><s>Fig. 3 Optical micrograph of thin wall cross-section showing example traces for thickness measurement</s></p></div></figDesc><graphic coords="6,51.67,514.64,236.92,177.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 Fig. 4</head><label>54</label><figDesc><div><p><s>Fig.5Process maps of thin wall fabrication in a Ti-6Al-4V<ref type="bibr" target="#b40">[42]</ref>, b Inconel 718<ref type="bibr" target="#b41">[43]</ref>, and c AlSi10Mg<ref type="bibr" target="#b48">[50]</ref> alloys with labels showing the</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 7</head><label>7</label><figDesc><div><p><s>Fig. 7 Actual thickness of thin wall fabricated using single-bead (&lt; 350 μm) and raster (&gt; 350 μm) scan modes in three alloys a Ti-6Al-4V, b Inconel 718, and c AlSi10Mg with different inclination angles.</s></p></div></figDesc><graphic coords="9,85.03,53.84,425.32,373.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 8</head><label>8</label><figDesc><div><p><s>Fig.8Thickness profiles of Ti-6Al-4V overhang structures using two parameters with corresponding Rosenthal estimated melt pool size shown in parentheses</s></p></div></figDesc><graphic coords="10,51.53,53.86,237.29,366.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 10 μSXCT</head><label>10</label><figDesc><div><p><s>Fig. 10 μSXCT results show porosity in a-d Ti-6Al-4V, e-h Inconel 718, and i-l AlSi10Mg thin walls with single-bead/raster scan mode and vertical/45° inclined wall geometry where pores are colored in blue</s></p></div></figDesc><graphic coords="11,51.02,53.86,493.59,555.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 11</head><label>11</label><figDesc><div><p><s>Fig. 11 Developed interfacial area ratio S dr of top and bottom surfaces on single-bead (150 μm) thin walls at an inclination angle of 0° (vertical), 30°, 45°, and 60° in Ti-6Al-4V, Inconel 718, and AlSi10Mg</s></p></div></figDesc><graphic coords="13,97.54,58.97,445.48,156.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 12</head><label>12</label><figDesc><div><p><s>Fig.12Schematics of bottom surface roughness solely caused by a staircase effect and contributed by infiltration effect at an inclination angle of b 30°, c 45°, and d 60°<ref type="bibr" target="#b43">[45]</ref></s></p></div></figDesc><graphic coords="13,177.90,506.67,366.40,203.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 14</head><label>14</label><figDesc><div><p><s>Fig.<ref type="bibr" target="#b13">14</ref> The configuration of the vertical thin wall in the trapezoidal colony in Ti-6Al-4V and AlSi10Mg used for the support spacing study in a and the comparison of thermal distortion on Ti-6Al-4V and AlSi10Mg vertical thin walls in b</s></p></div></figDesc><graphic coords="14,85.03,519.65,402.52,149.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 13</head><label>13</label><figDesc><div><p><s>Fig.13μSXCT scans of a top surface and b bottom surface on a single-bead Ti-6Al-4V 45° inclined thin wall (~150 μm thick), showing the different quantities of partially melted powder particles from the staircase and infiltration effects</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><figDesc><div><p><s>the preparation of figures.</s><s>The authors are grateful for helpful discussions with Dr. Sandra DeVincent Wolf and Professor Jack L. Beuth.</s><s>Professor Burak Ozdoganlar is acknowledged for access to the Alicona InfiniteFocus system to obtain surface height maps.</s><s>Dr. Xianghui Xiao, Dr. Pavel Shevchenko, and all the 2-BM beamline staff at the Advanced Photon Source are thanked for assisting in the acquisition of the synchrotron tomography data; this research used resources of the Advanced Photon Source, a US Department of Energy (DOE) Office of Science User Facility operated for the DOE Office of Science by Argonne National Laboratory under Contract No. DE-AC02-06CH11357.</s><s>F u n d i n g i n f o r m a t i o n T h i s w o r k w a s s u p p o r t e d b y t h e NextManufacturing Center at Carnegie Mellon University and by the Pennsylvania Infrastructure Technology Alliance, a partnership of Carnegie Mellon, Lehigh University, and the Commonwealth of Pennsylvania's Department of Community and Economic Development (DCED).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><graphic coords="8,231.87,54.88,312.40,274.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc><div><p><s>Designed thickness in CAD of each single-bead thin wall and its corresponding process parameters.Note that the detailed schematic of single-bead mode is shown in Fig.4Target thickness (μm) Speed, V (mm/s) Power, Q (W)</s></p></div></figDesc><table><row><cell>Ti-6Al-4V 100</cell><cell>600</cell><cell>100</cell></row><row><cell></cell><cell>800</cell><cell>100</cell></row><row><cell></cell><cell>800</cell><cell>75</cell></row><row><cell></cell><cell>800</cell><cell>50</cell></row><row><cell></cell><cell>1200</cell><cell>50</cell></row><row><cell>150</cell><cell>600</cell><cell>150</cell></row><row><cell></cell><cell>800</cell><cell>175</cell></row><row><cell></cell><cell>1200</cell><cell>280</cell></row><row><cell>200</cell><cell>400</cell><cell>175</cell></row><row><cell></cell><cell>600</cell><cell>250</cell></row><row><cell>250</cell><cell>200</cell><cell>150</cell></row><row><cell></cell><cell>400</cell><cell>280</cell></row><row><cell>Inconel 718 100</cell><cell>400</cell><cell>100</cell></row><row><cell></cell><cell>800</cell><cell>175</cell></row><row><cell>150</cell><cell>400</cell><cell>175</cell></row><row><cell></cell><cell>800</cell><cell>325</cell></row><row><cell>AlSi10Mg 100</cell><cell>1300</cell><cell>80</cell></row><row><cell></cell><cell>650</cell><cell>60</cell></row><row><cell></cell><cell>800</cell><cell>50</cell></row><row><cell></cell><cell>1150</cell><cell>50</cell></row><row><cell></cell><cell>1600</cell><cell>50</cell></row><row><cell>150</cell><cell>1150</cell><cell>140</cell></row><row><cell></cell><cell>550</cell><cell>100</cell></row><row><cell></cell><cell>1300</cell><cell>170</cell></row><row><cell>200</cell><cell>1050</cell><cell>210</cell></row><row><cell></cell><cell>400</cell><cell>130</cell></row><row><cell>250</cell><cell>900</cell><cell>270</cell></row><row><cell></cell><cell>250</cell><cell>150</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc><div><p><s>Raster and two contour settings used for thin walls fabricated in raster mode where the nominal parameters are highlighted in italics.Note that the detailed schematic of raster mode is shown in Fig.4</s></p></div></figDesc><table><row><cell></cell><cell>Layer thickness</cell><cell>Raster</cell><cell></cell><cell></cell><cell>Contour 1</cell><cell></cell><cell></cell><cell>Contour 2</cell><cell></cell><cell></cell></row><row><cell></cell><cell>(μm)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Power, Q</cell><cell>Speed, V</cell><cell>Hatch</cell><cell>Power, Q</cell><cell>Speed, V</cell><cell>Inward offset</cell><cell>Power, Q</cell><cell>Speed, V</cell><cell>Inward offset</cell></row><row><cell></cell><cell></cell><cell>(W)</cell><cell>(mm/s)</cell><cell>(mm)</cell><cell>(W)</cell><cell>(mm/s)</cell><cell>(mm)</cell><cell>(W)</cell><cell>(mm/s)</cell><cell>(mm)</cell></row><row><cell cols="2">Ti-6Al-4V 30</cell><cell>280</cell><cell>1200</cell><cell>0.14</cell><cell>150</cell><cell>1250</cell><cell>0.02</cell><cell>150</cell><cell>1250</cell><cell>0</cell></row><row><cell></cell><cell></cell><cell>100</cell><cell>400</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>250</cell><cell>400</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Inconel</cell><cell>40</cell><cell>285</cell><cell>960</cell><cell>0.11</cell><cell>138</cell><cell>390</cell><cell>0.012</cell><cell>80</cell><cell>800</cell><cell>0</cell></row><row><cell>718</cell><cell></cell><cell>225</cell><cell>1250</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>125</cell><cell>400</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">AlSi10Mg 30</cell><cell>370</cell><cell>1300</cell><cell>0.19</cell><cell>80</cell><cell>900</cell><cell>0.02</cell><cell>85</cell><cell>900</cell><cell>0</cell></row><row><cell></cell><cell></cell><cell>170</cell><cell>350</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4</head><label>4</label><figDesc><div><p><s>Parameters of thin walls characterized by μSXCT.Note that the detailed schematics of the two scan modes are shown in Fig.4</s></p></div></figDesc><table><row><cell></cell><cell>Scan</cell><cell cols="3">Raster (R)/single-bead (S)</cell><cell>Contour 1</cell><cell></cell><cell></cell><cell>Contour 2</cell><cell></cell><cell></cell></row><row><cell></cell><cell>mode</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">Power (W) Speed</cell><cell cols="3">Hatch (mm) Power (W) Speed</cell><cell cols="3">Offset inward (mm) Power (W) Speed</cell><cell>Offset inward</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(mm/s)</cell><cell></cell><cell></cell><cell>(mm/s)</cell><cell></cell><cell></cell><cell>(mm/s)</cell><cell>(mm)</cell></row><row><cell>Ti-6Al-4V</cell><cell>R</cell><cell>280</cell><cell>1200</cell><cell>0.14</cell><cell>150</cell><cell>1250</cell><cell>0.02</cell><cell>150</cell><cell>1250</cell><cell>0</cell></row><row><cell></cell><cell>S</cell><cell>280</cell><cell>1200</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell cols="2">Inconel 718 R</cell><cell>285</cell><cell>960</cell><cell>0.11</cell><cell>138</cell><cell>390</cell><cell>0.012</cell><cell>80</cell><cell>800</cell><cell>0</cell></row><row><cell></cell><cell>S</cell><cell>2 8 5</cell><cell>9 6 0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>AlSi10Mg</cell><cell>R</cell><cell>370</cell><cell>1300</cell><cell>0.19</cell><cell>80</cell><cell>900</cell><cell>0.02</cell><cell>85</cell><cell>900</cell><cell>0</cell></row><row><cell></cell><cell>S</cell><cell>370</cell><cell>1300</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p><s>The assistance of <rs type="person">Todd Baer</rs> is acknowledged for the printing of the thin wall experiments and for sample preparation.</s><s><rs type="person">Christopher Kantzos</rs> and <rs type="person">Joseph Aroh</rs> are acknowledged for helping with</s></p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p><s>The data that support the findings of this study are available from the corresponding author [ZW] upon reasonable request.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p><s>The authors declare that they have no conflict of interest.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Compliance with ethical standards</head><p><s>Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Metal additive manufacturing: a review</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Frazier</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11665-0958-</idno>
+		<ptr target="https://doi.org/10.1007/s11665-014-0958-z" />
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Eng Perform</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1917" to="1928" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frazier WE (2014) Metal additive manufacturing: a review. J Mater Eng Perform 23:1917-1928. https://doi.org/10.1007/s11665-014- 0958-z</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical properties of Ti6Al4V parts fabricated by selective laser melting and electron beam melting</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Rafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Karthik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Stucker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11665-013-0658-0</idno>
+		<ptr target="https://doi.org/10.1007/s11665-013-0658-0" />
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Eng Perform</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="3872" to="3883" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rafi HK, Karthik NV, Gong H, Starr TL, Stucker BE (2013) Microstructures and mechanical properties of Ti6Al4V parts fabri- cated by selective laser melting and electron beam melting. J Mater Eng Perform 22:3872-3883. https://doi.org/10.1007/s11665-013- 0658-0</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Review of the methods for production of spherical Ti and Ti alloy powder</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Z</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-017-2513-5</idno>
+		<ptr target="https://doi.org/10.1007/s11837-017-2513-5" />
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1853" to="1860" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun P, Fang ZZ, Zhang Y, Xia Y (2017) Review of the methods for production of spherical Ti and Ti alloy powder. JOM 69:1853- 1860. https://doi.org/10.1007/s11837-017-2513-5</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">From powders to dense metal parts: characterization of a commercial AlSiMg alloy processed through direct metal laser sintering</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Canali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ambrosio</forename><forename type="middle">E</forename><surname>Atzeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/ma6030856</idno>
+		<ptr target="https://doi.org/10.3390/ma6030856" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="856" to="869" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Manfredi D, Calignano F, Krishnan M, Canali R, Ambrosio E, Atzeni E (2013) From powders to dense metal parts: characteriza- tion of a commercial AlSiMg alloy processed through direct metal laser sintering. Materials (Basel) 6:856-869. https://doi.org/10. 3390/ma6030856</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Emerging applications of microchannels</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Choo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dessiatoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cetegen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">SpringerBriefs in Applied Sciences and Technology</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="67" to="105" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ohadi M, Choo K, Dessiatoun S, Cetegen E (2013) Emerging ap- plications of microchannels. In: SpringerBriefs in Applied Sciences and Technology. Springer, New York, pp 67-105</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A review of manufacturing processes for microchannel heat exchanger fabrication</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ashman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Kandlikar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th International Conference on Nanochannels, Microchannels and Minichannels</title>
+		<meeting>the 4th International Conference on Nanochannels, Microchannels and Minichannels<address><addrLine>ICNMM</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Society of Mechanical Engineers Digital Collection</publisher>
+			<date type="published" when="2006">2006. 2006</date>
+			<biblScope unit="page" from="855" to="860" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ashman S, Kandlikar SG (2006) A review of manufacturing pro- cesses for microchannel heat exchanger fabrication. In: Proceedings of the 4th International Conference on Nanochannels, Microchannels and Minichannels, ICNMM2006. American Society of Mechanical Engineers Digital Collection, pp 855-860</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Design and evaluation of an additively manufactured aircraft heat exchanger</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Saltzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bichnevicius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Reutzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dickman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Martukanitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.applthermaleng.2018.04.032</idno>
+		<ptr target="https://doi.org/10.1016/j.applthermaleng.2018.04.032" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Therm Eng</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="254" to="263" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saltzman D, Bichnevicius M, Lynch S, Simpson TW, Reutzel EW, Dickman C, Martukanitz R (2018) Design and evaluation of an additively manufactured aircraft heat exchanger. Appl Therm Eng 138:254-263. https://doi.org/10.1016/j.applthermaleng.2018.04. 032</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Prediction of lack-of-fusion porosity for powder bed fusion</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pistorius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jb-A</forename><surname>Manufacturing</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2016.12.001</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2016.12.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="39" to="48" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tang M, Pistorius P, Manufacturing JB-A (2017) Prediction of lack-of-fusion porosity for powder bed fusion. Addit Manuf 14: 39-48. https://doi.org/10.1016/j.addma.2016.12.001</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Absorption coefficient characterization in Ti-6Al-4V laser additive manufacturing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Medieros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICALEO 2006 -25th International Congress on Applications of Laser and Electro-Optics, Congress Proceedings</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keller M, Chaudhary A, Kelly S, Medieros S (2006) Absorption coefficient characterization in Ti-6Al-4V laser additive manufactur- ing. In: ICALEO 2006 -25th International Congress on Applications of Laser and Electro-Optics, Congress Proceedings</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Laser additive melting and solidification of Inconel 718: finite element simulation and experiment</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ladani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sadowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-015-1765-1</idno>
+		<ptr target="https://doi.org/10.1007/s11837-015-1765-1" />
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="967" to="977" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Romano J, Ladani L, Sadowski M (2016) Laser additive melting and solidification of Inconel 718: finite element simulation and experiment. JOM 68:967-977. https://doi.org/10.1007/s11837- 015-1765-1</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Study of dynamic absorptivity at 10.6 μm (CO2) and 1.06 μm (Nd-YAG) wavelengths as a function of temperature</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sainte-Catherine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jeandin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kechemair</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/jp4:1991741</idno>
+		<ptr target="https://doi.org/10.1051/jp4:1991741" />
+	</analytic>
+	<monogr>
+		<title level="j">Le J Phys IV</title>
+		<imprint>
+			<biblScope unit="volume">01</biblScope>
+			<biblScope unit="page" from="7" to="151" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sainte-Catherine C, Jeandin M, Kechemair D et al (1991) Study of dynamic absorptivity at 10.6 μm (CO2) and 1.06 μm (Nd-YAG) wavelengths as a function of temperature. Le J Phys IV 01:C7-151- C7-157. https://doi.org/10.1051/jp4:1991741</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">In situ observation of interfacial fatigue crack growth in diffusion bonded joints of austenitic stainless steel</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xuan</forename><forename type="middle">F</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jnucmat.2006.12.026</idno>
+		<ptr target="https://doi.org/10.1016/j.jnucmat.2006.12.026" />
+	</analytic>
+	<monogr>
+		<title level="j">J Nucl Mater</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li S, Xuan F, Tu S (2007) In situ observation of interfacial fatigue crack growth in diffusion bonded joints of austenitic stainless steel. J Nucl Mater 366:1-7. https://doi.org/10.1016/j.jnucmat.2006.12. 026</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Roughness effects on flow and heat transfer for additively manufactured channels</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Stimpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Thole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mongillo</surname></persName>
+		</author>
+		<idno type="DOI">10.1115/1.4032167</idno>
+		<ptr target="https://doi.org/10.1115/1.4032167" />
+	</analytic>
+	<monogr>
+		<title level="j">J Turbomach</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stimpson CK, Snyder JC, Thole KA, Mongillo D (2016) Roughness effects on flow and heat transfer for additively manufactured channels. J Turbomach:138. https://doi.org/10. 1115/1.4032167</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Microstructural analysis of critical geometries and heat treated laser powder bed fusion produced aluminum alloy A356</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Trask</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+		<respStmt>
+			<orgName>McGill University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Trask M (2018) Microstructural analysis of critical geometries and heat treated laser powder bed fusion produced aluminum alloy A356. McGill University</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Study of wall thickness and its impact on microstructure on 316L manufactured with direct metal laser sintering</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Timhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nalum</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+		<respStmt>
+			<orgName>Chalmers University of Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Timhagen J, Nalum D (2017) Study of wall thickness and its impact on microstructure on 316L manufactured with direct metal laser sintering. Chalmers University of Technology</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Dimensional quality and distortion analysis of thin-walled alloy parts of AlSi10Mg manufactured by selective laser melting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Majeed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Atta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jia</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/jmmp3020051</idno>
+		<ptr target="https://doi.org/10.3390/jmmp3020051" />
+	</analytic>
+	<monogr>
+		<title level="j">J Manuf Mater Process</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">51</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahmed A, Majeed A, Atta Z, Jia G (2019) Dimensional quality and distortion analysis of thin-walled alloy parts of AlSi10Mg manufactured by selective laser melting. J Manuf Mater Process 3:51. https://doi.org/10.3390/jmmp3020051</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Characteristics of typical geometrical features shaped by selective laser melting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Song</surname></persName>
+		</author>
+		<idno type="DOI">10.2351/1.4980164</idno>
+		<ptr target="https://doi.org/10.2351/1.4980164" />
+	</analytic>
+	<monogr>
+		<title level="j">J Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">22007</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang D, Wu S, Bai Y, Lin H, Yang Y, Song C (2017) Characteristics of typical geometrical features shaped by selective laser melting. J Laser Appl 29:022007. https://doi.org/10.2351/1. 4980164</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The printability, microstructure, crystallographic features and microhardness of selective laser melted Inconel 718 thin wall</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2018.07.007</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2018.07.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Des J</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="407" to="418" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang H, Yang J, Huang W, Wang Z, Zeng X (2018) The printabil- ity, microstructure, crystallographic features and microhardness of selective laser melted Inconel 718 thin wall. Mater Des J 156:407- 418. https://doi.org/10.1016/j.matdes.2018.07.007</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Design guidelines for laser additive manufacturing of lightweight structures in TiAl6V4</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Emmelmann</surname></persName>
+		</author>
+		<idno type="DOI">10.2351/1.4885235</idno>
+		<ptr target="https://doi.org/10.2351/1.4885235" />
+	</analytic>
+	<monogr>
+		<title level="j">J Laser Appl</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">13518</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kranz J, Kranz J, Herzog D, Emmelmann C (2014) Design guide- lines for laser additive manufacturing of lightweight structures in TiAl6V4. J Laser Appl 27:13518. https://doi.org/10.2351/1. 4885235</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Analyzing the effects of powder and post-processing on porosity and properties of electron beam melted Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><forename type="middle">A</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fodran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Anagnostou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sangid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1080/21663831.2017.1340911</idno>
+		<ptr target="https://doi.org/10.1080/21663831.2017.1340911" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Res Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="516" to="525" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunningham R, Nicolas A, Madsen J, Fodran E, Anagnostou E, Sangid MD, Rollett AD (2017) Analyzing the effects of powder and post-processing on porosity and properties of electron beam melted Ti-6Al-4V. Mater Res Lett 5:516-525. https://doi.org/10.1080/ 21663831.2017.1340911</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Synchrotron-based x-ray microtomography characterization of the effect of processing variables on porosity formation in laser power-bed additive manufacturing of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Narra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-016-2234-1</idno>
+		<ptr target="https://doi.org/10.1007/s11837-016-2234-1" />
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="479" to="484" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunningham R, Narra SP, Montgomery C, Beuth J, Rollett AD (2017) Synchrotron-based x-ray microtomography characterization of the effect of processing variables on porosity formation in laser power-bed additive manufacturing of Ti-6Al-4V. JOM 69:479- 484. https://doi.org/10.1007/s11837-016-2234-1</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Keyhole threshold and morphology in laser melting revealed by ultrahigh-speed x-ray imaging</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Parab</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aav4687</idno>
+		<ptr target="https://doi.org/10.1126/science.aav4687" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="849" to="852" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunningham R, Zhao C, Parab N et al (2019) Keyhole threshold and morphology in laser melting revealed by ultrahigh-speed x-ray imaging. Science (80-) 363:849-852. https://doi.org/10.1126/ science.aav4687</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Ultrafast x-ray imaging of laser-metal additive manufacturing processes</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Parab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Escano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Everhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S1600577518009554</idno>
+		<ptr target="https://doi.org/10.1107/S1600577518009554" />
+	</analytic>
+	<monogr>
+		<title level="j">J Synchrotron Radiat</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1467" to="1477" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parab ND, Zhao C, Cunningham R, Escano LI, Fezzaa K, Everhart W, Rollett AD, Chen L, Sun T (2018) Ultrafast x-ray imaging of laser-metal additive manufacturing processes. J Synchrotron Radiat 25:1467-1477. https://doi.org/10.1107/S1600577518009554</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Real-time monitoring of laser powder bed fusion process using high-speed x-ray imaging and diffraction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-03761-2</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-03761-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao C, Fezzaa K, Cunningham R et al (2017) Real-time monitor- ing of laser powder bed fusion process using high-speed x-ray im- aging and diffraction. Sci Rep:7. https://doi.org/10.1038/s41598- 017-03761-2</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Keyhole formation and thermal fluid flow-induced porosity during laser fusion welding in titanium alloys: experimental and modelling</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Panwisawas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Perumal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.12.062</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.12.062" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="253" to="261" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Panwisawas C, Perumal B, Ward R et al (2017) Keyhole formation and thermal fluid flow-induced porosity during laser fusion welding in titanium alloys: experimental and modelling. Acta Mater 126: 253-261. https://doi.org/10.1016/j.actamat.2016.12.062</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">XCT analysis of the influence of melt strategies on defect population in Ti-6Al-4V components manufactured by selective electron beam melting</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tammas-Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Léonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Derguti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Prangnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchar.2015.02.008</idno>
+		<ptr target="https://doi.org/10.1016/j.matchar.2015.02.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Charact</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="47" to="61" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tammas-Williams S, Zhao H, Léonard F, Derguti F, Todd I, Prangnell PB (2015) XCT analysis of the influence of melt strate- gies on defect population in Ti-6Al-4V components manufactured by selective electron beam melting. Mater Charact 102:47-61. https://doi.org/10.1016/j.matchar.2015.02.008</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Comparison of density measurement techniques for additive manufactured metallic parts</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Spierings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eggenberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/13552541111156504</idno>
+		<ptr target="https://doi.org/10.1108/13552541111156504" />
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Prototyp J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="380" to="386" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spierings AB, Schneider M, Eggenberger R (2011) Comparison of density measurement techniques for additive manufactured metallic parts. Rapid Prototyp J 17:380-386. https://doi.org/10.1108/ 13552541111156504</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Synchrotron x-ray CT characterization of titanium parts fabricated by additive manufacturing. Part I. Morphology</title>
+		<author>
+			<persName><forename type="first">Nvy</forename><surname>Scarlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tyson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maksimenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S1600577516007359</idno>
+		<ptr target="https://doi.org/10.1107/S1600577516007359" />
+	</analytic>
+	<monogr>
+		<title level="j">J Synchrotron Radiat</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1006" to="1014" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scarlett NVY, Tyson P, Fraser D, Mayo S, Maksimenko A (2016) Synchrotron x-ray CT characterization of titanium parts fabricated by additive manufacturing. Part I. Morphology. J Synchrotron Radiat 23:1006-1014. https://doi.org/10.1107/S1600577516007359</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Assessment by x-ray CT of the effects of geometry and build direction on defects in titanium ALM parts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tammas-Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prangnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Todd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference on industrial computed tomography (iCT)</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tammas-Williams S, Prangnell P, Todd I, et al (2012) Assessment by x-ray CT of the effects of geometry and build direction on de- fects in titanium ALM parts. In: Conference on industrial computed tomography (iCT)</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Characterization of metal powders used for additive manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slotwinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Garboczi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stutzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Csw</forename><surname>Ferraris</surname></persName>
+		</author>
+		<idno type="DOI">10.6028/jres.119.018</idno>
+		<ptr target="https://doi.org/10.6028/jres.119.018" />
+	</analytic>
+	<monogr>
+		<title level="j">J Res Natl Inst Stand Technol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slotwinski J, Garboczi E, Stutzman P, Ferraris CSW (2014) Characterization of metal powders used for additive manufacturing. J Res Natl Inst Stand Technol 119. https://doi.org/10.6028/jres.119. 018</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Damage evolution and failure mechanisms in additively manufactured stainless steel</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Carlton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haboub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Gallegos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Parkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Macdowell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.10.073</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2015.10.073" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">651</biblScope>
+			<biblScope unit="page" from="406" to="414" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carlton HD, Haboub A, Gallegos GF, Parkinson DY, MacDowell AA (2016) Damage evolution and failure mechanisms in additively manufactured stainless steel. Mater Sci Eng A 651:406-414. https://doi.org/10.1016/j.msea.2015.10.073</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">X-ray computed tomography for additive manufacturing: a review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Maskery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Leach</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0957-0233/27/7/072001</idno>
+		<ptr target="https://doi.org/10.1088/0957-0233/27/7/072001" />
+	</analytic>
+	<monogr>
+		<title level="j">Meas Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">72001</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thompson A, Maskery I, Leach RK (2016) X-ray computed to- mography for additive manufacturing: a review. Meas Sci Technol 27:072001. https://doi.org/10.1088/0957-0233/27/7/ 072001</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Preliminary experience with medical applications of rapid prototyping by selective laser sintering</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Efford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Radjenovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1350-4533(96)00039-2</idno>
+		<ptr target="https://doi.org/10.1016/S1350-4533(96)00039-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Med Eng Phys</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="90" to="96" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berry E, Brown JM, Connell M, Craven CM, Efford ND, Radjenovic A, Smith MA (1997) Preliminary experience with med- ical applications of rapid prototyping by selective laser sintering. Med Eng Phys 19:90-96. https://doi.org/10.1016/S1350-4533(96) 00039-2</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The display of three-dimensional anatomy with stereolithographic models</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Mankovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Stoker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF03167610</idno>
+		<ptr target="https://doi.org/10.1007/BF03167610" />
+	</analytic>
+	<monogr>
+		<title level="j">J Digit Imaging</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="200" to="203" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mankovich NJ, Cheeseman AM, Stoker NG (1990) The display of three-dimensional anatomy with stereolithographic models. J Digit Imaging 3:200-203. https://doi.org/10.1007/BF03167610</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Quantitative x-ray tomography</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/1743280413Y.0000000023</idno>
+		<ptr target="https://doi.org/10.1179/1743280413Y.0000000023" />
+	</analytic>
+	<monogr>
+		<title level="j">Int Mater Rev</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1" to="43" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maire E, Withers PJ (2014) Quantitative x-ray tomography. Int Mater Rev 59:1-43. https://doi.org/10.1179/1743280413Y. 0000000023</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Sub-micrometer synchrotron tomography of multiphase metals using Kirkpatrick-Baez optics</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Requena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Altendorfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Poletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tolnai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Warchomicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Degischer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2009.06.025</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2009.06.025" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="760" to="763" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Requena G, Cloetens P, Altendorfer W, Poletti C, Tolnai D, Warchomicka F, Degischer HP (2009) Sub-micrometer synchro- tron tomography of multiphase metals using Kirkpatrick-Baez op- tics. Scr Mater 61:760-763. https://doi.org/10.1016/j.scriptamat. 2009.06.025</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">TomoPy: a framework for the analysis of synchrotron tomographic data</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gürsoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Carlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1107/S1600577514013939</idno>
+		<ptr target="https://doi.org/10.1107/S1600577514013939" />
+	</analytic>
+	<monogr>
+		<title level="j">J Synchrotron Radiat</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1188" to="1193" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gürsoy D, De Carlo F, Xiao X, Jacobsen C (2014) TomoPy: a framework for the analysis of synchrotron tomographic data. J Synchrotron Radiat 21:1188-1193. https://doi.org/10.1107/ S1600577514013939</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Mathematical theory of heat distribution during welding and cutting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<idno>ISO -ISO 25178-2:2012</idno>
+	</analytic>
+	<monogr>
+		<title level="m">-Geometrical product specifications (GPS) -Surface texture: areal -Part 2: Terms, definitions and surface texture parameters</title>
+		<imprint>
+			<date type="published" when="1941">1941. 2012</date>
+			<biblScope unit="volume">39</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosenthal D (1941) Mathematical theory of heat distribution during welding and cutting. Weld J 39. (2012) ISO -ISO 25178-2:2012 -Geometrical product specifica- tions (GPS) -Surface texture: areal -Part 2: Terms, definitions and surface texture parameters</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Introduction of a surface characterization parameter Sdr prime for analysis of reentrant features</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Townsend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pagani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Blunt</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10921-019-0573-x</idno>
+		<ptr target="https://doi.org/10.1007/s10921-019-0573-x" />
+	</analytic>
+	<monogr>
+		<title level="j">J Nondestruct Eval</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Townsend A, Pagani L, Scott PJ, Blunt L (2019) Introduction of a surface characterization parameter Sdr prime for analysis of re- entrant features. J Nondestruct Eval 38:1-10. https://doi.org/10. 1007/s10921-019-0573-x</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Spray cooling of enhanced surfaces: impact of structured surface geometry and spray axis inclination</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Silk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kiger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijheatmasstransfer.2006.05.031</idno>
+		<ptr target="https://doi.org/10.1016/j.ijheatmasstransfer.2006.05.031" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Heat Mass Transf</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="4910" to="4920" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silk EA, Kim J, Kiger K (2006) Spray cooling of enhanced sur- faces: impact of structured surface geometry and spray axis incli- nation. Int J Heat Mass Transf 49:4910-4920. https://doi.org/10. 1016/j.ijheatmasstransfer.2006.05.031</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Melt pool characterization for selective laser melting of Ti-6Al-4V prealloyed powder</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Christiansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lewandowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Solid Freeform Fabrication Symposium</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="256" to="267" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gong H, Christiansen D, Beuth J, Lewandowski JJ (2014) Melt pool characterization for selective laser melting of Ti-6Al-4V pre- alloyed powder. In: Solid Freeform Fabrication Symposium. pp. 256-267</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Process mapping of Inconel 625 in laser powder bed additive manufacturing</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sheridan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Klingbeil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Solid freeform fabrication symposium</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montgomery C, Beuth J, Sheridan L, Klingbeil N (2015) Process mapping of Inconel 625 in laser powder bed additive manufactur- ing. In: Solid freeform fabrication symposium</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Melt pool size control in thin-walled and bulky parts via process maps</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vasinonta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Solid freeform fabrication symposium</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vasinonta A, Beuth JL, Ong R (2001) Melt pool size control in thin-walled and bulky parts via process maps. In: Solid freeform fabrication symposium</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Investigation on selective laser melting AlSi10Mg cellular lattice strut: molten pool morphology, surface roughness and dimensional accuracy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Nie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma11030392</idno>
+		<ptr target="https://doi.org/10.3390/ma11030392" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Basel</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Han X, Zhu H, Nie X, Wang G, Zeng X (2018) Investigation on selective laser melting AlSi10Mg cellular lattice strut: molten pool morphology, surface roughness and dimensional accuracy. Materials (Basel) 11. https://doi.org/10.3390/ma11030392</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Rough surfaces with enhanced heat transfer for electronics cooling by direct metal laser sintering</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ventola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Robotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dialameh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chiavazzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Asinari</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijheatmasstransfer.2014.03.037</idno>
+		<ptr target="https://doi.org/10.1016/j.ijheatmasstransfer.2014.03.037" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Heat Mass Transf</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="58" to="74" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ventola L, Robotti F, Dialameh M, Calignano F, Manfredi D, Chiavazzo E, Asinari P (2014) Rough surfaces with enhanced heat transfer for electronics cooling by direct metal laser sintering. Int J Heat Mass Transf 75:58-74. https://doi.org/10.1016/j. ijheatmasstransfer.2014.03.037</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Thermal conductivity of metal powders for powder bed additive manufacturing</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Ehrlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Powell-Palm</forename><surname>Mj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Malen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.02.002</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2018.02.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit Manuf</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="201" to="208" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wei LC, Ehrlich LE, Powell-Palm MJ, Montgomery C, Beuth J, Malen JA (2018) Thermal conductivity of metal powders for pow- der bed additive manufacturing. Addit Manuf 21:201-208. https:// doi.org/10.1016/j.addma.2018.02.002</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Finestructured aluminium products with controllable texture by selective laser melting of pre-alloyed AlSi10Mg powder</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2012.11.052</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2012.11.052" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1809" to="1819" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thijs L, Kempen K, Kruth JP, Van Humbeeck J (2013) Fine- structured aluminium products with controllable texture by selec- tive laser melting of pre-alloyed AlSi10Mg powder. Acta Mater 61: 1809-1819. https://doi.org/10.1016/j.actamat.2012.11.052</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Laser powder-bed fusion additive manufacturing: physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.02.014</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.02.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="36" to="45" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khairallah SA, Anderson AT, Rubenchik A, King WE (2016) Laser powder-bed fusion additive manufacturing: physics of com- plex melt flow and formation mechanisms of pores, spatter, and denudation zones. Acta Mater 108:36-45. https://doi.org/10.1016/ j.actamat.2016.02.014</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Processing AlSi10Mg by selective laser melting: Parameter optimisation and material characterisation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Humbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/1743284714Y.0000000702</idno>
+		<ptr target="https://doi.org/10.1179/1743284714Y.0000000702" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="917" to="923" />
+			<date type="published" when="2015">2015</date>
+			<pubPlace>United Kingdom</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kempen K, Thijs L, Humbeeck J Van, Kruth JP (2015) Processing AlSi10Mg by selective laser melting: Parameter optimisation and material characterisation. Mater Sci Technol (United Kingdom) 31: 917-923. https://doi.org/10.1179/1743284714Y.0000000702</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Process mapping for qualification across multiple direct metal additive manufacturing processes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gockel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Solid freeform fabrication symposium</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beuth J, Fox J, Gockel J, et al (2013) Process mapping for qualifi- cation across multiple direct metal additive manufacturing process- es. In: Solid freeform fabrication symposium</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Understanding Ti-6Al-4V microstructure control in additive manufacturing via process maps</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gockel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Solid freeform fabrication symposium</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gockel J, Beuth J (2013) Understanding Ti-6Al-4V microstructure control in additive manufacturing via process maps. In: Solid freeform fabrication symposium</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Investigation of accuracy and dimensional limits of part produced in aluminum alloy by selective laser melting</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lorusso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pakkanen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00170-016-8788-9</idno>
+		<ptr target="https://doi.org/10.1007/s00170-016-8788-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Adv Manuf Technol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="451" to="458" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calignano F, Lorusso M, Pakkanen J et al (2017) Investigation of accuracy and dimensional limits of part produced in aluminum alloy by selective laser melting. Int J Adv Manuf Technol 88: 451-458. https://doi.org/10.1007/s00170-016-8788-9</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

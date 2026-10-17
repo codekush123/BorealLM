@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Real-time monitoring of laser powder bed fusion process using high-speed X-ray imaging and diffraction</title>
+				<funder>
+					<orgName type="full">University of Missouri Research Board</orgName>
+				</funder>
+				<funder ref="#_mQ5t7gW #_zMP9tMg">
+					<orgName type="full">U.S. Department of Energy</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Northrop Grumman Corporation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Director, Office of Science</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Argonne National Laboratory</orgName>
+				</funder>
+				<funder ref="#_naDwq7C">
+					<orgName type="full">National Nuclear Security Agency</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Laboratory Directed Research and Development</orgName>
+					<orgName type="abbreviated">LDRD</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Cang</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> X-ray Science Division , Advanced Photon Source , Argonne National Laboratory , Argonne , IL , 60439 , USA.</note>
+								<orgName type="department" key="dep1">X-ray Science Division</orgName>
+								<orgName type="department" key="dep2">Advanced Photon Source</orgName>
+								<orgName type="institution">Argonne National Laboratory</orgName>
+								<address>
+									<postCode>60439</postCode>
+									<settlement>Argonne</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kamel</forename><surname>Fezzaa</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> X-ray Science Division , Advanced Photon Source , Argonne National Laboratory , Argonne , IL , 60439 , USA.</note>
+								<orgName type="department" key="dep1">X-ray Science Division</orgName>
+								<orgName type="department" key="dep2">Advanced Photon Source</orgName>
+								<orgName type="institution">Argonne National Laboratory</orgName>
+								<address>
+									<postCode>60439</postCode>
+									<settlement>Argonne</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ross</forename><forename type="middle">W</forename><surname>Cunningham</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Materials Science and Engineering , Carnegie Mellon University , Pittsburgh , PA , 15213 , USA.</note>
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<postCode>15213</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Haidan</forename><surname>Wen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> X-ray Science Division , Advanced Photon Source , Argonne National Laboratory , Argonne , IL , 60439 , USA.</note>
+								<orgName type="department" key="dep1">X-ray Science Division</orgName>
+								<orgName type="department" key="dep2">Advanced Photon Source</orgName>
+								<orgName type="institution">Argonne National Laboratory</orgName>
+								<address>
+									<postCode>60439</postCode>
+									<settlement>Argonne</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francesco</forename><surname>De Carlo</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> X-ray Science Division , Advanced Photon Source , Argonne National Laboratory , Argonne , IL , 60439 , USA.</note>
+								<orgName type="department" key="dep1">X-ray Science Division</orgName>
+								<orgName type="department" key="dep2">Advanced Photon Source</orgName>
+								<orgName type="institution">Argonne National Laboratory</orgName>
+								<address>
+									<postCode>60439</postCode>
+									<settlement>Argonne</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lianyi</forename><surname>Chen</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Department of Mechanical and Aerospace Engineering , Missouri University of Science and Technology , Rolla , MO , 65409 , USA.</note>
+								<orgName type="department">Department of Mechanical and Aerospace Engineering</orgName>
+								<orgName type="institution">Missouri University of Science and Technology</orgName>
+								<address>
+									<postCode>65409</postCode>
+									<settlement>Rolla</settlement>
+									<region>MO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Materials Science and Engineering , Carnegie Mellon University , Pittsburgh , PA , 15213 , USA.</note>
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<postCode>15213</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Tao</forename><surname>Sun</surname></persName>
+							<email>taosun@aps.anl.gov</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> X-ray Science Division , Advanced Photon Source , Argonne National Laboratory , Argonne , IL , 60439 , USA.</note>
+								<orgName type="department" key="dep1">X-ray Science Division</orgName>
+								<orgName type="department" key="dep2">Advanced Photon Source</orgName>
+								<orgName type="institution">Argonne National Laboratory</orgName>
+								<address>
+									<postCode>60439</postCode>
+									<settlement>Argonne</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Real-time monitoring of laser powder bed fusion process using high-speed X-ray imaging and diffraction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">ECCF880025CCE0FF47DB6BCAE24B093E</idno>
+					<idno type="DOI">10.1038/s41598-017-03761-2</idno>
+					<note type="submission">Received: 14 February 2017 Accepted: 3 May 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-08-24T13:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>We employ the high-speed synchrotron hard X-ray imaging and diffraction techniques to monitor the laser powder bed fusion (LPBF) process of Ti-6Al-4V in situ and in real time.</s><s>We demonstrate that many scientifically and technologically significant phenomena in LPBF, including melt pool dynamics, powder ejection, rapid solidification, and phase transformation, can be probed with unprecedented spatial and temporal resolutions.</s><s>In particular, the keyhole pore formation is experimentally revealed with high spatial and temporal resolutions.</s><s>The solidification rate is quantitatively measured, and the slowly decrease in solidification rate during the relatively steady state could be a manifestation of the recalescence phenomenon.</s><s>The high-speed diffraction enables a reasonable estimation of the cooling rate and phase transformation rate, and the diffusionless transformation from β to α ' phase is evident.</s><s>The data present here will facilitate the understanding of dynamics and kinetics in metal LPBF process, and the experiment platform established will undoubtedly become a new paradigm for future research and development of metal additive manufacturing.</s></p><p><s>Additive manufacturing (AM, a.k.a.</s><s>3D printing) of metallic materials has been witnessing tremendous growth over the past three decades 1-5 , particularly in the fields of medical, aerospace, automobile, and defense industries 6, 7 .</s><s>Currently, most of the metal AM systems are of the laser powder bed fusion (LPBF) type owing to its superior capability to make geometrically complex parts <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> .</s><s>In a typical LPBF process, a laser beam scans across a thin layer of metallic powders, and locally melts the powders through to the layer below <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> .</s><s>Although the process is conceptually simple, there are many highly dynamic and transient physical phenomena involved because of the extremely high heating and cooling rates <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> , e.g.</s><s>melting and partial vaporization of metallic powders, flow of the molten metal, powder ejection and re-distribution, rapid solidification, non-equilibrium phase transition, etc. Oftentimes, the complex interactions result in a product with rough surface, significant porosity in terms of both size and number density, residual stress, and unfavorable phase and grain structures, with the consequent impact on properties <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> .</s><s>In order to understand the mechanisms responsible for the formation of these defects, it is imperative to develop and apply in situ characterization techniques to study the dynamic microstructural evolution <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> .</s><s>Unfortunately, it is extremely challenging to experimentally characterize the dynamics of the LPBF process due to the highly localized and very fast interaction of the laser beam with metal powders.</s><s>The most advanced characterization method reported so far that uses a high-speed visible light imaging, can only monitor what happens above the surface of the powder bed <ref type="bibr" target="#b14">15</ref> .</s></p><p><s>Here, we report in situ probing the dynamics of the LPBF process inside as well as above the surface of the powder bed using high-speed hard X-ray imaging and diffraction techniques at the Advanced Photon Source (APS).</s><s>It is demonstrated that quantitative structural information on melt pool size/shape, powder ejection, solidification, and phase transformation can be obtained from the high-resolution time-resolved X-ray images and diffraction patterns.</s><s>The experimental and data analysis approaches developed here will provide a compass pointing to the fundamental understanding of the physics in the AM process, and will further accelerate the coming of the AM age.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>High-speed synchrotron X-ray imaging and diffraction.</head><p><s>The high-speed X-ray imaging and diffraction experiments were carried out at the 32-ID-B beamline of the APS <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> .</s><s>The schematic of the synchrotron X-ray experiments is depicted in Fig. <ref type="figure" target="#fig_0">1</ref>.</s><s>A short-period (1.8 cm) undulator with the gap set to 12 mm generates polychromatic X-rays with the first harmonic energy at 24.4 keV and the corresponding wavelength at 0.508 Å.</s><s>A pair of slits was used to define the size of the X-ray beam.</s><s>For imaging experiments, the dimensions of the slit window were typically set to 1 mm × 1 mm, which yields an integrated flux of ~7 × 10 15 ph/s.</s><s>Since the photon flux with higher harmonic energies is relatively low (less than 4% of overall flux as the energy spectrum shown in Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>), the incident beam behaves similarly as a pink beam with an energy bandwidth of ~4%.</s><s>In diffraction experiments, the slits were further closed to reduce the energy bandwidth.</s><s>At the beamline, a set of slow shutters and a set of fast shutters were employed to define a very small time window for the X-rays to pass through, in order to protect the detection system.</s><s>The samples were located at about 38 m away from the source.</s><s>The high-speed imaging camera was placed 310 mm away from the sample in the downstream for recording full-field X-ray images, while the high-speed diffraction detector had an angle offset of 14.6° from the incident beam and the sample-to-detector distance was 235 mm.</s><s>The samples studied in the experiments were miniature Ti-6Al-4V powder bed systems, which consisted of two pieces of glassy carbon plates (1 mm thickness, and 6 mm height) as the container walls, one piece of Ti-6Al-4V plate (450 µm thickness, 3 mm height) sandwiched between the carbon plates as the base, and one layer of Ti-6Al-4V powders (~100 µm thickness) evenly spread out on top of the metal base.</s><s>The powder bed samples were at room temperature before laser heating, and no preheating was applied.</s><s>The powder used in this study was EOS Titanium Ti64 powder (Ti-6Al-4V alloy, particle diameter &lt; 60 µm), designed for use in the commercially available EOS LPBF systems.</s><s>The metal samples were located inside a stainless steel chamber with argon protection atmosphere.</s><s>The laser beam carrying various powers entered into the chamber straight down with a spot size of ~220 µm (1/e 2 , Gaussian beam) on the powder bed.</s><s>The laser was operated in a spot-heating mode with no scanning involved.</s><s>The X-ray beam impinged on the samples horizontally providing a side view of the powder bed.</s><s>A series of delay generators were used to synchronize the shutters, laser, and X-ray detectors.</s><s>More details of the experimental setup are described in the "Methods" section and Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Real-time monitoring of the laser powder bed fusion process.</head><p><s>High-speed X-ray images of LPBF processes with two different laser power conditions are shown in Supplementary Videos <ref type="url" target="http://1">1</ref> and <ref type="url" target="http://2">2</ref>. Both image series were taken with a frame rate of 50 kHz and an exposure time of 350 ns for each individual image.</s><s>Figure <ref type="figure" target="#fig_1">2</ref> displays eight X-ray images of each series.</s><s>In Fig. <ref type="figure" target="#fig_1">2a</ref> and Supplementary Video <ref type="url" target="http://1">1,</ref> the laser power and duration time were set to 340 W and 1 ms, respectively.</s><s>It can be observed that the process starts with the melting of the Ti-6Al-4V powders around the laser spot and then the Ti-6Al-4V base.</s><s>Subsequently, a small cavity or depression zone is generated, accompanied by the moving of powders within and outside of the powder bed.</s><s>A dome-shape metal structure is formed in the end without noticeable structural defects.</s><s>In Fig. <ref type="figure" target="#fig_1">2b</ref> and Supplementary Video <ref type="url" target="http://2">2,</ref> the laser power was increased to 520 W and also exposed for 1 ms.</s><s>As revealed by the images, the laser-metal interaction is much more violent than the previous case.</s><s>The Ti-6Al-4V powders and base are quickly melted locally.</s><s>Then the continuous laser heating causes large cavity depth and strong oscillation behavior, and the molten metal spreads outwards from the surface with a portion getting ejected away.</s><s>The end structure on the surface is also in a dome shape, but a ~150 µm pore is formed at the bottom of the melt pool deep inside the base.</s><s>The competition between the Marangoni convection and the recoil pressure primarily determines the extent of the mass and the heat transfers, as well as the dynamics of the melting process <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b25">26</ref> .</s><s>The extremely high and non-uniform thermal distribution in the melt pool leads to a large surface tension gradient, creating the conditions for Marangoni convection <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> .</s><s>The surface liquid flows from the center of the laser-heated zone (lower surface tension) to the surrounding regions (higher surface tension), as does the heat.</s><s>Meanwhile, the absorption of the laser energy results in strong metal evaporation around the laser beam, and the rapid moving of the metal vapor generates recoil pressure gradients and consequent melt ejections <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b28">29</ref> .</s><s>The balance of surface tension and recoil pressure also governs the melting process shown in Fig. <ref type="figure" target="#fig_1">2a</ref>, but their collective impact on the melt pool dynamics and powder motion is much higher in the case shown in Fig. <ref type="figure" target="#fig_1">2b</ref>.</s></p><p><s>The pore formation at the bottom of the melt pool in Fig. <ref type="figure" target="#fig_1">2b</ref> should be attributed to the relatively large cavity depth <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b29">30</ref> .</s><s>After the laser is turned off, the sudden absence of the laser beam creates a local negative pressure environment, which brings about the liquid metal flowing towards the center of the melt pool <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b26">27</ref> .</s><s>Owing to the large cavity depth, most of the liquid metal that was spread out by the high recoil pressure is maintained at the top level and has a relatively high movability, while that at the bottom level moves too slowly to fill the cavity, which results in the formation of a pore <ref type="bibr" target="#b12">13</ref> .</s><s>For the first time ever, the time taken for the closure of the keyhole was measured experimentally, which is about 50 µs in the case shown here.</s><s>After formation, the keyhole pore tends to float up because of the buoyancy effect.</s><s>Figure <ref type="figure" target="#fig_1">2b</ref> shows that the pore is retained deep inside the base because it fails to reach the top surface of the liquid before being pinned by the solidification front.</s><s>In brief, two typical melting modes are revealed here: conduction mode and keyhole mode <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b20">21</ref> .</s><s>The keyhole mode melting occurs when excessive thermal energy density impinges on the sample, such as the case shown in the sequence in Fig. <ref type="figure" target="#fig_1">2b</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Melt pool profile.</head><p><s>Based on theories and empirical knowledge, many models have been developed for predicting melt pool dimensions <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> , yet the direct observation of the dynamic evolution of melt pool is lacking, particularly its structure underneath the surface <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b20">21</ref> .</s><s>Here, we demonstrate that our high-speed hard-X-ray imaging technique is capable of probing the melt pool development in the LPBF process with sufficiently high spatial and temporal resolutions.</s></p><p><s>Figure <ref type="figure" target="#fig_2">3a</ref> and Supplementary Video <ref type="url" target="http://4">4</ref> show a series of X-ray images of the melt pool during the same LPBF process shown in Fig. <ref type="figure" target="#fig_1">2b</ref>.</s><s>The cavity and the melt pool are outlined using blue and red dashed lines, respectively.</s><s>Here, only the melt pool structure in the base metal is delineated because the liquid metal in the powder bed can be observed directly without the aid of any image processing.</s><s>In these images, the cavity or depression zone induced by the recoil pressure appears much lighter in contrast and can be easily recognized.</s><s>Identification of the outer boundary of the melt pool is more challenging because of the small density difference between liquid and solid Ti-6Al-4V, but this can be accomplished by using a simple image analysis approach described in the Supplementary Information and Supplementary Fig. <ref type="figure" target="#fig_2">3</ref>.</s></p><p><s>Figure <ref type="figure" target="#fig_2">3b-d</ref> summarize the dimension change of the melt pool as a function of laser heating time.</s><s>The depths of the cavity and melt pool for two laser power conditions are shown in Fig. <ref type="figure" target="#fig_2">3b</ref>.</s><s>These show that the higher-power (520 W) laser beam starts to generate the melt pool in the metal base at a much earlier heating stage, and also "drills" much deeper, compared with the lower-power beam (340 W).</s><s>Under both power conditions, the depth of the cavity is similar to the depth of the melt pool.</s><s>This is because the bottom of the melt pool has the highest temperature in the sample, which results in the largest recoil pressure, driving liquid metal away from the bottom of the cavity <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b28">29</ref> .</s><s>Figure <ref type="figure" target="#fig_2">3c</ref> shows the changes in aspect ratios (i.e.</s><s>depth/width) of the cavity and melt pool as functions of heating time.</s><s>The aspect ratio of a melt pool is a parameter commonly used for distinguishing the melting mode <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> .</s><s>In the case of 340 W laser power (open red square), the depth/width ratio is close to 0.5 at the early stage of heating, meaning that the melt pool is about semicircular in shape (inset to Fig. <ref type="figure" target="#fig_2">3d</ref>), which is often regarded as an evidence of conduction mode melting <ref type="bibr" target="#b32">33</ref> .</s><s>Beyond t = ~750 µs, the aspect ratio starts to increase, indicating a tendency towards the keyhole mode of melting as the thermal energy input continues to increase.</s><s>When using a higher laser power (solid red square), the depth/width ratio quickly reaches ~1.3 and remains almost unchanged through the laser heating process, indicating stable keyhole mode melting <ref type="bibr" target="#b32">33</ref> .</s><s>The aspect ratios of the cavities are higher than the corresponding melt pools in both cases.</s><s>The width of the cavity is close to the laser beam size through the entire heating process, while the depth continues to increase.</s><s>Figure <ref type="figure" target="#fig_2">3d</ref> plots the areas of the cavities and melt pools as functions of laser heating time.</s><s>Interestingly, all plots in (b-d) show a clear transition from higher ramp rates to slightly lower rates.</s><s>Such a transition occurs at t = ~450 µs in case of the higher laser power and t = ~750 µs for the lower power.</s><s>We speculate that the increased recoil pressure and Marangoni effect at the later stage of laser heating lead to a strong and complex fluid flow, which helps regulate the sample temperature and maintain a relatively stable melt pool profile.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Powder motion.</head><p><s>In LPBF processes, powder spatter ejection is commonly observed, and too large a fraction of ejected particles can negatively impact the building process <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> .</s><s>The ejected powders and molten droplets will fall back down to the powder bed unless removed by, e.g., a gas stream.</s><s>If these particles fall within the part being built, they will likely contribute to the structural defects in the end product <ref type="bibr" target="#b34">35</ref> ; whereas if they fly far enough from the build area, they may still become an issue for powder recycling by generating agglomerates <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> .</s><s>Moreover, the formation of a denudation zone near the laser scan path often accompanies powder ejection, which leads to poor build precision and quality <ref type="bibr" target="#b13">14</ref> .</s><s>In this contribution, we demonstrate the unique capability of high-speed X-ray imaging technique in studying the powder ejection phenomenon in the LPBF process.</s></p><p><s>As previously shown in Supplementary Video <ref type="url" target="http://2">2,</ref> when a high-power laser impinges on the powder bed, the particles in the laser spot quickly melt and partially evaporate.</s><s>The metal vapor then "splashes" the nearby particles out of the powder bed.</s><s>As the melt pool develops, the Marangoni flow and recoil pressure drive the liquid metal flow outwards from the laser beam, wetting and melting particles in the close vicinity upon contact.</s><s>The circulating liquid flow driven by the surface tension acts to "pull" particles into the melt pool <ref type="bibr" target="#b26">27</ref> .</s><s>After a small particle-depleted zone is formed near the laser beam, the particles further away from the melt pool move towards the laser beam, entrained by the Ar gas flow, as the quick expansion of the metal vapor causes the pressure drop around the laser beam due to the Bernoulli effect <ref type="bibr" target="#b14">15</ref> .</s><s>The phenomenon of powder flow and ejection were well explained by Matthews and other groups <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> .</s></p><p><s>In this investigation, based on the fast compressive tracking technique proposed by the Yang group <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38</ref> , we developed a set of codes for tracking the motions of particles.</s><s>Since only 2D images were collected in our experiments, the measured velocity of each individual particle is the projection of true velocity on the 2D plane perpendicular to the incident X-ray direction.</s><s>Particle motion tracking for the cases of two laser powers are shown in Supplementary Videos <ref type="url" target="http://5">5</ref> and <ref type="url" target="http://6">6</ref>.</s><s>The effectiveness of the tracking algorithm is shown in Supplementary Video <ref type="url" target="http://7">7</ref>.</s></p><p><s>Figure <ref type="figure" target="#fig_3">4a</ref> shows six images of the case with 520 W laser power.</s><s>The arrow on each powder particle indicates the direction of motion and the length of the arrow corresponds to the speed.</s><s>Figure <ref type="figure" target="#fig_3">4b</ref> shows the trajectories of five representative particles (marked in Fig. <ref type="figure" target="#fig_3">4a</ref> using cyan dashed squares), in which the open symbols mark their locations in consecutive X-ray images, and the arrows point along their directions of motion.</s><s>P1 is a particle on top of the powder bed, which is ejected immediately by the metal vapor jet at the early stage of the laser heating.</s><s>P2 could be a particle that is at some distance away from the laser spot along incident X-ray direction.</s><s>It may have moved towards the laser spot relatively slowly in the beginning but once it reached the laser heating zone, it was ejected out of the powder bed.</s><s>P3 is the coalescence of two powder particles, as shown in the inset.</s><s>Two particles (A and B) move towards the laser spot, driven by surface tension and complex metal vapor and gas flow.</s><s>Once they reach the laser beam, they melt and merge into one particle (C), which is then ejected.</s><s>P4 is similar to P2, but exhibits a seemingly small ejection angle.</s><s>P5 is a particle that is entrained into the melt pool at the final stage when the metal vapor flux is much lower, so no ejection occurs.</s><s>The trajectories of these five particles vividly reveal the complex interplays among the recoil pressure, Marangoni convection, and Ar gas flow.</s></p><p><s>Figure <ref type="figure" target="#fig_3">4c</ref> and 4d show the statistics of the particle ejection speed and the direction under the conditions of two different laser powers, respectively.</s><s>In both cases, particles outside the powder bed in all X-ray images collected during laser heating (i.e.</s><s>t = 0~1000 µs) are counted.</s><s>Since the velocity of the same particle may vary with time, we consider the motions in all images to be independent.</s><s>In Fig. <ref type="figure" target="#fig_3">4c</ref>, two major differences can be observed: first, the 340 W laser ejects far fewer particles from the powder bed than the 520 W laser; second, the maximum particle speed in the case of 340 W laser is smaller than that in the higher laser power case (12.3 m/s vs 14.9 m/s).</s><s>Both results indicate a milder particle motion if the laser power is lower.</s><s>Figure <ref type="figure" target="#fig_3">4d</ref> shows the angular distribution of ejection.</s><s>The definition of ϕ is shown in Fig. <ref type="figure" target="#fig_3">4c</ref>, with ϕ = 90° being the vertical direction, pointing up.</s><s>In principle, the distribution of angles should be perfectly symmetrical around ϕ = 90° if an adequate number of melting events are counted.</s><s>However, in a single melting event, the angular distribution of the particle ejection is strongly influenced by the dynamic flow of the melt pool.</s><s>The complex recoil pressure and surface tension distributions can result in an asymmetric distribution of particle ejection angles, as shown here.</s><s>A subtle, yet distinguishable, difference between the two laser power cases is that the angular distribution in case of 340 W laser appears more symmetrical around the laser beam direction than the case of 520 W laser, which again is the result of a less turbulent melt pool flow.</s></p><p><s>Here, we only present a very simple way to gather statistics.</s><s>Given the high spatial-temporal resolution of the X-ray images and the well-developed feature-tracking algorithms, we believe many other analyses can be done.</s><s>However, it should be noted that the results from these 2D images work most effectively for validating theoretical models.</s><s>The missing information along the incident X-ray beam direction means that it is essential to have models to interpret the results.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Solidification rate.</head><p><s>The solidification in LPBF is a highly localized and extremely fast process owing to the high cooling rate and large thermal gradient <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b39">40</ref> .</s><s>The grain morphology and texture of the end product are strongly affected by the solidification rate, but its quantification has been challenging.</s><s>Here, we demonstrate the feasibility of measuring the solidification rate in the LPBF process using high-speed hard-X-ray imaging technique.</s><s>Supplementary Video <ref type="url" target="http://8">8</ref> and Fig. <ref type="figure" target="#fig_4">5a</ref> show the solidification process of a Ti-6Al-4V plate sample (~450 µm thickness and no powders on the top), as proof of concept.</s><s>A near semicircular melt pool can be observed, and the solid-liquid interface is readily identified in the raw images.</s><s>In Fig. <ref type="figure" target="#fig_4">5a</ref>, the solidification front is outlined by the blue dotted line.</s><s>Five locations (P1-P5) distributed around the solidification front are selected for more quantitative analysis.</s><s>The red arrow at each location points to the instantaneous solidification direction, and its length corresponds to the solidification rate.</s><s>The radial growth of columnar grains can be clearly observed, with the long axis aligning well with the thermal gradient in the melt pool <ref type="bibr" target="#b39">40</ref> .</s><s>The gradual "curving" growth of these grains reflects the continuous optimization of the growth directions along the local maximum thermal gradients and the easy growth directions.</s><s>Figure <ref type="figure" target="#fig_4">5b</ref> plots the solidification rate as a function of time for the spot P3.</s><s>When the laser is turned off at t = 1000 µs, the dynamic fluid flow in the melt pool does not stop immediately and the melt pool temperature is still higher than the solidification temperature.</s><s>Detectable solidification occurs at about 350 µs later, with the immediate rate of ~0.48 m/s.</s><s>With the time lapse, the solidification rate attains a relatively steady state for about 400 µs, but continues to drop.</s><s>A similar trend is found for data from the other four locations.</s><s>This slight drop could be caused by the so-called recalescence phenomenon <ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref> .</s><s>The nucleation of solid phase in the solidification front results in an increase in the local liquid temperature.</s><s>The thermal gradient then decreases, leading to a drop in solidification rate.</s><s>At t = 1750 µs, the solidification rate increases to ~0.75 m/s as the columnar grains approach the center of the melt pool, which suggests that the local maximum thermal gradients at the center of the melt pool coincide well with the easy growth direction, promoting the most efficient grain growth <ref type="bibr" target="#b39">40</ref> .</s><s>Similar growth patterns are found in the other four cases (P1, P2, P4, P5). Figure <ref type="figure" target="#fig_4">5c</ref> shows the mean solidification rate at five locations at their equilibrium growth stage (marked in Fig. <ref type="figure" target="#fig_4">5b</ref>), as a function of their initial azimuthal angles (defined in Fig. <ref type="figure" target="#fig_4">5a</ref>).</s><s>Evidently, the closer to the centerline of the melt pool, the better the local maximum thermal gradient matches with an easy growth direction, and the faster that solidification proceeds.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase transformation.</head><p><s>Even though the phase transformation behavior of Ti-6Al-4V has been extensively studied <ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b44">45</ref> and the time-temperature-transformation (TTT) diagrams have been established <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47</ref> , in situ characterization of its phase transformation in laser AM has yet to be accomplished.</s><s>Here, we demonstrate that the highly dynamic phase transformation of Ti-6Al-4V in the LPBF process can be probed using diffraction data from the same high-speed X-ray experiment.</s></p><p><s>Supplementary Video <ref type="url" target="http://9">9</ref> shows a series of time-resolved diffraction patterns collected during the solidification process of a Ti-6Al-4V plate sample.</s><s>The size of the X-ray beam is slightly larger than the entire melt pool, as for the case shown in Fig. <ref type="figure" target="#fig_4">5</ref>. Figure <ref type="figure" target="#fig_5">6a</ref> shows a time sequence of three representative diffraction patterns collected at different stages of the melting and solidification process.</s><s>A noticeable change in the diffraction patterns is the appearance of strong diffraction spots during the initial solidification and their disappearance as the sample continues to cool down.</s><s>This is consistent with the established phase transformation sequence for Ti-6Al-4V, such that coarse grains (CG) of the high-temperature β phase (bcc lattice) grow out of the melt pool first and then transform into a finer grain microstructure consisting of a two-phase α/β or martensitic α ' in the end <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> .</s><s>Figure <ref type="figure" target="#fig_5">6b</ref> summarizes the diffraction results into a time-resolved 2D intensity map, which was constructed by accumulating all the radially integrated 1D intensity profiles.</s><s>Intensity calibration was applied to the raw data by considering the decrease in the efficiency of the diffraction detector with increasing frame number.</s><s>The corresponding atomic planes of the α (or α ' ) phase and β phase are indexed at the top of the figure.</s><s>The dashed lines labeled with "ON" and "OFF" mark the start and end of the laser heating.</s><s>The changes in intensity for the different diffraction peaks reflect the melting/solidification and phase transformation behaviors of the sample, while the shifts in peak positions correspond to the expansion and contraction of the crystal lattice during heating and cooling.</s></p><p><s>The graphs in Fig. <ref type="figure" target="#fig_5">6c</ref> show the diffraction intensities of the hcp-(101) and bcc-(110) peaks as functions of time.</s><s>As the laser heating starts, the hcp-(101) intensity peak starts to drop immediately, while the bcc-(110) peak increases slightly, suggesting that the α → β phase transformation is a slow process that is incomplete before the solid phase melts.</s><s>When the laser is turned off, the hcp-(101) intensity peak continues to decrease, implying that some regions of the sample (e.g., the base surfaces adjacent to the outer edges of melt pool) continue to melt due to internal heat transfer.</s><s>The hcp-(101) peak reaches a minimum value at t = ~1500 μs.</s><s>It then starts to increase with time until t = ~9000 μs, and remains almost constant afterwards.</s><s>On the other hand, the bcc-(110) diffraction intensity shows a peak at t = ~4000 μs, indicating the growth of the β phase and its transformation to the α (or α ' ) phase as the temperature drops below the β-transus (β tr , ~994 °C).</s><s>According to the previous reports <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b49">50</ref> , the Martensite start (M s ) temperature is 575 °C, and with a sufficiently high cooling rate (above 410 °C/s), Ti-6Al-4V will experience a fully diffusionless transition from the β phase to the α ' phase.</s><s>Here, the cooling rate is conservatively estimated as = -∆ v T M t ( ) / c m s c , where T m is the melting point of Ti-6Al-4V (~1650 °C), and Δt c is the time needed to complete the transformations from the liquid metal to the hcp phase.</s><s>From Fig. <ref type="figure" target="#fig_5">6c</ref>, Δt c is estimated to be 10 4 μs, from the time when the laser is turned off (t = 1000 μs) to the full transition from the bcc phase to the hcp phase (t = ~11000 μs).</s><s>Hence, the lower bound of the cooling rate is about 10 5 °C/s, much higher than the required 410 °C/s, suggesting that the transformation product is α ' martensite.</s><s>Another interesting observation from Fig. <ref type="figure" target="#fig_5">6c</ref> is that the minimum diffraction intensity of hcp-(101) and the maximum intensity of bcc-(110) do not present at the same time.</s><s>The early onset of an increase in the hcp-(101) intensity indicates an extremely fast phase transformation process.</s><s>The transformation rate is conservatively estimated as = ∆ v d t / g m g , where d m is the depth of the melt pool and Δt g is the time needed to complete the solid phase transformation.</s><s>Obviously, Δt g &lt; Δt c &lt; 10 4 μs.</s><s>Here, the depth of the melt pool is on the order of 10 2 µm.</s><s>Thus, the phase transformation rate is on the order of 10 4 µm/s, about two orders higher than the reported values for the β → α ' massive (diffusionless) transformation <ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52</ref> .</s><s>This substantial increase is consistent with the high cooling rates obtained with laser melting and sub-millimeter melt pools <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b49">50</ref> .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p><s>In summary, we present here the application of high-speed X-ray imaging and diffraction techniques for in situ characterization of the metal LPBF process.</s><s>As demonstrated above, many important physical processes involved in LPBF of Ti-6Al-4V, including melt pool dynamics, powder ejection, rapid solidification, and phase transformation, can be studied quantitatively with unprecedented spatial and temporal resolutions.</s><s>In particular, a few critical phenomena are experimentally observed and quantitatively measured.</s><s>First, the entire formation process of the keyhole pore deep inside the base metal is revealed in considerable detail using high-speed X-ray imaging.</s><s>It is found that the closure of the keyhole takes less than 50 µs, and the voids generated deep inside the material are pinned by the advancing solidification front.</s><s>Secondly, the dimensions of the melt pool as a function of the laser heating time are carefully measured.</s><s>During the growth of the melt pool, a transition from a higher growth rate to a lower rate can be observed, indicating a strong and complex flow of the molten metal at the later stage of laser heating, which tends to moderate the sample temperature and maintain a relatively stable melt pool profile.</s><s>Thirdly, a suite of codes are developed to track the motions of Ti-6Al-4V powder particles.</s><s>The maximum ejection speed, in the case of high thermal energy input, could be as high as 15 m/s.</s><s>Fourthly, under the conditions in the present work, the spatially and temporally averaged solidification rate of Ti-6Al-4V is about 0.4 ~ 0.5 m/s.</s><s>A slight decrease in the solidification rate during the steady growth stage is observed, which likely arises from the recalescence behavior of solidifying material.</s><s>Finally, the phase transformation of Ti-6Al-4V is probed by the high-speed X-ray diffraction technique.</s><s>By examining the evolution of the intensities of the hcp-(101) and bcc-(110) diffraction peaks with cooling time, a transformation rate above 10 4 µm/s can be estimated, suggesting that a diffusionless β → α ' phase transformation occurs.</s></p><p><s>We believe that the experimental and data analysis approaches presented here open a new chapter for the research and development of AM, as well as other laser processing and manufacturing, such as welding.</s><s>The results from the high-speed X-ray experiments will help us not only understand the physics underpinning the formation of different defects, but also build high-fidelity models to guide the process optimization for manufacturing parts with different geometries and dimensions.</s><s>Looking back, metal AM has experienced a rapid development in recent years, thanks to the substantial investment in the technology from both public and private sectors worldwide.</s><s>However, a precise control of microstructures and properties of additively manufactured products based on a fundamental understanding remains challenging.</s><s>Also, development of new materials suitable for additive manufacturing and new techniques for fabricating multi-material products has only just begun.</s><s>Undoubtedly, in situ structure characterization techniques, such as those we described here, will become a critical element in the field of AM, and help scientists and engineers solve long-standing problems and exploit new opportunities.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials.</head><p><s>Ti-6Al-4V powders (EOS Titanium Ti64, EOS GmbH, Germany) and plates (Grade 5, McMaster-Carr, USA) are studied.</s><s>The powders, designed for the commercially available EOS LPBF machines, are of spherical shape, and the particle size is in the range of 5-45 µm.</s><s>The thin plates, acting as the base for the powders, have an average thickness of 450 µm, and a height of 3.0 mm.</s><s>For the Ti-6Al-4V plates, the density is 4.43 g/cm 3 , the thermal conductivity is 6.9-7.3</s><s>W/(m•K) at 294 K, and the melting point is ~1650 °C.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vacuum chamber and powder-bed system.</head><p><s>The custom-built vacuum chamber is made of stainless steel.</s><s>On the top, there is a laser entrance window, made of fused silica.</s><s>The laser beam transmits through this window, enters into the chamber and interacts with the miniature powder bed sample.</s><s>The X-ray beam enters and exits the chamber via two Kapton windows.</s><s>There are a few ports on the chamber for observation, pumping, infilling gas, and mounting feedthroughs for electronic control and feedback.</s><s>Ar gas is filled into the chamber to prevent the potential oxidation of the metals.</s><s>The miniature powder bed sample consists of two identical pieces of glassy carbon (vitreous) plates (Grade 22, Structure Probe Inc., USA) with the thickness of 1.0 mm and the height of 6.0 mm.</s><s>The gap width between the two plates is determined by the thickness of the Ti-6Al-4V base.</s><s>On top of the metal base, one layer of Ti-6Al-4V powders with the layer thickness of ~100 µm is spread out evenly.</s><s>The sample, laser beam and X-ray beam are aligned using a set of step motors.</s></p><p><s>Laser system.</s><s>The laser system is equipped with an ytterbium fiber laser (IPG YLR-500-AC, USA) and a laser head (IPG FLC 30, USA).</s><s>The fiber laser is in single-mode, providing pure Gaussian beam profiles.</s><s>The wavelength is 1070 nm and the maximum power is 520 W. The fiber laser can be operated in both CW mode and modulation mode (rate up to 50 kHz).</s><s>In this study, the laser emission is controlled by a "gating" signal sent by a delay generator (SRS D535, Stanford Research Systems, USA), and the duration is 1000 µs.</s><s>At the focal spot, the laser beam size is 50 µm.</s><s>In the experiments, the sample is positioned 7 mm away from the focal point to achieve a ~220 µm spot size (1/e 2 , Gaussian beam).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>High-speed synchrotron X-ray imaging and diffraction.</head><p><s>As illustrated in Fig. <ref type="figure" target="#fig_0">1</ref>, a short-period (1.8 cm) undulator with the gap set to 12 mm generates polychromatic X-rays with the first harmonic energy at 24.4 keV (λ = 0.508 Å).</s><s>A pair of slits were used to define the size of the X-ray beam.</s><s>The imaging detection system is composed of a LuAG:Ce scintillator (100 µm thickness), 45° reflection mirror, a relay lens, an objective lens (Edmund Optics Inc., Barrington, NJ), and a high-speed camera (Photron FastCam SA-Z, USA).</s><s>The diffraction detection system integrates a LYSO scintillator, a Quantum Leap image intensifier (Stanford Computer Optics Inc., Berkeley, CA) and a high-speed camera (Photron FastCam SA-Z, USA).</s><s>The diffraction data is analyzed using a home-developed software: HiSPoD <ref type="bibr" target="#b23">24</ref> .</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc><div><p><s>Figure 1.</s><s>Schematic of the high-speed X-ray imaging and diffraction experiments on laser powder bed fusion process at the 32-ID-B beamline of the Advanced Photon Source.</s><s>A short-period undulator generates a pseudo pink beam with first harmonic energy of 24.4 keV (λ = 0.508 Å).</s><s>The laser impinges on the miniature powder bed sample from the top, and the X-rays penetrate the sample from the side.</s><s>The imaging and diffraction detectors are placed downstream, about 300 mm away from the sample.</s><s>The inset surrounded by the dashed circle enlarges the view of the laser-sample and X-ray-sample interaction.</s><s>The distance of each component from the source is labeled on top.</s></p></div></figDesc><graphic coords="2,155.64,46.50,360.00,171.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc><div><p><s>Figure 2. Dynamic X-ray images of laser powder bed fusion processes of Ti-6Al-4V.</s><s>The laser powers are 340 W for image group (a) and 520 W for group (b), respectively.</s><s>The laser beam size is ~220 µm (1/e 2 ).</s><s>The powder particle size is in the range of 5-45 µm, and the powder layer thickness is ~100 µm.</s><s>The numbers indicate the time nodes.</s><s>The laser is turned ON at t = 0, and continues to heat the sample till t = 1000 µs.</s><s>The raw data were taken with a frame rate of 50 kHz.</s><s>The exposure time for each individual image is 350 ns.</s><s>All the scale bars are 200 µm.</s></p></div></figDesc><graphic coords="3,155.64,46.50,396.00,398.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc><div><p><s>Figure 3. Dynamic evolution of the melt pool in laser powder bed fusion processes of Ti-6Al-4V.</s><s>(a) X-ray images of melt pools in the metal base at t = 0, 200, 400, 600, 800, and 1000 µs, respectively.</s><s>The blue dashed line marks the boundary of the cavity or depression zone, and the red dashed line indicates the liquid-solid interface.</s><s>The power and size of the laser beam are 520 W and ~220 µm (1/e 2 ), respectively.</s><s>The laser is turned ON at t = 0, and continues to heat the sample till t = 1000 µs.</s><s>The powder particle size is in the range of 5-45 µm, and the powder layer thickness is ~100 µm.</s><s>(b-d) Development of the melt pool size and geometry as a function of laser heating time under two different laser power conditions: (b) depth, (c) aspect ratio (depth/width), (d) nominal area.</s><s>The inset to (d) shows a steady-state melt pool configuration at the time indicated by the solid green square.</s><s>All the scale bars in (a) and in the inset to (d) are 100 µm.</s></p></div></figDesc><graphic coords="4,98.64,46.50,456.00,285.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc><div><p><s>Figure 4. Tracking of powder motion during the laser powder bed fusion process of Ti-6Al-4V.</s><s>(a) Dynamic X-ray images collected at different times, with red arrows indicating the velocity of each individual powder particle.</s><s>In this case, the laser power and beam size are 520 W and ~220 µm (1/e 2 ), respectively.</s><s>The particle size is in the range of 5-45 µm, and the powder layer thickness is ~100 µm.</s><s>The full tracking procedure for two laser power conditions are shown in Supplementary Videos 5 and 6.</s><s>(b) Moving trajectories of five different particles P1-P5, which are marked out using cyan dashed squares in (a).</s><s>The dimensions of (b) and each image in (a) are identical.</s><s>The vertical and horizontal cyan dashed lines specify the location of the laser beam and the top surface of the powder bed, respectively.</s><s>The insets of (b) show a particle merging process.</s><s>All the scale bars in (a) and (b) are 100 µm.</s><s>(c,d) Statistics of the powder moving velocity.</s><s>Distributions of (c) ejection speed and (d) ejection angle of particles outside the powder bed under the laser power of 340 W and 520 W are shown in blue and red colors, respectively.</s></p></div></figDesc><graphic coords="6,98.64,46.50,456.00,314.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc><div><p><s>Figure 5. Measurement of the solidification rate of a Ti-6Al-4V plate sample in laser melting process.</s><s>(a) Dynamic X-ray images of the solidification process collected at t = 1370, 1470, 1570, 1670, 1770, and 1870 µs.</s><s>Note the laser was turned off at t = 1000 µs.</s><s>The red dot at the top of (a) locates the center of the melt pool.</s><s>The blue circles are the target points on the liquid-solid interface for tracking, and are connected by blue dotted lines to outline the melt pool boundary.</s><s>The red arrow on each spot indicates the solidification velocity.</s><s>All the scale bars are 100 µm.</s><s>(b) Solidification rate of target point P3 as a function of time.</s><s>The solidification rate is calculated over the time unit of 50 µs.</s><s>(c) Mean solidification rate as a function of the azimuthal angle.</s><s>The mean solidification rate is averaged over the equilibrium growth period shown in (b), and the azimuthal angle is defined in (a).</s></p></div></figDesc><graphic coords="7,155.64,46.50,360.00,336.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc><div><p><s>Figure 6.</s><s>High-speed X-ray diffraction of Ti-6Al-4V in laser melting and solidification process.</s><s>(a) A time sequence of three representative diffraction patterns collected at the time, t = -1 ms, 3.5 ms, and 11 ms, respectively.</s><s>The continuous diffraction rings with uniform intensity distribution in (a1) are a reflection of the starting fine α grain structure.</s><s>The strong diffraction spots that appear in (a2) indicate the formation of coarse β grains (CG) in the sample; while the return to continuous rings with uniform intensity distribution in (a3) indicates a transformation back to a finer grain microstructure.</s><s>(b) Time-resolved diffraction intensity map.</s><s>(c) Diffraction intensities of hcp-(101) and bcc-(110) peaks.</s><s>The dashed lines in (b) and (c) marked the start and end of laser heating.</s></p></div></figDesc><graphic coords="8,155.64,46.50,396.00,297.84" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><s>Scientific RepoRts | 7: 3602 | DOI:10.1038/s41598-017-03761-2</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s>We would like to thank <rs type="person">Alex Deriy</rs>, <rs type="person">Ed Wrobel</rs>, and <rs type="person">Christian Roehrig</rs> at <rs type="affiliation">APS</rs> for their assistance in the beamline experiments.</s><s>We also acknowledge <rs type="person">Andreas Roelofs</rs> and others in the <rs type="institution">ANL AM research</rs> team, <rs type="person">Sarah Wolff</rs>, <rs type="person">David Pritchet</rs>, and <rs type="person">Jian Cao</rs> at <rs type="affiliation">NU</rs>, <rs type="person">Robert Suter</rs> at <rs type="affiliation">CMU</rs>, <rs type="person">Yung C. Shin</rs> at <rs type="affiliation">Purdue</rs>, <rs type="person">Edwin</rs> <rs type="affiliation">Schwalbach at AFRL</rs>, and <rs type="person">Wes Everhart</rs> at <rs type="affiliation">KCNSC</rs> for the fruitful discussions.</s><s>This work is supported by <rs type="funder">Laboratory Directed Research and Development (LDRD)</rs> funding from <rs type="funder">Argonne National Laboratory</rs>, provided by the <rs type="funder">Director, Office of Science</rs>, of the <rs type="funder">U.S. Department of Energy</rs> under Contract No. <rs type="grantNumber">DE-AC02-06CH11357</rs>.</s><s>This research used resources of the <rs type="institution" subtype="infrastructure">Advanced Photon Source</rs>, a <rs type="institution">U.S. Department of Energy (DOE) Office of Science User Facility</rs> operated for the <rs type="institution">DOE Office of Science</rs> by <rs type="institution">Argonne National Laboratory</rs> under Contract No. <rs type="grantNumber">DE-AC02-06CH11357</rs>.</s><s>R.C. is grateful for support from the <rs type="funder">Northrop Grumman Corporation</rs>.</s><s>A.D.R. is grateful for support of the <rs type="funder">National Nuclear Security Agency</rs> under grant <rs type="grantNumber">DE-NA0002918</rs>.</s><s>LC appreciates the support from <rs type="funder">University of Missouri Research Board</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_mQ5t7gW">
+					<idno type="grant-number">DE-AC02-06CH11357</idno>
+				</org>
+				<org type="funding" xml:id="_zMP9tMg">
+					<idno type="grant-number">DE-AC02-06CH11357</idno>
+				</org>
+				<org type="funding" xml:id="_naDwq7C">
+					<idno type="grant-number">DE-NA0002918</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Advanced Photon Source</orgName>
+				</org>
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests:</head><p><s>The authors declare that they have no competing interests.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p><s>T.S. conceived the project.</s><s>T.S., F.K., W.H. and F.D.C. contributed to the LDRD proposal.</s><s>C.Z., T.S., F.K., R.C., A.D.R., L.C. participated in the experiments.</s><s>C.Z. and T.S. performed the data analysis.</s><s>All authors discussed the results and wrote the manuscript.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional Information</head><p><s>Supplementary information accompanies this paper at doi<ref type="url" target="http://dx.doi.org/10.1038/s41598-017-03761-2">:10.1038/s41598-017-03761-2</ref></s><s>Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Additive manufacturing technologies</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stucker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="volume">238</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibson, I., Rosen, D. W. &amp; Stucker, B. Additive manufacturing technologies. Vol. 238 (Springer, 2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Standard Terminology for Additive Manufacturing Technologies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Standard</surname></persName>
+		</author>
+		<idno type="DOI">10.1520/F2792-12</idno>
+		<ptr target="www.astm.org" />
+		<imprint>
+			<date type="published" when="2012">2792. 2012. 2012</date>
+			<publisher>ASTM International</publisher>
+			<pubPlace>West Conshohocken, PA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Standard, A. F2792. 2012. Standard Terminology for Additive Manufacturing Technologies. West Conshohocken, PA: ASTM International. See www. astm. org, doi:10.1520/F2792-12 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Laser additive manufacturing of metallic components: materials, processes and mechanisms</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Meiners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wissenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Poprawe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International materials reviews</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="133" to="164" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gu, D., Meiners, W., Wissenbach, K. &amp; Poprawe, R. Laser additive manufacturing of metallic components: materials, processes and mechanisms. International materials reviews 57, 133-164 (2012).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Metal additive manufacturing: a review</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Frazier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Engineering and Performance</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1917" to="1928" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frazier, W. E. Metal additive manufacturing: a review. Journal of Materials Engineering and Performance 23, 1917-1928 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The metallurgy and processing science of metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>List</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pannala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dehoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Babu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Materials Reviews</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="315" to="360" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sames, W., List, F., Pannala, S., Dehoff, R. &amp; Babu, S. The metallurgy and processing science of metal additive manufacturing. International Materials Reviews 61, 315-360 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">3D Printing and Additive Manufacturing State of the Industry Annual Worldwide Progress Report</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Wohlers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Caffrey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wohlers Report</title>
+		<imprint>
+			<publisher>Wohlers Associates</publisher>
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wohlers, T. T. &amp; Caffrey, T. Wohlers Report 2015: 3D Printing and Additive Manufacturing State of the Industry Annual Worldwide Progress Report. (Wohlers Associates, 2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Perspectives on Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bourell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Materials Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bourell, D. L. Perspectives on Additive Manufacturing. Annual Review of Materials Research 46, 1-18 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Computer-Aided Design for Additive Manufacturing of Cellular Structures</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rosen</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/16864360.2007.10738493</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computer-Aided Design and Applications</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="585" to="594" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosen, D. W. Computer-Aided Design for Additive Manufacturing of Cellular Structures. Computer-Aided Design and Applications 4, 585-594, doi:10.1080/16864360.2007.10738493 (2007).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Could 3D printing change the world</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Garrett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Campbell, T., Williams, C., Ivanova, O. &amp; Garrett, B. Could 3D printing change the world. (2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Rapid manufacturing of metal components by laser forming</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shiomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Osakada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Laoui</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmachtools.2005.09.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Machine Tools and Manufacture</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1459" to="1468" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Santos, E. C., Shiomi, M., Osakada, K. &amp; Laoui, T. Rapid manufacturing of metal components by laser forming. International Journal of Machine Tools and Manufacture 46, 1459-1468, doi:10.1016/j.ijmachtools.2005.09.005 (2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Consolidation phenomena in laser and powder-bed based layered manufacturing</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Kruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Klocke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Childs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CIRP Annals-Manufacturing Technology</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="730" to="759" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kruth, J.-P., Levy, G., Klocke, F. &amp; Childs, T. Consolidation phenomena in laser and powder-bed based layered manufacturing. CIRP Annals-Manufacturing Technology 56, 730-759 (2007).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Physical Aspects of Process Control in Selective Laser Sintering of Metals</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200310099</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="701" to="711" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Das, S. Physical Aspects of Process Control in Selective Laser Sintering of Metals. Advanced Engineering Materials 5, 701-711, doi:10.1002/adem.200310099 (2003).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Observation of keyhole-mode laser melting in laser powder-bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="2915" to="2925" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">King, W. E. et al. Observation of keyhole-mode laser melting in laser powder-bed fusion additive manufacturing. Journal of Materials Processing Technology 214, 2915-2925 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubenchik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.02.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="36" to="45" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khairallah, S. A., Anderson, A. T., Rubenchik, A. &amp; King, W. E. Laser powder-bed fusion additive manufacturing: Physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones. Acta Materialia 108, 36-45, doi:10.1016/j. actamat.2016.02.014 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Denudation of metal powder layers in laser powder bed fusion processes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.05.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="33" to="42" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthews, M. J. et al. Denudation of metal powder layers in laser powder bed fusion processes. Acta Materialia 114, 33-42, doi:10.1016/j.actamat.2016.05.017 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Evaluating the Effect of Processing Parameters on Porosity in Electron Beam Melted Ti-6Al-4V via Synchrotron X-ray Microtomography</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Narra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ozturk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rollett</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-015-1802-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="765" to="771" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunningham, R., Narra, S. P., Ozturk, T., Beuth, J. &amp; Rollett, A. D. Evaluating the Effect of Processing Parameters on Porosity in Electron Beam Melted Ti-6Al-4V via Synchrotron X-ray Microtomography. JOM 68, 765-771, doi:10.1007/s11837-015-1802-0 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Critical assessment of the fatigue performance of additively manufactured Ti-6Al-4V and perspective for future research</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fatemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Phan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Fatigue</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="130" to="143" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, P., Warner, D., Fatemi, A. &amp; Phan, N. Critical assessment of the fatigue performance of additively manufactured Ti-6Al-4V and perspective for future research. International Journal of Fatigue 85, 130-143 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microstructural Control of Additively Manufactured Metallic Materials</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ghamarian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Materials Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="63" to="91" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Collins, P., Brice, D., Samimi, P., Ghamarian, I. &amp; Fraser, H. Microstructural Control of Additively Manufactured Metallic Materials. Annual Review of Materials Research 46, 63-91 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Synchrotron-Based X-ray Microtomography Characterization of the Effect of Processing Variables on Porosity Formation in Laser Power-Bed Additive Manufacturing of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Narra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rollett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunningham, R., Narra, S. P., Montgomery, C., Beuth, J. &amp; Rollett, A. Synchrotron-Based X-ray Microtomography Characterization of the Effect of Processing Variables on Porosity Formation in Laser Power-Bed Additive Manufacturing of Ti-6Al-4V. JOM, 1-6 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Metallic materials for 3D printing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bourell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Babu</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/mrs.2016.217</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="729" to="741" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Das, S., Bourell, D. L. &amp; Babu, S. S. Metallic materials for 3D printing. MRS Bulletin 41, 729-741, doi:10.1557/mrs.2016.217 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Laser powder bed fusion additive manufacturing of metals; physics, computational, and materials challenges</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Reviews</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">41304</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">King, W. et al. Laser powder bed fusion additive manufacturing of metals; physics, computational, and materials challenges. Applied Physics Reviews 2, 041304 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Simultaneous X-ray diffraction and phase-contrast imaging for investigating material deformation mechanisms during high-rate loading</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hudspeth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">49</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hudspeth, M. et al. Simultaneous X-ray diffraction and phase-contrast imaging for investigating material deformation mechanisms during high-rate loading. Journal of Synchrotron Radiation 22, 49 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Transient x-ray diffraction with simultaneous imaging under high strain-rate loading</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fan</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4900861</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page">113902</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fan, D. et al. Transient x-ray diffraction with simultaneous imaging under high strain-rate loading. Review of Scientific Instruments 85, 113902, doi:10.1063/1.4900861 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">HiSPoD: a program for high-speed polychromatic X-ray diffraction experiments and data analysis on polycrystalline samples</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, T. &amp; Fezzaa, K. HiSPoD: a program for high-speed polychromatic X-ray diffraction experiments and data analysis on polycrystalline samples. Journal of Synchrotron Radiation 23 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Ultrafast x-ray phase-contrast imaging of the initial coalescence phase of two water droplets</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical review letters</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">104501</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fezzaa, K. &amp; Wang, Y. Ultrafast x-ray phase-contrast imaging of the initial coalescence phase of two water droplets. Physical review letters 100, 104501 (2008).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">On the expansion of a drop of liquid floating on the surface of another liquid</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Marangoni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Tipographia dei fratelli Fusi</title>
+		<meeting><address><addrLine>Pavia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1865">1865</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marangoni, C. On the expansion of a drop of liquid floating on the surface of another liquid. Tipographia dei fratelli Fusi, Pavia (1865).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A two-dimensional transient model for convection in laser melted pool</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mazumder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf02647100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical Transactions A</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="2175" to="2184" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chan, C., Mazumder, J. &amp; Chen, M. M. A two-dimensional transient model for convection in laser melted pool. Metallurgical Transactions A 15, 2175-2184, doi:10.1007/bf02647100 (1984).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Experimental and numerical investigation of temperature distribution and melt pool geometry during pulsed laser welding of Ti6Al4V alloy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Akbari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saedodin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Toghraie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shoja-Razavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kowsari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optics &amp; Laser Technology</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="52" to="59" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akbari, M., Saedodin, S., Toghraie, D., Shoja-Razavi, R. &amp; Kowsari, F. Experimental and numerical investigation of temperature distribution and melt pool geometry during pulsed laser welding of Ti6Al4V alloy. Optics &amp; Laser Technology 59, 52-59 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The role of recoil pressure in energy balance during laser materials processing</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Semak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsunawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of physics D: Applied physics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">2541</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Semak, V. &amp; Matsunawa, A. The role of recoil pressure in energy balance during laser materials processing. Journal of physics D: Applied physics 30, 2541 (1997).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Melt pool and keyhole behaviour analysis for deep penetration laser welding</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fabbro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">445501</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fabbro, R. Melt pool and keyhole behaviour analysis for deep penetration laser welding. Journal of Physics D: Applied Physics 43, 445501 (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Mesoscopic simulation model of selective laser melting of stainless steel powder</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Khairallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2014.06.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="2627" to="2636" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khairallah, S. A. &amp; Anderson, A. Mesoscopic simulation model of selective laser melting of stainless steel powder. Journal of Materials Processing Technology 214, 2627-2636, doi:10.1016/j.jmatprotec.2014.06.001 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Multi-Scale Modeling of Powder-Bed-Based Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Markl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Körner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Materials Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1" to="34" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Markl, M. &amp; Körner, C. Multi-Scale Modeling of Powder-Bed-Based Additive Manufacturing. Annual Review of Materials Research 46, 1-34 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Dynamics of keyhole and molten pool in laser welding</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsunawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Seto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katayama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of laser applications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="247" to="254" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matsunawa, A., Kim, J.-D., Seto, N., Mizutani, M. &amp; Katayama, S. Dynamics of keyhole and molten pool in laser welding. Journal of laser applications 10, 247-254 (1998).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Detection technique for transition between deep penetration mode and shallow penetration mode in CO 2 laser welding of metals</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Susumu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kenichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Takashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yoshiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">2941</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Susumu, N., Masaya, S., Kenichi, K., Takashi, I. &amp; Yoshiro, I. Detection technique for transition between deep penetration mode and shallow penetration mode in CO 2 laser welding of metals. Journal of Physics D: Applied Physics 33, 2941 (2000).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Characterization of Metal Powders Used for Additive Manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Slotwinski</surname></persName>
+		</author>
+		<idno type="DOI">10.6028/jres.119.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research of the National Institute of Standards and Technology</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="460" to="493" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slotwinski, J. A. et al. Characterization of Metal Powders Used for Additive Manufacturing. Journal of Research of the National Institute of Standards and Technology 119, 460-493, doi:10.6028/jres.119.018 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Recyclability Study on Inconel 718 and Ti-6Al-4V Powders for Use in Electron Beam Melting</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nandwana</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11663-015-0477-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical and Materials Transactions B</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="754" to="762" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nandwana, P. et al. Recyclability Study on Inconel 718 and Ti-6Al-4V Powders for Use in Electron Beam Melting. Metallurgical and Materials Transactions B 47, 754-762, doi:10.1007/s11663-015-0477-9 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Fast compressive tracking</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2002" to="2015" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, K., Zhang, L. &amp; Yang, M.-H. Fast compressive tracking. IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 2002-2015 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Characterization of nanoporous structures: from three dimensions to two dimensions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="17658" to="17664" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, C. &amp; Qiao, Y. Characterization of nanoporous structures: from three dimensions to two dimensions. Nanoscale 8, 17658-17664 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Microstructure and texture evolution during solidification processing of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kobryn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0924-0136(02)00865-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="330" to="339" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kobryn, P. A. &amp; Semiatin, S. L. Microstructure and texture evolution during solidification processing of Ti-6Al-4V. Journal of Materials Processing Technology 135, 330-339, doi:10.1016/S0924-0136(02)00865-8 (2003).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Correlation between solidification parameters and weld microstructures</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vitek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Materials Reviews</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="213" to="245" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">David, S. &amp; Vitek, J. Correlation between solidification parameters and weld microstructures. International Materials Reviews 34, 213-245 (1989).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Heat flow during rapid solidification of undercooled metal droplets</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Levi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mehrabian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical Transactions A</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="221" to="234" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levi, C. &amp; Mehrabian, R. Heat flow during rapid solidification of undercooled metal droplets. Metallurgical Transactions A 13, 221-234 (1982).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The phase-field method: simulation of alloy dendritic solidification during recalescence</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Boettinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Warren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical and materials transactions A</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="657" to="669" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boettinger, W. J. &amp; Warren, J. A. The phase-field method: simulation of alloy dendritic solidification during recalescence. Metallurgical and materials transactions A 27, 657-669 (1996).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Principles of laser materials processing</title>
+		<author>
+			<persName><forename type="first">Kannatey-Asibu</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kannatey-Asibu Jr, E. Principles of laser materials processing. Vol. 4 (John Wiley &amp; Sons, 2009).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Phase transformation dynamics during welding of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1737476</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="8327" to="8339" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elmer, J. W., Palmer, T. A., Babu, S. S., Zhang, W. &amp; DebRoy, T. Phase transformation dynamics during welding of Ti-6Al-4V. Journal of Applied Physics 95, 8327-8339, doi:10.1063/1.1737476 (2004).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of strong and ductile Ti-6Al-4V by selective laser melting via in situ martensite decomposition</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2014.11.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="74" to="84" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, W. et al. Additive manufacturing of strong and ductile Ti-6Al-4V by selective laser melting via in situ martensite decomposition. Acta Materialia 85, 74-84, doi:10.1016/j.actamat.2014.11.028 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Phase transformations during cooling in α + β titanium alloys</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Rack</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0921-5093(97)00802-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="page" from="206" to="211" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahmed, T. &amp; Rack, H. J. Phase transformations during cooling in α + β titanium alloys. Materials Science and Engineering: A 243, 206-211, doi:10.1016/S0921-5093(97)00802-2 (1998).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Light alloys: from traditional alloys to nanocrystals</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Polmear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>John</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>Butterworth-Heinemann</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Polmear, I. &amp; John, D. S. Light alloys: from traditional alloys to nanocrystals. (Butterworth-Heinemann, 2005).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Welsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Collings</surname></persName>
+		</author>
+		<title level="m">Materials properties handbook: titanium alloys</title>
+		<imprint>
+			<publisher>ASM international</publisher>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Welsch, G., Boyer, R. &amp; Collings, E. Materials properties handbook: titanium alloys. (ASM international, 1993).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Grain Nucleation and Growth During Phase Transformations</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Offerman</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1076681</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page" from="1003" to="1005" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Offerman, S. E. et al. Grain Nucleation and Growth During Phase Transformations. Science 298, 1003-1005, doi:10.1126/ science.1076681 (2002).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Phase transformation dynamics during welding of Ti-6Al-4V</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of applied physics</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="8327" to="8339" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elmer, J., Palmer, T., Babu, S., Zhang, W. &amp; DebRoy, T. Phase transformation dynamics during welding of Ti-6Al-4V. Journal of applied physics 95, 8327-8339 (2004).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Spatially resolved X-ray diffraction phase mapping and α → β → α transformation kinetics in the heat-affected zone of commercially pure titanium arc welds</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ressler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical and Materials Transactions A</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="2761" to="2773" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elmer, J. W., Wong, J. &amp; Ressler, T. Spatially resolved X-ray diffraction phase mapping and α → β → α transformation kinetics in the heat-affected zone of commercially pure titanium arc welds. Metallurgical and Materials Transactions A 29, 2761-2773 (1998).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Dissipation-theory treatment of the transition from diffusion-controlled to diffusionless solidification</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Aziz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="552" to="554" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aziz, M. J. Dissipation-theory treatment of the transition from diffusion-controlled to diffusionless solidification. Applied Physics Letters 43, 552-554 (1983).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

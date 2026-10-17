@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Additive manufacturing of defect-free TiZrNbTa refractory high-entropy alloy with enhanced elastic isotropy via in-situ alloying of elemental powders Check for updates</title>
+				<funder ref="#_tswrEvX #_FFSb5FC #_TBrR4C4">
+					<orgName type="full">US National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_UpxxmhF #_P9jUqBu #_cca3ah2 #_PPNb4JQ">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_93zwCwg">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Shahryar</forename><surname>Mooraj</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Mechanical and Industrial Engineering , University of Massachusetts Amherst , Amherst , MA , USA.</note>
+								<orgName type="department">Department of Mechanical and Industrial Engineering</orgName>
+								<orgName type="institution">University of Massachusetts Amherst</orgName>
+								<address>
+									<settlement>Amherst</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">George</forename><surname>Kim</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Mechanical, Materials, and Aerospace Engineering , Illinois Institute of Technology , Chicago , IL , USA.</note>
+								<orgName type="department">Department of Mechanical, Materials, and Aerospace Engineering</orgName>
+								<orgName type="institution">Illinois Institute of Technology</orgName>
+								<address>
+									<settlement>Chicago</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xuesong</forename><surname>Fan</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Department of Materials Science and Engineering , University of Tennessee , Knoxville , TN , USA.</note>
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">University of Tennessee</orgName>
+								<address>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shmuel</forename><surname>Samuha</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Department of Nuclear Engineering , University of California , Berkeley , CA , USA.</note>
+								<orgName type="department">Department of Nuclear Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>5</label> Department of Materials engineering , NRCN , Beer-Sheva , Israel.</note>
+								<orgName type="department">Department of Materials engineering</orgName>
+								<orgName type="institution">NRCN</orgName>
+								<address>
+									<settlement>Beer-Sheva</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yujun</forename><surname>Xie</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Department of Nuclear Engineering , University of California , Berkeley , CA , USA.</note>
+								<orgName type="department">Department of Nuclear Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tianyi</forename><surname>Li</surname></persName>
+							<idno type="ORCID">0000-0002-6234-6096</idno>
+							<affiliation key="aff5">
+								<note type="raw_affiliation"><label>6</label> X-ray Science Division , Argonne National Laboratory , Lemont , IL , USA.</note>
+								<orgName type="department">X-ray Science Division</orgName>
+								<orgName type="institution">Argonne National Laboratory</orgName>
+								<address>
+									<settlement>Lemont</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jaimie</forename><forename type="middle">S</forename><surname>Tiley</surname></persName>
+							<affiliation key="aff6">
+								<note type="raw_affiliation"><label>7</label> Materials Structures and Processing Science Section , Oak Ridge National Laboratory , Oak Ridge , TN , USA.</note>
+								<orgName type="department">Materials Structures and Processing Science Section</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yan</forename><surname>Chen</surname></persName>
+							<affiliation key="aff7">
+								<note type="raw_affiliation"><label>8</label> Neutron Scattering Division , Oak Ridge National Laboratory , Oak Ridge , TN , USA.</note>
+								<orgName type="department">Neutron Scattering Division</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dunji</forename><surname>Yu</surname></persName>
+							<affiliation key="aff7">
+								<note type="raw_affiliation"><label>8</label> Neutron Scattering Division , Oak Ridge National Laboratory , Oak Ridge , TN , USA.</note>
+								<orgName type="department">Neutron Scattering Division</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ke</forename><surname>An</surname></persName>
+							<idno type="ORCID">0000-0002-6093-429X</idno>
+							<affiliation key="aff7">
+								<note type="raw_affiliation"><label>8</label> Neutron Scattering Division , Oak Ridge National Laboratory , Oak Ridge , TN , USA.</note>
+								<orgName type="department">Neutron Scattering Division</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Hosemann</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Department of Nuclear Engineering , University of California , Berkeley , CA , USA.</note>
+								<orgName type="department">Department of Nuclear Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+							<idno type="ORCID">0000-0003-0185-3411</idno>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> Department of Materials Science and Engineering , University of Tennessee , Knoxville , TN , USA.</note>
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">University of Tennessee</orgName>
+								<address>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0002-1135-7721</idno>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Department of Mechanical, Materials, and Aerospace Engineering , Illinois Institute of Technology , Chicago , IL , USA.</note>
+								<orgName type="department">Department of Mechanical, Materials, and Aerospace Engineering</orgName>
+								<orgName type="institution">Illinois Institute of Technology</orgName>
+								<address>
+									<settlement>Chicago</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<note type="raw_affiliation"><label>9</label> Department of Materials Design and Innovation , University at Buffalo , The State University of New York , Buffalo , NY , USA.</note>
+								<orgName type="department">Department of Materials Design and Innovation</orgName>
+								<orgName type="institution" key="instit1">University at Buffalo</orgName>
+								<orgName type="institution" key="instit2">The State University of New York</orgName>
+								<address>
+									<settlement>Buffalo</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Wen</forename><surname>Chen</surname></persName>
+							<email>wenchen@umass.edu</email>
+							<idno type="ORCID">0000-0003-2048-1107</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Mechanical and Industrial Engineering , University of Massachusetts Amherst , Amherst , MA , USA.</note>
+								<orgName type="department">Department of Mechanical and Industrial Engineering</orgName>
+								<orgName type="institution">University of Massachusetts Amherst</orgName>
+								<address>
+									<settlement>Amherst</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Additive manufacturing of defect-free TiZrNbTa refractory high-entropy alloy with enhanced elastic isotropy via in-situ alloying of elemental powders Check for updates</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1270CDE9121438B0E36A92890F853F7C</idno>
+					<idno type="DOI">10.1038/s43246-024-00452-0</idno>
+					<note type="submission">Received: 24 July 2023; Accepted: 28 January 2024;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-06T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Laser powder-bed fusion (L-PBF) additive manufacturing presents ample opportunities to produce net-shape parts.</s><s>The complex laser-powder interactions result in high cooling rates that often lead to unique microstructures and excellent mechanical properties.</s><s>Refractory high-entropy alloys show great potential for high-temperature applications but are notoriously difficult to process by additive processes due to their sensitivity to cracking and defects, such as un-melted powders and keyholes.</s><s>Here, we present a method based on a normalized model-based processing diagram to achieve a nearly defect-free TiZrNbTa alloy via in-situ alloying of elemental powders during L-PBF.</s><s>Compared to its as-cast counterpart, the as-printed TiZrNbTa exhibits comparable mechanical properties but with enhanced elastic isotropy.</s><s>This method has good potential for other refractory alloy systems based on in-situ alloying of elemental powders, thereby creating new opportunities to rapidly expand the collection of processable refractory materials via L-PBF.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laser powder-bed fusion (L-PBF) is an additive manufacturing (AM)</head><p><s>technique that allows for producing near net-shaped parts with a high spatial resolution 1,2 .</s><s>In L-PBF, a flatbed of powders is spread along a substrate, and a laser is used to melt the powders according to a predefined computer-aided design (CAD).</s><s>This technique employs a highly focused laser with a small beam size to melt feedstock powders to build a part layer by layer 3 .</s><s>The high energy inputs and rapid scan speeds lead to highly transient laser-powder interactions with high thermal gradients and solidification rates.</s><s>L-PBF tends to achieve cooling rates on the order of 10 5 -10 6 K/s <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> .</s><s>Such high cooling rates can result in highly refined and non-equilibrium microstructures that are not accessible via traditional manufacturing methods, thus opening up a new avenue for materials development <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> .</s><s>In addition, the versatility and freedom offered by the vast processing space of L-PBF enable tailoring of solidification microstructures and material properties through different printing conditions <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> .</s></p><p><s>High-entropy alloys (HEAs) are a class of alloys that contain multiprincipal elements in near-equimolar ratios rather than based on just one or two primary elements in traditional dilute alloys <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b17">18</ref> .</s><s>HEAs have been widely studied over the past decade owing to their enormous compositional space for the design of materials with exceptional properties 3,13 .</s><s>Refractory highentropy alloys (RHEAs) are a sub-class of HEAs that are composed of multiprincipal refractory elements and typically show a body-centered-cubic (BCC) crystal structure.</s><s>RHEAs hold great promise for high-temperature structural applications due to their ability to maintain high yield strengths at elevated temperatures <ref type="bibr" target="#b17">18</ref> .</s><s>For example, Senkov et al.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>AlMo 0.5 NbTa 0.5 TiZr 0.5 RHEA that can maintain a high yield strength of 935 MPa at temperatures up to 1000 °C <ref type="bibr" target="#b18">19</ref> .</s></p><p><s>AM of HEAs has recently garnered significant interests due to the exceptional material properties that can be achieved by harnessing the extreme processing conditions (e.g., large thermal gradients, high cooling rates) of AM and the desired compositional effects of HEAs <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> .</s><s>Among HEAs, however, RHEAs are notoriously difficult to process via AM due to the high melting points of the constituent elements and their high sensitivity to cracking <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref> .</s><s>The high melting temperatures of refractory elements require high-energy inputs during AM that result in large thermal residual stresses and thus cracking <ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31</ref> .</s><s>It is difficult to fully melt these high meltingpoint refractory powders, and the presence of un-melted powders in additively manufactured RHEAs presents a significant challenge <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref> .</s><s>For example, additively manufactured VNbMoTaW via L-PBF showed almost no compressive plasticity due to severe cracking <ref type="bibr" target="#b36">37</ref> .</s><s>A similar cracking issue limited the performance of a NbMoTa multi-component alloy produced via laser directed energy deposition (L-DED) <ref type="bibr" target="#b37">38</ref> .</s><s>In addition to cracking, the excess energy input during AM can also result in evaporation of some constituent elements with lower melting points and thus induce the formation of keyhole pores <ref type="bibr" target="#b38">39</ref> .</s><s>Therefore, a delicate balance among the heat input, thermal stresses, and elemental melting/boiling points should be considered to minimize the formation of printing defects in additively manufactured RHEAs.</s></p><p><s>In the present work, we fabricate nearly defect-free TiZrNbTa RHEAs via L-PBF and in-situ alloying of pure elemental powders.</s><s>Based on a normalized model-based processing diagram, we identify an effective processing window that accounts for both the energy input and thermophysical properties of the material toward mitigation of processing defects, such as porosity and un-melted powders.</s><s>Since this processing diagram is built by normalizing the printing parameters against the thermophysical properties of the feedstock materials, the processing method introduced in the current work can be generally extended to other refractory alloy systems.</s><s>The ability to print defect-free RHEAs via in-situ alloying of elemental powders without the need for expensive pre-alloyed powders opens up ample opportunities for practical development of advanced refractory alloys by AM for hightemperature applications.</s><s>By systematic analysis of the microstructure, phase constituent, and mechanical properties of the as-printed samples in comparison to their as-cast counterpart, we reveal that the rapid cooling rates in AM leads to enhanced chemical homogeneity and elastic isotropy, paired with comparable mechanical properties.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p><s>Minimizing defects via normalized processing diagram Processing defects, such as pores, cracks, and un-melted particles, are common in AM metal alloys, which can significantly degrade material performance <ref type="bibr" target="#b39">40</ref> .</s><s>These printing defects can induce large stress concentrations and act as nucleation sites for cracks during loading that trigger premature failure <ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref> .</s><s>The formation of these defects depends heavily on the heat input, cooling rate, thermal residual stresses, and feedstock material properties <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b43">44</ref> .</s><s>To minimize these AM defects, there are a multitude of material properties and processing parameters that need to be considered, such as laser beam power (q), scan speed (v), layer height (l), and thermal conductivity (λ).</s><s>The enormous parameter space makes the analysis of printing conditions challenging.</s><s>To overcome this challenge, Thomas et al. developed a powerful method to construct a normalized processing map that can inform decisions on selecting appropriate processing conditions <ref type="bibr" target="#b43">44</ref> .</s><s>This method normalizes the energy input per unit volume against the thermodynamic properties of a material to derive dimensionless parameters that control the peak temperature, heating rate, and minimum energy density required to fully melt a material <ref type="bibr" target="#b43">44</ref> .</s><s>This processing map can effectively compare and classify different processing regions to identify the effective processing window for mitigating processing defects in additively manufactured materials.</s><s>In the present work, we printed a library of 28 samples with various printing conditions to explore such a processing window, as seen in Fig. <ref type="figure" target="#fig_0">1a</ref>.</s></p><p><s>The normalized processing variables are calculated, using the following equations:</s></p><formula xml:id="formula_0">q Ã ¼ Aq=ðr B λðT m À T 0 ÞÞ<label>ð1Þ</label></formula><formula xml:id="formula_1">v Ã ¼ vr B =α<label>ð2Þ</label></formula><formula xml:id="formula_2">l Ã ¼ 2l=r B<label>ð3Þ</label></formula><formula xml:id="formula_3">h Ã ¼ h=r B<label>ð4Þ</label></formula><p><s>In these equations, A is the laser absorptivity, r B the laser beam radius, h the hatch spacing, λ and α the thermal conductivity and thermal diffusivity of the alloy being processed, respectively.</s><s>T m and T 0 are the melting temperature and initial temperature of the powder, respectively.</s><s>q Ã represents the normalized laser power, and v Ã represents the normalized scan speed.</s><s>They can be considered physically to control the peak temperature and heating rate induced by the laser.</s><s>l Ã and h Ã denote the dimensionless layer thickness and hatch spacing, respectively.</s><s>The volume of material heated by the laser can be approximated as 2r B l.</s><s>According to Thomas et al. <ref type="bibr" target="#b43">44</ref> , the heat input per unit length can be defined as q=v.</s><s>The energy per unit volume required to raise the temperature of the material to a critical temperature can be described as q=2vlr B .</s><s>Normalizing the energy per unit volume by the thermal conductivity and diffusivity allows us to represent this energy in dimensionless terms:</s></p><formula xml:id="formula_4">E Ã ¼ q Ã =v Ã l Ã ¼ Aq=2vr B l Â Ã Á α=λ T m À T 0 À Á Â Ã<label>ð5Þ</label></formula><p><s>It should be noted that we can make the substitution, α=λ ¼ 1=ρC p , where ρ is the alloy density, and C p the specific heat capacity.</s><s>Although the <ref type="url" target="https://doi.org/10.1038/s43246-024-00452-0">https://doi.org/10.1038/s43246-024-00452-0</ref></s></p><p><s>material properties are assumed to be that of the bulk material, the density can be multiplied by 0.67 to account for the powder packing on the print bed; thus, Eq. 5 can be written as:</s></p><formula xml:id="formula_5">E Ã ¼ q Ã =v Ã l Ã ¼ Aq=2vr B l Â Ã Á 1= 0:67ρC p T m À T 0 À Á h i<label>ð6Þ</label></formula><p><s>Equation 6 represents the amount of energy required in a single laser scan to raise the temperature of the powder above the melting point of the material.</s><s>The minimum heat to cause melting per unit volume of material, H min , which includes the latent heat of melting, can be written as:</s></p><formula xml:id="formula_6">H min ¼ ρC p T m À T 0 À Á þ L m<label>ð7Þ</label></formula><p><s>where L m is approximately 0:5ρC p ΔT, and thus, we can substitute Eq. 7 into Eq.</s><s>6, giving:</s></p><formula xml:id="formula_7">E Ã min ¼ q Ã =v Ã l Ã ¼ Aq=2vr B l Â Ã Á 1=ρC p T m À T 0 À Á h i<label>ð8Þ</label></formula><formula xml:id="formula_8">E Ã</formula><p><s>min is the unitless energy density required to melt the material.</s><s>E Ã can be used in conjunction with the reciprocal of normalized hatch spacing ð1=h Ã Þ to produce a processing map, as seen in Fig. <ref type="figure" target="#fig_0">1b</ref>.</s><s>The material properties used in Eq. 8 are calculated by a weighted sum of the bulk properties of individual elements in the alloy composition.</s><s>The reason 1=h Ã is used is that its product with E Ã gives the ratio of dimensionless volumetric heat input to dimensionless hatch spacing, which gives a factor for the normalized equivalent volumetric energy density, E Ã 0 .</s><s>High values of E Ã 0 represent combinations of parameters with excess heat input, which can lead to keyhole porosity, while low values of E Ã 0 indicate inadequate heat input that can result in insufficient melting.</s><s>This pattern is seen clearly in Fig. <ref type="figure" target="#fig_0">1b</ref>, where samples with low heat inputs tend to show a high areal fraction of un-melted particles, while samples with high heat inputs tend to exhibit an increased porosity.</s></p><p><s>When using elemental powders for printing, the different elements can possess vastly different thermophysical and chemical properties (e.g., melting point, vapor pressure, laser absorptivity, heat conductivity, and oxidation resistance), thus increasing the challenge of producing defect-free samples of a desired composition, as discussed in recent review articles <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> .</s><s>High melting-point elements like Ta and Nb require high heat inputs to melt fully.</s><s>Insufficient heat input results in many un-melted particles, as observed on the left side of Fig. <ref type="figure" target="#fig_0">1b</ref>.</s><s>In contrast, the lower melting-point elements like Ti and Zr need comparatively lower heat inputs to avoid evaporation of these elements and keyholes during printing, as indicated on the right side of Fig. <ref type="figure" target="#fig_0">1b</ref> where large keyhole pores are present.</s><s>This delicate balance of the energy input suggests that only a narrow processing window can produce samples with a suitably low defect density.</s><s>Within this window, a balance must be struck such that the fractions of un-melted particles and the porosity are minimized by ensuring the heat input is high enough to melt the high melting-point elements (Ta and Nb) but not overhigh that the low meltingpoint elements (Zr and Ti) evaporate and form keyhole pores.</s><s>The red-star data points in Fig. <ref type="figure" target="#fig_0">1b</ref> represent samples where both the areal fractions of pores and un-melted particles are below 1%, and the highlighted red region illustrates the effective processing window for achieving these high-density samples with minimized defects.</s><s>It should be noted that cracking within AM RHEAs is highly related to the large thermal residual stresses caused by L-PBF <ref type="bibr" target="#b36">37</ref> .</s><s>In the current work, a double scanning strategy was employed, whereby each layer was scanned twice.</s><s>Such a double scanning strategy has previously been shown to decrease the thermal residual stresses in as-printed parts <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46</ref> .</s><s>The rapid cooling rates involved in additive manufacturing can induce large thermal gradients.</s><s>The large thermal gradients generate significant thermal stresses that result in thermomechanical deformation and even microcracking <ref type="bibr" target="#b46">47</ref> .</s><s>Thus, the double scanning strategy can help mitigate cracking by reducing the thermal residual stresses in the built samples.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical properties and microstructure analysis</head><p><s>We used the optimized parameter set from the previous section to produce compression pillars and compared the mechanical properties of the printed TiZrNbTa RHEA (using optimized printing parameters given in the Methods section) with those of the as-cast counterpart.</s><s>The true stressstrain curves of representative as-printed and as-cast samples are shown in Fig. <ref type="figure" target="#fig_1">2a</ref>.</s><s>A quantitative analysis of the stress-strain curves reveals that the asprinted sample shows a slightly higher yield strength (at 0.2% offset strain) than the as-cast sample (1187 MPa vs. 1127 MPa).</s><s>The as-printed sample also exhibits more sustained work hardening than the as-cast sample.</s><s>Figure <ref type="figure" target="#fig_1">2b</ref> shows a scanning electron microscopy (SEM) image of a single melt pool in the as-printed sample where BD represents the building direction, and Fig. <ref type="figure" target="#fig_1">2c</ref> shows an SEM image of the as-cast sample at the same magnification.</s><s>While both samples exhibit a dendritic morphology, the asprinted sample exhibits significantly refined dendritic structures due to the high cooling rate (~10 6 K/s) during L-PBF process <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b22">23</ref> .</s><s>Overall, the mechanical properties of the as-printed sample are slightly better but comparable to those of the as-cast counterpart despite the distinct microstructures.</s><s>This comparison will be further discussed later.</s></p><p><s>Figure <ref type="figure" target="#fig_2">3</ref> shows the elemental distribution in both as-printed and ascast samples.</s><s>The elemental segregation in the as-cast sample is much more severe and occurs over a larger length scale than that in the as-printed sample.</s><s>The as-printed sample exhibits a relatively uniform elemental <ref type="url" target="https://doi.org/10.1038/s43246-024-00452-0">https://doi.org/10.1038/s43246-024-00452-0</ref></s></p><p><s>distribution within the melt pool interior with subtle elemental segregation in the heat-affected zone (HAZ) (Fig. <ref type="figure" target="#fig_2">3a</ref>).</s><s>The HAZ contains a region reheated by subsequent build layers and neighboring laser tracks.</s><s>Hence, the HAZ experiences an in-situ thermal cycling effect that promotes atomic diffusion and even solid-state phase transformation during laser AM <ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref> .</s><s>The diffusion caused by cyclic heating can result in elevated chemical segregation in the HAZ versus that in the melt pool interior <ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref><ref type="bibr" target="#b53">[54]</ref> .</s><s>Figure <ref type="figure" target="#fig_2">3b</ref> shows the elemental distribution in the as-cast sample, where the Ta content is highly enriched in the dendritic regions, while the Ti and Zr contents are enriched in the inter-dendritic regions.</s><s>This severe chemical segregation occurs presumably due to solute ejection associated with the much lower cooling rate during the casting process.</s></p><p><s>Tables <ref type="table" target="#tab_0">1</ref> and <ref type="table">2</ref> summarize the chemical compositions of the dendritic and inter-dendritic regions in the as-printed and as-cast samples, respectively.</s><s>In particular, Table <ref type="table" target="#tab_0">1</ref> presents the chemical compositions measured in the melt pool interior and in the HAZ.</s><s>The dendritic and interdendritic regions of the melt pool interior show almost no chemical segregation while the dendritic region in the HAZ is enriched in Ta and Nb, which have higher melting temperatures than Ti and Zr.</s><s>The inter-dendritic region of the HAZ is slightly enriched in Ti and Zr.</s><s>Table <ref type="table">2</ref> reveals that the as-cast sample exhibits significant enrichment of high melting-temperature elements like Ta and Nb in the dendritic regions.</s><s>Ti and Zr, which have lower melting points, are enriched in the interdendritic regions.</s><s>These tables highlight the difference in chemical segregation between the dendritic and interdendritic regions in the two types of samples.</s><s>These results are consistent with the elemental distribution illustrated in Fig. <ref type="figure" target="#fig_2">3</ref>, where the as-printed sample shows a much more uniform elemental distribution while the as-cast sample presents significant segregation of the constituent elements based on their different melting points.</s></p><p><s>We further used electron back-scatter diffraction (EBSD) to investigate the grain morphologies of both the as-printed and as-cast samples.</s><s>The asprinted sample in Fig. <ref type="figure" target="#fig_3">4a</ref> shows a heterogeneous microstructure where the large columnar grains form at the center of the melt pool while refined equiaxed grains exist at the melt pool boundary.</s><s>The columnar grain structure results from the large thermal gradients established by the intensive laser heat input, leading to epitaxial grain growth from the local melt pool boundary toward the melt pool center <ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b55">56</ref> .</s><s>The fine equiaxed grains at the melt pool boundary have also been reported in the literature <ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b56">57,</ref><ref type="bibr" target="#b57">58</ref> .</s><s>In those cases, however, the precipitates containing high melting-point elements act as heterogeneous nucleation sites that encourage equiaxed grain growth at the melt pool boundary <ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b56">57,</ref><ref type="bibr" target="#b57">58</ref> .</s><s>It will be noted later in the present work that the as-printed TiZrNbTa RHEA samples in our work appear to show a single-phase BCC structure.</s><s>Thus, the equiaxed grain structure is not attributed to the presence of precipitates.</s><s>Recall that Table <ref type="table" target="#tab_0">1</ref> presents the chemical compositions of the dendritic and inter-dendritic regions in the HAZ and melt pool interior.</s><s>The table demonstrates that the HAZ displays more pronounced chemical segregation, compared to the melt pool interior.</s><s>In particular, we note the regions rich in Nb and Ta.</s><s>Therefore, the chemical segregation at the melt pool boundary and HAZ as shown in Fig. <ref type="figure" target="#fig_2">3a</ref> and Table <ref type="table" target="#tab_0">1</ref> may lead to partial melting of some local regions with lower meltingpoint constituents, such as Ti and Zr during thermal cycling, while the Nband Ta-rich regions may act as heterogeneous nucleation sites that promote the formation of equiaxed grains at the melt pool boundary <ref type="bibr" target="#b58">59</ref> .</s><s>In fact, the large number of heterogeneous nucleation sites provided by such segregation at the melt pool boundary also explains the much smaller grains at the melt pool boundary versus the melt pool interior.</s><s>The as-printed sample also exhibits a nearly random crystal texture throughout the entire sample with an average grain size of 14.4 μm.</s><s>This random texture likely occurs due to the formation of equiaxed grains in the HAZ, which interrupts the epitaxial growth of columnar grains across layers despite the strong thermal gradients and solidification direction oriented along the build direction.</s><s>In contrast, the as-cast sample displays significantly coarser equiaxed grains present throughout the entire sample (Fig. <ref type="figure" target="#fig_3">4b</ref>).</s><s>Due to the large grain sizes, an additional lower-magnification EBSD inverse pole figure (IPF) map was collected (see Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>) to allow for statistical analysis of the average grain size, which is measured to be approximately 68.2 μm.</s><s>Although the microstructural morphology is very different, the as-cast sample also shows a highly random texture, which can be expected for usual suction casting conditions where the thermal gradients are significantly weaker and less directional.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synchrotron X-ray diffraction and neutron diffraction analysis</head><p><s>In-situ synchrotron X-ray diffraction (SXRD) and in-situ neutron diffraction (ND) were employed to monitor the elastic deformation behavior, dislocation density evolution and to investigate the effect of chemical segregation on the mechanical properties of TiZrNbTa RHEAs under loading.</s><s>Schematic illustrations of SXRD and ND can be found in refs.</s><s><ref type="bibr" target="#b50">51</ref> and 52 , respectively <ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b60">61</ref> .</s><s>Based on Bragg's law <ref type="bibr" target="#b61">62</ref> , the relationship between the spacing of crystallographic lattice planes (d), the diffraction angle (2θ) of radiation that is scattered coherently through a crystalline material, and the wavelength of radiation (λ) is described as: Table 2 | Chemical compositions of the dendritic and interdendritic regions in the as-cast sample measured by EDS Region Ti (at%) Zr (at%) Nb (at%) Ta (at%) Dendritic (bright) 21 ± 1 1 4 ± 1 2 7 ± 1 3 8 ± 1 Inter-dendritic (dark) 31 ± 1 3 8 ± 1 1 8 ± 1 1 2 ± 1 Overall 29 ± 1 2 7 ± 1 2 3 ± 1 2 3 ± 1 <ref type="url" target="https://doi.org/10.1038/s43246-024-00452-0">https://doi.org/10.1038/s43246-024-00452-0</ref></s></p><formula xml:id="formula_9">nλ ¼ 2dsinθ<label>ð9Þ</label></formula><p><s>where n is the order of reflection.</s><s>The crystal lattice physically acts as a natural and omni-present strain gauge embedded in each crystallite or grain <ref type="bibr" target="#b61">62</ref> .</s><s>To achieve high amounts of scattering, the X-rays must travel through many grains.</s><s>If there are only a few grains in the path of the X-rays, many X-rays will be scattered onto individual pixels on the detector, leading to overexposure of those pixels <ref type="bibr" target="#b61">62</ref> .</s><s>Due to the large average grain size (68.2 μm) of the as-cast sample, it was difficult to achieve informative diffraction rings with in-situ SXRD, as the load cell was not able to accommodate a large enough sample to ensure a great number of grains being captured in the diffraction path.</s><s>Hence, in-situ ND was employed to analyze the as-cast sample.</s><s>ND operates using a similar Bragg's law diffraction equation but using neutrons as the incident particles rather than photons in the case of SXRD.</s><s>Neutrons are scattered by the nucleus of atoms rather than the electron clouds, which result in larger mean free paths through the material <ref type="bibr" target="#b62">63</ref> .</s><s>This greater penetration depth ensures a larger sample size can be used without significant loss in signal strength at the detector, making ND ideal to gather data for a sample with a large grain size like the as-cast case in the current work.</s><s>Both in-situ SXRD and ND techniques allow measurements of the dspacing of lattice planes under applied loading.</s><s>The lattice strain ðε hkl Þ evolution for both samples can be compared as:</s></p><formula xml:id="formula_10">ε hkl ¼ d hkl À d 0;hkl d 0;hkl<label>ð10Þ</label></formula><p><s>where d hkl is the d-spacing for a specific crystallographic plane family {hkl} under loading, and d 0;hkl is the d-spacing of the same plane family in the load-free state.</s><s>Both samples showed a BCC structure, but the as-cast sample's diffraction peaks contained significant peak splitting, suggesting that the dendritic and interdendritic regions were separate BCC phases that need to be analyzed individually (as seen in Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>).</s><s>This lattice strain can be plotted for both parallel and perpendicular to the loading direction, also labeled as the axial and transverse directions, respectively.</s><s>The lattice strain evolution plots in the elastic deformation regime of the asprinted and as-cast samples are presented in Fig. <ref type="figure" target="#fig_4">5a</ref> and b, respectively.</s><s>Of particular interest, we reveal that the as-printed sample exhibits higher elastic isotropy than the as-cast sample.</s><s>The crystallographic lattice strains for the different crystal plane families in the as-cast sample deviate from each other significantly more than those in the as-printed sample.</s><s>Previous studies have shown that the elastic isotropy of a material can influence its  plastic deformation as the grain boundary between two anisotropic grains can experience stress concentrations that reduce the material's work hardening ability <ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref> .</s><s>Unraveling the different elastic properties of the ascast and as-printed samples in the present work provides significant insight into understanding the slightly different strengthening and work-hardening behaviors between the two samples.</s><s>The isotropic behavior of both the as-printed and as-cast samples was investigated by first measuring the diffraction elastic constants (DEC) for different crystallographic plane families.</s><s>These constants illustrate the elastic responses of different plane families to the macroscopic applied true stress <ref type="bibr" target="#b67">68</ref> .</s><s>Subsequently, these constants were used as input in the Kroner model <ref type="bibr" target="#b68">69</ref> to derive the values for the single crystal elastic constants (C 11 , C 12 , and C 44 ) and were compared to values derived by first-principles calculations on special quasirandom structures (SQS) to verify their validity and to prove the accuracy of the calculations (see Methods).</s><s>The experimental and simulated values of the elastic constants for each type of sample are shown in Table <ref type="table" target="#tab_1">3</ref>, along with the Zener anisotropy factor, A z , which is calculated as A z ¼ ð2C 44 Þ=ðC 11 À C 12 Þ.</s><s>When A z is close to 1, the material is more isotropic; when it is further away from 1, it is more anisotropic.</s><s>From Table <ref type="table" target="#tab_1">3</ref>, it is seen that the as-printed sample shows substantially higher isotropic behavior.</s><s>The experimental values of C 11 and C 12 agree well with the calculated values, but the value of C 44 shows a large discrepancy between the simulated and experimental values.</s><s>It is well-known that DFT-predicted C 44 can have larger errors <ref type="bibr" target="#b69">70,</ref><ref type="bibr" target="#b70">71</ref> , but this error leads to a large error in A z accordingly.</s><s>Note that both the experimental and calculated A z for the asprinted sample is closer to 1 than the average A z of the dendritic and interdendritic regions of the as-cast sample (1.39 vs 1.52 for the experimental values and 2.09 vs. 2.36 for the calculated values).</s><s>These results confirm that the as-printed sample exhibits enhanced elastic isotropy than the as-cast sample.</s><s>The physical origin of the different elastic behaviors and a detailed discussion of the exact muffin-tin orbital coherent-potential approximation (EMTO-CPA) calculation results will be further discussed in the next section.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Machine learning analysis and theoretical elastic constants</head><p><s>This section presents gradient boosted tree (GBT) machine learning (ML) models, which were trained on the EMTO-CPA dataset in order to investigate the relationship between the chemical composition and universal anisotropy, A u , of the Ti-Zr-Nb-Ta RHEA compositions.</s><s>The GBT model utilized 13 estimators with a maximum depth of 6 features.</s><s>Hyperparameters were tuned, using grid search with four-fold cross-validation.</s><s>The model with the best hyper-parameters was tested on 20% of the dataset which was set aside for validation.</s><s>The objective function used was mean squared error and the validation score was 0.007.</s><s>The EMTO-CPAcalculated elastic constants for 30 different compositions are summarized in Supplementary Table <ref type="table" target="#tab_0">1</ref>.</s><s>In Fig. <ref type="figure" target="#fig_5">6</ref>, partial dependence plots (PDPs) (dashed orange lines), are presented along with Individual Conditional Expectation (ICE) curves (blue lines).</s><s>PDPs are generated using the GBT model.</s><s>The PDPs illustrate the relationship between the atomic fraction of constituent elements and the predicted A u values of the GBT model.</s><s>They illustrate how the change in the atomic fraction of a given element affects the prediction while averaging out the effects of all other features.</s><s>The ICE curves are related to PDPs in that they show how each individual data point (composition and A u value) responds to changes in the atomic fraction of a given element.</s><s>While PDPs show the average effect of a feature, ICE plots show the effect for each individual instance, providing a more detailed view.</s><s>In other words, an ICE plot is an individualized version of the PDP for each observation.</s><s>The small black vertical lines indicate the deciles of the data used to train the model.</s><s>The combined PDP and ICE curves reveal that the addition of Nb and Ta results in the most and second most significant effects on elastic anisotropy, respectively.</s></p><p><s>Increasing the concentrations of Nb or Ta makes the RHEA more isotropic until 40 at% when the change in isotropy becomes small.</s><s>Pair interactions were also analyzed using pair interaction plots, also known as two-way PDPs (Fig. <ref type="figure" target="#fig_8">7</ref>).</s><s>The two-way partial dependence plots illustrate the interaction between changes in the atomic fraction of two elements and their combined effect on the predicted A u .</s><s>The x and y axes represent atomic fractions of their respective elements, and the predicted A u is represented by the color in the contour plot.</s><s>The darker regions correspond to an average increase in elastic isotropy.</s><s>As for the pair interactions, increasing Nb and Ta, increasing Nb and decreasing Ti, or increasing Nb and decreasing Zr were all found to have the strongest effects on increasing elastic isotropy.</s><s>Both Figs. <ref type="figure" target="#fig_5">6</ref> and <ref type="figure" target="#fig_8">7</ref> suggest that increases in Nb and Ta contents yield enhanced elastic isotropy.</s><s>However, Table <ref type="table" target="#tab_1">3</ref> indicates that the dendritic region of the as-cast sample does not show more isotropic behavior than the as-printed sample despite the higher Nb and Ta contents.</s><s>Previous studies have suggested that the local lattice distortions in a material can also affect the elastic isotropy/anisotropy.</s><s>In particular, higher local lattice distortions have been shown to correlate with increased elastic isotropy <ref type="bibr" target="#b71">72</ref> , large microscale residual stresses can also influence lattice distortions <ref type="bibr" target="#b72">73</ref> .</s><s>As previously mentioned, laser-based AM techniques result in extremely high cooling rates which can induce significant thermal residual stresses.</s><s>Thus, the improved isotropic behavior of the as-printed sample may also arise from the large residual stresses.</s><s>These results suggest that AM opens up a unique opportunity to further tune elastic properties of a material by precisely controlling thermal history of the sample to vary the residual stresses in the as-printed part.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strengthening mechanisms</head><p><s>This section presents the theoretical calculations and estimated contributions of different strengthening mechanisms that lead to the slightly different yield strengths of the two types of samples.</s><s>In the case of single-phase solid solution RHEAs, there are essentially three main strengthening mechanisms that contribute to the yield strength; these are solid solution hardening ðσ SSH Þ, dislocation hardening (σ ρ ), and grain-boundary strengthening (σ HP ).</s><s>Thus, the yield strength is estimated as follows:</s></p><formula xml:id="formula_11">σ y ¼ σ f þ σ SSH þ σ ρ þ σ HP<label>ð11Þ</label></formula><p><s>where σ y is the yield strength, and σ f is the lattice friction of the alloy.</s><s>The solid solution hardening is known to be difficult to calculate for near equiatomic HEAs as there is no clear solute or solvent atoms <ref type="bibr" target="#b73">74</ref> .</s><s>Zhao et al. previously estimated the combined strengthening contribution of lattice friction and solid solution for the TiZrNbTa equiatomic alloy as approximately 826 MPa <ref type="bibr" target="#b74">75</ref> .</s></p><p><s>The dislocation strengthening can be calculated based on the Taylor hardening law:</s></p><formula xml:id="formula_12">σ ρ ¼ MαGbρ 1=2<label>ð12Þ</label></formula><p><s>where M = 3.1, for both samples, is the Taylor factor measured from EBSD.</s><s>α ≈ 0.3 is a geometric constant [29], G is the shear modulus, b is the Burgers vector, and ρ is the dislocation density.</s><s>The dislocation density is calculated by using the modified Williamson-Hall analysis method <ref type="bibr" target="#b75">76</ref> .</s><s>By combining the previously mentioned quantities into Eq.</s><s>12, we can calculate the Taylor strengthening values for the as-printed and as-cast samples as 269 MPa and 169 MPa, respectively.</s><s>Figure <ref type="figure" target="#fig_6">8</ref> shows the evolution of dislocation density as a function of the true strain.</s><s>The as-printed sample shows a higher dislocation density than both the dendritic and inter-dendritic regions of the as-cast sample.</s><s>Also, the dislocation density in the as-printed sample increases much faster than that in the as-cast sample, which explains the generally higher work hardening rate observed for the as-printed sample in Fig. <ref type="figure" target="#fig_1">2a</ref>.</s><s>The increased dislocation density is also confirmed via measurements of the kernel average misorientation (KAM) of both samples at 5%, 10%, and 20% true strains.</s><s>EBSD KAM maps are presented in Supplementary Fig. <ref type="figure" target="#fig_2">3</ref>.</s><s>A quantitative analysis of the average KAM values is presented in Supplementary Fig. <ref type="figure" target="#fig_3">4</ref>, which displays that the as-printed sample exhibits a higher average KAM value at each respective strain level.</s><s>Note that the KAM value is proportional to the geometrically necessary dislocation (GND) density but does not account for the statistically stored dislocations (SSD) and is sensitive to the step size used during EBSD.</s><s>Thus, the EBSD KAM data only serves as a relative measure of the dislocation density between the two types of samples.</s></p><p><s>Finally, the grain-boundary strengthening is estimated by the Hall-Petch (H-P) relationship:</s></p><formula xml:id="formula_13">σ HP ¼ k HP d À1=2<label>ð13Þ</label></formula><p><s>where k HP ≈ 240 MPa Á μm 1=2 is the Hall-Petch coefficient [30], and d is the grain size.</s><s>The average grain size was measured by EBSD as 14.4 μm for the as-printed sample and 68.2 μm for the as-cast sample.</s><s>To ensure a statistically significant number of grains was used to measure the grain size in the as-cast sample, a lower magnification EBSD scan was carried out (see Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>Using the measured grains sizes, the H-P strengthening value for the as-printed and as-cast samples is estimated as 63 MPa and 23 MPa, respectively.</s><s>Combining the contribution from each strengthening mechanism, we can estimate the expected yield strength for each sample.</s><s>Figure <ref type="figure" target="#fig_7">9</ref> shows the plots of the theoretically estimated yield strength, compared to the experimentally measured yield strength.</s><s>The estimated yield strengths of both samples show good agreement with the experimentally measured values within 10% deviations.</s><s>The as-printed material shows a slightly better match than the as-cast material.</s><s>These calculations also highlight that the slight increase in yield strength for the asprinted sample originates primarily from the smaller grain size and higher dislocation density, which are both rooted in the rapid cooling during L-PBF compared to casting.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p><s>In this study, we present a method to produce an equiatomic TiZrNbTa RHEA by in situ alloying using elemental powders of Ti, Zr, Nb, and Ta during L-PBF.</s><s>Through a normalized model-based processing diagram, we identify an effective processing window that accounts for both the energy input and thermophysical properties of this alloy toward mitigation of processing defects, such as porosity and un-melted powders, resulting in an alloy that is defect-less.</s><s>The as-printed alloy shows substantially enhanced elastic isotropy and slightly mechanical properties compared to its as-cast counterpart.</s><s>The high cooling rate during L-PBF leads to a significantly smaller grain size, higher dislocation density, and decreased chemical segregation, compared to the as-cast counterpart.</s><s>A detailed analysis of the microstructures and mechanical properties provides insights into the origin of the yield strengths of the two types of samples.</s><s>In particular, the smaller grain size and higher dislocation density of the additively manufactured TiZrNbTa give rise to a slightly higher yield strength, while the reduced chemical segregation results in more elastic isotropy that promotes the <ref type="url" target="https://doi.org/10.1038/s43246-024-00452-0">https://doi.org/10.1038/s43246-024-00452-0</ref></s></p><p><s>work-hardening ability.</s><s>In-depth analysis of the deformation behaviors of both materials also reveals that the improved work-hardening capability of the as-printed sample allows it to accommodate dislocation multiplication during deformation compared to the as-cast sample.</s><s>Through leveraging the high cooling rate and in situ alloying capabilities of L-PBF, the present work presents an opportunity for cost-effective printing of defect-less multi-component refractory alloys without the need for investing in prohibitively expensive pre-alloyed refractory powders.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample fabrication</head><p><s>Gas-atomized elemental powders of Ti, Nb, Zr, and Ta (purity &gt; 99.5%) with a size range of 15-60 μm were mixed in an equiatomic ratio using a Turbula mixer for 3 hours.</s><s>EDS mapping was conducted on the mixed powders to ensure that powders were thoroughly mixed (Fig. <ref type="figure" target="#fig_9">10</ref>).</s><s>An initial library consisting of many 3 mm × 3 mm × 3 mm cubic samples was printed on a Ti substrate with different printing parameters by an EOS M290 L-PBF   <ref type="url" target="https://doi.org/10.1038/s43246-024-00452-0">https://doi.org/10.1038/s43246-024-00452-0</ref></s></p><p><s>system to identify the effective processing window (Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>This L-PBF printer has an ytterbium-fiber laser with a wavelength ranging from 1060 nm to 1100 nm and a focal beam width of 100 μm.</s><s>The printing chamber was purged with argon to reduce the environmental oxygen concentration to below 1000 ppm to protect the samples from oxidation during printing.</s><s>The hatch spacing and layer height were held constant at 80 μm and 40 μm, respectively.</s><s>The laser power and scanning speed were varied in the ranges of 300-370 W and 400-1000 mm/s, respectively.</s><s>In the present work, a double scanning strategy was used, whereby each layer was scanned twice by the laser (using the same printing parameters for the first and second scan) to promote alloying of the elemental powders.</s><s>Plateshaped samples of 4 mm × 10 mm × 3 mm were then printed with the optimized printing parameters (laser power of 370 W, scan speed of 800 mm/s).</s><s>For comparison, cast samples were fabricated by arc-melting a mixture of Ti, Nb, Zr, and Ta pure elements (purity &gt; 99.95 wt%) in a Tigettered argon atmosphere.</s><s>The ingots were re-melted ten times to ensure chemical homogeneity before suction casting into a water-cooled copper hearth with a rectangular cross-section of 4 mm × 12 mm.</s><s>The as-cast plate has dimensions of 4 mm × 12 mm × 32 mm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical testing</head><p><s>Compression pillars of 2 mm × 2 mm × 4 mm were cut from both the ascast and as-printed samples using wire electric discharge machining.</s><s>Uniaxial compression tests were conducted at a strain rate of 2 × 10 À4 s À1 on an Instron 5969 machine with a built-in laser extensometer to measure the strain precisely.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material characterization</head><p><s>Samples were mechanically polished using 400, 600, 800, and 1200 grit sandpapers, followed by polishing with 1-μm diamond suspension solution and 20-nm colloidal silica solution.</s><s>The porosity and areal fraction of the un-melted powders in the as-printed samples were analyzed using images taken by an optical microscope (OM, OLYMPUS SC50) and processed in ImageJ software.</s><s>Microstructure characterization was performed using the Thermo Scientific Scios 2 DualBeam SEM, coupled with the symmetry EBSD detector (Oxford lnc.).</s><s>The EBSD acquisitions were performed using a 6.4 nA current at an accelerating voltage of 20 kV, scanning a 1002 × 688 pixel grid on the surface of the sample with a 0.2 µm measurement step size.</s><s>Post-processing and visualization of the EBSD data were obtained utilizing the MTEX package (v.</s><s>5.8.1) 77 .</s><s>The misorientation angle criteria were used to categorize grain-boundaries character-with misorientation angles 15-62.5°</s><s>categorized as high-angle grain boundaries (HAGBs).</s><s>The Kernel Average Misorientation (KAM) maps were constructed, based on the average disorientation between a given point in the scan and its neighbors (n = 2), and 5° threshold angle.</s><s>Chemical composition analysis was performed, using a Magellan 400 XHR-SEM equipped with an Oxford EDS detector operated at a voltage of 20 kV.</s><s>In-situ compression SXRD was performed on the as-printed sample during compression at the 11-ID-C synchrotron X-ray source at the Argonne National Laboratory (ANL).</s><s>For the SXRD experiment, square pillar samples with dimensions of 1:3 × 1:3 × 2:6 mm were used.</s><s>In-situ ND was performed on the as-cast samples at VULCAN BL-7 at the spallation neutron source (SNS), oak ridge national laboratory (ORNL).</s><s>Cylindrical compression pillars with a diameter of 6 mm and a height of 15 mm were used for neutron diffraction.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>First-principles calculations and machine-learning modeling</head><p><s>High-throughput first-principles calculations were performed using the exact muffin-tin orbital coherent-potential approximation (EMTO-CPA) method to screen the TiZrNbTa RHEA compositional space <ref type="bibr" target="#b77">78,</ref><ref type="bibr" target="#b78">79</ref> .</s><s>These calculations help us understand the effect of composition on the elastic properties.</s><s>Through correlating the elastic properties with the chemical composition, we aim to understand how chemical segregation between the dendritic and interdendritic regions in the samples affect the elastic properties.</s><s>The lattice and elastic constants of 30 compositions were calculated to map the compositional effect on the mechanical properties of the TiZrNbTa RHEA.</s><s>The compositions chosen had one to three constituent elemental concentrations deviating from the equimolar concentration in small increments with a maximum deviation of 14 at%.</s><s>The energy, E, vs. volume, V, pairs were used to fit the Birch-Murnaghan equation of state (EOS) <ref type="bibr" target="#b78">79</ref> in Eq. 14, where E 0 , and V 0 , are the equilibrium energy and volume, respectively.</s><s>B 0 0 is the derivative of the bulk modulus with respect to pressure.</s><s>The bulk modulus, B 0 , is obtained from the EOS.</s></p><formula xml:id="formula_14">E V ð Þ ¼ E 0 þ 9V 0 B 0 16 V 0 V 2 3 À 1 " # 3 B 0 0 þ V 0 V 2 3 À 1 " # 2 6 À 4 V 0 V 2 3 " # ( )<label>ð14Þ</label></formula><p><s>Next, the elastic constants for each composition were found by fitting energy changes to deformed lattices.</s><s>The amount of orthorhombic deformation defined in Eq. 15 is fit to energy changes to obtain tetragonal shear modulus, c 0 , Eq. 16.</s><s>Elastic constants, C 11 and C 12 , were derived using Eqs.</s><s>17 and 18.</s><s>The change in energy due to monoclinic deformation, Eq. 19, was fit in Eq. 20 to obtain the C 44 elastic constant.</s><s><ref type="url" target="https://doi.org/10.1038/s43246-024-00452-0">https://doi.org/10.1038/s43246-024-00452-0</ref></s></p><formula xml:id="formula_15">D t þI¼ 1 þ δ o 0 0 0 1À δ o 0 0 0 1 1Àδ o 2 0 B @ 1 C A<label>ð15Þ</label></formula><formula xml:id="formula_16">4Eðδ o Þ ¼ 2Vc 0 δ 2 o þOðδ 4 o Þ<label>ð16Þ</label></formula><formula xml:id="formula_17">B ¼ ðC 11 þ 2C 12 Þ 3<label>ð17Þ</label></formula><formula xml:id="formula_18">c 0 ¼ ðC 11 À C 12 Þ 2<label>ð18Þ</label></formula><formula xml:id="formula_19">D m þI¼ 1 δ m 0 δ m 1 0 0 0 1 1Àδ m 2 0 B @ 1 C A<label>ð19Þ</label></formula><formula xml:id="formula_20">4Eðδ m Þ ¼ 2VC 44 δ 2 m þ Oðδ 4 m Þ<label>ð20Þ</label></formula><p><s>The aggregate elastic moduli were then calculated, using Eqs.</s><s>21-25.</s><s>We used the arithmetic Hill average for the calculated aggregate shear modulus:</s></p><formula xml:id="formula_21">G ¼ G V þG R 2 ,</formula><p><s>where G V is the Voigt bound Eq.</s><s>21 and G R is the Reuss bound Eq. 22.</s><s>The Young's modulus E and Poisson's ratio v were obtained from Eq. 23 <ref type="formula" target="#formula_25">and Eq. 24</ref>respectively.</s><s>The universal anisotropy ratio is given by A u in Eq. 25 <ref type="bibr" target="#b79">80</ref> .</s><s>An elastically isotropic crystal has an A u value of 0.</s></p><formula xml:id="formula_22">G V ¼ C 11 À C 12 þ 3C 44 5<label>ð21Þ</label></formula><formula xml:id="formula_23">G R ¼ 5ðC 11 À C 12 ÞC 44 4C 44 þ 3ðC 11 À C 12 Þ<label>ð22Þ</label></formula><formula xml:id="formula_24">E ¼ 9BG 3B þ G<label>ð23Þ</label></formula><formula xml:id="formula_25">v ¼ 3B À 2G 2ð3B þ GÞ<label>ð24Þ</label></formula><formula xml:id="formula_26">A u ¼ 5 G V G R þ K V K R À 6<label>ð25Þ</label></formula><p><s>Then, a gradient-boosted trees (GBT) machine learning model was trained, employing the elemental concentrations as features, and A u as the target.</s><s>The GBT model was utilized to analyze the effect of changing the concentration of a single element as well as pair interactions on A u .</s></p><p><s>More accurate planewave density functional theory (DFT) calculations were performed to calculate elastic constants of the experimentally measured compositions in the dendritic and interdendritic regions.</s><s>These firstprinciples calculations were performed, using the Vienna ab-initio simulation package (VASP) to calculate the single-crystal elastic constants <ref type="bibr" target="#b80">81,</ref><ref type="bibr" target="#b81">82</ref> based on the projector augmented wave (PAW) method <ref type="bibr" target="#b82">83</ref> .</s><s>The exchangecorrelation energy was described with the generalized gradient approximation (GGA) in the Perdew-Becke-Ernzehof (PBE) parameterization <ref type="bibr" target="#b83">84</ref> .</s><s>A plane-wave cutoff of 520 eV and gamma-centered k-point meshes with a density of 5000 k-points per reciprocal atom were used.</s><s>All structures were optimized until the energy was converged within 10 -5 eV per supercell.</s><s>The chemical disorder was modeled with special quasirandom structures (SQS) <ref type="bibr" target="#b84">85</ref> .</s><s>The SQS were generated, using the Monte Carlo SQS code from the Alloy Theoretic Automated Toolkit (ATAT), which uses a Monte Carlo algorithm with an objective function to find the closest match of correlation functions of a disordered state <ref type="bibr" target="#b85">86</ref> .</s><s>The convergence of elastic constants was tested with a series of SQS with different sizes.</s></p><p><s>The elastic tensor was calculated using a computational workflow based on the stress-strain method described in ref. 71.</s><s>Starting with a relaxed SQS of the HEA, a set of distorted structures were generated using 3 × 3 Green-Lagrange strain tensors of varying magnitudes at ±0.5% and ±1%.</s><s>For each distorted structure, the 3 × 3 stress tensor is computed by DFT.</s><s>The elastic tensor of the SQS is calculated from the relationship between the stress and strain tensors.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 |</head><label>1</label><figDesc><div><p><s>Fig. 1 | Sample images and corresponding processing diagram.</s><s>a Image of the initial batch of asprinted TiZrNbTa cubes for process optimization.</s><s>b Normalized processing map plotting h Ã against a normalized unitless energy density required to melt the material, where the red highlighted region illustrates the effective processing window with minimized pores and un-melted particles.</s><s>The redstar samples represent the samples where both the areal fractions of pores and un-melted particles are below 1%.</s></p></div></figDesc><graphic coords="2,201.26,577.13,360.00,153.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 |</head><label>2</label><figDesc><div><p><s>Fig. 2 | Mechanical properties and microstructures of the as-printed and as-cast samples.</s><s>a Compressive true stress-strain curves of as-printed and as-cast TiZrNbTa RHEAs.</s><s>b SEM image of the as-printed sample, the white dashed line illustrates the melt pool boundary.</s><s>BD represents the building direction.</s><s>c SEM image of the as-cast sample at a similar magnification.</s></p></div></figDesc><graphic coords="3,201.26,540.45,360.00,189.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 |</head><label>3</label><figDesc><div><p><s>Fig. 3 | SEM and corresponding energy-dispersive X-ray spectroscopy (EDS) maps depicting the elemental segregation in each sample.</s><s>a As-printed sample.</s><s>BD represents the building direction.</s><s>b As-cast sample.</s></p></div></figDesc><graphic coords="4,47.23,371.00,239.98,199.79" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 |</head><label>4</label><figDesc><div><p><s>Fig. 4 | EBSD IPF maps showing the grain structure and orientation in each sample.</s><s>a As-printed sample.</s><s>b As-cast sample.</s></p></div></figDesc><graphic coords="5,201.26,47.79,360.00,219.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 |</head><label>5</label><figDesc><div><p><s>Fig. 5 | Evolution of lattice strain as a function of true applied stress.</s><s>a As-printed sample.</s><s>b As-cast sample.</s></p></div></figDesc><graphic coords="5,313.68,306.77,239.98,390.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 |</head><label>6</label><figDesc><div><p><s>Fig. 6 | Combined PDP and ICE plots for each element in the Ti-Zr-Nb-Ta RHEA system.</s><s>a PDP and ICE plot for Nb.</s><s>b PDP and ICE plot for Ta.</s><s>c PDP and ICE plot for Zr.</s><s>d PDP and ICE plot for Ti.</s></p></div></figDesc><graphic coords="7,201.26,47.79,360.00,348.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8 |</head><label>8</label><figDesc><div><p><s>Fig. 8 | Dislocation density evolution in different samples and regions.</s><s>The dislocation density was calculated via the modified Williamson-Hall analysis, where the error bars represent the mean square error of the analysis.</s></p></div></figDesc><graphic coords="8,47.23,413.24,239.98,201.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 9 |</head><label>9</label><figDesc><div><p><s>Fig. 9 | Comparison of experimentally measured yield strength and theoretically calculated yield strength.</s><s>Calculations were based on contributions of different strengthening mechanisms.</s></p></div></figDesc><graphic coords="8,313.68,410.12,239.98,151.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 7 |</head><label>7</label><figDesc><div><p><s>Fig. 7 | Two-way PDP plots of elemental pairs for Ti-Zr-Nb-Ta RHEA system.</s><s>a Two-way PDP plot of Ta and Nb.</s><s>b Two-way PDP plot of Ti and Nb.</s><s>c Two-way PDP plot of Zr and Nb.</s><s>d Two-way PDP plot of Ti and Ta. e Two-way PDP plot of Zr and Ta.</s><s>f Two-way PDP plot of Zr and Ti.</s></p></div></figDesc><graphic coords="8,60.49,49.72,479.96,312.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 10 |</head><label>10</label><figDesc><div><p><s>Fig. 10 | EDS maps of the mixed elemental powders.</s><s>The elemental powders are mixed uniformly prior to laser additive manufacturing.</s></p></div></figDesc><graphic coords="9,201.26,47.79,360.00,144.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 |</head><label>1</label><figDesc><div><p><s>Chemical compositions of the dendritic and interdendritic regions in the as-printed sample measured by EDS</s></p></div></figDesc><table><row><cell></cell><cell>26 ± 1</cell><cell>2 5± 1</cell><cell>2 6± 1</cell><cell>2 3± 1</cell></row><row><cell cols="2">Melt pool interior interdendritic (dark) 26 ± 1</cell><cell>2 6± 1</cell><cell>2 6± 1</cell><cell>2 3± 1</cell></row><row><cell>Melt pool interior overall</cell><cell>26 ± 1</cell><cell>2 6± 1</cell><cell>2 6± 1</cell><cell>2 3± 1</cell></row><row><cell>HAZ dendritic (bright)</cell><cell>22 ± 1</cell><cell>1 8± 2</cell><cell>2 4± 1</cell><cell>3 6± 2</cell></row><row><cell>HAZ inter-dendritic (dark)</cell><cell>27 ± 1</cell><cell>3 2± 2</cell><cell>2 0± 1</cell><cell>2 1± 2</cell></row><row><cell>HAZ overall</cell><cell>24 ± 1</cell><cell>2 6± 2</cell><cell>2 3± 1</cell><cell>2 7± 2</cell></row></table><note><p>Region</p><p>Ti (at%) Zr (at%) Nb (at%) Ta (at%)</p><p><s>Melt pool interior dendritic (bright)</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3 |</head><label>3</label><figDesc><div><p><s>Experimental vs. SQS supercell elastic constants of TiZrNbTa under different processing conditions</s></p></div></figDesc><table><row><cell>Sample region</cell><cell cols="4">C 11 (GPa) C 12 (GPa) C 44 (GPa) A z</cell></row><row><cell>As-cast, Dendritic (SQS)</cell><cell>216.7</cell><cell>124.4</cell><cell>81.2</cell><cell>1.75</cell></row><row><cell>As-cast, Dendritic (experimental)</cell><cell>190.3</cell><cell>129.1</cell><cell>44.7</cell><cell>1.47</cell></row><row><cell>As-cast, Inter-dendritic (SQS)</cell><cell>157.3</cell><cell>107.4</cell><cell>74.0</cell><cell>2.97</cell></row><row><cell>As-cast, Inter-dendritic</cell><cell>179.4</cell><cell>124.2</cell><cell>43.7</cell><cell>1.58</cell></row><row><cell>(experimental)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>As-printed (SQS)</cell><cell>189.4</cell><cell>116.6</cell><cell>76.3</cell><cell>2.09</cell></row><row><cell>As-printed (experimental)</cell><cell>164.5</cell><cell>118.6</cell><cell>31.9</cell><cell>1.39</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><s>Communications Materials | (2024) 5:14</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p><s>© The Author(s) 2024 https://doi.org/10.1038/s43246-024-00452-0</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><s><rs type="person">Wen C</rs>. at the <rs type="affiliation">University of Massachusetts Amherst</rs> acknowledges support from the <rs type="funder">US National Science Foundation</rs> (<rs type="grantNumber">DMR-2238204</rs>).</s><s>Wei C. acknowledges support from the <rs type="funder">US National Science Foundation</rs> (<rs type="grantNumber">DMR-1945380</rs> and <rs type="grantNumber">OAC-2404816</rs>).</s><s>In-situ high-energy X-ray diffraction work was carried out at the <rs type="institution" subtype="infrastructure">Advanced Photon Source (Beamline</rs> 11-ID-C), which is a <rs type="institution">US DOE</rs> user facility at <rs type="institution">Argonne National Laboratory</rs>.</s><s>This research also used <rs type="institution" subtype="infrastructure">Spallation Neutron Source (SNS)</rs>, which is a <rs type="institution">US DOE</rs> user facility at the <rs type="institution">Oak Ridge National Laboratory</rs>, sponsored by the <rs type="institution">Scientific User Facilities Division, Office of Basic Energy Sciences</rs>.</s><s>P.K.L. very much appreciates the support from (1) the <rs type="funder">National Science Foundation</rs> (<rs type="grantNumber">DMR-1611180</rs>, <rs type="grantNumber">1809640</rs>, and <rs type="grantNumber">2226508</rs>) with program directors, <rs type="person">Drs.J. Madison</rs>, <rs type="person">J. Yang</rs>, <rs type="person">G. Shiflet</rs>, and <rs type="person">D. Farkas</rs> and (2) the <rs type="affiliation">US Army Research Office</rs> (<rs type="grantNumber">W911NF-13-1-0438</rs> and <rs type="grantNumber">W911NF-19-2-0049</rs>) with program managers, <rs type="person">Drs.D. Brown</rs>, <rs type="person">M.P. Bakas</rs>, <rs type="person">S.N.Mathaudhu</rs>, and <rs type="person">D.M. Stepp</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_tswrEvX">
+					<idno type="grant-number">DMR-2238204</idno>
+				</org>
+				<org type="funding" xml:id="_FFSb5FC">
+					<idno type="grant-number">DMR-1945380</idno>
+				</org>
+				<org type="funding" xml:id="_TBrR4C4">
+					<idno type="grant-number">OAC-2404816</idno>
+				</org>
+				<org type="funding" xml:id="_93zwCwg">
+					<idno type="grant-number">DMR-1611180</idno>
+				</org>
+				<org type="funding" xml:id="_UpxxmhF">
+					<idno type="grant-number">1809640</idno>
+				</org>
+				<org type="funding" xml:id="_P9jUqBu">
+					<idno type="grant-number">2226508</idno>
+				</org>
+				<org type="funding" xml:id="_cca3ah2">
+					<idno type="grant-number">W911NF-13-1-0438</idno>
+				</org>
+				<org type="funding" xml:id="_PPNb4JQ">
+					<idno type="grant-number">W911NF-19-2-0049</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Advanced Photon Source (Beamline</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">Spallation Neutron Source (SNS)</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p><s>The data that support the findings of this study are available from the corresponding author upon reasonable request.</s></p></div>
+			</div>
+
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p><s>The authors declare no competing interests.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p><s>S.M. and Wen C. developed the three-dimensional printing process map and fabricated the as-printed samples.</s><s>X.F. and P.K.L. fabricated the as-cast samples.</s><s>S.M. performed mechanical testing of all samples.</s><s>S.M., X.F., S.S., Y.X., J.S.T., and P.H. performed SEM, EDS, and EBSD characterization and data analyses.</s><s>S.M., T.L., Y.C., D.Y., and K.A. performed SXRD and neutrondiffraction experiments and analyzed the data.</s><s>G.K. and Wei C. performed SQS, machine learning, and theoretical calculations of elastic constants.</s><s>S.M., G.K., X.F., Wei C, and Wen C. drafted the initial manuscript.</s><s>Wen C. conceived, designed, and led the project.</s><s>All authors contributed to the data analysis, discussion, and manuscript editing.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary information</head><p><s>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s43246-024-00452-0">https://doi.org/10.1038/s43246-024-00452-0</ref>.</s></p><p><s>Correspondence and requests for materials should be addressed to Wei Chen or Wen Chen.</s></p><p><s>Peer review information Communications Materials thanks Sing Swee Leong and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.</s><s>Primary Handling Editors: Cang Zhao and John Plummer.</s></p><p><s>Reprints and permissions information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/reprints</ref></s><s>Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p><p><s>Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made.</s><s>The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material.</s><s>If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.</s><s>To view a copy of this licence, visit <ref type="url" target="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ref>.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Metal additive manufacturing in aerospace: a review</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Blakey-Milner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page">110008</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blakey-Milner, B. et al. Metal additive manufacturing in aerospace: a review. Mater. Des. 209, 110008 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Processing and characterization of crack-free 7075 aluminum alloys with elemental Zr modification by laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Add. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">4</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yu, W. et al. Processing and characterization of crack-free 7075 aluminum alloys with elemental Zr modification by laser powder bed fusion. Mater. Sci. Add. Manuf. 1, 4 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Metal additive manufacturing: a review</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Frazier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Eng. Perform</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1917" to="1928" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frazier, W. E. Metal additive manufacturing: a review. J. Mater. Eng. Perform. 23, 1917-1928 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Computational assessment of thermokinetics and associated microstructural evolution in laser powder bed fusion manufacturing of Ti6Al4V alloy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Pantawane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Dahotre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">7579</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pantawane, M. V., Ho, Y.-H., Joshi, S. S. &amp; Dahotre, N. B. Computational assessment of thermokinetics and associated microstructural evolution in laser powder bed fusion manufacturing of Ti6Al4V alloy. Sci. Rep. 10, 7579 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Rapid thermokinetics driven nanoscale vanadium clustering within martensite laths in laser powder bed fused additively manufactured Ti6Al4V</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Pantawane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dasari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mantri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Dahotre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="383" to="389" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pantawane, M. V., Dasari, S., Mantri, S. A., Banerjee, R. &amp; Dahotre, N. B. Rapid thermokinetics driven nanoscale vanadium clustering within martensite laths in laser powder bed fused additively manufactured Ti6Al4V. Mater. Res. Lett. 8, 383-389 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Coarsening of martensite with multiple generations of twins in laser additively manufactured Ti6Al4V</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Pantawane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page">116954</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pantawane, M. V. et al. Coarsening of martensite with multiple generations of twins in laser additively manufactured Ti6Al4V. Acta Mater. 213, 116954 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">In situ investigation of phase transformations in Ti-6Al-4V under additive manufacturing conditions combining laser melting and high-speed micro-X-ray diffraction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kenel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">16358</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kenel, C. et al. In situ investigation of phase transformations in Ti-6Al- 4V under additive manufacturing conditions combining laser melting and high-speed micro-X-ray diffraction. Sci. Rep. 7, 16358 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Residual stress in metal additive manufacturing</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="348" to="353" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, C., Liu, Z. Y., Fang, X. Y. &amp; Guo, Y. B. Residual stress in metal additive manufacturing. Procedia CIRP 71, 348-353 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Additively manufactured hierarchical stainless steels with high strength and ductility</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, Y. M. et al. Additively manufactured hierarchical stainless steels with high strength and ductility. Nat. Mater. 17, 63-71 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Toward a better understanding of phase transformations in additive manufacturing of Alloy 718</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kumara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Balachandramurthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hanning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moverare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">100862</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumara, C., Balachandramurthi, A. R., Goel, S., Hanning, F. &amp; Moverare, J. Toward a better understanding of phase transformations in additive manufacturing of Alloy 718. Mater. 13, 100862 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microscale residual stresses in additively manufactured stainless steel</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">4338</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, W. et al. Microscale residual stresses in additively manufactured stainless steel. Nat. Commun. 10, 4338 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of high entropy alloys: A practical review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ostovari Moghaddam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Shaburova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Samodurova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abdollahzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Trofimov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="131" to="162" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ostovari Moghaddam, A., Shaburova, N. A., Samodurova, M. N., Abdollahzadeh, A. &amp; Trofimov, E. A. Additive manufacturing of high entropy alloys: A practical review. J. Mater. Sci. Technol. 77, 131-162 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="515" to="534" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">George, E. P., Raabe, D. &amp; Ritchie, R. O. High-entropy alloys. Nat. Rev. Mater. 4, 515-534 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of high-entropy alloys: microstructural metastability and Mechanical behavior</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mecha Behav. J. Phase Equilib. Diffus</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="748" to="771" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guan, S. et al. Additive manufacturing of high-entropy alloys: microstructural metastability and Mechanical behavior. Mecha Behav. J. Phase Equilib. Diffus. 42, 748-771 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical behavior of additively manufactured CoCrFeMnNi high-entropy alloys: Laser directed energy deposition versus powder bed fusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page">118884</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, Y. et al. Microstructure and mechanical behavior of additively manufactured CoCrFeMnNi high-entropy alloys: Laser directed energy deposition versus powder bed fusion. Acta Mater. 250, 118884 (2023).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Characterisation of in-situ alloyed titanium-tantalum lattice structures by laser powder bed fusion using finite element analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virt. Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">2138463</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chua, C., Sing, S. L. &amp; Chua, C. K. Characterisation of in-situ alloyed titanium-tantalum lattice structures by laser powder bed fusion using finite element analysis. Virt. Phys. Prototyp. 18, e2138463 (2023).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Influence of erbium addition on the defects of selective laser-melted 7075 aluminium alloy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virt. Phys. Prototyp</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="406" to="418" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, X. et al. Influence of erbium addition on the defects of selective laser-melted 7075 aluminium alloy. Virt. Phys. Prototyp. 17, 406-418 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Development and exploration of refractory high entropy alloys-A review</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="3092" to="3128" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Senkov, O. N., Miracle, D. B., Chaput, K. J. &amp; Couzinie, J.-P. Development and exploration of refractory high entropy alloys-A review. J. Mater. Res. 33, 3092-3128 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Compositional variation effects on the microstructure and properties of a refractory high-entropy superalloy AlMo0.5NbTa0.5TiZr</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="498" to="511" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Senkov, O. N., Jensen, J. K., Pilchak, A. L., Miracle, D. B. &amp; Fraser, H. L. Compositional variation effects on the microstructure and properties of a refractory high-entropy superalloy AlMo0.5NbTa0.5TiZr. Mater. Des. 139, 498-511 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A fracture-resistant high-entropy alloy for cryogenic applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="1153" to="1158" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gludovatz, B. et al. A fracture-resistant high-entropy alloy for cryogenic applications. Science 345, 1153-1158 (2014).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A novel Fe 20 Co 20 Ni 41 Al 19 eutectic high entropy alloy with excellent tensile properties</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s43246-024-00452-0</idno>
+		<ptr target="https://doi.org/10.1038/s43246-024-00452-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="144" to="146" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jin, X., Zhou, Y., Zhang, L., Du, X. &amp; Li, B. A novel Fe 20 Co 20 Ni 41 Al 19 eutectic high entropy alloy with excellent tensile properties. Mater. Lett. 216, 144-146 (2018). https://doi.org/10.1038/s43246-024-00452-0</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Alloy design, micromechanical and macromechanical properties of CoCrFeNiTax eutectic high entropy alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">735</biblScope>
+			<biblScope unit="page" from="2653" to="2662" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ai, C. et al. Alloy design, micromechanical and macromechanical properties of CoCrFeNiTax eutectic high entropy alloys. J. Alloy. Compd. 735, 2653-2662 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Strong yet ductile nanolamellar high-entropy alloys by additive manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">608</biblScope>
+			<biblScope unit="page" from="62" to="68" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ren, J. et al. Strong yet ductile nanolamellar high-entropy alloys by additive manufacturing. Nature 608, 62-68 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">High-strength lamellar high-entropy alloys in-situ synthesized by laser additive manufacturing</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ouyang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng.: A</title>
+		<imprint>
+			<biblScope unit="volume">867</biblScope>
+			<biblScope unit="page">144745</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ouyang, D. et al. High-strength lamellar high-entropy alloys in-situ synthesized by laser additive manufacturing. Mater. Sci. Eng.: A 867, 144745 (2023).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Design considerations for high entropy alloys in advanced nuclear applications</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moschetti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nucl. Mater</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page">153814</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moschetti, M. et al. Design considerations for high entropy alloys in advanced nuclear applications. J. Nucl. Mater. 567, 153814 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Laser metal deposition of a refractory TiZrNbHfTa highentropy alloy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dobbelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ostendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laplanche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="386" to="390" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dobbelstein, H., Gurevich, E. L., George, E. P., Ostendorf, A. &amp; Laplanche, G. Laser metal deposition of a refractory TiZrNbHfTa high- entropy alloy. Addit. Manuf. 24, 386-390 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Laser metal deposition of compositionally graded TiZrNbTa refractory high-entropy alloys using elemental powder blends</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dobbelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ostendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laplanche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="252" to="262" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dobbelstein, H., Gurevich, E. L., George, E. P., Ostendorf, A. &amp; Laplanche, G. Laser metal deposition of compositionally graded TiZrNbTa refractory high-entropy alloys using elemental powder blends. Addit. Manuf. 25, 252-262 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A novel quaternary equiatomic Ti-Zr-Nb-Ta medium entropy alloy (MEA)</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="39" to="43" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nguyen, V. T. et al. A novel quaternary equiatomic Ti-Zr-Nb-Ta medium entropy alloy (MEA). Intermetallics 101, 39-43 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Elastic and plastic properties of as-cast equimolar TiHfZrTaNb high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng.: A</title>
+		<imprint>
+			<biblScope unit="volume">654</biblScope>
+			<biblScope unit="page" from="30" to="38" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dirras, G. et al. Elastic and plastic properties of as-cast equimolar TiHfZrTaNb high-entropy alloy. Mater. Sci. Eng.: A 654, 30-38 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effect of build height on temperature evolution and thermally induced residual stresses in plasma arc additively manufactured stainless steel</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="627" to="639" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hou, P. et al. Effect of build height on temperature evolution and thermally induced residual stresses in plasma arc additively manufactured stainless steel. Metall. Mater. Trans. A 53, 627-639 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A review on additive manufacturing of refractory tungsten and tungsten alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Talignani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">103009</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Talignani, A. et al. A review on additive manufacturing of refractory tungsten and tungsten alloys. Addit. Manuf. 58, 103009 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Microstructure evolution and performance enhancement of NbTaTiV-(Cr, Zr, W) single-phase refractory highentropy alloy coatings: role of additional elements</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">951</biblScope>
+			<biblScope unit="page">169918</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, X. et al. Microstructure evolution and performance enhancement of NbTaTiV-(Cr, Zr, W) single-phase refractory high- entropy alloy coatings: role of additional elements. J. Alloy. Compd. 951, 169918 (2023).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">In situ X-ray and thermal imaging of refractory high entropy alloying during laser directed deposition</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page">117363</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, H. et al. In situ X-ray and thermal imaging of refractory high entropy alloying during laser directed deposition. J. Mater. Process. Technol. 299, 117363 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">High-throughput additive manufacturing and characterization of refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Melia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Mater. Today</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">100560</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Melia, M. A. et al. High-throughput additive manufacturing and characterization of refractory high entropy alloys. Appl. Mater. Today 19, 100560 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Emerging metallic systems for additive manufacturing: In-situ alloying and multi-metal processing in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">100795</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sing, S. L. et al. Emerging metallic systems for additive manufacturing: In-situ alloying and multi-metal processing in laser powder bed fusion. Prog. Mater. Sci. 119, 100795 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">In-situ alloying in laser-based additive manufacturing processes: a critical review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Mosallanejad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Niroumand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aversa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saboori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">872</biblScope>
+			<biblScope unit="page">159567</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mosallanejad, M. H., Niroumand, B., Aversa, A. &amp; Saboori, A. In-situ alloying in laser-based additive manufacturing processes: a critical review. J. Alloy. Compd. 872, 159567 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Manufacturing and analysis of VNbMoTaW refractory high-entropy alloy fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">105834</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gu, P., Qi, T., Chen, L., Ge, T. &amp; Ren, X. Manufacturing and analysis of VNbMoTaW refractory high-entropy alloy fabricated by selective laser melting. Int. J. Refract. Met. Hard Mater. 105, 105834 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Comparative study of the microstructures and mechanical properties of laser metal deposited and vacuum arc melted refractory NbMoTa medium-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">105195</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, Q. et al. Comparative study of the microstructures and mechanical properties of laser metal deposited and vacuum arc melted refractory NbMoTa medium-entropy alloy. Int. J. Refract. Met. Hard Mater. 88, 105195 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">In-situ Synchrotron imaging of keyhole mode multilayer laser powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Mater. Today</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">100650</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Y. et al. In-situ Synchrotron imaging of keyhole mode multi- layer laser powder bed fusion additive manufacturing. Appl. Mater. Today 20, 100650 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Formation of printing defects and their effects on mechanical properties of additively manufactured metal alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mooraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page">225108</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mooraj, S., Dong, J., Xie, K. Y. &amp; Chen, W. Formation of printing defects and their effects on mechanical properties of additively manufactured metal alloys. J. Appl. Phys. 132, 225108 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Keyhole threshold and morphology in laser melting revealed by ultrahigh-speed x-ray imaging</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cunningham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="849" to="852" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunningham, R. et al. Keyhole threshold and morphology in laser melting revealed by ultrahigh-speed x-ray imaging. Science 363, 849-852 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">New alloy design approach to inhibiting hot cracking in laser additive manufactured nickel-based superalloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page">118736</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, Y., Ma, Z., Yu, L. &amp; Liu, Y. New alloy design approach to inhibiting hot cracking in laser additive manufactured nickel-based superalloys. Acta Mater. 247, 118736 (2023).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Transformation-induced plasticity in the heterogeneous microstructured Ti-Zr-Nb-Sn alloy via in-situ alloying with directed energy deposition</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">102990</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, Y. et al. Transformation-induced plasticity in the heterogeneous microstructured Ti-Zr-Nb-Sn alloy via in-situ alloying with directed energy deposition. Addit. Manuf. 58, 102990 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Normalised model-based processing diagrams for additive layer manufacture of engineering alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Baxter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Todd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="26" to="35" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomas, M., Baxter, G. J. &amp; Todd, I. Normalised model-based processing diagrams for additive layer manufacture of engineering alloys. Acta Mater. 108, 26-35 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Prediction study on insitu reduction of thermal stress using combined laser beams in laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">102221</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, C., Xiao, Z., Wang, Y., Yang, X. &amp; Zhu, H. Prediction study on in- situ reduction of thermal stress using combined laser beams in laser powder bed fusion. Addit. Manuf. 47, 102221 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Reduction of residual stress in porous Ti6Al4V by in situ double scanning during laser additive manufacturing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Miner. Metall. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1844" to="1853" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luo, Y., Wang, M., Tu, J., Jiang, Y. &amp; Jiao, S. Reduction of residual stress in porous Ti6Al4V by in situ double scanning during laser additive manufacturing. Int. J. Miner. Metall. Mater. 28, 1844-1853 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Statistical study of ductility-dip cracking induced plastic deformation in polycrystalline laser 3D printed Ni-based superalloy</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Qian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">2859</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qian, D. et al. Statistical study of ductility-dip cracking induced plastic deformation in polycrystalline laser 3D printed Ni-based superalloy. Sci. Rep. 7, 2859 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Effect of solid-state phase transformation on residual stress of selective laser melting Ti6Al4V</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng.: A</title>
+		<imprint>
+			<biblScope unit="volume">819</biblScope>
+			<biblScope unit="page">141299</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, S. et al. Effect of solid-state phase transformation on residual stress of selective laser melting Ti6Al4V. Mater. Sci. Eng.: A 819, 141299 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of in-situ strengthened dualphase AlCoCuFeNi high-entropy alloy by selective electron beam melting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">893</biblScope>
+			<biblScope unit="page">162259</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, M. et al. Additive manufacturing of in-situ strengthened dual- phase AlCoCuFeNi high-entropy alloy by selective electron beam melting. J. Alloy. Compd. 893, 162259 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Investigation on solid-state phase transformation in a Ti-47Al-2Cr-2V alloy due to thermal cycling during laser additive manufacturing process</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">799</biblScope>
+			<biblScope unit="page" from="325" to="333" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, Y., Zhang, S., Cheng, X. &amp; Wang, H. Investigation on solid-state phase transformation in a Ti-47Al-2Cr-2V alloy due to thermal cycling during laser additive manufacturing process. J. Alloy. Compd. 799, 325-333 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Solidification and solid-state transformation sciences in metals additive manufacturing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Kirka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nandwana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Dehoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="130" to="134" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kirka, M. M., Nandwana, P., Lee, Y. &amp; Dehoff, R. R. Solidification and solid-state transformation sciences in metals additive manufacturing. Scr. Mater. 135, 130-134 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Equiaxed grain formation by intrinsic heterogeneous nucleation via rapid heating and cooling in additive manufacturing of aluminum-silicon hypoeutectic alloy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okugawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohigashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Furishiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J.Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">919</biblScope>
+			<biblScope unit="page">165812</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Okugawa, M., Ohigashi, Y., Furishiro, Y., Koizumi, Y. &amp; Nakano, T. Equiaxed grain formation by intrinsic heterogeneous nucleation via rapid heating and cooling in additive manufacturing of aluminum-silicon hypoeutectic alloy. J.Alloy. Compd 919, 165812 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Eliminating segregation defects during additive manufacturing of high strength βtitanium alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bermingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Dargusch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">101855</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ng, C. H., Bermingham, M. J. &amp; Dargusch, M. S. Eliminating segregation defects during additive manufacturing of high strength β- titanium alloys. Addit. Manuf. 39, 101855 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Investigation of the Nb element segregation for laser additive manufacturing of nickel-based superalloys</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Heat Mass Transfer</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page">121800</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiao, W., Xu, Y., Xiao, H., Li, S. &amp; Song, L. Investigation of the Nb element segregation for laser additive manufacturing of nickel-based superalloys. Int. J. Heat Mass Transfer 180, 121800 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A discrete dendrite dynamics model for epitaxial columnar grain growth in metal additive manufacturing with application to Inconel</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">101611</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paul, S. et al. A discrete dendrite dynamics model for epitaxial columnar grain growth in metal additive manufacturing with application to Inconel. Addit. Manuf. 36, 101611 (2020).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Quantitative texture prediction of epitaxial columnar grains in additive manufacturing using selective laser melting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>To</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="58" to="64" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, J. &amp; To, A. C. Quantitative texture prediction of epitaxial columnar grains in additive manufacturing using selective laser melting. Addit. Manuf. 16, 58-64 (2017).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Insight into the mechanisms of columnar to equiaxed grain transition during metallic additive manufacturing</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="22" to="29" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, P. et al. Insight into the mechanisms of columnar to equiaxed grain transition during metallic additive manufacturing. Addit. Manuf. 26, 22-29 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Design of heterogeneous structured Al alloys with wide processing window for laser-powder bed fusion additive manufacturing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thapliyal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">102002</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thapliyal, S. et al. Design of heterogeneous structured Al alloys with wide processing window for laser-powder bed fusion additive manufacturing. Addit. Manuf. 42, 102002 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Additive manufacturing of high strength copper alloy with heterogeneous grain structure through laser powder bed fusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page">117311</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, Y. et al. Additive manufacturing of high strength copper alloy with heterogeneous grain structure through laser powder bed fusion. Acta Mater. 220, 117311 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Interface coherency strain relaxation due to plastic deformation in single crystal Ni-base superalloys</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng.: A</title>
+		<imprint>
+			<biblScope unit="volume">568</biblScope>
+			<biblScope unit="page" from="83" to="87" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, T. K. et al. Interface coherency strain relaxation due to plastic deformation in single crystal Ni-base superalloys. Mater. Sci. Eng.: A 568, 83-87 (2013).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A &quot;hammer&quot; for hightemperature materials research</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Stoica</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vulcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bull</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="878" to="885" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">An, K., Chen, Y. &amp; Stoica, A. D. VULCAN: A &quot;hammer&quot; for high- temperature materials research. MRS Bull. 44, 878-885 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Synchrotron X-ray Diffraction</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781118402832.ch7</idno>
+		<ptr target="https://doi.org/10.1002/9781118402832.ch7" />
+	</analytic>
+	<monogr>
+		<title level="m">Practical Residual Stress Measurement Methods</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Schajer</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>John Wiley &amp; Sons, Ltd</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="163" to="194" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Withers, P. J. Synchrotron X-ray Diffraction. in Practical Residual Stress Measurement Methods (ed. Schajer, G. S.) 163-194 (John Wiley &amp; Sons, Ltd, 2013). https://doi.org/10.1002/9781118402832.ch7.</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Theory of neutron scattering from condensed matter</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Lovesey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984">1984</date>
+			<publisher>Clarendon Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lovesey, S. W. Theory of neutron scattering from condensed matter. (Clarendon Press, 1984).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Finite element analysis of the influence of elastic anisotropy on stress intensification at stress</title>
+		<author>
+			<persName><forename type="first">Meric</forename><surname>De Bellefon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Duysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s43246-024-00452-0corrosioncrackinginitiationsitesinfccalloys</idno>
+		<ptr target="https://doi.org/10.1038/s43246-024-00452-0corrosioncrackinginitiationsitesinfccalloys" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Nucl. Mater</title>
+		<imprint>
+			<biblScope unit="volume">503</biblScope>
+			<biblScope unit="page" from="22" to="29" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meric De Bellefon, G. &amp; Van Duysen, J. C. Finite element analysis of the influence of elastic anisotropy on stress intensification at stress https://doi.org/10.1038/s43246-024-00452-0 corrosion cracking initiation sites in fcc alloys. J. Nucl. Mater. 503, 22-29 (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Evaluating elastic properties of a body-centered cubic NbHfZrTi high-entropy alloy -A direct comparison between experiments and ab initio calculations</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Ye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="167" to="173" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ye, Y. X. et al. Evaluating elastic properties of a body-centered cubic NbHfZrTi high-entropy alloy -A direct comparison between experiments and ab initio calculations. Intermetallics 109, 167-173 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Elastic and plastic anisotropy in a refractory high entropy alloy utilizing combinatorial instrumented indentation and electron backscatter diffraction</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raturi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Gurao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">896</biblScope>
+			<biblScope unit="page">162902</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raturi, A., Biswas, K. &amp; Gurao, N. P. Elastic and plastic anisotropy in a refractory high entropy alloy utilizing combinatorial instrumented indentation and electron backscatter diffraction. J. Alloy. Compd. 896, 162902 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Elastic behavior of binary and ternary refractory multiprincipal-element alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page">110820</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feng, R. et al. Elastic behavior of binary and ternary refractory multi- principal-element alloys. Mater. Des. 219, 110820 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Mechanical characterisation of V-4Cr-4Ti alloy: tensile tests under high energy synchrotron diffraction</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sparks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nuclear Mater</title>
+		<imprint>
+			<biblScope unit="volume">569</biblScope>
+			<biblScope unit="page">153911</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sparks, T. et al. Mechanical characterisation of V-4Cr-4Ti alloy: tensile tests under high energy synchrotron diffraction. J. Nuclear Mater. 569, 153911 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Diffraction and singlecrystal elastic constants of Inconel 625 at room and elevated temperatures determined by neutron diffraction</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Stoica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Beese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng.: A</title>
+		<imprint>
+			<biblScope unit="volume">674</biblScope>
+			<biblScope unit="page" from="406" to="412" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, Z., Stoica, A. D., Ma, D. &amp; Beese, A. M. Diffraction and single- crystal elastic constants of Inconel 625 at room and elevated temperatures determined by neutron diffraction. Mater. Sci. Eng.: A 674, 406-412 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Composition design of high-entropy alloys with deep sets learning</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Comput Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">89</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, J., Cai, C., Kim, G., Wang, Y. &amp; Chen, W. Composition design of high-entropy alloys with deep sets learning. npj Comput Mater. 8, 89 (2022).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Charting the complete elastic properties of inorganic crystalline compounds</title>
+		<author>
+			<persName><forename type="first">Jong</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Data</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">150009</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Jong, M. et al. Charting the complete elastic properties of inorganic crystalline compounds. Sci Data 2, 150009 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Influence of local lattice distortion on elastic properties of hexagonal close-packed TiZrHf and TiZrHfSc refractory alloys</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Meng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Solidi B</title>
+		<imprint>
+			<biblScope unit="volume">258</biblScope>
+			<biblScope unit="page">2100025</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meng, H. et al. Influence of local lattice distortion on elastic properties of hexagonal close-packed TiZrHf and TiZrHfSc refractory alloys. Phys. Status Solidi B 258, 2100025 (2021).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Phase-specific deformation behavior of a NiAl-Cr(Mo) lamellar composite under thermal and mechanical loads</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">656</biblScope>
+			<biblScope unit="page" from="481" to="490" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yu, D., An, K., Chen, X. &amp; Bei, H. Phase-specific deformation behavior of a NiAl-Cr(Mo) lamellar composite under thermal and mechanical loads. J. Alloy. Compd. 656, 481-490 (2016).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a highentropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Senkov, O. N., Scott, J. M., Senkova, S. V., Miracle, D. B. &amp; Woodward, C. F. Microstructure and room temperature properties of a high- entropy TaNbHfZrTi alloy. J. Alloy Compd. 509, 6043-6048 (2011).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">A simplified model connecting lattice distortion with friction stress of Nb-based equiatomic high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">F</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Nieh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="340" to="346" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, Y. Y., Lei, Z. F., Lu, Z. P., Huang, J. C. &amp; Nieh, T. G. A simplified model connecting lattice distortion with friction stress of Nb-based equiatomic high-entropy alloys. Mater. Res. Lett. 7, 340-346 (2019).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">An improved X-ray diffraction analysis method to characterize dislocation density in lath martensitic structures</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hajyakbary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sietsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Böttger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Santofimia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">639</biblScope>
+			<biblScope unit="page" from="208" to="218" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HajyAkbary, F., Sietsma, J., Böttger, A. J. &amp; Santofimia, M. J. An improved X-ray diffraction analysis method to characterize dislocation density in lath martensitic structures. Mater. Sci. Eng. A 639, 208-218 (2015).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Texture analysis with MTEXfree and open source software toolbox</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bachmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hielscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schaeben</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SSP</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="63" to="68" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bachmann, F., Hielscher, R. &amp; Schaeben, H. Texture analysis with MTEX -free and open source software toolbox. SSP 160, 63-68 (2010).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Anisotropic lattice distortions in random alloys from first-principles theory</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Abrikosov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Johansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">156401</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vitos, L., Abrikosov, I. A. &amp; Johansson, B. Anisotropic lattice distortions in random alloys from first-principles theory. Phys. Rev. Lett. 87, 156401 (2001).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Computational quantum mechanics for materials engineers: the EMTO method and applications</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vitos, L. Computational quantum mechanics for materials engineers: the EMTO method and applications. (Springer, 2007).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Universal elastic anisotropy index</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Ranganathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostoja-Starzewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page">55504</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ranganathan, S. I. &amp; Ostoja-Starzewski, M. Universal elastic anisotropy index. Phys. Rev. Lett. 101, 055504 (2008).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="11169" to="11186" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kresse, G. &amp; Furthmüller, J. Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set. Phys. Rev. B 54, 11169-11186 (1996).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="15" to="50" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kresse, G. &amp; Furthmüller, J. Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set. Comput. Mater. Sci. 6, 15-50 (1996).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Projector augmented-wave method</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Blöchl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="17953" to="17979" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blöchl, P. E. Projector augmented-wave method. Phys. Rev. B 50, 17953-17979 (1994).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Generalized gradient approximation made simple</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="3865" to="3868" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perdew, J. P., Burke, K. &amp; Ernzerhof, M. Generalized gradient approximation made simple. Phys. Rev. Lett. 77, 3865-3868 (1996).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Special quasirandom structures</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zunger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Bernard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="353" to="356" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zunger, A., Wei, S.-H., Ferreira, L. G. &amp; Bernard, J. E. Special quasirandom structures. Phys. Rev. Lett. 65, 353-356 (1990).</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Efficient stochastic generation of special quasirandom structures</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van De Walle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calphad</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="13" to="18" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van de Walle, A. et al. Efficient stochastic generation of special quasirandom structures. Calphad 42, 13-18 (2013).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
