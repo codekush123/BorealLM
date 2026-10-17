@@ -1,0 +1,147 @@
+L
+aser-based additive manufacturing (AM) approaches such as
+laser powder bed fusion (LPBF) hold the potential to revo-
+lutionize manufacturing of complex metal components in
+the aerospace, medical, and automotive industries1. LPBF is
+particularly attractive as it permits the production of otherwise
+impossible geometries via a layer-by-layer strategy to print
+components from a thin layer of metal powder spread on a solid
+metal substrate, using only a computer-aided design (CAD) ﬁle to
+guide the scanning of a high-power laser2. This strategy allows
+LPBF to avoid the geometric limitations and extensive tooling
+requirements present in conventional subtractive fabrication
+methods. Despite its signiﬁcant advantages, widespread adoption
+of LPBF remains limited due to concerns over component quality
+and consistency3. Reports of mechanical properties for LPBF-
+produced components vary widely, which presents a signiﬁcant
+challenge for designers4–7 and certiﬁcation authorities8. This
+variability in material quality arises from both the unusual ther-
+mal history and rapid solidiﬁcation of material imposed by laser-
+induced heating9–11 as well as defects introduced during the
+process12,13. To improve the conﬁdence in components built by
+LPBF, a greater understanding of laser–metal interaction in this
+extreme thermal regime and its correlation with defect generation
+during the LPBF process is required.
+A particularly ubiquitous class of defects in LPBF-produced
+components are keyhole pores14, which form when excess energy
+is imparted by the laser to the melt pool. These pores act as stress
+concentrators
+and
+have
+a
+negative
+effect
+on
+mechanical
+properties4,13. While keyhole porosity is somewhat stochastic in
+nature, such pores have been observed in regular patterns within
+fabricated components15. These patterns of pores have been
+attributed to melt pool dynamics at the point where the laser
+turns off at the end of a linear scan routine and/or laser turn
+points in serpentine scan patterns16. Since these regions can occur
+thousands of times in a single component and typically near the
+edges of the component where the impact to mechanical prop-
+erties is the most pronounced, an
+understanding of the
+laser–metal interaction process during these events could have
+major outcomes for the quality of components produced
+by LPBF.
+Ex situ studies of the LPBF process have shown that over-
+heating during changes in laser scan velocity, such as at laser turn
+points leads to increased evaporation of metal from the surface
+causing a deep keyhole depression to form. The keyhole depres-
+sion is unstable and can collapse to trap inert shielding gas, such
+as argon, in pores within the substrate17–19. However, direct
+observation of the formation dynamics of such pores has proven
+elusive because any viable monitoring technique must probe
+subsurface, micron scale dynamics at time scales on the order of
+ten microseconds to capture process-relevant phenomena20.
+High-speed, in situ transmission X-ray imaging is an emerging
+technique for probing subsurface phenomena during LPBF pro-
+cessing21–23. The technique provides information complementary
+to the large body of literature describing LPBF process physics
+using high-speed, in situ optical probes24–30 and has been applied
+to multiple materials and LPBF processing conditions to under-
+stand the physics of spatter31 and melt pool dynamics in
+unsupported overhang regions23. However, critical subsurface
+information such as mechanisms of pore formation and melt pool
+geometry under typical processing conditions, which are ideal for
+study by in situ X-ray imaging, remain relatively unexplored.
+Here, we perform in situ transmission X-ray imaging to probe
+laser–metal interactions during LPBF processing and elucidate
+the mechanisms leading to pore formation. We show experi-
+mentally, in a common titanium alloy (Ti–6Al–4V) used for
+critical applications in aerospace32 and biomedical industries33,
+that the formation of pores during changes in laser scan velocity
+such as at laser turn points proceeds via the rapid collapse of the
+vapor depression at the surface and subsequent trapping of argon
+by liquid metal ﬂowing into the void. Complementary multi-
+physics simulations provide high-deﬁnition insight into general
+trends in metal–laser interactions during LPBF processing and
+conﬁrm the pore formation mechanism detailed in the experi-
+mental efforts. Based on these experimental and simulated
+observations, we devise and implement a successful mitigation
+strategy to prevent pore formation at laser turn points by mod-
+ulating the laser power to compensate for melt pool overheating.
+An analytical model deﬁning the dimensionless quantity nor-
+malized enthalpy18,34 as a function of laser power, scan speed,
+and beam size applied to the mitigation strategy reveals that a
+near-constant vapor depression depth can be realized by varying
+the laser power to maintain a constant normalized enthalpy
+during laser scanning. The successful mitigation strategy is
+straightforward to implement and can be deployed on virtually
+any commercial machines using existing hardware. More pro-
+foundly, the results enhance the understanding of laser–metal
+interaction under realistic LPBF processing conditions and reveal
+a mechanism leading to the formation of pores which ultimately
+give rise to material performance degradation in fabricated
+components. The pore mitigation strategy revealed here reduces
+the probability of pore formation and holds the potential to
+signiﬁcantly reduce defect density and therefore improve the
+reliability of a component fabricated by LPBF.
+Results
+Pores formed at the laser turn point. The properties of pores
+formed at a laser turn point during LPBF processing of
+Ti–6Al–4V were determined as a function of laser power and
+scan speed. Laser power and scan speeds used for LPBF proces-
+sing were consistent with typical build parameters35. Five
+hundred-micrometer-thick
+Ti–6Al–4V
+substrates
+with
+and
+without an approximately 60-µm-thick powder layer on the
+surface were irradiated by a 1070 nm, 50 µm diameter laser beam
+over a 2.5 mm long single turn scan pattern with 50 µm hatch
+spacing (Fig. 1). Transmission X-ray images were captured at 20
+kHz while performing LPBF processing and the resulting image
+time series was analyzed to determine pore properties and for-
+mation kinetics. Figure 2a reveals the pore depth as a function of
+distance from the turn point under various processing conditions
+(for a full description of pore depth, cross-sectional area, and
+distance from turn point see Supplementary Fig. 1). The max-
+imum depth of pores formed at the turn point increases as a
+function of laser power, and this trend is independent of steady-
+state scan speed. A key ﬁnding from this study is that pores are
+primarily formed within 200 µm of the turn point under all
+investigated processing conditions, with 87% of the pores
+observed during this study observed in this region, which is
+consistent with ex situ observations from full builds in stainless
+steel36. Furthermore, pores closer to the turn point are generally
+deeper in the material than pores formed farther from the turn
+point. Inspection of an X-ray image time series captured at each
+respective processing condition reveals that pores form very
+quickly on time scales comparable to the sampling rate of our
+measurement (50 µs). Therefore, we did not attempt to resolve
+from these data the time it takes for a pore to form, but instead
+treat pore formation as a discrete event and note the time
+(referred to hereafter as pore initiation time, τp), when pores form
+relative to the laser turn time, tturn = 0 in Fig. 2b. All pores
+observed in this study are formed after the laser passes the turn
+midpoint, and nearly all pores are formed 200–1000 µs after this
+midpoint regardless of the set scan speed (Fig. 2b). While nearly
+all pores associated with the turn point form during this time
+ARTICLE
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2
+2
+NATURE COMMUNICATIONS | (2019) 10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications

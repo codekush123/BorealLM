@@ -1,0 +1,703 @@
+
+===== PAGE 1 =====
+     ARTICLE
+
+          https://doi.org/10.1038/s41467-019-10009-2    OPEN
+   Dynamics of pore formation during laser powder
+   bed fusion additive manufacturing
+
+       Aiden A. Martin1, Nicholas P. Calta1, Saad A. Khairallah1, Jenny Wang1, Phillip J. Depond1, Anthony Y. Fong2,
+       Vivek Thampy2, Gabe M. Guss1, Andrew M. Kiss2, Kevin H. Stone    2, Christopher J. Tassone2,
+       Johanna Nelson Weker    2, Michael F. Toney    2, Tony van Buuren1 & Manyalibo J. Matthews1
+
+
+
+
+         Laser powder bed fusion additive manufacturing is an emerging 3D printing technique for the1234567890():,;
+          fabrication of advanced metal components. Widespread adoption of it and similar additive
+         technologies is hampered by poor understanding of laser-metal interactions under such
+        extreme thermal regimes. Here, we elucidate the mechanism of pore formation and liquid-
+          solid interface dynamics during typical laser powder bed fusion conditions using in situ X-ray
+        imaging and multi-physics simulations. Pores are revealed to form during changes in laser
+        scan velocity due to the rapid formation then collapse of deep keyhole depressions in the
+         surface which traps inert shielding gas in the solidifying metal. We develop a universal
+         mitigation strategy which eliminates this pore formation process and improves the geometric
+          quality of melt tracks. Our results provide insight into the physics of laser-metal interaction
+        and demonstrate the potential for science-based approaches to improve conﬁdence in
+        components produced by laser powder bed fusion.
+
+
+
+
+
+                 1 Lawrence Livermore National Laboratory, Livermore, CA 94550, USA. 2 Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory,
+         Menlo Park, CA 94025, USA. Correspondence and requests for materials should be addressed to T.B. (email: vanbuuren1@llnl.gov)
+           or to M.J.M. (email: matthews11@llnl.gov)
+
+
+         NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications                            1
+
+===== PAGE 2 =====
+ARTICLE                                      NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2
+
+
+     aser-based additive manufacturing (AM) approaches such as   such as at laser turn points proceeds via the rapid collapse of the
+      laser powder bed fusion (LPBF) hold the potential to revo-   vapor depression at the surface and subsequent trapping of argon
+     lutionize manufacturing of complex metal components in   by liquid metal ﬂowing into the void. Complementary multi-Lthe aerospace, medical, and automotive  industries1. LPBF  is   physics simulations provide high-deﬁnition insight into general
+particularly attractive as it permits the production of otherwise   trends in metal–laser interactions during LPBF processing and
+impossible  geometries  via  a  layer-by-layer  strategy  to  print  conﬁrm the pore formation mechanism detailed in the experi-
+components from a thin layer of metal powder spread on a solid   mental  efforts. Based on  these  experimental and  simulated
+metal substrate, using only a computer-aided design (CAD) ﬁle to   observations, we devise and implement a successful mitigation
+guide the scanning of a high-power laser2. This strategy allows   strategy to prevent pore formation at laser turn points by mod-
+LPBF to avoid the geometric limitations and extensive tooling   ulating the laser power to compensate for melt pool overheating.
+requirements  present  in  conventional  subtractive  fabrication  An analytical model deﬁning the dimensionless quantity nor-
+methods. Despite its signiﬁcant advantages, widespread adoption   malized enthalpy18,34 as a function of laser power, scan speed,
+of LPBF remains limited due to concerns over component quality   and beam size applied to the mitigation strategy reveals that a
+and consistency3. Reports of mechanical properties for LPBF-   near-constant vapor depression depth can be realized by varying
+produced components vary widely, which presents a signiﬁcant   the  laser power to maintain a constant normalized enthalpy
+challenge  for designers4–7 and  certiﬁcation  authorities8. This   during  laser  scanning. The  successful  mitigation  strategy  is
+variability in material quality arises from both the unusual ther-   straightforward to implement and can be deployed on virtually
+mal history and rapid solidiﬁcation of material imposed by laser-   any commercial machines using existing hardware. More pro-
+induced heating9–11 as well as defects introduced during the   foundly, the results enhance the understanding of laser–metal
+process12,13. To improve the conﬁdence in components built by   interaction under realistic LPBF processing conditions and reveal
+LPBF, a greater understanding of laser–metal interaction in this   a mechanism leading to the formation of pores which ultimately
+extreme thermal regime and its correlation with defect generation   give  rise  to  material performance  degradation  in  fabricated
+during the LPBF process is required.                           components. The pore mitigation strategy revealed here reduces
+ A particularly ubiquitous class of defects in LPBF-produced   the probability of pore formation and holds the potential to
+components are keyhole pores14, which form when excess energy   signiﬁcantly reduce defect density and therefore improve the
+is imparted by the laser to the melt pool. These pores act as stress    reliability of a component fabricated by LPBF.
+concentrators  and  have  a  negative  effect  on  mechanical
+properties4,13. While keyhole porosity is somewhat stochastic in
+nature, such pores have been observed in regular patterns within   Results
+fabricated components15. These patterns of pores have been   Pores formed at the laser turn point. The properties of pores
+attributed to melt pool dynamics at the point where the laser   formed  at  a  laser  turn  point  during LPBF  processing  of
+turns off at the end of a linear scan routine and/or laser turn   Ti–6Al–4V were determined as a function of laser power and
+points in serpentine scan patterns16. Since these regions can occur   scan speed. Laser power and scan speeds used for LPBF proces-
+thousands of times in a single component and typically near the   sing  were  consistent  with  typical  build  parameters35.  Five
+edges of the component where the impact to mechanical prop-   hundred-micrometer-thick  Ti–6Al–4V  substrates  with  and
+erties   is  the  most  pronounced,  an  understanding  of  the   without an approximately 60-µm-thick powder  layer on the
+laser–metal interaction process during these events could have   surface were irradiated by a 1070 nm, 50 µm diameter laser beam
+major  outcomes  for  the  quality  of  components  produced   over a 2.5 mm long single turn scan pattern with 50 µm hatch
+by LPBF.                                                        spacing (Fig. 1). Transmission X-ray images were captured at 20
+  Ex situ studies of the LPBF process have shown that over-  kHz while performing LPBF processing and the resulting image
+heating during changes in laser scan velocity, such as at laser turn   time series was analyzed to determine pore properties and for-
+points leads to increased evaporation of metal from the surface   mation kinetics. Figure 2a reveals the pore depth as a function of
+causing a deep keyhole depression to form. The keyhole depres-   distance from the turn point under various processing conditions
+sion is unstable and can collapse to trap inert shielding gas, such   (for a full description of pore depth, cross-sectional area, and
+as argon, in pores within the substrate17–19. However, direct   distance from turn point see Supplementary Fig. 1). The max-
+observation of the formation dynamics of such pores has proven  imum depth of pores formed at the turn point increases as a
+elusive because any viable monitoring technique must probe   function of laser power, and this trend is independent of steady-
+subsurface, micron scale dynamics at time scales on the order of   state scan speed. A key ﬁnding from this study is that pores are
+ten  microseconds  to  capture  process-relevant phenomena20.   primarily formed within 200 µm of the turn point under  all
+High-speed, in situ transmission X-ray imaging is an emerging   investigated  processing  conditions,  with 87%  of  the  pores
+technique for probing subsurface phenomena during LPBF pro-   observed during this study observed in this region, which  is
+cessing21–23. The technique provides information complementary   consistent with ex situ observations from full builds in stainless
+to the large body of literature describing LPBF process physics    steel36. Furthermore, pores closer to the turn point are generally
+using high-speed, in situ optical probes24–30 and has been applied   deeper in the material than pores formed farther from the turn
+to multiple materials and LPBF processing conditions to under-   point. Inspection of an X-ray image time series captured at each
+stand  the  physics  of  spatter31 and melt pool dynamics  in   respective processing condition  reveals  that pores form very
+unsupported overhang regions23. However,  critical subsurface   quickly on time scales comparable to the sampling rate of our
+information such as mechanisms of pore formation and melt pool   measurement (50 µs). Therefore, we did not attempt to resolve
+geometry under typical processing conditions, which are ideal for   from these data the time it takes for a pore to form, but instead
+study by in situ X-ray imaging, remain relatively unexplored.       treat pore formation as a  discrete event and note the time
+  Here, we perform in situ transmission X-ray imaging to probe   (referred to hereafter as pore initiation time, τp), when pores form
+laser–metal interactions during LPBF processing and elucidate   relative to the laser turn time,  tturn = 0 in Fig. 2b. All pores
+the mechanisms leading to pore formation. We show experi-   observed in this study are formed after the laser passes the turn
+mentally, in a common titanium alloy (Ti–6Al–4V) used for   midpoint, and nearly all pores are formed 200–1000 µs after this
+critical applications in aerospace32 and biomedical industries33,   midpoint regardless of the set scan speed (Fig. 2b). While nearly
+that the formation of pores during changes in laser scan velocity    all pores associated with the turn point form during this time
+
+
+2              NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications
+
+===== PAGE 3 =====
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2                       ARTICLE
+
+
+    Glassy carbon                 a                        Turn point    b               Track             c
+
+
+
+
+    Titanium
+
+
+     Glassy carbon               Top-down
+
+                  Powder       Ar   d                            e                                               f
+
+
+                                         Ti
+
+    Vapor depression
+                                                                                             Pores
+                                                       Turn point                                                                                                       500 µm                                    Side-on
+
+  g                          Process laser
+
+                                                                          Objective lens
+
+        SSRL          X-rays                                     10×
+
+                                                                                                          Photron SA-X2
+
+                                                                            Scintillator                Tube lens          High-speed camera         X-ray source
+        (SSRL 2–2)                                     Ti-6Al-4V      Shutter
+
+Fig. 1 Description of a laser turn point condition and experimental conﬁguration. a–c A laser turn point is deﬁned as the condition during laser powder bed
+fusion (LPBF) where the laser reaches the end of a track, decelerates, shifts a prescribed hatch spacing, changes the scan direction by 180°, and then
+accelerates along a new track parallel and adjacent to the previous track. The black dashed line indicates laser trajectory. d–f Time difference (t−t0),
+transmission X-ray images of a turn point region in Ti–6Al–4V performed at a laser power of 200 W, and scan speed of 1000 mm s−1. d The laser is
+scanning from the left to right with spatter and powder motion above the substrate surface and a depression in the surface of the melt pool due to vapor
+recoil below. The titanium–argon interface is indicated by the white dashed line. e The laser enters the turn point region and shifts by the prescribed hatch
+spacing. f The laser is moving right to left after the turn point forming a new adjacent track and leaving behind keyhole pores. g Simpliﬁed schematic of the
+experiment conﬁguration. A white-beam X-ray source is provided by experimental station 2–2 at the Stanford Synchrotron Radiation Lightsource (SSRL).
+The X-ray ﬁeld of view is coincident with the 1070 nm processing laser at the Ti–6Al–4V substrate surface. Images are captured using a scintillator-based
+high-speed optical system
+
+
+   a    0                                 b 10
+                                                                                          600 mm s–1               800 mm s–1             1000 mm s–1
+                                                                                               Bare plate                 Bare plate               Bare plate
+                                                         100 200 300                                             Powder                Powder
+       250                                               Laser power (W)
+        (µm)
+                                                                                                                                                            count
+       500                                                 5          depth
+                                                                                                                             Pore
+        Pore                                            Bare plate, 600 mm s–1
+       750                                     Bare plate, 800 mm s–1
+                                                    Bare plate, 1000 mm s–1
+                                                    Powder, 800 mm s–1
+                                                    Powder, 1000 mm s–1
+      1000                                                 0
+
+              0       100      200      300      400        0     1000        0    1000        0    1000
+                          Distance from turn (µm)                                     Pore initiation time (µs)
+
+Fig. 2 Properties of pores formed during LPBF of Ti–6Al–4V in the laser turn point region as a function of laser power and steady-state scan speed. All turn
+point condition scans were performed at full laser power. a Depth of pore relative to the substrate surface as a function of distance from the turn point of
+the laser. b Histograms of the pore initiation time, τp, after the laser completed the turn point for three different scan speeds where tturn = 0 µs. Each
+histogram includes pores produced with all laser powers (50–300 W) at the speciﬁed scan speed with (blue line) and without (red line) powder. No pores
+were formed in the turn point region prior to the laser turn in these experiments
+
+
+
+
+
+NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications                            3
+
+===== PAGE 4 =====
+ARTICLE                                      NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2
+
+                 a 500    Steady state:                b            Turn point region:
+
+                                                   Bare                                                                        plate,                                                          800                                         mm                                                                                    s–1                                                                                                                  Bare                                                                                                                                                         plate,                                                                                                                     800                                                                                 mm                                                                                                                                                                  s–1
+                                                   Bare                                                                        plate,                                                          1000                                          mm                                                                                      s–1                                 (µm)                                               (µm) 400       Bare plate, 600 mm s–1                     1000       Bare plate, 600 mm s–1                                                                                                                  Bare                                                                                                                                                         plate,                                                                                                                     1000                                                                                 mm                                                                                                                                                                   s–1
+                                                   Powder,                                                        800                                       mm                                                                                  s–1
+                                                   Powder,                                                        1000                                        mm                           300                                                                                                    depth                                                                   depth                                    s–1                      750       Powder,Powder, 8001000mmmms–1s–1
+                                                                     500
+                           200
+
+                           100                                       250                                                                                                                                      Depression                                                                                                                                                                                                                              Depression
+
+                             0                                         0
+
+                                0   50  100 150 200 250 300 350          0   50  100 150 200 250 300 350
+
+                                           Power (W)                                 Power (W)
+
+Fig. 3 Vapor depression depth during LPBF of Ti–6Al–4V. All laser turn conditions were performed at full laser power. a Depression depth in the steady-
+state scan regime where the laser is at full scan speed as a function of laser power and scan speed. b Maximum depth of the vapor depression during the
+laser turn as a function of laser power and set point scan speed. Note the different Y-axis scale between the two panels
+
+window, τp does appear to correlate with set scan speed, as pores   mirrors dictates the actual scan speed during the turn point. The
+at 1000 mm s−1 predominantly occur (89% of the time) in less   measured deceleration and acceleration of the mirrors approxi-
+than 500 µs compared to 27% and 36% of the time at 600 and 800   mately 500 µs pre- and post-turn varied between the scan speeds
+mm s−1 scan speeds, respectively. Furthermore, the results show   used here and approached a maximum of 1.4 × 106 mm s−2 at a
+that while careful ex situ studies can locate pores relative to scan  programmed steady-state value of 1000 mm s−1. As the laser
+position, only time resolved, in situ X-ray probes can with cer-   approaches the turn  point, the mirrors  decelerate and then
+tainty, identify the time dependence of pore formation.             accelerate back to full steady-state scan speed immediately after
+                                                                  the turn. When the laser scan speed approaches zero at the turn
+Changes in surface morphology at the laser turn point. To   point, the instantaneous energy density  increases, leading to
+elucidate the mechanism of pore formation, the geometry of the   localized overheating and an increase in depression depth.
+melt pool  surface (vapor–liquid  interface) was  quantitatively    To  further  probe how  the  change  in  depression  depth
+tracked throughout the turn point. Under these process condi-   correlates  with  pore  formation,  the  depression  depth  was
+tions, the melt pool surface forms a depression whose shape is   determined as a function of time with a set scan speed of 1000
+dominated by recoil pressure generated by metal vaporization at  mm s−1 and laser power of 100, 200, and 300 W (Fig. 4). The
+the melt pool surface26. The depth of  this vapor depression   vapor depression depth is at steady state when it is approximately
+during steady-state scanning and at the turn point was deter-   1000 µs from the turn point. As the laser approaches 500 µs from
+mined using the same processing and X-ray imaging conditions   the turn point the vapor depression depth begins to increase until
+presented in Fig. 2. The vapor depression depth in Ti–6Al–4V as    it approaches a maximum at approximately 100 µs post-turn. The
+a function of laser power is presented in Fig. 3. Under steady-state  maximum vapor depression depth occurring post-turn is caused
+scan conditions, the vapor depression depth increases linearly   by a build-up of heat in the turn point region from the long dwell
+with  laser power and  increases with  decreasing scan speed   time  of  the  near-stationary  laser.  This  increase  in  vapor
+(Fig. 3a). Variations in vapor depression depth can be described   depression depth highlights a transition between the onset of
+in terms of changes in the localized energy density, which varies   keyhole mode present during steady state and a deep keyhole
+the  rate of metal vaporization and therefore  recoil pressure.  mode regime at the turn region. During LPBF, ideally the melt
+Increasing the energy density increases the recoil pressure which   pool depth  is  sufﬁcient  to melt a few  layers  of  previously
+drives the melt pool surface deeper into the material17,26. A linear   processed material at the surface (up to approximately 100 µm) to
+scaling  of vapor  depression depth with  laser power  is not   fuse this material to the powder. For the case of keyhole mode
+necessarily expected  for keyhole mode heat transport where   welding the power density of the laser is sufﬁcient to evaporate
+strong vaporization and melt pool dynamics play important roles.   metal from the surface and initiate a plasma plume18. Evapora-
+In this keyhole regime, the melt is rapidly displaced away from   tion of metal from the surface during keyhole mode allows the
+the laser beam under the effect of recoil momentum and Mar-   laser to drill into the material leading to the formation of a vapor
+angoni shear ﬂow. The absorbed laser energy therefore not only   depression. When the depression exceeds a depth on the order of
+leads to melting, but also to melt motion. The linear dependence   100 µm the deep keyhole regime  is entered and a dramatic
+observed here appears to indicate that the absorbed laser energy is   increase in the absorption of the laser power is realized due to
+spent mainly to melt the solid even in the keyhole regime, which   multiple interactions between the melt pool and reﬂected laser37.
+helps to explain the linear scaling of melt depth behavior with   This increase in laser absorption and therefore localized energy
+power. The addition of a 60-µm powder layer on the surface did   density  is accompanied by formation of a high aspect  ratio
+not appear to inﬂuence the dynamics of pore formation at the   keyhole vapor depression as observed in Fig. 1e. After the turn,
+turn point, likely due to denudation of metal powder along the   the vapor depression depth reduces to a near-steady-state regime
+laser scan path25. Interestingly, for the case of the maximum   at a time of 1000 µs post-turn. The steady-state vapor depression
+vapor depression depth during the turn point, the depression   depth during the post-turn scan is higher than the pre-turn scan
+relationship with power  is also linear (Fig. 3b); however, the   due to thermal lag associated with preheating of the material (this
+depression depth as a function of laser power is identical for all   can be directly observed in Fig. 1a–c). Pores form at all laser
+steady-state  scan  speeds.  Inspection  of  the   velocity  of   powers under these processing conditions, with pores forming
+galvanometer-based X–Y scanning mirrors during the turn point   only post-turn during vapor depression collapse. From these
+indicates that at the turn point itself, the programmed steady-   direct observations, we ascribe the mechanism of pore formation
+state scan speed has no inﬂuence on the measured scan speed (see   at laser turn points to rapid collapse of the vapor depression.
+Supplementary Fig. 2 for scanning mirror properties). Instead, the   After the depression depth increases during the laser turn, the
+physical response time (~650 µs  step response time)  of  the   mirrors  accelerate away from  the turn too  quickly  for  the
+
+
+4              NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications
+
+===== PAGE 5 =====
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2                       ARTICLE
+
+
+          1000                                                coupled with the heat diffusion equation in an energy-conserving
+                             100 W, full power                       Pore formation
+                             200 W, full power                                 scheme, while accounting for the vapor recoil pressure and eva-
+                             300 W, full power                                     porative  cooling  as  boundary  conditions  using  Anisimov’s
+                (µm)  750                                                  model40. Simulated laser rays strike the surface from the source in
+                                                               a                                                                          direct line                                                                                  of                                                                                        sight                                                                        and the                                                                                         energy deposited                                                                                                                    into                                                                                                                    the                                                                                                           sample                                                                                                                                                                          is                    depth                                                            determined                                                                   by                                                                    an                                                                                                effective                                                                                         absorption                                                                                                         coefﬁcient                                                                                                                                 (0.25).                                                                                                      Note                                                                                                                                     that           500
+                                                  we do not employ the polarization-dependent Fresnel equations
+                                                                     since the ﬁber laser source used in this study is unpolarized and
+           250                                                   thus yields a negligible absorptivity dependence on incident angle                                        Depression
+                                                     up to ~60o. The bulk of the incident laser energy is deposited over
+                                                                  the front inclined wall of the vapor depression which consists of a
+             0                                                   ﬂat liquid surface. The energy deposited into the front wall
+                –1000   –500     0     500    1000   1500          location dominates the melt pool response and melt pool depth
+                                Time (µs)                             via the recoil pressure. This is due to the exponential temperature
+                                                          dependence of the recoil physics and because the highest surface
+Fig. 4 Vapor depression depth as a function of time for various laser
+                                                              temperature is realized immediately below the laser at the point of
+powers at a laser turn point with a programmed steady-state scan speed of
+                                                                     incidence. Previously, the model was shown to predict melt pool
+1000 mm s−1. These scans used a constant power, and time zero
+                                                               dimensions, as well as explain the formation mechanism of other
+corresponds to the midpoint of the turn (tmid-point = 0 µs). The laser is at                                                                      defect modes such as end-of-track pore defects17. Here, simula-
+steady-state scan speed before it begins to decelerate at approximately                                                                      tions were used to dynamically resolve the melt ﬂow and defect
+−900 µs to initiate the turn. Minimum laser scan speed is reached at 0 µs
+                                                              formation during the turn, at high temporal (1 µs) and spatial
+after which it immediately starts to accelerate, returning to steady-state                                                                    resolution (3 µm), allowing conﬁrmation of our experimental
+scan speed at approximately 1200 µs. The turn midpoint was determined by
+                                                                    observations. Furthermore, the simulation enables probing of the
+analysis of the in situ X-ray images. Black circles denote pore formation
+                                                                      generality of the vapor depression dynamics observed in the
+events. Error bars represent uncertainty in the distance between the base of
+                                                                       materials.
+the vapor depression and the surface caused by surface roughness                                                                                    First, to conﬁrm turn point dynamics in the simulated case of
+                                                         SS316L followed the same trend observed experimentally  in
+depression to smoothly return to the steady state, prompting a                                                          Ti–6Al–4V, vapor depression and melt pool depth as a function
+rapid collapse of the depression. This is exempliﬁed in Fig. 2b                                                                     of laser power during the laser turn point was simulated using the
+where the histogram of τp is shifted to shorter times at a steady-                                              ALE3D multi-physics model (for further details of the simulation
+state scan speed of 1000 mm s−1 compared to the 800 mm s−1                                                                     see Supplementary Note 1 and Supplementary Movie 1). The
+case, which is caused by an increase in the mirror acceleration out                                                                simulated steady-state vapor depression depth correlates with the
+of the turn point at the higher scan speed. The collapse of the                                                          low  energy  density  regime  (75 W,  1000 mm s−1)  measured
+vapor  depression  and  subsequent  pore  formation  can  be                                                                 experimentally in Ti–6Al–4V when compared using the thermal
+described by hydrodynamics, and  the  exertion  of  force by                                                                       scaling laws for LPBF34, and the transition in vapor depression
+gaseous metal on the molten pool surrounding the depression.                                                            depth from steady state to turn point is similar to the 50 W, 1000
+Increased localized energy density in material at the turn point                                  mm s−1 condition in Ti–6Al–4V (23 to 70 µm and 32 to 62 µm
+leads to an increase in the vapor pressure of gaseous metal above                                                                       for the SS316 simulation and Ti6Al-4V experiment, respectively).
+the base of the vapor depression. The increase in vapor pressure                                                     The linear dependence of vapor depression depth with respect to
+causes metal to rapidly be ejected from the vapor depression                                                                  the laser power was also reproduced in the SS316L simulation
+driving the depression deep into the substrate and the recoil                                                                       (see Supplementary Fig. 3a). The simulation reported a peak
+pressure of gaseous material inside the depression overcomes the                                                              metal  evaporative  ﬂux  of  approximately  1000 mol m−2 s−1
+force of molten metal ﬂow into the void. Once the scan speed                                                                          directly below the laser spot on the front inclined wall of the
+returns to steady state and a decrease in temperature at the                                                            vapor depression during the turn point.
+depression surface is realized the recoil pressure from evaporating                                         A single frame of the 3D simulation is shown in Fig. 5 for 200
+metal  is reduced exponentially. As the surface temperature  is                            W and 1500 mm s−1 laser scanning conditions, with temperature
+reduced the surface tension of the melt pool increases overcoming                                                             contour lines highlighting the liquid–solid interface and color
+the force from the recoil pressure and the depression collapses17.                                               map describing the thermal gradients in the material. The steady-
+Argon ﬁlled pores are then trapped in place by the quickly                                                                    state-simulated vapor depression depth is ~23 µm (Fig. 5a). As
+freezing  melt  pool,  leaving  pores  trapped  in  the  solidiﬁed                                                                  the laser approaches the end of track and decelerates, the vapor
+material. This collapse mechanism is distinct from the traditional                                                                depression depth increases to ~70 µm (Fig. 5b). This is a direct
+view  of  pore  formation  during  keyhole  mode,  in  which                                                                          result of the increase in  laser dwell time as the scan speed
+instabilities  at the  liquid metal–vapor  interface  stochastically                                                                   decreases for execution of the turn, and more energy is absorbed
+form pores even in steady state38. Under turn point conditions                                                                     in the  local volume causing the depth to  increase. A small
+where laser scan acceleration is maximum, pores are formed due                                                                  decrease in depth is observed during the simulation at the turn
+to the transition of the vapor depression into a deep keyhole                                                                 point due to the laser traveling across the hatch spacing of 100 µm
+regime and  the  associated  collapse  of  the  walls  of  vapor                                                       and encountering colder material that requires additional energy
+depression, which  is too rapid  for the system  to smoothly                                                                     to heat to melt pool temperatures. As the laser ﬁnishes the turn, a
+accommodate without the formation of pores.                                                     more pronounced depth increase occurs because the accumulated
+                                                                      residual heat is higher in this pre-heated location compared to
+Multi-physics simulation. To further our understanding of pore   entry into the turn point. Immediately following this melt pool
+formation, a series of simulations were performed to ascertain the   depth maximum, the vapor depression depth rapidly decreases as
+dynamics of the collapsing vapor depression. Simulations were   the  laser  accelerates away from the turn point  (Fig.  5c). A
+performed using the ALE3D multi-physics software tool39 and   signiﬁcant increase of the vapor depression depth due to this
+parameters for the validated, stainless steel (SS316L) simulation   overheating followed by rapid collapse (Fig. 5d) gives rise to pore
+environment. The model  solves the Navier–Stokes equations   formation, as liquid metal cannot ﬁll the deep depression before
+
+
+NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications                            5
+
+===== PAGE 6 =====
+ARTICLE                                      NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2
+
+
+   a           Steady state                    b                                    Turn point             Temperature (K)
+                                                                                                                         3500
+
+
+                                                                                                                         2700
+                                                 100 µm     t0 + 160 µs      t0
+                                                                                                                         1899
+   c                                 d                Depression collapse
+                                                                                                                         1099
+
+
+                                                                                                                         298
+      t0 + 175 µs                                                                 t0 + 190 µs                                                 Temperature at
+   e                                                             f                              Pore                          contour line (K)
+                                                                                                                         4000
+                                                                                                                         3000
+                                                                                                                         1700
+                                                                                                                         1000
+      t0 + 205 µs                                                                 t0 + 270 µs                                                      300
+
+Fig. 5 Cross-section of multi-physics simulation of turn point dynamics in SS316L performed using ALE3D. The laser power was 200 W, and the steady-
+state scan speed is 1500 mm s−1 and reduced during the turn point as per the physical system. The black contour line represents the melt pool boundary
+
+rapidly solidifying due to the extreme (~106 K s−1) cooling rate at   mitigation strategy results in a near uniform vapor depression
+the pore  location  (Fig.  5e). The  rapidly moving  (0.3 m s−1)   depth during the entire scan pattern (see Supplementary Movie 2
+solidiﬁcation front thus traps gaseous material forming the pore   and Supplementary Note 2 for in-process videos of the constant
+(Fig. 5f) conﬁrming our experimental observation. The simula-   power and mitigation scan strategy cases). Most importantly,
+tions show that at the turn point the process enters a deep   pores were not detected in the processed track using this scan
+keyhole regime and large pore defects are generated as the process   strategy. When combined with contour and border hatch scan
+returns to steady state, agreeing with the experimental observa-   strategies which have been shown to reduce porosity41 this power
+tions in Ti–6Al–4V. These complementary observations strongly   modulation scan strategy could further improve ﬁnal component
+suggest that this behavior is universal and occurs regardless of   quality. This is particularly important in island scan sequences
+material in turn points during LPBF.                          where the number of turn points per volume slice is increased
+                                                                       signiﬁcantly42.
+                                              An analytical approach, utilizing normalized enthalpy18,34,43,
+Pore formation mitigation strategy. From our experimental and   was used to investigate the outcomes of the mitigation strategy.
+modeling results, the increase in depth followed by a rapid col-   Normalized enthalpy is a term commonly used in the welding
+lapse of the vapor depression is the mechanism that gives rise to    literature43,44 and recently has expanded to characterize LPBF
+the formation of pores during the laser turn point. This behavior   conditions18,34. Previous studies have shown a linear dependence
+is caused by a transient increase in energy density deposited by  on the depth of molten material with normalized enthalpy under
+the laser and can therefore be mitigated by adjusting process                                             ΔH                                                                   varied laser conditions. The normalized enthalpy         is equal toparameters  to  keep  energy  density  approximately  constant.                                                                                 hs
+                                                                     APpﬃﬃﬃﬃﬃﬃﬃTurning the laser off at the turn point (a so-called sky writing                                                                                                                                                 , where ΔH is the speciﬁc enthalpy, hs is the enthalpy at                                                                                    Dua3                                                                     πρCTm
+method) is not a viable solution for pore mitigation as  it has                                                                   melting, A is the absorptivity of the material (assumed to be 0.6
+previously been shown to result in pore formation16. Incidentally,                                                          under all conditions), P is the laser power, ρ is the density (4.43 g
+the formation of pores at the end of a written track when using   cm−3)45, C is the speciﬁc heat capacity (0.83 J g−1 K−1)45, Tm is
+the sky writing method can also be explained by the observations                                                                  the melting temperature (1923 K)45, D is thermal diffusivity of the
+here describing the collapse of the vapor depression and the                                                          molten material (0.086 cm2 s−1)45, u is the laser scan speed, and a                                                      pﬃﬃsubsequent formation of pores. The vapor depression collapse            1
+                                                                                        is the  e radius of the laser beam (a ¼ σ  2 ). The normalizedwhen the laser is turned off likely exhibits behavior comparable to
+                                                                enthalpy approach was applied to the vapor depression depth as athe conditions described due to the removal of laser power within
+                                                                 function power data in Fig. 3a collected at varied laser scan speedsthe 6.5 µs measured for the Yb-ﬁber laser used in this study. In
+                                                                       (see Supplementary Fig. 4). This reveals that the vapor depressionthe laser off condition the transition from keyhole mode to zero
+                                                            depth is linear with normalized enthalpy and the relationship islaser input power would be even more abrupt than at the turn
+                                                                         identical for different  laser scan speeds under these materialpoint. Given the physical limitations of the mirror-based laser
+                                                                 processing conditions.scanning system, the only practical option available to stabilize
+                                                            Normalized enthalpy as a function of laser position for thethe energy density during the turn point  is to vary the laser
+                                                                 constant power and mitigation scan strategy are shown in Fig. 6b.power, which can be controlled at time scales on the order of 20
+                                                         During steady-state scanning at 1000 mm s−1 and 100 W, theµs in modern Yb-ﬁber lasers. A scan strategy for mitigation of
+                                                             normalized enthalpy is approximately equal to 12.4. For the casepore formation has  the  following  mechanistic and  physical
+                                                                     of the turn point performed at constant power the normalizedrequirements: (i) the vapor depression must not transition into
+                                                                enthalpy is greater than the steady-state case in the region 500 µmthe keyhole regime at the turn region, (ii) laser power must be
+                                                                  before and after the turn point and reaches a maximum value ofcontrolled with no rapid oscillations,  (iii) the power must be
+                                                                  63.2 at the turn. This increase in ΔH results in severe materialsufﬁcient to maintain the melt pool during scanning of the hatch
+                                                                 overheating and the formation of a deep keyhole which ultimatelyspacing, and (iv) the laser power must not increase rapidly when
+                                                                     leads to pore formation as the laser completes the turn. Duringaccelerating out of the turn point into the pre-heated region. A
+                                                                  the mitigated scan  strategy, the normalized enthalpy  is nearpower proﬁle strategy was devised to conform to these constraints
+                                                                    constant, peaking at a value of 31.6 for approximately 100 µs atand applied to LPBF of Ti–6Al–4V using a steady-state laser
+                                                                  the turn point when the scan speed is reduced to 44 mm s−1. Thepower of 100 W and a scan speed of 1000 mm s−1 (Fig. 6a).
+                                                                           laser power was not reduced farther than 50 W in this region asTransmission X-ray imaging  of  the  process shows  that  the
+
+
+6              NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications
+
+===== PAGE 7 =====
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2                       ARTICLE
+
+
+            a                                b  50
+                     80                                       100                                                             60
+                                       (µm)                                          90                                                              50                                                                                                                                                      (µm)                                                    40     enthalpy
+                     60                                                              80   (W)                                                         30                                                  depth
+                                                                          0                                                              70                        position                                                    20      Normalized                                                                                                                                                                                      Power
+                     40                                                                                                                        10                                                              60               Laser                                                                                                   Depression
+
+                                                       Depression                                                                  depth                         50
+                                                  Power
+                     20                                                 –50
+
+                        –1000  –500    0    500   1000  1500                      2.46       2.48       2.50       2.52
+                                       Time (µs)                                             Laser position (mm)
+
+Fig. 6 Mitigation of vapor depression depth change during LPBF of Ti–6Al–4V. a The black line (left axis) corresponds to vapor depression depth as a
+function of time during a 100 W peak power pore mitigation scan strategy. Error bars represent uncertainty in the distance between the base of the vapor
+depression and the surface caused by surface roughness. Also shown is the commanded laser power as a function of time used in the scan strategy (red
+line). Depression depth values were measured for the case of a bare plate experiment because depression depth measurements in bare plate were less
+uncertain than the powder case, but the same trend is observed in both cases. b Normalized enthalpy (ΔH) represented by the magenta-green color scale as
+                                                                                                                                                                    hs
+a function of laser position during the turn point for the full power and mitigated cases at 1000 mm s−1 steady-state scan speed
+
+
+              a  100 W, constant power               c  100 W, mitigation
+
+
+
+
+
+                  Top-down                                Top-down
+
+             b                      Turn point        d                      Turn point
+
+
+
+
+
+                                Pores
+
+                    Side-on                                       Side-on                             500 µm
+
+Fig. 7 Quality of LPBF-AM tracks in Ti–6Al–4V. a, b Top-down optical image and side-on X-ray image of a LPBF-AM track in the turn point region produced
+using a constant power of 100 W. Pores formed during LPBF are highlighted in b. c, d Top-down optical image and side-on X-ray image of an LPBF track
+produced using the 100 W peak power pore mitigation scan strategy shown in Fig. 5b. No pores were detected in d. All scale bars are 500 µm
+
+
+this approaches  the  cut-off power  of  the  laser  resulting  in   side-on transmission X-ray images of LPBF-AM turn point tracks
+complete collapse of the depression and possible underheating.   produced on Ti–6Al–4V with a single 60 µm powder layer pro-
+This short increase however did not result in a transition to a   duced using constant power (100 W) and the mitigation strategy,
+deep keyhole vapor depression likely due to thermal lag required   respectively (for further examples see Supplementary Fig. 5). The
+to induce changes in overall melt pool behavior under these   track produced using constant power (Fig. 7a) exhibits a bulge at
+conditions. Regarding the effect of preheating, it is observed that   the turn point caused by overheating and expansion of the melt
+under steady-state conditions the depression depth for all scan   pool in this region with a track width 40% wider at the turn point
+speeds probed  is approximately 250 µm when the normalized   than during the steady-state scan. The turn point using constant
+enthalpy value equals 31.6 (see Supplementary Fig. 4). Comparing   power also contains pores at depths up to approximately 250 µm
+this behavior to the turn point case we observe that a brief   beneath the substrate surface (Fig. 7b). For the case of the track
+increase to this level of normalized enthalpy for 100 µs during the   produced using the mitigation strategy, Fig. 7c shows a clear
+turn does not cause the formation of a deep keyhole vapor   improvement in track geometry. There is no longer a bulge at the
+depression and a depression depth of only 70 µm was realized.   end of the track caused by overheating. This reveals that not only
+The  analytical normalized enthalpy  analysis  reveals  that  for    is the formation of pores mitigated using  this scan strategy
+successful implementation of a defect mitigation scan strategy the    (Fig. 7d), the quality of the resulting track with respect to the
+normalized enthalpy should be kept near constant and below the   geometry and minimum track resolution is also improved. The
+transition point into the keyhole regime.                           mitigation strategy not only improves quality of material fabri-
+                                                                  cated by LPBF-AM, but also is simple to implement, because it
+                                                               only requires linear ramping of the laser power over a few hun-
+Quality of tracks produced by pore mitigation strategy. A pore   dred  microseconds.  This  sort  of power adjustment can be
+mitigation strategy is not viable  if the resulting track is of low   implemented with the hardware available in most commercial
+quality (e.g., discontinuous). Figure 7 shows top-down optical and  LPBF machines by constructing power maps with the 3D slicer
+
+
+NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications                            7
+
+===== PAGE 8 =====
+ARTICLE                                      NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2
+
+
+software that converts the component geometry deﬁned by a    utilized for the experiments (X-ray critical energy 7.4 keV). The beam was aligned
+CAD ﬁle into machine instructions46.                                     coincident with the Ti–6Al–4V substrate surface in the center of the vacuum
+                                                                      chamber and the laser aligned to scan through the X-ray imaging system ﬁeld of
+                                                                             view during processing. Transmission X-ray images of the LPBF process were
+Discussion                                                                  captured using a scintillator-based optical system. The imaging system comprised
+In summary, we have uncovered the mechanism of pore forma-   an X-ray shutter (Uniblitz), 100-µm-thick YAG:Ce scintillator crystal (Crytur), Ag-
+tion during laser turn points, a critical defect mode in serpentine    coated turning mirror (Thorlabs), 10× long working distance inﬁnity corrected
+                                                                                         objective lens (0.28 NA; Mitutoyo), tube lens (Thorlabs), and FASTCAM SA-X2
+scan-based LPBF. The  pore  formation  process  is  observed   1080 K high-speed camera (Photron). This imaging assembly yields an effective
+experimentally in Ti–6Al–4V and via multi-physics modeling of    pixel size of 2 µm per pixel for all X-ray images. Images were captured with a ﬁeld
+SS316L, revealing the general nature of the mechanism. Pores    of view of 1024 × 672 pixels at 20 kHz and an exposure time of 25 µs. The X-ray
+form at laser turn points due to the emergence and subsequent    shutter was placed in front of the scintillator and actuated to the open position
+                                                                               approximately 50 ms before the laser entered the ﬁeld of view and then closed after
+collapse of a deep keyhole depression caused by the deceleration    a total time of 150 ms to protect the detector system from damage by the X-ray
+and acceleration of the galvanometer-based scanning mirrors   beam. Synchronization of the laser and imaging system was realized using a custom
+during the turn which results in dramatic variations in the local   FPGA-based timing circuit.
+normalized enthalpy at the material surface. As the laser accel-       X-ray images were analyzed using ImageJ47 and Mathematica (Version 11.1.1)48
+                                                                                   software packages. Time difference X-ray images were produced through division of
+erates away from the turn point, the keyhole depression collapses
+                                                                                    the uncorrected time resolved image (At) by the initial, pristine substrate image (A0)
+and molten metal ﬁlls the void, trapping gaseous argon which                                                                             (image = lnlnððA0At ÞÞ). This routine provided an image where darker regions reveal aultimately forms a pore as the material solidiﬁes. This under-                                                                                   decrease in X-ray absorption (or material) and lighter regions reveal an increase in
+standing based on  in  situ X-ray imaging and multi-physics    X-ray absorption (or material). A custom script in Mathematica utilized the built-in
+modeling was harnessed to devise a pore mitigation strategy    Binarize contrast threshold method to identify and characterize pores in the
+based on laser power modulation and implemented under typical    processed Ti–6Al–4V substrate. Optical images of processed tracks were captured
+Ti–6Al–4V build conditions. The mitigation strategy effectively    ex situ using a Keyence VR-3000 wide-area 3D measurement system and analyzed
+                                                                                  using the Keyence VR-3000 G2 and ImageJ software packages.
+prevents pore formation at the laser turn point by removing the
+rapid variation in depression depth inherent in the unmitigated                                                                             Multi-physics simulation. Simulations were performed using the ALE3D multi-
+case and improves the geometric tolerance of fabricated tracks by    physics software tool which utilizes arbitrary-Lagrangian-Eulerian techniques39,49.
+avoiding overheating. Conceptually similar strategies should be   To simulate the thermal response and melt ﬂow in the material, the heat con-
+applicable to any abrupt laser on/off points during LPBF. The    duction equation was coupled with the Navier–Stokes equations via operator
+                                                                                                  splitting17. Material parameters for stainless steel (316L) were used for the simu-successful  mitigation  strategy  presented  here  illustrates  the                                                                                               lation17. The substrate was modeled as a ﬂat, bare plate surface with a boundary of
+potential of in situ X-ray measurements coupled with high ﬁdelity   600 × 300 × 100 µm. Powder was not included as it signiﬁcantly increases the
+modeling for driving process improvements and paves the way to    physical complexity of the simulation and experimental results showed no sig-
+increasing the quality of LPBF-built components.                      niﬁcant change in the trend in pore formation between bare plate and powder. The
+                                                                                  simulation was performed using a high-resolution mesh to enable a feature
+                                                                                     detection limit of 3 µm. A series of simulations was performed as a function of laser
+Methods                                                             power during the turn point. Under each condition, a turn point track was
+LPBF system and processing conditions. LPBF was performed using a            simulated where the laser power reduced from a steady-state laser power of 200 W
+laboratory-scale test bed described and characterized in detail elsewhere22. The       to a constant value during the turn point. At each 1 µs simulation time step the full
+LPBF system utilized a 1070 nm, continuous wave (CW) Yb-ﬁber laser (500 W      thermal and laser reﬂection proﬁle in the material was recorded. The maximum
+maximum power, YLR-500-WC-Y14, IPG Photonics) coupled to a galvanometer    melt depth as a function of time was determined as a function of turn point laser
+scanning mirror system (Nutﬁeld Technology, 3XB 3-Axis Scan Head) for pro-     power. All simulations were performed using a steady-state scan speed of 1500 mm
+cessing. The laser was focused to a spot size of approximately 50 µm in diameter    s−1, and assuming a constant absorptivity of 0.25. A scan speed of 1500 mm s−1
+(D4σ) for all experiments and passed through an anti-reﬂective coated laser entry   was required due to the exhaustive computational requirements of multi-physics
+window into the vacuum chamber, normal to the sample surface. The optical        simulation. The laser followed a scan geometry and turn point scan speed informed
+working distance between the scanning mirrors and the sample surface was        by measurements of the galvanometer scan mirror response, which comprised of a
+approximately 380 mm, and the laser beam Rayleigh range was 1.8 mm. The         straight line stretch ending in a turn point. The speed of the laser through the turn
+vacuum chamber containing the sample was evacuated to 5 × 10–2 Torr prior to     was reduced to 400 mm s−1 to ensure the simulation stayed within bounds (see
+being ﬁlled with 730 Torr argon inert gas environment for processing. Argon was   Supplementary Fig. 3).
+constantly ﬂowed through the vacuum chamber during experiments at 500 SCCM.
+During processing, the laser was scanned using various laser power and scan speed
+conditions onto a region of a Ti–6Al–4V substrate (TMS Titanium, Poway, CA,   Data availability
+USA). Each substrate was approximately 500 µm thick in the X-ray probe direction   The data that support the ﬁndings of this study are available from the corresponding
+and 10 mm in depth. Experiments were performed with and without a 60 ± 20-µm-    author on reasonable request.
+thick layer of Ti–6Al–4V powder (30 ± 10 µm powder diameter; Additive Metal
+Alloys, Maumee, OH, USA) on the surface. The Ti–6Al–4V substrate was sand-   Code availability
+wiched between two 1-mm-thick glassy carbon sheets which provided a trench to
+                                                                       The ALE3D software routine and custom Mathematica script are not publicly available.
+contain Ti–6Al–4V powder on the substrate surface.
+                                                                                              All data generated using this code are available from the corresponding author on
+   Laser turn-around scanning conditions were programmed using the
+                                                                                        reasonable request.Waverunner scan control software and Pipeline-2 scan controller (Nutﬁeld
+Technology) which compiled the required instruction routine for the galvanometer
+scanning mirrors and laser power interface. Two parallel, 2.5 mm long tracks were   Received: 20 November 2018 Accepted: 2 April 2019
+compiled in the software with a hatch spacing of 50 µm. The laser was programmed
+to irradiate this geometry based on internal triggering from the scanning mirror
+position. The geometry treated the hatching shift at the end of the track as an
+additional 50 µm long track and unless stated, the laser remained at full power
+during the turn. The mitigated scan strategy was implemented using a custom
+ﬁeld-programmable gate array (FPGA)-based laser interface module (USB-7856;
+National Instruments). The galvanometer scanning mirrors were controlled by the   References
+Pipeline-2 controller for all cases, with mitigation achieved by disabling the           1.   Wohlers, T. T. et al. Wohlers Report 2018. 3D Printing and Additive
+Pipeline-2 controller laser power interface and initializing the FPGA module to         Manufacturing State of the Industry (Wohlers Associates, Fort Collins, 2018).
+control the laser power via an analog voltage signal. The FPGA module controlled     2.  DebRoy, T. et al. Additive manufacturing of metallic components—process,
+the laser power as a function of time using a lookup table. Scanning mirror position         structure and properties. Prog. Mater. Sci. 92, 112–224 (2018).
+was sampled at a rate of 1 MHz using an FPGA module, and the analog output      3.   Seiﬁ, M. et al. Progress towards metal additive manufacturing standardization
+converted to position via a calibration routine.                                            to support qualiﬁcation and certiﬁcation. JOM 69, 439–455 (2017).
+                                                                                                    4.   Leuders, S. et al. On the mechanical behaviour of titanium alloy TiAl6V4
+                                                                               manufactured by selective laser melting: fatigue resistance and crack growth
+Imaging and data processing. In situ X-ray imaging was performed at SSRL beam
+                                                                                   performance. Int. J. Fatigue 48, 300–307 (2013).
+line 2-2. The white-beam X-ray spectrum generated by the 1.25 T bend magnet was
+
+
+8              NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications
+
+===== PAGE 9 =====
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2                       ARTICLE
+
+
+
+5.   Beese, A. M. & Carroll, B. E. Review of mechanical properties of Ti-6Al-4V     31.  Guo, Q. et al. Transient dynamics of powder spattering in laser powder bed
+    made by laser-based additive manufacturing using powder feedstock. JOM 68,         fusion additive manufacturing process revealed by in-situ high-speed high-
+    724–734 (2016).                                                                energy x-ray imaging. Acta Mater. 151, 169–180 (2018).
+6.   Simonelli, M., Tse, Y. Y. & Tuck, C. Effect of the build orientation on the       32.  Frazier, W. E. Metal additive manufacturing: a review. J. Mater. Eng. Perform.
+    mechanical properties and fracture modes of SLM Ti–6Al–4V. Mater. Sci. Eng.         23, 1917–1928 (2014).
+   A Struct. Mater. 616, 1–11 (2014).                                                33.  Harun, W. S. W. et al. A review of powdered additive manufacturing techniques
+7.   Vrancken, B., Thijs, L., Kruth, J.-P. & Van Humbeeck, J. Heat treatment of           for Ti-6al-4v biomedical applications. Powder Technol. 331, 74–97 (2018).
+    Ti6Al4V produced by selective laser melting: microstructure and mechanical    34.  Rubenchik, A. M., King, W. E. & Wu, S. S. Scaling laws for the additive
+     properties. J. Alloy. Compd. 541, 177–185 (2012).                                  manufacturing. J. Mater. Process. Technol. 257, 234–243 (2018).
+8.   Roca, J. B., Vaishnav, P., Fuchs, E. R. H. & Morgan, M. G. Policy needed for    35.  Kamath, C. Determination of process parameters for high-density, Ti-6Al-4V
+     additive manufacturing. Nat. Mater. 15, 815–818 (2016).                              parts using additive manufacturing. Technical Report (Lawrence Livermore
+9.   Hodge, N. E., Ferencz, R. M. & Solberg, J. M. Implementation of a                 National Laboratory, Livermore, CA, 2017).
+    thermomechanical model for the simulation of selective laser melting.           36.  DePond, P. J. et al. In situ measurements of layer roughness during laser
+    Comput. Mech. 54, 33–51 (2014).                                          powder bed fusion additive manufacturing using low coherence scanning
+10.  Keller, T. et al. Application of ﬁnite element, phase-ﬁeld, and CALPHAD-           interferometry. Mater. Des. 154, 347–359 (2018).
+    based methods to additive manufacturing of Ni-based superalloys. Acta Mater.    37.  Trapp, J., Rubenchik, A. M., Guss, G. & Matthews, M. J. In situ absorptivity
+     139, 244–253 (2017).                                                      measurements of metallic powders during laser powder-bed fusion additive
+11.  Scipioni Bertoli, U., Guss, G., Wu, S., Matthews, M. J. & Schoenung, J. M. In-        manufacturing. Appl. Mater. Today 9, 341–349 (2017).
+     situ characterization of laser-powder interaction and cooling rates through      38.  Matsunawa, A., Seto, N., Kim, J.-D., Mizutani, M. & Katayama, S. Dynamics of
+    high-speed imaging of powder bed fusion additive manufacturing. Mater. Des.        keyhole and molten pool in high-power CO2 laser welding. In High-Power
+     135, 385–396 (2017).                                                                 Lasers in Manufacturing (eds. Chen, X., Fujioka, T. & Matsunawa, A.) Vol.
+12.  Bisht, M., Ray, N., Verbist, F. & Coeck, S. Correlation of selective laser              3888, 34–46 (International Society for Optics and Photonics, Bellingham,
+     melting-melt pool events with the tensile properties of Ti-6Al-4V ELI              Washington, USA 2000).
+     processed by laser powder bed fusion. Addit. Manuf. 22, 302–306 (2018).       39.  Noble, C. R. et al. ALE3D: An Arbitrary Lagrangian-Eulerian Multi-Physics
+13.  Gong, H. et al. Inﬂuence of defects on mechanical properties of Ti–6Al–4V        Code (Lawrence Livermore National Laboratory, Livermore, CA, 2017).
+    components produced by selective laser melting and electron beam melting.     40.  Anisimov, S. I. & Khokhlov, V. A. Instabilities in Laser-Matter Interaction.
+    Mater. Des. 86, 545–554 (2015).                                      (CRC Press, Boca Raton, FL, 1995).
+14.  Cunningham, R., Narra, S. P., Montgomery, C., Beuth, J. & Rollett, A. D.       41.  Ertay, D. S., Ma, H. & Vlasea M. Correlative beam path and pore defect
+    Synchrotron-based X-ray microtomography characterization of the effect of         space analysis for modulated powder bed laser fusion process. In Proceedings
+     processing variables on porosity formation in laser power-bed additive                of the 29th Annual International Solid Freeform Fabrication Symposium
+    manufacturing of Ti-6Al-4V. JOM 69, 479–484 (2017).                                 (eds. Bourell, D. L., Beaman, J. J., Crawford, R. H., Fish, S. & Seepersad, C. C.)
+15.  Kasperovich, G., Haubrich, J., Gussone, J. & Requena, G. Correlation between       274–284 (Laboratory for Freeform Fabrication and University of Texas at
+     porosity and processing parameters in TiAl6V4 produced by selective laser          Austin, Texas, USA 2018).
+     melting. Mater. Des. 105, 160–170 (2016).                                        42.  Yeung, H., et al. Continuous laser scan strategy for faster build speeds in laser
+16.  Groeber, M. A. et al. Application of characterization, modelling, and analytics       powder bed fusion system. In Proceedings of the 28th Annual International
+    towards understanding process-structure linkages in metallic 3D printing. IOP         Solid Freeform Fabrication Symposium (eds. Bourell, D. L., Crawford, R. H.,
+     Conf. Ser. Mater. Sci. Eng. 219, 012002 (2017).                                      Seepersad, C. C., Beaman, J. J. & Fish, S.) 1423–1431 (Laboratory for Freeform
+17.  Khairallah, S. A., Anderson, A. T., Rubenchik, A. & King, W. E. Laser powder-         Fabrication and University of Texas at Austin, Manchester, UK, 2017).
+    bed fusion additive manufacturing: physics of complex melt ﬂow and            43.  Hann, D. B., Iammi, J. & Folkes, J. Keyholing or conduction—prediction of
+    formation mechanisms of pores, spatter, and denudation zones. Acta Mater.          laser penetration depth. in Proceedings of the 36th International MATADOR
+     108, 36–45 (2016).                                                              Conference (eds. Hinduja, S. & Li, L.) 275–278 (Springer, London, Manchester,
+18.  King, W. E. et al. Observation of keyhole-mode laser melting in laser powder-       UK, 2010).
+    bed fusion additive manufacturing. J. Mater. Process. Technol. 214, 2915–2925    44.  Hann, D. B., Iammi, J. & Folkes, J. A simple methodology for predicting laser-
+     (2014).                                                                     weld properties from material and laser parameters. J. Phys. Appl. Phys. 44,
+19.  Katayama, S., Seto, N., Kim, J.-D. & Matsunaw, A. Formation mechanism and       445401 (2011).
+     reduction method of porosity in laser welding of stainless steel. Int. Congr.      45.  Mills, K. C. Recommended Values of Thermophysical Properties for Selected
+     Appl. Lasers Electro-Opt. 1997, G83 (1997).                                    Commercial Alloys (National Physical Laboratory and ASM International,
+20.  Mani, M. et al. NIST Interagency/Internal Report (NISTIR)—8036.              Woodhead Publishing Limited, Cambridge, England, 2002).
+    Measurement Science Needs for Real-Time Control of Additive Manufacturing    46.  Andersen, S. A., Nielsen, K.-E., Pedersen, D. B. & Nielsen, J. S. Considerations
+    Powder Bed Fusion Processes. (National Institute of Standards and               on the construction of a powder bed fusion platform for additive
+    Technology, Gaithersburg, MD, 2015).                                            manufacturing. Phys. Procedia 89, 3–10 (2017).
+21.  Zhao, C. et al. Real-time monitoring of laser powder bed fusion process using    47.  Schindelin, J. et al. Fiji: an open-source platform for biological-image analysis.
+    high-speed X-ray imaging and diffraction. Sci. Rep. 7, 3602 (2017).                 Nat. Methods 9, 676–682 (2012).
+22.  Calta, N. P. et al. An instrument for in situ time-resolved X-ray imaging and    48.  Mathematica. Version 11.1.1. (Wolfram Research, Inc., Champaign, IL, 2017).
+     diffraction of laser powder bed fusion additive manufacturing processes. Rev.    49. ALE3D for industry. https://ale3d4i.llnl.gov (2018).
+      Sci. Instrum. 89, 055101 (2018).
+23.  Leung, C. L. A. et al. In situ X-ray imaging of defect and molten pool
+    dynamics in laser additive manufacturing. Nat. Commun. 9, 1355 (2018).    Acknowledgements
+24.  Everton, S. K., Hirsch, M., Stravroulakis, P., Leach, R. K. & Clare, A. T. Review    This material is based upon work supported by the U.S. Department of Energy’s Ofﬁce of
+     of in-situ process monitoring and in-situ metrology for metal additive          Energy Efﬁciency and Renewable Energy (EERE) under the Advanced Manufacturing
+    manufacturing. Mater. Des. 95, 431–445 (2016).                                 Ofﬁce, CPA agreements 32035, 32037, and 32038. Lawrence Livermore National
+25.  Matthews, M. J. et al. Denudation of metal powder layers in laser powder bed    Laboratory (LLNL) is operated by Lawrence Livermore National Security, LLC, for the U.
+     fusion processes. Acta Mater. 114, 33–42 (2016).                                        S. Department of Energy, National Nuclear Security Administration under Contract DE-
+26.  Ly, S., Rubenchik, A. M., Khairallah, S. A., Guss, G. & Matthews, M. J. Metal   AC52-07NA27344. Use of the Stanford Synchrotron Radiation Lightsource, SLAC
+    vapor micro-jet controls material redistribution in laser powder bed fusion      National Accelerator Laboratory, is supported by the U.S. Department of Energy, Ofﬁce
+     additive manufacturing. Sci. Rep. 7, 4085 (2017).                                   of Science, Ofﬁce of Basic Energy Sciences under Contract No. DE-AC02-76SF00515.
+27.  Bidare, P., Bitharas, I., Ward, R. M., Attallah, M. M. & Moore, A. J. Fluid and   The authors acknowledge experimental assistance from Doug Van Campen, Ron Marks,
+     particle dynamics in laser powder bed fusion. Acta Mater. 142, 107–120      Tim J. Dunn, and Matthew Latimer, sample preparation by the LLNL Precision Machine
+     (2018).                                                                        Shop, graphics assistance by Veronica Chen at LLNL, and helpful discussions with
+28.  Rodriguez, E. et al. Approximation of absolute surface temperature            Matthew Kramer, Peter Collins, Ryan Ott, Jianchao Ye, and Wayne King.
+    measurements of powder bed fusion additive manufacturing technology using
+     in situ infrared thermography. Addit. Manuf. 5, 31–39 (2015).
+29.  Lane, B., Moylan, S., Whitenton, E. P. & Ma, L. Thermographic measurements   Author contributions
+     of the commercial laser powder bed fusion process at NIST. Rapid Prototyping    A.A.M, N.P.C. and S.A.K wrote the article with contributions from all authors. A.A.M., N.P.
+       J. 22, 778–787 (2016).                                                                        C., J.W., P.J.D., A.Y.F., V.T. and A.M.K. performed the in situ X-ray imaging experiments.
+30.  Furumoto, T., Egashira, K., Munekage, K. & Abe, S. Experimental               J.W. performed the optical imaging measurements. G.M.G. and A.A.M. contributed to laser
+     investigation of melt pool behaviour during selective laser melting by high       control electronics design. S.A.K. performed the multi-physics simulations. M.J.M. and
+    speed imaging. CIRP Ann. 67, 253–256 (2018).                                       T.v.B. supervised work at LLNL. M.F.T., J.N.W., C.J.T. and K.H.S supervised work at SSRL.
+
+
+
+NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications                            9
+
+===== PAGE 10 =====
+ARTICLE                                      NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-10009-2
+
+
+Additional information                                                      Open Access This  article  is  licensed under a Creative Commons
+Supplementary Information accompanies this paper at https://doi.org/10.1038/s41467-                    Attribution  4.0  International  License, which  permits  use,  sharing,
+019-10009-2.                                                                               adaptation, distribution and reproduction in any medium or format, as long as you give
+                                                                                        appropriate credit to the original author(s) and the source, provide a link to the Creative
+Competing interests: The authors declare no competing interests.                 Commons license, and indicate if changes were made. The images or other third party
+                                                                                           material in this article are included in the article’s Creative Commons license, unless
+Reprints and permission information is available online at http://npg.nature.com/         indicated otherwise in a credit line to the material. If material is not included in the
+reprintsandpermissions/                                                                                  article’s Creative Commons license and your intended use is not permitted by statutory
+                                                                                            regulation or exceeds the permitted use, you will need to obtain permission directly from
+Journal peer review information: Nature Communications thanks Marco Simonelli and    the copyright holder. To view a copy of this license, visit http://creativecommons.org/
+the other anonymous reviewer for their contribution to the peer review of this work. Peer     licenses/by/4.0/.
+reviewer reports are available.
+
+Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in    This is a U.S. government work and not under copyright protection in the U.S.; foreign
+published maps and institutional afﬁliations.                                             copyright protection may apply 2019
+
+
+
+
+
+10             NATURE COMMUNICATIONS | (2019)10:1987 | https://doi.org/10.1038/s41467-019-10009-2 | www.nature.com/naturecommunications
