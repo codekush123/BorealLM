@@ -653,18 +653,3 @@ Completed experiments are marked as completed; planned or currently running expe
 - I also learned all the concepts from Google deepmind 01 - 08 course series from Google Skills
 
 ---
-
-# Final note
-
-BorealLM started as an idea to build a small language model for additive manufacturing, but the project has become more useful to me as a way to understand the entire ML pipeline.
-
-So far I have had to think about literature discovery, duplicate resolution, scientific-document structure, text quality, tokenization, dataset leakage, embeddings, attention, residual connections, optimization, validation, and generation.
-
-The first generated text is far from good, and that is actually useful. It gives me a real baseline rather than a polished demo with no understanding of what is happening underneath.
-
-The next questions are now experimental ones:
-
-- Does training for more epochs improve validation loss or simply increase memorization?
-- How much does scaling the corpus improve grammar and coherence?
-- How strongly do preprocessing artifacts affect generated output?
-- At what point does training from scratch become less useful than adapting a pretrained small model?
