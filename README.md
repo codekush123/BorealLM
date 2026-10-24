@@ -2,7 +2,7 @@
 
 ### Building a small language model
 
-**Status:** Work in progress  
+**Status:** Version 1 training and evaluation done
 **Focus:** Laser Powder Bed Fusion (LPBF), scientific text processing, tokenization, and small decoder-only language models
 
 I am building **BorealLM** as a student project to understand how a language model is made from the ground up — from finding and preparing scientific papers to training a tokenizer, implementing a Transformer in PyTorch, training it, and evaluating what it actually learns.
@@ -379,15 +379,7 @@ Top-k: 50
 
 GENERATED TEXT
 
-Laser powder bed fusion in our the powder bed, the gas of the plume.
-
-## PAPFIDImentioned in each strut of the effect on the LoFs on the particle size of the HIP pressure of the as well as the part.
-
-Table 29 m/L stainless steel
-
-In the same surface. The surface:
-
-F-zation of the
+> Laser powder bed fusion in our the powder bed, the gas of the plume. PAPFIDImentioned in each strut of the effect on the LoFs on the particle size of the HIP pressure of the as well as the part. Table 29 m/L stainless steel In the same surface. The surface: F-zation of the
 
 GENERATION STATS
 Total tokens: 84
