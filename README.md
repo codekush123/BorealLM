@@ -330,12 +330,6 @@ A uniform prediction over a 4,096-token vocabulary would have cross-entropy arou
 ln(4096) ≈ 8.32
 ```
 
-The first completed BorealLM checkpoint achieved:
-
-```text
-Validation loss: 6.1361
-```
-
 | Experiment         | Epochs | Validation loss | Generation quality                                  |
 | ------------------ | -----: | --------------: | --------------------------------------------------- |
 | BorealLM-v1-1epoch |      1 |          6.1361 | Domain terms, repetitive but somewhat sentence-like |
