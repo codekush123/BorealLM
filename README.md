@@ -11,8 +11,6 @@ I chose **metal additive manufacturing**, especially **Laser Powder Bed Fusion (
 
 The goal is not to build a chatbot as quickly as possible. I want BorealLM to be a small, reproducible research project where I can learn the full process — including design decisions, preprocessing problems, failed assumptions, model limitations, and measurable improvements.
 
-> **Current stage:** BorealLM now has a working scientific-data pipeline, a 4,096-token domain BPE tokenizer, a custom 10.06M-parameter decoder-only Transformer implemented in PyTorch, a completed one-epoch baseline training run, and working autoregressive text generation. A three-epoch follow-up experiment is currently in progress.
-
 ---
 
 ## Why I am working on this
