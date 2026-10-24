@@ -336,12 +336,6 @@ The first completed BorealLM checkpoint achieved:
 Validation loss: 6.1361
 ```
 
-after one epoch.
-
-That shows the model learned statistical structure from the corpus, but it is **not evidence of scientific understanding or factual reliability**.
-
-after three epoch.
-
 | Experiment         | Epochs | Validation loss | Generation quality                                  |
 | ------------------ | -----: | --------------: | --------------------------------------------------- |
 | BorealLM-v1-1epoch |      1 |          6.1361 | Domain terms, repetitive but somewhat sentence-like |
