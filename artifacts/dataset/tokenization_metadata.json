@@ -1,0 +1,22 @@
+{
+  "tokenizer": "artifacts\\tokenizer\\borealam_bpe_v1.json",
+  "tokenizer_sha256": "feb4f5ba9c5b5ed01c802cb168bc334040d67e1111bdc430c7acf6c00d90ee27",
+  "vocab_size": 4096,
+  "splits": {
+    "train": {
+      "documents": 30,
+      "tokens": 296826,
+      "file": "artifacts\\dataset\\train_tokens.npy"
+    },
+    "validation": {
+      "documents": 4,
+      "tokens": 35908,
+      "file": "artifacts\\dataset\\validation_tokens.npy"
+    },
+    "test": {
+      "documents": 4,
+      "tokens": 40500,
+      "file": "artifacts\\dataset\\test_tokens.npy"
+    }
+  }
+}
